@@ -1,0 +1,4 @@
+Template.RequestAssistance.onCreated(function() {
+	Meteor.subscribe('expert');
+})
+

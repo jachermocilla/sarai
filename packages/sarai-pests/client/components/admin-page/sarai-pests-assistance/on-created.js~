@@ -1,0 +1,7 @@
+Template.RequestAssistance.onCreated(function() {
+	Meteor.subscribe('assistance')
+})
+
+Template.RequestAssistance.onCreated(function() {
+	Meteor.subscribe('plantProblem')
+})

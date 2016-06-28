@@ -1,0 +1,15 @@
+#editE{
+	display: none;
+}
+
+#cancelE{
+	display: none;
+}
+
+#holder{
+	//display: none;
+}
+
+.sp{
+	padding-left: 10px;
+}

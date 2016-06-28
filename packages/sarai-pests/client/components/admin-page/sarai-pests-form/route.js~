@@ -1,0 +1,7 @@
+FlowRouter.route("/pests-submitted", {
+	action: function() {
+		if(isLoggedIn())
+			BlazeLayout.render("MainLayout", {main: "FormsSubmitted"})
+		else goHome();
+	}
+})

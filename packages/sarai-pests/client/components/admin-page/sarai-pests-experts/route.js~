@@ -1,0 +1,10 @@
+FlowRouter.route("/pests-addExpert", {
+	action: function() {
+		if(isLoggedIn())
+			BlazeLayout.render("MainLayout", {main: "RequestAssistance"})
+		else{
+			FlowRouter.go('/pests-clinic');
+			FlowRouter.redirect('/pests-clinic');
+		}
+	}
+})

@@ -1,0 +1,7 @@
+FlowRouter.route("/pests-assistance", {
+	action: function() {
+		if(ifLoggedIn())
+			BlazeLayout.render("MainLayout", {main: "RequestAssistance"})
+		else goHome();
+	}
+})

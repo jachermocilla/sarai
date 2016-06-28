@@ -1,0 +1,10 @@
+<template name="SaraiPestsLabResultForm">
+
+	<div class="mdl-grid">
+		Upload Lab Result Page
+	</div>
+
+
+	
+</template>
+

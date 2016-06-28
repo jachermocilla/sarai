@@ -1,0 +1,7 @@
+FlowRouter.route("/pests-create-report", {
+	action: function() {
+		if(isLoggedIn())	
+			BlazeLayout.render("MainLayout", {main: "SaraiPestsCreateReport"})
+		else goHome();
+	}
+})

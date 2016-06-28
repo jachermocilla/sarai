@@ -1,0 +1,21 @@
+<template name="SignUp">
+	<form>
+    <div>
+     <h3>Enter Username: </h3>
+     <input type="text" name="account-username" />
+     <h3>Enter Password: </h3>
+     <input type="password" name="account-password" />
+     <h3>Confirm Password: </h3>
+     <input type="password" name="confirm-account-password" />
+     <h3>Choose Administration: </h3>
+     <select name="account-admin">
+      <option value="None">None</option>
+  		<option value="Pest-Clinic">Pest Clinic</option>
+  		<option value="Pest-Lib">Pest Lib</option>
+  		<option value="Pest-ID">Pest ID</option>
+  		<option value="Pest-Map">Pest Map</option>
+	   </select><br/><br/>
+     <input type="submit" name="create-account" value="Create an Account" />
+   </div>
+   </form>
+</template>
