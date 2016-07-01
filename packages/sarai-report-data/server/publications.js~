@@ -1,0 +1,8 @@
+Meteor.publish('report', function () {
+  return Report.find();
+});
+
+
+Meteor.publish('reportIndex', function () {
+  return Report.find({limit:4});
+});

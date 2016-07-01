@@ -1,0 +1,14 @@
+Meteor.methods({
+
+	'insertIntoReport': function(title, message){
+			Report.insert({
+				date: '',
+				title: title,
+				body: message,
+				user: Meteor.userId()
+			});	
+	}
+	
+})
+
+

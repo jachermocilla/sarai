@@ -1,0 +1,39 @@
+if (Assistance.find().count() === 0) {
+	
+	Assistance.insert({
+		type: 'message',
+		subject: 'Pests seen',
+		message: 'This is sample message number one. I hope this works.',
+		user: 'jlgalag'
+	});
+	
+	Assistance.insert({
+		type: 'message',
+		subject: 'Bugs alert',
+		message: 'This is sample message number two. Cant say anything anymore huhu',
+		user: 'jlgalag'
+	});
+	
+	Assistance.insert({
+		type: 'message',
+		subject: 'Need Expert',
+		message: 'This is sample message number three. If this works then yehey!',
+		user: 'jlgalag'
+	});
+	
+	Assistance.insert({
+		type: 'message',
+		subject: 'Rice bugs',
+		message: 'Thus is sample message number four. Dont know what to do~~~',
+		user: 'jlgalag'
+	});
+	
+	Assistance.insert({
+		type: 'message',
+		subject: 'Corn bugs',
+		message: 'This is sample message number five. Too many things to do. Please cooperate.',
+		user: 'jlgalag'
+	});
+	
+	
+}

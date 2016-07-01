@@ -1,0 +1,18 @@
+if (CMS.find().count() === 0) {
+	
+	CMS.insert({
+		info: 'final',
+		bannerImage: '',
+		bannerImageID: '',
+		bannerHeadText: 'Pest Clinic',
+		bannerSubText: 'Ask for experts assistance on rice and corn pests',
+		rowIHeadText: 'Concerned in Increase Protection and Pest Management Services to its Clients',
+		rowIImage: '',
+		rowIIHeadText: 'Serving since 70s',
+		rowIISubText: 'Started in the late 70s, the Plant Pest Clinic is an extension program of the Crop Protection Cluster which offers pest management services such as accurate diagnostic and control recommendation to farmers. Through it, experts share their knowledge on pest identification and management, consultations, and offers other related services such as fungal, bacterial, and nematode analyses.',
+		rowIIImage: '',
+		problem: 'Pest,Disease,Others',
+	});
+	
+	
+}

@@ -1,0 +1,11 @@
+Meteor.methods({
+
+	'insertIntoLabResult': function(){
+			/*Lab.insert({
+				
+			});	*/
+	}
+	
+})
+
+

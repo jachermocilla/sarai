@@ -1,0 +1,26 @@
+ClinicForm = new Mongo.Collection('clinicForm')
+
+
+// PlantProblem = new EasySearch.Index({
+//   collection: PlantProblem,
+//   fields: ['eng_name','fil_name','sci_name','symptoms'],
+//   engine: new EasySearch.Minimongo()
+// });
+
+
+
+ClinicForm.deny({
+	
+	update: function() {
+		return true
+	},
+	remove: function() {
+		return true
+	}
+})
+
+ClinicForm.allow({
+	insert: function(userId, doc){
+		return (userID && doc.owner === userId)
+	}
+})

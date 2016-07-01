@@ -1,0 +1,17 @@
+Assistance = new Mongo.Collection('assistance')
+
+Assistance.deny({
+	
+	update: function() {
+		return true
+	},
+	remove: function() {
+		return true
+	}
+})
+
+Assistance.allow({
+	insert: function(){
+		return true
+	}
+})

@@ -1,0 +1,3 @@
+if (Assistance.find().count() === 0) {
+		
+}

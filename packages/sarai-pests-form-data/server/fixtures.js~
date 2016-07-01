@@ -1,0 +1,10 @@
+if (ClinicForm.find().count() === 0) {
+	
+	ClinicForm.insert({
+		location: 'Tumauini, Isabela',
+		crop: 'Rice',
+		variety: 'Something',
+		type: 'hybrid'
+	});
+	
+}
