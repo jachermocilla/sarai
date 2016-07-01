@@ -139,10 +139,10 @@ Template.Expert.helpers({
 
 Template.Banner.helpers({
 	bannerInfo: function(){
-		return CMS.find();
+		return CMS.find({info:'finalClinic'});
 	},
 	imageURL: function(){
-		var link = CMS.findOne({info:'final'});
+		var link = CMS.findOne({info:'finalClinic'});
 		if(link.bannerImage=="")
 			return "/packages/sarai_sarai-pests/public/images/clinic/sarai.jpg";
 		else
@@ -152,10 +152,10 @@ Template.Banner.helpers({
 
 Template.About.helpers({
 	aboutInfo: function(){
-		return CMS.find();
+		return CMS.find({info:'finalClinic'});
 	},
 	imageURL: function(){
-		var link = CMS.findOne({info:'final'});
+		var link = CMS.findOne({info:'finalClinic'});
 		if(link.rowIImage=="")
 			return "/packages/sarai_sarai-pests/public/images/clinic/sarai_3.jpg";
 		else
@@ -165,10 +165,10 @@ Template.About.helpers({
 
 Template.AccurateDiagnostic.helpers({
 	rowInfo: function(){
-		return CMS.find();
+		return CMS.find({info:'finalClinic'});
 	},
 	imageURL: function(){
-		var link = CMS.findOne({info:'final'});
+		var link = CMS.findOne({info:'finalClinic'});
 		if(link.rowIIImage=="")
 			return "/packages/sarai_sarai-pests/public/images/clinic/sarai_2.jpg";
 		else

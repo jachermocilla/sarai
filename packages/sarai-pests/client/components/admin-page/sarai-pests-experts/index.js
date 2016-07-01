@@ -1,3 +1,6 @@
+var url="";
+var imageID="";
+
 Template.ExpertPage.helpers({
 	request: function(){
 		return Assistance.find();
@@ -38,10 +41,13 @@ Template.ExpertPage.events({
 		
 		var data = Expert.findOne({_id:id});
 		
+		url = data.profile;
+		imageID = data.profileID;
 		name = data.name;
 		position = data.position;
 		company = data.company;
 		
+		$('.profileZone').children('img').attr('src', url);
 		$('#name').val(name);
 		$('#position').val(position);
 		$('#company').val(company);
@@ -59,6 +65,7 @@ Template.ExpertPage.events({
 		$('#name').val('');
 		$('#position').val('');
 		$('#company').val('');
+		$('.profileZone').children('img').attr('src', '');
 		
 		$('#submitE').show();	
 		$('#editE').hide();	
@@ -72,6 +79,7 @@ Template.ExpertPage.events({
 		$('#name').val('');
 		$('#position').val('');
 		$('#company').val('');
+		$('.profileZone').children('img').attr('src', '');
 		
 		$('#submitE').show();	
 		$('#editE').hide();	
@@ -89,7 +97,7 @@ Template.ExpertPage.events({
 		var company=$('#company').val().trim();
 		
 		if(name!="" || company!="" || position!=""){
-			Meteor.call('updateExpert',name,position,company,id);
+			Meteor.call('updateExpert',url,imageID,name,position,company,id);
 		}
 	},
 	'click #submitE': function(e){
@@ -100,13 +108,30 @@ Template.ExpertPage.events({
 		var company=$('#company').val().trim();
 		
 		if(name!="" || company!="" || position!=""){
-			Meteor.call('addExpert',name,position,company);
+			Meteor.call('addExpert',url,imageID,name,position,company);
 		}
-		
+
+		$('.profileZone').children('img').attr('src', '');
 		$('#name').val('');
 		$('#position').val('');
 		$('#company').val('');
-	}
-	
+	},
+	'dropped #dropzone': function(e) {
+	    FS.Utility.eachFile(e, function(file) {
+	        var newFile = new FS.File(file);
+	        
+	        Images.insert(newFile, function (error, fileObj) {
+	          if (error) {
+	            toastr.error("Upload failed... please try again.");
+	          } else {
+	            toastr.success('Upload succeeded!'), setTimeout(function() {
+	                url = "/cfs/files/images/" +fileObj._id;
+		            imageID = fileObj._id;
+		            $('.profileZone').children('img').attr('src', url);
+	            }, 800);
+	          }
+	      	});
+	    });
+	  }
 	
 });

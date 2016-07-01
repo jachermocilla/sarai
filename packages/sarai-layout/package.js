@@ -27,13 +27,13 @@ Package.onUse(function(api) {
     "client/includes/main-header/index.html",
     "client/includes/main-header/index.js",
     "client/includes/main-header/index.less",
-    //"client/includes/side-bar/index.html",
     "client/layout/main-layout/index.html",
     "client/layout/main-layout/index.less",
     "client/layout/cms-layout/index.html",
-    "client/includes/cms-header/index.html",
-    "client/includes/cms-header/index.js",
-    "client/includes/fixed-drawer/index.html"
+    "client/includes/cms-module-header/index.html",
+    "client/includes/cms-module-header/index.js",
+    "client/includes/fixed-drawer/index.html",
+    "client/includes/fixed-drawer/index.less"
   ]
 
   api.addFiles(client, "client")

@@ -1,11 +1,13 @@
 <template name="SaraiPestsLib">
 	<div id="banner">
-  	<img class="banner-image" src="/packages/sarai_sarai-pests/public/images/lib_banner5.jpg">
+  	<img class="banner-image" src="{{imageURL}}">
   		<div class="banner-content-top">
   			<div class="mdl-grid" >
 				<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
-					<h2 class="title" id = "lib">Pest Library</h2>
-					<h4 class="title-desc">An online library for Rice and Corn Pests.</h4>
+					{{#each bannerInfo}}
+					<h2 class="title">{{bannerHeadText}}</h2>
+					<h4 class="title-desc">{{bannerSubText}}</h4>
+					{{/each}}
 				</div>
 
 				<div class="mdl-cell mdl-cell--2-col"></div>
@@ -56,7 +58,7 @@
 	<div id="pest-lib">
 		<center>
 			<div class = "search">
-				<h5 class = "instruction">Search the library for pests</h5>
+				<h5 class = "instruction">{{searchLabel}}</h5>
 			</div>
 			<div class = "searchbar">
 				<div class="mdl-textfield mdl-js-textfield"> 

@@ -1,67 +1,148 @@
 <template name="EntityPage">
-	
-	<div class="mdl-grid mdl-color--grey-100">
-		<div class="mdl-cell mdl-cell--4-col">
-			<div class="mdl-shadow--2dp " style="padding:10px; background-color: white;">
-		    	<h4>{{pest.name}} Pictures</h4>
-		    	<p>Learn to identify this pest with these helpful pictures.</p>
-
-		    	<img src="/images/pests/{{imageName pest.name}}.jpg" width="150px;"/>
-		    	<p>{{pest.name}} Illustration</p>
-		    	
-		    	<p><b>Related Crop Disease/s:</b></p>
-		    	<img src="/images/diseases/RiceBlast.jpg" width="150px;"/>
-		    	<p>Rice Blast</p>
-	    	</div>	
-		</div>
+	<div class  = "container">
+		<div class="mdl-grid mdl-color--grey-100">
 		
-		<div id="pest-main" class="mdl-cell mdl-cell--8-col">
-
-		<div class="mdl-grid mdl-shadow--2dp" style="background-color: white;">	
-			<header class="section__play-btn mdl-cell mdl-cell--5-col">
-	          <!-- <i class="material-icons">play_circle_filled</i> -->
-	          <center><img src="/images/pests/{{imageName pest.name}}.jpg" width="350px;"/></center>
-	        </header>
-			<div class="mdl-card mdl-cell mdl-cell--7-col ">
-	          <div style="padding: 10px;">
-	            <h4>{{pest.name}}</h4>
-	            <h5>English Names</h5>
-				<p>{{pest.eng_name}}</p>
+			<div class="mdl-cell mdl-cell--7-col">
+				<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+	  				<!-- Tab bar -->
+	  				<div class="mdl-tabs__tab-bar">
+			    		<a href="#pest-english" class="mdl-tabs__tab">English</a>
+			    		<a href="#pest-filipino" class="mdl-tabs__tab is-active">Filipino</a>
+	  				</div>
 				
-	          </div>
-	        </div>
+					<!-- English -->
+					<div class="mdl-tabs__panel" id = "pest-english">
+			    		
+			    		<div class="mdl-shadow--2dp entity-card-info">		
+							<h3>How to identify a {{pest.name}}</h3>
+				
+							{{#if pest.symptoms}}	
+								<p>{{pest.symptoms}}</p>
+							{{/if}}
+
+							<br>
+				
+							{{#if pest.description}}
+								<p>{{pest.description}}</p>
+							{{/if}}
+			    		</div>
+						
+						{{#if pest.effect}}
+							<div class="mdl-shadow--2dp entity-card-info">
+								<h3>Signs of a {{pest.name}} Infestation</h3>
+								<p>{{pest.effect}}</p>
+							</div>
+						{{/if}}
+
+
+						{{#if pest.treatment}}
+							<div class="mdl-shadow--2dp entity-card-info">
+								<h3>How to manage {{pest.name}}</h3>
+								<p>{{pest.treatment}}</p>
+							</div>
+						{{/if}}
+					</div>
+
+					<!-- Filipino -->
+					<div class="mdl-tabs__panel is-active" id = "pest-filipino">
+			    		<div class="mdl-shadow--2dp entity-card-info">		
+							<h3>Paano malalaman ang {{pest.name}}</h3>
+					
+							{{#if pest.fil_symptoms}}	
+								<p>{{pest.fil_symptoms}}</p>
+							{{/if}}
+
+							<br>
+				
+							{{#if pest.fil_description}}
+								<p>{{pest.fil_description}}</p>
+							{{/if}}
+			    		</div>
+						
+						{{#if pest.fil_effect}}
+							<div class="mdl-shadow--2dp entity-card-info">	
+								<h3>Sinyales ng {{pest.name}} Impeksyon</h3>
+								<p>{{pest.fil_effect}}</p>
+							</div>
+						{{/if}}
+
+
+						{{#if pest.fil_treatment}}
+							<div class="mdl-shadow--2dp entity-card-info">
+								<h3>Paano gagamutin ang pinsalang nagawa ng {{pest.name}}</h3>
+								<p>{{pest.fil_treatment}}</p>
+							</div>
+						{{/if}}
+					</div>
+				</div>
+			</div>
+			
+			<div class="mdl-cell mdl-cell--5-col entity-right">
+				<div class = "pest-info">
+					<div class="mdl-shadow--2dp entity-pest-image">
+				    	<img class = "entity-pest-image" src="/images/pests/{{imageName pest.name}}.jpg"/>
+				    </div>
+
+			    	<div class="mdl-shadow--2dp entity-right-info">
+			       		<h4 class = "pest-name">{{pest.name}}</h4>
+
+			       		<div entity-table-names>
+				       		<table border = 1 width = "100%">
+							  	<tbody>
+							  		<tr>
+							      		<th >Common Names</th>
+							      		<td > {{pest.eng_name}}</td>
+							    	</tr>
+
+							    	<tr>
+								      	<th >Filipino Names</th>
+								     	<td>{{pest.fil_name}}</td>
+							    	</tr>
+
+									<tr>
+								      	<th >Scientific Name</th>
+								     	<td id = "entity-sci-name">{{pest.sci_name}}</td>
+							    	</tr>
+							  	</tbody>
+							</table>
+						</div>	
+				    </div>
+			    </div>	
+
+			    <div class="mdl-cell mdl-cell--10-col social-media-icons">
+					
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--2-col social-media-icon">
+							<a href="http://www.facebook.com">
+								<img class = "social-media-icon-img" src="/packages/sarai_sarai-pests/public/images/icons/facebook1.png"/>
+							</a>
+						</div>
+
+						<div class="mdl-cell mdl-cell--2-col social-media-icon">
+							<a href="http://www.twitter.com">
+								<img class = "social-media-icon-img" src="/packages/sarai_sarai-pests/public/images/icons/twitter1.png"/>
+							</a>
+						</div>
+
+						<div class="mdl-cell mdl-cell--2-col social-media-icon">
+							<a href = "/packages/sarai_sarai-pests/public/PDF/Black Armyworm adult.pdf" download>
+							<img class = "social-media-icon-img" src="/packages/sarai_sarai-pests/public/images/icons/download1.png"/>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+			
+
+		</div>
+		<div id = "home-button">
+    		<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" onclick="history.go(-1);">
+			  	<i class="material-icons">arrow_back</i>
+			</button>
     	</div>
-
-    	<div class="mdl-shadow--2dp " style="padding:10px; margin-top: 20px; background-color: white;">
-	    	{{#if pest.fil_name}}
-			<h5>Filipino Names</h5>
-			<p>{{pest.fil_name}}</p>
-			{{/if}}
-			<h5>Scientific Name</h5>
-			<p>{{pest.sci_name}}</p>
-			{{#if pest.description}}
-			<h5>Description</h5>
-			<p>{{pest.description}}</p>
-			{{/if}}
-    	</div>
-
-		<!-- <h2 style="text-align:center">{{pest.name}}</h2>
-		<center><img src="/images/pests/{{imageName pest.name}}.jpg" width="400px;"/></center> -->
-		
-		
-		<div class="mdl-shadow--2dp " style="padding:10px; margin-top: 20px; background-color: white;">
-		{{#if pest.symptoms}}
-			<h4>Symptoms</h4>
-			<p>{{pest.symptoms}}</p>
-		{{/if}}
-
-		{{#if pest.treatment}}
-			<h4>Management</h4>
-			<p>{{pest.treatment}}</p>
-		{{/if}}
-		</div>
-		</div>
-		</div>
-
+	</div>
 </template>
 

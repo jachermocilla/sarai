@@ -1,11 +1,13 @@
 <template name="SaraiPestsId">
 	<div id="banner">
-  	<img class="banner-image" src="/packages/sarai_sarai-pests/public/images/id_banner2.jpg">
+  	<img class="banner-image" src="{{imageURL}}">
   		<div class="banner-content-top">
   			<div class="mdl-grid" >
 				<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
-					<h2 class="title">Pest Identification</h2>
-					<h4 class="title-desc">Identify pest by uploading a pest picture below by selecting the image processing tab or by answering questions from thee ontology-based tab.</h4>
+					{{#each bannerInfo}}
+					<h2 class="title">{{bannerHeadText}}</h2>
+					<h4 class="title-desc">{{bannerSubText}}</h4>
+					{{/each}}
 				</div>
 
 				<div class="mdl-cell mdl-cell--2-col"></div>
@@ -125,37 +127,375 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> <!-- end of image processing -->
 
 		<!-- Ontology-Based -->
 		<div class="mdl-tabs__panel" id="ontology-based-panel">
-		   	
-		   		<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="tywin">
-            		<input type="checkbox" id="tywin" name="ontology options" class="mdl-checkbox__input" >
-            		<span class="mdl-checkbox__label">Tywin</span>
-         		</label>
-         		<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="cersei">
-            		<input type="checkbox" id="cersei" name="ontology options" class="mdl-checkbox__input" >
-            		<span class="mdl-checkbox__label">Cersei</span>
-         		</label>
-         		<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="jaime">
-            		<input type="checkbox" id="jaime" name="ontology options" class="mdl-checkbox__input" >
-            		<span class="mdl-checkbox__label">Jaime</span>
-         		</label>
-         		<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="tyrion">
-            		<input type="checkbox" id="tyrion" name="ontology options" class="mdl-checkbox__input" >
-            		<span class="mdl-checkbox__label">Tyrion</span>
-         		</label>
-         		<div class = "search-button">
-	         		<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-						SEARCH
-					</button>
-				</div>
+			<div class = "ontology-based-form">
+		   		<div class="mdl-card ontology-based-form">
+					<form name="ontology-form" class="ontology-form">
+					
+						<div class="mdl-grid">
+							<div class=" mdl-cell mdl-cell--12-col">
+
+								<div class="mdl-grid">
+									<!-- Label of crops affected -->
+									<div class="input-fmt mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">Types of Crop Affected</label>
+									</div> <!-- end of label types of crop affected -->
+									
+									<!-- Options of crops affected -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+											<!-- Rice -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="rice">
+													<input type="checkbox" id="rice" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">
+														Rice
+													</p>
+												</label>
+											</div>
+
+											<!-- Corn -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="corn">
+													<input type="checkbox" id="corn" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Corn</p>
+												</label>
+											</div>
+										</div>
+									</div> <!-- end of options of crops affected -->
+								</div> <!-- crops affectd -->
+								
+								<hr/>
+
+								<div class="mdl-grid">
+									<!-- Label of observed pest -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">The Observed pest is</label>
+									</div>
+
+									<!-- Options for observed pest -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+											<!-- Fly-like -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="fly-like">
+													<input type="checkbox" id="fly-like" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Fly-like</span>
+												</label>
+											</div>
+
+											<!-- Beetle-like -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="beetle-like">
+													<input type="checkbox" id="beetle-like" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Beetle-like</span>
+												</label>
+											</div>
+
+											<!-- Caterpillar-like -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="caterpillar-like">
+													<input type="checkbox" id="caterpillar-like" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Caterpillar-like</span>
+												</label>
+											</div>
+
+											<!-- Moth-like -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="moth-like">
+													<input type="checkbox" id="moth-like" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Moth-like</span>
+												</label>
+											</div>
+
+											<!-- Maggot -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="maggot">
+													<input type="checkbox" id="maggot" class="mdl-checkbox__input">
+													<span class=" opt-size mdl-checkbox__label">Maggot</span>
+												</label>
+											</div>
+
+											<!-- Two or one unit body pest -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="two-or-more">
+													<input type="checkbox" id="two-or-more" class="mdl-checkbox__input">
+													<span class=" opt-size mdl-checkbox__label">Two or one unit body pest</span>
+												</label>
+											</div>
+
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="observed-others" name="observed-others">	
+											</div>
+
+										</div> 
+									</div><!-- end of option for observed pest -->
+								</div>
+
+								<hr/>
+
+								<!-- Color of pest -->
+
+
+								<div class="mdl-grid">
+									<!-- Label of damage appearance -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">The damage appear as</label>
+									</div>
+
+									<!-- Options of damage appearance -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+
+											<!-- Holes -->
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="holes">
+													<input type="checkbox" id="holes" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Holes (leaf or fruit)</p>
+												</label>
+											</div>
+
+											<!-- Foliage destruction -->
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="foliage-destruction">
+													<input type="checkbox" id="foliage-destruction" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Foliage destruction</p>
+												</label>
+											</div>
+
+											<!-- Mines in leaves -->
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="mines">
+													<input type="checkbox" id="mines" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Mines in leaves</p>
+												</label>
+											</div>
+
+											<!-- Others -->
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="damage-appear-others" name="damage-appear-others">	
+											</div>
+										</div>
+									</div> <!-- end of option of damage appearance -->
+								</div>
+
+								<hr/>
+
+								<div class="mdl-grid">
+
+									<!-- Label of description of damage -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">Description of Damage</label>
+									</div>
+
+									<!-- Options for description of damage -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+
+											<!-- Yellowing -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="yellowing">
+													<input type="checkbox" id="yellowing" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Yellowing</span>
+												</label>
+											</div>
+
+											<!-- Rot -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="rot">
+													<input type="checkbox" id="rot" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Root/ Stem rot</span>
+												</label>
+											</div>
+
+											<!-- Spot -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="spot">
+													<input type="checkbox" id="spot" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Leaf spot</span>
+												</label>
+											</div>
+
+											<!-- Stunting -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="stunting">
+													<input type="checkbox" id="stunting" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Stunting</span>
+												</label>
+											</div>
+
+											<!-- Cuts on leaves -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="cuts">
+													<input type="checkbox" id="cuts" class="mdl-checkbox__input">
+													<span class="opt-size mdl-checkbox__label">Cuts on leaves</span>
+												</label>
+											</div>
+
+											<!-- Others -->
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="desc-damage-others" name="desc-damage-others">	
+											</div>
+										</div>
+									</div> <!-- end of option description of damage -->
+								</div><!-- end of description of damage -->
+								
+								<hr/>
+
+								<div class="mdl-grid">
+									<!-- Label of parts of plant affected -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">Parts of plant affected</label>
+									</div>
+
+									<!-- Options for parts of plant affected -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+											<!-- Whole Plant -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="wplant">
+													<input type="checkbox" id="wplant" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Whole Plant</p>
+												</label>
+											</div>
+
+											<!-- Few roots/stem -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="frs">
+													<input type="checkbox" id="frs" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Few roots/ stem</p>
+												</label>
+											</div>
+
+											<!-- Localized -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="local">
+													<input type="checkbox" id="local" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Localized</p>
+												</label>
+											</div>
+
+											<!-- Few leaves/twigs -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="flt">
+													<input type="checkbox" id="flt" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Few leaves/ twigs</p>
+												</label>
+											</div>
+
+											<!-- Leaf and grains -->
+											<div class="mdl-cell mdl-cell--6-col">
+												<label class="f-left mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="flt">
+													<input type="checkbox" id="flt" class="mdl-checkbox__input">
+													<p class="opt-size mdl-checkbox__label">Leaf and grains</p>
+												</label>
+											</div>
+
+											<!-- Others -->
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="plant-part-others" name="plant-part-others">	
+											</div>
+										</div>
+									</div> <!-- end of options of part of plant affected -->
+								</div> <!-- end of part of plant affected -->
+
+								<hr/>
+
+									<div class="mdl-grid">
+
+									<!-- Label of distribution of symptoms -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">Distribution of Symptoms</label>
+									</div>
+
+									<!-- Option of distribution of symptoms -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-radio mdl-js-radio mdl-js-ripple-effect" for="random">
+													<input type="radio" id="random" name="stage" class="mdl-radio__button" >
+													<span class="opt-size mdl-radio__label">Random</span>
+												</label>
+											</div>
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sao">
+													<input type="radio" id="sao" name="stage" class="mdl-radio__button" >
+													<span class="opt-size mdl-radio__label">Scattered all over</span>
+												</label>
+											</div>
+											
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lals">
+													<input type="radio" id="lals" name="stage" class="mdl-radio__button" >
+													<span class="opt-size mdl-radio__label">Leaves and leaf sheath</span>
+												</label>
+											</div>
+
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="symptoms-others" name="symptoms-others">	
+											</div>
+										</div>
+									</div> <!-- end of options of distribution of symptoms -->
+								</div>
+
+								<hr/>
+
+								<div class="mdl-grid">
+
+									<!-- Label of insect damage -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<label class="f-left form-text">Insect Damage</label>
+									</div>
+
+									<!-- Option of insect damage -->
+									<div class="mdl-cell mdl-cell--12-col">
+										<div class="mdl-grid">
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-radio mdl-js-radio mdl-js-ripple-effect" for="chewing">
+													<input type="radio" id="chewing" name="stage" class="mdl-radio__button" >
+													<span class="opt-size mdl-radio__label">Chewing type</span>
+												</label>
+											</div>
+											<div class="mdl-cell mdl-cell--12-col">
+												<label class="f-left mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sucking">
+													<input type="radio" id="sucking" name="stage" class="mdl-radio__button" >
+													<span class="opt-size mdl-radio__label">Sucking type</span>
+												</label>
+											</div>
+											
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="insect-others" name="insect-others">	
+											</div>
+										</div>
+									</div> <!-- end of options of insect damage -->
+								</div>
+
+							</div>
+						</div> <!-- end of main mdl-gird --> 
+
+						<!-- search button -->
+						<div id = "search-button">
+			         		<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+								SEARCH PEST
+							</button>
+						</div>
+					</form> <!-- end of ontology form -->
+				</div> <!-- end of div mdl-card pest form -->
+			</div> <!-- end of ontology -->
 		</div>
-	</div>
+	</div> <!-- end of tab -->
 	
 	<!-- Pests -->
-	<h5 style="margin-left:20px;">PESTS</h5>
+	<h5 style="margin-left:20px;">{{pestHeader}}</h5>
 	<div class="mdl-grid">
 		{{#each pests}}
 			<div class="mdl-cell mdl-cell--3-col">

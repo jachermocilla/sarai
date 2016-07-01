@@ -5,6 +5,9 @@ Template.FormsSubmitted.helpers({
 	IsLoggedIn: function(){
 		if(isLoggedIn()==true) return true;
 		else goHome();
+	},
+	increment: function(index){
+		return index + 1;
 	}
 });
 

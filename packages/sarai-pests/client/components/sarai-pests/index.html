@@ -1,11 +1,13 @@
 <template name="SaraiPests">
 		<div id="banner">
-  	<img class="banner-image" src="/packages/sarai_sarai-pests/public/images/banner2.jpg">
+  	<img class="banner-image" src="{{imageURL}}">
   		<div class="banner-content-top">
   			<div class="mdl-grid" >
 				<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
-					<h2 class="title">Smarter Pest Identification</h2>
-						<h4 class="title-desc">An online platform that combines different strategies and practices for identification and management of pests.</h4>
+					{{#each bannerInfo}}
+						<h2 class="title">{{bannerHeadText}}</h2>
+						<h4 class="title-desc">{{bannerSubText}}</h4>
+					{{/each}}
 				</div>
 
 				<div class="mdl-cell mdl-cell--2-col"></div>
@@ -55,47 +57,104 @@
 
 		<!--Pest Risk Map-->
 		<div id="pest-map">
-			<h4 style="margin-left:20px;">PEST RISK MAP</h4>
+			<h4 style="margin-left:20px;">{{row1HeadText}}</h4>
 			<div class="mdl-grid">
 				<div class="mdl-cell mdl-cell--6-col alerts">
-					<img src="/packages/sarai_sarai-pests/public/images/armyworm.png" />
+					<img src="{{row1Image1}}" />
 				</div>
 				<div class="mdl-cell mdl-cell--6-col alerts">
-					<img src="/packages/sarai_sarai-pests/public/images/locust.png" />
+					<img src="{{row1Image2}}" />
 				</div>
 			</div>
 		</div>
 
+		<hr/>
+		{{> Control}}
+		<hr/>
+
 		<!--Pest Lib-->
 		<div id="pest-lib">
-			<h4 style="margin-left:20px;">RESEARCH A PEST</h4>
-			<h5 style="margin-left:20px;">Know about PESTS in your crops. Visit our Pest Library for moredetailed information and management information.</h5>
+			<h4 style="margin-left:20px;">{{row3HeadText}}</h4>
+			<h5 style="margin-left:20px;">{{row3SubText}}</h5>
 			<div class="mdl-grid">
 				{{#each pests}}
 				<div class="mdl-cell mdl-cell--3-col">
 					<div class="demo-card-image mdl-card mdl-shadow--2dp">
 					  <div class="mdl-card__title mdl-card--expand">
-						<center><img src="/images/pests/{{imageName name}}.jpg" width="200px;" height="200px;"/></center>
+					  	<div class="pest-image">
+						<img src="/images/pests/{{imageName name}}.jpg" width="200px;" height="200px;"/>
+					  	</div>
 					  </div>
-
+					  <div class="card-title">
 					  <div class="mdl-card__actions">
 						 <span class="demo-card-image__filename">{{name}}</span>
 					  </div>
-					  
-					  <div class="mdl-card__actions mdl-card--border">
-						 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{pathFor '/entity/:_id' _id=_id}}">
-							View Page
-						 </a>
 					  </div>
+					  <div class="mdl-card__actions mdl-card--border">
+					  		<div class = "card-button">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{pathFor '/entity/:_id' _id=_id}}">
+									View Page
+							 	</a>
+							 </div>
+					  	</div>
 					</div>
 				</div>
 				{{/each}}
 			</div>
 
 			<div class="mdl-cell mdl-cell--12-col">
-				<center><a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+				<center><a href="/pests-lib" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
 					View More Pests
 			 	</a></center>
 			</div>
 		</div>
+</template>
+
+
+<template name="Control">
+	<div class="max control-bg spacing-grid mdl-card">
+	<br/><br/>
+	<div class="mdl-grid">
+	<div class=" mdl-typography--display-1" style="color:#396834"><b>{{row2HeadText}}</b></div>
+	<!--h3 class="title font-body header-text">PEST CONTROL STEPS</h3--><br/>
+	</div><br/><br/>
+	
+	<div class="mdl-grid">
+		<div class="max card mdl-cell mdl-cell-3-col" style="padding-right:10px;border-right: 1px solid #eee;">	
+			<img src="/packages/sarai_sarai-pests/public/images/clinic/id_black.png" width="150px;" height="150px;"/>
+			<h4 class="subtitle mdl-typography--headline" style="color:#396834">
+			<b>Identify Pest</b></h4>
+			<br/>
+			<p>If you haven't spotted your pest yet, look for the signs and damages done.</p>
+			<!--p>You might want to <a href="/pestClinic/identify">identify the pest</a> by clicking the link.</p-->
+		</div>
+		<!--img src="/packages/sarai_sarai-pests/public/images/clinic/div-vertical.png" width="30px;" height="450px;"/-->
+		<div class="max card mdl-cell mdl-cell--3-col" style="padding-right:10px;border-right: 1px solid #eee;">	
+			<img src="/packages/sarai_sarai-pests/public/images/clinic/comp_black.png" width="150px;" height="150px;"/>
+			<h4 class="subtitle mdl-typography--headline" style="color:#396834">
+			<b>Research Pest</b></h4>
+			<br/>
+			<p>Look for existing data about the pest. <!--You might want to try our <a href="/pestClinic/factsheet">library</a>.--></p>
+		</div>
+		<!--img src="/packages/sarai_sarai-pests/public/images/clinic/div-vertical.png" width="30px;" height="450px;"/-->
+		<div class="max card mdl-cell mdl-cell--3-col" style="padding-right:10px;border-right: 1px solid #eee;">	
+			<img src="/packages/sarai_sarai-pests/public/images/clinic/assess_black.png" width="150px;" height="150px;"/>
+			<h4 class="subtitle mdl-typography--headline" style="color:#396834" >
+			
+			<b>Assess Pest</b></h4>
+			<p></p>
+			<br/>
+			<p>If you are not sure and want to consult to a specialist, <a href="#" style="color:#396834">request assistance</a>.</p>
+		</div>
+		<!--img src="/packages/sarai_sarai-pests/public/images/clinic/div-vertical.png" width="30px;" height="450px;"/-->
+		<div class="max card mdl-cell mdl-cell--3-col">	
+			<img src="/packages/sarai_sarai-pests/public/images/clinic/control_black.png" width="150px;" height="150px;"/>
+			<h4 class="subtitle mdl-typography--headline" style="color:#396834">
+			<b>Restrain Pest</b></h4>
+			<br/>
+			<p>Use proper technique to eradicate pests in a cheaper and more successful approach.</p>
+		</div>
+	</div>
+	<br/>
+	</div>
 </template>

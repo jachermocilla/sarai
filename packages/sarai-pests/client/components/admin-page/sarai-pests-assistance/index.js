@@ -56,6 +56,18 @@ Template.RequestAssistance.events({
 		$('#uname').html(uname);
 		$('#ans-req').html(req);
 	},
+	'click .del-btn': function(e){
+		e.preventDefault();
+		var id = e.target.id;
+		
+		$('#subj').html('');
+		$('#date').html('');
+		$('#msg-content').html('');
+		$('#uname').html('');
+		$('#ans-req').html('');
+		
+		Meteor.call('removeInfo', id);
+	},
 	'click #request': function(e){
 		e.preventDefault();
 		$("#ans-admin").show();

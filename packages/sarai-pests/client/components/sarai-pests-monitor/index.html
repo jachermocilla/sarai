@@ -1,11 +1,14 @@
 <template name="SaraiPestsMonitor">
 		<div id="banner">
-  	<img class="banner-image" src="/packages/sarai_sarai-pests/public/images/mon_banner2.jpg">
+  	<img class="banner-image" src="{{imageURL}}">
   		<div class="banner-content-top">
   			<div class="mdl-grid" >
+
 				<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
-					<h2 class="title">Pest Monitor</h2>
-						<h4 class="title-desc">Lorem ipsum dolor sit amet.</h4>
+					{{#each bannerInfo}}
+					<h2 class="title">{{bannerHeadText}}</h2>
+					<h4 class="title-desc">{{bannerSubText}}</h4>
+					{{/each}}
 				</div>
 
 				<div class="mdl-cell mdl-cell--2-col"></div>

@@ -55,4 +55,17 @@ Template.SaraiPestsId.helpers({
 		}
 		return values;
 	},
+	bannerInfo: function(){
+		return CMS.find({info:'finalId'});
+	},
+	imageURL: function(){
+		var link = CMS.findOne({info:'finalId'});
+		if(link.bannerImage=="")
+			return "/packages/sarai_sarai-pests/public/images/id_banner2.jpg";
+		else
+			return link.bannerImage;
+	},
+	pestHeader: function(){
+		return CMS.findOne({info:'finalId'}).pestHeadText;
+	}
 });

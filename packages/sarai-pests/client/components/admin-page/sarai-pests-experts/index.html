@@ -1,7 +1,7 @@
 <template name="ExpertPage">
 	
 	{{#if IsLoggedIn}}
-	{{> CMSHeader}}
+	{{> CMSModuleHeader navBarFor = "Pest Clinic"}}
 	<div class="mdl-grid">
 		<div class="mdl-cell mdl-cell--4-col" style="overflow-y:auto; overflow-x:hidden; height:480px;">
 			
@@ -15,7 +15,7 @@
 					
 					<td>
 						<button class="msg-btn mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
-							<i class="material-icons" id="{{_id}}">email</i>
+							<i class="material-icons" id="{{_id}}">info</i>
 						</button>
 						<button class="rem-btn mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
 							<i class="material-icons" id="{{_id}}">delete</i>
@@ -63,6 +63,15 @@
 						<input class="input-form" type="text" id="company" name="company">
 					</div>
 					
+					<div class="mdl-cell--6-col">
+						<div class="mdl grid">
+					      <div id="dropzone" class="dropzone mdl-cell mdl-cel-12--col profileZone">
+					      	  <label class="f-center form-text">Drop Image To Change Profile (250 x 250)</label> 
+					      	  <img width="100%" height="288px" />
+					      </div>
+				        </div>
+					</div>
+
 					<div class="input-fmt mdl-cell mdl-cell--12-col">
 					
 						<button id="submitE" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Add Expert</button>

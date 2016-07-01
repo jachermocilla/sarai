@@ -20,4 +20,14 @@ Template.SaraiPestsMonitor.helpers({
 
 		return str;
 	},
+	bannerInfo: function(){
+		return CMS.find({info:'finalMonitor'});
+	},
+	imageURL: function(){
+		var link = CMS.findOne({info:'finalMonitor'});
+		if(link.bannerImage=="")
+			return "/packages/sarai_sarai-pests/public/images/mon_banner2.jpg";
+		else
+			return link.bannerImage;
+	}
 });

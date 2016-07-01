@@ -11,11 +11,11 @@ Template.SaraiPestsUpdatePage.onRendered(function(){
             },
             shout: {
                 required: true,
- 					 minlength: 20
+ 				minlength: 20
             },
             aheader: {
                 required: true,
-                minlength: 20
+                minlength: 10
             },
             asubheader: {
             	required:  true,
@@ -28,7 +28,7 @@ Template.SaraiPestsUpdatePage.onRendered(function(){
 
 
 ifCMS = function(){
-	var count = CMS.find().count();
+	var count = CMS.find({info: "finalClinic"}).count();
 	if(count==0) return false;
 	else return true;
 }
@@ -39,31 +39,31 @@ Template.SaraiPestsUpdatePage.helpers({
 	
 	getBannerHText: function(){
 				if(ifCMS()){
-					var info = CMS.find().fetch();
+					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].bannerHeadText;
 				}
 	},
 	getBannerSText: function(){
 				if(ifCMS()){
-					var info = CMS.find().fetch();
+					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].bannerSubText;
 				}
 	},
 	getShoutText: function(){
 				if(ifCMS()){
-					var info = CMS.find().fetch();
+					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].rowIHeadText;
 				}
 	},
 	getAboutHText: function(){
 				if(ifCMS()){
-					var info = CMS.find().fetch();
+					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].rowIIHeadText;
 				}
 	},
 	getAboutSText: function(){
 				if(ifCMS()){
-					var info = CMS.find().fetch();
+					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].rowIISubText;
 				}
 	},
@@ -78,31 +78,29 @@ Template.SaraiPestsUpdatePage.helpers({
 			 return true;
 		}
 	}
-	
-	
 });
 
 Template.MainDropzone.helpers({
 	banner: function(){
-		var info = CMS.findOne({info:'final'});
+		var info = CMS.findOne({info:'finalClinic'});
 		var id = info.bannerImage;
-		return id==""? "/images/dropBannerImage.jpg": id;
+		return id==""? "/packages/sarai_sarai-pests/public/images/clinic/sarai.jpg": id;
 	}
 });
 
 Template.Idropzone.helpers({
 	banner: function(){
-		var info = CMS.findOne({info:'final'});
+		var info = CMS.findOne({info:'finalClinic'});
 		var id = info.rowIImage;
-		return id==""? "/images/dropRowImage1.jpg": id;
+		return id==""? "/packages/sarai_sarai-pests/public/images/clinic/sarai_3.jpg": id;
 	}
 });
 
 Template.IIdropzone.helpers({
 	banner: function(){
-		var info = CMS.findOne({info:'final'});
+		var info = CMS.findOne({info:'finalClinic'});
 		var id = info.rowIIImage;
-		return id==""? "/images/dropRowImage2.jpg": id;
+		return id==""? "/packages/sarai_sarai-pests/public/images/clinic/sarai_2.jpg": id;
 	}
 });
 

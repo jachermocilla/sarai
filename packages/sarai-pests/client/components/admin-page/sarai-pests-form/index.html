@@ -1,6 +1,6 @@
 <template name="FormsSubmitted">
 	{{#if IsLoggedIn}}
-	{{> CMSHeader}}
+	{{> CMSModuleHeader navBarFor = "Pest Clinic"}}
 	<div class="mdl-grid">
 	
 		<div class="mdl-cell md-cell--4-col" style="overflow-y:auto; overflow-x:hidden; height:550px;">
@@ -19,15 +19,16 @@
 			<table class="mdl-data-table mdl-js-data-table">
 			<tbody>
 			{{#esEach index="clinicForm"}}
-			  
 				 <tr>
 					<td class="mdl-data-table__cell--non-numeric">
-						<b>{{date}}</b><br/>
+						<b>World {{date}}</b><br/>
 						{{email}}
 					</td>
 					<td>
 						<button class="msg-btn mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
 							<i class="material-icons" id="{{_id}}">email</i>
+						
+						
 						</button>
 						<button class="delete-msg-btn mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
 							<i class="material-icons" id="{{_id}}">delete</i>
@@ -38,13 +39,13 @@
 			{{/esEach}}
 			</tbody>
 			</table>
-		
+
 			<table class="mdl-data-table mdl-js-data-table" style="border-right:none;border-left:none;">
 			<tbody>
 			{{#each form}}
 			  
 				 <tr>
-					<td class="mdl-data-table__cell--non-numeric">
+					<td class="mdl-data-table__cell--non-numeric">Sample {{increment @index}}
 						<b>{{date}}</b><br/>
 						{{email}}
 					</td>

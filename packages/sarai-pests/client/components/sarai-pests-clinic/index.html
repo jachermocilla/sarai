@@ -11,10 +11,10 @@
 			<!--div class="max mdl-grid" style="background-color:#396834;height:2px;padding:0px 0px 0px 0px;"></div-->
 			<hr/>
 			<!-- {{ >Advert}} -->
-			<hr/>
+			<!-- <hr/> -->
 			<!--div class="max mdl-grid" style="background-color:#396834;height:2px;padding:0px 0px 0px 0px;"></div-->	
-			{{ >Control}}
-			<hr/>
+			<!-- {{ >Control}} -->
+			<!-- <hr/> -->
 			<!--div class="max mdl-grid" style="background-color:#396834;height:2px;padding:0px 0px 0px 0px;"></div-->
 			{{ >Expert}}
 
@@ -35,8 +35,8 @@
   		<div class="mdl-grid" >
 			<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
 				{{#each bannerInfo}}
-				<h1 class="title">{{bannerHeadText}}</h1>
-				<h3 class="title-desc">{{bannerSubText}}</h3>
+				<h2 class="title">{{bannerHeadText}}</h2>
+				<h4 class="title-desc">{{bannerSubText}}</h4>
 				{{/each}}
 			</div>
 
@@ -148,55 +148,6 @@
 	</div>
 </template>
 
-<template name="Control">
-	<div class="max control-bg spacing-grid mdl-card">
-	<br/><br/>
-	<div class="mdl-grid">
-	<div class=" mdl-typography--display-1" style="color:#396834"><b>PEST CONTROL STEPS</b></div>
-	<!--h3 class="title font-body header-text">PEST CONTROL STEPS</h3--><br/>
-	</div><br/><br/>
-	
-	<div class="mdl-grid">
-		<div class="max card mdl-cell mdl-cell-3-col" style="padding-right:10px;border-right: 1px solid #eee;">	
-			<img src="/packages/sarai_sarai-pests/public/images/clinic/id_black.png" width="150px;" height="150px;"/>
-			<h4 class="subtitle mdl-typography--headline" style="color:#396834">
-			<b>Identify Pest</b></h4>
-			<br/>
-			<p>If you haven't spotted your pest yet, look for the signs and damages done.</p>
-			<!--p>You might want to <a href="/pestClinic/identify">identify the pest</a> by clicking the link.</p-->
-		</div>
-		<!--img src="/packages/sarai_sarai-pests/public/images/clinic/div-vertical.png" width="30px;" height="450px;"/-->
-		<div class="max card mdl-cell mdl-cell--3-col" style="padding-right:10px;border-right: 1px solid #eee;">	
-			<img src="/packages/sarai_sarai-pests/public/images/clinic/comp_black.png" width="150px;" height="150px;"/>
-			<h4 class="subtitle mdl-typography--headline" style="color:#396834">
-			<b>Learn About the Pest	</b></h4>
-			<br/>
-			<p>Look for existing data about the pest. <!--You might want to try our <a href="/pestClinic/factsheet">library</a>.--></p>
-		</div>
-		<!--img src="/packages/sarai_sarai-pests/public/images/clinic/div-vertical.png" width="30px;" height="450px;"/-->
-		<div class="max card mdl-cell mdl-cell--3-col" style="padding-right:10px;border-right: 1px solid #eee;">	
-			<img src="/packages/sarai_sarai-pests/public/images/clinic/assess_black.png" width="150px;" height="150px;"/>
-			<h4 class="subtitle mdl-typography--headline" style="color:#396834" >
-			
-			<b>Assess Pest	</b></h4>
-			<p></p>
-			<br/>
-			<p>If you are not sure and want to consult to a specialist, <a href="#" style="color:#396834">request assistance</a>.</p>
-		</div>
-		<!--img src="/packages/sarai_sarai-pests/public/images/clinic/div-vertical.png" width="30px;" height="450px;"/-->
-		<div class="max card mdl-cell mdl-cell--3-col">	
-			<img src="/packages/sarai_sarai-pests/public/images/clinic/control_black.png" width="150px;" height="150px;"/>
-			<h4 class="subtitle mdl-typography--headline" style="color:#396834">
-			<b>Control Pest</b></h4>
-			<br/>
-			<p>Use proper technique to eradicate pests in a cheaper and more successful approach.</p>
-		</div>
-	</div>
-	<br/>
-	</div>
-</template>
-
-
 
 <template name="Expert">
 
@@ -217,9 +168,13 @@
 				{{#each expertInfo}}
 				<div class="mdl-cell mdl-cell--3-col">
 					<center>
-					<svg width="200" height="200">
+					{{#if profile}}
+						<img class="expert-img" src={{profile}} width="100%" height="261px"/>
+					{{else}}
+						<svg width="200" height="200">
 						<circle cx="100" cy="100" r="80" stroke="green" stroke-width="4" fill="green" />
-					</svg>
+						</svg>
+					{{/if}}
 					<br/>
 					<p>
 					<b>{{name}}</b><br/>
@@ -290,7 +245,7 @@
 	<hr/>
 	<div class="max mdl-grid">
 		<div id="link4" class="mdl-cell mdl-cell--10-col">
-		<a href="#" id="link-4" class="link-4 pcindex-svc-offered-link">
+		<a href="/pests-form" id="link-4" class="link-4 pcindex-svc-offered-link">
 			<p class="left space">
 				<b class="pcindex-svc-offered-subtitle pcindex-svc-color">Submit Specimen:</b>
 					<span class="pcindex-svc-offered-text"> Send a specimen to the specialists for further research </span>
@@ -316,8 +271,5 @@
 			{{render}}
 		</div>
 	</div>
-	
-	
-	
 	
 </template>

@@ -20,4 +20,17 @@ Template.SaraiPestsLib.helpers({
 
 		return str;
 	},
+	bannerInfo: function(){
+		return CMS.find({info:'finalLib'});
+	},
+	imageURL: function(){
+		var link = CMS.findOne({info:'finalLib'});
+		if(link.bannerImage=="")
+			return "/packages/sarai_sarai-pests/public/images/lib_banner5.jpg";
+		else
+			return link.bannerImage;
+	},
+	searchLabel: function(){
+		return CMS.findOne({info:'finalLib'}).searchLabelText;
+	}
 });
