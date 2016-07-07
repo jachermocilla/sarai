@@ -142,14 +142,16 @@ Meteor.methods({
 			if(ID!="")
 				Images.findOne({_id:ID}).remove();
 	},
-	'updateLibrary': function(bhead,bsubhead,searchlabel){
-			CMS.update(
+	'updateLibrary': function(bhead,bsubhead,searchlabel, pestType, pestNumbers){
+			CMS.update( 
 			{ info: 'finalLib' },
 			{
 				$set : {
 					bannerHeadText: bhead,
 					bannerSubText: bsubhead,
-					searchLabelText: searchlabel
+					searchLabelText: searchlabel,
+					viewPestType: pestType,
+					pestsPerPage: pestNumbers
 				}
 			},
 				{ upsert: false }

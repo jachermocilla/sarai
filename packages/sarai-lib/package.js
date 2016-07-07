@@ -53,9 +53,9 @@ Package.onUse(function(api) {
     "raix:ui-dropped-event",
     "cfs:standard-packages",
     "cfs:gridfs",
-    "chrismbeckett:toastr",
-    "highcharts:highcharts-meteor",
-    "chart:chart",
+    //"chrismbeckett:toastr",
+    //"highcharts:highcharts-meteor",
+    //"chart:chart",
     "random"
   ]
 

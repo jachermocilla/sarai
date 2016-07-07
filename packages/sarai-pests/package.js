@@ -62,6 +62,7 @@ Package.onUse(function(api) {
     "client/components/sarai-pests-entity-page/index.js",
     "client/components/sarai-pests-entity-page/route.js",
     "client/components/sarai-pests-entity-page/on-created.js",
+    "client/components/sarai-pests-entity-page/on-rendered.js",
     "client/components/sarai-pests-clinic/index.html",
     "client/components/sarai-pests-clinic/index.less",
     "client/components/sarai-pests-clinic/index.js",
@@ -161,8 +162,7 @@ Package.onUse(function(api) {
   api.addFiles(client, "client")
 
   api.addAssets([
-    // "public/images/drop-here.png",
-    "public/images/pest_banner.png",
+    "public/images/pest_banner.jpg",
     "public/images/banner2.jpg",
     "public/images/lib_banner5.jpg",
     "public/images/id_banner2.jpg",
@@ -174,6 +174,11 @@ Package.onUse(function(api) {
     "public/images/services/pest_book_white.png",
     "public/images/services/pest_identification_white.png",
     "public/images/services/alerts_white.png",
+    
+    "public/images/services/pest_clinic.png",
+    "public/images/services/pest_library.png",
+    "public/images/services/pest_id.png",
+    "public/images/services/pest_monitoring.png",
     
     "public/images/icons/facebook1.png",
     "public/images/icons/twitter1.png",

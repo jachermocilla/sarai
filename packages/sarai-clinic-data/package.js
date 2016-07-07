@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.use(packages)
   api.imply(packages)
 
-  var lib = [
+  var lib = [ 
     "lib/collections/sarai-clinic-data.js"
   ]
 

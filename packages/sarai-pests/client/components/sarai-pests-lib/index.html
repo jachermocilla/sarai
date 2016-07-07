@@ -10,43 +10,38 @@
 					{{/each}}
 				</div>
 
-				<div class="mdl-cell mdl-cell--2-col"></div>
-				<div class="mdl-cell mdl-cell--5-col services-icons">
+				<div class="mdl-cell mdl-cell--7-col services-icons">
 					
 					<div class="mdl-grid">
-						<div class="mdl-cell mdl-cell--3-col service-icon">
-							<a href="{{pathFor '/pests-clinic'}}">
-								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_clinic_white.png" />
-								<div class="service-label">
-									PEST CLINIC
-								</div>
-							</a>
-						</div>
-
-						<div class="mdl-cell mdl-cell--3-col service-icon">
+						<!-- Pest Lib -->
+						<div class="mdl-cell mdl-cell--3-col">
 							<a href="{{pathFor '/pests-lib'}}">
-								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_book_white.png" />
-								<div class="service-label">
-									PEST LIB
-								</div>
+								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_library.png" />
+								
 							</a>
 						</div>
 
-						<div class="mdl-cell mdl-cell--3-col service-icon">
+						<!-- Pest ID -->
+						<div class="mdl-cell mdl-cell--3-col">
 							<a href="{{pathFor '/pests-id'}}">
-								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_identification_white.png" />
-								<div class="service-label">
-									PEST ID
-								</div>
+								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_id.png" />
+								
 							</a>
 						</div>
 
-						<div class="mdl-cell mdl-cell--3-col service-icon">
+						<!-- Pest Monitoring -->
+						<div class="mdl-cell mdl-cell--3-col">
 							<a href="{{pathFor '/pests-monitor'}}">
-								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/alerts_white.png" />
-								<div class="service-label">
-									PEST MONITORING
-								</div>
+								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_monitoring.png" />
+								
+							</a>
+						</div>
+
+						<!-- Pest Clinic -->
+						<div class="mdl-cell mdl-cell--3-col">
+							<a href="{{pathFor '/pests-clinic'}}">
+								<img class="service-icon-img" src="/packages/sarai_sarai-pests/public/images/services/pest_clinic.png" />
+								
 							</a>
 						</div>
 					</div>
@@ -76,30 +71,7 @@
 	        <div class="mdl-grid">
 				{{#esEach index="plantProblem"}}		
 					{{#if equals type "Pest"}}
-					      <!--<img src="{{imageURL}}"/>-->
-					    <div class="mdl-cell mdl-cell--3-col">
-							<div class="demo-card-image mdl-card mdl-shadow--2dp">
-								<div class="mdl-card__title mdl-card--expand">
-									<div class = "pest-image">
-										<img src="/images/pests/{{imageName name}}.jpg" width="200px;" height="200px;"/>
-									</div>
-							  	</div>
-								
-								<div class = "card-title">
-									<div class="mdl-card__actions">
-										<span class="demo-card-image__filename">{{name}}</span>
-								  	</div>
-							  	</div>
-
-							  	<div class="mdl-card__actions mdl-card--border">
-							  		<div class = "card-button">
-										<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{pathFor '/entity/:_id' _id=_id}}">
-											View Page
-									 	</a>
-									 </div>
-							  	</div>
-							</div>
-						</div>
+					    {{> IndividualPest}}
 				    {{/if}}
 				{{/esEach}}
 			</div>
@@ -115,73 +87,59 @@
       		</div>
   		{{/ifEsHasNoResults}}
 
-  		
-  		<a href="{{pathFor '/rice-pests'}}">
-			<h4 class = "container-title">
-				RICE PESTS
+  		{{#each typeOfPest}}
+  			{{setPageSessions this}}
+			<h4 class="container-title">
+				{{convertPestToUpper}} PESTS
 			</h4>
-		</a>
-		
-		<div class="mdl-grid">
-			{{#each pestsRice}}
-				<div class="mdl-cell mdl-cell--3-col">
-					<div class="demo-card-image mdl-card mdl-shadow--2dp">
-						<div class="mdl-card__title mdl-card--expand">
-							<div class = "pest-image">
-								<img src="/images/pests/{{imageName name}}.jpg" width="200px;" height="200px;"/>
-							</div>
-					  	</div>
-					  	
-					  	<div class = "card-title">
-						  	<div class="mdl-card__actions">
-								<span class="demo-card-image__filename">{{name}}</span>
-						  	</div>
-					  	</div>
-					  
-					  	<div class="mdl-card__actions mdl-card--border">
-					  		<div class = "card-button">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{pathFor '/entity/:_id' _id=_id}}">
-									View Page
-						 		</a>
-						 	</div>
-					  	</div>
-					</div>
-				</div>
+			
+			<div id="{{this}}" class="mdl-grid">
+			{{#each displayPest this}}
+				{{> IndividualPest}}
 			{{/each}}
-		</div>
-		
-		<br/>
-		<a href="{{pathFor '/corn-pests'}}">
-			<h4 class = "container-title">
-				CORN PESTS
-			</h4>
-		</a>
-		<div class="mdl-grid">
-			{{#each pestsCorn}}
-				<div class="mdl-cell mdl-cell--3-col">
-					<div class="demo-card-image mdl-card mdl-shadow--2dp">
-					  	<div class="mdl-card__title mdl-card--expand">
-							<div class = "pest-image">
-								<img src="/images/pests/{{imageName name}}.jpg" width="200px;" height="200px;"/>
-							</div>
-					  	</div>
-					  	
-					  	<div class = "card-title">
-					  		<div class="mdl-card__actions">
-						 		<span class="demo-card-image__filename">{{name}}</span>
-					  		</div>
-					  	</div>
+			</div>
 
-					  	<div class="mdl-card__actions mdl-card--border">
-					  		<div class = "card-button">
-						 		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{pathFor 'entity' _id=_id}}">
-									View Page
-						 		</a>
-						 	</div>
-					  	</div>
-					</div>
+			<ul class="pagination">
+			    <li class="{{setLeftArrowActive}} page-left-arrow"><i class="material-icons" name="{{getCurrentPest}}">chevron_left</i></li>
+			    {{#each page this}}
+			    	{{> PageNumber pageNum=this}} 
+			    {{/each}}
+			    <li class="{{setRightArrowActive}} page-right-arrow"><i class="material-icons"
+			    name="{{getCurrentPest}}">chevron_right</i></li>
+			</ul>
+  		{{/each}}
+
+	</div>
+</template>
+
+
+<template name="IndividualPest">
+	<div class="mdl-cell mdl-cell--3-col">
+		<div class="demo-card-image mdl-card mdl-shadow--2dp">
+			<div class="mdl-card__title mdl-card--expand">
+				<div class = "pest-image">
+					<img src="/images/pests/{{imageName name}}.jpg" width="200px;" height="200px;"/>
 				</div>
-			{{/each}}
+		  	</div>
+		  	
+		  	<div class = "card-title">
+			  	<div class="mdl-card__actions">
+					<span class="demo-card-image__filename">{{name}}</span>
+			  	</div>
+		  	</div>
+		  
+		  	<div class="mdl-card__actions mdl-card--border">
+		  		<div class = "card-button">
+					<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{pathFor '/entity/:_id' _id=_id}}">
+						View Page
+			 		</a>
+			 	</div>
+		  	</div>
 		</div>
 	</div>
+</template>
+
+
+<template name="PageNumber">
+	<li class="{{setPageActive pageNum}} page-number" name="{{getCurrentPagePest}}">{{pageNum}}</li>
 </template>

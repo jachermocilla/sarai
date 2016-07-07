@@ -118,7 +118,7 @@
 
 .container-title{
 	font-weight: bold;
-	margin-left: 20px;
+	color: rgb(255,64,129);
 }
 
 .pest-image{
@@ -128,7 +128,6 @@
 
 .alerts {	
 	background-color: rgba(250, 250, 250, 0.7);
-	
 	padding: 0 0 0 0px;
 	border-radius: 3px;
 }
@@ -207,4 +206,66 @@
     margin-top: 10em;
     text-align: center;
     color: gray;
+}
+.no-results {
+	text-align: center;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  line-height: 30px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.pagination li {
+  color: #444;
+}
+
+.pagination li.active {
+  color: #fff;
+}
+
+.pagination li.active {
+  background-color: #ee6e73;
+}
+
+.pagination li.disabled {
+  cursor: default;
+  color: #999;
+}
+
+.pagination li i {
+  font-size: 2.2rem;
+  vertical-align: middle;
+}
+
+.pagination li.pages ul li {
+  display: inline-block;
+  float: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .pagination {
+    width: 100%;
+  }
+  .pagination li.prev,
+  .pagination li.next {
+    width: 10%;
+  }
+  .pagination li.pages {
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+.page-number, .page-left-arrow, .page-right-arrow{
+	cursor: pointer;
 }

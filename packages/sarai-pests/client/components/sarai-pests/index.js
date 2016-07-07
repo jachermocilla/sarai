@@ -23,7 +23,7 @@ Template.SaraiPests.helpers({
 	imageURL: function(){
 		var link = CMS.findOne({info:'finalSpid'});
 		if(link.bannerImage=="")
-			return "/packages/sarai_sarai-pests/public/images/banner2.jpg";
+			return "/packages/sarai_sarai-pests/public/images/pest_banner.jpg";
 		else
 			return link.bannerImage;
 	},
@@ -51,6 +51,14 @@ Template.SaraiPests.helpers({
 		return CMS.findOne({info:'finalSpid'}).row3SubText;
 	}
 
+});
+
+Template.SaraiPests.events({
+	'click #view-more': function(e){
+		e.preventDefault();
+		FlowRouter.go("/pests-lib");
+		$("main").scrollTop($("#pest-lib").offset().top - $("#banner").offset().top);
+	}
 });
 
 Template.Control.helpers({

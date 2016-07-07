@@ -29,8 +29,7 @@ if (CMS.find().count() === 0) {
 		rowIIImage: '',
 		problem: 'Pest,Disease,Others',
 		rowIID: '',
-		rowIIID: '',
-		viewPestType: ''
+		rowIIID: ''
 	});
 	
 	CMS.insert({
@@ -39,7 +38,9 @@ if (CMS.find().count() === 0) {
 		bannerImageID: '',
 		bannerHeadText: 'Pest Library',
 		bannerSubText: 'An online library for Rice and Corn Pests',
-		searchLabelText: 'Search the library for pests'
+		searchLabelText: 'Search the library for pests',
+		viewPestType: ['Rice', 'Corn'],
+		pestsPerPage: 8
 	});
 
 	CMS.insert({
@@ -47,7 +48,7 @@ if (CMS.find().count() === 0) {
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Pest Identification',
-		bannerSubText: 'Identify pest by uploading a pest picture below by selecting the image processing tab or by answering questions from thee ontology-based tab',
+		bannerSubText: 'Identify pest by uploading a pest picture below by selecting the image processing tab or by answering questions from the ontology-based tab',
 		pestHeadText: 'PESTS'
 	});
 
@@ -56,6 +57,6 @@ if (CMS.find().count() === 0) {
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Pest Monitor',
-		bannerSubText: 'Lorem ipsum dolor sit amet'
+		bannerSubText: 'Charts and maps for pest-related activities'
 	});
 }

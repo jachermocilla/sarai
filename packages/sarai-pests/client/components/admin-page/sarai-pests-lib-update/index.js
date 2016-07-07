@@ -48,12 +48,20 @@ Template.SaraiPestsLibUpdatePage.helpers({
 				}
 	},
 	pestType: function () {
+		if (ifCMS()){
 		  var data = PlantProblem.find().fetch();
 		  var distinctData = _.uniq(data, false, function(d) {return d.plant_affected});
 		  return _.pluck(distinctData, "plant_affected");
+		}
 	},
-	setID: function(id){
-		return id.replace(/\s/g, "");
+	isChecked: function (pestType) {
+		return CMS.find({info: "finalLib", viewPestType: pestType}).count() > 0? true : false;
+	},
+	getPestNumbers: function() {
+		if (ifCMS()){
+			var info = CMS.find({info: "finalLib"}).fetch();
+			return info[0].pestsPerPage;
+		}
 	},
 	IsLoggedIn: function(){
 		if(Meteor.userId()===null){
@@ -91,11 +99,14 @@ Template.SaraiPestsLibUpdatePage.events({
 			var bsubhead = $("#bsubheader").val();
 			var searchlabel = $("#searchlabel").val();
 
-		/*	var pestType = $('.mdl-checkbox__input:checked').each(function() {
-			   $('span.mdl-checkbox__label').text(); 
-			});*/
+			var pestType = [];
+			var pestNumbers = $("#pestsperpage").val();
+
+			$( "input[type=checkbox]:checked" ).map(function() {
+			    pestType.push($( this ).val());
+			});
 			
-			Meteor.call('updateLibrary', bhead, bsubhead, searchlabel);
+			Meteor.call('updateLibrary', bhead, bsubhead, searchlabel, pestType, pestNumbers);
 			
 			console.log("inserted");
 			$('#viewChanges').show();
