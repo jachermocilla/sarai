@@ -92,6 +92,7 @@ Template.SaraiPestsId.events({
 	'click .ontology-search': function(e){
 		e.preventDefault();
 		var pests = {};
+
 		$(".crops-affected [type=checkbox]:checked").map(function() {
 			var identifier = $(this).val();
 			var pestMatches = PlantProblem.find({type: "Pest", plant_affected:{$regex:".*"+identifier+".*", $options: 'i'}});
