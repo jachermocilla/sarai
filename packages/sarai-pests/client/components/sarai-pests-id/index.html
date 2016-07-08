@@ -84,6 +84,9 @@
 
 
 				<div id="id-results">
+					{{#if enableSpinner}}
+						{{> spinner}}
+					{{/if}}
 					<div class="mdl-grid">
 						<h3 class="results-header">{{imageProcessingResultsHeader}}</h3>
 
@@ -491,6 +494,9 @@
 			</div> <!-- end of ontology -->
 
 			<div id="ontology-results">
+				{{#if enableSpinner}}
+					{{> spinner}}
+				{{/if}}
 				<div class="mdl-grid">
 					<h3 class="results-header">{{ontologyBasedResultsHeader}}</h3>
 
