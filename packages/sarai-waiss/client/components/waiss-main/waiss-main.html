@@ -1,0 +1,53 @@
+<template name="WAISSMain">
+    {{#if isLoggedIn}}
+            <div class="big-card mdl-shadow--2dp">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--3-col">
+                        <span class="welcome-message">Welcome farmer!</span>
+                        <span class="welcome-message-subheading">You have 12 active farms.</span>
+                        <div class="list-farm-label">
+                            Your Farms
+                        </div>
+                        <div class="list-farm-list">
+                            {{#each farms}}
+                                <div farmId={{_id}} class="list-farm-item">
+                                    <span farmId={{_id}} class="list-farm-name">{{name}}</span>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                <div class="mdl-cell mdl-cell--6-col">
+                    {{#each farmInfo}}
+                        {{> WAISSGraphTemplate chartId="water-deficit" height=300}}
+                    {{/each}}
+                </div>
+                {{#each farmInfo}}
+                    <div class="mdl-cell mdl-cell--3-col">
+                        <div class="farm-name">{{name}}</div>
+                        <span class="farm-info-label"><strong>Crop</strong>: {{crop}}</span>
+                        <span class="farm-info-label"><strong>Variety</strong>: {{variety}}</span>
+                        <span class="farm-info-label"><strong>Planting Date</strong>: {{plantingDate}}</span>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col">
+                <div class="main-card mdl-shadow--2dp">
+                    Calendar here?
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col">
+                <div class="main-card mdl-shadow--2dp">
+                    Interpretation and water management tips
+                </div>
+            </div>
+        </div>
+    {{else}}
+        {{> LoginMiddleware}}
+    {{/if}}
+</template>
+
+<template name="WAISSGraphTemplate">
+    <div id={{chartId}} style="height: {{chartHeight}};"></div>
+</template>
