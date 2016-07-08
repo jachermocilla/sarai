@@ -156,6 +156,12 @@
 													<p class="opt-size mdl-checkbox__label">Corn</p>
 												</label>
 											</div>
+
+
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="crops-affected-others" name="crops-affected-others">	
+											</div>
 										</div>
 									</div> <!-- end of options of crops affected -->
 								</div> <!-- crops affected -->
@@ -499,7 +505,7 @@
 						            	</div>
 						            	</div>
 							            <div class="mdl-cell mdl-cell--8-col">
-							              	<h3>{{name}}</h3>
+							              	<h3>{{increment @index}} {{name}}</h3>
 							            	<p class="info-font">Order: {{order}} <br>
 							            	English Name: {{eng_name}} <br>
 							            	Filipino Name: {{fil_name}} <br>
