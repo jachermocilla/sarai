@@ -28,6 +28,7 @@ Package.onUse(function(api) {
     "sarai:sarai-lab-data",
     "sarai:sarai-assistance-result-data",
     "sarai:sarai-report-data",
+    "sarai:sarai-pests-report-data",
     "sarai:sarai-images-data"
     ]
 
