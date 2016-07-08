@@ -1,7 +1,0 @@
-#navA{
-	display:none;
-}
-
-.mdl-layout__tab-bar-button{
-	background-color: #396834;
-}
