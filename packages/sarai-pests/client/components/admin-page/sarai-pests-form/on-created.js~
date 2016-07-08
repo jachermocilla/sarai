@@ -1,3 +1,0 @@
-Template.FormsSubmitted.onCreated(function() {
-	Meteor.subscribe('clinicForm')
-})

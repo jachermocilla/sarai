@@ -1,3 +1,0 @@
-Template.AssistResultPage.onCreated(function() {
-	Meteor.subscribe('result')
-})
