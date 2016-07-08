@@ -1,5 +1,4 @@
 
-
 Template.SaraiPestsId.helpers({
 	pests: function(){
 		return PlantProblem.find({'type': 'Pest'},{limit: 8});
@@ -22,6 +21,7 @@ Template.SaraiPestsId.helpers({
 	myCallbacks: function() {
 	    return {
 			 finished: function(index, fileInfo, context) {
+			 	Session.set("spinner", true);
 			 	Session.set('data',undefined);
 			 	filename = "../server/uploads/"+fileInfo.name;
 			 	Session.set("filename",filename);
@@ -35,10 +35,12 @@ Template.SaraiPestsId.helpers({
 							'filename': filename,
 						},
 					success: function(result){
+						Session.set("spinner", false);
 						Session.set('data',result.data);
 						console.log(result.data);		
 					},
 					error: function(error){
+						Session.set("spinner", false);
 						console.log(error.data);
 					}
 				});
@@ -57,6 +59,7 @@ Template.SaraiPestsId.helpers({
 	ontologyData: function(){
 		values=[];
 		if(Session.get('ontology')){
+			Session.set("spinner", false);
 			for(var i = 0;i<Session.get('ontology').length;i++){
 				values.push(PlantProblem.findOne({'type': 'Pest','name':Session.get('ontology')[i]}));
 			}
@@ -86,12 +89,16 @@ Template.SaraiPestsId.helpers({
 	ontologyBasedResultsHeader: function(){
 		if (Session.get('ontology'))
 			return "Ontology-Based Top Results";
+	},
+	enableSpinner: function(){
+		return Session.get("spinner");
 	}
 });
 
 
 Template.SaraiPestsId.events({
 	'click .ontology-search': function(e){
+		Session.set("spinner", true);
 		e.preventDefault();
 		var pestTally = {};
 
@@ -113,7 +120,7 @@ Template.SaraiPestsId.events({
 			".parts-of-plant [type=text]" : "part_destroyed",
 			".distribution-of-symptoms [type=text]" : "symptoms",
 			".insect-damage [type=text]" : "description"
-		}
+		};
 
 		$.each(ontologySelectFields, function(selector, field) {
 			$(selector).map(function() {
