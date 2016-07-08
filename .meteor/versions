@@ -147,6 +147,7 @@ sarai:sarai-pests-form-data@0.0.1
 sarai:sarai-report-data@0.0.1
 sarai:sarai-user@0.0.1
 sarai:sarai-waiss@0.0.1
+sarai:sarai-waiss-data@0.0.1
 service-configuration@1.0.5
 session@1.1.1
 sha@1.0.4

@@ -9,63 +9,37 @@
                             Your Farms
                         </div>
                         <div class="list-farm-list">
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Corn farm in Los Baños</span>
-                                <span class="list-farm-advisory error"><i class="material-icons">error</i></span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Rice farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Cacao farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Corn farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Rice farm in Los Baños</span>
-                                <span class="list-farm-advisory warning"><i class="material-icons">warning</i></span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Cacao farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Corn farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Rice farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Cacao farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Corn farm in Los Baños</span>
-                            </div>
-                            <div class="list-farm-item">
-                                <span class="list-farm-name">Rice farm in Los Baños</span>
-                            </div>
+                            {{#each farms}}
+                                <div farmId={{_id}} class="list-farm-item">
+                                    <span farmId={{_id}} class="list-farm-name">{{name}}</span>
+                                </div>
+                            {{/each}}
                         </div>
                     </div>
                 <div class="mdl-cell mdl-cell--6-col">
-                    {{> WAISSGraphTemplate chartId="water-deficit" height=300}}
+                    {{#each farmInfo}}
+                        {{> WAISSGraphTemplate chartId="water-deficit" height=300}}
+                    {{/each}}
                 </div>
-                <div class="mdl-cell mdl-cell--3-col">
-                    <div class="farm-name">JC's Corn Farm</div>
-                    <span class="farm-info-label"><strong>Crop</strong>: Corn</span>
-                    <span class="farm-info-label"><strong>Variety</strong>: Sweet</span>
-                    <span class="farm-info-date-label"><strong>Planting Date</strong>: March 7, 2016</span>
-                </div>
+                {{#each farmInfo}}
+                    <div class="mdl-cell mdl-cell--3-col">
+                        <div class="farm-name">{{name}}</div>
+                        <span class="farm-info-label"><strong>Crop</strong>: {{crop}}</span>
+                        <span class="farm-info-label"><strong>Variety</strong>: {{variety}}</span>
+                        <span class="farm-info-label"><strong>Planting Date</strong>: {{plantingDate}}</span>
+                    </div>
+                {{/each}}
             </div>
         </div>
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--6-col">
                 <div class="main-card mdl-shadow--2dp">
-                    Hello World
+                    Calendar here?
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--6-col">
                 <div class="main-card mdl-shadow--2dp">
-                    Hello World
+                    Interpretation and water management tips
                 </div>
             </div>
         </div>

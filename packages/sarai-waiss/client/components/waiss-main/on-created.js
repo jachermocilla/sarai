@@ -1,3 +1,7 @@
+Template.WAISSMain.onCreated(function() {
+    Meteor.subscribe('farm', Meteor.userId());
+});
+
 Template.WAISSGraphTemplate.onRendered(function() {
     var self = this;
 
