@@ -63,7 +63,7 @@ Template.SaraiPestsId.helpers({
 		}
 		return values;
 	},
-	increment: function(index){
+	numberized: function(index){
 		return (index+1) + ". ";
 	},
 	bannerInfo: function(){
@@ -93,7 +93,7 @@ Template.SaraiPestsId.helpers({
 Template.SaraiPestsId.events({
 	'click .ontology-search': function(e){
 		e.preventDefault();
-		var pests = {};
+		var pestTally = {};
 
 		var ontologySelectFields = {
 			".crops-affected [type=checkbox]:checked" : "plant_affected",
@@ -121,7 +121,7 @@ Template.SaraiPestsId.events({
 				query[field] = { $regex: ".*" + $(this).val() + ".*", $options: "i"};
 				var pestMatches = PlantProblem.find(query);
 				pestMatches.forEach(function(pestObj){
-				  pests[pestObj.name] = pests[pestObj.name] == NaN || pests[pestObj.name] == undefined ? 1 : pests[pestObj.name] + 1;
+				  pestTally[pestObj.name] = pestTally[pestObj.name] == NaN || pestTally[pestObj.name] == undefined ? 1 : pestTally[pestObj.name] + 1;
 				});
 			});
 		});
@@ -132,12 +132,12 @@ Template.SaraiPestsId.events({
 				query[field] = { $regex: ".*" + $(selector).val() + ".*", $options: "i"};
 				var pestMatches = PlantProblem.find(query);
 				pestMatches.forEach(function(pestObj){
-				  pests[pestObj.name] = pests[pestObj.name] == NaN || pests[pestObj.name] == undefined ? 1 : pests[pestObj.name] + 1;
+				  pestTally[pestObj.name] = pestTally[pestObj.name] == NaN || pestTally[pestObj.name] == undefined ? 1 : pestTally[pestObj.name] + 1;
 				});
 			}
 		});
 
-		var descendingPests = Object.keys(pests).sort(function(a,b){return pests[b]-pests[a]});
+		var descendingPests = Object.keys(pestTally).sort(function(a,b){return pestTally[b]-pestTally[a]});
 		Session.set('ontology', descendingPests.length >= 5? descendingPests.slice(0,5) : descendingPests.slice(0,descendingPests.length));
 	}
 });
