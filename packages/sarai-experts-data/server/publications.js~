@@ -1,3 +1,0 @@
-Meteor.publish('expert', function () {
-  return EXpert.find();
-});
