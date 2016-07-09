@@ -84,6 +84,9 @@
 
 
 				<div id="id-results">
+					{{#if enableSpinner}}
+						{{> spinner}}
+					{{/if}}
 					<div class="mdl-grid">
 						<h3 class="results-header">{{imageProcessingResultsHeader}}</h3>
 
@@ -98,14 +101,14 @@
 							            	</div>
 							            	</div>
 								            <div class="mdl-cell mdl-cell--8-col">
-								              	<h3>{{name}}</h3>
-								            	<p class="info-font">Order: {{order}} <br>
-								            	English Name: {{eng_name}} <br>
-								            	Filipino Name: {{fil_name}} <br>
-											    Scientific Name: {{sci_name}}<br>
-											    Plant Affected: {{plant_affected}}<br>
-											    Symptoms: {{ charLimit symptoms}}<br>
-							    				Description: {{charLimit description}}</p>
+								              	<h3>{{numberized @index}} {{name}}</h3>
+								            	<p class="info-font"><b> Order:</b>  {{order}} <br>
+								            	<b>English Name:</b>  {{eng_name}} <br>
+								            	<b>Filipino Name:</b>  {{fil_name}} <br>
+											    <b>Scientific Name:</b>  {{sci_name}}<br>
+											    <b>Plant Affected:</b>  {{plant_affected}}<br>
+											    <b>Symptoms:</b>  {{ charLimit symptoms}}<br>
+							    				<b>Description:</b>  {{charLimit description}}</p>
 								              	<p class="left-align"><a href="{{pathFor '/entity/:_id' _id=_id}}">View Page</a>
 								              	</p>
 								             </div>
@@ -155,6 +158,12 @@
 													<input type="checkbox" value="corn" class="mdl-checkbox__input">
 													<p class="opt-size mdl-checkbox__label">Corn</p>
 												</label>
+											</div>
+
+
+											<div class="input-fmt mdl-cell mdl-cell--12-col">
+												<label class="f-left form-text">Others (Specify)</label> 
+												<input class="form3-input-fmt" type="text" id="crops-affected-others" name="crops-affected-others">	
 											</div>
 										</div>
 									</div> <!-- end of options of crops affected -->
@@ -485,6 +494,9 @@
 			</div> <!-- end of ontology -->
 
 			<div id="ontology-results">
+				{{#if enableSpinner}}
+					{{> spinner}}
+				{{/if}}
 				<div class="mdl-grid">
 					<h3 class="results-header">{{ontologyBasedResultsHeader}}</h3>
 
@@ -499,14 +511,14 @@
 						            	</div>
 						            	</div>
 							            <div class="mdl-cell mdl-cell--8-col">
-							              	<h3>{{name}}</h3>
-							            	<p class="info-font">Order: {{order}} <br>
-							            	English Name: {{eng_name}} <br>
-							            	Filipino Name: {{fil_name}} <br>
-										    Scientific Name: {{sci_name}}<br>
-										    Plant Affected: {{plant_affected}}<br>
-										    Symptoms: {{ charLimit symptoms}}<br>
-						    				Description: {{charLimit description}}</p>
+							              	<h3>{{numberized @index}} {{name}}</h3>
+							            	<p class="info-font"><b>Order:</b> {{order}} <br>
+							            	<b>English Name:</b>  {{eng_name}} <br>
+							            	<b>Filipino Name:</b>  {{fil_name}} <br>
+										    <b>Scientific Name:</b>  {{sci_name}}<br>
+										    <b>Plant Affected:</b>  {{plant_affected}}<br>
+										    <b>Symptoms:</b>  {{ charLimit symptoms}}<br>
+						    				<b>Description:</b>  {{charLimit description}}</p>
 							              	<p class="left-align"><a href="{{pathFor '/entity/:_id' _id=_id}}">View Page</a>
 							              	</p>
 							             </div>
