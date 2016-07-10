@@ -1,3 +1,16 @@
+Template.TopHeaderOptions.onCreated(function() {
+
+  const handle = Meteor.subscribe('main', 'topHeader');
+})
+
+Template.TopHeaderOptions.onRendered(() => {
+  $("#target").addClass("is-dirty");
+})
+
+Template.TopHeaderOptions.events({
+
+})
+
 Template.TopHeaderOptions.helpers({
 
   message: () => {

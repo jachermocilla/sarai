@@ -17,4 +17,16 @@ if (Main.find().count() === 0) {
     enabled: true
   });
 
+  Main.insert({
+    name: 'banner',
+    images: [
+      {
+        href: 'server/uploads/background.jpg',
+        title: 'Project SARAI',
+        text: 'SMARTER FARMERS SMARTER AGRICULTURE. Search through the different SARAI technologies and systems to know what, when, and where to plant.',
+        buttonText: 'Explore'
+      }
+    ]
+  })
+
 }

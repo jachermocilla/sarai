@@ -31,19 +31,17 @@ Package.onUse(function(api) {
     "client/components/dashboard/dashboard-on-created.js",
     "client/components/dashboard/dashboard-route.js",
 
-    "client/components/main/main-cms.html",
-    "client/components/main/main-cms-events.js",
-    "client/components/main/main-cms-helpers.js",
-    "client/components/main/main-cms-on-created.js",
     "client/components/main/main-cms-route.js",
+
+    "client/components/main/main-cms.html",
+    "client/components/main/main-cms.less",
+    "client/components/main/main-cms.js",
+
     "client/components/main/top-header-options.html",
-    "client/components/main/top-header-options-on-created.js",
-    "client/components/main/top-header-options-events.js",
-    "client/components/main/top-header-options-helpers.js",
+    "client/components/main/top-header-options.js",
+
     "client/components/main/banner-options.html",
-    "client/components/main/banner-options-events.js",
-    "client/components/main/banner-options-helpers.js",
-    "client/components/main/banner-options-on-created.js",
+    "client/components/main/banner-options.js",
 
     "client/components/sarai-cms.less"
   ]
