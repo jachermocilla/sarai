@@ -55,6 +55,7 @@ ejson@1.0.7
 email@1.0.8
 es5-shim@4.1.14
 fastclick@1.0.7
+fourseven:scss@3.4.3
 geojson-utils@1.0.4
 gfk:notifications@1.1.4
 gwendall:body-events@0.1.6
@@ -167,4 +168,7 @@ url@1.0.5
 webapp@1.2.3
 webapp-hashing@1.0.5
 zimme:active-route@2.3.2
-zodiase:mdl@1.0.6_2
+zodiase:check@0.0.4
+zodiase:material-design-icons-fonts@2.2.2
+zodiase:mdl@1.1.3_1
+zodiase:mdl-assets@1.1.3
