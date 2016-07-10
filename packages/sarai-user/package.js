@@ -24,6 +24,12 @@ Package.onUse(function(api) {
   api.use(packages)
   api.imply(packages)
 
+  var lib = [
+    "lib/collections/sarai-user.js"
+  ]
+
+  api.addFiles(lib, ["client", "server"])
+
   var client = [
     "client/config.js"
   ]
