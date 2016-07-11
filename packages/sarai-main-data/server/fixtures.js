@@ -14,12 +14,16 @@ if (Main.find().count() === 0) {
 	      {
 	      	name: 'Home',
 	      	href: '/',
-	      	links: []
+	      	links: [],
+	      	id: 'home-link',
+	      	withsublinks: false
 	      },
 	      {
 	      	name: 'about-us',
 	      	href: '/about-us',
-	      	links: []
+	      	links: [],
+	      	id: 'about-us-link',
+	      	withsublinks: false
 	      },
 	      {
 	      	name: 'Explore',
@@ -49,12 +53,16 @@ if (Main.find().count() === 0) {
 	      			name: 'Open Data',
 	      			href: 'http://202.92.144.42/'
 	      		}
-	      	]
+	      	],
+	      	id: 'explore-link',
+	      	withsublinks: true
 	      },
 	      {
 	      	name: 'Planning Dates',
 	      	href: '',
-	      	links: []
+	      	links: [],
+	      	id: 'planning-dates-link',
+	      	withsublinks: false
 	      },
 	      {
 	      	name: 'DSS',
@@ -64,7 +72,9 @@ if (Main.find().count() === 0) {
 	      			name: 'Corn Nutrient Expert',
 	      			href: '/dss/corn-nutrient-expert'
 	      		}
-	      	]
+	      	],
+	      	id: 'dss-link',
+	      	withsublinks: true
 	      },
 	      {
 	      	name: 'Get Involved',
@@ -82,7 +92,9 @@ if (Main.find().count() === 0) {
 	      			name: 'Join the Discussion',
 	      			href: 'https://groups.google.com/forum/#!forum/project-sarai-knowledge-hub'
 	      		}
-	      	]
+	      	],
+	      	id: 'get-involved-link',
+	      	withsublinks: true
 	      }
 	    ],
 	    buttonText: 'BETA VERSION',

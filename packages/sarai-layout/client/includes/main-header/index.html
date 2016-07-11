@@ -1,5 +1,5 @@
 <template name="MainHeader">
-  	<header class="my-header mdl-layout__header mdl-layout__header--waterfall" style="background-color: #FFFFFF;">
+  	<header class="my-header mdl-layout__header" style="background-color: #FFFFFF;"><!-- mdl-layout__headerdashdashwaterfall-->
       {{#if topHeader.enabled}}
           {{> TopHeader}}
         {{/if}}
@@ -15,8 +15,17 @@
         <div class="mdl-layout-spacer"></div>
 
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          {{#each links}}
-              <a class="mdl-navigation__link" href="{{href}}" style="color: #9C9C9A; font-size: 15px;">{{name}}</a>
+          {{#each mainlinks}}
+          <span>
+              <a class="mdl-navigation__link" href="{{href}}" id="{{id}}">{{name}}</a>
+              {{#if withsublinks}}
+                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="{{id}}">
+                  {{#each links}}
+                  <li class="mdl-menu__item mdl-menu__item-full--bleed-divider" data-link-href="{{href}}"><a href="{{href}}" id="sublinkclass">{{name}}</a></li>
+                  {{/each}}
+                </ul>
+              {{/if}}
+          </span>
           {{/each}}
               <div class="mdl-navigation__link" style="color: #9C9C9A; font-size: 15px;">
           	     {{> loginButtons align="right"}}
