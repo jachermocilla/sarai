@@ -30,20 +30,12 @@ Package.onUse(function(api) {
     "sarai:sarai-assistance-result-data",
     "sarai:sarai-report-data",
     "sarai:sarai-images-data",
-<<<<<<< HEAD
     "sarai:sarai-waiss",
     "sarai:sarai-waiss-data",
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
     "sarai:sarai-blog-data"
     ];
-=======
-    "sarai:sarai-main-data",
-    "sarai:sarai-services-data",
-    "sarai:sarai-blog-data"
-    ]
-
->>>>>>> 294f526b4f1d098299a1654717741cfca37b4e57
   api.use(packages);
   api.imply(packages);
 });
