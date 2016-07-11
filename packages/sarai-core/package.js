@@ -32,12 +32,12 @@ Package.onUse(function(api) {
     "sarai:sarai-images-data",
     "sarai:sarai-waiss",
     "sarai:sarai-waiss-data",
+    "sarai:sarai-cms",
+    "sarai:sarai-cms-data",
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
     "sarai:sarai-blog-data",
     "sarai:sarai-weather-data",
-    "sarai:sarai-cms",
-    "sarai:sarai-cms-data"
     ]
 
   api.use(packages);
