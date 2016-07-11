@@ -19,6 +19,7 @@ Package.onUse(function(api) {
     'sarai:sarai-admin',
     'sarai:sarai-layout',
     'sarai:sarai-pests',
+    'sarai:sarai-main',
     "sarai:sarai-pests-data",
     "sarai:sarai-pests-form-data",
     "sarai:sarai-assistance-data",
@@ -28,7 +29,10 @@ Package.onUse(function(api) {
     "sarai:sarai-lab-data",
     "sarai:sarai-assistance-result-data",
     "sarai:sarai-report-data",
-    "sarai:sarai-images-data"
+    "sarai:sarai-images-data",
+    "sarai:sarai-main-data",
+    "sarai:sarai-services-data",
+    "sarai:sarai-blog-data"
     ]
 
   api.use(packages);

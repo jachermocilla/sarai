@@ -16,7 +16,28 @@ Template.MainHeader.helpers({
 		else{
 			$("#navA").show();
 		}
-	}
+	},
+
+  topHeader: function(){
+    //return Home.find({'title': 'Hello World'});
+    return Main.find({'name': 'topHeader'}).fetch()[0];
+  },
+
+  links: function(){
+    var obj = Main.findOne({'name': 'mainHeader'});
+    if(typeof obj !== 'undefined'){
+      return obj.links;
+    }
+
+  },
+
+  mainH: function(){
+    var obj = Main.findOne({'name' : 'mainHeader'});
+    if(typeof obj !== 'undefined'){
+      return obj;
+    }
+  }
+
 });
 
 Template.MainHeader.events({

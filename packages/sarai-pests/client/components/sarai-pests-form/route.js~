@@ -1,5 +1,0 @@
-FlowRouter.route("/submit-sample", {
-	action: function() {
-		BlazeLayout.render("MainLayout", {main: "SubmitSample"})
-	}
-})
