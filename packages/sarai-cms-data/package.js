@@ -21,14 +21,12 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
-    "lib/collections/main-temp.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
 
   var server = [
-    "server/main-fixtures.js",
-    "server/main-publications.js"
+    "server/methods.js"
   ]
 
   api.addFiles(server, "server")
@@ -37,7 +35,7 @@ Package.onUse(function(api) {
     ], "client")
 
   api.export([
-    "Main",
+
   ])
 });
 

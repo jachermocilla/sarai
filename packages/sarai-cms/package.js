@@ -43,7 +43,8 @@ Package.onUse(function(api) {
     "client/components/main/banner-options.html",
     "client/components/main/banner-options.js",
 
-    "client/components/sarai-cms.less"
+    "client/components/sarai-cms.less",
+    "client/components/sarai-cms.js"
   ]
 
   api.addFiles(client, "client")

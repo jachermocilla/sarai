@@ -4,19 +4,44 @@
     <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
       <div class="cms-block-header">
         Top Header
+        {{#unless enabled}}
+          <span class="cms-disabled-status"> - [{{enabledStatus}}]</span>
+        {{/unless}}
       </div>
 
-      <div id="target" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3" value="{{message}}">
-        <label class="mdl-textfield__label" for="sample3">Message</label>
+      <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-top-header-message-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-top-header-message" value="{{message}}">
+            <label class="mdl-textfield__label" for="sample3">Message</label>
+          </div>
+        </div>
+
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-top-header-search-text-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-top-header-search-text" value="{{searchText}}">
+            <label class="mdl-textfield__label" for="sample3">Search Text</label>
+          </div>
+        </div>
+
       </div>
+
 
       <div class="cms-block-actions">
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+        <button id="cms-top-header-enable" class="mdl-button mdl-js-button mdl-button--raised">
+          {{#if enabled}} Disable {{else}} Enable {{/if}}
+        </button>
+
+        <button id="cms-top-header-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
           Save
         </button>
       </div>
 
     </div>
+  </div>
+
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
   </div>
 </template>

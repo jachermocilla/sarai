@@ -37,7 +37,7 @@ Package.onUse(function(api) {
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
     "sarai:sarai-blog-data",
-    "sarai:sarai-weather-data",
+    "sarai:sarai-weather-data"
     ]
 
   api.use(packages);
