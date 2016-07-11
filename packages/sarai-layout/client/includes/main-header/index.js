@@ -23,7 +23,7 @@ Template.MainHeader.helpers({
     return Main.find({'name': 'topHeader'}).fetch()[0];
   },
 
-  links: function(){
+  mainlinks: function(){
     var obj = Main.findOne({'name': 'mainHeader'});
     if(typeof obj !== 'undefined'){
       return obj.links;
