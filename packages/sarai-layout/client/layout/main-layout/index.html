@@ -1,7 +1,6 @@
 <template name="MainLayout">
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <main class="mdl-layout__content">
-      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
         {{> MainHeader}}
         <!-- {{> SideBar}} -->
         <main class="mdl-layout__content">
@@ -9,8 +8,8 @@
             <!-- {{> ErrorList}} -->
             {{> Template.dynamic template=main}}
           </div>
-        </main>            
+          {{> Footer}}
+        </main>
       </div>
-    </main>
-  </div>
+
 </template>
