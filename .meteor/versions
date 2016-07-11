@@ -134,6 +134,7 @@ sacha:spin@0.1.6
 sarai:sarai-admin@0.0.1
 sarai:sarai-assistance-data@0.0.1
 sarai:sarai-assistance-result-data@0.0.1
+sarai:sarai-blog-data@0.0.1
 sarai:sarai-clinic-data@0.0.1
 sarai:sarai-core@0.0.1
 sarai:sarai-experts-data@0.0.1
@@ -142,10 +143,13 @@ sarai:sarai-lab-data@0.0.1
 sarai:sarai-layout@0.0.1
 sarai:sarai-lib@0.0.1
 sarai:sarai-log-data@0.0.1
+sarai:sarai-main@0.0.1
+sarai:sarai-main-data@0.0.1
 sarai:sarai-pests@0.0.1
 sarai:sarai-pests-data@0.0.1
 sarai:sarai-pests-form-data@0.0.1
 sarai:sarai-report-data@0.0.1
+sarai:sarai-services-data@0.0.1
 sarai:sarai-user@0.0.1
 sarai:sarai-waiss@0.0.1
 sarai:sarai-waiss-data@0.0.1

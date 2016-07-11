@@ -19,6 +19,7 @@ Package.onUse(function(api) {
     'sarai:sarai-admin',
     'sarai:sarai-layout',
     'sarai:sarai-pests',
+    'sarai:sarai-main',
     "sarai:sarai-pests-data",
     "sarai:sarai-pests-form-data",
     "sarai:sarai-assistance-data",
@@ -30,9 +31,11 @@ Package.onUse(function(api) {
     "sarai:sarai-report-data",
     "sarai:sarai-images-data",
     "sarai:sarai-waiss",
-    "sarai:sarai-waiss-data"
-    ]
-
+    "sarai:sarai-waiss-data",
+    "sarai:sarai-main-data",
+    "sarai:sarai-services-data",
+    "sarai:sarai-blog-data"
+    ];
   api.use(packages);
   api.imply(packages);
 });

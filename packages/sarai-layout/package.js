@@ -15,7 +15,8 @@ Package.onUse(function(api) {
   
   var packages = [
     "sarai:sarai-lib",
-    "sarai:sarai-user"
+    "sarai:sarai-user",
+    "sarai:sarai-main-data"
   ]
 
   api.use(packages)
@@ -24,11 +25,19 @@ Package.onUse(function(api) {
   var client = [
     "client/includes/head.html",
     "client/includes/top-header/index.html",
+    "client/includes/top-header/index.less",
+    "client/includes/top-header/helper.js",
+    "client/includes/footer/index.html",
+    "client/includes/footer/index.less",
+    "client/includes/footer/helper.js",
+    "client/includes/footer/on-created.js",
     "client/includes/main-header/index.html",
     "client/includes/main-header/index.js",
     "client/includes/main-header/index.less",
+    "client/includes/main-header/on-created.js",
     "client/layout/main-layout/index.html",
     "client/layout/main-layout/index.less",
+    "client/layout/main-layout/helper.js",
     "client/layout/cms-layout/index.html",
     "client/includes/cms-module-header/index.html",
     "client/includes/cms-module-header/index.js",
@@ -39,7 +48,9 @@ Package.onUse(function(api) {
   api.addFiles(client, "client")
 
   api.addAssets([
-    "public/images/SARAI-white.png"
+    "public/footer-icons/call.png",
+    "public/footer-icons/mail.png",
+    "public/footer-icons/location.png"
     ], "client")
 
   api.export([
