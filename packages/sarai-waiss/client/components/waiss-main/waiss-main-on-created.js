@@ -1,5 +1,7 @@
 Template.WAISSMain.onCreated(function() {
     Meteor.subscribe('farm', Meteor.userId());
+
+    Meteor.call('computeWaterDeficit', 23.8, 30.8, 0.248, 2);
 });
 
 Template.WAISSGraphTemplate.onRendered(function() {
