@@ -1,0 +1,17 @@
+<template name="Bloglist">
+	<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;">
+		{{#if blogMain.enabled}}
+			<div class="mdl-cell mdl-cell--12-col">
+				<h5 class="titleblog blogtitle">{{blogMain.title}}</h5>
+				<h6>{{blogMain.text}}</h6>
+			</div>
+		{{/if}}
+		{{#each blogs}}
+			<div class="blogsection mdl-cell mdl-cell--4-col">
+			  	<a href="{{href}}"><img src="{{img}}" class="blog-image" style="text-align: center;"/><br />
+			  	<h6 class="titleblog">{{title}}</h6></a>
+			  	<p>{{makeString date}}</p>
+			</div>
+		{{/each}}
+	</div>
+</template>

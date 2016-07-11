@@ -1,0 +1,21 @@
+<template name="Serviceslist">
+	<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;">
+		{{#if servicesMain.enabled}}
+			<div class="mdl-cell mdl-cell--12-col" style="text-align: center;">
+				<h5 class="titleservices maintitle">{{servicesMain.title}}</h5>
+				<h6>{{servicesMain.description}}</h6>
+				<h6>{{servicesMain.subtext}}</h6>
+			</div>
+		{{/if}}
+		{{#each services}}
+			<div class="servicessection mdl-cell mdl-cell--4-col">
+			  	<a href="{{href}}"><img src="{{background}}" class="services-image" style="text-align: center;"/><br />
+			  	<h6 class="titleservices">{{title}}</h6></a>
+			  	<p>{{text}}</p>
+			</div>
+		{{/each}}
+		{{#if servicesMain.buttonEnabled}}
+			<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">MORE</button>
+		{{/if}}
+	</div>
+</template>
