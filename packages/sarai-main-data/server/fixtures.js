@@ -13,7 +13,7 @@ if (Main.find().count() === 0) {
 	    links: [
 	      {
 	      	name: 'Home',
-	      	href: '/home',
+	      	href: '/',
 	      	links: []
 	      },
 	      {

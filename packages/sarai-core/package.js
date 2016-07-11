@@ -35,8 +35,7 @@ Package.onUse(function(api) {
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
     "sarai:sarai-blog-data"
-    ]
-
+    ];
   api.use(packages);
   api.imply(packages);
 });
