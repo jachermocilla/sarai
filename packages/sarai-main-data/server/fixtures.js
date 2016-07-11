@@ -222,4 +222,24 @@ if (Main.find().count() === 0) {
     	subtext: '',
     	enabled: true
 	});
+
+	Main.insert({
+		name: 'testimonials',
+		title: 'What People Say…',
+	    mainTestimonial: 'SARAI aims to harness state-of-the-art science and technology to empower Filipino farmers.',
+	    subtext: '',
+	    author: 'Dr. Ma. Victoria O. Espaldon',
+	    img: '/samplepics/MVOE-2.jpg',
+	    testimonials: [
+	    	{
+		        title: '',
+		        author: 'Mr. Ricky S. Dador',
+		        authorInfo: 'Weather Observer, Dumangas Agromet Station',
+		        subtext: '',
+		        testimony: 'Yung SARAI makakatulong sa Dumangas para mas makilala o mas maging successful itong aming climate feild school for Dumangas',
+		        id: 'quotes1-link'
+	    	}
+	    ],
+	    enabled: true
+	});
 }

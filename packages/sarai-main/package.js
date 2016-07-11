@@ -45,6 +45,9 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/blog-list/blog-list.html",
     "client/components/sarai-home/includes/blog-list/blog-list.js",
     "client/components/sarai-home/includes/blog-list/blog-list.less",
+    "client/components/sarai-home/includes/testimonials/testimonials.html",
+    "client/components/sarai-home/includes/testimonials/testimonials.js",
+    "client/components/sarai-home/includes/testimonials/testimonials.less",
     "client/components/sarai-home/route.js",
     "client/components/sarai-home/helpers.js",
     "client/components/sarai-home/on-created.js"

@@ -1,14 +1,14 @@
-Template.Reports.helpers({
-  reportsMain: function(){
-    var obj = Main.findOne({'name': 'reports'});
+Template.Testimonials.helpers({
+  testimonialsMain: function(){
+    var obj = Main.findOne({'name': 'testimonials'});
     if(typeof obj !== 'undefined'){
       return obj;
     }
    },
-  reports: function(){
-  	var obj = Main.findOne({'name': 'reports'});
+  testimonials: function(){
+  	var obj = Main.findOne({'name': 'testimonials'});
     if(typeof obj !== 'undefined'){
-      return obj.reports;
+      return obj.testimonials;
     }
   }
 });

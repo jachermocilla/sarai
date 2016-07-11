@@ -1,15 +1,23 @@
-<template name="Reports">
-	{{#if reportsMain.enabled}}
+<template name="Testimonials">
+	{{#if testimonialsMain.enabled}}
 		<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;">
-			<div class="mdl-cell mdl-cell--4-col">
-				<h3>{{reportsMain.text}}</h3>
+			<div class="mdl-cell mdl-cell--12-col">
+				<h4>{{testimonialsMain.title}}</h4>
+				<hr />
 			</div>
-			{{#each reports}}
-				<div class="reportsection mdl-cell mdl-cell--4-col" style="text-align: center;">
-				  	<img src="{{img}}" class="reports-image"/><br />
-				  	<a href="{{href}}" class="link">{{label}}<i class="material-icons">navigate_next</i></a>
+			{{#each testimonials}}
+				<div class="testimonialsection mdl-cell mdl-cell--5-col">
+				  	<h4>{{testimony}}</h4>
+				  	<p>{{author}} | {{authorInfo}}</p>
 				</div>
 			{{/each}}
+			<div class="testimonialsection mdl-cell mdl-cell--3-col">
+				<img src="{{testimonialsMain.img}}" class="testimonial-image"/>
+			</div>
+			<div class="testimonialsection mdl-cell mdl-cell--4-col">
+				<h4>{{testimonialsMain.mainTestimonial}}</h4>
+				<h6>{{testimonialsMain.author}}</h6>
+			</div>
 		</div>
 	{{/if}}
 </template>
