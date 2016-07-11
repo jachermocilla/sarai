@@ -13,8 +13,12 @@ var computeETo = function(tmin, tmax, latitude, dayOfTheYear) {
 }
 
 Meteor.methods({
-    'computeWaterDeficit': function(tmin, tmax, latitude, dayOfTheYear) {
+    'computeWaterDeficit': function(cropData, tmin, tmax, latitude, dayOfTheYear) {
         var ETo = computeETo(tmin, tmax, latitude, dayOfTheYear);
+
+        var crop = CropData.findOne({
+            'name': cropData.crop
+        });
 
         console.log(ETo);
     }
