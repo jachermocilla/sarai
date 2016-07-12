@@ -18,17 +18,32 @@ Template.HeaderOptions.onRendered(() => {
       const name = $('#cms-banner-link-name-input').val()
       const href = $('#cms-banner-link-href-input').val()
 
-      if (indices.length == 1) {
-        //Top level link
-        record.links[parseInt(indices[0])].name = name
-        record.links[parseInt(indices[0])].href = href
+      const newLink = { name, href }
+
+      const linkAction = Session.get('linkAction')
+      if (linkAction == 'Add Top Level Link') {
+        record.links.push(newLink)
+      } else if (linkAction == 'Add Sub Link') {
+        const indices = Session.get('id').split('-')
+
+        if (record.links[parseInt(indices[1])].links) {
+          record.links[parseInt(indices[1])].links.push(newLink)
+        } else {
+          record.links[parseInt(indices[1])].set('links', [newLink])
+        }
+
+      } else if (linkAction == 'Edit Link') {
+        if (indices.length == 1) {
+          //Top level link
+          record.links[parseInt(indices[0])] = newLink
+        }
+
+        else {
+          //Sub link
+          record.links[parseInt(indices[0])].links[parseInt(indices[1])] = newLink
+        }
       }
 
-      else {
-        //Sub link
-        record.links[parseInt(indices[0])].links[parseInt(indices[1])].name = name
-        record.links[parseInt(indices[0])].links[parseInt(indices[1])].href = href
-      }
 
       Meteor.call('cms-header-links-update', record.links, (error, result) => {
         let toast = 'Link Updated'
@@ -51,7 +66,7 @@ Template.HeaderOptions.onRendered(() => {
 Template.HeaderOptions.events({
   'click .cms-header-link-edit': (e) => {
     const id = e.currentTarget.id
-    Session.set('linkAction', 'edit')
+    Session.set('linkAction', 'Edit Link')
     Session.set('id', id)
 
     const indices = id.split('-')
@@ -77,8 +92,8 @@ Template.HeaderOptions.events({
     $('#cms-banner-link-name').addClass('is-dirty')
     $('#cms-banner-link-href').addClass('is-dirty')
 
-    dialog.querySelector('#cms-banner-link-name-input').value = name
-    dialog.querySelector('#cms-banner-link-href-input').value = href
+    $('#cms-banner-link-name-input').val(name)
+    $('#cms-banner-link-href-input').val(href)
   },
 
   'click .cms-header-link-delete': (e) => {
@@ -107,7 +122,23 @@ Template.HeaderOptions.events({
       }
       showToast(toast)
     })
+  },
 
+  'click .cms-header-link-add': (e) => {
+    const id = e.currentTarget.id
+
+    if (id == 'add-top-level-link') {
+      Session.set(linkAction, 'Add Top Level Link')
+    } else {
+      Session.set('id', id)
+      Session.set('linkAction', 'Add Sub Link')
+    }
+
+    const dialog = document.querySelector('.cms-header-edit-dialog');
+    dialog.showModal();
+
+    $('#cms-banner-link-name-input').val("")
+    $('#cms-banner-link-href-input').val("")
   }
 
 });
@@ -126,6 +157,10 @@ Template.HeaderOptions.helpers({
     if (record) {
       return record.links
     }
+  },
+
+  linkAction: () => {
+    return Session.get('linkAction')
   },
 
   myCallbacks: () => {

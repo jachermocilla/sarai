@@ -94,7 +94,7 @@ Meteor.methods({
       { name: 'mainHeader'},
       {
         $set: {
-          links: links
+          links
         }
       },
       { upsert: true }

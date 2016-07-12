@@ -50,17 +50,18 @@
                   </div>
                   <div style="clear: both"></div>
                 {{/each}}
-              {{/let}}
 
-              <div class="cms-header-sub-level-link">
-                <button class="mdl-button mdl-js-button mdl-button--raised">
-                  <i class="material-icons">add</i> Add Sub Link
-                </button>
-              </div>
-              <hr>
+
+                <div class="cms-header-sub-level-link">
+                  <button id="add-{{parentIndex}}" class="mdl-button mdl-js-button mdl-button--raised cms-header-link-add">
+                    <i class="material-icons">add</i>Add Sub Link
+                  </button>
+                </div>
+                <hr>
+              {{/let}}
             {{/each}}
             <div>
-              <button class="mdl-button mdl-js-button mdl-button--raised">
+              <button id="add-top-level-link" class="mdl-button mdl-js-button mdl-button--raised cms-header-link-add">
                 <i class="material-icons">add</i> Add Top Level Link
               </button>
             </div>
@@ -84,7 +85,7 @@
   </div>
 
   <dialog class="mdl-dialog cms-header-edit-dialog">
-    <h4 class="mdl-dialog__title">Edit</h4>
+    <h4 class="mdl-dialog__title">{{linkAction}}</h4>
     <div class="mdl-dialog__content">
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-link-name">

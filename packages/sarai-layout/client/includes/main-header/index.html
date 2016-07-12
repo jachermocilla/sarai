@@ -15,13 +15,13 @@
         <div class="mdl-layout-spacer"></div>
 
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          {{#each mainlinks}}
+          {{#each mainLink in mainLinks}}
           <span>
-              <a class="mdl-navigation__link" href="{{href}}" id="{{id}}">{{name}}</a>
-              {{#if withsublinks}}
-                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="{{id}}">
-                  {{#each links}}
-                  <li class="mdl-menu__item mdl-menu__item-full--bleed-divider" data-link-href="{{href}}"><a href="{{href}}" id="sublinkclass">{{name}}</a></li>
+              <a class="mdl-navigation__link" href="{{mainLink.href}}" id="{{mainLink.id}}">{{mainLink.name}}</a>
+              {{#if hasSubLinks mainLink}}
+                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="{{mainLink.id}}">
+                  {{#each link in mainLink.links}}
+                  <li class="mdl-menu__item mdl-menu__item-full--bleed-divider" data-link-href="{{link.href}}"><a href="{{link.href}}" id="sublinkclass">{{link.name}}</a></li>
                   {{/each}}
                 </ul>
               {{/if}}

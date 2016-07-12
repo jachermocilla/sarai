@@ -1,5 +1,5 @@
 Template.MainHeader.helpers({
-  
+
   isSuitability: function(){
   	var routeName = FlowRouter.getRouteName();
   	console.log("Current route name is: ", routeName);
@@ -23,12 +23,12 @@ Template.MainHeader.helpers({
     return Main.find({'name': 'topHeader'}).fetch()[0];
   },
 
-  mainlinks: function(){
+  mainLinks: function(){
     var obj = Main.findOne({'name': 'mainHeader'});
-    if(typeof obj !== 'undefined'){
-      return obj.links;
+    if (obj) {
+      console.log(obj.links)
     }
-
+    return obj && obj.links
   },
 
   mainH: function(){
@@ -36,7 +36,16 @@ Template.MainHeader.helpers({
     if(typeof obj !== 'undefined'){
       return obj;
     }
+  },
+
+  hasSubLinks: (mainLink) => {
+    if (mainLink.links && mainLink.links.length > 0) {
+      return true
+    } else {
+      return false
+    }
   }
+
 
 });
 
