@@ -28,8 +28,7 @@ Package.onUse(function(api) {
   api.addFiles([
     "server/methods.js",
     "server/publications.js",
-    "server/fixture.js",
-    "server/startup.js"
+    "server/fixture.js"
     ], "server")
 
   api.export([

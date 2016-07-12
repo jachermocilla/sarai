@@ -1,8 +1,8 @@
 <template name="ManageAccount">
 	<form class="manage-account-form">
     <h3>Request for Account Changes</h3>
-    <h4>Select Account Privilege/s</h4>
-    <div class="mdl-cell mdl-cell--2-col bottom-space1">
+    <h4>Select Administrator Privilege/s</h4>
+    <div class="mdl-cell mdl-cell--2-col bottom-space-1">
       {{#each userRole}}
         <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
           <input type="checkbox" class="mdl-checkbox__input" value="{{this}}" checked="{{isChecked this}}" />
@@ -11,7 +11,7 @@
       {{/each}}
     </div>
 
-    <div class="mdl-cell mdl-cell--12-col bottom-space2">
+    <div class="mdl-cell mdl-cell--12-col bottom-space-2">
       <button id="delete-account" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Delete Account</button>
     </div>
        

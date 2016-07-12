@@ -29,7 +29,8 @@ Package.onUse(function(api) {
   var server = [
     "server/fixtures.js",
     "server/methods.js",
-    "server/publications.js"
+    "server/publications.js",
+    "server/startup.js"
   ]
 
   api.addFiles(server, "server")
