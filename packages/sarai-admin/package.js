@@ -22,16 +22,7 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   api.addFiles([
-    "lib/collections/admin.js",
-    "client/sign-in/index.html",
-    "client/sign-in/index.js",
-    "client/sign-in/route.js",
-    "client/sign-up/index.html",
-    "client/sign-up/index.js",
-    "client/sign-up/route.js",
-    "client/errors/index.html",
-    "client/errors/index.js",
-    "client/errors/index.less"
+    "lib/collections/admin.js"
     ], ["client", "server"])
 
   api.addFiles([

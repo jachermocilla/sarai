@@ -1,7 +1,24 @@
 <template name="MainHeader">
+<<<<<<< d1acf8b0005799c598112a37eee7d6d0a2360956
   	<header class="my-header mdl-layout__header" style="background-color: #FFFFFF;">
       {{#if topHeader.enabled}}
           {{> TopHeader}}
+=======
+	<header class="mdl-layout__header  main-header" style="background-color: #396834;">
+    <div class="mdl-layout__header-row">
+
+      <a href="/pests" class="mdl-layout-title alerts-and-advisories-header-title-anchor">		      	
+      	<img src="/packages/sarai_sarai-layout/public/images/SARAI-white.png" height="60px" />
+        <!-- <span class="alerts-and-advisories-header-title">Integrated Pest Management</span> -->     
+      </a>
+
+      <div class="mdl-layout-spacer">
+        {{#if currentUser}}
+          {{configureAccountType}}
+          <button id="manage-account" class= "mdl-color-text--white mdl-button customized">
+            Manage Account
+          </button>
+>>>>>>> Removed old signin/signup in sarai-admin, removed top-bar and side-bar in sarai-layout
         {{/if}}
       {{#if mainH.enabled}}
       <div class="navClass mdl-layout__header-row">
