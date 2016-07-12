@@ -1,6 +1,6 @@
 FlowRouter.route("/waiss/create-farm", {
 	action: function() {
-        BlazeLayout.render("MainLayout", {
+        BlazeLayout.render("WAISSLayout", {
           main: "WAISSCreateFarm"    
         })
 	}

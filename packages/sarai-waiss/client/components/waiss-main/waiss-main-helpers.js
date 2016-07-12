@@ -15,10 +15,10 @@ Template.WAISSMain.helpers({
 Template.WAISSMain.events({
     'click .list-farm-item': function(e) {
         var currentFarm = $(e.target).attr('farmId');
-        var farmInfo = Farm.findOne({
-            _id: currentFarm
-        });
+        // var farmInfo = Farm.findOne({
+        //     _id: currentFarm
+        // });
         Session.set('farmId', currentFarm);
-        Meteor.call('computeWaterDeficit', farmInfo, 22.6, 28.5, 0.248, 192);
+        // Meteor.call('computeWaterDeficit', farmInfo, 22.6, 28.5, 0.248, 192);
     }
 });

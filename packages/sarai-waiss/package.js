@@ -32,7 +32,10 @@ Package.onUse(function(api) {
       "client/components/waiss-main/waiss-main-route.js",
       "client/components/waiss-main/waiss-main-on-created.js",
       "client/components/create-farm/create-farm.html",
+      "client/components/create-farm/create-farm.less",
       "client/components/create-farm/create-farm-route.js",
+      "client/components/create-farm/create-farm-helpers.js",
+      "client/components/create-farm/create-farm-on-created.js",
       "client/layout/waiss-layout.html",
       "client/layout/waiss-layout.less",
       "client/includes/login-middleware.html"

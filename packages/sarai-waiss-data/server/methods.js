@@ -46,5 +46,12 @@ Meteor.methods({
         var ETa = ETo * Kc;
 
         console.log(ETa);
+    },
+    'createFarm': function(farmInfo) {
+        Farm.insert(farmInfo);
+
+        return {
+            name: farmInfo.name
+        }
     }
 });
