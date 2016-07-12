@@ -13,6 +13,64 @@
           </div>
             {{> CMSUpload callbacks=myCallbacks}}
         </div>
+
+        <div {{cmsBlockContentRowClasses}}>
+          <div class="cms-block-content-label">
+            Links
+          </div>
+          <br><br>
+
+          <div>
+
+            {{#each list in links}}
+              <div>
+                <span class="cms-header-link-name">{{list.name}}</span> - <span class="cms-header-link-href">{{list.href}}</span>
+
+                <span class="cms-header-link-actions">
+                   <a href="" id="{{@index}}" class="cms-header-link-edit"><i class="material-icons">edit</i></a>
+                  <a href=""><i class="material-icons">delete</i></a>
+                </span>
+              </div>
+
+              {{#let parentIndex=@index}}
+                {{#each link in list.links}}
+                  <div class="cms-header-sub-level-link">
+                    <span class="cms-header-link-name">
+                      {{link.name}}
+                    </span> -
+                    <span class="cms-header-link-href">
+                      {{link.href}}
+                    </span>
+
+                    <span class="cms-header-link-actions">
+                      <a href="" id="{{parentIndex}}-{{@index}}" class="cms-header-link-edit"><i class="material-icons">edit</i></a>
+                      <a href=""><i class="material-icons">delete</i></a>
+                    </span>
+
+                  </div>
+                  <div style="clear: both"></div>
+                {{/each}}
+              {{/let}}
+
+              <div class="cms-header-sub-level-link">
+                <button class="mdl-button mdl-js-button mdl-button--raised">
+                  <i class="material-icons">add</i> Add Sub Link
+                </button>
+              </div>
+              <hr>
+            {{/each}}
+            <div>
+              <button class="mdl-button mdl-js-button mdl-button--raised">
+                <i class="material-icons">add</i> Add Top Level Link
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div {{cmsBlockContentRowClasses}}>
+          BETA Button Enabled
+        </div>
+
       </div>
 
 
@@ -24,4 +82,24 @@
 
     </div>
   </div>
+
+  <dialog class="mdl-dialog cms-header-edit-dialog">
+    <h4 class="mdl-dialog__title">Edit</h4>
+    <div class="mdl-dialog__content">
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-link-name">
+          <input class="mdl-textfield__input" type="text" id="cms-banner-link-name-input">
+          <label class="mdl-textfield__label" for="cms-banner-link-name-input">Link Name</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-link-href">
+          <input class="mdl-textfield__input" type="text" id="cms-banner-link-href-input">
+          <label class="mdl-textfield__label" for="cms-banner-link-href-input">Link href</label>
+        </div>
+      </form>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button save">Save</button>
+      <button type="button" class="mdl-button cancel">Cancel</button>
+    </div>
+  </dialog>
 </template>

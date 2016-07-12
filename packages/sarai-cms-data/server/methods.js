@@ -4,8 +4,8 @@ Meteor.methods({
       { name: 'topHeader' },
       {
         $set : {
-          message: message,
-          searchText: searchText
+          message,
+          searchText
         }
       },
       { upsert: true }
@@ -53,11 +53,11 @@ Meteor.methods({
           banners: [
             {
               img: banner.img,
-              align: align,
-              title: title,
-              text: text,
-              subtext: subtext,
-              buttonText: buttonText
+              align,
+              title,
+              text,
+              subtext,
+              buttonText
             }
           ]
         }
@@ -87,6 +87,18 @@ Meteor.methods({
       },
       { upsert: true }
     );
+  },
+
+  'cms-header-links-update': (links) => {
+    Main.update(
+      { name: 'mainHeader'},
+      {
+        $set: {
+          links: links
+        }
+      },
+      { upsert: true }
+    )
   },
 
 })
