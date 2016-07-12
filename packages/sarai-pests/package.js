@@ -15,7 +15,7 @@ Package.onUse(function(api) {
 
   var packages = [
     "sarai:sarai-lib",
-    "sarai:sarai-user",
+    "sarai:sarai-user-data",
     "sarai:sarai-admin",
     "sarai:sarai-layout",
     "sarai:sarai-pests-data",
@@ -93,6 +93,11 @@ Package.onUse(function(api) {
     "client/components/sarai-pests-assist-search/index.less",
     "client/components/sarai-pests-assist-search/route.js",
     "client/components/sarai-pests-assist-search/on-created.js",
+    "client/components/sarai-pests-manage-account/index.html",
+    "client/components/sarai-pests-manage-account/index.less",
+    "client/components/sarai-pests-manage-account/index.js",
+    "client/components/sarai-pests-manage-account/route.js",
+
 
     "client/components/admin-page/index.js",
     "client/components/admin-page/sarai-pests-assistance/index.html",

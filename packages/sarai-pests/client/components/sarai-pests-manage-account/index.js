@@ -15,13 +15,11 @@ Template.ManageAccount.helpers({
 Template.ManageAccount.events({
   'submit form' : function(e) {
     e.preventDefault();
-
     var accountType = $(e.target).find('[id=accountType]').val();
     if (accountType != Meteor.user().profile.accountType){
       Meteor.call('updateAccountType', accountType);
-      alert("Request for account updates was successfully submitted to Super Admin.");
+      alert("Request for account updates was successfully submitted to Administrator.");
     }
-
     history.back();
   },
   'click #cancel': function(e){
@@ -31,7 +29,7 @@ Template.ManageAccount.events({
   'click #delete-account': function(e){
     e.preventDefault();
     if (confirm("Are you sure you want to delete your account?")){
-      alert("Request for account updates was successfully submitted to Super Admin.");
+      alert("Request for account updates was successfully submitted to Administrator.");
       history.back();
     }
   }

@@ -15,8 +15,12 @@ Package.onUse(function(api) {
   
   var packages = [
     "sarai:sarai-lib",
+<<<<<<< 32f6b0e100e5bfddaabdd9f7823048b851b00f02
     "sarai:sarai-user",
     "sarai:sarai-main-data"
+=======
+    "sarai:sarai-user-data"
+>>>>>>> Renamed sarai-user package to sarai-user-data and moved client manage-account to sarai-pests package
   ]
 
   api.use(packages)
