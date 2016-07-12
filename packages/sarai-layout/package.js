@@ -15,12 +15,8 @@ Package.onUse(function(api) {
   
   var packages = [
     "sarai:sarai-lib",
-<<<<<<< 32f6b0e100e5bfddaabdd9f7823048b851b00f02
-    "sarai:sarai-user",
-    "sarai:sarai-main-data"
-=======
+    "sarai:sarai-main-data",
     "sarai:sarai-user-data"
->>>>>>> Renamed sarai-user package to sarai-user-data and moved client manage-account to sarai-pests package
   ]
 
   api.use(packages)
@@ -28,7 +24,6 @@ Package.onUse(function(api) {
 
   var client = [
     "client/includes/head.html",
-<<<<<<< d1acf8b0005799c598112a37eee7d6d0a2360956
     "client/includes/top-header/index.html",
     "client/includes/top-header/index.less",
     "client/includes/top-header/helper.js",
@@ -36,8 +31,6 @@ Package.onUse(function(api) {
     "client/includes/footer/index.less",
     "client/includes/footer/helper.js",
     "client/includes/footer/on-created.js",
-=======
->>>>>>> Removed old signin/signup in sarai-admin, removed top-bar and side-bar in sarai-layout
     "client/includes/main-header/index.html",
     "client/includes/main-header/index.js",
     "client/includes/main-header/index.less",

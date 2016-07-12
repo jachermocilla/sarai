@@ -1,15 +1,15 @@
 isLoggedIn = function(){
-	if(Meteor.userId()===null){
-		console.log(Meteor.userId());
+	if (Meteor.userId() === null){
 		return false;
+	} else {
+		/*console.log("meron " + Meteor.user());
+		return Meteor.user().profile.accountType == accountType? true : false;*/
+		return true;
 	}
-	else{
-		 return true;
-	}
+	
 }
 
 goHome = function(){
-
-	FlowRouter.go('/pests-clinic');
-	FlowRouter.redirect('/pests-clinic');
+	FlowRouter.go('/pests');
+	FlowRouter.redirect('/pests');
 }

@@ -1,25 +1,24 @@
 Template.ManageAccount.helpers({
-  accountTypes: function(){
+  userRole: function(){
     // retrieve account types
-    return ["Registered", "Pest Library Admin", "Pest Identification Admin", "Pest Monitor Admin", "Pest Clinic Admin", "Super Admin"];
+    return ["Pest Library Admin", "Pest Identification Admin", "Pest Monitor Admin", "Pest Clinic Admin", "Super Admin"];
   },
-  checkCurrentAccountType: function(){
-    return this == Meteor.user().profile.accountType;
-  },
-  markCurrentAccountType: function(){
-    if (this == Meteor.user().profile.accountType)
-      return "font-weight: bold";
+  isChecked: function(role){
+    return Meteor.users.find({"profile.role": role}).count() > 0? true : false;
   }
 })
 
 Template.ManageAccount.events({
   'submit form' : function(e) {
     e.preventDefault();
-    var accountType = $(e.target).find('[id=accountType]').val();
-    if (accountType != Meteor.user().profile.accountType){
-      Meteor.call('updateAccountType', accountType);
-      alert("Request for account updates was successfully submitted to Administrator.");
-    }
+
+    var selectedRoles = [];
+    $("input[type=checkbox]:checked").map(function() {
+        selectedRoles.push($(this).val());
+    });
+
+    Meteor.call('updateAccountRole', selectedRoles);
+    alert("Request for account role changes was successfully submitted to Administrator.");
     history.back();
   },
   'click #cancel': function(e){
@@ -29,7 +28,7 @@ Template.ManageAccount.events({
   'click #delete-account': function(e){
     e.preventDefault();
     if (confirm("Are you sure you want to delete your account?")){
-      alert("Request for account updates was successfully submitted to Administrator.");
+      alert("Request for account deletion was successfully submitted to Administrator.");
       history.back();
     }
   }

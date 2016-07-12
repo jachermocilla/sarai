@@ -149,12 +149,8 @@ sarai:sarai-pests-data@0.0.1
 sarai:sarai-pests-form-data@0.0.1
 sarai:sarai-pests-report-data@0.0.1
 sarai:sarai-report-data@0.0.1
-<<<<<<< 32f6b0e100e5bfddaabdd9f7823048b851b00f02
 sarai:sarai-services-data@0.0.1
-sarai:sarai-user@0.0.1
-=======
 sarai:sarai-user-data@0.0.1
->>>>>>> Renamed sarai-user package to sarai-user-data and moved client manage-account to sarai-pests package
 service-configuration@1.0.5
 session@1.1.1
 sha@1.0.4
