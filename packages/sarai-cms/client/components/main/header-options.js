@@ -13,29 +13,38 @@ Template.HeaderOptions.onRendered(() => {
     const record = Main.findOne({name: 'mainHeader'})
 
     if (record) {
-      const id = Session.get('id')
-      const indices = id.split('-')
       const name = $('#cms-banner-link-name-input').val()
       const href = $('#cms-banner-link-href-input').val()
 
       const newLink = { name, href }
 
       const linkAction = Session.get('linkAction')
+
       if (linkAction == 'Add Top Level Link') {
-        record.links.push(newLink)
+
+        const newLinkEntry = {
+          name, href,
+          links: [],
+          id: name.replace(/ /g , "-").toLowerCase()
+        }
+
+        record.links.push(newLinkEntry)
       } else if (linkAction == 'Add Sub Link') {
         const indices = Session.get('id').split('-')
 
         if (record.links[parseInt(indices[1])].links) {
           record.links[parseInt(indices[1])].links.push(newLink)
         } else {
-          record.links[parseInt(indices[1])].set('links', [newLink])
+          record.links[parseInt(indices[1])].links = [newLink]
         }
 
       } else if (linkAction == 'Edit Link') {
+        const indices = Session.get('id').split('-')
+
         if (indices.length == 1) {
           //Top level link
-          record.links[parseInt(indices[0])] = newLink
+          record.links[parseInt(indices[0])].name = newLink.name
+          record.links[parseInt(indices[0])].href = newLink.href
         }
 
         else {
@@ -46,9 +55,9 @@ Template.HeaderOptions.onRendered(() => {
 
 
       Meteor.call('cms-header-links-update', record.links, (error, result) => {
-        let toast = 'Link Updated'
+        let toast = 'Saved'
         if (error) {
-          toast = 'Unable to save changes to link'
+          toast = 'Unable to save changes'
         }
 
         dialog.close();
@@ -65,9 +74,12 @@ Template.HeaderOptions.onRendered(() => {
 
 Template.HeaderOptions.events({
   'click .cms-header-link-edit': (e) => {
+    console.log('here')
+
     const id = e.currentTarget.id
     Session.set('linkAction', 'Edit Link')
     Session.set('id', id)
+    console.log(id)
 
     const indices = id.split('-')
     const record = Main.findOne({name: 'mainHeader'})
@@ -104,7 +116,7 @@ Template.HeaderOptions.events({
     if (record) {
       if (indices.length == 1) {
         //Top level link
-        if (record.links[parseInt(indices[0])].links.length > 0) {
+        if (record.links[parseInt(indices[0])].links && record.links[parseInt(indices[0])].links.length > 0) {
           showToast('Can\'t delete link with sublinks')
           return
         }
@@ -128,7 +140,7 @@ Template.HeaderOptions.events({
     const id = e.currentTarget.id
 
     if (id == 'add-top-level-link') {
-      Session.set(linkAction, 'Add Top Level Link')
+      Session.set('linkAction', 'Add Top Level Link')
     } else {
       Session.set('id', id)
       Session.set('linkAction', 'Add Sub Link')

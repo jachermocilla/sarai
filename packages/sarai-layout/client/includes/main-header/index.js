@@ -39,6 +39,7 @@ Template.MainHeader.helpers({
   },
 
   hasSubLinks: (mainLink) => {
+    console.log(mainLink)
     if (mainLink.links && mainLink.links.length > 0) {
       return true
     } else {
