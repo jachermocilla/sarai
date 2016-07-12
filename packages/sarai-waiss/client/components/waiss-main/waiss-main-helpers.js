@@ -20,5 +20,10 @@ Template.WAISSMain.events({
         // });
         Session.set('farmId', currentFarm);
         // Meteor.call('computeWaterDeficit', farmInfo, 22.6, 28.5, 0.248, 192);
+    },
+    'click #createFarm': function(e) {
+        e.preventDefault();
+
+        FlowRouter.go('/waiss/create-farm');
     }
 });
