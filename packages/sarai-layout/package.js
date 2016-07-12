@@ -15,7 +15,8 @@ Package.onUse(function(api) {
   
   var packages = [
     "sarai:sarai-lib",
-    "sarai:sarai-user-data"
+    "sarai:sarai-user-data",
+    'sarai:sarai-privileges-data'
   ]
 
   api.use(packages)
