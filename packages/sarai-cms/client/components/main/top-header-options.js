@@ -19,12 +19,7 @@ Template.TopHeaderOptions.events({
         toast = 'Saved changes to Top Header'
       }
 
-      (function() {
-        'use strict';
-        window['counter'] = 0;
-        var snackbarContainer = document.querySelector('#cms-toast');
-        snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
-      }());
+      showToast(toast)
     })
   },
 
@@ -41,12 +36,7 @@ Template.TopHeaderOptions.events({
         toast = `Unable to ${message} Top Header`
       }
 
-      (function() {
-        'use strict';
-        window['counter'] = 0;
-        var snackbarContainer = document.querySelector('#cms-toast');
-        snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
-      }());
+      showToast(toast)
 
     })
   }

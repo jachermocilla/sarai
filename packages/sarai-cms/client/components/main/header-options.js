@@ -59,16 +59,13 @@ Template.HeaderOptions.events({
     let name = ''
     let href = ''
 
-    if (indices.length == 1) {
-      //Top level link
-      if (record) {
+    if (record) {
+      if (indices.length == 1) {
+        //Top level link
         name = record.links[parseInt(indices[0])].name
         href = record.links[parseInt(indices[0])].href
-      }
-
-    } else {
-      //Sub link
-      if (record) {
+      } else {
+        //Sub link
         name = record.links[parseInt(indices[0])].links[parseInt(indices[1])].name
         href = record.links[parseInt(indices[0])].links[parseInt(indices[1])].href
       }
@@ -83,6 +80,35 @@ Template.HeaderOptions.events({
     dialog.querySelector('#cms-banner-link-name-input').value = name
     dialog.querySelector('#cms-banner-link-href-input').value = href
   },
+
+  'click .cms-header-link-delete': (e) => {
+    const id = e.currentTarget.id
+    const indices = id.split('-')
+    const record = Main.findOne({name: 'mainHeader'})
+
+    if (record) {
+      if (indices.length == 1) {
+        //Top level link
+        if (record.links[parseInt(indices[0])].links.length > 0) {
+          showToast('Can\'t delete link with sublinks')
+          return
+        }
+        record.links.splice(parseInt(indices[0]), 1)
+      } else {
+        //Sub link
+        record.links[parseInt(indices[0])].links.splice(parseInt(indices[1]), 1)
+      }
+    }
+
+    Meteor.call('cms-header-links-update', record.links, (error, result) => {
+      let toast = 'Deleted link'
+      if (error) {
+        toast = 'Unable to delete link'
+      }
+      showToast(toast)
+    })
+
+  }
 
 });
 

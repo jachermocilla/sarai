@@ -24,12 +24,7 @@ Template.BannerOptions.events({
         toast = 'Saved changes to Banner'
       }
 
-      (function() {
-        'use strict';
-        window['counter'] = 0;
-        var snackbarContainer = document.querySelector('#cms-toast');
-        snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
-      }());
+      showToast(toast)
     })
   }
 });
