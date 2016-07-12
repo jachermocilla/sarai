@@ -8,7 +8,14 @@
         
       </a>
 
-      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-layout-spacer">
+        {{#if currentUser}}
+          {{configureAccountType}}
+          <button id="manage-account" class= "mdl-color-text--white mdl-button customized">
+            Manage Account
+          </button>
+        {{/if}}
+      </div>
 
       <nav class="mdl-navigation mdl-layout--large-screen-only">
         <span class="mdl-navigation__link">
@@ -20,4 +27,3 @@
   </header>
 
 </template>
-

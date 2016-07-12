@@ -16,14 +16,18 @@ Template.MainHeader.helpers({
 		else{
 			$("#navA").show();
 		}
-	}
+	},
+  configureAccountType: function(){
+    if (!Meteor.user().profile){
+      Meteor.call('updateAccountType', "Registered");
+    }
+  }
 });
 
 Template.MainHeader.events({
-    'click .logout': function(event){
+    'click #manage-account': function(event){
         event.preventDefault();
-        Meteor.logout();
-        FlowRouter.go("/pests");
+        FlowRouter.go("/pests-manage-account");
     }
 });
 

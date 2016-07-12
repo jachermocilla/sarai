@@ -31,10 +31,20 @@ Package.onUse(function(api) {
   api.addFiles(lib, ["client", "server"])
 
   var client = [
-    "client/config.js"
+    "client/config.js",
+    "client/manage-account/index.html",
+    "client/manage-account/index.less",
+    "client/manage-account/index.js",
+    "client/manage-account/route.js"
   ]
 
   api.addFiles(client, "client")
+
+  var server = [
+    "server/methods.js"
+  ]
+
+  api.addFiles(server, "server")
 
 });
 
