@@ -19,16 +19,9 @@ Template.MainHeader.helpers({
 	},
   configureAccountType: function(){
     if (!Meteor.user().profile){
-      Meteor.call('updateAccountType', "Registered");
+      Meteor.call('updateAccountRole', []);
     }
   }
-});
-
-Template.MainHeader.events({
-    'click #manage-account': function(event){
-        event.preventDefault();
-        FlowRouter.go("/pests-manage-account");
-    }
 });
 
 
@@ -40,3 +33,11 @@ LoggedIn = function(){
 		return true;
 	}
 }
+
+Template._loginButtonsLoggedInDropdownActions.onRendered(function(){
+    $("#login-buttons-open-change-password").before("<div class='login-button' id='login-buttons-manage-account'>Manage Account</div>");
+    $("#login-buttons-manage-account").click(function(event) {
+      FlowRouter.go("/pests-manage-account");
+    });
+});
+
