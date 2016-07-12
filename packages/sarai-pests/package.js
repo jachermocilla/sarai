@@ -15,6 +15,7 @@ Package.onUse(function(api) {
 
   var packages = [
     "sarai:sarai-lib",
+    'sarai:sarai-privileges-data',
     "sarai:sarai-user-data",
     "sarai:sarai-layout",
     "sarai:sarai-pests-data",
