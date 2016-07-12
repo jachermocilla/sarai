@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'sarai:sarai-user',
+  name: 'sarai:sarai-user-data',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -25,17 +25,13 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
-    "lib/collections/sarai-user.js"
+    "lib/collections/sarai-user-data.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
 
   var client = [
-    "client/config.js",
-    "client/manage-account/index.html",
-    "client/manage-account/index.less",
-    "client/manage-account/index.js",
-    "client/manage-account/route.js"
+    "client/config.js"
   ]
 
   api.addFiles(client, "client")
@@ -51,5 +47,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('sarai:sarai-user');
+  api.use('sarai:sarai-user-data');
 });
