@@ -9,7 +9,7 @@ isLoggedIn = function(){
 }
 
 goHome = function(){
-	//alert('Not Found!');
+
 	FlowRouter.go('/pests-clinic');
 	FlowRouter.redirect('/pests-clinic');
 }

@@ -1,5 +1,5 @@
 <template name="MainHeader">
-  	<header class="my-header mdl-layout__header mdl-layout__header--waterfall" style="background-color: #FFFFFF;">
+  	<header class="my-header mdl-layout__header" style="background-color: #FFFFFF;">
       {{#if topHeader.enabled}}
           {{> TopHeader}}
         {{/if}}
@@ -12,7 +12,10 @@
           
         </a>
 
-        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-layout-spacer">
+          
+
+        </div>
 
         <nav class="mdl-navigation mdl-layout--large-screen-only">
           {{#each links}}
@@ -24,9 +27,18 @@
               {{#if mainH.buttonEnabled}}
               <button type='button' class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' style="background-color: #F2AF13; color: #484848; font-size: 15px; height: 50px; width: 175px;"> {{mainH.buttonText}}</button>
               {{/if}}
+
+
+              {{#if currentUser}}
+                {{configureAccountType}}
+                <button id="manage-account" class= "mdl-color-text--white mdl-button customized">
+                  Manage Account
+                </button>
+              {{/if}}
         </nav>
       </div>
       {{/if}}
+
+
     </header>
 </template>
-

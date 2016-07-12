@@ -1,0 +1,25 @@
+<template name="ManageAccount">
+	<form class="manage-account-form">
+    <h3>Request for Account Changes</h3>
+    <div class="mdl-select mdl-js-select mdl-select--floating-label bottom-space">
+     <h5>Select Account Privilege</h5>
+     <select class="mdl-select__input" id="accountType">
+      {{#each accountTypes}}
+        <option value="{{this}}" selected="{{checkCurrentAccountType}}" style="{{markCurrentAccountType}}">{{this}}</option>
+      {{/each}}
+      </select>
+    </div>
+
+    <div class="mdl-cell mdl-cell--12-col bottom-space">
+      <button id="delete-account" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Delete Account</button>
+    </div>
+       
+    <div class="mdl-cell mdl-cell--12-col">
+      <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" type="submit" name="change-account" value="Request Changes" />
+      <button id="cancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Cancel</button>
+    </div>
+
+     
+   
+   </form>
+</template>
