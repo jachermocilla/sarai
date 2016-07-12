@@ -1,43 +1,92 @@
 Template.BannerOptions.created = function() {
-  Uploader.init(this);
 }
 
-Template.BannerOptions.rendered = function () {
-  Uploader.render.call(this);
-};
+Template.BannerOptions.onRendered(() => {
+  $("#cms-banner-title-div").addClass("is-dirty");
+  $("#cms-banner-align-div").addClass("is-dirty");
+  $("#cms-banner-subtext-div").addClass("is-dirty");
+  $("#cms-banner-text-div").addClass("is-dirty");
+  $("#cms-banner-button-text-div").addClass("is-dirty");
+})
 
 Template.BannerOptions.events({
-  'click .start': function (e) {
-    Uploader.startUpload.call(Template.instance(), e);
+  'click #cms-banner-save': () => {
+    const title = $("#cms-banner-title").val()
+    const align = $("#cms-banner-align").val()
+    const text = $("#cms-banner-text").val()
+    const subtext = $("#cms-banner-subtext").val()
+    const buttonText = $("#cms-banner-button-text").val()
+
+
+    Meteor.call('cms-banner-update', align, title, text, subtext, buttonText, (error, result) => {
+      let toast = 'Unable to save changes'
+      if (error) { } else {
+        toast = 'Saved changes to Banner'
+      }
+
+      (function() {
+        'use strict';
+        window['counter'] = 0;
+        var snackbarContainer = document.querySelector('#cms-toast');
+        snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
+      }());
+    })
   }
 });
 
 Template.BannerOptions.helpers({
-  'infoLabel': function() {
-    var instance = Template.instance();
+  title: () => {
+    const record = Main.findOne({name: 'banner'})
 
-    // we may have not yet selected a file
-    var info = instance.info.get()
-    if (!info) {
-      return;
-    }
-
-    var progress = instance.globalInfo.get();
-
-    // we display different result when running or not
-    return progress.running ?
-      info.name + ' - ' + progress.progress + '% - [' + progress.bitrate + ']' :
-      info.name + ' - ' + info.size + 'B';
+    return record && record.banners[0].title
   },
-  'progress': function() {
-    return Template.instance().globalInfo.get().progress + '%';
+
+  align: () => {
+    const record = Main.findOne({name: 'banner'})
+
+    return record && record.banners[0].align
   },
-  'submitData': function() {
-        if (this.formData) {
-            this.formData['contentType'] = this.contentType;
-        } else {
-            this.formData = {contentType: this.contentType};
+
+  text: () => {
+    const record = Main.findOne({name: 'banner'})
+
+    return record && record.banners[0].text
+  },
+
+  subtext: () => {
+    const record = Main.findOne({name: 'banner'})
+
+    return record && record.banners[0].subtext
+  },
+
+  buttonText: () => {
+    const record = Main.findOne({name: 'banner'})
+
+    return record && record.banners[0].buttonText
+  },
+
+  myCallbacks: () => {
+    return {
+      formData: () => {
+        return {
+          filename: 'banner-img',
+          uploadGroup: 'main'
         }
-        return typeof this.formData == 'string' ? this.formData : JSON.stringify(this.formData);
-    },
+      },
+      finished: (index, fileInfo, context) => {
+        Meteor.call('cms-banner-img-update', `${fileInfo.name}`, (error, result) => {
+          let toast = 'File uploaded successfully'
+          if (error) {
+            toast = 'Unable to upload file'
+          }
+          (function() {
+            'use strict';
+            window['counter'] = 0;
+            var snackbarContainer = document.querySelector('#cms-toast');
+            snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
+          }());
+        })
+      }
+    }
+  }
 })

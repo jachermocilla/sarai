@@ -41,6 +41,52 @@ Meteor.methods({
       },
       { upsert: true }
     );
-  }
+  },
+
+  'cms-banner-update': (align, title, text, subtext, buttonText) => {
+    const banner = Main.findOne({name: 'banner'}).banners[0]
+
+    Main.update(
+      { name: 'banner' },
+      {
+        $set : {
+          banners: [
+            {
+              img: banner.img,
+              align: align,
+              title: title,
+              text: text,
+              subtext: subtext,
+              buttonText: buttonText
+            }
+          ]
+        }
+      },
+      { upsert: true }
+    );
+  },
+
+  'cms-banner-img-update': (link) => {
+    const banner = Main.findOne({name: 'banner'}).banners[0]
+
+    Main.update(
+      { name: 'banner' },
+      {
+        $set : {
+          banners: [
+            {
+              img: link,
+              align: banner.align,
+              title: banner.title,
+              text: banner.text,
+              subtext: banner.subtext,
+              buttonText: banner.buttonText
+            }
+          ]
+        }
+      },
+      { upsert: true }
+    );
+  },
 
 })
