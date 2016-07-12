@@ -23,7 +23,6 @@ Package.onUse(function(api) {
 
   var client = [
     "client/includes/head.html",
-    "client/includes/top-header/index.html",
     "client/includes/main-header/index.html",
     "client/includes/main-header/index.js",
     "client/includes/main-header/index.less",
