@@ -1,4 +1,3 @@
-
 Template.SaraiPestsId.helpers({
 	pests: function(){
 		return PlantProblem.find({'type': 'Pest'},{limit: 8});
