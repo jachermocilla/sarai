@@ -3,6 +3,7 @@ if (Main.find().count() === 0) {
 	Main.insert({
 		name: 'topHeader',
 		message: 'La Nina Watch Issued',
+		href: '',
 		searchText: 'How can we help you',
 		enabled: true
 	});

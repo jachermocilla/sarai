@@ -1,5 +1,5 @@
 <template name="MainHeader">
-  	<header class="my-header mdl-layout__header" style="background-color: #FFFFFF;"><!-- mdl-layout__headerdashdashwaterfall-->
+  	<header class="mdl-layout__header" id="my-header"><!-- mdl-layout__headerdashdashwaterfall-->
       {{#if topHeader.enabled}}
           {{> TopHeader}}
         {{/if}}
@@ -27,11 +27,11 @@
               {{/if}}
           </span>
           {{/each}}
-              <div class="mdl-navigation__link" style="color: #9C9C9A; font-size: 15px;">
+              <div class="mdl-navigation__link">
           	     {{> loginButtons align="right"}}
               </div>
               {{#if mainH.buttonEnabled}}
-              <button type='button' class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' style="background-color: #F2AF13; color: #484848; font-size: 15px; height: 50px; width: 175px;"> {{mainH.buttonText}}</button>
+              <button type='button' class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' id="versionbutton"> {{mainH.buttonText}}</button>
               {{/if}}
         </nav>
       </div>
