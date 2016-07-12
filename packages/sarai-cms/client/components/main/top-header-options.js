@@ -108,8 +108,6 @@ Template.TopHeaderOptions.helpers({
     const message = $("#cms-top-header-message").val()
     const searchText = $("#cms-top-header-search-text").val()
 
-    console.log(message)
-    console.log(searchText)
     Meteor.call('cms-top-header-update', message, searchText)
   }
 })

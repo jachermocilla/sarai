@@ -31,15 +31,18 @@ Package.onUse(function(api) {
     "client/components/dashboard/dashboard-on-created.js",
     "client/components/dashboard/dashboard-route.js",
 
+    "client/common/cms-upload.html",
+    "client/common/cms-upload.js",
+
     "client/components/main/main-cms-route.js",
 
     "client/components/main/main-cms.html",
     "client/components/main/main-cms.less",
     "client/components/main/main-cms.js",
-
     "client/components/main/top-header-options.html",
     "client/components/main/top-header-options.js",
-
+    "client/components/main/header-options.html",
+    "client/components/main/header-options.js",
     "client/components/main/banner-options.html",
     "client/components/main/banner-options.js",
 

@@ -29,6 +29,18 @@ Meteor.methods({
       { upsert: true }
     );
 
+  },
+
+  'cms-header-icon-update': (link) => {
+    Main.update(
+      { name: 'mainHeader' },
+      {
+        $set : {
+          img: link
+        }
+      },
+      { upsert: true }
+    );
   }
 
 })

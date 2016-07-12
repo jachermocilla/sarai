@@ -1,0 +1,27 @@
+<template name="HeaderOptions">
+
+  <div class="mdl-grid cms-block">
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="cms-block-header">
+        Header
+      </div>
+
+      <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div class="cms-block-content-label">
+            Icon
+          </div>
+            {{> CMSUpload callbacks=myCallbacks}}
+        </div>
+      </div>
+
+
+      <div class="cms-block-actions">
+        <button id="cms-header-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </div>
+</template>
