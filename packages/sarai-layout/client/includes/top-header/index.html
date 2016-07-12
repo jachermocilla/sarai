@@ -1,6 +1,6 @@
 <template name="TopHeader">
 	<div class="topheader mdl-layout__header-row" style="height: 45px;">
-       <span class="mdl-layout-title" style="color: #484848; font-size: 15px; font-weight: bold;">{{topHeader.message}}</span>
+       <a class="mdl-layout-title" href="{{topHeader.href}}" id="messageId">{{topHeader.message}}</a>
 	    <div class="mdl-layout-spacer"></div>
 	   	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
 	        <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">

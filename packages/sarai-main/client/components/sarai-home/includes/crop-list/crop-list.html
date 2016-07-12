@@ -1,9 +1,9 @@
 <template name="Croplist">
 	{{#if crop.enabled}}
-		<div class="mdl-grid" style="margin: 20px 15px 20px 15px;">
+		<div class="mdl-grid" id="crop-list-id">
 			{{#each crops}}
-				<div class="mdl-cell mdl-cell--2-col">
-				  	<a href="{{href}}" class="label"><img src="{{img}}" style="margin-left: 23%;"/><br /><h6>{{text}}</h6></a>
+				<div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+				  	<a href="{{href}}" class="label"><img src="{{img}}" id="crop-images-id" /><br /><h6>{{text}}</h6></a>
 				</div>
 			{{/each}}
 		</div>
