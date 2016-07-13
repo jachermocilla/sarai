@@ -38,7 +38,8 @@ Package.onUse(function(api) {
       "client/components/create-farm/create-farm-on-created.js",
       "client/layout/waiss-layout.html",
       "client/layout/waiss-layout.less",
-      "client/includes/login-middleware.html"
+      "client/includes/login-middleware.html",
+      "client/includes/login-middleware.less"
   ]
 
   api.addFiles(client, "client")
