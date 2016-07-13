@@ -5,3 +5,7 @@ Meteor.publish('farm', function() {
 Meteor.publish('crop', function() {
     return CropData.find();
 });
+
+Meteor.publish('water-management-tips', function() {
+    return WaterManagementTips.find();
+});
