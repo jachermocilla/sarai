@@ -12,7 +12,10 @@ if(Farm.find().count() === 0) {
         'variety': 'Sweet Corn',
         'plantingDate': aMonthAgo,
         'location': 'Los Baños, Laguna',
-        'soilType': 'loam'
+        'soilType': 'loam',
+        'totalIrrigation': 0,
+        'totalRainfall': 0,
+        'totalEvapotranspiration': 0
     });
 
     Farm.insert({
@@ -22,7 +25,10 @@ if(Farm.find().count() === 0) {
         'variety': 'Very Sweet Corn',
         'plantingDate': aWeekAgo,
         'location': 'Los Baños, Laguna',
-        'soilType': 'loam'
+        'soilType': 'loam',
+        'totalIrrigation': 0,
+        'totalRainfall': 0,
+        'totalEvapotranspiration': 0
     });
 }
 
