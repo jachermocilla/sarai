@@ -45,14 +45,19 @@ Meteor.methods({
 
         var ETa = ETo * Kc;
 
-        var rainfall = WeatherData.findOne({
+        var weather = WeatherData.findOne({
             'id': farmInfo.weatherStation,
             'date': {
                 'year': date.getFullYear(),
                 'month': date.getMonth(),
                 'day': date.getDate()
             }
-        }).data.rainfall;
+        });
+
+        if(weather == null) {
+            console.error('no weather data');
+            throw new Meteor.Error(404, 'no weather data found');
+        }
 
         var waterDeficit = farmInfo.waterDeficit;
 
@@ -60,12 +65,12 @@ Meteor.methods({
             waterDeficit = [];
             waterDeficit.push({
                 'date': date,
-                'data': ETa - rainfall
+                'data': ETa - weather.data.rainfall
             });
         } else {
             waterDeficit.push({
                 'date': date,
-                'data': ETa - rainfall + waterDeficit[waterDeficit.length-1].data
+                'data': ETa - weather.data.rainfall + waterDeficit[waterDeficit.length-1].data
             });
         }
 
