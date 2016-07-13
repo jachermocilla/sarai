@@ -9,12 +9,12 @@
 	<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
 	  	<div class="mdl-tabs__tab-bar">
 	  		{{#each pestType}}
-	    		<a href="#{{RewritePestType}}" class="{{setActiveTab @index}}">{{this}} Pest</a>
+	    		<a href="#{{rewritePestType}}" class="{{setActiveTab @index}}">{{this}} Pest</a>
 	    	{{/each}}
 	  	</div>
 
 	  	{{#each pestType}}
-	  		<div class="{{setActivePanel @index}}" id="{{RewritePestType}}">
+	  		<div class="{{setActivePanel @index}}" id="{{rewritePestType}}">
 	  			<div class="mdl-grid">
 	  				<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" align="center">
 					  <thead>
@@ -25,7 +25,7 @@
 					  <tbody class="pointer">
 					  	{{#each displayPest this}}
 						    <tr>
-						      <td class="mdl-data-table__cell--non-numeric">{{name}}</td>
+						      <td id="{{_id}}" class="mdl-data-table__cell--non-numeric pest-entity">{{name}}</td>
 						    </tr>
 					    {{/each}}
 					  </tbody>

@@ -39,7 +39,7 @@ Template.CMSModuleHeader.helpers({
 					route: '/pests-lib'
 				},
 				{
-					name: 'Pest',
+					name: 'Pests',
 					route: '/pests-page'
 				},
 				{

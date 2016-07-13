@@ -10,10 +10,16 @@ Template.PestTabs.helpers({
 	setActivePanel: function(index){
 		return index == 0? "mdl-tabs__panel is-active" : "mdl-tabs__panel";
 	},
-	RewritePestType: function(){
+	rewritePestType: function(){
 		return this.replace(/[\s,]+/g, '');
 	},
 	displayPest: function(pestType){
 		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{sort: {time: -1}});
+	}
+});
+
+Template.PestTabs.events({
+	'click .pest-entity': function(e) {
+		FlowRouter.go("/entity-update/" + $(e.target).attr("id"));
 	}
 });
