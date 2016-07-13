@@ -1,21 +1,27 @@
 <template name="Serviceslist">
-	<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;">
+	<div class="mdl-grid" id="servicescontainer">
 		{{#if servicesMain.enabled}}
-			<div class="mdl-cell mdl-cell--12-col" style="text-align: center;">
-				<h5 class="titleservices maintitle">{{servicesMain.title}}</h5>
+			<div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-desktop" style="text-align: center;">
+				<h5 class="maintitle">{{servicesMain.title}}</h5>
 				<h6>{{servicesMain.description}}</h6>
 				<h6>{{servicesMain.subtext}}</h6>
 			</div>
 		{{/if}}
 		{{#each services}}
-			<div class="servicessection mdl-cell mdl-cell--4-col">
-			  	<a href="{{href}}"><img src="{{background}}" class="services-image" style="text-align: center;"/><br />
-			  	<h6 class="titleservices">{{title}}</h6></a>
-			  	<p>{{text}}</p>
+			<div class="servicessection mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+			  	<div class="titlediv">
+			  		<a href="{{pathFor '/services/:_id' _id=_id}}"><img src="{{background}}" class="services-image"/></a><br /><br />
+			  		<a href="{{pathFor '/services/:_id' _id=_id}}" class="titleservices">{{title}}</a><br /><br />
+			  	</div>
+			  	<div class="servicesdesc">
+			  		<br />
+					{{text}}
+					<br />
+				</div>
 			</div>
 		{{/each}}
 		{{#if servicesMain.buttonEnabled}}
-			<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">MORE</button>
+			<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="margin-left: 45%; background-color: #696968;">MORE</button>
 		{{/if}}
 	</div>
 </template>
