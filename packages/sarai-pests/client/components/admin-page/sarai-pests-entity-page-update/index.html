@@ -23,6 +23,9 @@
 		<form name="updateForm" class="updateForm">
 			<div class="mdl-grid">
 
+				<!-- _id -->
+				<input class="input-form" type="text" id="id" name="id" value="{{pest._id}}" disabled hidden>	
+
 				<!-- name -->
 				<div class="mdl-cell mdl-cell--6-col">
 					<label class="f-left form-text">Name</label> 
@@ -217,15 +220,9 @@
 
 			</div>
 				
-
-				
-				
-				
-				
 			<div class="mdl-cell mdl-cell--12-col">
 				<button id="uBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Save</button>
 				<button id="cBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Cancel</button>
-				<button id="viewChanges" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">View Changes</button>
 			</div>
 				
 		</form>
