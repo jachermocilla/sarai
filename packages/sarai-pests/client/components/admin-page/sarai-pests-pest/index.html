@@ -1,7 +1,37 @@
 <template name="PestPage">
 	{{isAuthorized "Update Pest Library"}}
 	{{> CMSModuleHeader navBarFor = "Pest Library"}}
-		
-		<h5>&emsp;Pest CMS is under development. Please come back later.</h5>
+	{{> PestTabs}}
+</template>
 
+
+<template name="PestTabs">
+	<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+	  	<div class="mdl-tabs__tab-bar">
+	  		{{#each pestType}}
+	    		<a href="#{{RewritePestType}}" class="{{setActiveTab @index}}">{{this}} Pest</a>
+	    	{{/each}}
+	  	</div>
+
+	  	{{#each pestType}}
+	  		<div class="{{setActivePanel @index}}" id="{{RewritePestType}}">
+	  			<div class="mdl-grid">
+	  				<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" align="center">
+					  <thead>
+					    <tr>
+					      <th class="mdl-data-table__cell--non-numeric">Name</th>
+					    </tr>
+					  </thead>
+					  <tbody class="pointer">
+					  	{{#each displayPest this}}
+						    <tr>
+						      <td class="mdl-data-table__cell--non-numeric">{{name}}</td>
+						    </tr>
+					    {{/each}}
+					  </tbody>
+					</table>
+	  			</div>
+  			</div>
+	  	{{/each}}
+	</div>
 </template>
