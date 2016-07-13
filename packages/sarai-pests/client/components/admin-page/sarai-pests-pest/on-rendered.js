@@ -5,3 +5,7 @@ Template.PestPage.onRendered(function() {
 Template.PestPage.onDestroyed(function() {
 	$('#PestLibraryTab').removeAttr('style');
 });
+
+Template.PestTabs.onRendered(function(){
+	$(document).foundation('reflow');
+});
