@@ -24,15 +24,18 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var client = [
-      "client/components/waiss-explore/waiss-explore.html",
-      "client/components/waiss-explore/route.js",
+      "client/components/explore/explore.html",
+      "client/components/explore/explore-route.js",
       "client/components/waiss-main/waiss-main.html",
       "client/components/waiss-main/waiss-main.less",
-      "client/components/waiss-main/waiss-main.js",
-      "client/components/waiss-main/route.js",
-      "client/components/waiss-main/on-created.js",
-      "client/components/waiss-create-farm/waiss-create-farm.html",
-      "client/components/waiss-create-farm/route.js",
+      "client/components/waiss-main/waiss-main-helpers.js",
+      "client/components/waiss-main/waiss-main-route.js",
+      "client/components/waiss-main/waiss-main-on-created.js",
+      "client/components/create-farm/create-farm.html",
+      "client/components/create-farm/create-farm.less",
+      "client/components/create-farm/create-farm-route.js",
+      "client/components/create-farm/create-farm-helpers.js",
+      "client/components/create-farm/create-farm-on-created.js",
       "client/layout/waiss-layout.html",
       "client/layout/waiss-layout.less",
       "client/includes/login-middleware.html"

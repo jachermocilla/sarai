@@ -3,3 +3,7 @@ Meteor.publish('farm', function(userId) {
         userId: userId
     });
 });
+
+Meteor.publish('crop', function() {
+    return CropData.find();
+});
