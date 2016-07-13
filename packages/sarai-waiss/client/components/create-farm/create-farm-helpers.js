@@ -50,24 +50,6 @@ Template.WAISSCreateFarm.events({
                 return;
             }
 
-            var today = new Date();
-            var currentDate = new Date(plantingDate);
-
-            while(currentDate.getTime() < today.getTime()) {
-                var weather = WeatherData.findOne({
-                    'id': weatherStation,
-                    'date': {
-                        'year': currentDate.getFullYear(),
-                        'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()
-                    }
-                });
-                if(typeof weather !== undefined) {
-                    console.log(weather.data.temp);
-                }
-                currentDate.setDate(currentDate.getDate() + 1);
-            }
-
             alert(result.name + ' has been succesfully created!');
             FlowRouter.go('/waiss');
         })
