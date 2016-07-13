@@ -1,5 +1,5 @@
 Template.WAISSMain.onCreated(function() {
-    Meteor.subscribe('farm', Meteor.userId());
+    Meteor.subscribe('farm');
     Meteor.subscribe('crop');
 });
 

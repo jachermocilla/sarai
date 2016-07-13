@@ -26,6 +26,8 @@ Package.onUse(function(api) {
   var client = [
       "client/components/explore/explore.html",
       "client/components/explore/explore-route.js",
+      "client/components/explore/explore-helpers.js",
+      "client/components/explore/explore-on-created.js",
       "client/components/waiss-main/waiss-main.html",
       "client/components/waiss-main/waiss-main.less",
       "client/components/waiss-main/waiss-main-helpers.js",

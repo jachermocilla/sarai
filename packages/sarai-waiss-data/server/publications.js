@@ -1,7 +1,5 @@
-Meteor.publish('farm', function(userId) {
-    return Farm.find({
-        userId: userId
-    });
+Meteor.publish('farm', function() {
+    return Farm.find();
 });
 
 Meteor.publish('crop', function() {
