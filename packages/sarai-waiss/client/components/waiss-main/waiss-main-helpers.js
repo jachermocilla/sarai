@@ -11,6 +11,14 @@ Template.WAISSMain.helpers({
         return Farm.find({
             _id: Session.get('farmId')
         });
+    },
+    displayTip: function() {
+        var returnObject = [];
+
+        var tips = WaterManagementTips.find().fetch();
+        returnObject.push(tips[Math.floor(Math.random() * ((tips.length-1) + 1))]);
+
+        return returnObject;
     }
 });
 
