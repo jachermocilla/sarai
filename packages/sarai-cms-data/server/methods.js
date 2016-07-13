@@ -101,4 +101,11 @@ Meteor.methods({
     )
   },
 
+  'getFiles': () => {
+    console.log('New XML Request: ')
+    console.log(new XMLHttpRequest())
+    const result = UploadServer.serve()
+    return result
+  }
+
 })

@@ -10,3 +10,7 @@ showToast = (message) => {
   var snackbarContainer = document.querySelector('#cms-toast');
   snackbarContainer.MaterialSnackbar.showSnackbar({message});
 }
+
+uploadDirPrefix = () => {
+  return '/upload/'
+}

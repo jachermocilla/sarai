@@ -138,7 +138,7 @@ if (Main.find().count() === 0) {
 	        	class_name: 'yt',
 	        	href: 'https://www.youtube.com/channel/UCJtzNfVmoqFZGCF326VaTZw',
 	        	img: '/footer-icons/youtube.png'
-	        }	
+	        }
         ],
         enabled: true
 	});
@@ -158,16 +158,17 @@ if (Main.find().count() === 0) {
 		banners: [
 			{
 				img: '/homepage-slider/Project-SARAI.png',
-				align: 'left',
+				position: 'lower-left',
 				title: 'About Project SARAI',
-			    text: 'Smarter Farmers, Smarter Agriculture.',
-			    subtext: 'Search through the different SARAI technologies and systems to what, when, and where to plant',
-			    buttonText: 'More'
+		    text: 'Smarter Farmers, Smarter Agriculture.',
+		    subtext: 'Search through the different SARAI technologies and systems to what, when, and where to plant',
+		    buttonText: 'More',
+		    buttonLink: '/'
 			}
 		],
 		enabled: true
 	});
-	
+
 	Main.insert({
 		name: 'crop-list',
 		crops: [

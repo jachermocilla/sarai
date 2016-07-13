@@ -25,9 +25,6 @@ Template.MainHeader.helpers({
 
   mainLinks: function(){
     var obj = Main.findOne({'name': 'mainHeader'});
-    if (obj) {
-      console.log(obj.links)
-    }
     return obj && obj.links
   },
 
@@ -39,7 +36,6 @@ Template.MainHeader.helpers({
   },
 
   hasSubLinks: (mainLink) => {
-    console.log(mainLink)
     if (mainLink.links && mainLink.links.length > 0) {
       return true
     } else {

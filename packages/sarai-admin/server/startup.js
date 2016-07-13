@@ -1,6 +1,6 @@
 Meteor.startup(function () {
 	UploadServer.init({
-	    tmpDir: process.env.PWD + '/server/uploads/tmp',
+	    tmpDir: process.env.PWD + '.uploads/.tmp',
 	    uploadDir: process.env.PWD,
 	    checkCreateDirectories: true, //create the directories for you
       overwrite: true,
@@ -8,18 +8,21 @@ Meteor.startup(function () {
         // create a sub-directory in the uploadDir based on the content type (e.g. 'images')
         switch(formData.uploadGroup) {
           case ('main'):
-            return '/public/'
+            return '.uploads/main/'
           default:
-            return '/server/uploads/'
+            return 'server/uploads/'
         }
       },
 	    getFileName: function(fileInfo, formData) {
+        //check fileInfo.type (image/jpeg)
 	    	return formData.filename +".jpg";
 	    },
       finished: (fileInfo, formFields) => {
-        // console.log('Logging at startup.js')
-        console.log(fileInfo)
-        console.log(formFields)
+
+      },
+      validateRequest: (req, res) => {
+        return true
       }
   	})
+
 });

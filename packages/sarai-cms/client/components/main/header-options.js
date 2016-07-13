@@ -74,12 +74,10 @@ Template.HeaderOptions.onRendered(() => {
 
 Template.HeaderOptions.events({
   'click .cms-header-link-edit': (e) => {
-    console.log('here')
 
     const id = e.currentTarget.id
     Session.set('linkAction', 'Edit Link')
     Session.set('id', id)
-    console.log(id)
 
     const indices = id.split('-')
     const record = Main.findOne({name: 'mainHeader'})
@@ -184,17 +182,16 @@ Template.HeaderOptions.helpers({
         }
       },
       finished: (index, fileInfo, context) => {
-        Meteor.call('cms-header-icon-update', `${fileInfo.name}`, (error, result) => {
+        console.log('Finished uploading header icon')
+        console.log(index)
+        console.log(fileInfo)
+        console.log(context)
+        Meteor.call('cms-header-icon-update', `${uploadDirPrefix()}${fileInfo.path}`, (error, result) => {
           let toast = 'File uploaded successfully'
           if (error) {
             toast = 'Unable to upload file'
           }
-          (function() {
-            'use strict';
-            window['counter'] = 0;
-            var snackbarContainer = document.querySelector('#cms-toast');
-            snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
-          }());
+          showToast(toast)
         })
       }
     }
