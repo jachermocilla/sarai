@@ -26,13 +26,6 @@ Template.WAISSCreateFarm.events({
             return;
         }
 
-        console.log('name: ' + farmName);
-        console.log('location: ' + farmLocation);
-        console.log('soil type: ' + soilType);
-        console.log('crop: ' + crop);
-        console.log('variety: ' + variety);
-        console.log('planting date: ' + plantingDate);
-
         var farmInfo = {
             userId: Meteor.userId(),
             name: farmName,
@@ -41,7 +34,8 @@ Template.WAISSCreateFarm.events({
             plantingDate: plantingDate,
             location: farmLocation,
             weatherStation: weatherStation,
-            soilType: soilType
+            soilType: soilType,
+            public: $('#isPublicCheckbox')[0].checked
         }
 
         Meteor.call('createFarm', farmInfo, function(error, result) {
