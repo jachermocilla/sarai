@@ -36,17 +36,6 @@ Template.SaraiPestsMonitorUpdatePage.helpers({
 					var info = CMS.find({info: "finalMonitor"}).fetch();
 					return info[0].bannerSubText;
 				}
-	},
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			console.log(Meteor.userId());
-			FlowRouter.go('/pests-monitor');
-			FlowRouter.redirect('/pests-monitor');
-			return false;
-		}
-		else{
-			 return true;
-		}
 	}
 });
 

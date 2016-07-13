@@ -1,13 +1,5 @@
 Template.SaraiPestsCreateReport.helpers({
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			FlowRouter.go('/pests-clinic');
-			FlowRouter.redirect('/pests-clinic');
-		}
-		else{
-			 return true;
-		}
-	}
+
 });
 
 Template.SaraiPestsCreateReport.events({

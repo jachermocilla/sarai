@@ -1,5 +1,5 @@
 <template name="TrainPest">
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update Pest Library"}}
 	{{> CMSModuleHeader navBarFor = "Pest Library"}}
 		
 		
@@ -28,5 +28,5 @@
 				</div>
 			</center>	
 		
-	{{/if}}
+
 </template>
