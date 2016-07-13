@@ -34,7 +34,7 @@ var computeKc = function(cropInfo, farmInfo) {
 }
 
 Meteor.methods({
-    'computeWaterDeficit': function(farmInfo, tmin, tmax, latitude, dayOfTheYear) {
+    'computeWaterDeficit': function(farmInfo, tmin, tmax, latitude, dayOfTheYear, date) {
         var ETo = computeETo(tmin, tmax, latitude, dayOfTheYear);
 
         var cropInfo = CropData.findOne({
@@ -45,7 +45,37 @@ Meteor.methods({
 
         var ETa = ETo * Kc;
 
-        console.log(ETa);
+        var rainfall = WeatherData.findOne({
+            'id': farmInfo.weatherStation,
+            'date': {
+                'year': date.getFullYear(),
+                'month': date.getMonth(),
+                'day': date.getDate()
+            }
+        }).data.rainfall;
+
+        var waterDeficit = farmInfo.waterDeficit;
+
+        if(!waterDeficit) {
+            waterDeficit = [];
+            waterDeficit.push({
+                'date': date,
+                'data': ETa - rainfall
+            });
+        } else {
+            waterDeficit.push({
+                'date': date,
+                'data': ETa - rainfall + waterDeficit[waterDeficit.length-1].data
+            });
+        }
+
+        Farm.update({
+            '_id': farmInfo._id
+        },{
+            $set: {
+                'waterDeficit': waterDeficit
+            }
+        });
     },
     'createFarm': function(farmInfo) {
         Farm.insert(farmInfo);

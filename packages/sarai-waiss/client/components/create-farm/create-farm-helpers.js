@@ -1,6 +1,9 @@
 Template.WAISSCreateFarm.helpers({
     isLoggedIn: function() {
         return Meteor.userId();
+    },
+    weatherStation: function() {
+        return WeatherStations.find();
     }
 });
 
@@ -11,9 +14,12 @@ Template.WAISSCreateFarm.events({
         var farmName = $('#farmName').val();
         var farmLocation = $('#farmLocation').val();
         var soilType = $('#soilType').val();
+        var weatherStation = WeatherStations.findOne({
+            label: $('#weatherStationField').val()
+        }).id;
         var crop = $('#cropName').val();
         var variety = $('#varietyName').val();
-        var plantingDate = $('#plantingDate').val();
+        var plantingDate = new Date($('#plantingDate').val());
 
         if(!farmName || !farmLocation || !soilType || !crop || !variety || !plantingDate) {
             alert('Please fill out all the fields!');
@@ -32,8 +38,9 @@ Template.WAISSCreateFarm.events({
             name: farmName,
             crop: crop,
             variety: variety,
-            plantingDate: new Date(plantingDate),
+            plantingDate: plantingDate,
             location: farmLocation,
+            weatherStation: weatherStation,
             soilType: soilType
         }
 
@@ -41,6 +48,24 @@ Template.WAISSCreateFarm.events({
             if(error) {
                 console.error(error);
                 return;
+            }
+
+            var today = new Date();
+            var currentDate = new Date(plantingDate);
+
+            while(currentDate.getTime() < today.getTime()) {
+                var weather = WeatherData.findOne({
+                    'id': weatherStation,
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()
+                    }
+                });
+                if(typeof weather !== undefined) {
+                    console.log(weather.data.temp);
+                }
+                currentDate.setDate(currentDate.getDate() + 1);
             }
 
             alert(result.name + ' has been succesfully created!');

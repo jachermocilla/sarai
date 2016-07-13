@@ -21,7 +21,8 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
-    "lib/collections/sarai-weather-data.js"
+    "lib/collections/sarai-weather-data.js",
+    "lib/collections/sarai-weather-stations.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
@@ -39,6 +40,7 @@ Package.onUse(function(api) {
 
   api.export([
     "WeatherData",
+    "WeatherStations"
   ])
 });
 

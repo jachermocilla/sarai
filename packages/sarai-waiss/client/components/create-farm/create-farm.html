@@ -12,6 +12,12 @@
                     <input class="mdl-textfield__input" type="text" id="farmLocation">
                     <label class="mdl-textfield__label" for="farmLocation">Farm Location</label>
                 </div><br />
+                <span>Nearest Weather Station: </span>
+                <select id="weatherStationField">
+                    {{#each weatherStation}}
+                        <option>{{label}}</option>
+                    {{/each}}
+                </select><br />
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="mdl-textfield__input" type="text" id="soilType">
                     <label class="mdl-textfield__label" for="soilType">Soil Type</label>
