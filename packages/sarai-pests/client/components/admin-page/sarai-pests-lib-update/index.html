@@ -8,7 +8,7 @@
 </template>
 
 <template name="SaraiPestsLibUpdatePage">
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update Pest Library"}}
 	{{> CMSModuleHeader navBarFor = "Pest Library"}}
 	<div class="mdl-grid">
 		{{ >LibDropzone}}
@@ -89,6 +89,5 @@
 	</div>
 	</div>
 	
-	{{/if}}
 </template>
 

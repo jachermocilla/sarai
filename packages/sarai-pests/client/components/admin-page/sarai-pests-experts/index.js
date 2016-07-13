@@ -15,15 +15,6 @@ Template.ExpertPage.helpers({
 	equals: function(v1, v2){
 		return (v1 === v2);
 	},
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			FlowRouter.go('/pests-clinic');
-			FlowRouter.redirect('/pests-clinic');
-		}
-		else{
-			return true;
-		}
-	},
 	expert: function(){
 		var e = Expert.find().fetch();
 		return e;

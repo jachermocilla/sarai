@@ -1,7 +1,5 @@
 FlowRouter.route("/pests-page", {
 	action: function() {
-		if(isLoggedIn())
-			BlazeLayout.render("CMSLayout", {main: "PestPage"})
-		else goHome();
+		BlazeLayout.render("CMSLayout", {main: "PestPage"})
 	}
 })

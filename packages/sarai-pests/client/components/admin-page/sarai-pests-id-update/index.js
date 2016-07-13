@@ -46,17 +46,6 @@ Template.SaraiPestsIdUpdatePage.helpers({
 					var info = CMS.find({info: "finalId"}).fetch();
 					return info[0].pestHeadText;
 				}
-	},
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			console.log(Meteor.userId());
-			FlowRouter.go('/pests-id');
-			FlowRouter.redirect('/pests-id');
-			return false;
-		}
-		else{
-			 return true;
-		}
 	}
 });
 

@@ -2,10 +2,6 @@ Template.FormsSubmitted.helpers({
 	form: function(){
 		return ClinicForm.find();
 	},
-	IsLoggedIn: function(){
-		if(isLoggedIn()==true) return true;
-		else goHome();
-	},
 	increment: function(index){
 		return index + 1;
 	}

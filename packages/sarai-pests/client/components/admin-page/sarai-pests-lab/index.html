@@ -1,9 +1,8 @@
 <template name="SaraiPestsLabResultForm">
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update Pest Clinic"}}
 	<div class="mdl-grid">
 		Upload Lab Result Page
 	</div>
-	{{/if}}
 
 	
 </template>

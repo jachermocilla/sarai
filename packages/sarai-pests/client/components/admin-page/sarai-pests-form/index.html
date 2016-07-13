@@ -1,5 +1,5 @@
 <template name="FormsSubmitted">
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update Pest Clinic"}}
 	{{> CMSModuleHeader navBarFor = "Pest Clinic"}}
 	<div class="mdl-grid">
 	
@@ -115,6 +115,4 @@
 		
 	</div>
 	
-	
-	{{/if}}
 </template>

@@ -12,15 +12,6 @@ Template.RequestAssistance.helpers({
 	equals: function(v1, v2) {
 		return (v1 === v2);
 	},
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			FlowRouter.go('/pests-clinic');
-			FlowRouter.redirect('/pests-clinic');
-		}
-		else{
-			return true;
-		}
-	},
 	answered: function(){
 		
 	}

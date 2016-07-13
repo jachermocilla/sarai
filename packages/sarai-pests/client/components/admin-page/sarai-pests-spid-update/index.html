@@ -26,7 +26,7 @@
 </template>
 
 <template name="SaraiPestsSpidUpdatePage">
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update SPId"}}
 	{{> CMSModuleHeader navBarFor = "Pest Home"}}
 	<div class="mdl-grid">
 		{{> SpidMainDropzone}}
@@ -126,6 +126,6 @@
 	</div>
 	</div>
 	
-	{{/if}}
+	
 </template>
 
