@@ -1,0 +1,66 @@
+<template name="ServicesPage">
+	<div class='mdl-grid' id="servicespageid">
+      <div class='mdl-cell mdl-cell--12-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
+        <hr />
+        	<h2 style={style}>{{service.title}}</h2>
+        <hr />
+      </div>
+      <div class='mdl-cell mdl-cell--6-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
+            <h3>{{service.text}}</h3>
+            <div>
+              	{{#each service.info}}
+              		<p>
+		            {{name}}<br />
+		            {{#each text}}
+		            	<span>
+			              {{label}}<br />
+			            </span>
+		            {{/each}}
+		          	</p>
+              	{{/each}}
+            </div>
+      </div>
+      <div class='mdl-cell mdl-cell--6-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
+        {{#if service.isvideo}}
+            <div>
+                <iframe width="575" height="350" src="{{service.video}}" frameborder="0" allowfullscreen></iframe><br />
+                <a href="{{service.mediasubtextlink}}"><i class='material-icons'>info_outline</i> {{service.mediasubtext}}</a>
+            </div>
+        {{else}}
+            <div>
+                <img src="{{service.img}}" width="575" height="auto" />
+                <a href="{{service.mediasubtextlink}}"><i class='material-icons'>info_outline</i> {{service.mediasubtext}} </a>
+            </div>
+        {{/if}}
+      </div>
+      <div class='mdl-cell mdl-cell--5-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
+      	<h3>{{service.challengetitle}}</h3>
+        {{#each service.challengetext}}
+        	<p>{{paragraph}}</p>
+        {{/each}}
+      </div>
+      <div class='mdl-cell mdl-cell--7-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
+        <h3>{{service.solutiontitle}}</h3>
+        {{#each service.solutiontext}}
+        	<p>{{paragraph}}</p>
+        {{/each}}
+      </div>
+      <div class='mdl-cell mdl-cell--12-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
+        <div>
+            <hr />
+            <ul class="social clearfix">
+            <span>Share: </span>
+                {{#each service.share}}
+	                <a
+	                href="{{href}}"
+	                class="{{class_name}}">
+	                <img src="{{img}}" class='logoClass' />
+	                </a>
+                {{/each}}
+            </ul>
+            <hr />
+            <!-- PRE FOOTER -->
+        </div>
+      </div>
+    </div>
+</template>
