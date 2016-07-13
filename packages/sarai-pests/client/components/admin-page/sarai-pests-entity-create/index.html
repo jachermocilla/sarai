@@ -1,18 +1,24 @@
-<template name="EntityDropzone">
+<template name="AddEntityDropzone">
   <div class="mdl-grid">
       <div id="dropzone" class="dropzone mdl-cell mdl-cel-12--col bannerZone">
-      	  <label class="f-center form-text">Drop Image To Change Pest's Photo (450 x 400)</label> 
-      	  <img src="/images/pests/{{imageName pest.name}}.jpg" width="100%" height="300px"/>
+      	  <label class="f-center form-text">Drop Image To Add Pest's Photo (450 x 400)</label> 
+      	  <img width="100%" height="300px"/>
       </div>
   </div>
 </template>
 
-<template name="EntityPageUpdate">
+<template name="EntityCreate">
 	{{isAuthorized "Update Pest Library"}}
 	{{> CMSModuleHeader navBarFor = "Pest Library"}}
 
 	<div class="mdl-grid">
-		{{ >EntityDropzone}}
+		<div class="mdl-grid">
+		<h3> Add Pest </h3>
+		</div>
+	</div>
+
+	<div class="mdl-grid">
+		{{ >AddEntityDropzone}}
 	</div>
 	
 	<div class="mdl-grid">
@@ -21,17 +27,14 @@
 
 	<div class="mdl-cell mdl-cell--6-col">
 		<form name="updateForm" class="updateForm">
-			<div class="mdl-grid">
-
-				<!-- _id -->
-				<input class="input-form" type="text" id="id" name="id" value="{{pest._id}}" disabled hidden>	
+			<div class="mdl-grid">	
 
 				<!-- name -->
 				<div class="mdl-cell mdl-cell--6-col">
 					<label class="f-left form-text">Name</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="name" name="name" value="{{pest.name}}">	
+					<input class="input-form" type="text" id="name" name="name">	
 				</div>
 
 				<!-- type -->
@@ -39,7 +42,7 @@
 					<label class="f-left form-text">Type</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="type" name="type" value="{{pest.type}}" disabled>	
+					<input class="input-form" type="text" id="type" name="type" value="Pest" disabled>	
 				</div>
 				
 				<!-- eng_name -->
@@ -47,7 +50,7 @@
 					<label class="f-left form-text">Common Names</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="common-names" name="common-names" value="{{pest.eng_name}}">	
+					<input class="input-form" type="text" id="common-names" name="common-names">	
 				</div>
 				
 				<!-- fil_name -->
@@ -55,7 +58,7 @@
 					<label class="f-left form-text">Filipino Names</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="filipino-names" name="filipino-names" value="{{pest.fil_name}}">	
+					<input class="input-form" type="text" id="filipino-names" name="filipino-names">	
 				</div>
 
 				<!-- sci_name -->
@@ -63,7 +66,7 @@
 					<label class="f-left form-text">Scientific Name</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="scientific-name" name="scientific-name" value="{{pest.sci_name}}">	
+					<input class="input-form" type="text" id="scientific-name" name="scientific-name">	
 				</div>
 
 				<!-- order -->
@@ -71,7 +74,7 @@
 					<label class="f-left form-text">Order</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="order" name="order" value="{{pest.order}}">	
+					<input class="input-form" type="text" id="order" name="order">	
 				</div>
 
 				<!-- classification -->
@@ -79,7 +82,7 @@
 					<label class="f-left form-text">Classification</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="classification" name="classification" value="{{pest.classification}}">	
+					<input class="input-form" type="text" id="classification" name="classification">	
 				</div>
 
 				<!-- stage_threatening -->
@@ -87,7 +90,7 @@
 					<label class="f-left form-text">Threatening Stage</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="threatening-stage" name="threatening-stage" value="{{pest.stage_threatening}}">	
+					<input class="input-form" type="text" id="threatening-stage" name="threatening-stage">	
 				</div>
 
 				<!-- plant_affected -->
@@ -95,7 +98,7 @@
 					<label class="f-left form-text">Plant Affected</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="plant-affected" name="plant-affected" value="{{pest.plant_affected}}">	
+					<input class="input-form" type="text" id="plant-affected" name="plant-affected">	
 				</div>
 
 				<!-- description -->
@@ -103,7 +106,7 @@
 					<label class="f-left form-text">Description</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="description" name="description" value="{{pest.description}}">
+					<input class="input-form" type="text" id="description" name="description">
 				</div>
 
 				<!-- symptoms -->
@@ -111,7 +114,7 @@
 					<label class="f-left form-text">Symptoms</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="symptoms" name="symptoms" value="{{pest.symptoms}}">	
+					<input class="input-form" type="text" id="symptoms" name="symptoms">	
 				</div>
 
 				<!-- effect -->
@@ -119,7 +122,7 @@
 					<label class="f-left form-text">Effect</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="effect" name="effect" value="{{pest.effect}}">	
+					<input class="input-form" type="text" id="effect" name="effect">	
 				</div>
 
 				<!-- treatment -->
@@ -127,7 +130,7 @@
 					<label class="f-left form-text">Treatment</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="treatment" name="treatment" value="{{pest.treatment}}">
+					<input class="input-form" type="text" id="treatment" name="treatment">
 				</div>
 
 				<!-- stage_plant_affected -->
@@ -135,7 +138,7 @@
 					<label class="f-left form-text">Stage Plant Affected</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="stage-plant-affected" name="stage-plant-affected" value="{{pest.stage_plant_affected}}">
+					<input class="input-form" type="text" id="stage-plant-affected" name="stage-plant-affected">
 				</div>
 
 				<!-- part_destroyed -->
@@ -143,7 +146,7 @@
 					<label class="f-left form-text">Part Destroyed</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="part-destroyed" name="part-destroyed" value="{{pest.part_destroyed}}">	
+					<input class="input-form" type="text" id="part-destroyed" name="part-destroyed">	
 				</div>
 
 				<!-- fil_stage_plant_affected -->
@@ -151,7 +154,7 @@
 					<label class="f-left form-text">Stage Plant Affected (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-stage-plant-affected" name="fil-stage-plant-affected" value="{{pest.fil_stage_plant_affected}}">
+					<input class="input-form" type="text" id="fil-stage-plant-affected" name="fil-stage-plant-affected" >
 				</div>
 
 				<!-- fil_effect -->
@@ -159,7 +162,7 @@
 					<label class="f-left form-text">Effect (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-effect" name="fil-effect" value="{{pest.fil_effect}}">
+					<input class="input-form" type="text" id="fil-effect" name="fil-effect">
 				</div>
 
 				<!-- fil_part_destroyed -->
@@ -167,7 +170,7 @@
 					<label class="f-left form-text">Part Destroyed (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-part-destroyed" name="fil-part-destroyed" value="{{pest.fil_part_destroyed}}">	
+					<input class="input-form" type="text" id="fil-part-destroyed" name="fil-part-destroyed">	
 				</div>
 
 				<!-- fil_stage_threatening -->
@@ -175,7 +178,7 @@
 					<label class="f-left form-text">Threatening Stage (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-threatening-stage" name="fil-threatening-stage" value="{{pest.fil_stage_threatening}}">	
+					<input class="input-form" type="text" id="fil-threatening-stage" name="fil-threatening-stage">	
 				</div>
 
 				<!-- fil_symptoms -->
@@ -183,7 +186,7 @@
 					<label class="f-left form-text">Symptoms (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-symptoms" name="fil-symptoms" value="{{pest.fil_symptoms}}">	
+					<input class="input-form" type="text" id="fil-symptoms" name="fil-symptoms">	
 				</div>
 
 				<!-- fil_description -->
@@ -191,7 +194,7 @@
 					<label class="f-left form-text">Description (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-description" name="fil-description" value="{{pest.fil_description}}">	
+					<input class="input-form" type="text" id="fil-description" name="fil-description">	
 				</div>
 
 				<!-- fil_plant_affected -->
@@ -199,7 +202,7 @@
 					<label class="f-left form-text">Plant Affected (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-plant-affected" name="fil-plant-affected" value="{{pest.fil_plant_affected}}">	
+					<input class="input-form" type="text" id="fil-plant-affected" name="fil-plant-affected">	
 				</div>
 
 				<!-- fil_classification -->
@@ -207,7 +210,7 @@
 					<label class="f-left form-text">Classification (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-classification" name="fil-classification" value="{{pest.fil_classification}}">	
+					<input class="input-form" type="text" id="fil-classification" name="fil-classification">	
 				</div>
 
 				<!-- fil_treatment -->
@@ -215,13 +218,13 @@
 					<label class="f-left form-text">Treatment (Filipino)</label> 
 				</div>
 				<div class="input-fmt mdl-cell mdl-cell--12-col">
-					<input class="input-form" type="text" id="fil-treatment" name="fil-treatment" value="{{pest.fil_treatment}}">
+					<input class="input-form" type="text" id="fil-treatment" name="fil-treatment">
 				</div>
 
 			</div>
 				
 			<div class="mdl-cell mdl-cell--12-col">
-				<button id="uBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Save</button>
+				<button id="aBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Add</button>
 				<button id="cBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Cancel</button>
 			</div>
 				
@@ -230,7 +233,6 @@
 	</div>
 
 	</div>
-
 
 
 </template>

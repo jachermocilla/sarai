@@ -1,29 +1,11 @@
-Template.EntityPageUpdate.helpers({
-	pest: function(){
-		console.log(FlowRouter.current().params._id);
-		return PlantProblem.findOne({_id: FlowRouter.current().params._id});
-	}
-});
-
-Template.EntityDropzone.helpers({
-	pest: function(){
-		console.log(FlowRouter.current().params._id);
-		return PlantProblem.findOne({_id: FlowRouter.current().params._id});
-	},
-	imageName: function(str){
-		return str.replace(/\s/g, '');
-	}
-});
-
-Template.EntityPageUpdate.events({
+Template.EntityCreate.events({
 	'submit form': function(e){
 			e.preventDefault();
 		},
-	'click #uBtn': function(e){
+	'click #aBtn': function(e){
 			e.preventDefault();
 			
 			var pestData = {
-				id: $("#id").val(),
 				name: $("#name").val(),
 				type: $("#type").val(),
 				eng_name: $("#common-names").val(),
@@ -50,8 +32,8 @@ Template.EntityPageUpdate.events({
 				fil_treatment: $("#fil-treatment").val()
 			};
 			
-			Meteor.call('updatePest', pestData);
-			console.log("update");
+			Meteor.call('insertPest', pestData);
+			console.log("inserted");
 		},
 	'click #cBtn': function(e){
 			e.preventDefault();
