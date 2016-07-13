@@ -46,7 +46,7 @@ Template.SaraiPestsLib.helpers({
 	},
 	displayPest: function(pestType){
 		var pestsPerPage = parseInt(CMS.findOne({info:'finalLib'}).pestsPerPage);
-		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{sort: {time: -1}, skip: (Session.get(currentPest)-1)*pestsPerPage, limit: pestsPerPage});
+		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{skip: (Session.get(currentPest)-1)*pestsPerPage, limit: pestsPerPage});
 	},
 	page: function(pestType){
 		var count = Session.get(pestType + " Count");

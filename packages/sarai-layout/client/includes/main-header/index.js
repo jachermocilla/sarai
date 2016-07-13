@@ -17,7 +17,7 @@ Template.MainHeader.helpers({
   },
   configureAccountType: function(){
     if (!Meteor.user().profile){
-      Meteor.call('updateAccountRole', []);
+      Meteor.call('updateAccountRole', ["Registered"]);
     }
   }
 });

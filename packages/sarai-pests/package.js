@@ -26,6 +26,7 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var client = [
+    "client/authorized.js",
     "client/components/sarai-pests/index.html",
     "client/components/sarai-pests/index.js",
     "client/components/sarai-pests/index.less",
@@ -99,7 +100,6 @@ Package.onUse(function(api) {
     "client/components/sarai-pests-manage-account/route.js",
 
 
-    "client/components/admin-page/index.js",
     "client/components/admin-page/sarai-pests-assistance/index.html",
     "client/components/admin-page/sarai-pests-assistance/index.js",
     "client/components/admin-page/sarai-pests-assistance/index.less",
@@ -138,8 +138,9 @@ Package.onUse(function(api) {
     "client/components/admin-page/sarai-pests-entity-page-update/on-created.js",
     "client/components/admin-page/sarai-pests-train/index.html",
     "client/components/admin-page/sarai-pests-train/index.js",
-    "client/components/admin-page/sarai-pests-train/route.js",
+    "client/components/admin-page/sarai-pests-train/on-created.js",
     "client/components/admin-page/sarai-pests-train/on-rendered.js",
+    "client/components/admin-page/sarai-pests-train/route.js",
     "client/components/admin-page/sarai-pests-clinic-update/index.html",
     "client/components/admin-page/sarai-pests-clinic-update/index.js",
     "client/components/admin-page/sarai-pests-clinic-update/index.less",

@@ -12,7 +12,7 @@ Template.ManageAccount.events({
   'submit form' : function(e) {
     e.preventDefault();
 
-    var selectedRoles = [];
+    var selectedRoles = ["Registered"];
     $("input[type=checkbox]:checked").map(function() {
         selectedRoles.push($(this).val());
     });

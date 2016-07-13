@@ -54,6 +54,18 @@ if (Privilege.find().count() === 0) {
 	});
 
 	Privilege.insert({
+		name: 'Ask Services',
+		authorized: [
+			'Super Admin',
+			'Pest Library Admin', 
+			'Pest Identification Admin', 
+			'Pest Monitor Admin', 
+			'Pest Clinic Admin',
+			'Registered'
+		]
+	});
+
+	Privilege.insert({
 		name: 'Provide Services',
 		authorized: [
 			'Super Admin',
@@ -61,6 +73,18 @@ if (Privilege.find().count() === 0) {
 			'Pest Identification Admin', 
 			'Pest Monitor Admin', 
 			'Pest Clinic Admin'
+		]
+	});
+
+	Privilege.insert({
+		name: 'Report Site Problems',
+		authorized: [
+			'Super Admin',
+			'Pest Library Admin', 
+			'Pest Identification Admin', 
+			'Pest Monitor Admin', 
+			'Pest Clinic Admin',
+			'Registered'
 		]
 	});
 

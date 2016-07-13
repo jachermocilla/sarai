@@ -14,7 +14,10 @@ Template.PestTabs.helpers({
 		return this.replace(/[\s,]+/g, '');
 	},
 	displayPest: function(pestType){
-		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{sort: {time: -1}});
+		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{sort: {name: 1}});
+	},
+	incremented: function(index){
+		return index+1;
 	}
 });
 
@@ -23,3 +26,9 @@ Template.PestTabs.events({
 		FlowRouter.go("/entity-update/" + $(e.target).attr("id"));
 	}
 });
+
+Template.PestPage.events({
+	'click #add-button': function(){
+		console.log("ready to add!");
+	}
+})
