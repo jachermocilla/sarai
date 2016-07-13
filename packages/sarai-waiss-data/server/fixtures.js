@@ -1,5 +1,4 @@
 if(Farm.find().count() === 0) {
-    const userId = 'vcjfTseG2NyNuDG8t';
     const aMonthAgo = new Date();
     const aWeekAgo = new Date();
 
@@ -7,7 +6,7 @@ if(Farm.find().count() === 0) {
     aWeekAgo.setDate(aWeekAgo.getDate() - 7);
 
     Farm.insert({
-        'userId': userId,
+        'public': true,
         'name': 'My Sweet Corn Farm',
         'crop': 'Corn',
         'variety': 'Sweet Corn',
@@ -17,10 +16,10 @@ if(Farm.find().count() === 0) {
     });
 
     Farm.insert({
-        'userId': userId,
-        'name': 'My Banana Farm',
-        'crop': 'Banana',
-        'variety': 'Lakatan',
+        'public': false,
+        'name': 'My Other Corn Farm',
+        'crop': 'Corn',
+        'variety': 'Very Sweet Corn',
         'plantingDate': aWeekAgo,
         'location': 'Los Baños, Laguna',
         'soilType': 'loam'
