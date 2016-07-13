@@ -35,7 +35,10 @@ Template.WAISSCreateFarm.events({
             location: farmLocation,
             weatherStation: weatherStation,
             soilType: soilType,
-            public: $('#isPublicCheckbox')[0].checked
+            public: $('#isPublicCheckbox')[0].checked,
+            totalIrrigation: 0,
+            totalRainfall: 0,
+            totalEvapotranspiration: 0
         }
 
         Meteor.call('createFarm', farmInfo, function(error, result) {
