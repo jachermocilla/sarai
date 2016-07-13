@@ -13,7 +13,7 @@ Template.Bloglist.helpers({
       'project-sm',
       'joins-dost'
     ];
-  	var obj = Blog.find({name: {$in: names}}).fetch();
+    var obj = Blog.find({name: {$in: names}}, {sort: {date: -1}}).fetch();
     if(typeof obj !== 'undefined'){
       var list = obj.slice(0,3);
       return list;

@@ -1,3 +1,4 @@
 Template.ServicesPage.onCreated(function() {
-	Meteor.subscribe('services')
+	Meteor.subscribe('services');
+
 })

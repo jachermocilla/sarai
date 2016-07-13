@@ -20,6 +20,7 @@ Package.onUse(function(api) {
     'sarai:sarai-layout',
     'sarai:sarai-pests',
     'sarai:sarai-main',
+    'sarai:sarai-services',
     "sarai:sarai-pests-data",
     "sarai:sarai-pests-form-data",
     "sarai:sarai-assistance-data",

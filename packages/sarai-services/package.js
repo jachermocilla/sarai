@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'sarai:sarai-main',
+  name: 'sarai:sarai-services',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -18,39 +18,19 @@ Package.onUse(function(api) {
     "sarai:sarai-user",
     "sarai:sarai-admin",
     "sarai:sarai-layout",
-    "sarai:sarai-main-data",
-    "sarai:sarai-services-data",
-    "sarai:sarai-blog-data"
+    "sarai:sarai-services-data"
   ]
 
   api.use(packages)
   api.imply(packages)
 
   var client = [
-    "client/components/sarai-home/index.html",
-    "client/components/sarai-home/events.js",
-    "client/components/sarai-home/includes/banner/banner-events.js",
-    "client/components/sarai-home/includes/banner/banner.html",
-    "client/components/sarai-home/includes/banner/banner.js",
-    "client/components/sarai-home/includes/banner/banner.less",
-    "client/components/sarai-home/includes/crop-list/crop-list.html",
-    "client/components/sarai-home/includes/crop-list/crop-list.js",
-    "client/components/sarai-home/includes/crop-list/crop-list.less",
-    "client/components/sarai-home/includes/services-list/services-list.html",
-    "client/components/sarai-home/includes/services-list/services-list.js",
-    "client/components/sarai-home/includes/services-list/services-list.less",
-    "client/components/sarai-home/includes/reports/reports.html",
-    "client/components/sarai-home/includes/reports/reports.js",
-    "client/components/sarai-home/includes/reports/reports.less",
-    "client/components/sarai-home/includes/blog-list/blog-list.html",
-    "client/components/sarai-home/includes/blog-list/blog-list.js",
-    "client/components/sarai-home/includes/blog-list/blog-list.less",
-    "client/components/sarai-home/includes/testimonials/testimonials.html",
-    "client/components/sarai-home/includes/testimonials/testimonials.js",
-    "client/components/sarai-home/includes/testimonials/testimonials.less",
-    "client/components/sarai-home/route.js",
-    "client/components/sarai-home/helpers.js",
-    "client/components/sarai-home/on-created.js"
+    "client/components/sarai-services-page/services-page.html",
+    "client/components/sarai-services-page/services-page.js",
+    "client/components/sarai-services-page/services-page.less",
+    "client/components/sarai-services-page/services-page-on-created.js",
+    "client/components/sarai-services-page/services-page-on-rendered.js",
+    "client/components/sarai-services-page/route.js"
   ]
 
   api.addFiles(client, "client")
@@ -63,5 +43,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('sarai:sarai-main');
+  api.use('sarai:sarai-services');
 });
