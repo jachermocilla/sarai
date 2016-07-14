@@ -21,7 +21,7 @@ if (Main.find().count() === 0) {
 	      	rank: 1
 	      },
 	      {
-	      	name: 'about-us',
+	      	name: 'About Us',
 	      	href: '/about-us',
 	      	links: [],
 	      	id: 'about-us-link',
@@ -120,6 +120,12 @@ if (Main.find().count() === 0) {
 	});
 
 	Main.insert({
+		name: 'banner',
+		slides: [],
+		enabled: true
+	});
+
+	Main.insert({
 		name: 'footer',
 		text: 'Project SARAI aims to develop a national crop forecasting and monitoring system for first six priority crops: rice, corn, banana, coconut, coffee, cacao.',
 		img: 'http://sarai.ph/wp-content/uploads/2016/03/DOST_PCAARRD_UPLB.png',
@@ -150,22 +156,6 @@ if (Main.find().count() === 0) {
 		mailhref: 'mailto:http://sarai@uplb.edu.ph',
 		location: 'SESAM UPLB, College, Laguna Philippines 4031',
 		businesshours: 'Mon – Fri : 8:00am to 5:00pm Saturday and Sunday Closed.',
-		enabled: true
-	});
-
-	Main.insert({
-		name: 'banner',
-		banners: [
-			{
-				img: '/homepage-slider/Project-SARAI.png',
-				position: 'lower-left',
-				title: 'About Project SARAI',
-		    text: 'Smarter Farmers, Smarter Agriculture.',
-		    subtext: 'Search through the different SARAI technologies and systems to what, when, and where to plant',
-		    buttonText: 'More',
-		    buttonLink: '/'
-			}
-		],
 		enabled: true
 	});
 

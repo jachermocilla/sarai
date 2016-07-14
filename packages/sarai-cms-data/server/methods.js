@@ -101,11 +101,46 @@ Meteor.methods({
     )
   },
 
-  'getFiles': () => {
-    console.log('New XML Request: ')
-    console.log(new XMLHttpRequest())
-    const result = UploadServer.serve()
-    return result
+  'cms-header-button-toggle': () => {
+    let buttonEnabled = Main.findOne({name: 'mainHeader'}).buttonEnabled
+
+    buttonEnabled = buttonEnabled ? false : true
+
+    Main.update(
+      { name: 'mainHeader'},
+      {
+        $set: {
+          buttonEnabled
+        }
+      },
+      { upsert: true }
+    )
+  },
+
+  'cms-banner-slide-add': (image, textPosition, title, subtitle, text, buttonText, buttonLink, rank) => {
+
+    const slides = Main.findOne({name: 'banner'}).slides
+
+    if (slides) {
+      const _id = Random.id()
+
+      slides.push({_id, image, textPosition, title, subtitle, text, buttonText, buttonLink, rank})
+
+      Main.update(
+        { name: 'banner'},
+        {
+          $set: {
+            slides
+          }
+        },
+        { upsert: true }
+      )
+    }
+
+    else {
+      return new Error('Couldn\'t find slides array')
+    }
+
   }
 
 })

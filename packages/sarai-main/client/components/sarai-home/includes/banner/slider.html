@@ -1,3 +1,14 @@
 <template name="Slider">
-  {{sample}}
+  {{> carousel}}
+</template>
+
+<template name="carousel">
+  <div id="main-carousel">
+    {{#each entry in sliderEntries}}
+      <div>
+        <img class="slider-image" src="{{entry.img}}">
+        <p>{{{entry.text}}}</p>
+      </div>
+    {{/each}}
+  </div>
 </template>

@@ -2,7 +2,7 @@
 // }
 
 Template.HeaderOptions.onRendered(() => {
-  const dialog = document.querySelector('dialog.cms-header-edit-dialog');
+  const dialog = document.querySelector('#cms-header-dialog');
 
   dialog.querySelector('.cancel').addEventListener('click', () => {
       dialog.close();
@@ -55,7 +55,7 @@ Template.HeaderOptions.onRendered(() => {
 
 
       Meteor.call('cms-header-links-update', record.links, (error, result) => {
-        let toast = 'Saved'
+        let toast = 'Saved Link'
         if (error) {
           toast = 'Unable to save changes'
         }
@@ -96,7 +96,7 @@ Template.HeaderOptions.events({
       }
     }
 
-    const dialog = document.querySelector('.cms-header-edit-dialog');
+    const dialog = document.querySelector('#cms-header-dialog');;
     dialog.showModal();
 
     $('#cms-banner-link-name').addClass('is-dirty')
@@ -144,11 +144,27 @@ Template.HeaderOptions.events({
       Session.set('linkAction', 'Add Sub Link')
     }
 
-    const dialog = document.querySelector('.cms-header-edit-dialog');
+    const dialog = document.querySelector('#cms-header-dialog');
     dialog.showModal();
 
     $('#cms-banner-link-name-input').val("")
     $('#cms-banner-link-href-input').val("")
+  },
+
+  'click #cms-header-button-toggle': () => {
+    const message = $("#cms-header-button-toggle").html()
+
+    let toast = 'Enabled BETA Label'
+    if (message.trim() == 'Disable') {
+      toast = 'Disabled BETA Label'
+    }
+    Meteor.call('cms-header-button-toggle', (error, result) => {
+      if (error) {
+        toast = `Unable to ${message} BETA Label`
+      }
+
+      showToast(toast)
+    })
   }
 
 });
@@ -164,9 +180,13 @@ Template.HeaderOptions.helpers({
   links: () => {
     const record = Main.findOne({name: 'mainHeader'})
 
-    if (record) {
-      return record.links
-    }
+    return record && record.links
+  },
+
+  buttonEnabled: () => {
+    const record = Main.findOne({name: 'mainHeader'})
+
+    return record && record.buttonEnabled
   },
 
   linkAction: () => {
@@ -182,10 +202,6 @@ Template.HeaderOptions.helpers({
         }
       },
       finished: (index, fileInfo, context) => {
-        console.log('Finished uploading header icon')
-        console.log(index)
-        console.log(fileInfo)
-        console.log(context)
         Meteor.call('cms-header-icon-update', `${uploadDirPrefix()}${fileInfo.path}`, (error, result) => {
           let toast = 'File uploaded successfully'
           if (error) {

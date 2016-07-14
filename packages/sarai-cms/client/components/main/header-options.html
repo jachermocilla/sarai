@@ -11,7 +11,7 @@
           <div class="cms-block-content-label">
             Icon
           </div>
-            <img src="{{icon}}" class="cms-icon-preview">
+            <img src="{{icon}}" class="cms-icon-preview" style="margin-bottom: 10px;">
             {{> CMSUpload callbacks=myCallbacks}}
         </div>
 
@@ -69,7 +69,16 @@
         </div>
 
         <div {{cmsBlockContentRowClasses}}>
-          BETA Button Enabled
+          <div class="cms-block-content-label">
+            BETA Label
+            {{#unless buttonEnabled}}
+              <span class="cms-disabled-status"> - [Disabled]</span>
+            {{/unless}}
+          </div>
+          <button id="cms-header-button-toggle" class="mdl-button mdl-js-button mdl-button--raised">
+            {{#if buttonEnabled}} Disable {{else}} Enable {{/if}}
+          </button>
+
         </div>
 
       </div>
@@ -84,7 +93,7 @@
     </div>
   </div>
 
-  <dialog class="mdl-dialog cms-header-edit-dialog">
+  <dialog id="cms-header-dialog" class="mdl-dialog cms-header-edit-dialog">
     <h4 class="mdl-dialog__title">{{linkAction}}</h4>
     <div class="mdl-dialog__content">
       <form action="#">

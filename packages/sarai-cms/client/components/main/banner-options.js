@@ -1,63 +1,112 @@
 Template.BannerOptions.created = function() {
+  this.uploadedFile = ''
 }
 
 Template.BannerOptions.onRendered(() => {
-  $("#cms-banner-title-div").addClass("is-dirty");
-  $("#cms-banner-align-div").addClass("is-dirty");
-  $("#cms-banner-subtext-div").addClass("is-dirty");
-  $("#cms-banner-text-div").addClass("is-dirty");
-  $("#cms-banner-button-text-div").addClass("is-dirty");
+  // $("#cms-banner-title-div").addClass("is-dirty");
+  // $("#cms-banner-align-div").addClass("is-dirty");
+  // $("#cms-banner-subtext-div").addClass("is-dirty");
+  // $("#cms-banner-text-div").addClass("is-dirty");
+  // $("#cms-banner-button-text-div").addClass("is-dirty");
+
+  const dialog = document.querySelector('#cms-banner-dialog')
+
+    dialog.querySelector('.cancel').addEventListener('click', () => {
+      dialog.close();
+    });
+
+    dialog.querySelector('.save').addEventListener('click', () => {
+      const action = this.action
+
+      const textPosition = $('#cms-banner-slide-text-position-input').val()
+      const title = $('#cms-banner-slide-title-input').val()
+      const subtitle = $('#cms-banner-slide-subtitle-input').val()
+      const text = $('#cms-banner-slide-text-input').val()
+      const buttonText = $('#cms-banner-slide-button-text-input').val()
+      const buttonHref = $('#cms-banner-slide-button-href-input').val()
+      const rank = $('#cms-banner-slide-rank-input').val()
+
+      if (action == 'add') {
+        console.log('saving add')
+        Meteor.call('cms-banner-slide-add', this.uploadedFile, textPosition, title, subtitle, text, buttonText, buttonHref, rank, (error, result) => {
+
+        })
+      }
+
+      else if (action == 'edit') {
+        console.log('saving edit')
+      }
+
+    })
 })
 
 Template.BannerOptions.events({
-  'click #cms-banner-save': () => {
-    const title = $("#cms-banner-title").val()
-    const align = $("#cms-banner-align").val()
-    const text = $("#cms-banner-text").val()
-    const subtext = $("#cms-banner-subtext").val()
-    const buttonText = $("#cms-banner-button-text").val()
+  'click #cms-banner-slide-add': () => {
+    this.action = 'add'
 
+    const dialog = document.querySelector('#cms-banner-dialog');
+    dialog.showModal();
 
-    Meteor.call('cms-banner-update', align, title, text, subtext, buttonText, (error, result) => {
-      let toast = 'Unable to save changes'
-      if (error) { } else {
-        toast = 'Saved changes to Banner'
-      }
-
-      showToast(toast)
-    })
+    $('#cms-banner-slide-text-position-input').val("")
+    $('#cms-banner-slide-title-input').val("")
+    $('#cms-banner-slide-subtitle-input').val("")
+    $('#cms-banner-slide-text-input').val("")
+    $('#cms-banner-slide-button-text-input').val("")
+    $('#cms-banner-slide-button-href-input').val("")
+    $('#cms-banner-slide-rank-input').val("")
   }
 });
 
 Template.BannerOptions.helpers({
-  title: () => {
-    const record = Main.findOne({name: 'banner'})
+  truncateTableEntry: (text) => {
 
-    return record && record.banners[0].title
+    if (text.length > 20) {
+      return `${text.substring(0, 20)}...`
+    } else {
+      return text
+    }
   },
 
-  align: () => {
-    const record = Main.findOne({name: 'banner'})
+  dialogHeader: () => {
+    const action = Session.get('action')
 
-    return record && record.banners[0].align
+    if (action == 'add') {
+      return 'Add Slide'
+    } else if (action == 'edit') {
+      return 'Edit Slide'
+    }
   },
 
-  text: () => {
-    const record = Main.findOne({name: 'banner'})
-
-    return record && record.banners[0].text
-  },
-
-  subtext: () => {
-    const record = Main.findOne({name: 'banner'})
-
-    return record && record.banners[0].subtext
-  },
-
-  buttonText: () => {
-    const record = Main.findOne({name: 'banner'})
-
-    return record && record.banners[0].buttonText
+  sliderEntries: () => {
+    return [
+      {
+        img: '/upload/.uploads/main/banana_banner.jpg',
+        textPosition: 'lower-left',
+        title: 'SMARTER CROP MANAGEMENT',
+        subTitle: 'Helping farmers to produce more with less',
+        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
+        buttonText: 'Know More',
+        buttonLink: '/'
+      },
+      {
+        img: '/upload/.uploads/main/cacao_banner.jpg',
+        textPosition: 'lower-left',
+        title: 'SMARTER CROP MANAGEMENT',
+        subTitle: 'Helping farmers to produce more with less',
+        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
+        buttonText: 'Know More',
+        buttonLink: '/'
+      },
+      {
+        img: '/upload/.uploads/main/coconut_banner.jpg',
+        textPosition: 'lower-left',
+        title: 'SMARTER CROP MANAGEMENT',
+        subTitle: 'Helping farmers to produce more with less',
+        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
+        buttonText: 'Know More',
+        buttonLink: '/'
+      },
+    ]
   },
 
   myCallbacks: () => {
@@ -69,18 +118,7 @@ Template.BannerOptions.helpers({
         }
       },
       finished: (index, fileInfo, context) => {
-        Meteor.call('cms-banner-img-update', `${fileInfo.name}`, (error, result) => {
-          let toast = 'File uploaded successfully'
-          if (error) {
-            toast = 'Unable to upload file'
-          }
-          (function() {
-            'use strict';
-            window['counter'] = 0;
-            var snackbarContainer = document.querySelector('#cms-toast');
-            snackbarContainer.MaterialSnackbar.showSnackbar({message: toast});
-          }());
-        })
+        this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
       }
     }
   }
