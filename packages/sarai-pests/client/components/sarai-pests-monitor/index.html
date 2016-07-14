@@ -52,8 +52,11 @@
 	</div>
 		
 	<div id="pest-monitor">
-		<h4 style="margin-left:20px;">PEST MONITOR</h4>
-		{{ >monitorChart}}
+		<h4 style="margin-left:20px;">PEST MONITORING - ARMYWORM</h4>
+		<!-- {{ >monitorChart}} -->
+
+		{{> highmapsHelper chartId="map" chartObject=armywormRiskMap chartHeight="650px" chartWidth="600px"}}
+
 	</div>
 </template>
 
@@ -86,6 +89,12 @@
 
 
 <template name="highchartsPCHelper">
+
+	<div id="{{chartId}}" style="height: {{chartHeight}}; width: {{chartWidth}}"></div>
+
+</template>
+
+<template name="highmapsHelper">
 
 	<div id="{{chartId}}" style="height: {{chartHeight}}; width: {{chartWidth}}"></div>
 
