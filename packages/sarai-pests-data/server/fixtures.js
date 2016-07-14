@@ -24,7 +24,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of resistant varieties together with modified cultural practices to disrupt the disease cycle and proper deployment of resistant varieties in the field. Use balanced amounts of plant nutrients, especially nitrogen. Keep fields clean. Remove weed hosts and plow under rice stubble, straw, rice ratoons and volunteer seedlings, which can serve as hosts of bacteria.',
 		sci_name: 'Xanthomonas oryzae pv. oryzae',
 		eng_name: 'Bacterial Leaf Blight',
-		name: 'Bacterial Leaf Blight'
+		name: 'Bacterial Leaf Blight',
+		image: '/images/pests/BacterialLeafBlight.jpg'
 	});
 
 	PlantProblem.insert({
@@ -51,8 +52,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of resistant to the disease varieties of rice. Treat seeds with hot water. Keep fields clean—remove weed hosts and plow under rice stubble, straw, rice ratoons, and volunteer seedlings, which may be infected by the bacteria. Use balanced amounts of plant nutrients, especially nitrogen.',
 		sci_name: 'Xanthomonas oryzae pv. oryzicola',
 		eng_name: 'Bacterial Leaf Streak',
-
-		name: 'Bacterial Leaf Streak'
+		name: 'Bacterial Leaf Streak',
+		image: '/images/pests/BacterialLeafStreak.jpg'
 	});
 
 	PlantProblem.insert({
@@ -79,7 +80,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of resistant to the disease varieties of rice. Remove weeds and weedy rice in the field and nearby areas to remove alternate hosts that allow the fungus to survive and infect new rice crops. Use balanced nutrients, make sure that adequate potassium is used. If narrow brown spot poses a risk to the field, spray propiconazole at booting to heading stages.',
 		sci_name: 'Cercospora oryzae',
 		eng_name: 'Narrow Brown Spot, Narrow Leaf Spot, Cercospora Leaf Spot',
-		name: 'Narrow Leaf Spot'
+		name: 'Narrow Leaf Spot',
+		image: '/images/pests/NarrowLeafSpot.jpg'
 	});
 
 	PlantProblem.insert({
@@ -106,7 +108,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of resistant varieties. Advisable to raise seedlings in lowland conditions because it has been observed that seedlings raised in upland nurseries are more susceptible to blast even after transplanting. Reduce nitrogenous fertilizer application to prevent severe outbreak of blast in susceptible varieties. Several recommended fungicides are available against rice blast.',
 		sci_name: 'Magnaporthe oryzae',
 		eng_name: 'Rice Blast',
-		name: 'Rice Blast'
+		name: 'Rice Blast',
+		image: '/images/pests/RiceBlast.jpg'
 	});
 
 	PlantProblem.insert({
@@ -133,7 +136,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Practice deep plowing to bury sclerotia. Avoid planting cultivars with very low ear placement. Remove leaf sheath above the infected portion below the earshot. Apply recommended fungicides',
 		sci_name: 'Rhizoctonia solani',
 		eng_name: 'Banded Leaf and Sheath Blight',
-		name: 'Banded Leaf and Sheath Blight'
+		name: 'Banded Leaf and Sheath Blight',
+		image: '/images/pests/BandedLeafandSheathBlight.jpg'
 	});
 
 	PlantProblem.insert({
@@ -160,7 +164,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Plow deep to bury scleotia. Some producers avoid disease or minimize its effects by not planting late or by using shorter season hybrids. By doing so, they have a more mature and resistant crop in the field when rust spores arrive and sometimes disease can be completely avoided.',
 		sci_name: 'Puccinia polysora',
 		eng_name: 'Corn Rust',
-		name: 'Corn Rust'
+		name: 'Corn Rust',
+		image: '/images/pests/CornRust.jpg'
 	});
 
 	PlantProblem.insert({
@@ -187,7 +192,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Reduce nitrogen fertilizer. Plant resistant varieties. Eliminate infected plants. Maintain weed-free field. Use recommended fungicide.',
 		sci_name: 'Peronosclerospora philippinensis',
 		eng_name: 'Downy Mildew',
-		name: 'Downy Mildew'
+		name: 'Downy Mildew',
+		image: '/images/pests/DownyMildew.jpg'
 	});
 
 	PlantProblem.insert({
@@ -214,7 +220,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Planting of resistant varieties. Application of recommended fungicides.',
 		sci_name: 'Helminthosporium maydis',
 		eng_name: 'Leaf Blight',
-		name: 'Leaf Blight'
+		name: 'Leaf Blight',
+		image: '/images/pests/LeafBlight.jpg'
 	});
 
 	PlantProblem.insert({
@@ -241,7 +248,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Synchronized planting with distinct fallow period between cropping. Avoidance of late planting (more than a month after most fields in the area are planted); most of the GLH from the adjacent or nearby fields with older plants will migrate to the newly planted field because GLH prefer younger rice plants, roguing but effective only under low disease. Planting resistant varieties. Destruction of stubble several das after harvest by plowing and harowing to eradicate GLH and possible source of tungro viruses. Observe neighboring fields for presence of tungro and know the variety planted to anticipate future actions. Avoid planting susceptible varieties in areas where Tungro occur in almost all rice varieties. Use insecticides only when needed to save money and the friendly insects (no insecticides are needed in plants more than 60 days old afte transplanting and when no tungro and few GLH are present)',
 		sci_name: 'Rice tungro bacilliform virus',
 		eng_name: 'Tungro',
-		name: 'Tungro'
+		name: 'Tungro',
+		image: '/images/pests/Tungro.jpg'
 	});
 
 	PlantProblem.insert({
@@ -268,7 +276,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Plant resistant varieties. Apply recommended fungicides.',
 		sci_name: 'Cercospora zeae-maydis',
 		eng_name: 'Grey Leaf Spot',
-		name: 'Grey Leaf Spot'
+		name: 'Grey Leaf Spot',
+		image: '/images/pests/GreyLeafSpot.jpg'
 	});
 
 	PlantProblem.insert({
@@ -295,7 +304,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of resistant varieties. Avoid mechanical injury of plants. Proper nutritional management.',
 		sci_name: 'Ustilago maydis',
 		eng_name: 'Corn Smut',
-		name: 'Corn Smut'
+		name: 'Corn Smut',
+		image: '/images/pests/CornSmut.jpg'
 	});
 
 	PlantProblem.insert({
@@ -322,7 +332,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Cultivate to improve soil condition. Proper nutritional management.',
 		sci_name: '',
 		eng_name: 'Stalk Rot',
-		name: 'Stalk Rot'
+		name: 'Stalk Rot',
+		image: '/images/pests/StalkRot.jpg'
 	});
 
 	PlantProblem.insert({
@@ -349,7 +360,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of Resistant varieties, Seed treatment with recommended fungicides, Gather and burn infected plants or deep plowing to bury and submerge infected stubbles can help reduce sources of inocula',
 		sci_name: 'Fusarium moniliforme/Gibberella fujikuroi',
 		eng_name: 'Bakanae',
-		name: 'Bakanae'
+		name: 'Bakanae',
+		image: '/images/pests/Bakanae.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -376,7 +388,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Deep plowing to bury and submerge infected stubbles and sclerotia helps reduce sources of inoculum, Several recommended fungicides are available against sheath blight',
 		sci_name: 'Rhizoctonia solani',
 		eng_name: 'Rice Sheath Blight',
-		name: 'Sheath Blight'
+		name: 'Sheath Blight',
+		image: '/images/pests/SheathBlight.jpg'
 	});
 
 	PlantProblem.insert({
@@ -403,7 +416,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Plant resistant varieties, Use only healthy or clean seeds for planting or treat seeds with recommended fungicides if necessary, Apply muriate of potash to correct the soil deficiency, Spray with recommended fungicides',
 		sci_name: 'Helminthosporium oryzae/Cochliobolus miyabeanus',
 		eng_name: 'Helminthosporium Leaf Spot',
-		name: 'Brown Spot'
+		name: 'Brown Spot',
+		image: '/images/pests/BrownSpot.jpg'
 	});
 
 	PlantProblem.insert({
@@ -430,7 +444,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Minimize insect infestation in rice field, Remove infected stubbles after harvest, Apply potash at tillering stage, Apply foliar spray of calcium sulfate and zinc sulfate, Apply a seed treatment fungicide like carbendazim, edifenphos, or mancozeb as seed treatment and foliar spraying at booting stage, Apply a foliar fungicide like benomyl and copper oxychloride as foliar sprays',
 		sci_name: 'Sarocladium oryzae',
 		eng_name: 'Sheath Rot',
-		name: 'Sheath Rot'
+		name: 'Sheath Rot',
+		image: '/images/pests/SheathRot.jpg'
 	});
 
 	//-------------------------------PEST--------------------------------------------------
@@ -459,7 +474,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Many animals, birds and insects prey on the African armyworm at different stages of its life cycle. These natural enemies should be encouraged by maintaining natural surroundings with plenty of breeding places for them, including trees and shrubs. Night birds and bats feed on the African armyworm moths, and lacewings, wasps, parasitic wasps and spiders eat the caterpillars; Avoid burning and overgrazing of grasslands which are the natural habitat and food store of the caterpillars. Burning often causes outbreaks because as soon as temperatures rise, eggs are laid in large quantities on the fresh new grass.',
 		sci_name: 'Spodoptera exempta (Walker)/Mythimna separata Walker/Spodoptera mauritia Boisduval',
 		eng_name: 'African Armyworm, Black Armyworm, Nutgrass Armyworm, True Armyworm, Hail Worm, Mystery Armyworm, Rain Worm',
-		name: 'Black Armyworm adult'
+		name: 'Black Armyworm adult',
+		image: '/images/pests/BlackArmywormadult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -486,7 +502,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Many animals, birds and insects prey on the African armyworm at different stages of its life cycle. These natural enemies should be encouraged by maintaining natural surroundings with plenty of breeding places for them, including trees and shrubs. Night birds and bats feed on the African armyworm moths, and lacewings, wasps, parasitic wasps and spiders eat the caterpillars; Avoid burning and overgrazing of grasslands which are the natural habitat and food store of the caterpillars. Burning often causes outbreaks because as soon as temperatures rise, eggs are laid in large quantities on the fresh new grass.',
 		sci_name: 'Spodoptera exempta (Walker)/Mythimna separata Walker/Spodoptera mauritia Boisduval',
 		eng_name: 'African Armyworm, Black Armyworm, Nutgrass Armyworm, True Armyworm, Hail Worm, Mystery Armyworm, Rain Worm',
-		name: 'Black Armyworm larva'
+		name: 'Black Armyworm larva',
+		image: '/images/pests/BlackArmywormlarva.jpg'
 	});
 
 	PlantProblem.insert({
@@ -513,7 +530,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Seedbeds should be established far from large areas of weeds, remove weeds from areas outside of fields, and plow all uncultivated land. In insecticides, sprays are more effective than granules. High dosages are required to kill large armyworm and cutworm larvae. Spraying should be done late in the afternoon before the larvae leave their resting places to climb up the plants. Because damage is normally concentrated in discrete areas of a rice field, only areas where damage occurs should be sprayed.',
 		sci_name: 'Spodoptera litura (Fabricius)',
 		eng_name: 'Common Cutworm, Grass Cutworm, Vegetable Cutworm, Tobacco Cutworm, Tobacco Caterpillar, Taro Caterpillar',
-		name: 'Common Cutworm adult'
+		name: 'Common Cutworm adult',
+		image: '/images/pests/CommonCutwormadult.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -540,7 +558,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Seedbeds should be established far from large areas of weeds, remove weeds from areas outside of fields, and plow all uncultivated land. In insecticides, sprays are more effective than granules. High dosages are required to kill large armyworm and cutworm larvae. Spraying should be done late in the afternoon before the larvae leave their resting places to climb up the plants. Because damage is normally concentrated in discrete areas of a rice field, only areas where damage occurs should be sprayed.',
 		sci_name: 'Spodoptera litura (Fabricius)',
 		eng_name: 'Common Cutworm, Grass Cutworm, Vegetable Cutworm, Tobacco Cutworm, Tobacco Caterpillar, Taro Caterpillar',
-		name: 'Common Cutworm larva'
+		name: 'Common Cutworm larva',
+		image: '/images/pests/CommonCutwormlarva.jpg'
 	});
 
 	PlantProblem.insert({
@@ -567,7 +586,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Weeding, inter-row cultivations, removal of crop residues from fields after harvesting, deep autumn plowing, optimal dates of early sowing, cultivation of resistant varieties, insecticide treatments of crops, release of such entomophages as Trichogramma spp.',
 		sci_name: 'Mythimna separata (Walker)',
 		eng_name: 'Ear-cutting caterpillar, Oriental Armyworm, Northern Armyworm',
-		name: 'Ear-cutting Caterpillar adult'
+		name: 'Ear-cutting Caterpillar adult',
+		image: '/images/pests/Ear-cuttingCaterpillaradult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -594,7 +614,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Weeding, inter-row cultivations, removal of crop residues from fields after harvesting, deep autumn plowing, optimal dates of early sowing, cultivation of resistant varieties, insecticide treatments of crops, release of such entomophages as Trichogramma spp.',
 		sci_name: 'Mythimna separata (Walker)',
 		eng_name: 'Ear-cutting caterpillar, Oriental Armyworm, Northern Armyworm',
-		name: 'Ear-cutting Caterpillar larva'
+		name: 'Ear-cutting Caterpillar larva',
+		image: '/images/pests/Ear-cuttingCaterpillarlarva.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -621,7 +642,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Melanitis leda ismene Cramer',
 		eng_name: 'Green Horned Caterpillar (larva), Common Evening Brown (adult)',
-		name: 'Greenhorned Caterpillar adult'
+		name: 'Greenhorned Caterpillar adult',
+		image: '/images/pests/GreenhornedCaterpillaradult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -648,7 +670,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Melanitis leda ismene Cramer',
 		eng_name: 'Green Horned Caterpillar (larva), Common Evening Brown (adult)',
-		name: 'Greenhorned Caterpillar larva'
+		name: 'Greenhorned Caterpillar larva',
+		image: '/images/pests/GreenhornedCaterpillarlarva.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -675,7 +698,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Use of correct fertilizer application, plant early and use wider spacing (30 × 20 mm), drain the field, transplant older seedlings (sparse planting can also reduce the damage), grow a ratoon, encourage biological control agents (snails, hydrophilid and dytiscid water beetles, spiders, dragonflies, and birds), use foliar treatments of carbamate insecticides.',
 		sci_name: 'Nymphula depunctalis (Guenée)',
 		eng_name: 'Rice Caseworm',
-		name: 'Rice Caseworm adult'
+		name: 'Rice Caseworm adult',
+		image: '/images/pests/RiceCasewormadult.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -702,7 +726,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Naranga aenescens (Moore)',
 		eng_name: 'Green Semilooper',
-		name: 'Rice Green Semilooper adult'
+		name: 'Rice Green Semilooper adult',
+		image: '/images/pests/RiceGreenSemilooperadult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -717,7 +742,8 @@ if (PlantProblem.find().count() === 0) {
 		sci_name: 'Naranga aenescens (Moore)',
 		fil_name: '',
 		eng_name: 'Green Semilooper',
-		name: 'Rice Green Semilooper larva'
+		name: 'Rice Green Semilooper larva',
+		image: '/images/pests/RiceGreenSemilooperlarva.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -744,7 +770,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Careful use of nitrogenous fertilizer in split applications is recommended. Removal of grassy weeds from rice fields and surrounding borders prevents the buildup of rice leaffolders on alternate hosts. However, chemical control is the only practical method to control increasing leaffolder infestation during crop growth. Numerous insecticides that have been identified for control are most effective as foliar sprays. But foliar sprays have to be repeated because they are often washed off by frequent rains. Granular insecticides broadcast into water are ineffective. Since leaffolders can attack the crop during any growth stage, fields should be monitored weekly.',
 		sci_name: 'Cnaphalocrocis medinalis (Guenée)',
 		eng_name: 'Rice Leaffolder',
-		name: 'Rice Leaffolder adult'
+		name: 'Rice Leaffolder adult',
+		image: '/images/pests/RiceLeaffolderadult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -771,7 +798,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Careful use of nitrogenous fertilizer in split applications is recommended. Removal of grassy weeds from rice fields and surrounding borders prevents the buildup of rice leaffolders on alternate hosts. However, chemical control is the only practical method to control increasing leaffolder infestation during crop growth. Numerous insecticides that have been identified for control are most effective as foliar sprays. But foliar sprays have to be repeated because they are often washed off by frequent rains. Granular insecticides broadcast into water are ineffective. Since leaffolders can attack the crop during any growth stage, fields should be monitored weekly.',
 		sci_name: 'Cnaphalocrocis medinalis (Guenée)',
 		eng_name: 'Rice Leaffolder',
-		name: 'Rice Leaffolder larva'
+		name: 'Rice Leaffolder larva',
+		image: '/images/pests/RiceLeaffolderlarva.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -799,7 +827,8 @@ if (PlantProblem.find().count() === 0) {
 		sci_name: 'Pelopidas mathias (Fabricius)',
 		fil_name: '',
 		eng_name: 'Rice Skipper, Small Branded Swift, Black Branded Swift, Lesser Millet Skipper',
-		name: 'Rice Skipper adult'
+		name: 'Rice Skipper adult',
+		image: '/images/pests/RiceSkipperadult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -827,7 +856,8 @@ if (PlantProblem.find().count() === 0) {
 		sci_name: 'Pelopidas mathias (Fabricius)',
 		fil_name: '',
 		eng_name: 'Rice Skipper, Small Branded Swift, Black Branded Swift, Lesser Millet Skipper',
-		name: 'Rice Skipper larva'
+		name: 'Rice Skipper larva',
+		image: '/images/pests/RiceSkipperlarva.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -854,7 +884,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Clipping the seedlings before transplanting greatly reduces the carryover of eggs from the seedbed to the transplanted fields. However, stem borers are difficult to control with insecticides. After hatching, the larvae are exposed only for a few hours before they penetrate a tiller or enter the plant. Successful control involves repeated foliar applications with spray volumes more than 400 liters/ha.',
 		sci_name: 'Scirpophaga innotata (Walker)',
 		eng_name: 'White Stemborer',
-		name: 'White Stemborer'
+		name: 'White Stemborer',
+		image: '/images/pests/WhiteStemborer.jpg'
 	});
 	
 	PlantProblem.insert({
@@ -881,7 +912,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Clipping the seedlings before transplanting greatly reduces the carryover of eggs from the seedbed to the transplanted fields. However, stem borers are difficult to control with insecticides. After hatching, the larvae are exposed only for a few hours before they penetrate a tiller or enter the plant. Successful control involves repeated foliar applications with spray volumes more than 400 liters/ha.',
 		sci_name: 'Scirpophaga incertulas (Walker)',
 		eng_name: 'Yellow Stemborer',
-		name: 'Yellow Stemborer adult'
+		name: 'Yellow Stemborer adult',
+		image: '/images/pests/YellowStemboreradult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -908,7 +940,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Clipping the seedlings before transplanting greatly reduces the carryover of eggs from the seedbed to the transplanted fields. However, stem borers are difficult to control with insecticides. After hatching, the larvae are exposed only for a few hours before they penetrate a tiller or enter the plant. Successful control involves repeated foliar applications with spray volumes more than 400 liters/ha.',
 		sci_name: 'Scirpophaga incertulas (Walker)',
 		eng_name: 'Yellow Stemborer',
-		name: 'Yellow Stemborer larva'
+		name: 'Yellow Stemborer larva',
+		image: '/images/pests/YellowStemborerlarva.jpg'
 	});
 
 	PlantProblem.insert({
@@ -935,7 +968,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Chrysodeixis chalcites Esper',
 		eng_name: 'Corn Semilooper, Tomato Looper, Green Gardern Looper (larva); Golden Twin Spot (adult)',
-		name: 'Corn Semilooper adult'
+		name: 'Corn Semilooper adult',
+		image: '/images/pests/CornSemilooperadult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -962,7 +996,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Chrysodeixis chalcites Esper',
 		eng_name: 'Corn Semilooper, Tomato Looper, Green Gardern Looper (larva); Golden Twin Spot (adult)',
-		name: 'Corn Semilooper larva'
+		name: 'Corn Semilooper larva',
+		image: '/images/pests/CornSemilooperlarva.jpg'
 	});
 
 	PlantProblem.insert({
@@ -989,7 +1024,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Ostrinia furnacalis Guenee',
 		eng_name: 'Asian/Oriental Cornborer',
-		name: 'Asian Cornborer adult'
+		name: 'Asian Cornborer adult',
+		image: '/images/pests/AsianCornboreradult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1016,7 +1052,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Helicoverpa armigera Hubner',
 		eng_name: 'Corn Earworm, Cotton Bollwormm, Tobacco Budworm (larva); Scarce Bordered Straw (adult)',
-		name: 'Corn Earworm adult'
+		name: 'Corn Earworm adult',
+		image: '/images/pests/CornEarwormadult.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1044,7 +1081,8 @@ if (PlantProblem.find().count() === 0) {
 		sci_name: 'Helicoverpa armigera Hubner',
 		fil_name: '',
 		eng_name: 'Corn Earworm, Cotton Bollwormm, Tobacco Budworm (larva); Scarce Bordered Straw (adult)',
-		name: 'Corn Earworm larva'
+		name: 'Corn Earworm larva',
+		image: '/images/pests/CornEarwormlarva.jpg'
 	});
 
 	//FREI
@@ -1072,7 +1110,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Cut off their food supply by delaying transplanting or planting by a couple weeks if possible. Corn flea beetle feeding may be reduced with the use of insecticidal seed treatments and foliar insecticides.',
 		sci_name: 'Chaetocnema pulicaria',
 		eng_name: 'Corn Flea Beetle, Clover Flea Beetle',
-		name: 'Corn Flea Beetle'
+		name: 'Corn Flea Beetle',
+		image: '/images/pests/CornFleaBeetle.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1099,7 +1138,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Deep and thorough ploughing of the field and crop rotation will be a great help. It is also possible to pluck the infected leaves in minor infection and uproot the whole plant in case of major infection.',
 		sci_name: 'Leptispa Pygmaea',
 		eng_name: 'Rice Blue Beetle',
-		name: 'Leptispa'
+		name: 'Leptispa',
+		image: '/images/pests/Leptispa.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1126,7 +1166,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Control of these insects by seed treatments is reliant on either the adults, in the case of cypermethrin, or larvae, when triflumuron is used, feeding on the treated grain and hence the insecticide. When feeding on treated grain, insecticide is ingested and the insect is killed.',
 		sci_name: 'Sitophilus Oryzae',
 		eng_name: 'Rice Weevil',
-		name: 'Rice Weevil'
+		name: 'Rice Weevil',
+		image: '/images/pests/RiceWeevil.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1153,7 +1194,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'A cultural control method that is recommended for the rice hispa is to avoid over fertilizing the field. Close plant spacing results in greater leaf densities that can tolerate higher hispa numbers. To prevent egg laying of the pests, the shoot tips can be cut. Clipping and burying shoots in the mud can reduce grub populations by 75−92%.',
 		sci_name: 'Dicladispa Armigera',
 		eng_name: 'Rice Hispa, Spiny Beetle',
-		name: 'Rice Hispa'
+		name: 'Rice Hispa',
+		image: '/images/pests/RiceHispa.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1180,7 +1222,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'There are a number of natural enemies including predators such as wasps, beetles and ants that control white grubs. Two biological control products that are presently available to the consumer are milky spore disease and parasitic nematodes.',
 		sci_name: 'Phyllophaga',
 		eng_name: 'White Grub, Scarab Larvae',
-		name: 'White Grub Larva'
+		name: 'White Grub Larva',
+		image: '/images/pests/WhiteGrubLarva.jpg'
 	});
 
 	//JASON
@@ -1208,7 +1251,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'There are no known control practices for this insect.',
 		sci_name: 'Euscyrtus Concinnus',
 		eng_name: 'Cricket, Gryllids',
-		name: 'Field Cricket'
+		name: 'Field Cricket',
+		image: '/images/pests/FieldCricket.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1235,7 +1279,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Remove long grass around affected plants to eliminate hiding places. Encourage biological control by attracting their predators to the garden – bats, birds and snakes.',
 		sci_name: 'Tettigoniidae sp.',
 		eng_name: 'Katydid, Bush Cricket, Long-horned Grasshopper',
-		name: 'Katydid'
+		name: 'Katydid',
+		image: '/images/pests/Katydid.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1262,7 +1307,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Dusting the crop with to 10% BHC or 5% Aldrin is very much effective. Poison baiting is useful both against nymphs and adults. The egg masses are destroyed by ploughing the field and exposing them to birds.',
 		sci_name: 'Oxya hyla intricata ',
 		eng_name: 'Rice Grasshopper, Short-horned Grasshopper',
-		name: 'Short-horned Grasshopper'
+		name: 'Short-horned Grasshopper',
+		image: '/images/pests/Short-hornedGrasshopper.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1289,7 +1335,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Flood the stubbles, shave bunds, sweep along the bunds and pick adults directly from the foliage at night when they are sluggish. Use poison baits from salt water and rice bran. Use foliar sprays to control grashoppers in rice fields. Granules are not effective.',
 		sci_name: 'Locusta migratoria manilensis',
 		eng_name: 'Oriental Migratory Locust, Asiatic Migratory Locust',
-		name: 'Oriental Migratory Locust'
+		name: 'Oriental Migratory Locust',
+		image: '/images/pests/OrientalMigratoryLocust.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1316,7 +1363,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Maintain standing water. Encourage biological control agents: sphecid wasp, carabid beetle, nematodes, and fungus; mole crickets eat each other when they are together because of their cannibalistic behavior.',
 		sci_name: 'Gryllotalpa orientalis',
 		eng_name: 'Short-winged Mole Cricket, Southern Mole Cricket, Tawny Mole Cricket',
-		name: 'Mole Cricket'
+		name: 'Mole Cricket',
+		image: '/images/pests/MoleCricket.jpg'
 	});
 
 	//JV
@@ -1344,7 +1392,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: ' Flood the seedbed, for a day, so that only the tips of seedlings are exposed will control BHP. Sweep small seedbeds with a net to remove some BPH (but not eggs), particularly from dry seed beds. At high BPH densities, sweeping will not remove sufficient numbers of BPH from the base of the plant.',
 		sci_name: 'Nilaparvata lugens',
 		eng_name: 'Brown Planthopper, Planthopper',
-		name: 'Brown Planthopper'
+		name: 'Brown Planthopper',
+		image: '/images/pests/BrownPlanthopper.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1371,7 +1420,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Reduce the number of rice crops to two per year and synchronized crop establishment across farms reduces leafhoppers and other insect vectors. Transplant older seedlings (>3 weeks) to reduce viral disease susceptibility transmitted by leafhoppers. Plant early within a given planting period, particularly in the dry season to reduce the risk of insect-vector disease.',
 		sci_name: 'Nephotettix malayanus, Nephotettix virescens, Nephotettix nigropictus Stal',
 		eng_name: 'Green Leafhopper, Leafhopper, Hopper',
-		name: 'Green Leafhopper'
+		name: 'Green Leafhopper',
+		image: '/images/pests/GreenLeafhopper.jpg'
 	});	
 
 	PlantProblem.insert({
@@ -1398,7 +1448,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'There are parasites and predators that help regulate the population of this insect. Mymarid wasps and the mirid bugs prey on the eggs. Dryinid wasps and pipunculid flies parasitize both the adults and the nymphs and spiders eat the adults.',
 		sci_name: 'Recilia dorsalis',
 		eng_name: 'Zigzag Leafhopper',
-		name: 'Zigzag Leafhopper'
+		name: 'Zigzag Leafhopper',
+		image: '/images/pests/ZigzagLeafhopper.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1425,7 +1476,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Maintain a clean field by removing the weeds and drying the rice field during plowing. Plant rice varieties of the same maturity date to break the insect’s cycle. Use of mercury bulbs as light traps for egg-laying adults, light trapping of insects should start 5 days before and after the full moon.',
 		sci_name: 'Scotinophara coarctata',
 		eng_name: 'Black Bug, Common Black Bug',
-		name: 'Black Bug'
+		name: 'Black Bug',
+		image: '/images/pests/BlackBug.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1452,7 +1504,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Plow ratoon of the previous crop and remove all off-season plant hosts. Encourage biological control agents: platygasterid, eupelmid, and pteromalid wasps (parasitize the larvae), phytoseiid mites (feed on eggs), spiders (feed on adults).',
 		sci_name: 'Orseolia oryzae',
 		eng_name: 'Gall Midge, Rice Gall Midge, Asian Gall Midge',
-		name: 'Rice Gall Midge'
+		name: 'Rice Gall Midge',
+		image: '/images/pests/RiceGallMidge.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1479,7 +1532,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Encourage biological control agents: small encyrtid wasps, spiders, chloropid fly, drosophilid, and lady beetles.',
 		sci_name: 'Brevennia rehi',
 		eng_name: 'Rice Mealy Bug, Mealy Bug',
-		name: 'Rice Mealy Bug'
+		name: 'Rice Mealy Bug',
+		image: '/images/pests/RiceMealyBug.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1506,7 +1560,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Capturing rice bugs, in the early morning or late afternoon, by net can be effective at low rice bug densities, though labor intensive. Encourage biological control agents: Some wasps, grasshoppers and spiders attack rice bugs or rice bug eggs. Indiscriminate insecticide use disrupts biological control, resulting in pest resurgence.',
 		sci_name: 'Leptocorisa Varicornis, Leptocorisa oratorius Fab., Leptocorisa acuta Thunberg',
 		eng_name: 'Rice Paddy Bug, Rice Bug, Paddy Bug',
-		name: 'Rice Paddy Bug'
+		name: 'Rice Paddy Bug',
+		image: '/images/pests/RicePaddyBug.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1533,7 +1588,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: 'Encourage biological control agents or natural enemies that can manage the population of rice root aphids. Both the nymphs and adults are parasitized by a small braconid wasp and a mermithid nematode and are preyed upon by lady beetles.',
 		sci_name: 'Tetraneura nigriabdominalis',
 		eng_name: 'Rice Root Aphid, Aphid',
-		name: 'Rice Root Aphid'
+		name: 'Rice Root Aphid',
+		image: '/images/pests/RiceRootAphid.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1560,7 +1616,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Hydrellia philippina (Ferino)',
 		eng_name: '',
-		name: 'Rice Whorl Maggot'
+		name: 'Rice Whorl Maggot',
+		image: '/images/pests/RiceWhorlMaggot.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1587,7 +1644,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Pomacea canaliculata, Pomacea maculata',
 		eng_name: '',
-		name: 'Golden Apple Snail'
+		name: 'Golden Apple Snail',
+		image: '/images/pests/GoldenAppleSnail.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1614,7 +1672,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Lonchura Malacca, Passer montanus',
 		eng_name: '',
-		name: 'Maya'
+		name: 'Maya',
+		image: '/images/pests/Maya.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1641,7 +1700,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Rattus rattus mindanensis Mearns, Rattus norvegicus, Rattus argentiventer Robinson & Kloss 1916',
 		eng_name: '',
-		name: 'Rat'
+		name: 'Rat',
+		image: '/images/pests/Rat.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1668,7 +1728,8 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Chilo suppressalis Walker',
 		eng_name: '',
-		name:'Striped Stemborer'
+		name:'Striped Stemborer',
+		image: '/images/pests/StripedStemborer.jpg'
 	});
 
 	PlantProblem.insert({
@@ -1695,6 +1756,7 @@ if (PlantProblem.find().count() === 0) {
 		treatment: '',
 		sci_name: 'Sesamia inferens Walker',
 		eng_name: '',
-		name:'Pink Stemborer'
+		name:'Pink Stemborer',
+		image: '/images/pests/PinkStemborer.jpg'
 	});
 }
