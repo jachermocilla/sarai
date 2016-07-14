@@ -46,7 +46,7 @@ Template.SaraiPestsLib.helpers({
 	},
 	displayPest: function(pestType){
 		var pestsPerPage = parseInt(CMS.findOne({info:'finalLib'}).pestsPerPage);
-		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{skip: (Session.get(currentPest)-1)*pestsPerPage, limit: pestsPerPage});
+		return PlantProblem.find({'type': 'Pest', 'plant_affected': pestType},{sort: {name: 1},skip: (Session.get(currentPest)-1)*pestsPerPage, limit: pestsPerPage});
 	},
 	page: function(pestType){
 		var count = Session.get(pestType + " Count");
@@ -80,11 +80,7 @@ Template.SaraiPestsLib.events({
 	 }
 });
 
-Template.IndividualPest.helpers({
-	imageName: function(str){
-		return str.replace(/\s/g, '');
-	}
-});
+
 
 Template.PageNumber.helpers({
 	setPageActive: function(pageNum){

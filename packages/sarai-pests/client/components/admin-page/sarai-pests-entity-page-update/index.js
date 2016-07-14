@@ -1,3 +1,5 @@
+var imageURL = "";
+
 Template.EntityPageUpdate.helpers({
 	pest: function(){
 		console.log(FlowRouter.current().params._id);
@@ -6,13 +8,31 @@ Template.EntityPageUpdate.helpers({
 });
 
 Template.EntityDropzone.helpers({
-	pest: function(){
+	pestImage: function(){
 		console.log(FlowRouter.current().params._id);
-		return PlantProblem.findOne({_id: FlowRouter.current().params._id});
-	},
-	imageName: function(str){
-		return str.replace(/\s/g, '');
+		imageURL = PlantProblem.findOne({_id: FlowRouter.current().params._id}).image;
+		return imageURL;
 	}
+});
+
+Template.EntityDropzone.events({
+  'dropped #dropzone': function(e) {
+    FS.Utility.eachFile(e, function(file) {
+        var newFile = new FS.File(file);
+        
+        Images.insert(newFile, function (error, fileObj) {
+          if (error) {
+            toastr.error("Upload failed... please try again.");
+          } else {
+            toastr.success('Upload succeeded!'), setTimeout(function() {
+	            imageURL = '/cfs/files/images/' +fileObj._id;
+	            $('.bannerZone').children('img').attr('src', imageURL);
+            }, 800);
+          }
+      	});
+      
+    });
+  }
 });
 
 Template.EntityPageUpdate.events({
@@ -47,7 +67,8 @@ Template.EntityPageUpdate.events({
 				fil_description: $("#fil-description").val(),
 				fil_plant_affected: $("#fil-plant-affected").val(),
 				fil_classification: $("#fil-classification").val(),
-				fil_treatment: $("#fil-treatment").val()
+				fil_treatment: $("#fil-treatment").val(),
+				image: imageURL
 			};
 			
 			Meteor.call('updatePest', pestData);

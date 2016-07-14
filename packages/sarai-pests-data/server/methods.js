@@ -24,7 +24,8 @@ Meteor.methods({
 			fil_description: pestData.fil_description,
 			fil_plant_affected: pestData.fil_plant_affected,
 			fil_classification: pestData.fil_classification,
-			fil_treatment: pestData.fil_treatment
+			fil_treatment: pestData.fil_treatment,
+			image: pestData.image
 		});
 	},
 	'updatePest': function(pestData){
@@ -55,7 +56,8 @@ Meteor.methods({
 					fil_description: pestData.fil_description,
 					fil_plant_affected: pestData.fil_plant_affected,
 					fil_classification: pestData.fil_classification,
-					fil_treatment: pestData.fil_treatment
+					fil_treatment: pestData.fil_treatment,
+					image: pestData.image
 				}
 			},
 				{ upsert: false }
