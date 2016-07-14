@@ -157,6 +157,18 @@ Meteor.methods({
 				{ upsert: false }
 			);
 	},
+	'updateViewPestType': function(pestType){
+		console.log("naasa update na " + pestType);
+			CMS.update( 
+				{ info: 'finalLib' },
+				{
+					$set : {
+						viewPestType: pestType
+					}
+				},
+					{ upsert: false }
+				);
+	},
 	'updateLibBanner': function(url, id){
 			var ID = CMS.findOne({info:"finalLib"}).bannerImageID;
 						

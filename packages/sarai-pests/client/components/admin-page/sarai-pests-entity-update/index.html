@@ -25,9 +25,10 @@
 					  <tbody>
 					  	{{#each displayPest this}}
 						    <tr class="row-style">
-						      <td class="mdl-data-table__cell--non-numeric">{{incremented @index}}</td>
+						      <td class="image-holder">
+						      	<img src="{{image}}" height="46px" width="46px" align="left">
+						      </td>
 						      <td id="{{_id}}" class="mdl-data-table__cell--non-numeric pest-entity pointer">{{name}}</td>
-						   <!--    <td style="padding-top: 0px;"><img src="/images/pests/{{imageName}}" height="46px" width="60px" align="left"></td> -->
 						      <td class="mdl-data-table__cell--non-numeric button-holder">
 						      	<button name="{{_id}}" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored delete-button">Delete</button></td>
 						    </tr>

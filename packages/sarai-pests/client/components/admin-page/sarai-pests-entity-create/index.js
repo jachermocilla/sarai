@@ -1,3 +1,25 @@
+var imageURL = "";
+
+Template.AddEntityDropzone.events({
+  'dropped #dropzone': function(e) {
+    FS.Utility.eachFile(e, function(file) {
+        var newFile = new FS.File(file);
+        
+        Images.insert(newFile, function (error, fileObj) {
+          if (error) {
+            toastr.error("Upload failed... please try again.");
+          } else {
+            toastr.success('Upload succeeded!'), setTimeout(function() {
+	            imageURL = '/cfs/files/images/' +fileObj._id;
+	            $('.bannerZone').children('img').attr('src', imageURL);
+            }, 800);
+          }
+      	});
+      
+    });
+  }
+});
+
 Template.EntityCreate.events({
 	'submit form': function(e){
 			e.preventDefault();
@@ -14,7 +36,7 @@ Template.EntityCreate.events({
 				order: $("#order").val(),
 				classification: $("#classification").val(),
 				stage_threatening: $("#threatening-stage").val(),
-				plant_affected: $("#plant-affected").val(),
+				plant_affected: $("#plant-affected").val()==""? "Uncategorized" : $("#plant-affected").val(),
 				description: $("#description").val(),
 				symptoms: $("#symptoms").val(),
 				effect: $("#effect").val(),
@@ -29,7 +51,8 @@ Template.EntityCreate.events({
 				fil_description: $("#fil-description").val(),
 				fil_plant_affected: $("#fil-plant-affected").val(),
 				fil_classification: $("#fil-classification").val(),
-				fil_treatment: $("#fil-treatment").val()
+				fil_treatment: $("#fil-treatment").val(),
+				image: imageURL
 			};
 			
 			Meteor.call('insertPest', pestData);
