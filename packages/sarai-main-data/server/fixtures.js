@@ -17,14 +17,16 @@ if (Main.find().count() === 0) {
 	      	href: '/',
 	      	links: [],
 	      	id: 'home-link',
-	      	withsublinks: false
+	      	withsublinks: false,
+	      	rank: 1
 	      },
 	      {
 	      	name: 'about-us',
 	      	href: '/about-us',
 	      	links: [],
 	      	id: 'about-us-link',
-	      	withsublinks: false
+	      	withsublinks: false,
+	      	rank: 2
 	      },
 	      {
 	      	name: 'Explore',
@@ -32,38 +34,46 @@ if (Main.find().count() === 0) {
 	      	links: [
 	      		{
 	      			name: 'Suitability Maps',
-	      			href: 'http://159.203.253.36:8081/web/'
+	      			href: 'http://159.203.253.36:8081/web/',
+	      			rank: 1
 	      		},
 	      		{
 	      			name: 'Weather Monitoring',
-	      			href: '/explore/weather-monitoring'
+	      			href: '/explore/weather-monitoring',
+	      			rank: 2
 	      		},
 	      		{
 	      			name: 'Crop Production Area',
-	      			href: '/explore/crop-production-area'
+	      			href: '/explore/crop-production-area',
+	      			rank: 3
 	      		},
 	      		{
 	      			name: 'Normalized Difference Vegetation Index (NDVI)',
-	      			href: '/explore/ndvi'
+	      			href: '/explore/ndvi',
+	      			rank: 4
 	      		},
 	      		{
 	      			name: 'Rainfall',
-	      			href: '/explore/rainfall'
+	      			href: '/explore/rainfall',
+	      			rank: 5
 	      		},
 	      		{
 	      			name: 'Open Data',
-	      			href: 'http://202.92.144.42/'
+	      			href: 'http://202.92.144.42/',
+	      			rank: 6
 	      		}
 	      	],
 	      	id: 'explore-link',
-	      	withsublinks: true
+	      	withsublinks: true,
+	      	rank: 3
 	      },
 	      {
 	      	name: 'Planning Dates',
 	      	href: '',
 	      	links: [],
 	      	id: 'planning-dates-link',
-	      	withsublinks: false
+	      	withsublinks: false,
+	      	rank: 4
 	      },
 	      {
 	      	name: 'DSS',
@@ -71,11 +81,13 @@ if (Main.find().count() === 0) {
 	      	links: [
 	      		{
 	      			name: 'Corn Nutrient Expert',
-	      			href: '/dss/corn-nutrient-expert'
+	      			href: '/dss/corn-nutrient-expert',
+	      			rank: 1
 	      		}
 	      	],
 	      	id: 'dss-link',
-	      	withsublinks: true
+	      	withsublinks: true,
+	      	rank: 5
 	      },
 	      {
 	      	name: 'Get Involved',
@@ -83,19 +95,23 @@ if (Main.find().count() === 0) {
 	      	links: [
 	      		{
 	      			name: 'Contact Us',
-	      			href: '/get-involved/contact'
+	      			href: '/get-involved/contact',
+	      			rank: 1
 	      		},
 	      		{
 	      			name: 'Submit a Story',
-	      			href: '/get-involved/contact'
+	      			href: '/get-involved/contact',
+	      			rank: 2
 	      		},
 	      		{
 	      			name: 'Join the Discussion',
-	      			href: 'https://groups.google.com/forum/#!forum/project-sarai-knowledge-hub'
+	      			href: 'https://groups.google.com/forum/#!forum/project-sarai-knowledge-hub',
+	      			rank: 3
 	      		}
 	      	],
 	      	id: 'get-involved-link',
-	      	withsublinks: true
+	      	withsublinks: true,
+	      	rank: 6
 	      }
 	    ],
 	    buttonText: 'BETA VERSION',
