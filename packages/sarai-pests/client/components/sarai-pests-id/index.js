@@ -146,5 +146,52 @@ Template.SaraiPestsId.events({
 
 		var descendingPests = Object.keys(pestTally).sort(function(a,b){return pestTally[b]-pestTally[a]});
 		Session.set('ontology', descendingPests.length >= 5? descendingPests.slice(0,5) : descendingPests.slice(0,descendingPests.length));
+		
+		if ($(".insect-damage[type=text]").val() != ""){
+			var identifier = $(".insect-damage [type=text]").val();
+			var pestMatches = PlantProblem.find({type: "Pest", description:{$regex:".*"+identifier+".*", $options: 'i'}});
+
+			pestMatches.forEach(function(pestObj){
+			  pests[pestObj.name] = pests[pestObj.name] == NaN || pests[pestObj.name] == undefined ? 1 : pests[pestObj.name] + 1;
+			});
+		}
+
+		Session.set('ontology', Object.keys(pests).sort(function(a,b){return pests[b]-pests[a]}));
+		$(".ontology-search").hide();
+		$(".continue-search").show();
+	},
+	'click #next1': function(e){
+		e.preventDefault();
+		$(".observed-pest").show();
+		$(".ontology-search").show();
+		$(".continue-search").hide();
+		$("#next1").hide();
+		console.log("before");
+		$("#next2").show();
+		console.log("after");
+	},
+	'click #next2': function(e){
+		e.preventDefault();
+		$(".damage-appearance").show();
+		$(".ontology-search").show();
+		$(".continue-search").hide();
+		$("#next2").hide();
+		$("#next3").show();
+	},
+	'click .stop': function(e){
+		e.preventDefault();
+		$(".continue-search").hide();
+		$(".search-again").show();
+	},
+	'click .refresh': function(){
+		location.reload();
+		$("main").scrollTop($(".mdl-tabs__tab-bar").offset().top);
+		$(".observed-pest").hide();
+		$(".damage-appearance").hide();
+		$(".description-of-damage").hide();
+		$(".parts-of-plant").hide();
+		$(".distribution-of-symptoms").hide();
+		$(".insect-damage").hide();
+		$(".ontology-search").show();
 	}
 });
