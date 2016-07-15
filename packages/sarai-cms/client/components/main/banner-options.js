@@ -20,7 +20,7 @@ Template.BannerOptions.onRendered(() => {
 
       const textPosition = $('#cms-banner-slide-text-position-input').val()
       const title = $('#cms-banner-slide-title-input').val()
-      const subtitle = $('#cms-banner-slide-subtitle-input').val()
+      const subTitle = $('#cms-banner-slide-subtitle-input').val()
       const text = $('#cms-banner-slide-text-input').val()
       const buttonText = $('#cms-banner-slide-button-text-input').val()
       const buttonHref = $('#cms-banner-slide-button-href-input').val()
@@ -28,7 +28,7 @@ Template.BannerOptions.onRendered(() => {
 
       if (action == 'add') {
         console.log('saving add')
-        Meteor.call('cms-banner-slide-add', this.uploadedFile, textPosition, title, subtitle, text, buttonText, buttonHref, rank, (error, result) => {
+        Meteor.call('cms-banner-slide-add', this.uploadedFile, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
 
         })
       }

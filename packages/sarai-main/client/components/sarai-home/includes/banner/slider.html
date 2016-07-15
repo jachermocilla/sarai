@@ -4,10 +4,17 @@
 
 <template name="carousel">
   <div id="main-carousel">
-    {{#each entry in sliderEntries}}
-      <div>
-        <img class="slider-image" src="{{entry.img}}">
-        <p>{{{entry.text}}}</p>
+    {{#each entry in slides}}
+      <div id="banner-slider-{{@index}}" class="mdl-grid banner-slider">
+        <!-- <img class="slider-image" src="{{entry.image}}"> -->
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slider-content">
+          <h2>{{entry.title}}</h2>
+          <h5>{{entry.subTitle}}</h5>
+          {{{entry.text}}}
+          <button class="banner-slider-button">
+            {{entry.buttonText}}
+          </button>
+        </div>
       </div>
     {{/each}}
   </div>
