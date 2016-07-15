@@ -1,38 +1,11 @@
 Template.carousel.onRendered(() => {
-  // div_img.Style.Add("background-image", "url('" + "../emp_pic/" & myDataSet.Tables(0).Rows(0).ItemArray(29).ToString() + "')")
+  let slides = []
 
-  const slides = [
-      {
-        image: '/upload/.uploads/main/banana_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'SMARTER CROP MANAGEMENT',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/',
-        rank: 1
-      },
-      {
-        image: '/upload/.uploads/main/cacao_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'Second Slide',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/sample',
-        rank: 2
-      },
-      {
-        image: '/upload/.uploads/main/coconut_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'Third Slide',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/',
-        rank: 3
-      },
-    ]
+  const banner = Main.findOne({name: 'banner'})
+  if (banner) {
+    slides = banner.slides
+    console.log('slides found')
+  }
 
   slides.forEach((element, index, array) => {
     const slide = $(`#banner-slider-${index}`)
@@ -78,37 +51,8 @@ Template.carousel.onRendered(() => {
 Template.carousel.helpers({
 
   slides: () => {
-    return [
-      {
-        image: '/upload/.uploads/main/banana_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'SMARTER CROP MANAGEMENT',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/',
-        rank: 1
-      },
-      {
-        image: '/upload/.uploads/main/cacao_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'Second Slide',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/',
-        rank: 2
-      },
-      {
-        image: '/upload/.uploads/main/coconut_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'Third Slide',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/',
-        rank: 3
-      },
-    ]
+    const record = Main.findOne({name: 'banner'})
+
+    return record && record.slides
   }
 })

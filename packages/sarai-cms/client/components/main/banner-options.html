@@ -21,9 +21,9 @@
               </tr>
             </thead>
             <tbody>
-              {{#each entry in sliderEntries}}
+              {{#each entry in slides}}
                 <tr>
-                  <td class="mdl-data-table__cell--non-numeric"><img src="{{entry.img}}" class="cms-image-preview"></td>
+                  <td class="mdl-data-table__cell--non-numeric"><img src="{{entry.image}}" class="cms-image-preview"></td>
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.title}}</td>
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.subTitle}}</td>
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.text}}</td>
@@ -61,7 +61,7 @@
     <h4 class="mdl-dialog__title">{{dialogHeader}}</h4>
     <div class="mdl-dialog__content">
       <form action="#">
-        {{> CMSUpload callbacks=myCallback}}
+        {{> CMSUpload callbacks=myCallbacks}}
 
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-text-position">
           <input class="mdl-textfield__input" type="text" id="cms-banner-slide-text-position-input">

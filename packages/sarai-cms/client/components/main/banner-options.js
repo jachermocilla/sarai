@@ -54,6 +54,8 @@ Template.BannerOptions.events({
     $('#cms-banner-slide-button-text-input').val("")
     $('#cms-banner-slide-button-href-input').val("")
     $('#cms-banner-slide-rank-input').val("")
+
+
   }
 });
 
@@ -77,36 +79,10 @@ Template.BannerOptions.helpers({
     }
   },
 
-  sliderEntries: () => {
-    return [
-      {
-        img: '/upload/.uploads/main/banana_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'SMARTER CROP MANAGEMENT',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/'
-      },
-      {
-        img: '/upload/.uploads/main/cacao_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'SMARTER CROP MANAGEMENT',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/'
-      },
-      {
-        img: '/upload/.uploads/main/coconut_banner.jpg',
-        textPosition: 'lower-left',
-        title: 'SMARTER CROP MANAGEMENT',
-        subTitle: 'Helping farmers to produce more with less',
-        text: '<p>Know the right amount of nutrient, the adequate management practices for pest and diseases, and the right amount of water for maximum yield.<p>',
-        buttonText: 'Know More',
-        buttonLink: '/'
-      },
-    ]
+  slides: () => {
+    const record = Main.findOne({name: 'banner'})
+
+    return record && record.slides
   },
 
   myCallbacks: () => {
@@ -119,6 +95,7 @@ Template.BannerOptions.helpers({
       },
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
+        console.log(this.uploadedFile)
       }
     }
   }
