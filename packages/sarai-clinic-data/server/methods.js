@@ -158,7 +158,6 @@ Meteor.methods({
 			);
 	},
 	'updateViewPestType': function(pestType){
-		console.log("naasa update na " + pestType);
 			CMS.update( 
 				{ info: 'finalLib' },
 				{

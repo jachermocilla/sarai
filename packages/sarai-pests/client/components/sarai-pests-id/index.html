@@ -59,9 +59,47 @@
 
 	  	<!-- Image Processing -->
 	  	<div class="mdl-tabs__panel is-active" id="image-processing-panel">
-
 	  		{{ >ImageProcessing}}
-		</div> <!-- end of image processing -->
+				<div id="id-results">
+					{{#if enableSpinner}}
+						{{> spinner}}
+					{{/if}}
+					<div class="mdl-grid">
+						<h3 class="results-header">{{imageProcessingResultsHeader}}</h3>
+
+						<div class="mdl-cell mdl-cell--12-col">
+								{{#each data}}
+						       		<div class="mdl-cell mdl-cell--12-col">
+							          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							           	<div class = "mdl-grid">
+							            	<div class="mdl-cell mdl-cell--4-col">
+							            		<div class = "pest-image-result">
+							            		<img src="{{image}}" height="270" width="270">
+							            	</div>
+							            	</div>
+								            <div class="mdl-cell mdl-cell--8-col">
+								              	<h3>{{numberized @index}} {{name}}</h3>
+								            	<p class="info-font"><b> Order:</b>  {{order}} <br>
+								            	<b>English Name:</b>  {{eng_name}} <br>
+								            	<b>Filipino Name:</b>  {{fil_name}} <br>
+											    <b>Scientific Name:</b>  {{sci_name}}<br>
+											    <b>Plant Affected:</b>  {{plant_affected}}<br>
+											    <b>Symptoms:</b>  {{ charLimit symptoms}}<br>
+							    				<b>Description:</b>  {{charLimit description}}</p>
+								              	<p class="left-align"><a href="{{pathFor '/entity/:_id' _id=_id}}">View Page</a>
+								              	</p>
+								             </div>
+							            </div>							            
+							          </div>
+							        </div>
+						       	{{/each}}
+						</div>
+						
+						<div class="mdl-cell mdl-cell--2-col"></div>
+					</div>
+				</div>
+			</div>
+		<!-- end of image processing -->
 
 		<!-- Ontology-Based -->
 		<div class="mdl-tabs__panel" id="ontology-based-panel">
@@ -107,8 +145,8 @@
 						          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
 						           	<div class = "mdl-grid">
 						            	<div class="mdl-cell mdl-cell--4-col">
-						            		<div class = "pest-image">
-						            		<img src="/images/pests/{{imageName name}}.jpg" height="270" width="270">
+						            		<div class = "pest-image-result">
+						            		<img src="{{image}}" height="270" width="270">
 						            	</div>
 						            	</div>
 							            <div class="mdl-cell mdl-cell--8-col">
@@ -208,7 +246,7 @@
 				           	<div class = "mdl-grid">
 				            	<div class="mdl-cell mdl-cell--4-col">
 				            		<div class = "pest-image">
-				            		<img src="/images/pests/{{imageName name}}.jpg" height="270" width="270">
+				            		<img src="{{image}}" height="270" width="270">
 				            	</div>
 				            	</div>
 					            <div class="mdl-cell mdl-cell--8-col">
