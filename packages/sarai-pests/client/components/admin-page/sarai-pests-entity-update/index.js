@@ -22,11 +22,13 @@ Template.PestTabs.helpers({
 });
 
 Template.PestTabs.events({
-	'click .pest-entity': function(e) {
+	'click .edit-button': function(e) {
 		FlowRouter.go("/entity-update/" + $(e.target).attr("id"));
 	},
 	'click .delete-button': function(e){
-		Meteor.call('removePest', $(e.target).attr("name"));
+		if (confirm("Are you sure you want to delete " + $(e.target).attr("name") + "?")){
+			Meteor.call('removePest', $(e.target).attr("id"));
+		}
 	}
 });
 

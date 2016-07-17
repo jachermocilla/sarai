@@ -26,11 +26,13 @@
 					  	{{#each displayPest this}}
 						    <tr class="row-style">
 						      <td class="image-holder">
-						      	<img src="{{image}}" height="46px" width="46px" align="left">
+						      	<img src="{{image}}" height="46px" width="46px" align="right">
 						      </td>
-						      <td id="{{_id}}" class="mdl-data-table__cell--non-numeric pest-entity pointer">{{name}}</td>
+						      <td class="mdl-data-table__cell--non-numeric">{{name}}</td>
 						      <td class="mdl-data-table__cell--non-numeric button-holder">
-						      	<button name="{{_id}}" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored delete-button">Delete</button></td>
+						      	<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored edit-button"><i class="material-icons" id="{{_id}}">edit</i></button>
+						      	<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored delete-button"><i class="material-icons" name="{{name}}" id="{{_id}}">delete</i></button>
+						      </td>
 						    </tr>
 					    {{/each}}
 					  </tbody>

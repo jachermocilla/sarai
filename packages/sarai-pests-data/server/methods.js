@@ -62,16 +62,15 @@ Meteor.methods({
 			},
 				{ upsert: false }
 			);
+
+			// update Pest Type View in Pest Library CMS  
+			Meteor.call('updateViewPestType');
 	},
 	'removePest': function(id){
 		PlantProblem.remove({_id: id});
+
 		// update Pest Type View in Pest Library CMS  
-		var data = PlantProblem.find().fetch();
-		var distinctData = _.uniq(data, false, function(d) {return d.plant_affected});
-		var legalPestTypes = _.pluck(distinctData, "plant_affected");
-		var chosenPestTypes = CMS.findOne({info:'finalLib'}).viewPestType
-		
-		Meteor.call('updateViewPestType', _.intersection(legalPestTypes, chosenPestTypes));
+		Meteor.call('updateViewPestType');
 	}
 })
 
