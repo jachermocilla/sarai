@@ -45,7 +45,9 @@ Template.SaraiPests.helpers({
 			return link.row1Image2;
 	},
 	row3HeadText: function(){
-		return CMS.findOne({info:'finalSpid'}).row3HeadText;
+		const record = CMS.findOne({info:'finalSpid'})
+
+		return record && record.row3HeadText
 	},
 	row3SubText: function(){
 		return CMS.findOne({info:'finalSpid'}).row3SubText;

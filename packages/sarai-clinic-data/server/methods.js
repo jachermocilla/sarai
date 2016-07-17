@@ -157,6 +157,22 @@ Meteor.methods({
 				{ upsert: false }
 			);
 	},
+	'updateViewPestType': function(){
+			var data = PlantProblem.find().fetch();
+			var distinctData = _.uniq(data, false, function(d) {return d.plant_affected});
+			var legalPestTypes = _.pluck(distinctData, "plant_affected");
+			var chosenPestTypes = CMS.findOne({info:'finalLib'}).viewPestType
+
+			CMS.update( 
+				{ info: 'finalLib' },
+				{
+					$set : {
+						viewPestType: _.intersection(legalPestTypes, chosenPestTypes)
+					}
+				},
+					{ upsert: false }
+				);
+	},
 	'updateLibBanner': function(url, id){
 			var ID = CMS.findOne({info:"finalLib"}).bannerImageID;
 						

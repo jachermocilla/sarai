@@ -66,17 +66,6 @@ Template.SaraiPestsUpdatePage.helpers({
 					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].rowIISubText;
 				}
-	},
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			console.log(Meteor.userId());
-			FlowRouter.go('/pests-clinic');
-			FlowRouter.redirect('/pests-clinic');
-			return false;
-		}
-		else{
-			 return true;
-		}
 	}
 });
 

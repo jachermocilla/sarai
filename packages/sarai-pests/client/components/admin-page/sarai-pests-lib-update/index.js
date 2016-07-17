@@ -62,17 +62,6 @@ Template.SaraiPestsLibUpdatePage.helpers({
 			var info = CMS.find({info: "finalLib"}).fetch();
 			return info[0].pestsPerPage;
 		}
-	},
-	IsLoggedIn: function(){
-		if(Meteor.userId()===null){
-			console.log(Meteor.userId());
-			FlowRouter.go('/pests-lib');
-			FlowRouter.redirect('/pests-lib');
-			return false;
-		}
-		else{
-			 return true;
-		}
 	}
 });
 

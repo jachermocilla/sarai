@@ -1,6 +1,6 @@
 <template name="RequestAssistance">
 	
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update Pest Clinic"}}
 	{{> CMSModuleHeader navBarFor = "Pest Clinic"}}
 	<div class="mdl-grid">
 		<div class="mdl-cell mdl-cell--6-col" style="overflow-y:auto; overflow-x:hidden; height:480px;">
@@ -117,6 +117,5 @@
 		</div>
 		
 	</div>
-	{{/if}}
 	
 </template>

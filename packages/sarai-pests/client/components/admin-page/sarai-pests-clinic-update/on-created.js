@@ -4,4 +4,5 @@ Template.SaraiPestsUpdatePage.onCreated(function() {
 	Meteor.subscribe('clinicForm');
 	Meteor.subscribe('cms');
 	Meteor.subscribe('images');
+	Meteor.subscribe('privilege');
 })

@@ -28,6 +28,7 @@ Package.onUse(function(api) {
 
   var server = [
     "server/fixtures.js",
+    "server/methods.js",
     "server/publications.js"
   ]
 

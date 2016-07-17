@@ -1,4 +1,3 @@
-
 Template.SaraiPestsId.helpers({
 	pests: function(){
 		return PlantProblem.find({'type': 'Pest'},{limit: 8});
@@ -18,35 +17,6 @@ Template.SaraiPestsId.helpers({
 
 		return str;
 	},
-	myCallbacks: function() {
-	    return {
-			 finished: function(index, fileInfo, context) {
-			 	Session.set("spinner", true);
-			 	Session.set('data',undefined);
-			 	filename = "../server/uploads/"+fileInfo.name;
-			 	Session.set("filename",filename);
-			 	$('.jqDropZone').html("<img src=/upload/"+fileInfo.name+" width='100%' height='295px'/>");
-			 	$.ajax({	
-					type:"POST",
-					url:"http://127.0.0.1:5000/pestImageSearch",
-					dataType:"json",
-					data: 
-						{
-							'filename': filename,
-						},
-					success: function(result){
-						Session.set("spinner", false);
-						Session.set('data',result.data);
-						console.log(result.data);		
-					},
-					error: function(error){
-						Session.set("spinner", false);
-						console.log(error.data);
-					}
-				});
-			 }
-	    }
-	  },
 	data: function(){
 		values=[];
 		if(Session.get('data')){
@@ -95,6 +65,37 @@ Template.SaraiPestsId.helpers({
 	}
 });
 
+Template.ImageProcessing.helpers({
+	myCallbacks: function() {
+	    return {
+			 finished: function(index, fileInfo, context) {
+			 	Session.set("spinner", true);
+			 	Session.set('data',undefined);
+			 	filename = "../server/uploads/"+fileInfo.name;
+			 	Session.set("filename",filename);
+			 	$('.jqDropZone').html("<img src=/upload/"+fileInfo.name+" width='100%' height='295px'/>");
+			 	$.ajax({	
+					type:"POST",
+					url:"http://127.0.0.1:5000/pestImageSearch",
+					dataType:"json",
+					data: 
+						{
+							'filename': filename,
+						},
+					success: function(result){
+						Session.set("spinner", false);
+						Session.set('data',result.data);
+						console.log(result.data);		
+					},
+					error: function(error){
+						Session.set("spinner", false);
+						console.log(error.data);
+					}
+				});
+			 }
+	    }
+	  }
+});
 
 Template.SaraiPestsId.events({
 	'click .ontology-search': function(e){

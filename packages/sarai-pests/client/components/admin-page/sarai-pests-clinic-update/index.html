@@ -26,7 +26,7 @@
 </template>
 
 <template name="SaraiPestsUpdatePage">
-	{{#if IsLoggedIn}}
+	{{isAuthorized "Update Pest Clinic"}}
 	{{> CMSModuleHeader navBarFor = "Pest Clinic"}}
 	<div class="mdl-grid">
 		{{ >MainDropzone}}
@@ -112,6 +112,6 @@
 	</div>
 	</div>
 	
-	{{/if}}
+
 </template>
 
