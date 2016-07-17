@@ -28,8 +28,8 @@
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.subTitle}}</td>
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.text}}</td>
                   <td class="mdl-data-table__cell--non-numeric">
-                    <a href="" class="cms-banner-slider-edit"><i class="material-icons">edit</i></a>
-                    <a href="" class="cms-banner-slider-delete"><i class="material-icons">delete</i></a>
+                    <a href="" id="slider-edit-{{entry._id}}" class="cms-banner-slider-edit"><i class="material-icons">edit</i></a>
+                    <a href="" id="slider-delete-{{entry._id}}" class="cms-banner-slider-delete"><i class="material-icons">delete</i></a>
                   </td>
                 </tr>
               {{/each}}
@@ -61,6 +61,8 @@
     <h4 class="mdl-dialog__title">{{dialogHeader}}</h4>
     <div class="mdl-dialog__content">
       <form action="#">
+
+        <img id="cms-banner-dialog-img" src="" class="cms-image-preview">
         {{> CMSUpload callbacks=myCallbacks}}
 
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-text-position">

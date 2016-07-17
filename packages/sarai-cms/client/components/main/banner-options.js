@@ -3,12 +3,6 @@ Template.BannerOptions.created = function() {
 }
 
 Template.BannerOptions.onRendered(() => {
-  // $("#cms-banner-title-div").addClass("is-dirty");
-  // $("#cms-banner-align-div").addClass("is-dirty");
-  // $("#cms-banner-subtext-div").addClass("is-dirty");
-  // $("#cms-banner-text-div").addClass("is-dirty");
-  // $("#cms-banner-button-text-div").addClass("is-dirty");
-
   const dialog = document.querySelector('#cms-banner-dialog')
 
     dialog.querySelector('.cancel').addEventListener('click', () => {
@@ -34,12 +28,25 @@ Template.BannerOptions.onRendered(() => {
 
       if (action == 'add') {
         Meteor.call('cms-banner-slide-add', _id, image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
-
+          let toast = 'Slide saved'
+          if (error) {
+            toasts = 'Unable to save slide'
+          }
+          showToast(toast)
         })
       }
 
       else if (action == 'edit') {
-        console.log('saving edit')
+        const id = this.actionID
+
+        Meteor.call('cms-banner-slide-edit', _id, image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
+          let toast = 'Slide saved'
+          if (error) {
+            toasts = 'Unable to save slide'
+          }
+          showToast(toast)
+        })
+
       }
 
       dialog.close();
@@ -53,15 +60,41 @@ Template.BannerOptions.events({
     const dialog = document.querySelector('#cms-banner-dialog');
     dialog.showModal();
 
-    $('#cms-banner-slide-text-position-input').val("")
-    $('#cms-banner-slide-title-input').val("")
-    $('#cms-banner-slide-subtitle-input').val("")
-    $('#cms-banner-slide-text-input').val("")
-    $('#cms-banner-slide-button-text-input').val("")
-    $('#cms-banner-slide-button-href-input').val("")
-    $('#cms-banner-slide-rank-input').val("")
+    setBannerDialogContents("", "", "", "", "", "", "", "")
+  },
 
+  'click .cms-banner-slider-edit': (e) => {
+    const id = e.currentTarget.id.split('-')[2]
 
+    // this.uploadedFile =
+    this.action = 'edit'
+    this.actionID = id
+
+    const dialog = document.querySelector('#cms-banner-dialog');
+    dialog.showModal();
+
+    const record = Main.findOne({name: 'banner'})
+
+    if (record) {
+      const slide = record.slides.find((element) => {
+        return element._id == id
+      })
+
+      setBannerDialogContents(slide.image, slide.textPosition, slide.title, slide.subTitle, slide.text, slide.buttonText, slide.buttonLink, slide.rank)
+    }
+  },
+
+  'click .cms-banner-slider-delete': (e) => {
+    const id = e.currentTarget.id.split('-')[2]
+
+    Meteor.call('cms-banner-slide-delete', id, (error, result) => {
+      let toast = 'Deleted slide'
+      if (error) {
+        toast = 'Unable to delete slide'
+        console.log(error)
+      }
+      showToast(toast)
+    })
   }
 });
 
@@ -105,3 +138,25 @@ Template.BannerOptions.helpers({
     }
   }
 })
+
+
+const setBannerDialogContents = (image, textPosition, title, subTitle, text, buttonText, buttonLink, rank) => {
+  $('#cms-banner-dialog-img').attr('src', image)
+  $('#cms-banner-slide-text-position-input').val(textPosition)
+  $('#cms-banner-slide-title-input').val(title)
+  $('#cms-banner-slide-subtitle-input').val(subTitle)
+  $('#cms-banner-slide-text-input').val(text)
+  $('#cms-banner-slide-button-text-input').val(buttonText)
+  $('#cms-banner-slide-button-href-input').val(buttonLink)
+  $('#cms-banner-slide-rank-input').val(rank)
+
+  if (this.action == 'edit') {
+    $('#cms-banner-slide-text-position').addClass('is-dirty')
+    $('#cms-banner-slide-title').addClass('is-dirty')
+    $('#cms-banner-slide-subtitle').addClass('is-dirty')
+    $('#cms-banner-slide-text').addClass('is-dirty')
+    $('#cms-banner-slide-button-text').addClass('is-dirty')
+    $('#cms-banner-slide-button-href').addClass('is-dirty')
+    $('#cms-banner-slide-rank').addClass('is-dirty')
+  }
+}
