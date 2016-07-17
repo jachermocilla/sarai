@@ -4,6 +4,10 @@ Template.registerHelper('cmsBlockContentRowClasses', () => {
     }
 });
 
+Template.registerHelper('equals', (a, b) => {
+  return a === b;
+});
+
 showToast = (message) => {
   'use strict';
   window['counter'] = 0;

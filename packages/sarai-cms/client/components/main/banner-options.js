@@ -18,6 +18,12 @@ Template.BannerOptions.onRendered(() => {
     dialog.querySelector('.save').addEventListener('click', () => {
       const action = this.action
 
+      const temp = this.uploadedFile.split('/')
+      const filename = temp[temp.length - 1]
+
+      const _id = filename.substring(filename.indexOf('-') + 1, filename.indexOf('.'))
+
+      const image = this.uploadedFile
       const textPosition = $('#cms-banner-slide-text-position-input').val()
       const title = $('#cms-banner-slide-title-input').val()
       const subTitle = $('#cms-banner-slide-subtitle-input').val()
@@ -27,8 +33,7 @@ Template.BannerOptions.onRendered(() => {
       const rank = $('#cms-banner-slide-rank-input').val()
 
       if (action == 'add') {
-        console.log('saving add')
-        Meteor.call('cms-banner-slide-add', this.uploadedFile, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
+        Meteor.call('cms-banner-slide-add', _id, image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
 
         })
       }
@@ -37,6 +42,7 @@ Template.BannerOptions.onRendered(() => {
         console.log('saving edit')
       }
 
+      dialog.close();
     })
 })
 
@@ -89,13 +95,12 @@ Template.BannerOptions.helpers({
     return {
       formData: () => {
         return {
-          filename: 'banner-img',
+          filename: `slider-${Random.id()}`,
           uploadGroup: 'main'
         }
       },
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
-        console.log(this.uploadedFile)
       }
     }
   }

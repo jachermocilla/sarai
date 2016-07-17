@@ -117,12 +117,11 @@ Meteor.methods({
     )
   },
 
-  'cms-banner-slide-add': (image, textPosition, title, subTitle, text, buttonText, buttonLink, rank) => {
+  'cms-banner-slide-add': (_id, image, textPosition, title, subTitle, text, buttonText, buttonLink, rank) => {
 
     const slides = Main.findOne({name: 'banner'}).slides
 
     if (slides) {
-      const _id = Random.id()
 
       slides.push({_id, image, textPosition, title, subTitle, text, buttonText, buttonLink, rank})
 

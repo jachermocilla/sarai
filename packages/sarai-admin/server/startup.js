@@ -15,6 +15,7 @@ Meteor.startup(function () {
       },
 	    getFileName: function(fileInfo, formData) {
         //check fileInfo.type (image/jpeg)
+        console.log(formData.filename)
 	    	return formData.filename +".jpg";
 	    },
       finished: (fileInfo, formFields) => {
