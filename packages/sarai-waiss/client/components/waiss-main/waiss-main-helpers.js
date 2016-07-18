@@ -8,7 +8,7 @@ Template.WAISSMain.helpers({
         }).fetch();
     },
     farmInfo: function() {
-        return Farm.find({
+        return Farm.findOne({
             _id: Session.get('farmId')
         });
     },
@@ -19,6 +19,92 @@ Template.WAISSMain.helpers({
         returnObject.push(tips[Math.floor(Math.random() * ((tips.length-1) + 1))]);
 
         return returnObject;
+    },
+    chartData: function() {
+        var farm = Farm.findOne({
+            _id: Session.get('farmId')
+        });
+
+        var mad = CropData.findOne({
+            'name': farm.crop.toLowerCase()
+        }).mad;
+
+        var categoriesArray = [];
+        var madArray = [];
+        var dataArray = [];
+        var rainfallArray = [];
+
+        var months = [
+            'Jan',
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+            'Jul',
+            'Aug',
+            'Sept',
+            'Oct',
+            'Nov',
+            'Dec'
+        ];
+
+        for(var i = 0; i < farm.data.waterDeficit.length; i++) {
+            var waterDeficit = farm.data.waterDeficit[i];
+            categoriesArray.push(months[waterDeficit.date.getMonth()] + ' ' + waterDeficit.date.getDate());
+            dataArray.push(-waterDeficit.data);
+            madArray.push(mad);
+            rainfallArray.push(farm.data.rainfall[i].data);
+        }
+
+        return {
+            title: {
+                text: 'Water Deficit',
+                x: -20 //center
+            },
+            xAxis: {
+                categories: categoriesArray
+            },
+            yAxis: {
+                title: {
+                    text: 'Water, mm'
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+            },
+            plotOptions: {
+                series: {
+                    marker: {
+                        enabled: false
+                    }
+                }
+            },
+            series: [{
+                name: 'Rainfall',
+                data: rainfallArray,
+                type: 'column',
+                tooltip: {
+                    valueSuffix: 'mm'
+                }
+            },{
+                name: 'Management Allowable Depletion',
+                data: madArray,
+                color: 'red',
+                tooltip: {
+                    valueSuffix: 'mm'
+                }
+            },{
+                name: 'Water Deficit',
+                data: dataArray,
+                tooltip: {
+                    valueSuffix: 'mm'
+                }
+            }]
+        };
     }
 });
 

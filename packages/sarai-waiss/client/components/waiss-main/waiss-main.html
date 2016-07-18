@@ -1,59 +1,23 @@
 <template name="WAISSMain">
-    {{#if isLoggedIn}}
-            <div class="big-card mdl-shadow--2dp">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--3-col">
-                        <span class="welcome-message">Welcome farmer!</span>
-                        <span class="welcome-message-subheading">You have 12 active farms.</span>
-                        <div class="list-farm-label">
-                            Your Farms
-                        </div>
-                        <div class="list-farm-list">
-                            {{#each farms}}
-                                <div farmId={{_id}} class="list-farm-item">
-                                    <span farmId={{_id}} class="list-farm-name">{{name}}</span>
-                                </div>
-                            {{/each}}
-                        </div>
-                    </div>
-                <div class="mdl-cell mdl-cell--6-col">
-                    {{#each farmInfo}}
-                        {{> WAISSGraphTemplate chartId="water-deficit" height=300}}
-                    {{/each}}
-                </div>
-                {{#each farmInfo}}
-                    <div class="mdl-cell mdl-cell--3-col">
-                        <div class="farm-name">{{name}}</div>
-                        <span class="farm-info-label"><strong>Crop</strong>: {{crop}}</span>
-                        <span class="farm-info-label"><strong>Variety</strong>: {{variety}}</span>
-                        <span class="farm-info-label"><strong>Planting Date</strong>: {{plantingDate}}</span>
+    <div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <h3>Your Farms</h3>
+                <p>Your active farms are listed here. Click on one of them to view more details.</p>
+                {{#each farms}}
+                    <div farmId={{_id}} class="list-farm-item">
+                        <span farmId={{_id}} class="list-farm-name">{{name}}</span>
                     </div>
                 {{/each}}
             </div>
-        </div>
-        <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--6-col">
-                <div class="main-card mdl-shadow--2dp">
-                    Calendar here
-                </div>
+            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--8-col--tablet mdl-cell--4-col-phone">
+                {{#with farmInfo}}
+                    {{> WaterDeficitChart chartId="water-deficit-chart" chartData=chartData}}
+                {{/with}}
             </div>
-            <div class="mdl-cell mdl-cell--6-col">
-                <div class="main-card mdl-shadow--2dp">
-                    {{#each farmInfo}}
-                        <span class="tip-heading">Interpretation</span>
-                        <div class="tip-body">
-                            <p><strong>1</strong>. {{crop}} field is currently __________ mm below field capacity (rootzone water deficit is_____mm)</p>
-                            <p><strong>2</strong>. Totals:  {{totalIrrigation}}mm of irrigation,  {{totalRainfall}}mm of Rainfall, {{totalEvapotranspiration}}mm of evapotranspiration</p>
-                        </div>
-                    {{/each}}
-                    <span class="tip-heading">Water Management Tip</span>
-                    <div class="tip-body">
-                        {{#each displayTip}}
-                            <span class="tip-title">{{title}}</span>
-                            <p class="tip-text">{{text}}</p>
-                        {{/each}}
-                    </div>
-                </div>
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--8-col--tablet mdl-cell--4-col-phone">
+                {{> FarmInfo farm=farmInfo}}
+                {{> Advisory farm=farmInfo}}
             </div>
         </div>
         <div class="bottom-right-button">
@@ -61,11 +25,5 @@
                 <i class="material-icons">add</i>
             </button>
         </div>
-    {{else}}
-        {{> LoginMiddleware}}
-    {{/if}}
-</template>
-
-<template name="WAISSGraphTemplate">
-    <div id={{chartId}} style="height: {{chartHeight}};"></div>
+    </div>
 </template>

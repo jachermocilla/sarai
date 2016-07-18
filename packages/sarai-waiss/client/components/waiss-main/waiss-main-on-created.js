@@ -4,7 +4,7 @@ Template.WAISSMain.onCreated(function() {
     Meteor.subscribe('water-management-tips');
 });
 
-Template.WAISSGraphTemplate.onRendered(function() {
+/*Template.WAISSGraphTemplate.onRendered(function() {
     var self = this;
 
     self.autorun(function() {
@@ -41,4 +41,4 @@ Template.WAISSGraphTemplate.onRendered(function() {
             }]
         });
     });
-});
+});*/
