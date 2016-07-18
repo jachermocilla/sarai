@@ -2,21 +2,21 @@
 	{{#if testimonialsMain.enabled}}
 		<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;">
 			<div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-				<h4>{{testimonialsMain.title}}</h4>
+				<h4 id="bolgtext">{{testimonialsMain.title}}</h4>
 				<hr />
 			</div>
 			{{#each testimonials}}
 				<div class="testimonialsection mdl-cell mdl-cell--5-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-				  	<h4>{{testimony}}</h4>
-				  	<p>{{author}} | {{authorInfo}}</p>
+				  	<h4 id="testimonyid">{{testimony}}</h4>
+				  	<p id="textbordergreen"><strong>{{author}}</strong> | {{authorInfo}}</p>
 				</div>
 			{{/each}}
 			<div class="testimonialsection mdl-cell mdl-cell--3-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
 				<img src="{{testimonialsMain.img}}" class="testimonial-image"/>
 			</div>
 			<div class="testimonialsection mdl-cell mdl-cell--4-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-				<h4>{{testimonialsMain.mainTestimonial}}</h4>
-				<h6>{{testimonialsMain.author}}</h6>
+				<h3>{{testimonialsMain.mainTestimonial}}</h3>
+				<p id="textgreen">{{testimonialsMain.author}}</p>
 			</div>
 		</div>
 	{{/if}}

@@ -1,8 +1,8 @@
 Template.MainHeader.helpers({
 
   isSuitability: function(){
-  	var routeName = FlowRouter.getRouteName();
-  	console.log("Current route name is: ", routeName);
+    var routeName = FlowRouter.getRouteName();
+    console.log("Current route name is: ", routeName);
     if("SuitabilityMaps"== routeName){
       return true;
     }else{
@@ -10,13 +10,13 @@ Template.MainHeader.helpers({
     }
   },
   navAdmin: function(){
-		if(Meteor.userId()===null){
-			$("#navA").hide();
-		}
-		else{
-			$("#navA").show();
-		}
-	},
+    if(Meteor.userId()===null){
+      $("#navA").hide();
+    }
+    else{
+      $("#navA").show();
+    }
+  },
 
   topHeader: function(){
     //return Home.find({'title': 'Hello World'});
@@ -56,10 +56,10 @@ Template.MainHeader.events({
 
 
 LoggedIn = function(){
-	if(Meteor.userId()===null){
-		return false;
-	}
-	else{
-		return true;
-	}
+  if(Meteor.userId()===null){
+    return false;
+  }
+  else{
+    return true;
+  }
 }

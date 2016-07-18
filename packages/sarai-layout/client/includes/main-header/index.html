@@ -4,10 +4,10 @@
           {{> TopHeader}}
         {{/if}}
       {{#if mainH.enabled}}
-      <div class="navClass mdl-layout__header-row">
+      <div class="mdl-layout__header-row" id="navClass">
 
         <a href="/" class="mdl-layout-title alerts-and-advisories-header-title-anchor">
-        	<img src="{{mainH.img}}" height="auto" width="150px" />
+        	<img src="{{mainH.img}}" height="auto" width="170px" />
           <!-- <span class="alerts-and-advisories-header-title">Integrated Pest Management</span> -->
 
         </a>
@@ -17,7 +17,11 @@
         <nav class="mdl-navigation mdl-layout--large-screen-only">
           {{#each mainLink in mainLinks}}
           <span>
-              <a class="mdl-navigation__link" href="{{mainLink.href}}" id="{{mainLink.id}}">{{mainLink.name}}</a>
+              <a class="mdl-navigation__link" href="{{mainLink.href}}" id="{{mainLink.id}}">{{mainLink.name}}
+                {{#if hasSubLinks mainLink}}
+                  <i class="material-icons">keyboard_arrow_down</i>
+                {{/if}}
+              </a>
               {{#if hasSubLinks mainLink}}
                 <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="{{mainLink.id}}">
                   {{#each link in mainLink.links}}

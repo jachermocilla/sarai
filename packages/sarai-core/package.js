@@ -21,6 +21,8 @@ Package.onUse(function(api) {
     'sarai:sarai-pests',
     'sarai:sarai-main',
     'sarai:sarai-services',
+    'sarai:sarai-blog',
+    'sarai:sarai-apps',
     "sarai:sarai-pests-data",
     "sarai:sarai-pests-form-data",
     "sarai:sarai-assistance-data",
@@ -38,7 +40,10 @@ Package.onUse(function(api) {
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
     "sarai:sarai-blog-data",
-    "sarai:sarai-weather-data"
+    "sarai:sarai-about-data",
+    "sarai:sarai-about-us",
+    "sarai:sarai-weather-data",
+    "sarai:sarai-apps-data"
     ]
 
   api.use(packages);

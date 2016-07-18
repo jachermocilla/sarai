@@ -5,13 +5,14 @@
 
 .services-image {
 	width: 100%;
-	height: auto;
+	height: 100%;
+	overflow: hidden;
 	text-align: center;
 }
 
 a {
 	text-decoration: none;
-	color: #696968;
+	color: #949494;
 	text-weight: bold;
 }
 
@@ -19,14 +20,18 @@ a {
 	margin-top: 10%;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: auto;
+	height: 100%;
+	width: 100%;
+	display: flex;
+  	flex-flow: column;
 }
 
-.titleservices {
+#titleservices {
 	margin-left: 5%;
-	font-size: 130%;
-	text-weight: bold;
-	color: #696968;
+	font-size: 125%;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #828282;
 	text-decoration: none;
 }
 
@@ -39,8 +44,9 @@ a {
 .titlediv{
 	border: 1px solid transparent;
 	background-color: #EFEDED;
-	height: auto;
-	color: #696968;
+	width: auto;
+	height: 80%;
+	flex: 1 1 auto;
 	-webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -55,13 +61,23 @@ a {
 	}
 }
 
-.titleservices:hover {
+#titleservices:hover {
 	color: white;
 }
 
 .maintitle {
 	text-weight: bold;
-	color: #696968;
+	color: #343434;
 	text-decoration: none;
 	font-size: 250%;
+}
+
+#moreprojectsbutton {
+	margin-left: 45%;
+	background-color: #696968;
+	color: white;
+	font-size: 15px;
+	height: 50px;
+	width: 175px;
+	border-radius: 5px;
 }
