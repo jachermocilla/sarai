@@ -1,34 +1,11 @@
-if(Farm.find().count() === 0) {
-    const aMonthAgo = new Date();
-    const aWeekAgo = new Date();
-
-    aMonthAgo.setMonth(aMonthAgo.getMonth() - 1);
-    aWeekAgo.setDate(aWeekAgo.getDate() - 7);
-
-    Farm.insert({
-        'public': true,
-        'name': 'My Sweet Corn Farm',
-        'crop': 'Corn',
-        'variety': 'Sweet Corn',
-        'plantingDate': aMonthAgo,
-        'location': 'Los Baños, Laguna',
-        'soilType': 'loam',
-        'totalIrrigation': 0,
-        'totalRainfall': 0,
-        'totalEvapotranspiration': 0
-    });
-
-    Farm.insert({
-        'public': false,
-        'name': 'My Other Corn Farm',
-        'crop': 'Corn',
-        'variety': 'Very Sweet Corn',
-        'plantingDate': aWeekAgo,
-        'location': 'Los Baños, Laguna',
-        'soilType': 'loam',
-        'totalIrrigation': 0,
-        'totalRainfall': 0,
-        'totalEvapotranspiration': 0
+if(!DSSSettings.findOne({'name': 'weather-last-updated'})) {
+    DSSSettings.insert({
+        'name': 'weather-last-updated',
+        'value': {
+            'year': 2016,
+            'month': 5,
+            'day': 26
+        }
     });
 }
 
