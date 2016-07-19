@@ -1,11 +1,7 @@
 <template name="Advisory">
-    {{#if shouldWarn}}
-        <div class="advisory-warning">
-            {{determineAdvisory}}
+    {{#with determineAdvisory}}
+        <div class={{advisoryClass}}>
+            {{message}}
         </div>
-    {{else}}
-        <div class="advisory-info">
-            {{determineAdvisory}}
-        </div>
-    {{/if}}
+    {{/with}}
 </template>

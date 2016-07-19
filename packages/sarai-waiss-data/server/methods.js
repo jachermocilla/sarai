@@ -138,7 +138,12 @@ Meteor.methods({
                 }
 
                 etoArray.push({
-                    date: new Date(currentDate),
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()    
+                    },
+                    'dateUTC': new Date(currentDate),
                     data: data
                 });
 
@@ -163,7 +168,12 @@ Meteor.methods({
                 tmaxAve /= 3;
 
                 gdd.push({
-                    date: new Date(currentDate),
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()    
+                    },
+                    'dateUTC': new Date(currentDate),
                     data: ((tminAve + tmaxAve)/2) - 10
                 })
 
@@ -175,30 +185,55 @@ Meteor.methods({
 
                 if(waterDeficit.length === 0) {
                     waterDeficit.push({
-                        'date': new Date(currentDate),
+                        'date': {
+                            'year': currentDate.getFullYear(),
+                            'month': currentDate.getMonth(),
+                            'day': currentDate.getDate()    
+                        },
+                        'dateUTC': new Date(currentDate),
                         'data': ETa
                     });
                 } else {
                     waterDeficit.push({
-                        'date': new Date(currentDate),
+                        'date': {
+                            'year': currentDate.getFullYear(),
+                            'month': currentDate.getMonth(),
+                            'day': currentDate.getDate()    
+                        },
+                        'dateUTC': new Date(currentDate),
                         'data': waterDeficit[waterDeficit.length-1].data + ETa
                     });
                 }
 
                 rainfallArray.push({
-                    'date': new Date(currentDate),
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()    
+                    },
+                    'dateUTC': new Date(currentDate),
                     'data': 0
                 });
             } else {
                 var ETo = computeETo(weather.data.temp.min, weather.data.temp.max, latitude, computeDayOfTheYear(currentDate));
 
                 etoArray.push({
-                    date: new Date(currentDate),
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()    
+                    },
+                    'dateUTC': new Date(currentDate),
                     data: ETo
                 });
 
                 gdd.push({
-                    date: new Date(currentDate),
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()    
+                    },
+                    'dateUTC': new Date(currentDate),
                     data: weather.data.temp.ave - 10
                 });
 
@@ -209,18 +244,33 @@ Meteor.methods({
                 var ETa = ETo * Kc;
 
                 rainfallArray.push({
-                    'date': new Date(currentDate),
+                    'date': {
+                        'year': currentDate.getFullYear(),
+                        'month': currentDate.getMonth(),
+                        'day': currentDate.getDate()    
+                    },
+                    'dateUTC': new Date(currentDate),
                     'data': weather.data.rainfall
                 });
 
                 if(waterDeficit.length === 0) {
                     waterDeficit.push({
-                        'date': new Date(currentDate),
+                        'date': {
+                            'year': currentDate.getFullYear(),
+                            'month': currentDate.getMonth(),
+                            'day': currentDate.getDate()    
+                        },
+                        'dateUTC': new Date(currentDate),
                         'data': ETa - weather.data.rainfall
                     });
                 } else {
                     waterDeficit.push({
-                        'date': new Date(currentDate),
+                        'date': {
+                            'year': currentDate.getFullYear(),
+                            'month': currentDate.getMonth(),
+                            'day': currentDate.getDate()    
+                        },
+                        'dateUTC': new Date(currentDate),
                         'data': ETa - weather.data.rainfall + waterDeficit[waterDeficit.length-1].data
                     });
                 }

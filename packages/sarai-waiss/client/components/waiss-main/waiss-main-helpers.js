@@ -29,6 +29,10 @@ Template.WAISSMain.helpers({
             'name': farm.crop.toLowerCase()
         }).mad;
 
+        var dataSource = WeatherStations.findOne({
+            'id': farm.weatherStation
+        });
+
         var categoriesArray = [];
         var madArray = [];
         var dataArray = [];
@@ -51,7 +55,7 @@ Template.WAISSMain.helpers({
 
         for(var i = 0; i < farm.data.waterDeficit.length; i++) {
             var waterDeficit = farm.data.waterDeficit[i];
-            categoriesArray.push(months[waterDeficit.date.getMonth()] + ' ' + waterDeficit.date.getDate());
+            categoriesArray.push(months[waterDeficit.dateUTC.getMonth()] + ' ' + waterDeficit.dateUTC.getDate());
             dataArray.push(-waterDeficit.data);
             madArray.push(mad);
             rainfallArray.push(farm.data.rainfall[i].data);
@@ -61,6 +65,10 @@ Template.WAISSMain.helpers({
             title: {
                 text: 'Water Deficit',
                 x: -20 //center
+            },
+            subtitle: {
+                text: 'Weather data collected from ' + dataSource.label,
+                x: -20
             },
             xAxis: {
                 categories: categoriesArray

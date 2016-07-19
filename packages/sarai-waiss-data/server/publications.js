@@ -1,5 +1,13 @@
-Meteor.publish('farm', function() {
-    return Farm.find();
+Meteor.publish('farm', function(userId) {
+    if(userId) {
+        return Farm.find({
+            'userId': userId
+        });
+    } else {
+        return Farm.find({
+            'public': true
+        });
+    }
 });
 
 Meteor.publish('crop', function() {
