@@ -1,6 +1,6 @@
 FlowRouter.route("/waiss/explore", {
 	action: function() {
-        BlazeLayout.render("MainLayout", {
+        BlazeLayout.render("WAISSLayout", {
           main: "WAISSExplore"    
         })
 	}

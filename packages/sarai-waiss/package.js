@@ -26,6 +26,8 @@ Package.onUse(function(api) {
   var client = [
       "client/components/explore/explore.html",
       "client/components/explore/explore-route.js",
+      "client/components/explore/explore-helpers.js",
+      "client/components/explore/explore-on-created.js",
       "client/components/waiss-main/waiss-main.html",
       "client/components/waiss-main/waiss-main.less",
       "client/components/waiss-main/waiss-main-helpers.js",
@@ -36,9 +38,18 @@ Package.onUse(function(api) {
       "client/components/create-farm/create-farm-route.js",
       "client/components/create-farm/create-farm-helpers.js",
       "client/components/create-farm/create-farm-on-created.js",
+      "client/components/farm-info/farm-info.html",
+      "client/components/farm-info/farm-info-helpers.js",
+      "client/components/water-deficit-chart/water-deficit-chart.html",
+      "client/components/water-deficit-chart/water-deficit-chart-helpers.js",
+      "client/components/advisory/advisory.html",
+      "client/components/advisory/advisory.less",
+      "client/components/advisory/advisory-helpers.js",
       "client/layout/waiss-layout.html",
+      "client/layout/waiss-layout-helpers.js",
       "client/layout/waiss-layout.less",
-      "client/includes/login-middleware.html"
+      "client/includes/login-middleware.html",
+      "client/includes/login-middleware.less"
   ]
 
   api.addFiles(client, "client")
