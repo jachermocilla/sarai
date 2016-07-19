@@ -29,7 +29,15 @@ Template.SaraiPestsMonitor.helpers({
 			return "/packages/sarai_sarai-pests/public/images/mon_banner2.jpg";
 		else
 			return link.bannerImage;
-	}
+	},
+    setBannerContentPosition: function(){
+        var position = CMS.findOne({info:'finalMonitor'}).bannerContentPosition, size;
+        switch(position){
+            case "top": return "top: 5%;";
+            case "middle": return "top: 25%;";
+            case "bottom": return "top: 50%;";
+        }
+    }
 });
 
 

@@ -1,9 +1,9 @@
 <template name="SaraiPestsLib">
 	<div id="banner">
-  	<img class="banner-image" src="{{imageURL}}">
-  		<div class="banner-content-top">
+  	<img class="banner-image-lib" src="{{imageURL}}">
+  		<div class="banner-content-top-lib banner-content-position" style="{{setBannerContentPosition}}">
   			<div class="mdl-grid" >
-				<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
+				<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText-lib">
 					{{#each bannerInfo}}
 					<h2 class="title">{{bannerHeadText}}</h2>
 					<h4 class="title-desc">{{bannerSubText}}</h4>

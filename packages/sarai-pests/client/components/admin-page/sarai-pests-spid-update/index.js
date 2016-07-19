@@ -76,6 +76,9 @@ Template.SaraiPestsSpidUpdatePage.helpers({
 					var info = CMS.find().fetch();
 					return info[0].row3SubText;
 				}
+	},
+	isSelected: function(position){
+		return position == CMS.findOne({info: "finalSpid"}).bannerContentPosition;
 	}
 });
 
@@ -120,9 +123,10 @@ Template.SaraiPestsSpidUpdatePage.events({
 			var row2head = $("#row2head").val();
 			var row3head = $("#row3head").val();
 			var row3subhead = $("#row3sub").val();
+			var position = $("#banner-position").val();
 
 			
-			Meteor.call('updateSpid', bhead, bsubhead, row1head, row2head, row3head, row3subhead);
+			Meteor.call('updateSpid', bhead, bsubhead, row1head, row2head, row3head, row3subhead, position);
 			
 			console.log("inserted");
 			$('#viewChanges').show();

@@ -1,3 +1,4 @@
+
 Template.SaraiPestsId.helpers({
 	pests: function(){
 		return PlantProblem.find({'type': 'Pest'},{limit: 8});
@@ -17,6 +18,35 @@ Template.SaraiPestsId.helpers({
 
 		return str;
 	},
+	myCallbacks: function() {
+	    return {
+			 finished: function(index, fileInfo, context) {
+			 	Session.set("spinner", true);
+			 	Session.set('data',undefined);
+			 	filename = "../server/uploads/"+fileInfo.name;
+			 	Session.set("filename",filename);
+			 	$('.jqDropZone').html("<img src=/upload/"+fileInfo.name+" width='100%' height='295px'/>");
+			 	$.ajax({	
+					type:"POST",
+					url:"http://127.0.0.1:5000/pestImageSearch",
+					dataType:"json",
+					data: 
+						{
+							'filename': filename,
+						},
+					success: function(result){
+						Session.set("spinner", false);
+						Session.set('data',result.data);
+						console.log(result.data);		
+					},
+					error: function(error){
+						Session.set("spinner", false);
+						console.log(error.data);
+					}
+				});
+			}
+	    }
+	},
 	data: function(){
 		values=[];
 		if(Session.get('data')){
@@ -29,7 +59,6 @@ Template.SaraiPestsId.helpers({
 	ontologyData: function(){
 		values=[];
 		if(Session.get('ontology')){
-			Session.set("spinner", false);
 			for(var i = 0;i<Session.get('ontology').length;i++){
 				values.push(PlantProblem.findOne({'type': 'Pest','name':Session.get('ontology')[i]}));
 			}
@@ -62,44 +91,20 @@ Template.SaraiPestsId.helpers({
 	},
 	enableSpinner: function(){
 		return Session.get("spinner");
+	},
+	setBannerContentPosition: function(){
+		var position = CMS.findOne({info:'finalId'}).bannerContentPosition, size;
+		switch(position){
+			case "top": return "top: 5%;";
+			case "middle": return "top: 25%;";
+			case "bottom": return "top: 50%;";
+		}
 	}
 });
 
-Template.ImageProcessing.helpers({
-	myCallbacks: function() {
-	    return {
-			 finished: function(index, fileInfo, context) {
-			 	Session.set("spinner", true);
-			 	Session.set('data',undefined);
-			 	filename = "../server/uploads/"+fileInfo.name;
-			 	Session.set("filename",filename);
-			 	$('.jqDropZone').html("<img src=/upload/"+fileInfo.name+" width='100%' height='295px'/>");
-			 	$.ajax({	
-					type:"POST",
-					url:"http://127.0.0.1:5000/pestImageSearch",
-					dataType:"json",
-					data: 
-						{
-							'filename': filename,
-						},
-					success: function(result){
-						Session.set("spinner", false);
-						Session.set('data',result.data);
-						console.log(result.data);		
-					},
-					error: function(error){
-						Session.set("spinner", false);
-						console.log(error.data);
-					}
-				});
-			 }
-	    }
-	  }
-});
 
 Template.SaraiPestsId.events({
 	'click .ontology-search': function(e){
-		Session.set("spinner", true);
 		e.preventDefault();
 		var pestTally = {};
 
@@ -157,9 +162,11 @@ Template.SaraiPestsId.events({
 			});
 		}
 
-		Session.set('ontology', Object.keys(pests).sort(function(a,b){return pests[b]-pests[a]}));
 		$(".ontology-search").hide();
 		$(".continue-search").show();
+
+		Session.set('ontology', Object.keys(pests).sort(function(a,b){return pests[b]-pests[a]}));
+
 	},
 	'click #next1': function(e){
 		e.preventDefault();
@@ -167,9 +174,7 @@ Template.SaraiPestsId.events({
 		$(".ontology-search").show();
 		$(".continue-search").hide();
 		$("#next1").hide();
-		console.log("before");
 		$("#next2").show();
-		console.log("after");
 	},
 	'click #next2': function(e){
 		e.preventDefault();
@@ -179,20 +184,53 @@ Template.SaraiPestsId.events({
 		$("#next2").hide();
 		$("#next3").show();
 	},
-	'click .stop': function(e){
+	'click #next3': function(e){
 		e.preventDefault();
+		$(".description-of-damage").show();
+		$(".ontology-search").show();
 		$(".continue-search").hide();
+		$("#next3").hide();
+		$("#next4").show();
+	},
+	'click #next4': function(e){
+		e.preventDefault();
+		$(".parts-of-plant").show();
+		$(".ontology-search").show();
+		$(".continue-search").hide();
+		$("#next4").hide();
+		$("#next5").show();
+	},
+	'click #next5': function(e){
+		e.preventDefault();
+		$(".distribution-of-symptoms").show();
+		$(".ontology-search").show();
+		$(".continue-search").hide();
+		$("#next5").hide();
+		$("#next6").show();
+	},
+	'click #next6': function(e){
+		e.preventDefault();
+		$(".insect-damage").show();
+		$(".ontology-search").show();
+		$(".continue-search").hide();
+		$(".continue").hide();
 		$(".search-again").show();
 	},
-	'click .refresh': function(){
-		location.reload();
-		$("main").scrollTop($(".mdl-tabs__tab-bar").offset().top);
+	'click #stop': function(e){
+		e.preventDefault();
 		$(".observed-pest").hide();
 		$(".damage-appearance").hide();
 		$(".description-of-damage").hide();
 		$(".parts-of-plant").hide();
 		$(".distribution-of-symptoms").hide();
 		$(".insect-damage").hide();
-		$(".ontology-search").show();
+		$("continue").show();
+		$("next1").show();
+		$("next2").hide();
+		$("next3").hide();
+		$("next4").hide();
+		$("next5").hide();
+		$("next6").hide();
+		$(".search-again").show();
 	}
 });

@@ -60,6 +60,14 @@ Template.SaraiPestsLib.helpers({
 	},
 	setRightArrowActive: function(){
 		return Session.get(currentPest) < Session.get(currentPest + " Count")? "" : "disabled";
+	},
+	setBannerContentPosition: function(){
+		var position = CMS.findOne({info:'finalLib'}).bannerContentPosition, size;
+		switch(position){
+			case "top": return "top: 5%;";
+			case "middle": return "top: 25%;";
+			case "bottom": return "top: 50%;";
+		}
 	}
 });
 
@@ -80,7 +88,11 @@ Template.SaraiPestsLib.events({
 	 }
 });
 
-
+Template.IndividualPest.helpers({
+	imageName: function(str){
+		return str.replace(/\s/g, '');
+	}
+});
 
 Template.PageNumber.helpers({
 	setPageActive: function(pageNum){

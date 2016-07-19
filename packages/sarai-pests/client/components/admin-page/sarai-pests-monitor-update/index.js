@@ -36,6 +36,9 @@ Template.SaraiPestsMonitorUpdatePage.helpers({
 					var info = CMS.find({info: "finalMonitor"}).fetch();
 					return info[0].bannerSubText;
 				}
+	},
+	isSelected: function(position){
+		return position == CMS.findOne({info: "finalMonitor"}).bannerContentPosition;
 	}
 });
 
@@ -60,8 +63,9 @@ Template.SaraiPestsMonitorUpdatePage.events({
 			/*Get Value*/
 			var bhead = $("#bheader").val();
 			var bsubhead = $("#bsubheader").val();
+			var position = $("#banner-position").val();
 			
-			Meteor.call('updateMonitor', bhead, bsubhead);
+			Meteor.call('updateMonitor', bhead, bsubhead, position);
 			
 			console.log("inserted");
 			$('#viewChanges').show();

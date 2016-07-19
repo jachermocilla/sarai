@@ -1,9 +1,10 @@
 Meteor.methods({
-	'updateSpid': function(bhead,bsubhead,row1head,row2head,row3head,row3subhead){
+	'updateSpid': function(bhead,bsubhead,row1head,row2head,row3head,row3subhead,position){
 			CMS.update(
 			{ info: 'finalSpid' },
 			{
 				$set : {
+					bannerContentPosition: position,
 					bannerHeadText: bhead,
 					bannerSubText: bsubhead,
 					row1HeadText: row1head,
@@ -69,11 +70,12 @@ Meteor.methods({
 			if(ID!="")
 				Images.findOne({_id:ID}).remove();
 	},
-	'updateClinic': function(bhead,bsubhead,shout,ahead,asubhead){
+	'updateClinic': function(bhead,bsubhead,shout,ahead,asubhead,position){
 			CMS.update(
 			{ info: 'finalClinic' },
 			{
 				$set : {
+					bannerContentPosition: position,
 					bannerHeadText: bhead,
 					bannerSubText: bsubhead,
 					rowIHeadText: shout,
@@ -142,11 +144,12 @@ Meteor.methods({
 			if(ID!="")
 				Images.findOne({_id:ID}).remove();
 	},
-	'updateLibrary': function(bhead,bsubhead,searchlabel, pestType, pestNumbers){
+	'updateLibrary': function(bhead,bsubhead,searchlabel, pestType, pestNumbers,position){
 			CMS.update( 
 			{ info: 'finalLib' },
 			{
 				$set : {
+					bannerContentPosition: position,						
 					bannerHeadText: bhead,
 					bannerSubText: bsubhead,
 					searchLabelText: searchlabel,
@@ -191,11 +194,12 @@ Meteor.methods({
 				Images.findOne({_id:ID}).remove();
 				
 	},
-	'updateId': function(bhead,bsubhead,pesthead){
+	'updateId': function(bhead,bsubhead,pesthead,position){
 			CMS.update(
 			{ info: 'finalId' },
 			{
 				$set : {
+					bannerContentPosition: position,
 					bannerHeadText: bhead,
 					bannerSubText: bsubhead,
 					pestHeadText: pesthead
@@ -222,11 +226,12 @@ Meteor.methods({
 				Images.findOne({_id:ID}).remove();
 				
 	},
-	'updateMonitor': function(bhead,bsubhead){
+	'updateMonitor': function(bhead,bsubhead,position){
 			CMS.update(
 			{ info: 'finalMonitor' },
 			{
 				$set : {
+					bannerContentPosition: position,
 					bannerHeadText: bhead,
 					bannerSubText: bsubhead
 				}
