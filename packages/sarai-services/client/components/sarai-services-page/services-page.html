@@ -42,36 +42,27 @@
           {{{service.solutiontext}}}
         </div>
         <div class='mdl-cell mdl-cell--12-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
-          <div>
               <hr />
               <span>Share: </span>
                   {{#each service.share}}
                     <a
                     href="{{href}}"
-                    class="{{class_name}}">
+                    id="{{class_name}}">
                     <img src="{{img}}" class='logoClass' />
                     </a>
                   {{/each}}
               <hr />
+        </div>
               <!-- PRE FOOTER -->
-              <div class='mdl-grid' id="sharedivid">
+         <div class='mdl-cell mdl-cell--12-col-desktop mdl-cell mdl-cell--8-col-tablet mdl-cell mdl-cell--4-col-phone'>
                 {{#if service.isFirst}}
-                  <div class='mdl-layout-spacer'></div>
                 {{else}}
-                  <div class='mdl-cell mdl-cell--4-col' id="prevbuttonid">
                       <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="prevbutton"><i class='material-icons'>navigate_before</i>{{prevservice.title}}</button>
-                  </div>
-                  <div class='mdl-layout-spacer'></div>
                 {{/if}}
                 {{#if service.isLast}}
-                  <div class='mdl-layout-spacer'></div>
                 {{else}}
-                  <div class='mdl-cell mdl-cell--4-col' id="nextbuttonid">
                       <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="nextbutton">{{nextservice.title}}<i class='material-icons'>navigate_next</i></button>
-                  </div>
                 {{/if}}
-              </div>
           </div>
-        </div>
       </div>
 </template>

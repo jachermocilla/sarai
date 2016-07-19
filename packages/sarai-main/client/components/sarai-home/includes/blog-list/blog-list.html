@@ -1,17 +1,21 @@
 <template name="Bloglist">
-	<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;">
+	<div class="mdl-grid" id="bloglistid">
 		{{#if blogMain.enabled}}
 			<div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-				<h5 class="titleblog blogtitle">{{blogMain.title}}</h5>
-				<h6>{{blogMain.text}}</h6>
+				<h3 class="titleblog">{{blogMain.title}}</h3>
+				<p>{{blogMain.text}}</p>
 			</div>
 		{{/if}}
 		{{#each blogs}}
-			<div class="blogsection mdl-cell mdl-cell--4-col-dektop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-			  	<a href="{{pathFor '/blog/:_id' _id=_id}}"><img src="{{img}}" class="blog-image"/><br />
-			  	<h6 class="titleblog">{{title}}</h6></a>
-			  	<hr />
-			  	<p>{{makeString date}}</p>
+			<div class="mdl-cell mdl-cell--4-col-dektop mdl-cell--8-col-tablet mdl-cell--4-col-phone" id="blogsection">
+				<div id="eachblog">
+			  		<a href="{{pathFor '/blog/:_id' _id=_id}}"><img src="{{img}}" class="blog-image"/><br />
+			  		<p id="eachtitleid">{{title}}</p></a>
+			  	</div>
+			  	<div id="blogdateid">
+				  	<span>{{makeString date}}</span>
+				  	<i class="material-icons">comment</i>{{count comments}}
+			  	</div>
 			</div>
 		{{/each}}
 	</div>

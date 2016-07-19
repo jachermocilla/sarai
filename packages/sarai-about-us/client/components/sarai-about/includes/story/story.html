@@ -1,0 +1,28 @@
+
+<template name="Story">
+		<div class="mdl-grid" style="margin-left: 5%; margin-right:5%;margin-bottom:5%">
+		<div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+
+			<div class="mdl-cell mdl-cell--4-col">
+					<div class="storysection mdl-cell mdl-cell--12-col" style="text-align: left;">
+						<h2 style="text-align: center;font color: green">{{{story.title}}}</h2>
+						<p>{{{story.description}}}</p> 	
+					</div>
+				</div>
+
+				<div class="mdl-cell mdl-cell--4-col">
+					<div class="story-image mdl-cell mdl-cell--12-col" style=";margin-left: 5%; margin-right:5%;margin-bottom:5%">
+						<img class="story-image" src="{{story.img}}">
+					</div>
+				</div>
+
+				<div class="mdl-cell mdl-cell--4-col">
+					<div class="story-image mdl-cell mdl-cell--12-col" style=";margin-left: 5%; margin-right:5%;margin-bottom:5%">
+						<img class="story-image" src="{{story.img2}}">
+					</div>
+				</div>
+
+		</div>
+
+		</div>
+</template>

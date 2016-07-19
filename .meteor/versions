@@ -131,9 +131,14 @@ reload@1.1.4
 retry@1.0.4
 routepolicy@1.0.6
 sacha:spin@0.1.6
+sarai:sarai-about-data@0.0.1
+sarai:sarai-about-us@0.0.1
 sarai:sarai-admin@0.0.1
+sarai:sarai-apps@0.0.1
+sarai:sarai-apps-data@0.0.1
 sarai:sarai-assistance-data@0.0.1
 sarai:sarai-assistance-result-data@0.0.1
+sarai:sarai-blog@0.0.1
 sarai:sarai-blog-data@0.0.1
 sarai:sarai-clinic-data@0.0.1
 sarai:sarai-cms@0.0.1

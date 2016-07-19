@@ -10,10 +10,12 @@
   <div id="banner-slider-{{entry._id}}" class="mdl-grid banner-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{entry.image}}');">
 
     <div {{positionClasses entry.textPosition}}>
-    <h2>{{entry.title}}</h2>
-      <h5>{{entry.subTitle}}</h5>
-      <div>{{{entry.text}}}</div>
-      <div class="banner-slider-button-container"><a href="{{entry.buttonLink}}" class="banner-slider-button">{{entry.buttonText}}</a></div>
+      <div class="bannertextclass">
+        <h2>{{entry.title}}</h2>
+        <h5>{{entry.subTitle}}</h5>
+        <div>{{{entry.text}}}</div>
+        <div class="banner-slider-button-container"><a href="{{entry.buttonLink}}" class="banner-slider-button">{{entry.buttonText}}</a></div>
+      </div>
     </div>
 
 
