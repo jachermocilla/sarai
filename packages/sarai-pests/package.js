@@ -166,7 +166,13 @@ Package.onUse(function(api) {
     "client/components/admin-page/sarai-pests-spid-update/index.less",
     "client/components/admin-page/sarai-pests-spid-update/route.js",
     "client/components/admin-page/sarai-pests-spid-update/on-created.js",
-    "client/components/admin-page/sarai-pests-spid-update/on-rendered.js"
+    "client/components/admin-page/sarai-pests-spid-update/on-rendered.js",
+    "client/components/admin-page/sarai-pests-monitor-chart/index.html",
+    "client/components/admin-page/sarai-pests-monitor-chart/index.js",
+    "client/components/admin-page/sarai-pests-monitor-chart/index.less",
+    "client/components/admin-page/sarai-pests-monitor-chart/route.js",
+    "client/components/admin-page/sarai-pests-monitor-chart/on-created.js",
+    "client/components/admin-page/sarai-pests-monitor-chart/on-rendered.js"
   ]
   
   api.addFiles(client, "client")

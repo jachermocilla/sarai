@@ -206,3 +206,4 @@ Template.SpidIdropzone2.events({
     });
   }
 });
+

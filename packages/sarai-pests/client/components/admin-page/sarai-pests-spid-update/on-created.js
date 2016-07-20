@@ -3,3 +3,4 @@ Template.SaraiPestsSpidUpdatePage.onCreated(function() {
 	Meteor.subscribe('images');
 	Meteor.subscribe('privilege');
 })
+

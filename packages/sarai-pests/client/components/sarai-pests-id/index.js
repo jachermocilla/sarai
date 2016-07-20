@@ -1,7 +1,7 @@
 
 Template.SaraiPestsId.helpers({
 	pests: function(){
-		return PlantProblem.find({'type': 'Pest'},{limit: 8});
+		return PlantProblem.find({'type': 'Pest'},{sort: {name: 1}, limit: 8});
 	},
 	imageName: function(str){
 		return str.replace(/\s/g, '');
