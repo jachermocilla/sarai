@@ -16,7 +16,8 @@ Template.ManageAccount.events({
     $("input[type=checkbox]:checked").map(function() {
         selectedRoles.push($(this).val());
     });
-
+    // should only update the UserRequest collection
+    
     Meteor.call('updateAccountRole', selectedRoles);
     alert("Request for account role changes was successfully submitted to Administrator.");
     history.back();
@@ -28,6 +29,7 @@ Template.ManageAccount.events({
   'click #delete-account': function(e){
     e.preventDefault();
     if (confirm("Are you sure you want to delete your account?")){
+      // should only update the UserRequest collection
       alert("Request for account deletion was successfully submitted to Administrator.");
       history.back();
     }

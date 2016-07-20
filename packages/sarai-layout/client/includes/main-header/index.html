@@ -1,39 +1,31 @@
+
+
+
+
 <template name="MainHeader">
-  	<header class="my-header mdl-layout__header" style="background-color: #FFFFFF;">
-      {{#if topHeader.enabled}}
+  <header class="mdl-layout__header  main-header" style="background-color: #396834;">
+<!--   {{#if topHeader.enabled}}
           {{> TopHeader}}
-      {{/if}}
+      {{/if}} -->
+    <div class="mdl-layout__header-row">
 
+      <a href="/pests" class="mdl-layout-title alerts-and-advisories-header-title-anchor">            
+        <img src="/packages/sarai_sarai-layout/public/images/SARAI-white.png" height="60px" />
+        <!-- <span class="alerts-and-advisories-header-title">Integrated Pest Management</span> -->     
+      </a>
 
-      {{#if mainH.enabled}}
-      <div class="navClass mdl-layout__header-row">
-
-        <a href="/" class="mdl-layout-title alerts-and-advisories-header-title-anchor">		      	
-        	<img src="{{mainH.img}}" height="67px" width="180px" />
-          <!-- <span class="alerts-and-advisories-header-title">Integrated Pest Management</span> -->
-          
-        </a>
-
-        <div class="mdl-layout-spacer">
-        </div>
-
-
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          {{#each links}}
-              <a class="mdl-navigation__link" href="{{href}}" style="color: #9C9C9A; font-size: 15px;">{{name}}</a>
-          {{/each}}
-              <div class="mdl-navigation__link" style="color: #9C9C9A; font-size: 15px;">
-          	     {{> loginButtons align="right"}}
-              </div>
-              {{#if mainH.buttonEnabled}}
-              <button type='button' class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' style="background-color: #F2AF13; color: #484848; font-size: 15px; height: 50px; width: 175px;"> {{mainH.buttonText}}</button>
-              {{/if}}
-
-              {{#if currentUser}}
-                {{configureAccountType}}
-              {{/if}}
-        </nav>
+      <div class="mdl-layout-spacer">
+        {{#if currentUser}}
+          {{configureAccountType}}
+        {{/if}}
       </div>
-      {{/if}}
+
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <span class="mdl-navigation__link">
+          {{> loginButtons align="right"}}
+        </span>
+      </nav>
+    </div>
+
   </header>
 </template>

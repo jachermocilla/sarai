@@ -30,10 +30,10 @@
 
 <template name="Banner">	
 	<div id="banner">
-  	<img class="banner-image" src="{{imageURL}}">
-  	<div class="banner-content-top">
-  		<div class="mdl-grid" >
-			<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText">
+  	<img class="banner-image-clinic" src="{{imageURL}}">
+  	<div class="banner-content-top-clinic" style="{{setBannerContentPosition}}">
+  		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--5-col banner-text" id="bannerText-clinic">
 				{{#each bannerInfo}}
 				<h2 class="title">{{bannerHeadText}}</h2>
 				<h4 class="title-desc">{{bannerSubText}}</h4>

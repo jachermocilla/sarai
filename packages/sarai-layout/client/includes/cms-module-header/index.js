@@ -9,6 +9,17 @@ Template.CMSModuleHeader.helpers({
 	},
   navBar: function(navBarFor){
   	switch(navBarFor){
+  		case "Pest Home":
+  			return[
+  				{
+					name: 'Home',
+					route: '/pests'
+				},
+				{
+					name: 'Monitor Chart',
+					route: '/pests-monitor-chart'
+				}
+  			];
   		case "Pest Clinic":
   			return [
 				{

@@ -2,6 +2,7 @@ if (CMS.find().count() === 0) {
 
 	CMS.insert({
 		info: 'finalSpid',
+		bannerContentPosition: 'middle',
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Smarter Pest Identification',
@@ -18,6 +19,7 @@ if (CMS.find().count() === 0) {
 	
 	CMS.insert({
 		info: 'finalClinic',
+		bannerContentPosition: 'middle',
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Pest Clinic',
@@ -34,6 +36,7 @@ if (CMS.find().count() === 0) {
 	
 	CMS.insert({
 		info: 'finalLib',
+		bannerContentPosition: 'middle',
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Pest Library',
@@ -45,6 +48,7 @@ if (CMS.find().count() === 0) {
 
 	CMS.insert({
 		info: 'finalId',
+		bannerContentPosition: 'middle',
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Pest Identification',
@@ -54,6 +58,7 @@ if (CMS.find().count() === 0) {
 
 	CMS.insert({
 		info: 'finalMonitor',
+		bannerContentPosition: 'middle',
 		bannerImage: '',
 		bannerImageID: '',
 		bannerHeadText: 'Pest Monitor',

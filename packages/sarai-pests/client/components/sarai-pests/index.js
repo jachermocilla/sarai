@@ -1,6 +1,6 @@
 Template.SaraiPests.helpers({
 	pests: function(){
-		return PlantProblem.find({'type': 'Pest'},{limit: 12});
+		return PlantProblem.find({'type': 'Pest'},{sort: {name: 1}, limit: 12});
 	},
 	imageName: function(str){
 		return str.replace(/\s/g, '');
@@ -45,12 +45,18 @@ Template.SaraiPests.helpers({
 			return link.row1Image2;
 	},
 	row3HeadText: function(){
-		const record = CMS.findOne({info:'finalSpid'})
-
-		return record && record.row3HeadText
+		return CMS.findOne({info:'finalSpid'}).row3HeadText;
 	},
 	row3SubText: function(){
 		return CMS.findOne({info:'finalSpid'}).row3SubText;
+	},
+	setBannerContentPosition: function(){
+		var position = CMS.findOne({info:'finalSpid'}).bannerContentPosition, size;
+		switch(position){
+			case "top": return "top: 5%;";
+			case "middle": return "top: 25%;";
+			case "bottom": return "top: 50%;";
+		}
 	}
 
 });

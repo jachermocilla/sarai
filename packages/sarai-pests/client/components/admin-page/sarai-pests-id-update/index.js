@@ -46,6 +46,9 @@ Template.SaraiPestsIdUpdatePage.helpers({
 					var info = CMS.find({info: "finalId"}).fetch();
 					return info[0].pestHeadText;
 				}
+	},
+	isSelected: function(position){
+		return position == CMS.findOne({info: "finalId"}).bannerContentPosition;
 	}
 });
 
@@ -71,9 +74,9 @@ Template.SaraiPestsIdUpdatePage.events({
 			var bhead = $("#bheader").val();
 			var bsubhead = $("#bsubheader").val();
 			var pesthead = $("#pestheader").val();
-
+			var position = $("#banner-position").val();
 			
-			Meteor.call('updateId', bhead, bsubhead, pesthead);
+			Meteor.call('updateId', bhead, bsubhead, pesthead, position);
 			
 			console.log("inserted");
 			$('#viewChanges').show();

@@ -62,6 +62,9 @@ Template.SaraiPestsLibUpdatePage.helpers({
 			var info = CMS.find({info: "finalLib"}).fetch();
 			return info[0].pestsPerPage;
 		}
+	},
+	isSelected: function(position){
+		return position == CMS.findOne({info: "finalLib"}).bannerContentPosition;
 	}
 });
 
@@ -90,12 +93,13 @@ Template.SaraiPestsLibUpdatePage.events({
 
 			var pestType = [];
 			var pestNumbers = $("#pestsperpage").val();
+			var position = $("#banner-position").val();
 
 			$( "input[type=checkbox]:checked" ).map(function() {
 			    pestType.push($( this ).val());
 			});
 			
-			Meteor.call('updateLibrary', bhead, bsubhead, searchlabel, pestType, pestNumbers);
+			Meteor.call('updateLibrary', bhead, bsubhead, searchlabel, pestType, pestNumbers, position);
 			
 			console.log("inserted");
 			$('#viewChanges').show();

@@ -66,6 +66,9 @@ Template.SaraiPestsUpdatePage.helpers({
 					var info = CMS.find({info: "finalClinic"}).fetch();
 					return info[0].rowIISubText;
 				}
+	},
+	isSelected: function(position){
+		return position == CMS.findOne({info: "finalClinic"}).bannerContentPosition;
 	}
 });
 
@@ -109,8 +112,9 @@ Template.SaraiPestsUpdatePage.events({
 			var shout = $("#shout").val();
 			var ahead = $("#aheader").val();
 			var asubhead = $("#asubheader").val();
+			var position = $("#banner-position").val();
 			
-			Meteor.call('updateClinic', bhead, bsubhead, shout, ahead, asubhead);
+			Meteor.call('updateClinic', bhead, bsubhead, shout, ahead, asubhead, position);
 			
 			console.log("inserted");
 			$('#viewChanges').show();
