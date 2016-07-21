@@ -1,4 +1,6 @@
 Template.WAISSExploreMap.onRendered(function() {
+    Session.set('weatherStationId', null);
+    
     var self = this;
 
     var northEast = L.latLng(21.924058, 115.342984);

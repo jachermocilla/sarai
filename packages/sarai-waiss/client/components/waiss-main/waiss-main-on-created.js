@@ -6,7 +6,7 @@ Template.WAISSMain.onCreated(function() {
 });
 
 Template.WAISSMain.onRendered(function() {
-    Session.set('farmId', Farm.findOne()._id);
+    Session.set('farmId', null);
 
     var dialog = document.querySelector('#addIrrigationDialog')
 

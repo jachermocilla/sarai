@@ -6,6 +6,10 @@ Template.WAISSExplore.onCreated(function() {
     });
 });
 
+Template.WAISSExplore.onRendered(function() {
+    Session.set('exploreFarmId', null);
+});
+
 Template.WAISSExplore.helpers({
     isLoggedIn: function() {
         return Meteor.userId();
