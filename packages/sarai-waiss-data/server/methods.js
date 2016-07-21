@@ -287,6 +287,7 @@ Meteor.methods({
         });
 
         return {
+            id: farmInfo._id,
             name: farmInfo.name
         }
     },

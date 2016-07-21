@@ -7,4 +7,21 @@ Template.WAISSMain.onCreated(function() {
 
 Template.WAISSMain.onRendered(function() {
     Session.set('farmId', Farm.findOne()._id);
+
+    var dialog = document.querySelector('#addIrrigationDialog')
+
+    dialog.querySelector('.cancel').addEventListener('click', function() {
+        dialog.close();
+    });
+
+    dialog.querySelector('.save').addEventListener('click', function() {
+        var amount = parseInt($('#irrigationAmount').val());
+        var date = new Date($('#irrigationDate').val())
+
+        if(!amount || !date) {
+            alert('Please fill out all fields.')
+        } else {
+            dialog.close();
+        }
+    });
 });

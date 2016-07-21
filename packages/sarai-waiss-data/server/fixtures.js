@@ -16,8 +16,9 @@ if(CropData.find().count() === 0) {
         'cutoff': [25, 50, 88],
         'cropCoefficient': [0.3, 1.15, 1.05],
         'depthOfRootZone': 1,
-        'gddAtMaturity': 1800
-    })
+        'gddAtMaturity': 1800,
+        'variety': ['100-day variety']
+    });
 }
 
 if(WaterManagementTips.find().count() === 0) {
