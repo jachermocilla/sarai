@@ -24,12 +24,12 @@ Template.MainHeader.helpers({
   },
 
   mainLinks: function(){
-    var obj = Main.findOne({'name': 'mainHeader'});
+    var obj = Main.findOne({'name': 'mainHeader'}, {sort: {rank: 1}});
     return obj && obj.links
   },
 
   mainH: function(){
-    var obj = Main.findOne({'name' : 'mainHeader'});
+    var obj = Main.findOne({'name' : 'mainHeader'}, {sort: {rank: 1}});
     if(typeof obj !== 'undefined'){
       return obj;
     }

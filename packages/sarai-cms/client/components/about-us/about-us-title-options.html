@@ -1,0 +1,31 @@
+<template name="AboutUsTitleOptions">
+
+  <div class="mdl-grid cms-block">
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="cms-block-header">
+        About Us Title
+      </div>
+      <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-about-us-title-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-title" value="{{title}}">
+            <label class="mdl-textfield__label" for="cms-about-us-title">Title</label>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="cms-block-actions">
+        <button id="cms-about-us-title-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+</template>

@@ -42,15 +42,15 @@ Template.SliderContent.helpers({
     switch(position) {
       case ('left'):
         return {
-          class: 'mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slide-content'
+          class: 'mdl-cell mdl-cell--1-offset-desktop mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slide-content'
         }
       case ('right'):
         return {
-          class: 'mdl-cell mdl-cell--7-offset-desktop mdl-cell--4-col-desktop mdl-cell--4-offset-tablet mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slide-content'
+          class: 'mdl-cell mdl-cell--6-offset-desktop mdl-cell--6-col-desktop mdl-cell--4-offset-tablet mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slide-content'
         }
       default:
         return {
-          class: 'mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slide-content'
+          class: 'mdl-cell mdl-cell--1-offset-desktop mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone banner-slide-content'
         }
     }
   }

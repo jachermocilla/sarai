@@ -9,7 +9,11 @@ Template.AppsPage.events({
 /*****************************************************************************/
 Template.AppsPage.helpers({
 	app: function(){
-		return Apps.findOne({_id: FlowRouter.current().params._id});
+		var app = Apps.findOne({_id: FlowRouter.current().params._id});
+		if(typeof app!='undefined'){
+			console.log(app.frame);
+			return app;
+		}
 	}
 });
 
