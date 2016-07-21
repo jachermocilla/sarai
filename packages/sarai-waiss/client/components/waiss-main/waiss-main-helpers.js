@@ -2,6 +2,9 @@ Template.WAISSMain.helpers({
     isLoggedIn: function() {
         return Meteor.userId();
     },
+    redirectToExplorePage: function() {
+        FlowRouter.go('/waiss/explore');
+    },
     farms: function() {
         return Farm.find({
             'userId': Meteor.userId()

@@ -47,68 +47,55 @@ var computeDayOfTheYear = function(date) {
 }
 
 Meteor.methods({
-    'computeWaterDeficit': function(farmInfo, tmin, tmax, latitude, dayOfTheYear, date) {
-        var ETo = computeETo(tmin, tmax, latitude, dayOfTheYear);
-
-        var cropInfo = CropData.findOne({
-            'name': farmInfo.crop.toLowerCase()
-        });
-
-        var Kc = computeKc(cropInfo, farmInfo.maturity);
-
-        var ETa = ETo * Kc;
-
-        var weather = WeatherData.findOne({
-            'id': farmInfo.weatherStation,
-            'date': {
-                'year': date.getFullYear(),
-                'month': date.getMonth(),
-                'day': date.getDate()
-            }
-        });
-
-        if(weather == null) {
-            console.error('no weather data');
-            throw new Meteor.Error(404, 'no weather data found');
-        }
-
-        var waterDeficit = farmInfo.waterDeficit;
-
-        if(!waterDeficit) {
-            waterDeficit = [];
-            waterDeficit.push({
-                'date': date,
-                'data': ETa - weather.data.rainfall
-            });
-        } else {
-            waterDeficit.push({
-                'date': date,
-                'data': ETa - weather.data.rainfall + waterDeficit[waterDeficit.length-1].data
-            });
-        }
-
-        Farm.update({
-            '_id': farmInfo._id
-        },{
-            $set: {
-                'waterDeficit': waterDeficit
-            }
-        });
-    },
     'createFarm': function(farmInfo) {
         var today = new Date();
         today.setDate(today.getDate() - 1);
+
         var currentDate = new Date(farmInfo.plantingDate);
-        var etoArray = [];
-        var waterDeficit = [];
-        var rainfallArray = [];
+        currentDate.setDate(currentDate.getDate() + 1);
+
+        var etoArray = [{
+            'date': {
+                'year': currentDate.getFullYear(),
+                'month': currentDate.getMonth(),
+                'day': currentDate.getDate()
+            },
+            'dateUTC': new Date(currentDate),
+            'data': 0
+        }];
+        var waterDeficit = [{
+            'date': {
+                'year': currentDate.getFullYear(),
+                'month': currentDate.getMonth(),
+                'day': currentDate.getDate()
+            },
+            'dateUTC': new Date(currentDate),
+            'data': 0
+        }];
+        var rainfallArray = [{
+            'date': {
+                'year': currentDate.getFullYear(),
+                'month': currentDate.getMonth(),
+                'day': currentDate.getDate()
+            },
+            'dateUTC': new Date(currentDate),
+            'data': 0
+        }];
         var cropInfo = CropData.findOne({
             'name': farmInfo.crop.toLowerCase()
         });
         var latitude = degToRad(WeatherStations.findOne({
             'id': farmInfo.weatherStation
         }).coords[0]);
-        var gdd = [];
+        var gdd = [{
+            'date': {
+                'year': currentDate.getFullYear(),
+                'month': currentDate.getMonth(),
+                'day': currentDate.getDate()
+            },
+            'dateUTC': new Date(currentDate),
+            'data': 0
+        }];
         var cumulativeGDD = 0;
         var maturity = 0;
 
@@ -302,5 +289,87 @@ Meteor.methods({
         return {
             name: farmInfo.name
         }
+    },
+    'updateFarm': function(farmInfo, date) {
+        var etoArray = farmInfo.data.referenceET;
+        var waterDeficit = farmInfo.data.waterDeficit;
+        var rainfallArray = farmInfo.data.rainfall;
+        var cropInfo = CropData.findOne({
+            'name': farmInfo.crop.toLowerCase()
+        });
+        var latitude = degToRad(WeatherStations.findOne({
+            'id': farmInfo.weatherStation
+        }).coords[0]);
+        var gdd = farmInfo.data.gdd;
+        var cumulativeGDD = farmInfo.data.cumulativeGDD;
+        var maturity = farmInfo.data.maturity;
+
+        var weather = WeatherData.findOne({
+            'id': farmInfo.weatherStation,
+            'date': {
+                'year': date.getFullYear(),
+                'month': date.getMonth(),
+                'day': date.getDate()
+            }
+        });
+
+        //defensive
+        if(!etoArray) {
+            etoArray = [];
+        }
+
+        if(!waterDeficit) {
+            waterDeficit = [];
+        }
+
+        if(!rainfallArray) {
+            rainfallArray = [];
+        }
+
+        if(!gdd) {
+            gdd = [];
+        }
+
+        if(!cumulativeGDD) {
+            cumulativeGDD = 0;
+        }
+
+        if(!maturity) {
+            maturity = 0;
+        }
+
+        if(typeof weather == 'undefined') {
+            console.log(currentDate.toDateString() + ': weather data unavailable, using average ETo from last 3 days');
+        } else {
+            var ETo = computeETo(weaher.data.temp.min, weather.data.temp.max, latitude, computeDayOfTheYear(date));
+
+            var Kc = computeKc(cropInfo, farmInfo.maturity);
+
+            var ETa = ETo * Kc;
+
+            if(!waterDeficit) {
+                waterDeficit = [];
+                waterDeficit.push({
+                    'date': date,
+                    'data': ETa - weather.data.rainfall
+                });
+            } else {
+                waterDeficit.push({
+                    'date': date,
+                    'data': ETa - weather.data.rainfall + waterDeficit[waterDeficit.length-1].data
+                });
+            }
+        }
+
+        Farm.update({
+            '_id': farmInfo._id
+        },{
+            $set: {
+                'data': {
+                    'referenceET': etoArray,
+                    'waterDeficit': waterDeficit
+                }
+            }
+        });
     }
 });
