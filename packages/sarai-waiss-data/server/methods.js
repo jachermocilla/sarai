@@ -371,5 +371,64 @@ Meteor.methods({
                 }
             }
         });
+    },
+    'updateWaterDeficitWithIrrigation': function(farmInfo, irrigationAmount, date) {
+        var farm = Farm.find({
+            '_id': farmInfo._id
+        });
+
+        var waterDeficit = farm.data.waterDeficit;
+        var irrigation = farm.data.irrigation;
+
+        if(!irrigation) {
+            irrigation = [];
+        }
+
+        irrigation.push({
+            'date': {
+                'year': date.getFullYear(),
+                'month': date.getMonth(),
+                'day': date.getDate()
+            },
+            'dateUTC': new Date(date),
+            'data': irrigationAmount
+        })
+
+        var irrigationWaterDeficit = _.find(waterDeficit, function(waterDeficitItem) {
+            return waterDeficitItem.date.year === date.getFullYear() &&
+                   waterDeficitItem.date.month === date.getMonth() &&
+                   waterDeficitItem.date.day === date.getDate();
+        });
+        var index = _.indexOf(waterDeficit, function(waterDeficitItem) {
+            return waterDeficitItem.date.year === date.getFullYear() &&
+                   waterDeficitItem.date.month === date.getMonth() &&
+                   waterDeficitItem.date.day === date.getDate();
+        });
+
+        var tempPreviousWaterDeficit = irrigationWaterDeficit.data;
+        irrigationWaterDeficit.data -= irrigationAmount;
+        var previousWaterDeficit = irrigationWaterDeficit.data;
+
+        for(var i = index+1; i < waterDeficit.length; i++) {
+            var temp = waterDeficit[i].data - tempPreviousWaterDeficit;
+            tempPreviousWaterDeficit = waterDeficitItem[i].data;
+            waterDeficitItem[i].data = temp + previousWaterDeficit;
+            previousWaterDeficit = waterDeficitItem[i].data;
+        }
+
+        Farm.update({
+            '_id': farmInfo._id
+        },{
+            $set: {
+                'data': {
+                    'waterDeficit': waterDeficit,
+                    'irrigation': irrigation
+                }
+            }
+        });
+
+        return {
+            name: farmInfo.name
+        }
     }
 });

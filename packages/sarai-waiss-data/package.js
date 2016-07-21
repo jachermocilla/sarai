@@ -23,7 +23,8 @@ Package.onUse(function(api) {
   var lib = [
     "lib/collections/sarai-waiss-data.js",
     "lib/collections/sarai-waiss-crop-data.js",
-    "lib/collections/sarai-waiss-water-management-tips.js"
+    "lib/collections/sarai-waiss-water-management-tips.js",
+    "lib/collections/sarai-dss-settings.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
@@ -42,7 +43,8 @@ Package.onUse(function(api) {
   api.export([
     "Farm",
     "CropData",
-    "WaterManagementTips"
+    "WaterManagementTips",
+    "DSSSettings"
   ])
 });
 
