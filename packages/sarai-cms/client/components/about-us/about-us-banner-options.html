@@ -1,0 +1,71 @@
+<template name="AboutUsBannerOptions">
+  <div class="mdl-grid cms-block">
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="cms-block-header">
+        About Banner
+      </div>
+
+       <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div class="cms-block-content-label">
+            Slider Content
+          </div>
+          <table class="mdl-data-table mdl-js-data-table" width="100%">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Image</th>
+                <th class="mdl-data-table__cell--non-numeric">Title</th>
+                <th class="mdl-data-table__cell--non-numeric">Subtitle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric"><img src="{{entry.img}}" class="cms-image-preview"></td>
+                <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.subtext}}</td>
+                <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.subtext1}}</td>
+                <td class="mdl-data-table__cell--non-numeric">
+                  <a href="" id="slider-edit-{{entry._id}}" class="cms-aboutbanner-slider-edit"><i class="material-icons">edit</i></a>
+                  <a href="" id="slider-delete-{{entry._id}}" class="cms-aboutbanner-slider-delete"><i class="material-icons">delete</i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <div class="cms-block-actions">
+        <button id="cms-aboutbanner-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Enable
+        </button>
+        <button id="cms-aboutbanner-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <dialog id="cms-aboutbanner-dialog" class="mdl-dialog cms-header-edit-dialog">
+    <h4 class="mdl-dialog__title">{{dialogHeader}}</h4>
+    <div class="mdl-dialog__content">
+      <form action="#">
+
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-aboutbanner-slide-title">
+          <input class="mdl-textfield__input" type="text" id="cms-aboutbanner-slide-title-input">
+          <label class="mdl-textfield__label" for="cms-aboutbanner-slide-title-input">Title</label>
+        </div>
+
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-aboutbanner-slide-subtitle">
+          <input class="mdl-textfield__input" type="text" id="cms-aboutbanner-slide-subtitle-input">
+          <label class="mdl-textfield__label" for="cms-aboutbanner-slide-subtitle-input">Subtitle</label>
+        </div>
+
+      </form>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button save">Save</button>
+      <button type="button" class="mdl-button cancel">Cancel</button>
+    </div>
+  </dialog>
+</template>

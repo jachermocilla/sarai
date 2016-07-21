@@ -46,6 +46,29 @@ Package.onUse(function(api) {
     "client/components/main/banner-options.html",
     "client/components/main/banner-options.js",
 
+    "client/components/about-us/about-us-banner-options.html",
+    "client/components/about-us/about-us-banner-options.js",
+
+    "client/components/about-us/about-us-content-options.html",
+    "client/components/about-us/about-us-content-options.js",
+
+    "client/components/about-us/about-us-title-options.html",
+    "client/components/about-us/about-us-title-options.js",
+
+    "client/components/about-us/about-us-projects-options.html",
+    "client/components/about-us/about-us-projects-options.js",
+
+    "client/components/about-us/about-us-leaders-options.html",
+    "client/components/about-us/about-us-leaders-options.js",
+
+    "client/components/about-us/about-us-partners-options.html",
+    "client/components/about-us/about-us-partners-options.js",
+
+    "client/components/about-us/about-us-cms-route.js",
+    "client/components/about-us/about-us-cms.html",
+    "client/components/about-us/about-us-cms.js",
+    "client/components/about-us/about-us-cms.less",
+
     "client/components/sarai-cms.less",
     "client/components/sarai-cms.js"
   ]

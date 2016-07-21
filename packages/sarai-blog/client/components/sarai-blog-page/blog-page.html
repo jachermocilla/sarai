@@ -75,6 +75,33 @@
             {{else}}
                   <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="nextbutton">{{nextblog.title}}<i class='material-icons'>navigate_next</i></button>
             {{/if}}
+            <br />
+        </div>
+        <div class="mdl-card__supporting-text">
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield">
+                <h4 id="commentheaderid">Leave a Reply</h4>
+              </div><br />
+              <div class="mdl-textfield mdl-js-textfield" id="commentdiv">
+                <textarea class="mdl-textfield__input" type="text" rows= "5" id="commentid" ></textarea>
+                <label class="mdl-textfield__label" for="commentid" id="commentlabel">Comment here</label>
+              </div><br />
+              <div class="mdl-textfield mdl-js-textfield" id="commentinfodiv">
+                <input class="mdl-textfield__input" type="text" id="commentnameid" />
+                <label class="mdl-textfield__label" for="commentnameid" id="commentlabel">Name (required)</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield" id="commentinfodiv">
+                <input class="mdl-textfield__input" type="text" id="commentemailid" />
+                <label class="mdl-textfield__label" for="commentemailid" id="commentlabel">Email (required)</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield" id="commentinfodiv">
+                <input class="mdl-textfield__input" type="text" id="commentemailid" />
+                <label class="mdl-textfield__label" for="commentemailid" id="commentlabel">Website</label>
+              </div><br /><br />
+              <div class="mdl-textfield mdl-js-textfield">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="commentbuttonpost">POST COMMENT</button>
+              </div>
+            </form>
         </div>
     </div>
   </div>

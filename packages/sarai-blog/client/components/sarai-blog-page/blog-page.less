@@ -9,18 +9,26 @@
 	color: #A0A0A0;
 }
 
+.bloglinkclass:hover, .bloglinkclass:active{
+	color: #59B060;
+	-webkit-transition: color 1s ease-out;
+	-moz-transition: color 1s ease-out;
+	-o-transition: color 1s ease-out;
+	transition: color 1s ease-out;
+}
+
 #authordatetagid {
 	font-size: 100%;
 }
 
 .blogmainimg {
-	width: 100%;
+	width: auto;
 	height: auto;	
 }
 
 #greentext {
 	color: #59B060;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	padding: 0px 0px 0px 5%;
 }
 
@@ -54,10 +62,12 @@
 
 #nextbutton{
 	float: right;
+	height: auto;
 	text-transform: capitalize;
 }
 #prevbutton{
 	float: left;
+	height: auto;
 	text-transform: capitalize;
 }
 
@@ -66,6 +76,65 @@
 }
 
 .recentblogsclass{
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: #A0A0A0;
+	font-weight: 800;
+}
+
+.recentblogsclass:hover, .recentblogsclass:active{
+	color: #59B060;
+	-webkit-transition: color 1s ease-out;
+	-moz-transition: color 1s ease-out;
+	-o-transition: color 1s ease-out;
+	transition: color 1s ease-out;
+}
+
+#commentsectionid{
+	width: 90%;
+	height: auto;
+}
+
+.comment-button{
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+#commentdiv{
+	width: 99%;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+
+#commentinfodiv{
+	margin: 1% 1% 1% 0px;
+	width: 32%;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+
+div .mdl-textfield__label:after {
+  background: #E2E2E2
+}
+
+#commentheaderid{
+	color: black;
+}
+
+#commentlabel {
+	top: 5px;
+	left: 5px;
+	color: #E2E2E2;
+	font-size: 12px;
+}
+
+#commentbuttonpost{
+	font-family: 'Open Sans', sans-serif;
 }

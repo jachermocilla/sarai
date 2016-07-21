@@ -1,0 +1,80 @@
+<template name="AboutUsProjectLeaderOptions">
+
+  <div class="mdl-grid cms-block">
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="cms-block-header">
+        Project Leaders
+      </div>
+      <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-about-us-leaders-title-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-title" value="{{leaders.title}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-title">Title</label>
+          </div>
+        </div>
+
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-about-us-leaders-author1-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-author1" value="{{leaders.author1}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-author1">Program Leader Name</label>
+          </div>
+          <div id="cms-about-us-leaders-subtext1-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-subtext1" value="{{leaders.subtext1}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-subtext1">Program Leader Position</label>
+          </div>
+
+          <div id="cms-about-us-leaders-author2-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-author2" value="{{leaders.author2}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-author2">Project Leader1 Name</label>
+          </div>
+          <div id="cms-about-us-leaders-subtext2-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-subtext2" value="{{leaders.subtext2}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-subtext2">Project Leader1 Position</label>
+          </div>
+
+          <div id="cms-about-us-leaders-author3-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-author3" value="{{leaders.author3}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-author3">Project Leader2 Name</label>
+          </div>
+          <div id="cms-about-us-leaders-subtext3-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-subtext3" value="{{leaders.subtext3}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-subtext3">Project Leader2 Position</label>
+          </div>
+
+          <div id="cms-about-us-leaders-author4-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-author4" value="{{leaders.author4}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-author4">Project Leader3 Name</label>
+          </div>
+          <div id="cms-about-us-leaders-subtext4-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-subtext4" value="{{leaders.subtext4}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-subtext4">Project Leader3 Position</label>
+          </div>
+
+          <div id="cms-about-us-leaders-author5-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-author5" value="{{leaders.author5}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-author5">Project Leader4 Name</label>
+          </div>
+          <div id="cms-about-us-leaders-subtext5-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-leaders-subtext5" value="{{leaders.subtext5}}">
+            <label class="mdl-textfield__label" for="cms-about-us-leaders-subtext5">Project Leader4 Position</label>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="cms-block-actions">
+        <button id="cms-about-us-leaders-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+</template>

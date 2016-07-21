@@ -41,8 +41,21 @@ Package.onUse(function(api) {
 
 
     "client/components/sarai-about/includes/project-leaders/leaders.less",
-   "client/components/sarai-about/includes/project-leaders/leaders.html",
+    "client/components/sarai-about/includes/project-leaders/leaders.html",
     "client/components/sarai-about/includes/project-leaders/leaders.js",
+
+    "client/components/sarai-about/includes/partner-institutions/partners.less",
+    "client/components/sarai-about/includes/partner-institutions/partners.html",
+    "client/components/sarai-about/includes/partner-institutions/partners.js",
+
+
+    "client/components/sarai-about/includes/title/title.less",
+    "client/components/sarai-about/includes/title/title.html",
+    "client/components/sarai-about/includes/title/title.js",
+
+      "client/components/sarai-about/includes/videos/videos.less",
+    "client/components/sarai-about/includes/videos/videos.html",
+    "client/components/sarai-about/includes/videos/videos.js",
     /*"client/components/sarai-about/includes/videos/videos.js",
     "client/components/sarai-about/includes/videos/videos.html",*/
     "client/components/sarai-about/route.js",

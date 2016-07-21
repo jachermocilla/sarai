@@ -151,7 +151,7 @@ if (Main.find().count() === 0) {
 			},
 			{
 				image: '/homepage-slider/Crop-Monitoring-and-Forecasting.jpg',
-				textPosition: 'center',
+				textPosition: 'right',
 				title: 'CROP MONITORING AND FORECASTING',
 				subTitle: 'Plan your planting practices wisely for optimum yield',
 				text: 'View the 30-day cumulative rainfall data and 10-day weather forecast in your area to know the right time to plant.',
@@ -304,14 +304,31 @@ if (Main.find().count() === 0) {
 	    img: '/samplepics/MVOE-2.jpg',
 	    testimonials: [
 	    	{
+	    		title: '',
+	    		author:'Dr, Efren Galo',
+	    		authorInfo: 'Professor, College of Agriculture, University of Eastern Philippines',
+	    		testimony: 'Attending this activity (SARAI Training on pest and disease management for rice) is very important for increasing our knowledge especially sa new technologies and of course to increase our production in our province.'
+	    	},
+	    	{
+	    		title: '',
+	    		author:'Mr. Reynaldo Salamat',
+	    		authorInfo: 'Chief Regional Crop Protection Center, Region VIII-DA',
+	    		testimony: 'Malaki ang importansya nitong activity (SARAI Training on pest and disease management for rice) kasi we are now challenged by climate change. Alam natin na we have to be more resilient in terms of technology. We have to be more efficient in recycling our resources.'
+	    	},
+	    	{
 		        title: '',
 		        author: 'Mr. Ricky S. Dador',
 		        authorInfo: 'Weather Observer, Dumangas Agromet Station',
-		        subtext: '',
-		        testimony: 'Yung SARAI makakatulong sa Dumangas para mas makilala o mas maging successful itong aming climate feild school for Dumangas',
-		        id: 'quotes1-link'
+		        testimony: 'Yung SARAI makakatulong sa Dumangas para mas makilala o mas maging successful itong aming climate feild school for Dumangas'
+	    	},
+	    		    	{
+	    		title: '',
+	    		author:'Mr. Eugenio D. Decastillo Jr.',
+	    		authorInfo: 'Dumangas Municipal Agriculturist',
+	    		testimony: 'With the help of UPLB SARAI, we hope to have a good partnership for the development of our climate field school and also for us to have a more improved extension approaches to our farmers and to also develop a very good module on the climate-related problems of our farmers and of course to improve productivity towards food security.'
 	    	}
 	    ],
-	    enabled: true
+	    enabled: true,
+	    imgenabled: true
 	});
 }
