@@ -14,28 +14,28 @@
                 <input class="mdl-textfield__input" type="text" name="sample" id="bloghelp" placeholder="How can we help you?" />
               </div>
           </div>
-          <h4>Recent Posts</h4>
+          <h4><strong>Recent Posts</strong></h4>
           <div>
             {{#each recentblog in recentblogs}}
               <a href="{{pathFor '/blog/:_id' _id=recentblog._id}}" class="recentblogsclass">{{recentblog.title}}</a><br />
               <hr />
             {{/each}}
           </div>
-          <h4>Recent Comments</h4>
+          <h4><strong>Recent Comments</strong></h4>
           <div>
             {{#each comment in comments}}
               <p>{{comment.text}}</p>
               <p>{{comment.author}}</p>
             {{/each}}
           </div>
-          <h4>Archives</h4>
+          <h4><strong>Archives</strong></h4>
           <div>
             {{#each date in dates}}
               <a href="{{pathFor '/blog/:month/:year' month=date.month year=date.year}}" class="recentblogsclass">{{date.month}} {{date.year}}</a><br />
               <hr />
             {{/each}}
           </div>
-          <h4>Categories</h4>
+          <h4><strong>Categories</strong></h4>
           <div>
             {{#each tag in tags}}
               <a href="{{pathFor '/blog/bytag/:tag' tag=tag}}" class="recentblogsclass">{{tag}}</a><br />
@@ -47,7 +47,7 @@
       {{#each blog in blogsbaseauthor}}
           <img src="{{blog.img}}" class="blogmainimg"/><br /><br />
           <span id="authordatetagid"><a href="{{pathFor '/blog/author/:authorid' authorid=blog.author}}" class="bloglinkclass">{{blog.author}}</a><span class="bloglinkclass"> {{makeString blog.date}} </span><a href="{{pathFor '/blog/bytag/:tag' tag=blog.category}}" class="bloglinkclass">{{blog.category}}</a></span><br />
-          <h4>{{blog.title}}</h4>
+          <h4><strong>{{blog.title}}</strong></h4>
           <p id="italicizedsubtext">{{blog.subtext}}</p>
           <a href="{{pathFor '/blog/:_id' _id=blog._id}}" id="blog-page-date-id">Read more</a>
           <br /><br />
