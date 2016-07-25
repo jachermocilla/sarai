@@ -25,17 +25,19 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var client = [
+    //COMMON
+    "client/common/cms-upload.html",
+    "client/common/cms-upload.js",
+
+    //DASHBOARD
     "client/components/dashboard/dashboard.html",
     "client/components/dashboard/dashboard-events.js",
     "client/components/dashboard/dashboard-helpers.js",
     "client/components/dashboard/dashboard-on-created.js",
     "client/components/dashboard/dashboard-route.js",
 
-    "client/common/cms-upload.html",
-    "client/common/cms-upload.js",
-
+    //MAIN CMS
     "client/components/main/main-cms-route.js",
-
     "client/components/main/main-cms.html",
     "client/components/main/main-cms.less",
     "client/components/main/main-cms.js",
@@ -46,6 +48,7 @@ Package.onUse(function(api) {
     "client/components/main/banner-options.html",
     "client/components/main/banner-options.js",
 
+    //ABOUT US
     "client/components/about-us/about-us-banner-options.html",
     "client/components/about-us/about-us-banner-options.js",
 
@@ -69,6 +72,12 @@ Package.onUse(function(api) {
     "client/components/about-us/about-us-cms.js",
     "client/components/about-us/about-us-cms.less",
 
+
+    //SERVICES CMS
+    "client/components/services/services-route.js",
+    "client/components/services/services-cms.html",
+
+    //COMMON
     "client/components/sarai-cms.less",
     "client/components/sarai-cms.js"
   ]

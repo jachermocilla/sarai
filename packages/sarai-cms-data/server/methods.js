@@ -144,12 +144,16 @@ Meteor.methods({
   'cms-banner-slide-edit': (_id, image, textPosition, title, subTitle, text, buttonText, buttonLink, rank) => {
 
     let slides = Main.findOne({name: 'banner'}).slides
+    console.log(`_ID: ${_id}`)
 
     if (slides) {
 
       const index = slides.find((element, index) => {
+        console
         if (element._id == _id) return index
       })
+
+      console.log(`Index: ${index}`)
 
       slides[index].title = title
       slides[index].textPosition = textPosition

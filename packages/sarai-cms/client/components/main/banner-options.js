@@ -5,17 +5,26 @@ Template.BannerOptions.created = function() {
 Template.BannerOptions.onRendered(() => {
   const dialog = document.querySelector('#cms-banner-dialog')
 
+  // console.log(`Template rendered. uploadedFile: ${this.uploadedFile}`)
     dialog.querySelector('.cancel').addEventListener('click', () => {
       dialog.close();
     });
 
     dialog.querySelector('.save').addEventListener('click', () => {
-      const action = this.action
+      let action = this.action
 
-      const temp = this.uploadedFile.split('/')
+      let temp = this.uploadedFile.split('/')
+      // console.log('Temp:')
+      // console.log(temp)
       const filename = temp[temp.length - 1]
+      // console.log('Filename')
+      // console.log(filename)
 
       const _id = filename.substring(filename.indexOf('-') + 1, filename.indexOf('.'))
+
+      // console.log('clicked save')
+      // console.log(this.uploadedFile)
+      // console.log(_id)
 
       const image = this.uploadedFile
       const textPosition = $('#cms-banner-slide-text-position-input').val()
@@ -66,7 +75,8 @@ Template.BannerOptions.events({
   'click .cms-banner-slider-edit': (e) => {
     const id = e.currentTarget.id.split('-')[2]
 
-    // this.uploadedFile =
+    // console.log(`id of current target: ${id}`)
+
     this.action = 'edit'
     this.actionID = id
 
@@ -76,9 +86,21 @@ Template.BannerOptions.events({
     const record = Main.findOne({name: 'banner'})
 
     if (record) {
+
+      // console.log(record.slides)
+
       const slide = record.slides.find((element) => {
+        // console.log(element._id)
         return element._id == id
       })
+
+      // console.log('Found slide')
+      // console.log(slide)
+
+      // console.log('Setting this uploaded File')
+      this.uploadedFile = slide.image
+      // console.log(this.uploadedFile)
+
 
       setBannerDialogContents(slide.image, slide.textPosition, slide.title, slide.subTitle, slide.text, slide.buttonText, slide.buttonLink, slide.rank)
     }
@@ -91,7 +113,6 @@ Template.BannerOptions.events({
       let toast = 'Deleted slide'
       if (error) {
         toast = 'Unable to delete slide'
-        console.log(error)
       }
       showToast(toast)
     })
@@ -127,13 +148,26 @@ Template.BannerOptions.helpers({
   myCallbacks: () => {
     return {
       formData: () => {
-        return {
-          filename: `slider-${Random.id()}`,
-          uploadGroup: 'main'
+        if (this.action == 'add') {
+          return {
+            filename: `slider-${Random.id()}`,
+            uploadGroup: 'main'
+          }
         }
+
+        else if (this.action == 'edit') {
+          return {
+            filename: `slider-${this.actionID}`,
+            uploadGroup: 'main'
+          }
+        }
+
       },
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
+
+        console.log(`saved to ${this.uploadedFile}`)
+
       }
     }
   }
