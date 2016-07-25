@@ -2,6 +2,9 @@ Template.WAISSMain.helpers({
     isLoggedIn: function() {
         return Meteor.userId();
     },
+    redirectToExplorePage: function() {
+        FlowRouter.go('/waiss/explore');
+    },
     farms: function() {
         return Farm.find({
             'userId': Meteor.userId()
@@ -129,5 +132,9 @@ Template.WAISSMain.events({
         e.preventDefault();
 
         FlowRouter.go('/waiss/create-farm');
+    },
+    'click #addIrrigation': function(e) {
+        var dialog = document.querySelector('#addIrrigationDialog');
+        dialog.showModal();
     }
 });

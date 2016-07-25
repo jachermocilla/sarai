@@ -17,3 +17,7 @@ Meteor.publish('crop', function() {
 Meteor.publish('water-management-tips', function() {
     return WaterManagementTips.find();
 });
+
+Meteor.publish('dss-settings', function() {
+    return DSSSettings.find();
+})

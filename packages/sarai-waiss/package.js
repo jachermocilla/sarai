@@ -25,9 +25,9 @@ Package.onUse(function(api) {
 
   var client = [
       "client/components/explore/explore.html",
+      "client/components/explore/explore.less",
       "client/components/explore/explore-route.js",
       "client/components/explore/explore-helpers.js",
-      "client/components/explore/explore-on-created.js",
       "client/components/waiss-main/waiss-main.html",
       "client/components/waiss-main/waiss-main.less",
       "client/components/waiss-main/waiss-main-helpers.js",
@@ -45,11 +45,9 @@ Package.onUse(function(api) {
       "client/components/advisory/advisory.html",
       "client/components/advisory/advisory.less",
       "client/components/advisory/advisory-helpers.js",
-      "client/layout/waiss-layout.html",
-      "client/layout/waiss-layout-helpers.js",
-      "client/layout/waiss-layout.less",
-      "client/includes/login-middleware.html",
-      "client/includes/login-middleware.less"
+      "client/components/explore-map/explore-map.html",
+      "client/components/explore-map/explore-map.less",
+      "client/components/explore-map/explore-map-helpers.js"
   ]
 
   api.addFiles(client, "client")

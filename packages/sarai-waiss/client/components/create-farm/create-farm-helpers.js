@@ -2,8 +2,34 @@ Template.WAISSCreateFarm.helpers({
     isLoggedIn: function() {
         return Meteor.userId();
     },
+    redirectToExplorePage: function() {
+        FlowRouter.go('/waiss/explore');
+    },
     weatherStation: function() {
-        return WeatherStations.find();
+        var weatherStations = WeatherStations.find().fetch();
+        weatherStations.unshift({
+            'label': ''
+        });
+        return weatherStations;
+    },
+    crop: function() {
+        var crops = CropData.find().fetch()
+        crops.unshift({
+            'name': ''
+        });
+        return crops;
+    },
+    shouldBeDisabled: function() {
+        return !Session.get('currentCrop');
+    },
+    variety: function() {
+        var crop = CropData.findOne({
+            'name': Session.get('currentCrop')
+        });
+        var variety = crop.variety;
+        variety.unshift('');
+
+        return variety;
     }
 });
 
@@ -48,7 +74,11 @@ Template.WAISSCreateFarm.events({
             }
 
             alert(result.name + ' has been succesfully created!');
+            Session.set('farmId', result._id);
             FlowRouter.go('/waiss');
         })
+    },
+    'change #cropName': function(e) {
+        Session.set('currentCrop', $('#cropName').val());
     }
 })

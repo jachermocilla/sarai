@@ -1,17 +1,42 @@
+Template.WAISSExplore.onCreated(function() {
+    Meteor.subscribe('farm');
+    Meteor.subscribe('crop');
+    this.autorun(function() {
+        Meteor.subscribe('weather-stations');   
+    });
+});
+
+Template.WAISSExplore.onRendered(function() {
+    Session.set('exploreFarmId', null);
+});
+
 Template.WAISSExplore.helpers({
+    isLoggedIn: function() {
+        return Meteor.userId();
+    },
+    weatherStations: function() {
+        return WeatherStations.find().fetch();
+    },
+    noFarms: function() {
+        return Farm.find({
+            'public': true,
+            'weatherStation': Session.get('weatherStationId')
+        }).count() === 0;
+    },
     farms: function() {
         return Farm.find({
-            'public': true
+            'public': true,
+            'weatherStation': Session.get('weatherStationId')
         }).fetch();
     },
     farmInfo: function() {
         return Farm.findOne({
-            _id: Session.get('farmId')
+            _id: Session.get('exploreFarmId')
         });
     },
     chartData: function() {
         var farm = Farm.findOne({
-            _id: Session.get('farmId')
+            _id: Session.get('exploreFarmId')
         });
 
         var mad = CropData.findOne({
@@ -111,6 +136,9 @@ Template.WAISSExplore.events({
         var farmInfo = Farm.findOne({
             _id: currentFarm
         });
-        Session.set('farmId', currentFarm);
+        Session.set('exploreFarmId', currentFarm);
+    },
+    'click #goToDashboard': function(e) {
+        FlowRouter.go('/waiss');
     }
 });
