@@ -14,7 +14,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
 
   var packages = [
-    "sarai:sarai-lib"
+    "sarai:sarai-lib",
+    "sarai:sarai-clinic-data"
   ]
 
   api.use(packages)
@@ -26,7 +27,8 @@ Package.onUse(function(api) {
   api.addFiles(lib, ["client", "server"])
 
   var server = [
-    "server/methods.js"
+    "server/methods.js",
+    "server/fixtures.js"
   ]
 
   api.addFiles(server, "server")

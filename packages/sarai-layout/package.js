@@ -46,7 +46,10 @@ Package.onUse(function(api) {
     "client/layout/cms-layout/index.html",
 
     "client/layout/cms-layout-v2/cms-layout-v2.html",
-    "client/layout/cms-layout-v2/cms-layout-v2.less"
+    "client/layout/cms-layout-v2/cms-layout-v2.less",
+    "client/layout/cms-layout-v2/cms-header.html",
+    "client/layout/cms-layout-v2/cms-drawer.html",
+    "client/layout/cms-layout-v2/cms-drawer.js"
   ]
 
   api.addFiles(client, "client")
