@@ -5,61 +5,47 @@ Template.BannerOptions.created = function() {
 Template.BannerOptions.onRendered(() => {
   const dialog = document.querySelector('#cms-banner-dialog')
 
-  // console.log(`Template rendered. uploadedFile: ${this.uploadedFile}`)
-    dialog.querySelector('.cancel').addEventListener('click', () => {
-      dialog.close();
-    });
+  dialog.querySelector('.cancel').addEventListener('click', () => {
+    dialog.close();
+  });
 
-    dialog.querySelector('.save').addEventListener('click', () => {
-      let action = this.action
+  dialog.querySelector('.save').addEventListener('click', () => {
+    let action = this.action
 
-      let temp = this.uploadedFile.split('/')
-      // console.log('Temp:')
-      // console.log(temp)
-      const filename = temp[temp.length - 1]
-      // console.log('Filename')
-      // console.log(filename)
+    const image = this.uploadedFile
+    const textPosition = $('#cms-banner-slide-text-position-input').val()
+    const title = $('#cms-banner-slide-title-input').val()
+    const subTitle = $('#cms-banner-slide-subtitle-input').val()
+    const text = $('#cms-banner-slide-text-input').val()
+    const buttonText = $('#cms-banner-slide-button-text-input').val()
+    const buttonHref = $('#cms-banner-slide-button-href-input').val()
+    const rank = $('#cms-banner-slide-rank-input').val()
 
-      const _id = filename.substring(filename.indexOf('-') + 1, filename.indexOf('.'))
+    if (action == 'add') {
+      Meteor.call('cms-banner-slide-add', image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
+        let toast = 'Slide saved'
+        if (error) {
+          toast = 'Unable to save slide'
+        }
+        showToast(toast)
+      })
+    }
 
-      // console.log('clicked save')
-      // console.log(this.uploadedFile)
-      // console.log(_id)
+    else if (action == 'edit') {
+      const _id = this.actionID
 
-      const image = this.uploadedFile
-      const textPosition = $('#cms-banner-slide-text-position-input').val()
-      const title = $('#cms-banner-slide-title-input').val()
-      const subTitle = $('#cms-banner-slide-subtitle-input').val()
-      const text = $('#cms-banner-slide-text-input').val()
-      const buttonText = $('#cms-banner-slide-button-text-input').val()
-      const buttonHref = $('#cms-banner-slide-button-href-input').val()
-      const rank = $('#cms-banner-slide-rank-input').val()
+      Meteor.call('cms-banner-slide-edit', _id, image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
+        let toast = 'Slide saved'
+        if (error) {
+          toasts = 'Unable to save slide'
+        }
+        showToast(toast)
+      })
 
-      if (action == 'add') {
-        Meteor.call('cms-banner-slide-add', _id, image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
-          let toast = 'Slide saved'
-          if (error) {
-            toasts = 'Unable to save slide'
-          }
-          showToast(toast)
-        })
-      }
+    }
 
-      else if (action == 'edit') {
-        const id = this.actionID
-
-        Meteor.call('cms-banner-slide-edit', _id, image, textPosition, title, subTitle, text, buttonText, buttonHref, rank, (error, result) => {
-          let toast = 'Slide saved'
-          if (error) {
-            toasts = 'Unable to save slide'
-          }
-          showToast(toast)
-        })
-
-      }
-
-      dialog.close();
-    })
+    dialog.close();
+  })
 })
 
 Template.BannerOptions.events({
@@ -69,13 +55,13 @@ Template.BannerOptions.events({
     const dialog = document.querySelector('#cms-banner-dialog');
     dialog.showModal();
 
-    setBannerDialogContents("", "", "", "", "", "", "", "")
+    setBannerDialogContents('Add Slide', '', '', '', '', '', '', '', '')
   },
 
   'click .cms-banner-slider-edit': (e) => {
     const id = e.currentTarget.id.split('-')[2]
 
-    // console.log(`id of current target: ${id}`)
+    console.log(`id of current target: ${id}`)
 
     this.action = 'edit'
     this.actionID = id
@@ -87,22 +73,13 @@ Template.BannerOptions.events({
 
     if (record) {
 
-      // console.log(record.slides)
-
       const slide = record.slides.find((element) => {
-        // console.log(element._id)
         return element._id == id
       })
 
-      // console.log('Found slide')
-      // console.log(slide)
-
-      // console.log('Setting this uploaded File')
       this.uploadedFile = slide.image
-      // console.log(this.uploadedFile)
 
-
-      setBannerDialogContents(slide.image, slide.textPosition, slide.title, slide.subTitle, slide.text, slide.buttonText, slide.buttonLink, slide.rank)
+      setBannerDialogContents('Edit Slide', slide.image, slide.textPosition, slide.title, slide.subTitle, slide.text, slide.buttonText, slide.buttonLink, slide.rank)
     }
   },
 
@@ -130,11 +107,10 @@ Template.BannerOptions.helpers({
   },
 
   dialogHeader: () => {
-    const action = Session.get('action')
-
-    if (action == 'add') {
+    console.log(`This.action: ${this.action}`)
+    if (this.action == 'add') {
       return 'Add Slide'
-    } else if (action == 'edit') {
+    } else if (this.action == 'edit') {
       return 'Edit Slide'
     }
   },
@@ -148,25 +124,26 @@ Template.BannerOptions.helpers({
   myCallbacks: () => {
     return {
       formData: () => {
-        if (this.action == 'add') {
-          return {
-            filename: `slider-${Random.id()}`,
-            uploadGroup: 'main'
-          }
+        // if (this.action == 'add') {
+        return {
+          filename: `slider-${Random.id()}`,
+          uploadGroup: 'main'
         }
+        // }
 
-        else if (this.action == 'edit') {
-          return {
-            filename: `slider-${this.actionID}`,
-            uploadGroup: 'main'
-          }
-        }
+        // else if (this.action == 'edit') {
+        //   return {
+        //     filename: `slider-${this.actionID}`,
+        //     uploadGroup: 'main'
+        //   }
+        // }
 
       },
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
 
         console.log(`saved to ${this.uploadedFile}`)
+        $('#cms-banner-slide-img').attr('src', `${uploadDirPrefix()}${fileInfo.path}`)
 
       }
     }
@@ -174,8 +151,10 @@ Template.BannerOptions.helpers({
 })
 
 
-const setBannerDialogContents = (image, textPosition, title, subTitle, text, buttonText, buttonLink, rank) => {
-  $('#cms-banner-dialog-img').attr('src', image)
+const setBannerDialogContents = (dialogTitle, image, textPosition, title, subTitle, text, buttonText, buttonLink, rank) => {
+  $('#cms-banner-dialog-title').html(dialogTitle)
+
+  $('#cms-banner-slide-img').attr('src', image)
   $('#cms-banner-slide-text-position-input').val(textPosition)
   $('#cms-banner-slide-title-input').val(title)
   $('#cms-banner-slide-subtitle-input').val(subTitle)
