@@ -6,12 +6,18 @@ Template.ServicesCMSForm.onCreated(() => {
 Template.ServicesCMSForm.onRendered(() => {
   setFormDirty()
 
+<<<<<<< eb1e10f14362061ae257a69b6ba3e990be56d141
   $('#cms-service-col1text-editor').summernote();
   $('#cms-service-col2text-editor').summernote();
 
   //This is such a hack
   const hiddenCode = $('#hidden-col1text').attr('value')
   $('#cms-service-col1Text-editor').code(hiddenCode)
+=======
+  $(document).ready(function() {
+    $('#summernote').summernote();
+  });
+>>>>>>> Added summernote
 })
 
 Template.ServicesCMSForm.events({
