@@ -18,7 +18,8 @@ Package.onUse(function(api) {
     "sarai:sarai-user",
     "sarai:sarai-admin",
     "sarai:sarai-layout",
-    "sarai:sarai-cms-data"
+    "sarai:sarai-cms-data",
+    "sarai:sarai-services-data"
   ]
 
   api.use(packages)
@@ -76,11 +77,16 @@ Package.onUse(function(api) {
     //SERVICES CMS
     "client/components/services/services-route.js",
     "client/components/services/services-cms.html",
+    "client/components/services/services-cms.js",
+    "client/components/services/services-cms-edit-button.html",
+    "client/components/services/services-cms-edit-button.js",
+    "client/components/services/services-cms-form.html",
+    "client/components/services/services-cms-form.js",
 
     //COMMON
     "client/components/sarai-cms.less",
     "client/components/sarai-cms.js"
-  ]
+    ]
 
   api.addFiles(client, "client")
 

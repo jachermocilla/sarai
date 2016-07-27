@@ -17,6 +17,16 @@ if (Services.find().count() === 0) {
 	            sort: 1
 	    	},
 	    	{
+	    		name: 'Experts :',
+	    		text: [
+	                {
+	                    label: 'Dr. Felino A. Lansigan, CA, UPLB',
+	                    sort: 1
+	                }
+	            ],
+	            sort: 2
+	    	},
+	    	{
 	    		name: 'URA :',
 	    		text: [
 	                {
@@ -25,7 +35,7 @@ if (Services.find().count() === 0) {
 	                },
 	                {
 	                	label: 'Monina Gazelle Charina Carandang',
-	                	sort: 2	
+	                	sort: 2
 	                },
 	                {
 	                	label: 'Jeyneth Ann Mariano',
@@ -233,7 +243,7 @@ if (Services.find().count() === 0) {
 	                },
 	                {
 	                	label: 'Kim Nyka Pedeguerra',
-	                	sort: 2	
+	                	sort: 2
 	                },
 	                {
 	                	label: 'Marck Ferdie Eusebio',
@@ -624,7 +634,7 @@ if (Services.find().count() === 0) {
 	                },
 	                {
 	                	label: 'Rosemarie Laila Areglado',
-	                	sort: 2	
+	                	sort: 2
 	                }
 	            ],
 	            sort: 2

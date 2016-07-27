@@ -5,3 +5,12 @@ FlowRouter.route("/admin/services", {
     // else goHome();
   }
 })
+
+
+FlowRouter.route("/admin/services/:_id", {
+  name: 'services',
+  action: (params, queryParams) => {
+    BlazeLayout.reset();
+    BlazeLayout.render("CMSLayoutV2", {main: "ServicesCMSForm"});
+  }
+});

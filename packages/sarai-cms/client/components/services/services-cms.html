@@ -2,4 +2,44 @@
 
   <h3>Services CMS</h3>
 
+  <table class="mdl-data-table mdl-js-data-table" width="100%">
+    <thead>
+      <tr>
+        <th class="mdl-data-table__cell--non-numeric">
+          Image
+        </th>
+        <th class="mdl-data-table__cell--non-numeric">
+          Title
+        </th>
+        <th class="mdl-data-table__cell--non-numeric">
+          Text
+        </th>
+        <th class="mdl-data-table__cell--non-numeric">
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+
+      {{#each service in services}}
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">
+            <img class="cms-image-preview" src="{{service.background}}" />
+          </td>
+          <td class="mdl-data-table__cell--non-numeric">
+            {{service.title}}
+          </td>
+          <td class="mdl-data-table__cell--non-numeric">
+            {{service.text}}
+          </td>
+          <td class="mdl-data-table__cell--non-numeric">
+            {{> ServicesCMSEditButton id=service._id}}
+            <a href="" id="slider-delete-{{entry._id}}" class="cms-banner-slider-delete"><i class="material-icons">delete</i></a>
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+
+  </table>
+
 </template>
