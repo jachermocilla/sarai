@@ -5,6 +5,10 @@ Template.ServicesCMSForm.onCreated(() => {
 
 Template.ServicesCMSForm.onRendered(() => {
   setFormDirty()
+
+  $(document).ready(function() {
+    $('#summernote').summernote();
+  });
 })
 
 Template.ServicesCMSForm.events({
