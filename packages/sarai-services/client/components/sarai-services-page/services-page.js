@@ -36,25 +36,55 @@ Template.ServicesPage.events({
 /* entityPage: Helpers */
 /*****************************************************************************/
 Template.ServicesPage.helpers({
-	service: function(){
-		return Services.findOne({_id: FlowRouter.current().params._id});
+	service: () => {
+		const currentservice = Services.findOne({_id: FlowRouter.current().params._id});
+
+		return currentservice && currentservice
 	},
-	nextservice: function(){
-		var currentservice = Services.findOne({_id: FlowRouter.current().params._id});
-		if(typeof currentservice!='undefined'){
+
+	nextservice: () => {
+		const currentservice = Services.findOne({_id: FlowRouter.current().params._id});
+
+		if(currentservice){
 			var nextsort = currentservice.sort + 1;
 			if(nextsort<=Services.find().count()){
 				return Services.findOne({'sort': nextsort});
 			}
 		}
 	},
-	prevservice: function(){
-		var currentservice = Services.findOne({_id: FlowRouter.current().params._id});
-		if(typeof currentservice!='undefined'){
+
+	prevservice: () => {
+		const currentservice = Services.findOne({_id: FlowRouter.current().params._id});
+
+		if(currentservice){
 			var prevsort = currentservice.sort - 1;
 			if(prevsort>0){
 				return Services.findOne({'sort': prevsort});
 			}
+		}
+	},
+
+	mediaIsYoutubeVideo: () => {
+		const currentservice = Services.findOne({_id: FlowRouter.current().params._id})
+
+		if (currentservice) {
+			if (currentservice.mediaType == 'youtube-video') {
+				return true
+			}
+
+			else {
+				return false
+			}
+		}
+	},
+
+	notEmpty: (array) => {
+		if (array.length > 0) {
+			return true
+		}
+
+		else {
+			return false
 		}
 	}
 });
@@ -66,7 +96,7 @@ Template.ServicesPage.created = function () {
 };
 
 Template.ServicesPage.rendered = function () {
-	
+
 };
 
 Template.ServicesPage.destroyed = function () {
