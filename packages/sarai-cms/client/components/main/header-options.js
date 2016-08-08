@@ -5,7 +5,9 @@ Template.HeaderOptions.onRendered(() => {
   const dialog = document.querySelector('#cms-header-dialog');
 
   dialog.querySelector('.cancel').addEventListener('click', () => {
+      document.querySelector('main.mdl-layout__content').style.overflowY = '';
       dialog.close();
+      document.querySelector('main.mdl-layout__content').style.overflowY = 'auto';
     });
 
   dialog.querySelector('.save').addEventListener('click', () => {
@@ -197,7 +199,7 @@ Template.HeaderOptions.helpers({
     return {
       formData: () => {
         return {
-          filename: 'main-header-img',
+          filename: `head-logo-${Random.id()}`,
           uploadGroup: 'main'
         }
       },
