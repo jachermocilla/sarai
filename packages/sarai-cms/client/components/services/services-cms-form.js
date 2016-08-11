@@ -5,32 +5,13 @@ Template.ServicesCMSForm.onCreated(() => {
 
 Template.ServicesCMSForm.onRendered(() => {
   setFormDirty()
-
-<<<<<<< bce0934037f1af54bbffc60654a07f3f81c8f17d
-  $('#cms-service-col1text-editor').summernote();
-  $('#cms-service-col2text-editor').summernote();
-
-  //This is such a hack
-  const hiddenCode = $('#hidden-col1text').attr('value')
-  $('#cms-service-col1Text-editor').code(hiddenCode)
-=======
-  $(document).ready(function() {
-    $('#summernote').summernote();
-  });
->>>>>>> Added summernote
 })
 
 Template.ServicesCMSForm.events({
-  'click #cms-service-save-button': () => {
 
-  }
 })
 
 Template.ServicesCMSForm.helpers({
-  save: () => {
-
-  },
-
   service: () => {
     const service = Services.findOne({_id: this.serviceID})
 
