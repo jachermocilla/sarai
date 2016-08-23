@@ -6,24 +6,13 @@ Template.ServicesCMSForm.onCreated(() => {
 Template.ServicesCMSForm.onRendered(() => {
   setFormDirty()
 
-<<<<<<< 779b3a7a532f9d989bb40a6307b6c8801ca81008
-<<<<<<< eb1e10f14362061ae257a69b6ba3e990be56d141
-=======
->>>>>>> Initial layout for services form
   $('#cms-service-col1text-editor').summernote();
   $('#cms-service-col2text-editor').summernote();
 
   //This is such a hack
-  const hiddenCode = $('#hidden-col1text').attr('value')
-  $('#cms-service-col1Text-editor').code(hiddenCode)
-<<<<<<< 779b3a7a532f9d989bb40a6307b6c8801ca81008
-=======
-  $(document).ready(function() {
-    $('#summernote').summernote();
-  });
->>>>>>> Added summernote
-=======
->>>>>>> Initial layout for services form
+  // const hiddenCode = $('#hidden-col1text').attr('value')
+  // $('#cms-service-col1Text-editor').code(hiddenCode)
+
 })
 
 Template.ServicesCMSForm.events({
@@ -51,7 +40,16 @@ const setFormDirty = () => {
   $('#cms-service-crops').addClass('is-dirty')
   $('#cms-service-experts').addClass('is-dirty')
   $('#cms-service-ura').addClass('is-dirty')
+
+  $('#cms-service-col1title').addClass('is-dirty')
+  $('#cms-service-col2title').addClass('is-dirty')
+
+
 }
 
 
 //SERVICES CMS EDIT FORM
+
+Template.ServicesCMSEditForm.onRendered(() => {
+
+})

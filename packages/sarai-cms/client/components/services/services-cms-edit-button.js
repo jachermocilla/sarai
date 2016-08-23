@@ -2,8 +2,12 @@ Template.ServicesCMSEditButton.onRendered(() => {
 
 })
 
-Template.ServicesCMSEditButton.helpers({
-  edit: () => {
-
+Template.ServicesCMSEditButton.events({
+  'click #cms-service-edit-button': () => {
+    console.log('Clicked edit button')
   }
+})
+
+Template.ServicesCMSEditButton.helpers({
+
 })
