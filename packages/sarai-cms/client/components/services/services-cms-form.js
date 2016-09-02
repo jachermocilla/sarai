@@ -6,7 +6,10 @@ Template.ServicesCMSForm.onCreated(() => {
 Template.ServicesCMSForm.onRendered(() => {
   setFormDirty()
 
+
   $('#cms-service-col1text-editor').summernote();
+  $('#cms-service-col1text-editor').code('<h3>Sample</h3>');
+
   $('#cms-service-col2text-editor').summernote();
 
 
