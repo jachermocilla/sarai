@@ -1,6 +1,12 @@
-/*****************************************************************************/
-/* entityPage: Event Handlers */
-/*****************************************************************************/
+Template.ServicesPage.onCreated(function() {
+	Meteor.subscribe('services');
+
+})
+
+Template.ServicesPage.onRendered(function(){
+	$("main").scrollTop(0);
+})
+
 Template.ServicesPage.events({
 	'click #nextbutton': function(e){
 		e.preventDefault();
@@ -37,9 +43,94 @@ Template.ServicesPage.events({
 /*****************************************************************************/
 Template.ServicesPage.helpers({
 	service: () => {
-		const currentservice = Services.findOne({_id: FlowRouter.current().params._id});
+		const service = Services.findOne({_id: FlowRouter.current().params._id});
 
-		return currentservice && currentservice
+		return service && service
+	},
+
+	title: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id});
+
+		return service && service.title
+	},
+
+	tagline: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id});
+
+		return service && service.tagline
+	},
+
+	crops: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.info.crops
+	},
+
+	experts: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.info.experts
+	},
+
+	ura: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.info.ura
+	},
+
+	projectLeaders: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.info.projectLeaders
+	},
+
+	mediaLink: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.media.link
+	},
+
+	mediaType: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.media.type
+	},
+
+	mediaSubtitle: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.media.subtitle
+	},
+
+	mediaSubtitleLink: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.media.subtitleLink
+	},
+
+
+	col1Title: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && (service.col1.title == '' ? 'The Challenge' : service.col1.title)
+	},
+
+	col2Title: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && (service.col2.title == '' ? 'Solution' : service.col2.title)
+	},
+
+	col1Content: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.col1.content
+	},
+
+	col2Content: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id})
+
+		return service && service.col2.content
 	},
 
 	nextservice: () => {
@@ -89,15 +180,5 @@ Template.ServicesPage.helpers({
 	}
 });
 
-/*****************************************************************************/
-/* entityPage: Lifecycle Hooks */
-/*****************************************************************************/
-Template.ServicesPage.created = function () {
-};
 
-Template.ServicesPage.rendered = function () {
 
-};
-
-Template.ServicesPage.destroyed = function () {
-};
