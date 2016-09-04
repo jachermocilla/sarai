@@ -28,8 +28,6 @@ Package.onUse(function(api) {
     "client/components/sarai-services-page/services-page.html",
     "client/components/sarai-services-page/services-page.js",
     "client/components/sarai-services-page/services-page.less",
-    "client/components/sarai-services-page/services-page-on-created.js",
-    "client/components/sarai-services-page/services-page-on-rendered.js",
     "client/components/sarai-services-page/route.js"
   ]
 
