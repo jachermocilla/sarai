@@ -26,7 +26,10 @@ const setFormDirty = () => {
   $('#cms-service-crops').addClass('is-dirty')
   $('#cms-service-experts').addClass('is-dirty')
   $('#cms-service-ura').addClass('is-dirty')
+
+  $('#cms-service-leaders').addClass('is-dirty')
+
+  $('#cms-service-col1title').addClass('is-dirty')
+  $('#cms-service-col2title').addClass('is-dirty')
 }
 
-
-//SERVICES CMS EDIT FORM

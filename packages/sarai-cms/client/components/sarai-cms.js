@@ -18,3 +18,13 @@ showToast = (message) => {
 uploadDirPrefix = () => {
   return '/upload/'
 }
+
+CSVToArray = (csv) => {
+  const array = csv.split(';')
+
+  array.forEach((element, index, array) => {
+    array[index] = element.trim()
+  })
+
+  return array
+}
