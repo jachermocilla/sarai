@@ -7,8 +7,8 @@ Template.ServicesCMSForm.onRendered(() => {
   setFormDirty()
 
 
-  $('#cms-service-col1text-editor').summernote();
-  $('#cms-service-col1text-editor').code('<h3>Sample</h3>');
+  // $('#cms-service-col1text-editor').summernote();
+  // $('#cms-service-col1text-editor').code('<h3>Sample</h3>');
 
   $('#cms-service-col2text-editor').summernote();
 
@@ -42,14 +42,8 @@ const setFormDirty = () => {
   $('#cms-service-crops').addClass('is-dirty')
   $('#cms-service-experts').addClass('is-dirty')
   $('#cms-service-ura').addClass('is-dirty')
+  $('#cms-service-leaders').addClass('is-dirty')
 
   $('#cms-service-col1title').addClass('is-dirty')
   $('#cms-service-col2title').addClass('is-dirty')
 }
-
-
-//SERVICES CMS EDIT FORM
-
-Template.ServicesCMSEditForm.onRendered(() => {
-
-})
