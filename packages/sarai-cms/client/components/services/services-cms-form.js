@@ -29,6 +29,9 @@ const setFormDirty = () => {
 
   $('#cms-service-leaders').addClass('is-dirty')
 
+  $('#cms-service-subtitle').addClass('is-dirty')
+  $('#cms-service-subtitleLink').addClass('is-dirty')
+
   $('#cms-service-col1title').addClass('is-dirty')
   $('#cms-service-col2title').addClass('is-dirty')
 }

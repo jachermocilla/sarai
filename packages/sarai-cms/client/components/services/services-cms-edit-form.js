@@ -1,10 +1,7 @@
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
 Template.ServicesCMSEditForm.onCreated(() => {
   this.uploadedFile = ''
 })
 
-=======
->>>>>>> Service title, tagline, info, and content can now be edited.
 Template.ServicesCMSEditForm.onRendered((a, template) => {
 
   // console.log(Template.instance().data) // the service in data is undefined at this point. weird
@@ -34,10 +31,7 @@ Template.ServicesCMSEditForm.events({
 
     const title = $('#cms-service-title-input').val()
     const tagline = $('#cms-service-tagline-input').val()
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
     const thumbnail = this.uploadedFile == '' ? template.data.service.thumbnail : this.uploadedFile
-=======
->>>>>>> Service title, tagline, info, and content can now be edited.
     const info = {
       crops: $('#cms-service-crops-input').val(),
       experts: CSVToArray($('#cms-service-experts-input').val()),
@@ -47,13 +41,8 @@ Template.ServicesCMSEditForm.events({
     const media = {
       link: '',
       type: '',
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
       subtitle: $('#cms-service-subtitle-input').val(),
       subtitleLink: $('#cms-service-subtitleLink-input').val()
-=======
-      subtitle: '',
-      subtitleLink: ''
->>>>>>> Service title, tagline, info, and content can now be edited.
     }
     const col1 = {
       title: '',
@@ -64,18 +53,11 @@ Template.ServicesCMSEditForm.events({
       content: $('#cms-service-col2text-editor').code()
     }
 
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
     Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
 
       if (!error) {
         Session.set('toast', 'Successfully Updated Service')
         FlowRouter.redirect('/admin/services')
-=======
-    Meteor.call('cms-service-update', this.serviceID, title, tagline, info, media, col1, col2, (error, result) => {
-
-      if (!err) {
-        FlowRouter
->>>>>>> Service title, tagline, info, and content can now be edited.
       } else {
         showToast('Unable to update service')
       }
@@ -85,7 +67,6 @@ Template.ServicesCMSEditForm.events({
 
   'click #cms-services-delete': (event, template) => {
 
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
   },
 
   'click #media-image-choice': () => {
@@ -98,8 +79,6 @@ Template.ServicesCMSEditForm.events({
     console.log('selecting video')
     $('#cms-service-image').attr('display', 'none')
     $('#cms-service-youtube').attr('display', 'block')
-=======
->>>>>>> Service title, tagline, info, and content can now be edited.
   }
 
 })
@@ -123,17 +102,6 @@ Template.ServicesCMSEditForm.helpers({
     }
   },
 
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
-  mediaLinkInputTitle: () => {
-    if ($('#media-image-choice').is(':checked')) {
-      return 'Image'
-    } else {
-      return 'Youtube link'
-    }
-  },
-
-=======
->>>>>>> Service title, tagline, info, and content can now be edited.
   arrayToCSV: (array) => {
     if (array) {
       return array.reduce((prev, curr) => {
@@ -147,7 +115,6 @@ Template.ServicesCMSEditForm.helpers({
     return {
       class: 'mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label'
     }
-<<<<<<< d40e150f6659b3891f67f431a8b7a1c6b2a0d5ca
   },
 
   tooltip: () => {
@@ -168,7 +135,5 @@ Template.ServicesCMSEditForm.helpers({
         $('#cms-service-thumbnail').attr('src', `${uploadDirPrefix()}${fileInfo.path}`)
       }
     }
-=======
->>>>>>> Service title, tagline, info, and content can now be edited.
   }
 })
