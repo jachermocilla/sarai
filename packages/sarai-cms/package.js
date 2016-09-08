@@ -77,6 +77,7 @@ Package.onUse(function(api) {
     //SERVICES CMS
     "client/components/services/services-route.js",
     "client/components/services/services-cms.html",
+    "client/components/services/services-cms.less",
     "client/components/services/services-cms.js",
     "client/components/services/services-cms-edit-button.html",
     "client/components/services/services-cms-edit-button.js",

@@ -39,13 +39,8 @@ Template.ServicesCMSEditForm.events({
       projectLeaders: CSVToArray($('#cms-service-leaders-input').val())
     }
     const media = {
-<<<<<<< 1a7f01c449d8c58be076709856da826d0c5ba715
       link: '',
-      type: '',
-=======
-      link: this.uploadedFile,
       type: 'image',
->>>>>>> Added thumbnail to services fixtures
       subtitle: $('#cms-service-subtitle-input').val(),
       subtitleLink: $('#cms-service-subtitleLink-input').val()
     }
@@ -104,6 +99,14 @@ Template.ServicesCMSEditForm.helpers({
   col2Text: () => {
     if (Template.instance().data.service) {
       $('#cms-service-col2text-editor').code(Template.instance().data.service.col2.content);
+    }
+  },
+
+  mediaLinkInputTitle: () => {
+    if ($('#media-image-choice').is(':checked')) {
+      return 'Image'
+    } else {
+      return 'Youtube link'
     }
   },
 

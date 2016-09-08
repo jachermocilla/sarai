@@ -44,6 +44,23 @@
           {{> CMSUpload callbacks=myCallbacks}}
         </div>
 
+        <div class="mdl-cell mdl-cell--12-col">
+          Media:
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="media-image-choice">
+            <input type="radio" id="media-image-choice" class="mdl-radio__button" name="media-options" value="1" checked>
+            <span class="mdl-radio__label">Image</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="media-youtube-choice">
+            <input type="radio" id="media-youtube-choice" class="mdl-radio__button" name="media-options" value="2">
+            <span class="mdl-radio__label">YouTube Video</span>
+          </label>
+        </div>
+
+        <div {{infoCellClasses}} id="cms-service-mediaLink">
+          <input class="mdl-textfield__input" type="text" id="cms-service-mediaLink-input" value="{{service.media.mediaLink}}">
+          <label class="mdl-textfield__label" for="cms-service-mediaLink-input">{{mediaLinkInputTitle}}</label>
+        </div>
+
         <div {{infoCellClasses}} id="cms-service-subtitle">
           <input class="mdl-textfield__input" type="text" id="cms-service-subtitle-input" value="{{service.media.subtitle}}">
           <label class="mdl-textfield__label" for="cms-service-subtitle-input">Subtitle</label>
