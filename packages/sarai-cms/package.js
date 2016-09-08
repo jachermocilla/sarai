@@ -88,6 +88,7 @@ Package.onUse(function(api) {
 
     "client/components/services/services-cms-edit-form.html",
     "client/components/services/services-cms-edit-form.js",
+    "client/components/services/services-cms-edit-form.less",
 
     //COMMON
     "client/components/sarai-cms.less",
