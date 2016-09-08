@@ -36,7 +36,6 @@ const setFormDirty = () => {
   $('#cms-service-crops').addClass('is-dirty')
   $('#cms-service-experts').addClass('is-dirty')
   $('#cms-service-ura').addClass('is-dirty')
-<<<<<<< HEAD
 
   $('#cms-service-leaders').addClass('is-dirty')
 
@@ -46,14 +45,3 @@ const setFormDirty = () => {
   $('#cms-service-col1title').addClass('is-dirty')
   $('#cms-service-col2title').addClass('is-dirty')
 }
-
-=======
-  $('#cms-service-leaders').addClass('is-dirty')
-
-  $('#cms-service-subtitle').addClass('is-dirty')
-  $('#cms-service-subtitleLink').addClass('is-dirty')
-
-  $('#cms-service-col1title').addClass('is-dirty')
-  $('#cms-service-col2title').addClass('is-dirty')
-}
->>>>>>> 3b9c56279591f00ca1a705bdb1bfb6d53eb750cf
