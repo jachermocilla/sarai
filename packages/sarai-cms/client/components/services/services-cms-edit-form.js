@@ -1,3 +1,7 @@
+Template.ServicesCMSEditForm.onCreated(() => {
+  this.uploadedFile = ''
+})
+
 Template.ServicesCMSEditForm.onRendered((a, template) => {
 
   // console.log(Template.instance().data) // the service in data is undefined at this point. weird
@@ -34,10 +38,10 @@ Template.ServicesCMSEditForm.events({
       projectLeaders: CSVToArray($('#cms-service-leaders-input').val())
     }
     const media = {
-      link: '',
-      type: '',
-      subtitle: '',
-      subtitleLink: ''
+      link: this.uploadedFile,
+      type: 'image',
+      subtitle: $('#cms-service-subtitle-input').val(),
+      subtitleLink: $('#cms-service-subtitleLink-input').val()
     }
     const col1 = {
       title: '',
