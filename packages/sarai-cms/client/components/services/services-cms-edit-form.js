@@ -39,8 +39,13 @@ Template.ServicesCMSEditForm.events({
       projectLeaders: CSVToArray($('#cms-service-leaders-input').val())
     }
     const media = {
+<<<<<<< 1a7f01c449d8c58be076709856da826d0c5ba715
       link: '',
       type: '',
+=======
+      link: this.uploadedFile,
+      type: 'image',
+>>>>>>> Added thumbnail to services fixtures
       subtitle: $('#cms-service-subtitle-input').val(),
       subtitleLink: $('#cms-service-subtitleLink-input').val()
     }

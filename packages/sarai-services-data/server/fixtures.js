@@ -11,6 +11,7 @@ if (Services.find().count() === 0) {
     	ura: ['Roinand Aguila', 'Monina Gazelle Charina Carandang', 'Jeyneth Ann Mariano'],
     	projectLeaders: []
     },
+    thumbnail: '',
     media: {
     	link: '/Services/alerts-and-advisories.jpg',
     	type: 'image',
@@ -39,6 +40,7 @@ if (Services.find().count() === 0) {
     	ura: ['Karen Berido Burdeos', 'Julia Dalagan', 'John Christopher Lorenzo', 'Marilyn Yere'],
     	projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
+    thumbnail: '',
     media: {
     	link: '',
     	type: 'image',
@@ -67,6 +69,7 @@ if (Services.find().count() === 0) {
       ura: ['Ivy Rose Marajas', 'Kim Nyka Pedeguerra', 'Marck Ferdie Eusebio', 'Yaminah Mochica Pinca'],
       projectLeaders: ['Project 2, Dr. Art Salazar, Project Leader']
     },
+    thumbnail: '',
     media: {
     	link: '',
     	type: 'image',
@@ -95,6 +98,7 @@ if (Services.find().count() === 0) {
       ura: ['Janah Monsanto'],
       projectLeaders: ['Project 2, Dr. Art Salazar, Project Leader']
     },
+    thumbnail: '',
     media: {
     	link: 'https://www.youtube.com/embed/X8YRDeCIaME?feature=oembed',
     	type: 'youtube-video',
@@ -124,6 +128,7 @@ if (Services.find().count() === 0) {
       ura: ['Gideon Aries Burgonio', 'Roinand Aguila'],
       projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
+    thumbnail: '',
     media: {
       link: '',
       type: '',
@@ -152,6 +157,7 @@ if (Services.find().count() === 0) {
       ura: ['Janah Monsanto'],
       projectLeaders: ['Project 2, Dr. Art Salazar, Project Leader']
     },
+    thumbnail: '',
     media: {
       link: 'https://www.youtube.com/embed/LgyYBLmmJkA?feature=oembed',
       type: 'youtube-video',
@@ -180,6 +186,7 @@ if (Services.find().count() === 0) {
       ura: ['Loucel Cui', 'Rosemarie Laila Areglado'],
       projectLeaders: ['Project 4: Dr.Decibel V. Faustino-Eslava, Project Leader']
     },
+    thumbnail: '',
     media: {
       link: '',
       type: '',
@@ -208,6 +215,7 @@ if (Services.find().count() === 0) {
       ura: ['Roel Fucio'],
       projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
+    thumbnail: '',
     media: {
       link: '',
       type: '',
@@ -236,6 +244,7 @@ if (Services.find().count() === 0) {
       ura: ['Leo Viado', 'Jerome Suarez'],
       projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
+    thumbnail: '',
     media: {
       link: '',
       type: '',
