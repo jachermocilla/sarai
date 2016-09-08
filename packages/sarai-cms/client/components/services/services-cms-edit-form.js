@@ -70,7 +70,15 @@ Template.ServicesCMSEditForm.events({
   },
 
   'click #media-image-choice': () => {
+    console.log('selecting image')
+    $('#cms-service-youtube').attr('display', 'none')
+    $('#cms-service-image').attr('display', 'block')
+  },
 
+  'click #media-youtube-choice': () => {
+    console.log('selecting video')
+    $('#cms-service-image').attr('display', 'none')
+    $('#cms-service-youtube').attr('display', 'block')
   }
 
 })
