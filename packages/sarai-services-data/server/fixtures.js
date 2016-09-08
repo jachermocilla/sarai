@@ -2,16 +2,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'alerts-and-advisories',
-    background: '/Services/alerts-and-advisories.jpg',
     title: 'Alerts and Advisories',
     tagline: 'Receive crop alerts and advisories to help you increase your yield and your profit.',
+    thumbnail: '',
     info: {
     	crops: 'Rice, Corn, Banana, Coconut, Coffee, Cacao',
     	experts: ['Dr. Felino A. Lansigan, CA, UPLB'],
     	ura: ['Roinand Aguila', 'Monina Gazelle Charina Carandang', 'Jeyneth Ann Mariano'],
     	projectLeaders: []
     },
-    thumbnail: '',
     media: {
     	link: '/Services/alerts-and-advisories.jpg',
     	type: 'image',
@@ -31,16 +30,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'crop-monitoring-and-forecasting',
-    background: '',
     title: 'Crop Monitoring and Forecasting',
     tagline: 'Plan your planting practices wisely for optimum yield.',
+    thumbnail: '',
     info: {
     	crops: 'Rice, Corn, Banana, Coconut, Coffee, Cacao',
     	experts: ['Dr. Felino A. Lansigan, CA, UPLB'],
     	ura: ['Karen Berido Burdeos', 'Julia Dalagan', 'John Christopher Lorenzo', 'Marilyn Yere'],
     	projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
-    thumbnail: '',
     media: {
     	link: '',
     	type: 'image',
@@ -60,16 +58,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'integrated-crop-management',
-    background: '/Services/DSC_0533-copy.jpg',
     title: 'Integrated Crop Management',
     tagline: 'Enhance your adaptibility by using SARAI’s integrated crop support system.',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
       experts: ['Dr. Pompe Sta. Cruz, CA, UPLB', 'Dr. Ronaldo Saludes, CEAT, UPLB'],
       ura: ['Ivy Rose Marajas', 'Kim Nyka Pedeguerra', 'Marck Ferdie Eusebio', 'Yaminah Mochica Pinca'],
       projectLeaders: ['Project 2, Dr. Art Salazar, Project Leader']
     },
-    thumbnail: '',
     media: {
     	link: '',
     	type: 'image',
@@ -89,16 +86,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'multispectral-camera-imaging',
-    background: '/Services/multispectral-copy.jpg',
     title: 'Multispectral Camera Imaging',
     tagline: 'Determine the health of your crops without destroying it for analysis.',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
       experts: ['Prof. Nel Altoveros, CAS, UPLB'],
       ura: ['Janah Monsanto'],
       projectLeaders: ['Project 2, Dr. Art Salazar, Project Leader']
     },
-    thumbnail: '',
     media: {
     	link: 'https://www.youtube.com/embed/X8YRDeCIaME?feature=oembed',
     	type: 'youtube-video',
@@ -119,16 +115,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'integrated-pest-management',
-    background: '/Services/integrated-pest-management.JPG',
     title: 'Integrated Pest Management',
     tagline: 'Identify pests and know how to manage them by dragging pest images on the platform.',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
       experts: ['Prof. Melvin Ebuenga, NCPC, UPLB'],
       ura: ['Gideon Aries Burgonio', 'Roinand Aguila'],
       projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
-    thumbnail: '',
     media: {
       link: '',
       type: '',
@@ -148,16 +143,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'real-time-data',
-    background: '/Services/real-time-data-copy.jpg',
     title: 'Real-Time Weather Monitoring',
     tagline: 'View real-time weather data from the Automatic Weather Stations installed throughout the country.',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
       experts: ['Prof. Nel Altoveros, CAS, UPLB'],
       ura: ['Janah Monsanto'],
       projectLeaders: ['Project 2, Dr. Art Salazar, Project Leader']
     },
-    thumbnail: '',
     media: {
       link: 'https://www.youtube.com/embed/LgyYBLmmJkA?feature=oembed',
       type: 'youtube-video',
@@ -177,16 +171,15 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'sarai-eskwela',
-    background: '/Services/sarai-eskwela.jpg',
     title: 'SARAI Eskwela',
     tagline: 'Learn more about smarter agriculture information access, knowledge sharing, and practical trainings by Project SARAI',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, Cacao',
       experts: [],
       ura: ['Loucel Cui', 'Rosemarie Laila Areglado'],
       projectLeaders: ['Project 4: Dr.Decibel V. Faustino-Eslava, Project Leader']
     },
-    thumbnail: '',
     media: {
       link: '',
       type: '',
@@ -205,17 +198,16 @@ if (Services.find().count() === 0) {
 	});
 
 	Services.insert({
-		name: 'suitability',
-    background: '/Services/suitability-copy-2.png',
+		name: 'suitability-maps',
     title: 'Suitability Maps',
     tagline: 'Maximize your yield by knowing what and where to plant.',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
       experts: ['Prof. Vic Bato, UPLB'],
       ura: ['Roel Fucio'],
       projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
-    thumbnail: '',
     media: {
       link: '',
       type: '',
@@ -234,17 +226,16 @@ if (Services.find().count() === 0) {
 	});
 
 	Services.insert({
-		name: 'vulnerability',
-    background: '/Services/vulver2-2.png',
+		name: 'vulnerability-maps',
     title: 'Vulnerability Maps',
     tagline: 'Know the rainfall pattern, temperature and NDVI of your area.',
+    thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
       experts: ['Engr. Moises Dorado, CEAT UPLB', 'Prof. Vicente Ballaran, CEAT, UPLB'],
       ura: ['Leo Viado', 'Jerome Suarez'],
       projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
-    thumbnail: '',
     media: {
       link: '',
       type: '',
