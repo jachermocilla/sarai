@@ -77,11 +77,18 @@ Package.onUse(function(api) {
     //SERVICES CMS
     "client/components/services/services-route.js",
     "client/components/services/services-cms.html",
+    "client/components/services/services-cms.less",
     "client/components/services/services-cms.js",
     "client/components/services/services-cms-edit-button.html",
     "client/components/services/services-cms-edit-button.js",
+
     "client/components/services/services-cms-form.html",
     "client/components/services/services-cms-form.js",
+    "client/components/services/services-cms-form.css",
+
+    "client/components/services/services-cms-edit-form.html",
+    "client/components/services/services-cms-edit-form.js",
+    "client/components/services/services-cms-edit-form.less",
 
     //COMMON
     "client/components/sarai-cms.less",

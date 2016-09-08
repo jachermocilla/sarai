@@ -1,4 +1,8 @@
 <template name="ServicesCMS">
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
 
   <h3>Services CMS</h3>
 
@@ -6,13 +10,10 @@
     <thead>
       <tr>
         <th class="mdl-data-table__cell--non-numeric">
-          Image
+          Thumbnail
         </th>
         <th class="mdl-data-table__cell--non-numeric">
-          Title
-        </th>
-        <th class="mdl-data-table__cell--non-numeric">
-          Text
+          Title/Tagline
         </th>
         <th class="mdl-data-table__cell--non-numeric">
           Actions
@@ -24,13 +25,11 @@
       {{#each service in services}}
         <tr>
           <td class="mdl-data-table__cell--non-numeric">
-            <img class="cms-image-preview" src="{{service.background}}" />
+            <img class="cms-service-list-thumbnail" src="{{service.thumbnail}}" />
           </td>
-          <td class="mdl-data-table__cell--non-numeric">
-            {{service.title}}
-          </td>
-          <td class="mdl-data-table__cell--non-numeric">
-            {{service.text}}
+          <td class="mdl-data-table__cell--non-numeric cms-service-list-title ">
+            {{service.title}}<br/>
+            <span class="cms-service-list-tagline">{{service.tagline}}</span>
           </td>
           <td class="mdl-data-table__cell--non-numeric">
             {{> ServicesCMSEditButton id=service._id}}
@@ -42,4 +41,6 @@
 
   </table>
 
+
+  {{showToastIfAny}}
 </template>

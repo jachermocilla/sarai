@@ -10,6 +10,7 @@ Template.registerHelper('equals', (a, b) => {
 
 showToast = (message) => {
   'use strict';
+
   window['counter'] = 0;
   var snackbarContainer = document.querySelector('#cms-toast');
   snackbarContainer.MaterialSnackbar.showSnackbar({message});
@@ -17,4 +18,14 @@ showToast = (message) => {
 
 uploadDirPrefix = () => {
   return '/upload/'
+}
+
+CSVToArray = (csv) => {
+  const array = csv.split(';')
+
+  array.forEach((element, index, array) => {
+    array[index] = element.trim()
+  })
+
+  return array
 }

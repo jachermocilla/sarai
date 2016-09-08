@@ -1,5 +1,5 @@
 FlowRouter.route("/admin/services", {
-  action: function() {
+  action: (params, queryParams) => {
     // if(isLoggedIn())
       BlazeLayout.render("CMSLayoutV2", {main: "ServicesCMS"})
     // else goHome();

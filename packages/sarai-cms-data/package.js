@@ -27,7 +27,9 @@ Package.onUse(function(api) {
   api.addFiles(lib, ["client", "server"])
 
   var server = [
-    "server/methods.js",
+    "server/main-methods.js",
+    "server/about-methods.js",
+    "server/service-methods.js",
     "server/fixtures.js"
   ]
 
