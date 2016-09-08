@@ -16,6 +16,13 @@ Template.ServicesCMSEditButton.events({
 
 Template.ServicesCMSEditButton.helpers({
   edit: () => {
-
+  'click .cms-service-edit': (event, template) => {
+    // console.log('Clicked edit button')
+    // console.log(template.data.id)
   }
+
+})
+
+Template.ServicesCMSEditButton.helpers({
+
 })
