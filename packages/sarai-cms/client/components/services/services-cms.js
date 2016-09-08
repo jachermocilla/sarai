@@ -3,7 +3,6 @@ Template.ServicesCMS.onCreated(() => {
 })
 
 Template.ServicesCMS.onRendered(() => {
-
 })
 
 Template.ServicesCMS.events({

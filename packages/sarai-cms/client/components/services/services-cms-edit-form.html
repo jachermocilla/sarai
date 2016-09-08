@@ -20,25 +20,46 @@
         <div {{infoCellClasses}} id="cms-service-experts">
           <input class="mdl-textfield__input" type="text" id="cms-service-experts-input" value="{{arrayToCSV service.info.experts}}">
           <label class="mdl-textfield__label" for="cms-service-experts-input">Experts</label>
+          <div class="mdl-tooltip" for="cms-service-experts-input">{{tooltip}}</div>
+
         </div>
 
         <div {{infoCellClasses}} id="cms-service-ura">
           <input class="mdl-textfield__input" type="text" id="cms-service-ura-input" value="{{arrayToCSV service.info.ura}}">
           <label class="mdl-textfield__label" for="cms-service-ura-input">URA</label>
+          <div class="mdl-tooltip" for="cms-service-ura-input">{{tooltip}}</div>
         </div>
 
         <div {{infoCellClasses}} id="cms-service-leaders">
           <input class="mdl-textfield__input" type="text" id="cms-service-leaders-input" value="{{arrayToCSV service.info.projectLeaders}}">
           <label class="mdl-textfield__label" for="cms-service-ura-input">Project Leaders</label>
+          <div class="mdl-tooltip" for="cms-service-leaders-input">{{tooltip}}</div>
         </div>
       </div>
     </div>
 
     <div class="mdl-cell mdl-cell--7-col cms-block">
       <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--12-col" id="cms-service-thumbnail">
-          <img id="cms-banner-slide-img" class="cms-image-preview">
+        <div class="mdl-cell mdl-cell--12-col" id="cms-service-thumbnail-upload">
+          <img id="cms-service-thumbnail" class="cms-image-preview" src="{{service.thumbnail}}">
           {{> CMSUpload callbacks=myCallbacks}}
+        </div>
+
+        <div class="mdl-cell mdl-cell--12-col">
+          Media:
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="media-image-choice">
+            <input type="radio" id="media-image-choice" class="mdl-radio__button" name="media-options" value="1" checked>
+            <span class="mdl-radio__label">Image</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="media-youtube-choice">
+            <input type="radio" id="media-youtube-choice" class="mdl-radio__button" name="media-options" value="2">
+            <span class="mdl-radio__label">YouTube Video</span>
+          </label>
+        </div>
+
+        <div {{infoCellClasses}} id="cms-service-mediaLink">
+          <input class="mdl-textfield__input" type="text" id="cms-service-mediaLink-input" value="{{service.media.mediaLink}}">
+          <label class="mdl-textfield__label" for="cms-service-mediaLink-input">{{mediaLinkInputTitle}}</label>
         </div>
 
         <div {{infoCellClasses}} id="cms-service-subtitle">

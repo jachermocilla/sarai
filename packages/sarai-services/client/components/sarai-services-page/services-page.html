@@ -46,14 +46,14 @@
               <div class="videomarginclass">
                   <iframe src="{{mediaLink}}" class="videoclass" frameborder="0" allowfullscreen></iframe><br />
                   <div class='projlinkdiv'>
-                  <a href="{{subtitleLink}}" class="projlink"><i class='material-icons'>info_outline</i> {{subtitle}}</a>
+                  <a href="{{mediaSubtitleLink}}" class="projlink"><i class='material-icons'>info_outline</i> {{mediaSubtitle}}</a>
                   </div>
               </div>
           {{else}}
               <div class="videomarginclass">
-                  <img src="{{mediaLink}}" class="imageclass" /><br />
+                  <img src="{{thumbnail}}" class="imageclass" /><br />
                   <div class='projlinkdiv'>
-                  <a href="{{subtitleLink}}" class="projlink"><i class='material-icons'>info_outline</i> {{subtitle}} </a>
+                  <a href="{{mediaSubtitleLink}}" class="projlink"><i class='material-icons'>info_outline</i> {{mediaSubtitle}} </a>
                   </div>
               </div>
           {{/if}}

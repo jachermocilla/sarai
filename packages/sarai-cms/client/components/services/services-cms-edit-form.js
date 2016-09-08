@@ -31,6 +31,7 @@ Template.ServicesCMSEditForm.events({
 
     const title = $('#cms-service-title-input').val()
     const tagline = $('#cms-service-tagline-input').val()
+    const thumbnail = this.uploadedFile == '' ? template.data.service.thumbnail : this.uploadedFile
     const info = {
       crops: $('#cms-service-crops-input').val(),
       experts: CSVToArray($('#cms-service-experts-input').val()),
@@ -38,8 +39,8 @@ Template.ServicesCMSEditForm.events({
       projectLeaders: CSVToArray($('#cms-service-leaders-input').val())
     }
     const media = {
-      link: this.uploadedFile,
-      type: 'image',
+      link: '',
+      type: '',
       subtitle: $('#cms-service-subtitle-input').val(),
       subtitleLink: $('#cms-service-subtitleLink-input').val()
     }
@@ -52,7 +53,7 @@ Template.ServicesCMSEditForm.events({
       content: $('#cms-service-col2text-editor').code()
     }
 
-    Meteor.call('cms-service-update', this.serviceID, title, tagline, info, media, col1, col2, (error, result) => {
+    Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
 
       if (!error) {
         Session.set('toast', 'Successfully Updated Service')
@@ -65,6 +66,10 @@ Template.ServicesCMSEditForm.events({
   },
 
   'click #cms-services-delete': (event, template) => {
+
+  },
+
+  'click #media-image-choice': () => {
 
   }
 
@@ -89,6 +94,14 @@ Template.ServicesCMSEditForm.helpers({
     }
   },
 
+  mediaLinkInputTitle: () => {
+    if ($('#media-image-choice').is(':checked')) {
+      return 'Image'
+    } else {
+      return 'Youtube link'
+    }
+  },
+
   arrayToCSV: (array) => {
     if (array) {
       return array.reduce((prev, curr) => {
@@ -104,6 +117,10 @@ Template.ServicesCMSEditForm.helpers({
     }
   },
 
+  tooltip: () => {
+    return 'Tip: Separate items with a semicolon (;)'
+  },
+
   myCallbacks: () => {
     return {
       formData: () => {
@@ -115,8 +132,7 @@ Template.ServicesCMSEditForm.helpers({
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
 
-        $('#cms-banner-slide-img').attr('src', `${uploadDirPrefix()}${fileInfo.path}`)
-
+        $('#cms-service-thumbnail').attr('src', `${uploadDirPrefix()}${fileInfo.path}`)
       }
     }
   }

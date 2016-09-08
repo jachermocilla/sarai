@@ -60,6 +60,11 @@ Template.ServicesPage.helpers({
 		return service && service.tagline
 	},
 
+	thumbnail: () => {
+		const service = Services.findOne({_id: FlowRouter.current().params._id});
+		return service && service.thumbnail
+	},
+
 	crops: () => {
 		const service = Services.findOne({_id: FlowRouter.current().params._id})
 
