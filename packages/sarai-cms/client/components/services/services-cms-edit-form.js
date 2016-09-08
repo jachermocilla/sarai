@@ -50,8 +50,9 @@ Template.ServicesCMSEditForm.events({
 
     Meteor.call('cms-service-update', this.serviceID, title, tagline, info, media, col1, col2, (error, result) => {
 
-      if (!err) {
-        FlowRouter
+      if (!error) {
+        Session.set('toast', 'Successfully Updated Service')
+        FlowRouter.redirect('/admin/services')
       } else {
         showToast('Unable to update service')
       }
@@ -96,6 +97,23 @@ Template.ServicesCMSEditForm.helpers({
   infoCellClasses : () => {
     return {
       class: 'mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label'
+    }
+  },
+
+  myCallbacks: () => {
+    return {
+      formData: () => {
+        return {
+          filename: `service-media-${Random.id()}`,
+          uploadGroup: 'main'
+        }
+      },
+      finished: (index, fileInfo, context) => {
+        this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
+
+        $('#cms-banner-slide-img').attr('src', `${uploadDirPrefix()}${fileInfo.path}`)
+
+      }
     }
   }
 })

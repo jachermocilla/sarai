@@ -35,7 +35,23 @@
     </div>
 
     <div class="mdl-cell mdl-cell--7-col cms-block">
-      Images go here
+
+      <div id="cms-service-thumbnail-group">
+        <img id="cms-banner-slide-img" class="cms-image-preview">
+        {{> CMSUpload callbacks=myCallbacks}}
+      </div>
+
+      <div class="mdl-grid">
+        <div {{infoCellClasses}} id="cms-service-subtitleLink">
+          <input class="mdl-textfield__input" type="text" id="cms-service-subtitle-input" value="{{service.media.subtitle}}">
+          <label class="mdl-textfield__label" for="cms-service-subtitle-input">Subtitle</label>
+        </div>
+
+        <div {{infoCellClasses}} id="cms-service-subtitleLink">
+          <input class="mdl-textfield__input" type="text" id="cms-service-subtitleLink-input" value="{{service.media.subtitleLink}}">
+          <label class="mdl-textfield__label" for="cms-service-subtitleLink-input">Subtitle Link</label>
+        </div>
+      </div>
     </div>
 
     <div class="mdl-cell mdl-cell--5-col cms-block">
