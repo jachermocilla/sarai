@@ -83,7 +83,14 @@ Template.ServicesCMSEditForm.events({
   },
 
   'click #cms-services-delete': (event, template) => {
-
+      Meteor.call('cms-service-delete', this.serviceID, (error, result) => {
+        if (!error) {
+          FlowRouter.redirect('/admin/services')
+        }
+        else {
+          showToast('Unable to delete service')
+        }
+      })
   },
 
   'click #media-image-choice': () => {
