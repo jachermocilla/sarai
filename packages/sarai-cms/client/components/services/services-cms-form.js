@@ -1,16 +1,24 @@
 Template.ServicesCMSForm.onCreated(() => {
   Meteor.subscribe('services')
   this.serviceID = FlowRouter.current().params._id
+
+  this.action = Session.get('serviceAction')
 })
 
 Template.ServicesCMSForm.onRendered(() => {
-  setFormDirty()
+
+  if (this.action == 'edit') {
+    console.log('Editing...')
+    setFormDirty()
+
+  } else if (this.action == 'add') {
+
+  }
+
 
 
   // $('#cms-service-col1text-editor').summernote();
   // $('#cms-service-col1text-editor').code('<h3>Sample</h3>');
-
-  $('#cms-service-col2text-editor').summernote();
 
 
   // const hiddenCode = $('#hidden-col1text').attr('value')
@@ -26,6 +34,22 @@ Template.ServicesCMSForm.helpers({
     const service = Services.findOne({_id: this.serviceID})
 
     return service && service
+  },
+
+  formActionEdit: () => {
+    if (this.action == 'edit') {
+      return true
+    } else {
+      return false
+    }
+  },
+
+  formActionAdd: () => {
+    if (this.action == 'add') {
+      return true
+    } else {
+      return false
+    }
   }
 })
 

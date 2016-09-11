@@ -12,7 +12,8 @@ Template.ServicesCMS.events({
   },
 
   'click #cms-service-add': () => {
-    console.log('Add new service')
+    Session.set('serviceAction', 'add')
+    FlowRouter.go('/admin/services/add')
   }
 })
 

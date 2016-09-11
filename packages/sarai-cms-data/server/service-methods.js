@@ -17,6 +17,19 @@ Meteor.methods({
       },
       { upsert: true }
     );
+  },
+
+  'cms-service-add': (title, tagline, thumbnail, info, media, col1, col2) => {
+
+    Services.insert({
+      title,
+      tagline,
+      thumbnail,
+      info,
+      media,
+      col1,
+      col2
+    })
   }
 
 })

@@ -1,5 +1,7 @@
 Template.ServicesCMSEditForm.onCreated(() => {
   this.uploadedFile = ''
+
+  this.action = Session.get('serviceAction')
 })
 
 Template.ServicesCMSEditForm.onRendered((a, template) => {
@@ -53,15 +55,30 @@ Template.ServicesCMSEditForm.events({
       content: $('#cms-service-col2text-editor').code()
     }
 
-    Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
 
-      if (!error) {
-        Session.set('toast', 'Successfully Updated Service')
-        FlowRouter.redirect('/admin/services')
-      } else {
-        showToast('Unable to update service')
-      }
-    })
+    if (this.action == 'edit') {
+      Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
+
+        if (!error) {
+          Session.set('toast', 'Successfully Updated Service')
+          FlowRouter.redirect('/admin/services')
+        } else {
+          showToast('Unable to update service')
+        }
+      })
+    }
+
+    else if (this.action == 'add') {
+      Meteor.call('cms-service-add', title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
+
+        if (!error) {
+
+          FlowRouter.redirect('/admin/services')
+        } else {
+          showToast('Unable to save service')
+        }
+      })
+    }
 
   },
 
