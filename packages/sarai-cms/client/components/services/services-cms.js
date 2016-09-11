@@ -7,6 +7,13 @@ Template.ServicesCMS.onRendered(() => {
 
 Template.ServicesCMS.events({
 
+  'click .cms-service-edit': () => {
+
+  },
+
+  'click #cms-service-add': () => {
+    console.log('Add new service')
+  }
 })
 
 Template.ServicesCMS.helpers({
