@@ -30,6 +30,10 @@ Meteor.methods({
       col1,
       col2
     })
+  },
+
+  'cms-service-delete': (_id) => {
+    Services.remove({_id})
   }
 
 })

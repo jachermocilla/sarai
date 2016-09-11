@@ -35,7 +35,7 @@
               </td>
               <td class="mdl-data-table__cell--non-numeric">
                 {{> ServicesCMSEditButton id=service._id}}
-                <a href="" id="slider-delete-{{entry._id}}" class="cms-banner-slider-delete"><i class="material-icons">delete</i></a>
+                {{> ServicesCMSDeleteButton id=service._id}}
               </td>
             </tr>
           {{/each}}
