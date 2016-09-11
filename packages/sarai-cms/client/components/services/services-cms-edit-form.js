@@ -33,7 +33,7 @@ Template.ServicesCMSEditForm.events({
 
     const title = $('#cms-service-title-input').val()
     const tagline = $('#cms-service-tagline-input').val()
-    const thumbnail = this.uploadedFile == '' ? template.data.service.thumbnail : this.uploadedFile
+    const thumbnail = this.uploadedFile == '' ? this.action == 'add' ? '' : template.data.service.thumbnail : this.uploadedFile
     const info = {
       crops: $('#cms-service-crops-input').val(),
       experts: CSVToArray($('#cms-service-experts-input').val()),
