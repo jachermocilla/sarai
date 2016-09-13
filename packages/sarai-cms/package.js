@@ -81,6 +81,8 @@ Package.onUse(function(api) {
     "client/components/services/services-cms.js",
     "client/components/services/services-cms-edit-button.html",
     "client/components/services/services-cms-edit-button.js",
+    "client/components/services/services-cms-delete-button.html",
+    "client/components/services/services-cms-delete-button.js",
 
     "client/components/services/services-cms-form.html",
     "client/components/services/services-cms-form.js",

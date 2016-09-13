@@ -1,5 +1,7 @@
 Template.ServicesCMSEditForm.onCreated(() => {
   this.uploadedFile = ''
+
+  this.action = Session.get('serviceAction')
 })
 
 Template.ServicesCMSEditForm.onRendered((a, template) => {
@@ -31,7 +33,7 @@ Template.ServicesCMSEditForm.events({
 
     const title = $('#cms-service-title-input').val()
     const tagline = $('#cms-service-tagline-input').val()
-    const thumbnail = this.uploadedFile == '' ? template.data.service.thumbnail : this.uploadedFile
+    const thumbnail = this.uploadedFile == '' ? this.action == 'add' ? '' : template.data.service.thumbnail : this.uploadedFile
     const info = {
       crops: $('#cms-service-crops-input').val(),
       experts: CSVToArray($('#cms-service-experts-input').val()),
@@ -53,20 +55,42 @@ Template.ServicesCMSEditForm.events({
       content: $('#cms-service-col2text-editor').code()
     }
 
-    Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
 
-      if (!error) {
-        Session.set('toast', 'Successfully Updated Service')
-        FlowRouter.redirect('/admin/services')
-      } else {
-        showToast('Unable to update service')
-      }
-    })
+    if (this.action == 'edit') {
+      Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
+
+        if (!error) {
+          Session.set('toast', 'Successfully Updated Service')
+          FlowRouter.redirect('/admin/services')
+        } else {
+          showToast('Unable to update service')
+        }
+      })
+    }
+
+    else if (this.action == 'add') {
+      Meteor.call('cms-service-add', title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
+
+        if (!error) {
+
+          FlowRouter.redirect('/admin/services')
+        } else {
+          showToast('Unable to save service')
+        }
+      })
+    }
 
   },
 
   'click #cms-services-delete': (event, template) => {
-
+      Meteor.call('cms-service-delete', this.serviceID, (error, result) => {
+        if (!error) {
+          FlowRouter.redirect('/admin/services')
+        }
+        else {
+          showToast('Unable to delete service')
+        }
+      })
   },
 
   'click #media-image-choice': () => {
