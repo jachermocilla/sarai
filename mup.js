@@ -4,7 +4,7 @@ module.exports = {
       host: '202.92.144.42',
       username: 'mbcarandang',
       // pem:
-      password: 'c0nc0rd3'
+      password: 'sarai006'
       // or leave blank for authenticate from ssh-agent
     }
   },
@@ -16,15 +16,16 @@ module.exports = {
       one: {}
     },
     buildOptions: {
-      serverOnly: true,
+      serverOnly: false,
     },
     env: {
-      ROOT_URL: 'sarai.uplb.ph',
+      PORT: 3000,
+      ROOT_URL: 'http://sarai.uplb.ph',
       MONGO_URL: 'mongodb://localhost:27017/sarai'
     },
 
     //dockerImage: 'kadirahq/meteord'
-    deployCheckWaitTime: 60
+    deployCheckWaitTime: 120
   },
 
   mongo: {
