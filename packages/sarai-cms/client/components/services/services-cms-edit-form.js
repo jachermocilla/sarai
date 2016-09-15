@@ -30,7 +30,6 @@ Template.ServicesCMSEditForm.onRendered((a, template) => {
 Template.ServicesCMSEditForm.events({
 
   'click  #cms-services-save-edit': (event, template) => {
-
     const title = $('#cms-service-title-input').val()
     const tagline = $('#cms-service-tagline-input').val()
     const thumbnail = this.uploadedFile == '' ? this.action == 'add' ? '' : template.data.service.thumbnail : this.uploadedFile
@@ -57,6 +56,13 @@ Template.ServicesCMSEditForm.events({
 
 
     if (this.action == 'edit') {
+      const currentThumbnail = template.data.service.thumbnail
+
+      if (currentThumbnail != '' && this.uploadedFile != '') {
+        //delete current thumbnail if uploading new one
+        Meteor.call('cms-delete-image', currentThumbnail)
+      }
+
       Meteor.call('cms-service-update', this.serviceID, title, tagline, thumbnail, info, media, col1, col2, (error, result) => {
 
         if (!error) {
@@ -79,10 +85,15 @@ Template.ServicesCMSEditForm.events({
         }
       })
     }
-
   },
 
   'click #cms-services-delete': (event, template) => {
+      Meteor.call('cms-delete-image', template.data.service.thumbnail, (error, result) => {
+        if (error) {
+          showToast('Unable to delete thumbnail')
+        }
+      })
+
       Meteor.call('cms-service-delete', this.serviceID, (error, result) => {
         if (!error) {
           FlowRouter.redirect('/admin/services')
