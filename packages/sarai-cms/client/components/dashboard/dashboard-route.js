@@ -1,7 +1,6 @@
 FlowRouter.route("/admin", {
+  triggersEnter: [ isAdminRedirect ],
   action: function() {
-    // if(isLoggedIn())
-      BlazeLayout.render("CMSLayoutV2", {main: "CMSDashboard"})
-    // else goHome();
+    BlazeLayout.render("CMSLayoutV2", {main: "CMSDashboard"})
   }
 })

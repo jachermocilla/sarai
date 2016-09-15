@@ -29,3 +29,20 @@ CSVToArray = (csv) => {
 
   return array
 }
+
+/************LOGIN STUFF******************/
+isAdmin = () => {
+  if(Meteor.userId()===null){
+    return false;
+  }
+  else{
+     return true;
+  }
+}
+
+isAdminRedirect = () => {
+  if(Meteor.userId()===null){
+    FlowRouter.go('/')
+    FlowRouter.redirect('/')
+  }
+}
