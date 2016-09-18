@@ -206,13 +206,13 @@ Template.HeaderOptions.helpers({
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
 
-        // Meteor.call('cms-header-icon-update', `${uploadDirPrefix()}${fileInfo.path}`, (error, result) => {
-        //   let toast = 'File uploaded successfully'
-        //   if (error) {
-        //     toast = 'Unable to upload file'
-        //   }
-        //   showToast(toast)
-        // })
+        Meteor.call('cms-header-icon-update', `${uploadDirPrefix()}${fileInfo.path}`, (error, result) => {
+          let toast = 'File uploaded successfully'
+          if (error) {
+            toast = 'Unable to upload file'
+          }
+          showToast(toast)
+        })
       }
     }
   }

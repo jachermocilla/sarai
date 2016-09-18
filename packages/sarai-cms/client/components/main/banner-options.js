@@ -1,6 +1,8 @@
-Template.BannerOptions.created = function() {
+Template.BannerOptions.onCreated(() => {
   this.uploadedFile = ''
-}
+  this.bannerOrder = 'ascending'
+})
+
 
 Template.BannerOptions.onRendered(() => {
   const dialog = document.querySelector('#cms-banner-dialog')
@@ -61,8 +63,6 @@ Template.BannerOptions.events({
   'click .cms-banner-slider-edit': (e) => {
     const id = e.currentTarget.id.split('-')[2]
 
-    console.log(`id of current target: ${id}`)
-
     this.action = 'edit'
     this.actionID = id
 
@@ -93,7 +93,20 @@ Template.BannerOptions.events({
       }
       showToast(toast)
     })
+  },
+
+  'click #cms-banner-rank-order': () => {
+    //Toggle order
+
+    if (this.bannerOrder == 'ascending') {
+      this.bannerOrder = 'descending'
+      console.log('changed to desc')
+    } else {
+      this.bannerOrder = 'ascending'
+      console.log('changed to asc')
+    }
   }
+
 });
 
 Template.BannerOptions.helpers({
@@ -118,7 +131,36 @@ Template.BannerOptions.helpers({
   slides: () => {
     const record = Main.findOne({name: 'banner'})
 
-    return record && record.slides
+    if (record) {
+      //order by rank
+      let orderedSlides = record.slides
+
+
+      if (this.bannerOrder == 'ascending') {
+        orderedSlides = orderedSlides.sort((a, b) => {
+          if (a.rank < b.rank) {
+            return -1
+          } else if (a.rank > b.rank) {
+            return 1
+          } else {
+            return 0
+          }
+        })
+      } else if (this.bannerOrder == 'descending') {
+        orderedSlides = orderedSlides.sort((a, b) => {
+          if (a.rank < b.rank) {
+            return 1
+          } else if (a.rank > b.rank) {
+            return -1
+          } else {
+            return 0
+          }
+        })
+      }
+
+      return orderedSlides
+    }
+
   },
 
   myCallbacks: () => {
@@ -142,10 +184,16 @@ Template.BannerOptions.helpers({
       finished: (index, fileInfo, context) => {
         this.uploadedFile = `${uploadDirPrefix()}${fileInfo.path}`
 
-        console.log(`saved to ${this.uploadedFile}`)
+        //console.log(`saved to ${this.uploadedFile}`)
         $('#cms-banner-slide-img').attr('src', `${uploadDirPrefix()}${fileInfo.path}`)
 
       }
+    }
+  },
+
+  dialogClasses: () => {
+    return {
+      class: "mdl-cell mdl-cell--12-col"
     }
   }
 })
