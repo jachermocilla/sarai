@@ -14,8 +14,12 @@ Template.BannerOptions.onRendered(() => {
   dialog.querySelector('.save').addEventListener('click', () => {
     let action = this.action
 
+    const textPosition = $('input:radio[name=banner-text-position]:checked').val()
+
+    console.log(`Text position: ${textPosition}`)
+
     const image = this.uploadedFile
-    const textPosition = $('#cms-banner-slide-text-position-input').val()
+    // const textPosition = $('#cms-banner-slide-text-position-input').val()
     const title = $('#cms-banner-slide-title-input').val()
     const subTitle = $('#cms-banner-slide-subtitle-input').val()
     const text = $('#cms-banner-slide-text-input').val()
@@ -161,6 +165,11 @@ Template.BannerOptions.helpers({
       return orderedSlides
     }
 
+  },
+
+  positionLeft: () => {
+
+    return 'checked'
   },
 
   myCallbacks: () => {
