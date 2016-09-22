@@ -18,6 +18,7 @@ Package.onUse(function(api) {
     "sarai:sarai-user",
     "sarai:sarai-admin",
     "sarai:sarai-layout",
+    "sarai:sarai-weather-data"
   ]
 
   api.use(packages)
