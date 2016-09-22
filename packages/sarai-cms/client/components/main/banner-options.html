@@ -13,16 +13,18 @@
           <table class="mdl-data-table mdl-js-data-table" width="100%">
             <thead>
               <tr>
+                <th id="cms-banner-rank-order" class="mdl-data-table__header--sorted-ascending">Rank</th>
                 <th class="mdl-data-table__cell--non-numeric">Image</th>
                 <th class="mdl-data-table__cell--non-numeric">Title</th>
                 <th class="mdl-data-table__cell--non-numeric">Subtitle</th>
                 <th class="mdl-data-table__cell--non-numeric">Text</th>
-                <th class="mdl-data-table__cell--non-numeric">Actions</th>
+                <th class="mdl-data-table__cell--non-numeric ">Actions</th>
               </tr>
             </thead>
             <tbody>
               {{#each entry in slides}}
                 <tr>
+                  <td>{{entry.rank}}</td>
                   <td class="mdl-data-table__cell--non-numeric"><img src="{{entry.image}}" class="cms-image-preview"></td>
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.title}}</td>
                   <td class="mdl-data-table__cell--non-numeric">{{truncateTableEntry entry.subTitle}}</td>
@@ -45,14 +47,15 @@
 
       </div>
 
-      <div class="cms-block-actions">
-        <button id="cms-banner-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+      <!-- <div class="cms-block-actions">
+        <button id="cms-banner-save" class="mdl-button mdl-js-button mdl-button-raised mdl-js-ripple-effect mdl-button-colored">
           Enable
         </button>
-        <button id="cms-banner-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+
+        <button id="cms-banner-save" class="mdl-button mdl-js-button mdl-button-raised mdl-js-ripple-effect mdl-button-colored">
           Save
         </button>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -60,47 +63,84 @@
   <dialog id="cms-banner-dialog" class="mdl-dialog cms-header-edit-dialog">
     <h4 id="cms-banner-dialog-title" class="mdl-dialog__title"></h4>
     <div class="mdl-dialog__content">
-      <form action="#">
 
-        <img id="cms-banner-slide-img" class="cms-image-preview">
-        {{> CMSUpload callbacks=myCallbacks}}
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col-desktop  mdl-cell--8-col-tablet mdl-cell--col-phone">
+          <div class="mdl-grid">
 
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-text-position">
+            <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+              <img id="cms-banner-slide-img" class="cms-image-preview">
+              {{> CMSUpload callbacks=myCallbacks}}
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                <input type="radio" id="option-1" class="mdl-radio__button" name="banner-text-position" value="left"  {{positionChecked}}>
+                <span class="mdl-radio__label">Left</span>
+              </label>
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                <input type="radio" id="option-2" class="mdl-radio__button" name="banner-text-position" value="right">
+                <span class="mdl-radio__label">Right</span>
+              </label>
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-rank">
+                <input class="mdl-textfield__input" type="text" id="cms-banner-slide-rank-input">
+                <label class="mdl-textfield__label" for="cms-banner-slide-rank-input">Rank</label>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-grid mdl-grid--no-spacing">
+              <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-title">
+                  <input class="mdl-textfield__input" type="text" id="cms-banner-slide-title-input">
+                  <label class="mdl-textfield__label" for="cms-banner-slide-title-input">Title</label>
+                </div>
+              </div>
+
+              <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-subtitle">
+                  <input class="mdl-textfield__input" type="text" id="cms-banner-slide-subtitle-input">
+                  <label class="mdl-textfield__label" for="cms-banner-slide-subtitle-input">Subtitle</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-textfield mdl-js-textfield" id="cms-banner-slide-text">
+                <textarea class="mdl-textfield__input" type="text" rows= "4" id="cms-banner-slide-text-input" ></textarea>
+                <label class="mdl-textfield__label" for="cms-banner-slide-text-input">Text</label>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-button-text">
+                <input class="mdl-textfield__input" type="text" id="cms-banner-slide-button-text-input">
+                <label class="mdl-textfield__label" for="cms-banner-slide-button-text-input">Button Text</label>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-button-href">
+                <input class="mdl-textfield__input" type="text" id="cms-banner-slide-button-href-input">
+                <label class="mdl-textfield__label" for="cms-banner-slide-button-href-input">Button Link</label>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+<!--
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield-floating-label" id="cms-banner-slide-text-position">
           <input class="mdl-textfield__input" type="text" id="cms-banner-slide-text-position-input">
           <label class="mdl-textfield__label" for="cms-banner-slide-text-position-input">Text Position</label>
-        </div>
+        </div> -->
 
-
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-title">
-          <input class="mdl-textfield__input" type="text" id="cms-banner-slide-title-input">
-          <label class="mdl-textfield__label" for="cms-banner-slide-title-input">Title</label>
-        </div>
-
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-subtitle">
-          <input class="mdl-textfield__input" type="text" id="cms-banner-slide-subtitle-input">
-          <label class="mdl-textfield__label" for="cms-banner-slide-subtitle-input">Subtitle</label>
-        </div>
-
-        <div class="mdl-textfield mdl-js-textfield" id="cms-banner-slide-text">
-          <textarea class="mdl-textfield__input" type="text" rows= "4" id="cms-banner-slide-text-input" ></textarea>
-          <label class="mdl-textfield__label" for="cms-banner-slide-text-input">Text</label>
-        </div>
-
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-button-text">
-          <input class="mdl-textfield__input" type="text" id="cms-banner-slide-button-text-input">
-          <label class="mdl-textfield__label" for="cms-banner-slide-button-text-input">Button Text</label>
-        </div>
-
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-button-href">
-          <input class="mdl-textfield__input" type="text" id="cms-banner-slide-button-href-input">
-          <label class="mdl-textfield__label" for="cms-banner-slide-button-href-input">Button Link</label>
-        </div>
-
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-banner-slide-rank">
-          <input class="mdl-textfield__input" type="text" id="cms-banner-slide-rank-input">
-          <label class="mdl-textfield__label" for="cms-banner-slide-rank-input">Rank</label>
-        </div>
-      </form>
     </div>
     <div class="mdl-dialog__actions">
       <button type="button" class="mdl-button save">Save</button>

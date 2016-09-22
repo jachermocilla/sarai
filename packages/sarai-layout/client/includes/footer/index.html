@@ -1,31 +1,71 @@
 <template name="Footer">
 	{{#if footer.enabled}}
 	<div class="footerClass">
-      <div class="mdl-grid" style="margin-left: 5%;">
+    <div class="mdl-grid" style="margin-left: 5%;">
 
-        <div class="col-md-4 col-sm-4 col-xs-12 mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-          <h4 class="title">About Sarai</h4>
-          {{footer.text}}<br />
-          <img src="{{footer.img}}" height="80px" style="margin-top: 20px;" />
-        </div>
-
-        <div class="col-md-4 col-sm-4 col-xs-12 mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-          <h4 class="title">Stay Connected</h4>
-            <div class="stayconnecteddiv"><span class="stayconnectedclass"><img src='/footer-icons/call.png' width="15px" height="15px"></span>{{contactinfo.number}}<br /></div>
-            <div class="stayconnecteddiv"><span class="stayconnectedclass"><img src='/footer-icons/mail.png' width="15px" height="15px"></span><a class="link" href="{{contactinfo.mailhref}}"> {{contactinfo.mailname}}</a><br /></div>
-            <div class="stayconnecteddiv"><span class="stayconnectedclass"><img src='/footer-icons/location.png' width="15px" height="15px"></span>{{contactinfo.location}}</div>
-        </div>
-
-        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-          <h4 class="title">Get Involved</h4>
-          {{#each sharelinks}}
-            <a href="{{href}}" id="{{class_name}}"><img src="{{img}}" class="logoClass"/></a>
-          {{/each}}
-        </div>
-        <div class="mdl-cell mdl-cell--12-col">
-          <span>Copyright 2016 - Project SARAI</span>
+      <div class="col-md-4 col-sm-4 col-xs-12 mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+        <h4 class="title">About Sarai</h4>
+        {{footer.text}}<br />
+        <img src="{{footer.img}}" height="80px" style="margin-top: 20px;" />
       </div>
+
+      <div class="col-md-4 col-sm-4 col-xs-12 mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+        <h4 class="title">Stay Connected</h4>
+
+
+        <div class="footer-contact-line">
+          <div class="footer-contact-icon">
+            <i class="material-icons">call</i>
+          </div>
+          <span>
+            {{contactinfo.number}}
+          </span>
+        </div>
+
+        <div class="clear-float"></div>
+
+        <div class="footer-contact-line">
+          <div class="footer-contact-icon">
+            <i class="material-icons">email</i>
+          </div>
+          <span>
+            {{contactinfo.mailname}}
+          </span>
+        </div>
+
+        <div class="footer-contact-line">
+          <div class="footer-contact-icon">
+            <i class="material-icons">location_on</i>
+          </div>
+          <span>
+            {{contactinfo.location}}
+          </span>
+        </div>
+
       </div>
+
+      <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+        <h4 class="title">Get Involved</h4>
+
+        <a href="https://www.facebook.com/projectsarai/"><div class="get-involved-icon">
+          <i class="fa fa-facebook"></i>
+        </div></a>
+
+        <a href="https://twitter.com/ProjectSARAI"><div class="get-involved-icon">
+          <i class="fa fa-twitter"></i>
+        </div></a>
+
+        <a href="https://www.youtube.com/channel/UCJtzNfVmoqFZGCF326VaTZw"><div class="get-involved-icon">
+          <i class="fa fa-youtube-play"></i>
+        </div></a>
+
+      </div>
+
+      <div class="mdl-cell mdl-cell--12-col">
+        <span>Copyright 2016 - Project SARAI</span>
+      </div>
+
+    </div>
     </div>
    {{/if}}
 </template>

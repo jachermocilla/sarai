@@ -30,6 +30,7 @@ Package.onUse(function(api) {
     "server/main-methods.js",
     "server/about-methods.js",
     "server/service-methods.js",
+    "server/upload-methods.js",
     "server/fixtures.js"
   ]
 

@@ -30,6 +30,10 @@ Package.onUse(function(api) {
     "client/common/cms-upload.html",
     "client/common/cms-upload.js",
 
+    //COMMON
+    "client/components/sarai-cms.less",
+    "client/components/sarai-cms.js",
+
     //DASHBOARD
     "client/components/dashboard/dashboard.html",
     "client/components/dashboard/dashboard-events.js",
@@ -48,6 +52,7 @@ Package.onUse(function(api) {
     "client/components/main/header-options.js",
     "client/components/main/banner-options.html",
     "client/components/main/banner-options.js",
+    "client/components/main/banner-options.less",
 
     //ABOUT US
     "client/components/about-us/about-us-banner-options.html",
@@ -90,11 +95,7 @@ Package.onUse(function(api) {
 
     "client/components/services/services-cms-edit-form.html",
     "client/components/services/services-cms-edit-form.js",
-    "client/components/services/services-cms-edit-form.less",
-
-    //COMMON
-    "client/components/sarai-cms.less",
-    "client/components/sarai-cms.js"
+    "client/components/services/services-cms-edit-form.less"
     ]
 
   api.addFiles(client, "client")
