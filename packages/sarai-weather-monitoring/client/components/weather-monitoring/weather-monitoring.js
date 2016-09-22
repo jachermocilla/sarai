@@ -3,6 +3,16 @@ Template.WeatherMonitoring.onCreated(() => {
 })
 
 Template.WeatherMonitoring.onRendered(() => {
+
+  /******DIALOG*******/
+
+  const dialog = document.querySelector('#weather-monitoring-dialog')
+
+  dialog.querySelector('.cancel').addEventListener('click', () => {
+    dialog.close();
+  });
+
+  /****MAP****/
   const northEast = L.latLng(21.924058, 115.342984);
   const southWest = L.latLng(4.566972, 128.614468);
   const bounds = L.latLngBounds(southWest, northEast);
@@ -23,6 +33,8 @@ Template.WeatherMonitoring.onRendered(() => {
   const showWeatherData = (stationID, event) => {
     console.log(`stationID: ${stationID}`)
     console.log(event)
+
+    dialog.showModal();
   }
 
   Meteor.subscribe("weather-stations", () => {
@@ -49,4 +61,7 @@ Template.WeatherMonitoring.onRendered(() => {
 
 Template.WeatherMonitoring.helpers({
 
+  weatherData: () => {
+
+  }
 })
