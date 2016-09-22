@@ -18,6 +18,8 @@ Template.WeatherMonitoring.onRendered(() => {
         maxZoom: 20
     }).addTo(weatherMap);
 
+  weatherMap.zoomControl.setPosition('bottomleft');
+
   const showWeatherData = (stationID, event) => {
     console.log(`stationID: ${stationID}`)
     console.log(event)
