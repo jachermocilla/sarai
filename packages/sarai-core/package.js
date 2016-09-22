@@ -43,6 +43,7 @@ Package.onUse(function(api) {
     "sarai:sarai-about-data",
     "sarai:sarai-about-us",
     "sarai:sarai-weather-data",
+    "sarai:sarai-weather-monitoring",
     "sarai:sarai-apps-data"
     ]
 
