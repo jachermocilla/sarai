@@ -1,14 +1,26 @@
 <template name="WeatherMonitoring">
   <div id="weather-map"></div>
 
-  <dialog id="weather-monitoring-dialog" class="mdl-dialog cms-header-edit-dialog">
-    <h4 id="weather-monitoring-dialog-title" class="mdl-dialog__title"></h4>
-    <div class="mdl-dialog__content">
-      {{> Meteogram}}
-    </div>
-    <div class="mdl-dialog__actions">
-      <!-- <button type="button" class="mdl-button save">Save</button> -->
-      <button type="button" class="mdl-button cancel">Close</button>
-    </div>
-  </dialog>
+  <div class="mdl-grid">
+    <dialog id="weather-monitoring-dialog" class="mdl-dialog cms-header-edit-dialog mdl-cell mdl-cell--1-offset-desktop mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+
+      <h4 id="weather-monitoring-dialog-title" class="mdl-dialog__title"></h4>
+
+      <div class="mdl-dialog__content" style="width: 100%; overflow: auto;">
+
+        <!-- <div class="chart-wrapper" style="position: relative; padding-bottom: 40%;">
+          <div class="chart-inner" style="position: absolute; width: 100%; height: 100%">
+
+          </div>
+        </div> -->
+
+        <div id="wm-meteogram" style="width: 100%;"></div>
+
+      </div>
+
+      <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button cancel">Close</button>
+      </div>
+    </dialog>
+  </div>
 </template>

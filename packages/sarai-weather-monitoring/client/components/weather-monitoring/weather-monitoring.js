@@ -34,7 +34,9 @@ Template.WeatherMonitoring.onRendered(() => {
     // console.log(`stationID: ${stationID}`)
     // console.log(event)
 
-    getWeatherData(stationID)
+    displayWeatherData(stationID)
+    Session.set('stationID', stationID)
+
     dialog.showModal();
   }
 
@@ -57,19 +59,13 @@ Template.WeatherMonitoring.onRendered(() => {
       }
     })
   })
-
-
 })
 
 Template.WeatherMonitoring.helpers({
 
-  weatherData: () => {
-
-  }
 })
 
-
-const getWeatherData = (stationID) => {
+const displayWeatherData = (stationID) => {
   const apiKey = '9470644e92f975d3'
 
   const dataFeatures = [ 'conditions', 'forecast', 'hourly10day' ]
@@ -77,6 +73,31 @@ const getWeatherData = (stationID) => {
   // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
   //   console.log(result)
   // })
+
+  const data = getSeries(sampleData())
+
+  $('#wm-meteogram').highcharts(
+    {
+      rangeSelector: {
+          selected: 1
+      },
+
+      title: {
+        text: 'Weather Forecast'
+      },
+
+      series: [{
+        name: 'Temp',
+        id: 'temp',
+        data: data.temp,
+        type: 'spline',
+        tooltip: {
+            valueDecimals: 0
+        }
+      }]
+    }
+  );
+
 }
 
 const featureURI = (features) => {
@@ -86,6 +107,29 @@ const featureURI = (features) => {
     result += '/'
     result += element
   })
+
+  return result
+}
+
+const getSeries = (data) => {
+  let temp = []
+  let windSpd = []
+
+  const forecast = data.hourly_forecast
+
+  for (let a = 0; a < forecast.length; a++) {
+    const entry = forecast[a]
+
+    temp.push(parseInt(entry.temp.metric))
+    windSpd.push(parseInt(entry.wspd.metric))
+  }
+
+  const result = {
+    temp,
+    windSpd
+  }
+
+  console.log(result)
 
   return result
 }
