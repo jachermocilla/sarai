@@ -28,7 +28,11 @@ Package.onUse(function(api) {
     "client/components/weather-monitoring/weather-monitoring.html",
     "client/components/weather-monitoring/weather-monitoring.js",
     "client/components/weather-monitoring/weather-monitoring.less",
-    "client/components/weather-monitoring/route.js"
+    "client/components/weather-monitoring/route.js",
+
+    "client/components/weather-monitoring/meteogram.html",
+    "client/components/weather-monitoring/meteogram.js"
+
   ]
 
   api.addFiles(client, "client")

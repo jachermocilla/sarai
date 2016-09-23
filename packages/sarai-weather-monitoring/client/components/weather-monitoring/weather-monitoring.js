@@ -31,9 +31,10 @@ Template.WeatherMonitoring.onRendered(() => {
   weatherMap.zoomControl.setPosition('bottomleft');
 
   const showWeatherData = (stationID, event) => {
-    console.log(`stationID: ${stationID}`)
-    console.log(event)
+    // console.log(`stationID: ${stationID}`)
+    // console.log(event)
 
+    getWeatherData(stationID)
     dialog.showModal();
   }
 
@@ -46,10 +47,11 @@ Template.WeatherMonitoring.onRendered(() => {
         const x = station.coords[0]
         const y = station.coords[1]
         const label = station.label
+        const stationID = station.id
 
         const marker = new L.marker([x, y])
         .bindPopup(`<h5>${label}</h5>`)
-        .on('click', L.bind(showWeatherData, null, 'something'))
+        .on('click', L.bind(showWeatherData, null, stationID))
 
         marker.addTo(weatherMap)
       }
@@ -65,3 +67,25 @@ Template.WeatherMonitoring.helpers({
 
   }
 })
+
+
+const getWeatherData = (stationID) => {
+  const apiKey = '9470644e92f975d3'
+
+  const dataFeatures = [ 'conditions', 'forecast', 'hourly10day' ]
+
+  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
+  //   console.log(result)
+  // })
+}
+
+const featureURI = (features) => {
+  let result = ''
+
+  features.forEach((element, index) => {
+    result += '/'
+    result += element
+  })
+
+  return result
+}
