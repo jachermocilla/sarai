@@ -16,6 +16,7 @@
           {{#each mainLink in mainLinks}}
           <span>
               <a class="mdl-navigation__link main-header-top-link" href="{{mainLink.href}}" id="{{mainLink.id}}">{{mainLink.name}}
+
                 {{#if hasSubLinks mainLink}}
                   <i class="material-icons">keyboard_arrow_down</i>
                 {{/if}}

@@ -36,6 +36,8 @@ Template.WeatherMonitoring.onRendered(() => {
 
     displayWeatherData(stationID)
     Session.set('stationID', stationID)
+    console.log(`stationID: ${stationID}`)
+    console.log(event)
 
     dialog.showModal();
   }
@@ -53,7 +55,7 @@ Template.WeatherMonitoring.onRendered(() => {
 
         const marker = new L.marker([x, y])
         .bindPopup(`<h5>${label}</h5>`)
-        .on('click', L.bind(showWeatherData, null, stationID))
+        .on('click', L.bind(showWeatherData, null, 'something'))
 
         marker.addTo(weatherMap)
       }
@@ -133,3 +135,11 @@ const getSeries = (data) => {
 
   return result
 }
+
+
+Template.WeatherMonitoring.helpers({
+
+  weatherData: () => {
+
+  }
+})
