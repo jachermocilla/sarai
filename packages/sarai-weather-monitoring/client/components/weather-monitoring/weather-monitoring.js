@@ -30,14 +30,12 @@ Template.WeatherMonitoring.onRendered(() => {
 
   weatherMap.zoomControl.setPosition('bottomleft');
 
-  const showWeatherData = (stationID, event) => {
-    // console.log(`stationID: ${stationID}`)
-    // console.log(event)
+  const showWeatherData = (stationID, label, event) => {
 
-    displayWeatherData(stationID)
+
+    displayWeatherData(stationID, label)
     Session.set('stationID', stationID)
-    console.log(`stationID: ${stationID}`)
-    console.log(event)
+
 
     dialog.showModal();
   }
@@ -55,51 +53,181 @@ Template.WeatherMonitoring.onRendered(() => {
 
         const marker = new L.marker([x, y])
         .bindPopup(`<h5>${label}</h5>`)
-        .on('click', L.bind(showWeatherData, null, 'something'))
+        .on('click', L.bind(showWeatherData, null, stationID, label))
 
         marker.addTo(weatherMap)
       }
     })
   })
+
+
+  /***********HIGHCHARTS HANDLERS************/
+  $('#meteogram-container').bind('mousemove touchmove touchstart', function (e) {
+
+      for (let i = 0; i < Highcharts.charts.length; i = i + 1) {
+        const chart = Highcharts.charts[i];
+        const event = chart.pointer.normalize(e.originalEvent); // Find coordinates within the chart
+
+        // console.log(event.chartX, + ' ' + event.chartY)
+
+        const point = chart.series[0].searchPoint(event, true); // Get the hovered point
+
+        if (point) {
+          point.highlight(e);
+        }
+      }
+    });
+
+  Highcharts.Pointer.prototype.reset = function () {
+    return undefined;
+  };
+
+  Highcharts.Point.prototype.highlight = function (event) {
+    this.onMouseOver(); // Show the hover marker
+    this.series.chart.tooltip.refresh(this); // Show the tooltip
+    this.series.chart.xAxis[0].drawCrosshair(event, this); // Show the crosshair
+  };
+
 })
 
-Template.WeatherMonitoring.helpers({
+const displayWeatherData = (stationID, label) => {
+  $('#weather-monitoring-dialog-title').html(label)
 
-})
-
-const displayWeatherData = (stationID) => {
   const apiKey = '9470644e92f975d3'
-
-  const dataFeatures = [ 'conditions', 'forecast', 'hourly10day' ]
+  const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
 
   // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
-  //   console.log(result)
-  // })
 
-  const data = getSeries(sampleData())
+    const data = getSeries(sampleData())
+    const tickPositions = getTickPositions(sampleData())
+    const altTickPositions = getAltTickPositions(sampleData())
+    const plotLines = getPlotLines(tickPositions)
 
-  $('#wm-meteogram').highcharts(
-    {
-      rangeSelector: {
-          selected: 1
-      },
-
-      title: {
-        text: 'Weather Forecast'
-      },
-
-      series: [{
+    const charts = [
+      {
+        element: '#temp-meteogram',
+        title: 'Temperature',
         name: 'Temp',
         id: 'temp',
         data: data.temp,
-        type: 'spline',
-        tooltip: {
-            valueDecimals: 0
-        }
-      }]
-    }
-  );
+        unit: '°C',
+        tickPositions: tickPositions,
+        color: '#ff8c1a'
+      },
+      {
+        element: '#rain-meteogram',
+        title: 'Chance of Rain of Rain',
+        name: 'Chance of Rain',
+        id: 'pop',
+        data: data.pop,
+        unit: '%',
+        tickPositions: tickPositions,
+        color: '#0073e6'
+      }
+    ]
 
+    function syncExtremes(e) {
+      const thisChart = this.chart
+      if (e.trigger !== 'syncExtremes') { // Prevent feedback loop
+        Highcharts.each(Highcharts.charts, function (chart) {
+          if (chart !== thisChart) {
+            if (chart.xAxis[0].setExtremes) { // It is null while updating
+              chart.xAxis[0].setExtremes(e.min, e.max, undefined, false, { trigger: 'syncExtremes' });
+            }
+          }
+        });
+      }
+    }
+
+    //remove any existing charts first
+    $('div.meteogram').remove()
+
+
+    //add new charts
+    charts.forEach((element, index) => {
+      $('<div class="meteogram">')
+        .appendTo('#meteogram-container')
+        .highcharts(
+          {
+            chart: {
+              marginLeft: 40,
+              spacingTop: 20,
+              spacingBottom: 20,
+              height: 300
+            },
+
+            title: {
+              text: element.title,
+              align: 'left',
+              margin: 0,
+              x: 30
+            },
+
+            xAxis: [
+              {
+
+                crosshair: true,
+                tickPositions: tickPositions,
+                tickPosition: 'inside',
+                opposite: true,
+                events: {
+                  setExtremes: syncExtremes
+                },
+                labels: {
+                  enabled: false
+                },
+                plotLines: plotLines
+              },
+
+              {
+                tickPositions: altTickPositions,
+                tickWidth: 0,
+                labels: {
+                  formatter: function () {
+                    var s = Highcharts.dateFormat('%e %b', new Date(this.value));
+
+                    return s;
+                  }
+                },
+                linkedTo: 0
+              }
+
+            ],
+
+            yAxis: {
+              labels: {
+                format: '{value}' + element.unit,
+                style: {
+                    // color: '#ff1a1a',
+                    fontWeight: 'bold'
+                }
+              },
+            },
+
+            series: [{
+              name: element.name,
+              id: element.id,
+              data: element.data,
+              type: 'spline',
+              color: element.color,
+              tooltip: {
+                  valueDecimals: 0
+              }
+            }],
+
+            tooltip: {
+              formatter: function () {
+                let s = '<b>' + Highcharts.dateFormat('%e %b - %H:00', new Date(this.x)) + '</b>';
+
+                s += '<br />' + this.series.name + ': ' + this.y + element.unit;
+                return s;
+              }
+            }
+
+          }
+        )
+    })
+  // })
 }
 
 const featureURI = (features) => {
@@ -115,31 +243,86 @@ const featureURI = (features) => {
 
 const getSeries = (data) => {
   let temp = []
+  let pop = []
   let windSpd = []
 
   const forecast = data.hourly_forecast
 
-  for (let a = 0; a < forecast.length; a++) {
-    const entry = forecast[a]
 
-    temp.push(parseInt(entry.temp.metric))
-    windSpd.push(parseInt(entry.wspd.metric))
+  for (let entry of forecast) {
+
+    const ftc = entry.FCTTIME;
+    const utcDate = Date.UTC(ftc.year, ftc.mon-1, ftc.mday, ftc.hour);
+
+    temp.push([utcDate, parseInt(entry.temp.metric)])
+    pop.push([utcDate, parseInt(entry.pop)])
+    windSpd.push([utcDate, parseInt(entry.wspd.metric)])
   }
 
   const result = {
     temp,
+    pop,
     windSpd
   }
-
-  console.log(result)
 
   return result
 }
 
+const getTickPositions = (data) => {
+  const df = data.forecast.simpleforecast.forecastday
 
-Template.WeatherMonitoring.helpers({
+  const tickPositions = [];
+  let year = 0;
+  let month = 0;
+  let day = 0;
 
-  weatherData: () => {
+  for (let entry of df) {
+    const date = entry.date;
+    year = date.year;
+    month = date.month - 1;
+    day = date.day;
 
+    tickPositions.push(Date.UTC(year, month, day, 0))
   }
-})
+
+  const nextDay = day < 31 ? day + 1 : 1
+  tickPositions.push(Date.UTC(year, month, nextDay, 0));
+
+  return tickPositions;
+}
+
+const getAltTickPositions = (data) => {
+  const df = data.forecast.simpleforecast.forecastday
+  const altTickPositions = [];
+  let year = 0;
+  let month = 0;
+  let day = 0;
+
+  for (let entry of df) {
+    const date = entry.date;
+    year = date.year;
+    month = date.month - 1;
+    day = date.day;
+
+    altTickPositions.push(Date.UTC(year, month, day, 12))
+  }
+
+  const nextDay = day < 31 ? day + 1 : 1
+  altTickPositions.push(Date.UTC(year, month, nextDay, 12));
+
+  return altTickPositions;
+}
+
+const getPlotLines = (ticks) => {
+  let plotLines = []
+
+  ticks.forEach((element, index) => {
+    plotLines.push({
+      color: '#bfbfbf',
+      width: 1,
+      value: element
+    })
+  })
+
+  return plotLines
+}
