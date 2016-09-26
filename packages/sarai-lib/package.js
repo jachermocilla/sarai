@@ -56,7 +56,7 @@ Package.onUse(function(api) {
     "udondan:slick",
     "summernote:summernote",
     //"chrismbeckett:toastr",
-    //"highcharts:highcharts-meteor",
+    "highcharts:highcharts-meteor",
     //"chart:chart",
     "random"
   ]

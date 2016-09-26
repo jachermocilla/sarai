@@ -47,7 +47,6 @@ Template.BannerOptions.onRendered(() => {
         }
         showToast(toast)
       })
-
     }
 
     dialog.close();
