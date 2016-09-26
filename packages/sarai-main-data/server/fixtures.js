@@ -39,27 +39,27 @@ if (Main.find().count() === 0) {
 	      		},
 	      		{
 	      			name: 'Weather Monitoring',
-	      			href: '/explore/weather-monitoring',
+	      			href: '/weather-monitoring',
 	      			rank: 2
 	      		},
 	      		{
 	      			name: 'Crop Production Area',
-	      			href: '/explore/crop-production-area',
+	      			href: '/crop-production-area',
 	      			rank: 3
 	      		},
 	      		{
 	      			name: 'Normalized Difference Vegetation Index (NDVI)',
-	      			href: '/explore/ndvi',
+	      			href: '/ndvi',
 	      			rank: 4
 	      		},
 	      		{
 	      			name: 'Rainfall',
-	      			href: '/explore/rainfall',
+	      			href: '/rainfall',
 	      			rank: 5
 	      		},
 	      		{
 	      			name: 'Open Data',
-	      			href: 'http://202.92.144.42/',
+	      			href: 'opendata.sarai.ph',
 	      			rank: 6
 	      		}
 	      	],
@@ -222,7 +222,7 @@ if (Main.find().count() === 0) {
 		businesshours: 'Mon – Fri : 8:00am to 5:00pm Saturday and Sunday Closed.',
 		enabled: true
 	});
-	
+
 	Main.insert({
 		name: 'crop-list',
 		crops: [

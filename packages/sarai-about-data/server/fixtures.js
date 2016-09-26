@@ -121,7 +121,7 @@ if (About.find().count() === 0) {
 	        	class_name: 'yt',
 	        	href: 'https://www.youtube.com/channel/UCJtzNfVmoqFZGCF326VaTZw',
 	        	img: '/footer-icons/youtube.png'
-	        }	
+	        }
         ],
         enabled: true
 	});
@@ -148,7 +148,7 @@ if (About.find().count() === 0) {
 		name: 'banner',
 		banners: [
 			{
-				img: '/samplepics/sarai.jpg',
+				img: '/about/about-banner.jpg',
 				align: 'left',
 			    subtext: 'We are on a Mission >>',
 			    subtext1:'Giving farmers access to real-time knowledge for a new edge on making smarter decisions.',
@@ -156,7 +156,7 @@ if (About.find().count() === 0) {
 		],
 		enabled: true
 	});
-	
+
 
 	About.insert({
 		name: 'videos',
@@ -171,13 +171,13 @@ if (About.find().count() === 0) {
 		name: 'origin',
 		title: 'Our Story',
 	    description: '<p>So here’s a story of how the team came up with SARAI. It did not come easy, just as how other ideas did not come over night, the team had to go through to numerous discussions and brainstorming sessions before they reach the eureka moment. Sarai was Abraham’s wife, and she was the first character in the Bible who was said to be barren. But then later on, God chose them to be the forefathers of the nation of Israel. <br> It was a miracle, of how Sarai was able to conceive. So the team thought it apt to adopt the name, thus the name Project SARAI came about. Project SARAI hopes to bring about development in our agriculture sector by providing our farmers with smarter options. Also, Project SARAI hopes to help in making a more resilient and a more proactive agriculture sector by using state-of-the-art technologies, and providing near real-time crop advisories.<br> It is a long work in progress, but with the sustained partnership with different State Universities and Colleges (SUCs) nationwide, different government agencies, and other institutions, the solutions are well along the way to reaching the farmers and other stakeholders.</p>',
-		img: '/samplepics/sarai2.jpg',
+		img: '/about/about-sarai-consult.jpg',
 		img2: '/services/sarai-eskwela.jpg',
 	    enabled: true,
 	    buttonEnabled: true
 	});
 
-	
+
 	About.insert({
 		name: 'projects',
 		title: '<h5><b>The Projects</b></h5>',
@@ -186,7 +186,7 @@ if (About.find().count() === 0) {
 		text1: '<b>Project 1. Model Development and Crop Forecasting</b>',
 		subtext1:' <p>Project 1 aims to develop and evaluate crop models to launch a crop forecasting platform available for the entire country for the six priority crops. In order to achieve these, the project is composed of the following research areas:</p>',
 		description1:'<p>– Climate risk assessment in key production areas<br>– Validated crop models for priority crops<br>– Integrated Crop Management System (ICMS)<br>– Optimal nutrient management<br>– Crop advisories on crop protection and crop forecasts<br>– Crop early warning systems (EWS)<br>– Adaptive planting calendar<br>– Database, validated crop models and forecasts per crop</p>',
-				
+
 
 		      	text2: '<b>Project 2: Environmental Characterization and Development of Integrated Crop Management</b>',
 		        subtext2:'<p>Project 2 aims to provide the near real-time, empirical field data as inputs to the crop models simulated by Project 1. It also aims to provide site-specific nutrient management advisories for the perennials.</p>',
@@ -215,23 +215,23 @@ if (About.find().count() === 0) {
 		title: 'Project Leaders',
 	    author1: 'Dr. Ma. Victoria O. Espaldon',
 	    subtext1: 'Program Leader',
-	    img1: '/samplepics/1.jpg',
+	    img1: '/about/leaders/espaldon.jpg',
 		        author2: 'Dr. Felino P. Lansigan',
 			    subtext2: 'Project 1 Leader',
-			    img2: '/samplepics/2.jpg',
+			    img2: '/about/leaders/lansigan.jpg',
 
 		        author3: 'Dr. Artemio M. Salazar',
 			    subtext3: 'Project 2 Leader',
-			    img3: '/samplepics/3.jpg',
+			    img3: '/about/leaders/salazar.jpg',
 
 		        author4: 'Prof. Concepcion L. Khan',
 			    subtext4: 'Project 3 Leader',
-			    img4: '/samplepics/4.jpg',
+			    img4: '/about/leaders/khan.jpg',
 
 		        author5: 'Dr. Decibel V. Faustino-Eslava',
 			    subtext5: 'Project 4 Leader',
-			    img5: '/samplepics/5.jpg',
-	   
+			    img5: '/about/leaders/eslava.jpg',
+
 	    enabled: true
 	});
 
