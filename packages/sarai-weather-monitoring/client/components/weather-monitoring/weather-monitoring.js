@@ -96,11 +96,11 @@ const displayWeatherData = (stationID, label) => {
   const apiKey = '9470644e92f975d3'
   const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
 
-  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
+  $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
 
-    const data = getSeries(sampleData())
-    const tickPositions = getTickPositions(sampleData())
-    const altTickPositions = getAltTickPositions(sampleData())
+    const data = getSeries(result)
+    const tickPositions = getTickPositions(result)
+    const altTickPositions = getAltTickPositions(result)
     const plotLines = getPlotLines(tickPositions)
 
     const charts = [
@@ -153,7 +153,7 @@ const displayWeatherData = (stationID, label) => {
               marginLeft: 40,
               spacingTop: 20,
               spacingBottom: 20,
-              height: 300
+              height: 200
             },
 
             title: {
@@ -227,7 +227,7 @@ const displayWeatherData = (stationID, label) => {
           }
         )
     })
-  // })
+  })
 }
 
 const featureURI = (features) => {
