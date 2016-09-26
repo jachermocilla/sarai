@@ -1,8 +1,8 @@
 module.exports = {
   servers: {
     one: {
-      host: '202.92.144.42',
-      username: 'mbcarandang',
+      host: '202.92.144.41',
+      username: 'nina',
       // pem:
       password: 'sarai006'
       // or leave blank for authenticate from ssh-agent
@@ -19,7 +19,7 @@ module.exports = {
       serverOnly: false,
     },
     env: {
-      PORT: 3000,
+      PORT: 80,
       ROOT_URL: 'http://sarai.uplb.ph',
       MONGO_URL: 'mongodb://localhost:27017/sarai'
     },
