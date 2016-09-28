@@ -91,17 +91,28 @@ Template.WeatherMonitoring.onRendered(() => {
 })
 
 const displayWeatherData = (stationID, label) => {
+  //remove any existing charts first
+  $('div.meteogram').remove()
+
+  //Add (temporary) spinner
+  $('<div class="meteogram meteogram-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>').appendTo('#meteogram-container')
+
   $('#weather-monitoring-dialog-title').html(label)
 
   const apiKey = '9470644e92f975d3'
   const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
 
-  $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
+  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${Meteor.chartHelpers.featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
 
-    const data = getSeries(result)
-    const tickPositions = getTickPositions(result)
-    const altTickPositions = getAltTickPositions(result)
-    const plotLines = getPlotLines(tickPositions)
+    console.log(sampleData())
+
+    const dailySeries = Meteor.chartHelpers.getDailySeries(sampleData())
+    const hourlySeries = Meteor.chartHelpers.getHourlySeries(sampleData())
+    //common data
+    const tickPositions = Meteor.chartHelpers.getTickPositions(sampleData())
+    const altTickPositions = Meteor.chartHelpers.getAltTickPositions(sampleData())
+
+    const plotLines = Meteor.chartHelpers.getPlotLines(tickPositions)
 
     const charts = [
       {
@@ -109,220 +120,46 @@ const displayWeatherData = (stationID, label) => {
         title: 'Temperature',
         name: 'Temp',
         id: 'temp',
-        data: data.temp,
+        data: hourlySeries.temp,
         unit: '°C',
         tickPositions: tickPositions,
-        color: '#ff8c1a'
+        altTickPositions: altTickPositions,
+        color: '#ff8c1a',
+        atpEnabled: true,
+        plotLines
       },
       {
         element: '#rain-meteogram',
-        title: 'Chance of Rain of Rain',
+        title: 'Chance of Rain',
         name: 'Chance of Rain',
         id: 'pop',
-        data: data.pop,
+        data: hourlySeries.pop,
         unit: '%',
         tickPositions: tickPositions,
-        color: '#0073e6'
+        altTickPositions: altTickPositions,
+        color: '#0073e6',
+        atpEnabled: false,
+        plotLines
       }
     ]
 
-    function syncExtremes(e) {
-      const thisChart = this.chart
-      if (e.trigger !== 'syncExtremes') { // Prevent feedback loop
-        Highcharts.each(Highcharts.charts, function (chart) {
-          if (chart !== thisChart) {
-            if (chart.xAxis[0].setExtremes) { // It is null while updating
-              chart.xAxis[0].setExtremes(e.min, e.max, undefined, false, { trigger: 'syncExtremes' });
-            }
-          }
-        });
-      }
-    }
+
 
     //remove any existing charts first
     $('div.meteogram').remove()
 
-
     //add new charts
-    charts.forEach((element, index) => {
+    charts.forEach((chart, index) => {
       $('<div class="meteogram">')
         .appendTo('#meteogram-container')
         .highcharts(
-          {
-            chart: {
-              marginLeft: 40,
-              spacingTop: 20,
-              spacingBottom: 20,
-              height: 200
-            },
-
-            title: {
-              text: element.title,
-              align: 'left',
-              margin: 0,
-              x: 30
-            },
-
-            xAxis: [
-              {
-
-                crosshair: true,
-                tickPositions: tickPositions,
-                tickPosition: 'inside',
-                opposite: true,
-                events: {
-                  setExtremes: syncExtremes
-                },
-                labels: {
-                  enabled: false
-                },
-                plotLines: plotLines
-              },
-
-              {
-                tickPositions: altTickPositions,
-                tickWidth: 0,
-                labels: {
-                  formatter: function () {
-                    var s = Highcharts.dateFormat('%e %b', new Date(this.value));
-
-                    return s;
-                  }
-                },
-                linkedTo: 0
-              }
-
-            ],
-
-            yAxis: {
-              labels: {
-                format: '{value}' + element.unit,
-                style: {
-                    // color: '#ff1a1a',
-                    fontWeight: 'bold'
-                }
-              },
-            },
-
-            series: [{
-              name: element.name,
-              id: element.id,
-              data: element.data,
-              type: 'spline',
-              color: element.color,
-              tooltip: {
-                  valueDecimals: 0
-              }
-            }],
-
-            tooltip: {
-              formatter: function () {
-                let s = '<b>' + Highcharts.dateFormat('%e %b - %H:00', new Date(this.x)) + '</b>';
-
-                s += '<br />' + this.series.name + ': ' + this.y + element.unit;
-                return s;
-              }
-            }
-
-          }
-        )
+          Meteor.chartHelpers.constructChart(chart))
     })
-  })
+  // })
 }
 
-const featureURI = (features) => {
-  let result = ''
-
-  features.forEach((element, index) => {
-    result += '/'
-    result += element
-  })
-
-  return result
-}
-
-const getSeries = (data) => {
-  let temp = []
-  let pop = []
-  let windSpd = []
-
-  const forecast = data.hourly_forecast
 
 
-  for (let entry of forecast) {
 
-    const ftc = entry.FCTTIME;
-    const utcDate = Date.UTC(ftc.year, ftc.mon-1, ftc.mday, ftc.hour);
 
-    temp.push([utcDate, parseInt(entry.temp.metric)])
-    pop.push([utcDate, parseInt(entry.pop)])
-    windSpd.push([utcDate, parseInt(entry.wspd.metric)])
-  }
 
-  const result = {
-    temp,
-    pop,
-    windSpd
-  }
-
-  return result
-}
-
-const getTickPositions = (data) => {
-  const df = data.forecast.simpleforecast.forecastday
-
-  const tickPositions = [];
-  let year = 0;
-  let month = 0;
-  let day = 0;
-
-  for (let entry of df) {
-    const date = entry.date;
-    year = date.year;
-    month = date.month - 1;
-    day = date.day;
-
-    tickPositions.push(Date.UTC(year, month, day, 0))
-  }
-
-  const nextDay = day < 31 ? day + 1 : 1
-  tickPositions.push(Date.UTC(year, month, nextDay, 0));
-
-  return tickPositions;
-}
-
-const getAltTickPositions = (data) => {
-  const df = data.forecast.simpleforecast.forecastday
-  const altTickPositions = [];
-  let year = 0;
-  let month = 0;
-  let day = 0;
-
-  for (let entry of df) {
-    const date = entry.date;
-    year = date.year;
-    month = date.month - 1;
-    day = date.day;
-
-    altTickPositions.push(Date.UTC(year, month, day, 12))
-  }
-
-  const nextDay = day < 31 ? day + 1 : 1
-  altTickPositions.push(Date.UTC(year, month, nextDay, 12));
-
-  return altTickPositions;
-}
-
-const getPlotLines = (ticks) => {
-  let plotLines = []
-
-  ticks.forEach((element, index) => {
-    plotLines.push({
-      color: '#bfbfbf',
-      width: 1,
-      value: element
-    })
-  })
-
-  return plotLines
-}
