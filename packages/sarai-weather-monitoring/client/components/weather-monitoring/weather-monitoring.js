@@ -102,15 +102,15 @@ const displayWeatherData = (stationID, label) => {
   const apiKey = '9470644e92f975d3'
   const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
 
-  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${Meteor.chartHelpers.featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
+  $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${Meteor.chartHelpers.featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
 
-    console.log(sampleData())
+    // console.log(sampleData())
 
-    const dailySeries = Meteor.chartHelpers.getDailySeries(sampleData())
-    const hourlySeries = Meteor.chartHelpers.getHourlySeries(sampleData())
+    const dailySeries = Meteor.chartHelpers.getDailySeries(result)
+    const hourlySeries = Meteor.chartHelpers.getHourlySeries(result)
     //common data
-    const tickPositions = Meteor.chartHelpers.getTickPositions(sampleData())
-    const altTickPositions = Meteor.chartHelpers.getAltTickPositions(sampleData())
+    const tickPositions = Meteor.chartHelpers.getTickPositions(result)
+    const altTickPositions = Meteor.chartHelpers.getAltTickPositions(result)
 
     const plotLines = Meteor.chartHelpers.getPlotLines(tickPositions)
 
@@ -155,7 +155,7 @@ const displayWeatherData = (stationID, label) => {
         .highcharts(
           Meteor.chartHelpers.constructChart(chart))
     })
-  // })
+  })
 }
 
 
