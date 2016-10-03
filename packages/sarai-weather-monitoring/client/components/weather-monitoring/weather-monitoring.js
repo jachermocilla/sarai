@@ -97,14 +97,14 @@ const displayWeatherData = (stationID, label) => {
   //Add (temporary) spinner
   $('<div class="meteogram meteogram-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>').appendTo('#meteogram-container')
 
-  $('#weather-monitoring-dialog-title').html(label)
+  $('#weather-monitoring-dialog-title').html(`10-Day Forecast for <b>${label}</b>`)
 
   const apiKey = '9470644e92f975d3'
   const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
 
   $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${Meteor.chartHelpers.featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
 
-    // console.log(sampleData())
+    console.log(result)
 
     const dailySeries = Meteor.chartHelpers.getDailySeries(result)
     const hourlySeries = Meteor.chartHelpers.getHourlySeries(result)
@@ -113,6 +113,9 @@ const displayWeatherData = (stationID, label) => {
     const altTickPositions = Meteor.chartHelpers.getAltTickPositions(result)
 
     const plotLines = Meteor.chartHelpers.getPlotLines(tickPositions)
+
+    const tickQPFMap = Meteor.chartHelpers.getTickQPFMap(altTickPositions, dailySeries.qpf)
+    const tickTempMap = Meteor.chartHelpers.getTickTempMap(altTickPositions, dailySeries.hlTemp)
 
     const charts = [
       {
@@ -125,8 +128,9 @@ const displayWeatherData = (stationID, label) => {
         tickPositions: tickPositions,
         altTickPositions: altTickPositions,
         color: '#ff8c1a',
-        atpEnabled: true,
-        plotLines
+        dateTicksEnabled: true,
+        plotLines,
+        altTickLabels: tickTempMap,
       },
       {
         element: '#rain-meteogram',
@@ -138,12 +142,11 @@ const displayWeatherData = (stationID, label) => {
         tickPositions: tickPositions,
         altTickPositions: altTickPositions,
         color: '#0073e6',
-        atpEnabled: false,
-        plotLines
+        dateTicksEnabled: false,
+        plotLines,
+        altTickLabels: tickQPFMap
       }
     ]
-
-
 
     //remove any existing charts first
     $('div.meteogram').remove()
@@ -157,9 +160,3 @@ const displayWeatherData = (stationID, label) => {
     })
   })
 }
-
-
-
-
-
-
