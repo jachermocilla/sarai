@@ -26,13 +26,16 @@ Meteor.chartHelpers = {
 
     getDailySeries: (data) => {
       let qpf = []
+      let hlTemp = []
 
       for (let entry of data.forecast.simpleforecast.forecastday) {
         qpf.push(entry.qpf_allday.mm)
+        hlTemp.push([entry.low.celsius, entry.high.celsius])
       }
 
       const dailySeries = {
-        qpf
+        qpf,
+        hlTemp
       }
 
       return dailySeries
@@ -118,12 +121,32 @@ Meteor.chartHelpers = {
       }
     },
 
-    constructChart: (chart) => {
+    getTickQPFMap: (ticks, qpf) => {
+      let tickQPFMap = {}
 
+      for (let a = 0; a < ticks.length; a++) {
+        tickQPFMap[ticks[a]] = qpf[a] + ' mm'
+      }
+
+      return tickQPFMap
+    },
+
+    getTickTempMap: (ticks, temp) => {
+      let tickTempMap = {}
+
+      for (let a = 0; a < ticks.length - 1; a++) {
+        tickTempMap[ticks[a]] = '<span style="color: #0853a8;">' + temp[a][0] + '°</span> | <span style="color: #ea7c0e;">' + temp[a][1] + '°</span>'
+      }
+
+      return tickTempMap
+    },
+
+    constructChart: (chart) => {
       let chartOptions = {
         chart: {
           marginLeft: 50,
           marginRight: 30,
+          // marginTop: 25,
           height: 200
         },
 
@@ -171,9 +194,12 @@ Meteor.chartHelpers = {
             tickWidth: 0,
             labels: {
               formatter: function () {
-                var s = Highcharts.dateFormat('%e %b', new Date(this.value));
+                var altTickLabels = chart.altTickLabels[this.value.toString()]
+                var d = chart.dateTicksEnabled ? Highcharts.dateFormat('%e %b', new Date(this.value)) : ''
 
-                return s;
+                var label =  d + '<br/>' + altTickLabels
+
+                return label
               }
             },
             linkedTo: 0
@@ -218,8 +244,11 @@ Meteor.chartHelpers = {
       //   chartOptions.xAxis[1][tickPositions] = altTickPositions
       // }
 
-      console.log(chartOptions)
       return chartOptions
+    },
+
+    getXAxis: () => {
+
     }
 
 }
