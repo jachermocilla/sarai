@@ -124,7 +124,7 @@ Meteor.chartHelpers = {
     getTickQPFMap: (ticks, qpf) => {
       let tickQPFMap = {}
 
-      for (let a = 0; a < ticks.length; a++) {
+      for (let a = 0; a < ticks.length - 1; a++) {
         tickQPFMap[ticks[a]] = qpf[a] + ' mm'
       }
 
@@ -195,6 +195,8 @@ Meteor.chartHelpers = {
             labels: {
               formatter: function () {
                 var altTickLabels = chart.altTickLabels[this.value.toString()]
+                altTickLabels = (altTickLabels == undefined) ? '' : altTickLabels
+
                 var d = chart.dateTicksEnabled ? Highcharts.dateFormat('%e %b', new Date(this.value)) : ''
 
                 var label =  d + '<br/>' + altTickLabels
