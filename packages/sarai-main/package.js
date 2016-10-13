@@ -29,6 +29,7 @@ Package.onUse(function(api) {
   var client = [
     "client/components/sarai-home/index.html",
     "client/components/sarai-home/events.js",
+
     "client/components/sarai-home/includes/banner/banner-events.js",
     "client/components/sarai-home/includes/banner/banner.html",
     "client/components/sarai-home/includes/banner/banner.js",
@@ -36,21 +37,31 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/banner/slider.html",
     "client/components/sarai-home/includes/banner/slider.js",
     "client/components/sarai-home/includes/banner/slider.less",
+
     "client/components/sarai-home/includes/crop-list/crop-list.html",
     "client/components/sarai-home/includes/crop-list/crop-list.js",
     "client/components/sarai-home/includes/crop-list/crop-list.less",
+
     "client/components/sarai-home/includes/services-list/services-list.html",
     "client/components/sarai-home/includes/services-list/services-list.js",
     "client/components/sarai-home/includes/services-list/services-list.less",
+
     "client/components/sarai-home/includes/reports/reports.html",
     "client/components/sarai-home/includes/reports/reports.js",
     "client/components/sarai-home/includes/reports/reports.less",
+
     "client/components/sarai-home/includes/blog-list/blog-list.html",
     "client/components/sarai-home/includes/blog-list/blog-list.js",
     "client/components/sarai-home/includes/blog-list/blog-list.less",
+
     "client/components/sarai-home/includes/testimonials/testimonials.html",
     "client/components/sarai-home/includes/testimonials/testimonials.js",
     "client/components/sarai-home/includes/testimonials/testimonials.less",
+
+    "client/components/sarai-home/includes/rainfall/rainfall.html",
+    "client/components/sarai-home/includes/rainfall/rainfall.js",
+    "client/components/sarai-home/includes/rainfall/rainfall.less",
+
     "client/components/sarai-home/route.js",
     "client/components/sarai-home/helpers.js",
     "client/components/sarai-home/on-created.js"
