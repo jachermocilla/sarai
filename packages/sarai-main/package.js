@@ -20,7 +20,8 @@ Package.onUse(function(api) {
     "sarai:sarai-layout",
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
-    "sarai:sarai-blog-data"
+    "sarai:sarai-blog-data",
+    "sarai:sarai-weather-data"
   ]
 
   api.use(packages)
@@ -58,9 +59,12 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/testimonials/testimonials.js",
     "client/components/sarai-home/includes/testimonials/testimonials.less",
 
-    "client/components/sarai-home/includes/rainfall/rainfall.html",
-    "client/components/sarai-home/includes/rainfall/rainfall.js",
-    "client/components/sarai-home/includes/rainfall/rainfall.less",
+    "client/components/sarai-home/includes/weather-preview/preview.html",
+    "client/components/sarai-home/includes/weather-preview/preview.js",
+    "client/components/sarai-home/includes/weather-preview/preview.less",
+
+    "client/components/sarai-home/includes/weather-preview/preview-controls.html",
+    "client/components/sarai-home/includes/weather-preview/preview-controls.js",
 
     "client/components/sarai-home/route.js",
     "client/components/sarai-home/helpers.js",
