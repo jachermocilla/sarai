@@ -1,5 +1,6 @@
 Template.Preview.onCreated(() => {
-  // Meteor.subscribe('weather-stations')
+  Meteor.subscribe('weather-stations')
+  Meteor.subscribe('weather-data')
 })
 
 Template.Preview.helpers({
@@ -27,6 +28,15 @@ Template.Preview.helpers({
     const forecast = getForecast()
 
     return forecast.splice(4, 4)
+  },
+
+  weatherStations: () => {
+    const stations = WeatherStations.find({}).fetch()
+
+    // if (stations) {
+    //   console.log(stations)
+    // }
+    return stations
   }
 })
 
