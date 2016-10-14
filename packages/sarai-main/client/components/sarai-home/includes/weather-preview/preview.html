@@ -3,12 +3,12 @@
     <div class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
       <div class="mdl-cell mdl-cell--12-col preview-title"><h3>Forecast</h3></div>
 
-      <div class="mdl-cell mdl-cell--12-col-desktop mdl" id="preview-controls">
+      <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone " id="preview-controls">
         <strong>Rain</strong> | Temp
         <div class="select-container">
-          <select class="mdl-select">
+          <select class="mdl-select" id="preview-select-station">
             {{#each station in weatherStations}}
-              <option>{{station.label}}</option>
+              <option value="{{station.id}}">{{station.label}}</option>
             {{/each}}
           </select>
         </div>
@@ -18,7 +18,6 @@
         {{#with forecastToday}}
           {{> PreviewCol}}
         {{/with}}
-
 
         {{#each forecastFirst3}}
           {{> PreviewCol}}

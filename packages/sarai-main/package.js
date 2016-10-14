@@ -65,7 +65,9 @@ Package.onUse(function(api) {
 
     "client/components/sarai-home/route.js",
     "client/components/sarai-home/helpers.js",
-    "client/components/sarai-home/on-created.js"
+    "client/components/sarai-home/on-created.js",
+
+    "lib/weather-preview/preview-helpers.js"
   ]
 
   api.addFiles(client, "client")
