@@ -1,6 +1,6 @@
 Template.Preview.onCreated(() => {
   Meteor.subscribe('weather-stations')
-  // Meteor.subscribe('weather-data')
+  Meteor.subscribe('weather-data-30')
   Session.set('stationID', 'ICALABAR6')
 })
 
@@ -9,10 +9,6 @@ Template.Preview.events({
     const stationID = e.currentTarget.value
 
     Session.set('stationID', stationID)
-
-    // Meteor.subscribe('weather-data-30', stationID, () => {
-    //   const records = WeatherData.find({}).fetch()
-    // })
   }
 })
 
@@ -28,19 +24,14 @@ Template.Preview.helpers({
       let forecastToday = getForecast()[0]
       const stationID = Session.get('stationID')
 
-      // if (stationID) {
-      //   Meteor.subscribe('weather-data-30', stationID, () => {
-      //     const weatherData = WeatherData.find({}).fetch()
-      //     const rainfall = Meteor.previewHelpers.get30DayRainfall(weatherData)
-      //     console.log(`Rainfall: ${rainfall}`)
-      //     forecastToday.cumulative = rainfall
+      const weatherData = WeatherData.find({id: stationID})
 
-      //     console.log(forecastToday)
-          return forecastToday
-      //   })
-      // }
+      const rainfall = Meteor.previewHelpers.get30DayRainfall(weatherData.fetch())
 
+      forecastToday.today = true
+      forecastToday['cumulative'] = rainfall
 
+      return forecastToday
   },
 
   forecastFirst3: () => {
@@ -70,13 +61,13 @@ Template.Preview.helpers({
 
 const getForecast = () => {
   return [
-    { head: 'Today', qpf: 22, pop: 80, cumulative: '' },
-    { head: 'Friday', qpf: 1, pop: 20, cumulative: '' },
-    { head: 'Saturday', qpf: 3, pop: 80, cumulative: '' },
-    { head: 'Sunday', qpf: 7, pop: 10, cumulative: '' },
-    { head: 'Monday', qpf: 12, pop: 100, cumulative: '' },
-    { head: 'Tuesday', qpf: 8, pop: 30, cumulative: '' },
-    { head: 'Wednesday', qpf: 5, pop: 90, cumulative: '' },
-    { head: 'Thursday', qpf: 6, pop: 45, cumulative: '' }
+    { head: 'Today', qpf: 22, pop: 80, today: false },
+    { head: 'Saturday', qpf: 3, pop: 80, today: false },
+    { head: 'Sunday', qpf: 7, pop: 10, today: false },
+    { head: 'Monday', qpf: 12, pop: 100, today: false },
+    { head: 'Tuesday', qpf: 8, pop: 30, today: false },
+    { head: 'Wednesday', qpf: 5, pop: 90, today: false },
+    { head: 'Thursday', qpf: 6, pop: 45, today: false },
+    { head: 'Friday', qpf: 1, pop: 20, today: false }
   ]
 }

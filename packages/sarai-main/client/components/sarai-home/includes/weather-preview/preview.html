@@ -1,10 +1,10 @@
 <template name="Preview">
   <div class="mdl-grid mdl-grid--no-spacing">
     <div class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-      <div class="mdl-cell mdl-cell--12-col preview-title"><h3>Forecast</h3></div>
+      <div class="mdl-cell mdl-cell--12-col preview-title"><h3>Expected Rainfall</h3></div>
 
       <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone " id="preview-controls">
-        <strong>Rain</strong> | Temp
+        <!-- <a href="" style="text-decoration: none; color: #333;"><strong>Rain</strong></a> | <a href="" style="text-decoration: none; color: #333;">Temp</a> -->
         <div class="select-container">
           <select class="mdl-select" id="preview-select-station">
             {{#each station in weatherStations}}
@@ -32,12 +32,13 @@
   </div>
 </template>
 
-
 <template name="PreviewCol">
   <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone rainfall-preview-col">
     <div class="head">{{head}}</div>
     <div class="qpf"><span class="value">{{qpf}}</span> <span class="unit">mm</span></div>
     <div class="pop"><span class="value">{{pop}}</span> <span class="unit">%</span></div>
-    <div class="cumulative"><span class="value">{{cumulative}}</span></div>
+    {{#if today}}
+      <div class="cumulative"><span class="value">{{cumulative}}</span><span class="unit"> mm</span> in the last month</div>
+    {{/if}}
   </div>
 </template>
