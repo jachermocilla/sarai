@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  
+
   var packages = [
     "sarai:sarai-lib"
   ]
@@ -21,6 +21,7 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
+    "lib/collections/sarai-dss-settings.js",
     "lib/collections/sarai-weather-data.js",
     "lib/collections/sarai-weather-stations.js"
   ]
@@ -28,9 +29,11 @@ Package.onUse(function(api) {
   api.addFiles(lib, ["client", "server"])
 
   var server = [
-    "server/fixtures.js",
     "server/methods.js",
-    "server/publications.js"
+    "server/publications.js",
+
+    "server/fixtures/dss-settings-fixtures.js",
+    "server/fixtures/weather-stations-fixtures.js"
   ]
 
   api.addFiles(server, "server")
