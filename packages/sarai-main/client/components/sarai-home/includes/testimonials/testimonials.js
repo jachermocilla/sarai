@@ -21,10 +21,8 @@ Template.TestimonialSlider.helpers({
 
   testimoniallist: () => {
     const record = Main.findOne({name: 'testimonials'});
-    console.log(record);
-    if(typeof record !=='undefined'){
-      return record.testimonials;
-    }
+
+    return record && record.testimonials;
   }
 })
 

@@ -20,7 +20,8 @@ Package.onUse(function(api) {
     "sarai:sarai-layout",
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
-    "sarai:sarai-blog-data"
+    "sarai:sarai-blog-data",
+    "sarai:sarai-weather-data"
   ]
 
   api.use(packages)
@@ -29,6 +30,7 @@ Package.onUse(function(api) {
   var client = [
     "client/components/sarai-home/index.html",
     "client/components/sarai-home/events.js",
+
     "client/components/sarai-home/includes/banner/banner-events.js",
     "client/components/sarai-home/includes/banner/banner.html",
     "client/components/sarai-home/includes/banner/banner.js",
@@ -36,24 +38,37 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/banner/slider.html",
     "client/components/sarai-home/includes/banner/slider.js",
     "client/components/sarai-home/includes/banner/slider.less",
+
     "client/components/sarai-home/includes/crop-list/crop-list.html",
     "client/components/sarai-home/includes/crop-list/crop-list.js",
     "client/components/sarai-home/includes/crop-list/crop-list.less",
+
     "client/components/sarai-home/includes/services-list/services-list.html",
     "client/components/sarai-home/includes/services-list/services-list.js",
     "client/components/sarai-home/includes/services-list/services-list.less",
+
     "client/components/sarai-home/includes/reports/reports.html",
     "client/components/sarai-home/includes/reports/reports.js",
     "client/components/sarai-home/includes/reports/reports.less",
+
     "client/components/sarai-home/includes/blog-list/blog-list.html",
     "client/components/sarai-home/includes/blog-list/blog-list.js",
     "client/components/sarai-home/includes/blog-list/blog-list.less",
+
     "client/components/sarai-home/includes/testimonials/testimonials.html",
     "client/components/sarai-home/includes/testimonials/testimonials.js",
     "client/components/sarai-home/includes/testimonials/testimonials.less",
+
+    "client/components/sarai-home/includes/weather-preview/preview.html",
+    "client/components/sarai-home/includes/weather-preview/preview.js",
+    "client/components/sarai-home/includes/weather-preview/preview.less",
+
     "client/components/sarai-home/route.js",
     "client/components/sarai-home/helpers.js",
-    "client/components/sarai-home/on-created.js"
+    "client/components/sarai-home/on-created.js",
+
+    "lib/weather-preview/preview-helpers.js",
+    "lib/weather-preview/preview-sample-data.js"
   ]
 
   api.addFiles(client, "client")

@@ -33,8 +33,8 @@ Package.onUse(function(api) {
     "sarai:sarai-assistance-result-data",
     "sarai:sarai-report-data",
     "sarai:sarai-images-data",
-    "sarai:sarai-waiss",
-    "sarai:sarai-waiss-data",
+    // "sarai:sarai-waiss",
+    // "sarai:sarai-waiss-data",
     "sarai:sarai-cms",
     "sarai:sarai-cms-data",
     "sarai:sarai-main-data",
@@ -44,7 +44,8 @@ Package.onUse(function(api) {
     "sarai:sarai-about-us",
     "sarai:sarai-weather-data",
     "sarai:sarai-weather-monitoring",
-    "sarai:sarai-apps-data"
+    "sarai:sarai-apps-data",
+    "sarai:sarai-accumulated-rainfall"
     ]
 
   api.use(packages);

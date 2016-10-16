@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'sarai:sarai-weather-data',
+  name: 'sarai:sarai-accumulated-rainfall',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -14,42 +14,35 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
 
   var packages = [
-    "sarai:sarai-lib"
+    "sarai:sarai-lib",
+    "sarai:sarai-user",
+    "sarai:sarai-admin",
+    "sarai:sarai-layout",
+    "sarai:sarai-weather-data"
   ]
 
   api.use(packages)
   api.imply(packages)
 
-  var lib = [
-    "lib/collections/sarai-dss-settings.js",
-    "lib/collections/sarai-weather-data.js",
-    "lib/collections/sarai-weather-stations.js"
+  var client = [
+    "client/components/route.js",
+
+    "client/components/accumulated-rainfall.html",
+    "client/components/accumulated-rainfall.js",
+    "client/components/accumulated-rainfall.less",
+
+    "lib/rainfall-helpers.js",
+    "lib/sample-data.js",
   ]
 
-  api.addFiles(lib, ["client", "server"])
-
-  var server = [
-    "server/methods.js",
-    "server/publications.js",
-
-    "server/fixtures/dss-settings-fixtures.js",
-    "server/fixtures/weather-stations-fixtures.js"
-  ]
-
-  api.addFiles(server, "server")
+  api.addFiles(client, "client")
 
   api.addAssets([
+    //"public/images/pest_banner.png"
     ], "client")
-
-  api.export([
-    "WeatherData",
-    "WeatherStations",
-    "DSSSettings"
-  ])
 });
 
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('sarai:sarai-weather-data');
 });
