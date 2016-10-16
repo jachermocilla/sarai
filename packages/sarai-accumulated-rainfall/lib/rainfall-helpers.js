@@ -97,7 +97,7 @@ Meteor.Rainfall = {
   constructChart: (completeRainfall, completeAccumulatedRainfall, plotBandStart, plotBandEnd) => {
     return {
         title: {
-            text: 'Accumulated Rainfall'
+            text: '30-day rainfall + 10-day forecast'
         },
         plotOptions: {
           line: {
@@ -186,5 +186,17 @@ Meteor.Rainfall = {
           shared: true
         }
     }
+  },
+
+  stripTitle: (title) => {
+    let result = title
+
+    result = result.replace('SARAI', '')
+    result = result.replace('(UPLB)', '')
+    result = result.replace('WFP', '')
+    result = result.replace('WPU', '')
+    result = result.replace('APN', '')
+
+    return result
   }
 }

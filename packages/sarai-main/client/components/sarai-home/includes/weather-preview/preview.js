@@ -63,13 +63,17 @@ Template.Preview.helpers({
     //probability of precipitation
     const forecast = Session.get('forecast')
 
-    return forecast.splice(1, 3)
+    if (forecast) {
+      return forecast.splice(1, 3)
+    }
   },
 
   forecastNext4: () => {
     const forecast = Session.get('forecast')
 
-    return forecast.splice(4, 4)
+    if (forecast) {
+      return forecast.splice(4, 4)
+    }
   },
 
   weatherStations: () => {

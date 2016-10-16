@@ -43,6 +43,11 @@ if (Main.find().count() === 0) {
 	      			rank: 2
 	      		},
 	      		{
+	      			name: 'Accumulated Rainfall',
+	      			href: '/accumulated-rainfall',
+	      			rank: 2
+	      		},
+	      		{
 	      			name: 'Crop Production Area',
 	      			href: '/crop-production-area',
 	      			rank: 3
@@ -263,8 +268,8 @@ if (Main.find().count() === 0) {
 	Main.insert({
 		name: 'services',
 	    title: 'Our Projects',
-	    description: 'Project SARAI, which is on anchored on precision agriculture, uses advances on technology to know what, when, and where to plant.',
-	    subtext: 'Field photos from PVeluz',
+	    description: 'Anchored on precision agriculture, Project SARAI uses advances in technology to determine what, when, and where to plant.',
+	    subtext: '',
 	    enabled: true,
 	    buttonEnabled: true
 	});
