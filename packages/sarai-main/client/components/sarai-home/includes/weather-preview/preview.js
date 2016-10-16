@@ -9,16 +9,31 @@ Template.Preview.onCreated(() => {
   })
 })
 
+Template.Preview.onRendered(() => {
+  const stationID = Session.get('stationID')
+  $('#preview-select-station').val(stationID)
+})
+
 Template.Preview.events({
   'change #preview-select-station': (e) => {
     const stationID = e.currentTarget.value
     Session.set('stationID', stationID)
 
     const forecast = getForecast(stationID)
+  },
+
+  'click .forecast-grid': (e) => {
+    const stationID = Session.get('stationID')
+    FlowRouter.go(`/accumulated-rainfall/${stationID}`)
   }
 })
 
 Template.Preview.helpers({
+  stationID: () => {
+    const stationID = Session.get('stationID')
+    return stationID
+  },
+
   dateToday: () => {
     const weekdays = [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ]
     const dateToday = weekdays[(new Date()).getDay()]
@@ -60,7 +75,21 @@ Template.Preview.helpers({
   weatherStations: () => {
     const stations = WeatherStations.find({}).fetch()
 
+    stations.forEach((element, index) => {
+      element.label = element.label.replace('SARAI', '')
+      element.label = element.label.replace('(UPLB)', '')
+      element.label = element.label.replace('WFP', '')
+      element.label = element.label.replace('WPU', '')
+      element.label = element.label.replace('APN', '')
+
+    })
+
     return stations
+  },
+
+  currentlySelected: (curr) => {
+    const stationID = Session.get('stationID')
+    $('#preview-select-station').val(stationID)
   }
 })
 
@@ -68,8 +97,8 @@ const getForecast = (stationID) => {
 
   const apiKey = DSSSettings.findOne({name: 'wunderground-api-key'}).value
 
-  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
-    const result = Meteor.PreviewSampleData.sampleData()
+  $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
+    // const result = Meteor.PreviewSampleData.sampleData()
 
     const completeTxtForecast = result.forecast.txt_forecast.forecastday
 
@@ -87,7 +116,7 @@ const getForecast = (stationID) => {
 
     Session.set('forecast', forecast)
 
-  // })
+  })
 
 }
 

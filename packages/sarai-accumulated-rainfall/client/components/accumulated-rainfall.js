@@ -1,6 +1,7 @@
 Template.AccumulatedRainfall.onCreated(() => {
   //subscribe to last 30 days of data
   Meteor.subscribe('weather-data-30')
+  Meteor.subscribe('dss-settings')
 })
 
 Template.AccumulatedRainfall.onRendered(() => {
@@ -73,10 +74,38 @@ Template.AccumulatedRainfall.onRendered(() => {
 })
 
 const displayRainData = (stationID) => {
+  //remove any existing chart first
+  $('div.rainfall-chart').remove()
+
+  //Add (temporary) spinner
+  $('<div class="rainfall-chart rainfall-chart-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>').appendTo('#rainfall-chart-container')
+
   const weatherData = WeatherData.find({id: stationID}).fetch()
 
   //have to reconcile missing entries
   if (weatherData) {
     const fixedData = Meteor.Rainfall.fillMissingEntries(weatherData.reverse())
+
+    const pastRainfall = Meteor.Rainfall.getPastRainfall(fixedData)
+
+    const apiKey = DSSSettings.findOne({name: 'wunderground-api-key'})
+
+    if (apiKey) {
+      $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey.value}/forecast10day/q/pws:${stationID}.json`, (result) => {
+
+        // const result = Meteor.RainfallSampleData.sampleData()
+
+        //remove any existing chart first
+        $('div.rainfall-chart').remove()
+
+        const runningTotal = pastRainfall.pastAccRainfall[29].y
+
+        const forecast = Meteor.Rainfall.getForecast(result, runningTotal)
+
+        const completeData = Meteor.Rainfall.assembleRainfallData(pastRainfall.pastRainfall, pastRainfall.pastAccRainfall, forecast.forecastRainfall, forecast.forecastAccumulated)
+
+        $('<div class="rainfall-chart">').appendTo('#rainfall-chart-container').highcharts(Meteor.Rainfall.constructChart(completeData.completeRainfall, completeData.completeAccumulatedRainfall, forecast.plotBandStart, forecast.plotBandEnd))
+      })
+    }
   }
 }

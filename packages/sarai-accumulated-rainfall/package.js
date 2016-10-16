@@ -31,7 +31,8 @@ Package.onUse(function(api) {
     "client/components/accumulated-rainfall.js",
     "client/components/accumulated-rainfall.less",
 
-    "lib/rainfall-helpers.js"
+    "lib/rainfall-helpers.js",
+    "lib/sample-data.js",
   ]
 
   api.addFiles(client, "client")
