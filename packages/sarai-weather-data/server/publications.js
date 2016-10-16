@@ -8,11 +8,13 @@ Meteor.publish('weather-data-30', () => {
   oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
   oneMonthAgo.setDate(oneMonthAgo.getDate() - 2)
 
-  console.log(`Returning ${oneMonthAgo}`)
-
   return WeatherData.find({dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
 });
 
 Meteor.publish('weather-stations', () => {
     return WeatherStations.find();
 });
+
+Meteor.publish('dss-settings', () => {
+  return DSSSettings.find();
+})

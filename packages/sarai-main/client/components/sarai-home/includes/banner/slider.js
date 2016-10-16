@@ -21,8 +21,8 @@ Template.SliderContent.onRendered(() => {
   $('#main-carousel').slick({
     dots: true,
     arrows: true,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 3000,
   })
 
 })

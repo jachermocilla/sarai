@@ -43,7 +43,8 @@ Package.onUse(function(api) {
 
   api.export([
     "WeatherData",
-    "WeatherStations"
+    "WeatherStations",
+    "DSSSettings"
   ])
 });
 
