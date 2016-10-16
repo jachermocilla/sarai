@@ -68,8 +68,8 @@ const getForecast = (stationID) => {
 
   const apiKey = DSSSettings.findOne({name: 'wunderground-api-key'}).value
 
-  $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
-    // const result = sampleForecast()
+  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
+    const result = Meteor.PreviewSampleData.sampleData()
 
     const completeTxtForecast = result.forecast.txt_forecast.forecastday
 
@@ -87,6 +87,7 @@ const getForecast = (stationID) => {
 
     Session.set('forecast', forecast)
 
-  })
+  // })
 
 }
+
