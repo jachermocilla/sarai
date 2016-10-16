@@ -44,7 +44,8 @@ Package.onUse(function(api) {
     "sarai:sarai-about-us",
     "sarai:sarai-weather-data",
     "sarai:sarai-weather-monitoring",
-    "sarai:sarai-apps-data"
+    "sarai:sarai-apps-data",
+    "sarai:sarai-accumulated-rainfall"
     ]
 
   api.use(packages);

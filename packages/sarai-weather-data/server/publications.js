@@ -5,8 +5,8 @@ Meteor.publish('weather-data', () => {
 
 Meteor.publish('weather-data-30', () => {
   let oneMonthAgo = new Date()
-  oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
-  oneMonthAgo.setDate(oneMonthAgo.getDate() - 2)
+  // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
+  oneMonthAgo.setDate(oneMonthAgo.getDate() - 31)
 
   return WeatherData.find({dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
 });
