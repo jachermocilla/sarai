@@ -1,4 +1,4 @@
-Templpaate.Preview.onCreated(() => {
+Template.Preview.onCreated(() => {
   Meteor.subscribe('weather-stations')
   Meteor.subscribe('weather-data-30')
 
