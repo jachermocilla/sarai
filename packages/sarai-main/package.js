@@ -63,6 +63,10 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/weather-preview/preview.js",
     "client/components/sarai-home/includes/weather-preview/preview.less",
 
+    "client/components/sarai-home/includes/twitter-feed/twitter-feed.html",
+    "client/components/sarai-home/includes/twitter-feed/twitter-feed.js",
+    "client/components/sarai-home/includes/twitter-feed/twitter-feed.less",
+
     "client/components/sarai-home/route.js",
     "client/components/sarai-home/helpers.js",
     "client/components/sarai-home/on-created.js",
