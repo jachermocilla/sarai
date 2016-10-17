@@ -36,11 +36,12 @@
 
 <template name="PreviewCol">
   <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone rainfall-preview-col">
-    <div class="head">{{head}}</div>
+    <div class="head"><span class="weekday">{{head}}</span> <span class="date">{{date}}</span></div>
+    <div class="icon"><img src="{{icon}}"></div>
     <div class="qpf"><span class="value">{{qpf}}</span> <span class="unit">mm</span></div>
     <div class="pop"><span class="value">{{pop}}</span> <span class="unit">%</span></div>
     {{#if today}}
-      <div class="cumulative"><span class="value">{{cumulative}}</span><span class="unit"> mm</span> in the last month</div>
+      <div class="cumulative"><span class="value">{{cumulative}}</span><span class="unit"> mm</span> in the past 30 days</div>
     {{/if}}
   </div>
 </template>
