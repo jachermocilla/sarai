@@ -12,7 +12,7 @@ if (Services.find().count() === 0) {
     	projectLeaders: []
     },
     media: {
-    	link: '/Services/alerts-and-advisories.jpg',
+    	link: '',
     	type: 'image',
     	subtitle: 'The application is still under development.',
     	subtitleLink: ''
@@ -43,7 +43,7 @@ if (Services.find().count() === 0) {
     	link: '',
     	type: 'image',
     	subtitle: 'Click here to view the crop monitoring application.',
-    	subtitleLink: 'http://159.203.253.36:8080/index.php'
+    	subtitleLink: ''
     },
     col1: {
     	title: '',
@@ -127,8 +127,8 @@ if (Services.find().count() === 0) {
     media: {
       link: '',
       type: '',
-      subtitle: 'The application is still under development.',
-      subtitleLink: ''
+      subtitle: 'SARAI Pest Module',
+      subtitleLink: 'http://sarai.ph:3000/pests'
     },
     col1: {
       title: '',
@@ -156,7 +156,7 @@ if (Services.find().count() === 0) {
       link: 'https://www.youtube.com/embed/LgyYBLmmJkA?feature=oembed',
       type: 'youtube-video',
       subtitle: '',
-      subtitleLink: ''
+      subtitleLink: '/weather-monitoring'
     },
     col1: {
       title: '',
@@ -183,7 +183,7 @@ if (Services.find().count() === 0) {
     media: {
       link: '',
       type: '',
-      subtitle: '',
+      subtitle: 'This application is under development.',
       subtitleLink: ''
     },
     col1: {
