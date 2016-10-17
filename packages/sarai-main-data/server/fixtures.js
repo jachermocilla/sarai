@@ -34,7 +34,7 @@ if (Main.find().count() === 0) {
 	      	links: [
 	      		{
 	      			name: 'Suitability Maps',
-	      			href: 'http://159.203.253.36:8081/web/',
+	      			href: 'http://sarai.ph:8080/',
 	      			rank: 1
 	      		},
 	      		{

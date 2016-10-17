@@ -211,8 +211,8 @@ if (Services.find().count() === 0) {
     media: {
       link: '',
       type: '',
-      subtitle: 'Click here to view the gallery of suitability maps.',
-      subtitleLink: 'https://sites.google.com/a/up.edu.ph/sarai-project/'
+      subtitle: 'Suitability Maps Application',
+      subtitleLink: 'http://sarai.ph:8080/'
     },
     col1: {
       title: '',
