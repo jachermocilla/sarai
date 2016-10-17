@@ -1,4 +1,4 @@
-Template.Preview.onCreated(() => {
+Templpaate.Preview.onCreated(() => {
   Meteor.subscribe('weather-stations')
   Meteor.subscribe('weather-data-30')
 
@@ -101,8 +101,8 @@ const getForecast = (stationID) => {
 
   const apiKey = DSSSettings.findOne({name: 'wunderground-api-key'}).value
 
-  // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
-    const result = Meteor.PreviewSampleData.sampleData()
+  $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
+    // const result = Meteor.PreviewSampleData.sampleData()
 
     const completeTxtForecast = result.forecast.txt_forecast.forecastday
 
@@ -125,7 +125,7 @@ const getForecast = (stationID) => {
         icon: txtForecast[index].icon_url,
         qpf: element.qpf_allday.mm,
         pop: element.pop })
-    // })
+    })
 
     Session.set('forecast', forecast)
 
