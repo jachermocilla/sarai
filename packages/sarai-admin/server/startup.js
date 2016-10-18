@@ -4,7 +4,7 @@ Meteor.startup(function () {
 	    uploadDir: process.env.PWD,
       // tmpDir: '/home/nina/uploads/tmp',
       // uploadDir: '/home/nina/uploads',
-	    checkCreateDirectories: false, //create the directories for you
+	    checkCreateDirectories: true, //create the directories for you
       overwrite: true,
       getDirectory: function(fileInfo, formData) {
         // create a sub-directory in the uploadDir based on the content type (e.g. 'images')

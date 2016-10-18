@@ -85,7 +85,11 @@ Template.Preview.helpers({
       element.label = element.label.replace('WFP', '')
       element.label = element.label.replace('WPU', '')
       element.label = element.label.replace('APN', '')
+      element.label.trim()
+    })
 
+    stations.sort((a, b) => {
+      return a.label.charCodeAt(0) - b.label.charCodeAt(0)
     })
 
     return stations
