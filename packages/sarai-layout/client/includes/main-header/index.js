@@ -25,7 +25,13 @@ Template.MainHeader.helpers({
 
   mainLinks: function(){
     var obj = Main.findOne({'name': 'mainHeader'}, {sort: {rank: 1}});
-    return obj && obj.links
+    if (obj) {
+      console.log(obj)
+    }
+
+    if (obj) {
+      return sortByRank(obj.links)
+    }
   },
 
   mainH: function(){
@@ -41,8 +47,11 @@ Template.MainHeader.helpers({
     } else {
       return false
     }
-  }
+  },
 
+  sortByRank: (links) => {
+    return sortByRank(links)
+  }
 
 });
 
@@ -54,6 +63,14 @@ Template.MainHeader.events({
     }
 });
 
+
+sortByRank = (items) => {
+  const sorted = items.sort((a, b) => {
+    return a.rank - b.rank
+  })
+
+  return sorted
+}
 
 LoggedIn = function(){
   if(Meteor.userId()===null){

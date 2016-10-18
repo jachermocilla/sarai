@@ -17,15 +17,16 @@ Template.HeaderOptions.onRendered(() => {
     if (record) {
       const name = $('#cms-banner-link-name-input').val()
       const href = $('#cms-banner-link-href-input').val()
+      const rank = parseInt($('#cms-banner-link-rank-input').val())
 
-      const newLink = { name, href }
+      const newLink = { name, href, rank }
 
       const linkAction = Session.get('linkAction')
 
       if (linkAction == 'Add Top Level Link') {
 
         const newLinkEntry = {
-          name, href,
+          name, href, rank,
           links: [],
           id: name.replace(/ /g , "-").toLowerCase()
         }
@@ -47,6 +48,7 @@ Template.HeaderOptions.onRendered(() => {
           //Top level link
           record.links[parseInt(indices[0])].name = newLink.name
           record.links[parseInt(indices[0])].href = newLink.href
+          record.links[parseInt(indices[0])].rank = newLink.rank
         }
 
         else {
@@ -91,10 +93,12 @@ Template.HeaderOptions.events({
         //Top level link
         name = record.links[parseInt(indices[0])].name
         href = record.links[parseInt(indices[0])].href
+        rank = record.links[parseInt(indices[0])].rank
       } else {
         //Sub link
         name = record.links[parseInt(indices[0])].links[parseInt(indices[1])].name
         href = record.links[parseInt(indices[0])].links[parseInt(indices[1])].href
+        rank = record.links[parseInt(indices[0])].links[parseInt(indices[1])].rank
       }
     }
 
@@ -103,9 +107,11 @@ Template.HeaderOptions.events({
 
     $('#cms-banner-link-name').addClass('is-dirty')
     $('#cms-banner-link-href').addClass('is-dirty')
+    $('#cms-banner-link-rank').addClass('is-dirty')
 
     $('#cms-banner-link-name-input').val(name)
     $('#cms-banner-link-href-input').val(href)
+    $('#cms-banner-link-rank-input').val(rank)
   },
 
   'click .cms-header-link-delete': (e) => {
@@ -151,6 +157,7 @@ Template.HeaderOptions.events({
 
     $('#cms-banner-link-name-input').val("")
     $('#cms-banner-link-href-input').val("")
+    $('#cms-banner-link-rank-input').val("")
   },
 
   'click #cms-header-button-toggle': () => {
