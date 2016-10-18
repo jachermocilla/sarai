@@ -53,6 +53,11 @@ Template.AccumulatedRainfall.onRendered(() => {
 
     // displayWeatherData(stationID, label)
     Session.set('stationID', stationID)
+    Meteor.subscribe('weather-stations', () => {
+      const station = WeatherStations.findOne({id: stationID})
+      $('#accumulated-rainfall-dialog-title').html(`Accumulated Rainfall for ${Meteor.Rainfall.stripTitle(station.label)}`)
+    })
+
     FlowRouter.go(`/accumulated-rainfall/${stationID}`)
   }
 
