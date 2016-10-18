@@ -114,8 +114,6 @@ const getForecast = (stationID) => {
       txtForecast.push(completeTxtForecast[a])
     }
 
-    console.log(txtForecast)
-
     simpleForecast.forEach((element, index) => {
       const date = `${element.date.day} ${element.date.monthname_short}`
 
