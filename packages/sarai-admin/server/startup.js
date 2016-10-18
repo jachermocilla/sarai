@@ -1,9 +1,9 @@
 Meteor.startup(function () {
 	UploadServer.init({
-	    // tmpDir: process.env.PWD + '.uploads/.tmp',
-	    // uploadDir: process.env.PWD,
-      tmpDir: '/home/nina/uploads/tmp',
-      uploadDir: '/home/nina/uploads',
+	    tmpDir: process.env.PWD + '.uploads/.tmp',
+	    uploadDir: process.env.PWD,
+      // tmpDir: '/home/nina/uploads/tmp',
+      // uploadDir: '/home/nina/uploads',
 	    checkCreateDirectories: false, //create the directories for you
       overwrite: true,
       getDirectory: function(fileInfo, formData) {
