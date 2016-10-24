@@ -15,6 +15,9 @@ module.exports = {
     servers: {
       one: {}
     },
+    volumes: {
+      "/media/sarai/uploads": "/opt/sarai-uploads"
+    },
     buildOptions: {
       serverOnly: false,
     },
