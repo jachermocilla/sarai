@@ -1,1 +1,1 @@
-DSSSettings = new Mongo.Collection('dss-settings');
+// DSSSettings = new Mongo.Collection('dss-settings');

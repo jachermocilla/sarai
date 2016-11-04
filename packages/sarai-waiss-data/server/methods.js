@@ -19,13 +19,13 @@ var computeKc = function(cropInfo, maturity) {
     }
 
     if(maturity < cropInfo.cutoff[1]) {
-        return cropInfo.cropCoefficient[0] + 
-               ((cropInfo.cropCoefficient[1] - cropInfo.cropCoefficient[0]) / (cropInfo.cutoff[1] - cropInfo.cutoff[0])) * 
+        return cropInfo.cropCoefficient[0] +
+               ((cropInfo.cropCoefficient[1] - cropInfo.cropCoefficient[0]) / (cropInfo.cutoff[1] - cropInfo.cutoff[0])) *
                (maturity - cropInfo.cutoff[0]);
     } else {
         if(maturity > cropInfo.cutoff[2]) {
-            return cropInfo.cropCoefficient[1] - 
-               ((cropInfo.cropCoefficient[1] - cropInfo.cropCoefficient[2]) / (100 - cropInfo.cutoff[2])) * 
+            return cropInfo.cropCoefficient[1] -
+               ((cropInfo.cropCoefficient[1] - cropInfo.cropCoefficient[2]) / (100 - cropInfo.cutoff[2])) *
                (maturity - cropInfo.cutoff[2]);
         } else {
             return cropInfo.cropCoefficient[2];
@@ -47,8 +47,18 @@ var computeDayOfTheYear = function(date) {
 }
 
 Meteor.methods({
+    'deleteFarm': function(id) {
+        Farm.remove({
+            _id: id
+        });
+
+        return {
+            'message': 'Succesfully deleted.'
+        }
+    },
     'createFarm': function(farmInfo) {
         var today = new Date();
+        // today.setMonth(today.getMonth()-1);
         today.setDate(today.getDate() - 1);
 
         var currentDate = new Date(farmInfo.plantingDate);
@@ -128,7 +138,7 @@ Meteor.methods({
                     'date': {
                         'year': currentDate.getFullYear(),
                         'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()    
+                        'day': currentDate.getDate()
                     },
                     'dateUTC': new Date(currentDate),
                     data: data
@@ -150,7 +160,7 @@ Meteor.methods({
                     tminAve += tempWeather.data.temp.min;
                     tmaxAve += tempWeather.data.temp.max;
                     tempCurrent.setDate(tempCurrent.getDate() - 1);
-                } 
+                }
                 tminAve /= 3;
                 tmaxAve /= 3;
 
@@ -158,7 +168,7 @@ Meteor.methods({
                     'date': {
                         'year': currentDate.getFullYear(),
                         'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()    
+                        'day': currentDate.getDate()
                     },
                     'dateUTC': new Date(currentDate),
                     data: ((tminAve + tmaxAve)/2) - 10
@@ -175,7 +185,7 @@ Meteor.methods({
                         'date': {
                             'year': currentDate.getFullYear(),
                             'month': currentDate.getMonth(),
-                            'day': currentDate.getDate()    
+                            'day': currentDate.getDate()
                         },
                         'dateUTC': new Date(currentDate),
                         'data': ETa
@@ -185,7 +195,7 @@ Meteor.methods({
                         'date': {
                             'year': currentDate.getFullYear(),
                             'month': currentDate.getMonth(),
-                            'day': currentDate.getDate()    
+                            'day': currentDate.getDate()
                         },
                         'dateUTC': new Date(currentDate),
                         'data': waterDeficit[waterDeficit.length-1].data + ETa
@@ -196,7 +206,7 @@ Meteor.methods({
                     'date': {
                         'year': currentDate.getFullYear(),
                         'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()    
+                        'day': currentDate.getDate()
                     },
                     'dateUTC': new Date(currentDate),
                     'data': 0
@@ -208,7 +218,7 @@ Meteor.methods({
                     'date': {
                         'year': currentDate.getFullYear(),
                         'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()    
+                        'day': currentDate.getDate()
                     },
                     'dateUTC': new Date(currentDate),
                     data: ETo
@@ -218,7 +228,7 @@ Meteor.methods({
                     'date': {
                         'year': currentDate.getFullYear(),
                         'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()    
+                        'day': currentDate.getDate()
                     },
                     'dateUTC': new Date(currentDate),
                     data: weather.data.temp.ave - 10
@@ -234,7 +244,7 @@ Meteor.methods({
                     'date': {
                         'year': currentDate.getFullYear(),
                         'month': currentDate.getMonth(),
-                        'day': currentDate.getDate()    
+                        'day': currentDate.getDate()
                     },
                     'dateUTC': new Date(currentDate),
                     'data': weather.data.rainfall
@@ -245,7 +255,7 @@ Meteor.methods({
                         'date': {
                             'year': currentDate.getFullYear(),
                             'month': currentDate.getMonth(),
-                            'day': currentDate.getDate()    
+                            'day': currentDate.getDate()
                         },
                         'dateUTC': new Date(currentDate),
                         'data': ETa - weather.data.rainfall
@@ -255,7 +265,7 @@ Meteor.methods({
                         'date': {
                             'year': currentDate.getFullYear(),
                             'month': currentDate.getMonth(),
-                            'day': currentDate.getDate()    
+                            'day': currentDate.getDate()
                         },
                         'dateUTC': new Date(currentDate),
                         'data': ETa - weather.data.rainfall + waterDeficit[waterDeficit.length-1].data
@@ -374,12 +384,8 @@ Meteor.methods({
         });
     },
     'updateWaterDeficitWithIrrigation': function(farmInfo, irrigationAmount, date) {
-        var farm = Farm.find({
-            '_id': farmInfo._id
-        });
-
-        var waterDeficit = farm.data.waterDeficit;
-        var irrigation = farm.data.irrigation;
+        var waterDeficit = farmInfo.data.waterDeficit;
+        var irrigation = farmInfo.data.irrigation;
 
         if(!irrigation) {
             irrigation = [];
@@ -412,9 +418,9 @@ Meteor.methods({
 
         for(var i = index+1; i < waterDeficit.length; i++) {
             var temp = waterDeficit[i].data - tempPreviousWaterDeficit;
-            tempPreviousWaterDeficit = waterDeficitItem[i].data;
-            waterDeficitItem[i].data = temp + previousWaterDeficit;
-            previousWaterDeficit = waterDeficitItem[i].data;
+            tempPreviousWaterDeficit = waterDeficit[i].data;
+            waterDeficit[i].data = temp + previousWaterDeficit;
+            previousWaterDeficit = waterDeficit[i].data;
         }
 
         Farm.update({
@@ -423,7 +429,12 @@ Meteor.methods({
             $set: {
                 'data': {
                     'waterDeficit': waterDeficit,
-                    'irrigation': irrigation
+                    'irrigation': irrigation,
+                    'cumulativeGDD': farmInfo.cumulativeGDD,
+                    'gdd': farmInfo.gdd,
+                    'maturity': farmInfo.maturity,
+                    'rainfall': farmInfo.rainfall,
+                    'referenceET': farmInfo.referenceET
                 }
             }
         });

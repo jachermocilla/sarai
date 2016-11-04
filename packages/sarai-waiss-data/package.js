@@ -12,9 +12,10 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  
+
   var packages = [
-    "sarai:sarai-lib"
+    "sarai:sarai-lib",
+    "sarai:sarai-weather-data"
   ]
 
   api.use(packages)

@@ -6,7 +6,7 @@ Template.WAISSCreateFarm.helpers({
         FlowRouter.go('/waiss/explore');
     },
     weatherStation: function() {
-        var weatherStations = WeatherStations.find().fetch();
+        var weatherStations = WeatherStations.find({id: 'ICALABAR18'}).fetch();
         weatherStations.unshift({
             'label': ''
         });

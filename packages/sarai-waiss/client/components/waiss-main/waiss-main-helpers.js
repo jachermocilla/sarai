@@ -28,6 +28,8 @@ Template.WAISSMain.helpers({
             _id: Session.get('farmId')
         });
 
+        console.log(farm);
+
         var mad = CropData.findOne({
             'name': farm.crop.toLowerCase()
         }).mad;
@@ -136,5 +138,21 @@ Template.WAISSMain.events({
     'click #addIrrigation': function(e) {
         var dialog = document.querySelector('#addIrrigationDialog');
         dialog.showModal();
+    },
+    'click #deleteFarm': function(e) {
+        var currentFarm = Session.get('farmId');
+        console.log(currentFarm);
+        // var farmInfo = Farm.remove({
+        //     _id: currentFarm
+        // });
+        Meteor.call('deleteFarm', currentFarm, function(error, result) {
+            if(error) {
+                console.error(error);
+                return;
+            }
+
+            alert(result.message);
+            Session.set('farmId', null);
+        })
     }
 });

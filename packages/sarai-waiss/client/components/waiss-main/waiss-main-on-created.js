@@ -18,9 +18,21 @@ Template.WAISSMain.onRendered(function() {
         var amount = parseInt($('#irrigationAmount').val());
         var date = new Date($('#irrigationDate').val())
 
+        var farmInfo = Farm.findOne({
+            _id: Session.get('farmId')
+        });
+
         if(!amount || !date) {
             alert('Please fill out all fields.')
         } else {
+            Meteor.call('updateWaterDeficitWithIrrigation', farmInfo, amount, date, function(error, result) {
+                if(error) {
+                    console.error(error);
+                    return;
+                }
+
+                alert(result.name + ' was updated!');
+            });
             dialog.close();
         }
     });
