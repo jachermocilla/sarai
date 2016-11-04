@@ -2,7 +2,7 @@ Template.WAISSExplore.onCreated(function() {
     Meteor.subscribe('farm');
     Meteor.subscribe('crop');
     this.autorun(function() {
-        Meteor.subscribe('weather-stations');   
+        Meteor.subscribe('weather-stations');
     });
 });
 
@@ -15,15 +15,29 @@ Template.WAISSExplore.helpers({
         return Meteor.userId();
     },
     weatherStations: function() {
-        return WeatherStations.find().fetch();
+        return WeatherStations.find({'id':'ICALABAR18'}).fetch();
     },
     noFarms: function() {
+        if(Session.get('weatherStationId') === null) {
+            return Farm.find({
+                'public': true,
+                'weatherStation': 'ICALABAR18'
+            }).count() === 0;
+        }
+
         return Farm.find({
             'public': true,
             'weatherStation': Session.get('weatherStationId')
         }).count() === 0;
     },
     farms: function() {
+        if(Session.get('weatherStationId') === null) {
+            return Farm.find({
+                'public': true,
+                'weatherStation': 'ICALABAR18'
+            }).fetch();
+        }
+
         return Farm.find({
             'public': true,
             'weatherStation': Session.get('weatherStationId')
