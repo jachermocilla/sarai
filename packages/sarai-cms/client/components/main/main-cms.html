@@ -1,0 +1,22 @@
+<template name="MainCMS">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--1-offset-desktop">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--12-col">
+        {{> TopHeaderOptions}}
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        {{> HeaderOptions}}
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        {{> BannerOptions}}
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+</template>

@@ -20,6 +20,9 @@ Package.onUse(function(api) {
     'sarai:sarai-layout',
     'sarai:sarai-pests',
     'sarai:sarai-main',
+    'sarai:sarai-services',
+    'sarai:sarai-blog',
+    'sarai:sarai-apps',
     "sarai:sarai-pests-data",
     "sarai:sarai-pests-form-data",
     "sarai:sarai-assistance-data",
@@ -30,9 +33,21 @@ Package.onUse(function(api) {
     "sarai:sarai-assistance-result-data",
     "sarai:sarai-report-data",
     "sarai:sarai-images-data",
+    "sarai:sarai-waiss",
+    "sarai:sarai-waiss-data",
+    "sarai:sarai-cms",
+    "sarai:sarai-cms-data",
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
-    "sarai:sarai-blog-data"
+    "sarai:sarai-blog-data",
+    "sarai:sarai-about-data",
+    "sarai:sarai-about-us",
+    "sarai:sarai-weather-data",
+    "sarai:sarai-weather-monitoring",
+    "sarai:sarai-apps-data",
+    "sarai:sarai-accumulated-rainfall",
+    // "sarai:sarai-satellite-rainfall"
+    // "sarai:sarai-satellite-ndvi"
     ]
 
   api.use(packages);

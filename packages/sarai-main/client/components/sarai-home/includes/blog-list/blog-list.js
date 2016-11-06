@@ -13,7 +13,7 @@ Template.Bloglist.helpers({
       'project-sm',
       'joins-dost'
     ];
-  	var obj = Blog.find({name: {$in: names}}).fetch();
+    var obj = Blog.find({name: {$in: names}}, {sort: {date: -1}}).fetch();
     if(typeof obj !== 'undefined'){
       var list = obj.slice(0,3);
       return list;
@@ -22,5 +22,19 @@ Template.Bloglist.helpers({
 });
 
 Template.registerHelper("makeString", function(date) {
-    return new Date(date).toString('MM-dd-yyyy');
+    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    if(typeof date != 'undefined'){
+      var month = monthNames[date.getMonth()];
+      var day = date.getDate();
+      var year = date.getFullYear();
+      var fulldatestring = month + " " + day + ", " + year;
+      return fulldatestring;
+    }
+});
+
+Template.registerHelper("count", function(comments) {
+    if(typeof comments != 'undefined'){
+      //console.log(comments);
+      return comments.length;
+    }
 });

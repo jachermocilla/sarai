@@ -1,6 +1,11 @@
-/*Template.MainLayout.helpers({
-  topHeader: function(){
-    //return Home.find({'title': 'Hello World'});
-    return Main.find({'name': 'topHeader'}, {limit: 0}).fetch()[0];
+Template.MainLayout.onCreated(() => {
+  Meteor.subscribe('main');
+})
+
+Template.MainLayout.helpers({
+  topHeaderEnabled: () => {
+    const record = Main.findOne({'name': 'topHeader'})
+
+    return record && record.enabled
   }
-})*/
+})

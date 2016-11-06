@@ -1,6 +1,10 @@
 <template name="MainLayout">
 
       <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+        {{#if topHeaderEnabled}}
+          {{> TopHeader}}
+        {{/if}}
+
         {{> MainHeader}}
         <!-- {{> SideBar}} -->
         <main class="mdl-layout__content">

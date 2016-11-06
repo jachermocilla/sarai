@@ -1,0 +1,41 @@
+<template name="AboutUsContentOptions">
+
+  <div class="mdl-grid cms-block">
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="cms-block-header">
+        Our Story
+      </div>
+      <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-about-us-content-title-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-about-us-content-title" value="{{title}}">
+            <label class="mdl-textfield__label" for="cms-about-us-content-title">Title</label>
+          </div>
+        </div>
+        <br />
+        <h5>Write here the html code:</h5>
+        <br />
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-about-us-content-text-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <textarea class="mdl-textfield__input" type="text" rows= "7" id="cms-about-us-content-text" value="{{description}}"></textarea>
+            <label class="mdl-textfield__label" for="cms-about-us-content-text">Content</label>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="cms-block-actions">
+        <button id="cms-about-us-content-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+</template>

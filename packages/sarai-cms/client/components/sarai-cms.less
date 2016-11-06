@@ -1,0 +1,140 @@
+.cms-icon-preview {
+  width: 200px;
+  height: auto;
+}
+
+.cms-image-preview {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/*Slider Table*/
+.cms-table-header {
+  text-align: center;
+}
+
+.cms-table-content {
+  text-align: left;
+}
+
+
+/*Link Tables*/
+.cms-header-link-name {
+  font-weight: bold;
+  color: #676a6c;
+}
+
+.cms-header-link-href {
+  color: #676a6c;
+}
+
+.cms-header-sub-level-link {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.cms-header-link-actions {
+  float: right;
+}
+
+
+/*BLOCK STYLES*/
+.cms-block {
+  background-color: white;
+  border-top: 2px solid #E7EAEC;
+  border-bottom: 2px solid #E7EAEC;
+}
+
+.cms-block-header {
+  padding: 10px;
+  border-bottom: 1px solid #E7EAEC;
+  font-weight: bold;
+  color: #676a6c;
+  font-size: 1.5em;
+}
+
+.cms-disabled-status {
+  color: #f79a20;
+}
+
+.cms-block-content-label {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #676a6c;
+  margin-bottom: 15px;
+}
+
+.cms-block-actions {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.cms-block-actions {
+  text-align: right;
+}
+
+.cms-block-actions {
+
+  button {
+
+  }
+
+}
+
+/*SUMMERNOTE*/
+.modal-backdrop {
+  z-index: 0;
+}
+
+.modal-dialog {
+  margin-top: 100px;
+}
+
+
+/*RESPONSIVE MDL TABLES*/
+@media only screen and (max-width: 480px) {
+
+  table, thead, tbody, th, td, tr {
+      display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  // mdl specifics
+
+  .mdl-data-table tbody tr {
+    height: auto;
+  }
+
+  .mdl-data-table tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+
+  .mdl-data-table td,
+  .mdl-data-table td:first-of-type {
+    padding-left: 50%;
+  }
+
+  .mdl-data-table td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding: 6px 18px 0;
+    white-space: nowrap;
+    content: attr(data-label);
+    text-align: left;
+    color: rgba(0, 0, 0, 0.541176);
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  .mdl-data-table td:last-of-type {
+    padding-right: 18px;
+  }
+
+}

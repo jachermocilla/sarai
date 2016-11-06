@@ -1,0 +1,11 @@
+<template name="CMSLayoutV2">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    {{> CMSHeader}}
+    {{> CMSDrawer}}
+    <main id="cms-content" class="mdl-layout__content">
+      <div class="page-content">
+        {{> Template.dynamic template=main}}
+      </div>
+    </main>
+  </div>
+</template>
