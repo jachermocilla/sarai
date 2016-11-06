@@ -1,16 +1,25 @@
 Template.WeatherStationsBlock.onCreated(() => {
-  Meteor.subscribe('weather-stations')
+  Meteor.subscribe('record-counts', 'weather-stations')
+  Meteor.subscribe('record-counts', 'sarai-weather-stations')
+
+  Meteor.subscribe('quick-weather-stations')
 })
 
 Template.WeatherStationsBlock.helpers({
-  numberOfStations: () => {
-    const count = WeatherStations.find({}).count()
+  stationCount: () => {
+    const record = RecordCounts.findOne({name: 'weather-stations'})
 
-    return count
+    return record && record.value
   },
 
-  stations: () => {
-    const stations = WeatherStations.find({})
+  saraiStationCount: () => {
+    const record = RecordCounts.findOne({name: 'sarai-weather-stations'})
+
+    return record && record.value
+  },
+
+  aFewStations: () => {
+    const stations = WeatherStations.find({}).fetch()
 
     return stations
   }

@@ -114,6 +114,16 @@ Package.onUse(function(api) {
     "client/components/weather/index/weather-settings-block.html",
     "client/components/weather/index/weather-settings-block.js",
     "client/components/weather/index/weather-settings-block.less",
+
+    //Weather Stations
+    "client/components/weather/stations/weather-stations.html",
+    "client/components/weather/stations/weather-stations.js",
+    "client/components/weather/stations/weather-stations.less",
+
+    //Weather Data
+    "client/components/weather/data/weather-data.html",
+    "client/components/weather/data/weather-data.js",
+    "client/components/weather/data/weather-data.less",
     ]
 
   api.addFiles(client, "client")
