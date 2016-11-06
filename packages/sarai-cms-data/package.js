@@ -22,11 +22,13 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
+    "lib/collections/record-counts.js",
   ]
 
   api.addFiles(lib, ["client", "server"])
 
   var server = [
+    "server/publications.js",
     "server/main-methods.js",
     "server/about-methods.js",
     "server/service-methods.js",
@@ -40,7 +42,7 @@ Package.onUse(function(api) {
     ], "client")
 
   api.export([
-
+    "RecordCounts"
   ])
 });
 
