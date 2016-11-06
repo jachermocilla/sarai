@@ -95,7 +95,25 @@ Package.onUse(function(api) {
 
     "client/components/services/services-cms-edit-form.html",
     "client/components/services/services-cms-edit-form.js",
-    "client/components/services/services-cms-edit-form.less"
+    "client/components/services/services-cms-edit-form.less",
+
+    //Weather Stations
+    "client/components/weather/weather-route.js",
+
+    "client/components/weather/weather-cms.html",
+    "client/components/weather/weather-cms.js",
+    "client/components/weather/weather-cms.less",
+
+    //index blocks
+    "client/components/weather/index/weather-stations-block.html",
+    "client/components/weather/index/weather-stations-block.js",
+    "client/components/weather/index/weather-stations-block.less",
+    "client/components/weather/index/weather-data-block.html",
+    "client/components/weather/index/weather-data-block.js",
+    "client/components/weather/index/weather-data-block.less",
+    "client/components/weather/index/weather-settings-block.html",
+    "client/components/weather/index/weather-settings-block.js",
+    "client/components/weather/index/weather-settings-block.less",
     ]
 
   api.addFiles(client, "client")
