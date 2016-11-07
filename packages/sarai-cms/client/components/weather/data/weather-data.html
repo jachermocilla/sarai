@@ -33,7 +33,7 @@
                           <td class="weather-value">{{record.data.temp.min}}</td>
                           <td class="weather-value">{{record.data.temp.max}}</td>
                           <td class="weather-value">{{record.data.rainfall}}</td>
-                          <td class="actions">
+                          <td class="edit action">
                             <a href="">
                               <i class="material-icons">mode_edits</i>
                             </a>
@@ -61,6 +61,94 @@
     </div>
   </div>
 
+  <!-- ======= DIALOG ======== -->
+  <dialog id="cms-weather-data-dialog" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Edit Weather Data</h4>
+    <div class="mdl-dialog__content">
+
+      <div class="mdl-grid">
+        <!-- ===== TEMP ===== -->
+        <div class="mdl-cell mdl-cell--12-col-desktop sub-header">Temp (&deg;C)</div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-temp-ave">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-temp-ave-input">
+          <label class="mdl-textfield__label" for="cms-wd-temp-ave-input">Ave</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-temp-min">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cms-wd-temp-min-input">
+          <label class="mdl-textfield__label" for="cms-wd-temp-min-input">Min</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-temp-max">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-temp-max-input">
+          <label class="mdl-textfield__label" for="cms-wd-temp-max-input">Max</label>
+        </div>
+
+        <!-- ===== HUMIDITY ===== -->
+        <div class="mdl-cell mdl-cell--12-col-desktop sub-header">Humidity (%)</div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-hum-ave">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-hum-ave-input">
+          <label class="mdl-textfield__label" for="cms-wd-hum-ave-input">Ave</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-hum-min">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cms-wd-hum-min-input">
+          <label class="mdl-textfield__label" for="cms-wd-hum-min-input">Min</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-hum-max">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-hum-max-input">
+          <label class="mdl-textfield__label" for="cms-wd-hum-max-input">Max</label>
+        </div>
+
+        <!-- ===== WIND ===== -->
+        <div class="mdl-cell mdl-cell--12-col-desktop sub-header">Wind (kph)</div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-wind-ave">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-wind-ave-input">
+          <label class="mdl-textfield__label" for="cms-wd-wind-ave-input">Ave</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-wind-max">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cms-wd-wind-max-input">
+          <label class="mdl-textfield__label" for="cms-wd-wind-max-input">Max</label>
+        </div>
+
+        <!-- ===== PRESSURE ===== -->
+        <div class="mdl-cell mdl-cell--12-col-desktop sub-header">Pressure (hPa)</div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-pre-min">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-pre-min-input">
+          <label class="mdl-textfield__label" for="cms-wd-pre-min-input">Min</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-pre-max">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cms-wd-pre-max-input">
+          <label class="mdl-textfield__label" for="cms-wd-pre-max-input">Max</label>
+        </div>
+
+        <!-- ===== Rainfall ===== -->
+        <div class="mdl-cell mdl-cell--12-col-desktop sub-header">Rainfall (mm)</div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-wd-rain">
+          <input class="mdl-textfield__input" type="number" id="cms-wd-rain-input">
+          <label class="mdl-textfield__label" for="cms-wd-rain-input">Min</label>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button save">Save</button>
+      <button type="button" class="mdl-button cancel">Cancel</button>
+    </div>
+  </dialog>
+  <!-- ======== END DIALOG ========= -->
+
+  <!-- ======== TOAST ======== -->
   <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
     <div class="mdl-snackbar__text"></div>
     <button class="mdl-snackbar__action" type="button"></button>
