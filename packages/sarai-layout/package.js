@@ -54,7 +54,10 @@ Package.onUse(function(api) {
     "client/layout/map-layout/map-layout.html",
     "client/layout/map-layout/map-header.html",
     "client/layout/map-layout/map-header.js",
-    "client/layout/map-layout/map-header.less"
+    "client/layout/map-layout/map-header.less",
+
+    "client/layout/ndvi-layout/ndvi-layout.html",
+    "client/layout/ndvi-layout/ndvi-layout.less",
   ]
 
   api.addFiles(client, "client")

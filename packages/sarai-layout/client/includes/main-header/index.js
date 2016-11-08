@@ -25,9 +25,6 @@ Template.MainHeader.helpers({
 
   mainLinks: function(){
     var obj = Main.findOne({'name': 'mainHeader'}, {sort: {rank: 1}});
-    if (obj) {
-      console.log(obj)
-    }
 
     if (obj) {
       return sortByRank(obj.links)
