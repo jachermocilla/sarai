@@ -2,6 +2,13 @@ Template.AccumulatedRainfall.onCreated(() => {
   //subscribe to last 30 days of data
   Meteor.subscribe('weather-data-30')
   Meteor.subscribe('dss-settings')
+
+  Highcharts.setOptions({
+  // This is for all plots, change Date axis to local timezone
+      global : {
+          useUTC : false
+      }
+  });
 })
 
 Template.AccumulatedRainfall.onRendered(() => {
