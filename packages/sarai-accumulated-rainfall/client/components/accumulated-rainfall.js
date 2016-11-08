@@ -24,7 +24,7 @@ Template.AccumulatedRainfall.onRendered(() => {
   Tracker.autorun(() => {
     const stationID = FlowRouter.getParam('stationID')
     if (stationID) {
-      Meteor.subscribe('weather-stations', () => {
+      Meteor.subscribe('sarai-weather-stations', () => {
         const station = WeatherStations.findOne({id: stationID})
         $('#accumulated-rainfall-dialog-title').html(`Accumulated Rainfall for ${Meteor.Rainfall.stripTitle(station.label)}`)
       })

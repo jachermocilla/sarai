@@ -1,5 +1,5 @@
 Template.Preview.onCreated(() => {
-  Meteor.subscribe('weather-stations')
+  Meteor.subscribe('sarai-weather-stations')
   Meteor.subscribe('weather-data-30')
 
   //default is ICALABAR18

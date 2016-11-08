@@ -40,7 +40,7 @@ Template.WeatherMonitoring.onRendered(() => {
     dialog.showModal();
   }
 
-  Meteor.subscribe("weather-stations", () => {
+  Meteor.subscribe('sarai-weather-stations', () => {
     Meteor.autorun(() => {
       const stations = WeatherStations.find().fetch()
 
