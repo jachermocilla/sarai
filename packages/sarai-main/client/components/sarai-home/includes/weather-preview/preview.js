@@ -25,6 +25,11 @@ Template.Preview.events({
   'click .forecast-grid': (e) => {
     const stationID = Session.get('stationID')
     FlowRouter.go(`/accumulated-rainfall/${stationID}`)
+  },
+
+  'click .preview-more button': () => {
+    const stationID = Session.get('stationID')
+    FlowRouter.go(`/accumulated-rainfall/${stationID}`)
   }
 })
 
