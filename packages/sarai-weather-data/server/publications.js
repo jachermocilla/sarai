@@ -11,6 +11,16 @@ Meteor.publish('weather-data-30', () => {
   return WeatherData.find({dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
 });
 
+Meteor.publish('weather-data-30-by-id', (stationID) => {
+  let oneMonthAgo = new Date()
+  // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
+  oneMonthAgo.setDate(oneMonthAgo.getDate() - 31)
+
+  return WeatherData.find({id: stationID, dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
+});
+
+
+
 Meteor.publish('weather-data-30-by-id', (id) => {
   let oneMonthAgo = new Date()
   // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)

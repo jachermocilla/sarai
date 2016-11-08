@@ -130,6 +130,9 @@ Package.onUse(function(api) {
     "client/components/weather/data/weather-data.html",
     "client/components/weather/data/weather-data.js",
     "client/components/weather/data/weather-data.less",
+    "client/components/weather/data/weather-data-row.html",
+    "client/components/weather/data/weather-data-row.js",
+    "client/components/weather/data/weather-data-row.less",
     ]
 
   api.addFiles(client, "client")

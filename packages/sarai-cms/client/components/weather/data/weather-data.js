@@ -14,10 +14,6 @@ Template.WeatherDataCMS.helpers({
     return this.stationID
   },
 
-  formatDate: (dateUTC) => {
-    return Meteor.Date.formatSimpleDate(dateUTC)
-  },
-
   label: () => {
     const record = WeatherStations.findOne({})
 
@@ -32,12 +28,7 @@ Template.WeatherDataCMS.helpers({
 })
 
 Template.WeatherDataCMS.events({
-  'click #edit-weather-data': () => {
-    console.log(this)
-    const dialog = document.querySelector(`#cms-weather-data-dialog`)
 
-    dialog.showModal()
-  }
 })
 
 const initDialog = (dialogID) => {
@@ -47,8 +38,33 @@ const initDialog = (dialogID) => {
     dialog.close()
   })
 
-  dialog.querySelector('.save').addEventListener('save', () => {
-    console.log('Saving...')
+  dialog.querySelector('.save').addEventListener('click', () => {
+    const tempAve = $('#cms-wd-temp-ave-input').val()
+    const tempMin = $('#cms-wd-temp-min-input').val()
+    const tempMax = $('#cms-wd-temp-max-input').val()
+
+    const humAve = $('#cms-wd-hum-ave-input').val()
+    const humMin = $('#cms-wd-hum-min-input').val()
+    const humMax = $('#cms-wd-hum-max-input').val()
+
+    const windAve = $('#cms-wd-wind-ave-input').val()
+    const windMax = $('#cms-wd-wind-max-input').val()
+
+    const preMin = $('#cms-wd-pre-min-input').val()
+    const preMax = $('#cms-wd-pre-max-input').val()
+
+    const rain = $('#cms-wd-rain-input').val()
+
+    const _id = Session.get('weather-data-_id')
+
+    Meteor.call('cms-weather-data-edit', _id, tempAve, tempMin, tempMax, humAve, humMin, humMax, windAve, windMax, preMin, preMax, rain, (error, result) => {
+      let toast = 'Entry saved'
+      if (error) {
+        toast = 'Unable to save entry'
+      }
+      showToast(toast)
+    })
+
     dialog.close()
   })
 }

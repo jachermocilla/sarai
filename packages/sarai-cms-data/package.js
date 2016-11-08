@@ -33,6 +33,7 @@ Package.onUse(function(api) {
     "server/about-methods.js",
     "server/service-methods.js",
     "server/upload-methods.js",
+    "server/weather-methods.js",
     "server/fixtures.js"
   ]
 
