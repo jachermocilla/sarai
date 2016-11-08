@@ -38,10 +38,10 @@
   <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone rainfall-preview-col">
     <div class="head"><span class="weekday">{{head}}</span> <span class="date">{{date}}</span></div>
     <div class="icon"><img src="{{icon}}"></div>
-    <div class="qpf"><span class="value">{{qpf}}</span> <span class="unit">mm</span></div>
-    <div class="pop"><span class="value">{{pop}}</span> <span class="unit">%</span></div>
+    <div class="qpf"><span class="value">{{formatQPF qpf}}</span> <span class="unit">mm</span></div>
+    <div class="pop"><span class="value">{{pop}}</span> <span class="unit">%</span> chance of rain</div>
     {{#if today}}
-      <div class="cumulative"><span class="value">{{cumulative}}</span><span class="unit"> mm</span> in the past 30 days. Click for more.</div>
+      <div class="cumulative">Past 30 days: <span class="value">{{cumulative}}</span><span class="unit"> mm</span></div>
     {{/if}}
   </div>
 </template>

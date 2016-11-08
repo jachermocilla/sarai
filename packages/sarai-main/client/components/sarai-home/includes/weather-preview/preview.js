@@ -135,3 +135,15 @@ const getForecast = (stationID) => {
 
 }
 
+
+/********* PREVIEW COL ***********/
+Template.PreviewCol.helpers({
+  formatQPF: (qpf) => {
+    if (qpf < 1) {
+      return "< 1"
+    }
+    else {
+      return qpf
+    }
+  }
+})

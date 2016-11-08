@@ -1,4 +1,4 @@
-.forecast-grid {
+/*.forecast-grid {
   background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(111,211,247,1) 50%, rgba(255,255,255,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(111,211,247,1)), color-stop(100%, rgba(255,255,255,1)));
@@ -8,7 +8,7 @@ background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(111,211,247,1)
 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(111,211,247,1) 50%, rgba(255,255,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
   cursor: pointer;
-}
+}*/
 
 .preview-title {
   text-align: center;
@@ -17,9 +17,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .rainfall-preview-col {
 
   padding: 10px;
-  background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
+ /* background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
   background-size:  1px 100%;
-  background-position: 0 0, 100% 0;
+  background-position: 0 0, 100% 0;*/
+  background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
+  background-size:  1px 100%, 1px 100%, 100% 1px, 100% 1px;
+  background-position: 0 0, 100% 0, 0 0, 0 100%;
   background-repeat:  no-repeat;
 
 
@@ -81,6 +84,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #preview-controls {
   text-align: center;
 }
+
+/*.rainfall-preview-col:nth-child(even) {
+  background-color: blue;
+}*/
 
 /*********SELECT**********/
 
