@@ -14,6 +14,10 @@ Template.WeatherDataCMS.helpers({
     return this.stationID
   },
 
+  formatDate: (dateUTC) => {
+    return Meteor.Date.formatSimpleDate(dateUTC)
+  },
+
   label: () => {
     const record = WeatherStations.findOne({})
 
@@ -21,14 +25,14 @@ Template.WeatherDataCMS.helpers({
   },
 
   records: () => {
-    const records = WeatherData.find({})
+    const records = WeatherData.find({}).fetch()
 
-    return records
+    return records.reverse()
   }
 })
 
 Template.WeatherDataCMS.events({
-  'click .edit.action': () => {
+  'click #edit-weather-data': () => {
     console.log(this)
     const dialog = document.querySelector(`#cms-weather-data-dialog`)
 

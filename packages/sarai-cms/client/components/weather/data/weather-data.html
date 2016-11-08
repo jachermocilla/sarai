@@ -19,7 +19,7 @@
                   <table class="mdl-data-table mdl-js-data-table" width="100%" id="cms-weather-stations-quick-list">
                     <thead>
                       <tr>
-                        <td>Date</td>
+                        <td class="date">Date</td>
                         <td>Low Temp</td>
                         <td>High Temp</td>
                         <td>Rainfall</td>
@@ -29,12 +29,12 @@
                     <tbody>
                       {{#each record in records}}
                         <tr>
-                          <td class="date">{{record.dateUTC}}</td>
+                          <td class="date">{{formatDate record.dateUTC}}</td>
                           <td class="weather-value">{{record.data.temp.min}}</td>
                           <td class="weather-value">{{record.data.temp.max}}</td>
                           <td class="weather-value">{{record.data.rainfall}}</td>
-                          <td class="edit action">
-                            <a href="">
+                          <td class="actions">
+                            <a id="edit-weather-data" href="">
                               <i class="material-icons">mode_edits</i>
                             </a>
                           </td>

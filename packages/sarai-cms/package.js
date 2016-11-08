@@ -25,6 +25,12 @@ Package.onUse(function(api) {
   api.use(packages)
   api.imply(packages)
 
+  var lib = [
+    "lib/date-helpers.js"
+  ]
+
+  api.addFiles(lib, ["client", "server"])
+
   var client = [
     //COMMON
     "client/common/cms-upload.html",

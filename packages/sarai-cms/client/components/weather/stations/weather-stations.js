@@ -4,7 +4,7 @@ Template.WeatherStationsCMS.onCreated(() => {
 
 Template.WeatherStationsCMS.helpers({
   stations: () => {
-    const stations = WeatherStations.find({})
+    const stations = WeatherStations.find({}).fetch()
 
     return stations
   }
