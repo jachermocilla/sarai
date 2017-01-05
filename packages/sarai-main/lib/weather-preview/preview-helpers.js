@@ -32,6 +32,7 @@ Meteor.previewHelpers = {
     })
 
     return stations
+<<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
   },
 
   formatLabel: (label) => {
@@ -49,5 +50,7 @@ Meteor.previewHelpers = {
     }
 
     return result
+=======
+>>>>>>> Started on BOM style weather preview on main page
   }
 }

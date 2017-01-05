@@ -2,7 +2,11 @@
   <div class="mdl-grid mdl-grid--no-spacing">
     <div id="main-preview" class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
 
+<<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
       <!-- <div class="mdl-cell mdl-cell-12-col preview-title"><h3>Concise View</h3></div> -->
+=======
+      <div class="mdl-cell mdl-cell--12-col preview-title"><h3><!-- Concise View --></h3></div>
+>>>>>>> Started on BOM style weather preview on main page
       <div class="mdl-cell mdl-cell--12-col page-controls">
         {{#if onFirstPage}}
           Prev
@@ -19,16 +23,43 @@
 
 
       <div class="mdl-grid mdl-grid--no-spacing mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone forecast-grid">
+<<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
+=======
+        <!-- {{#with forecastToday}}
+          {{> PreviewCol}}
+        {{/with}}
+
+        {{#each forecastFirst3}}
+          {{> PreviewCol}}
+        {{/each}} -->
+
+>>>>>>> Started on BOM style weather preview on main page
         {{#each first4}}
           {{> PreviewColConcise}}
         {{/each}}
       </div>
       <div class="mdl-grid mdl-grid--no-spacing mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone forecast-grid">
+<<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
+=======
+        <!-- {{#each forecastNext4}}
+          {{> PreviewCol}}
+        {{/each}} -->
+
+>>>>>>> Started on BOM style weather preview on main page
         {{#each second4}}
           {{> PreviewColConcise}}
         {{/each}}
       </div>
 
+<<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
+=======
+      <div class="mdl-cell mdl-cell--12-col preview-more">
+        <button class="mdl-button mdl-js-button mdl-button--raised">
+          More
+        </button>
+      </div>
+
+>>>>>>> Started on BOM style weather preview on main page
     </div>
   </div>
 </template>

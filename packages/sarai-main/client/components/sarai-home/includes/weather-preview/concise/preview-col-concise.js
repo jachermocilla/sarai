@@ -12,7 +12,8 @@ Template.PreviewColConcise.helpers({
 
     // console.log(stationID)
     // console.log(weatherData.fetch())
-
+    console.log(stationID)
+    console.log(weatherData.fetch())
     if (weatherData) {
       const rainfall = Meteor.previewHelpers.get30DayRainfall(weatherData.fetch())
       return rainfall

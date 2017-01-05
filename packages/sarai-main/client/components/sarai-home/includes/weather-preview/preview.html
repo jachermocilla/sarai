@@ -5,6 +5,10 @@
 
   {{#if forecastViewSelected}}
     <!-- {{> ForecastView}} -->
+    <a href="#" class="link" id="forecast-view">Forecast View</a> <span class="pipe">|</span> <a href="#" class="link" id="concise-view">Concise View</a>
+  </div>
+
+  {{#if forecastViewSelected}}
     {{> ForecastView}}
   {{else}}
     {{#if conciseViewSelected}}

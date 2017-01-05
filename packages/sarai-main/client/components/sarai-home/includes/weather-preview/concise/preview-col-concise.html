@@ -1,8 +1,21 @@
 <template name="PreviewColConcise">
+<<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
   <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone concise-preview-col">
     <div class="head" ><span class="weekday" id="{{idSuffix label}}-col">{{format label}}</span></div>
     <!-- <div class="mdl-tootlip" for="{{idSuffix label}}-col">{{label}}</div> -->
 
     <div class="cumulative"><span class="value">{{accumulatedRain id}}</span><span class="unit"> mm</span><br/>in the past 30 days</div>
+=======
+  <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone rainfall-preview-col">
+    <!-- <div class="head"><span class="weekday">{{head}}</span> <span class="date">{{date}}</span></div>
+    <div class="icon"><img src="{{icon}}"></div>
+    <div class="qpf"><span class="value">{{formatQPF qpf}}</span> <span class="unit">mm</span></div>
+    <div class="pop"><span class="value">{{pop}}</span><span class="unit">%</span> chance of rain</div>
+    {{#if today}}
+
+    {{/if}} -->
+    {{label}}
+    <div class="cumulative">Past 30 days: <span class="value">{{accumulatedRain id}}</span><span class="unit"> mm</span></div>
+>>>>>>> Started on BOM style weather preview on main page
   </div>
 </template>
