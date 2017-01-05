@@ -1,0 +1,26 @@
+<template name="RiceArticle">
+	{{#if isEnabled}}
+	<div class="mdl-grid" style="margin-left: 10px;">
+		<div id="corn-article" class="col-sm-6 col-md-6 col-xs-12 mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--1-offset-desktop">
+			<h2>
+				{{rice_article.title}}
+			</h2>
+			{{{rice_article.content}}}
+		</div>
+
+		<!-- <div class="col-sm-8 col-md-8 col-xs-12">
+			<h2>
+				Trivia
+			</h2>
+			<div class="slider">
+				<img class="service-icon-img" src="/packages/sarai_sarai-icm/public/images/slider_4.png" alt="slider image" />
+			</div>
+			<div class="empty-space" style="height: 32px"></div>
+			<div class="video-container">
+				<iframe src="https://www.youtube.com/embed/VlSmx5Tck-s?feature=oembed" allowfullscreen="" frameborder="0" height="300" ></iframe>
+			</div>
+		</div> -->
+	</div>
+	{{/if}}
+
+</template>

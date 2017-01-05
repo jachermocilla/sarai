@@ -1,0 +1,89 @@
+<template name="BananaArticle">
+	{{#if isEnabled}}
+
+	<div class="mdl-grid" style="margin-left: 10px;">
+      	<div class="mdl-cell mdl-cell--3-col">
+    	<a href="/icm-banana-uri-ng-pananim">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/plantingbanana-1.png" alt="" border="0"/>
+          <br/>URI NG PANANIM
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-banana-layouting">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/land_preparationbanana.png" alt="" border="0"/>
+          <br/>LAYOUTING
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-banana-pagaabono">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/fertilizer.png" alt="" border="0"/>
+          <br/>PAG-AABONO
+          </center>
+        </a>
+      	</div>
+     	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-banana-pagpapatubig">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/watering-can-2.png" alt="" border="0"/>
+          <br/>PAGPAPATUBIG
+          </center>
+        </a>
+      	</div>
+	  
+      	<div class="mdl-cell mdl-cell--3-col">
+    	<a href="/icm-banana-pangangasiwa">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/pest-copy.png" alt="" border="0"/>
+          <br/>PANGANGASIWA NG <br/> PESTE AT SAKIT
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-banana-pagtatanggal-suwi">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/seedling-copy.png" alt="" border="0"/>
+          <br/>PAGTATANGGAL NG <br/> SUWI
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-banana-pangangalaga-bunga">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/banana/icons/harvestingbanana.png" alt="" border="0"/>
+          <br/>PANGANGALAGA NG <br/> BUNGA
+          </center>
+        </a>
+      	</div>
+	</div>
+
+	<div class="mdl-grid" style="margin-left: 10px;">
+		<div id="corn-article" class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--1-offset-desktop">
+			<h2>
+				{{banana_article.title}}
+			</h2>
+			{{{banana_article.content}}}
+		</div>
+
+		<div class="">
+			<h2>
+				Trivia
+			</h2>
+			<div class="slider">
+				<!-- <img class="service-icon-img" src="/packages/sarai_sarai-icm/public/images/slider_4.png" alt="slider image" /> -->
+				<img style="margin-right: 200px;" src="/packages/sarai_sarai-icm/public/images/banana/komiks.jpg" alt="komiks" width="300"/>
+			</div>
+			<div class="empty-space" style="height: 32px"></div>
+			<div class="video-container">
+				<!-- <iframe width="854" height="480" src="https://www.youtube.com/embed/0cVeQHPVJNo?list=PLZOwkbT51Td201x-_26cqWg_r1BC7HmoK" frameborder="0" allowfullscreen></iframe> -->
+				<iframe height="300" src="https://www.youtube.com/embed/0cVeQHPVJNo?list=PLZOwkbT51Td201x-_26cqWg_r1BC7HmoK" allowfullscreen="" frameborder="0"></iframe>
+			</div>
+		</div>
+	</div>
+	{{/if}}
+
+</template>

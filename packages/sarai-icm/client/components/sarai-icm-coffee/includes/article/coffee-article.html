@@ -1,0 +1,95 @@
+<template name="CoffeeArticle">
+	<div class="mdl-grid" style="margin-left: 10px;">
+      	<div class="mdl-cell mdl-cell--3-col">
+    	   <a href="/icm-coffee-industry">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/industry.png" alt="" border="0"/>
+          <br/>INDUSTRY
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-coffee-preparation">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/preparation.png" alt="" border="0"/>
+          <br/>PREPARATION
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-coffee-varieties">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/varieties.png" alt="" border="0"/>
+          <br/>VARIETIES
+          </center>
+        </a>
+      	</div>
+     	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-coffee-management">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/management practices.png" alt="" border="0"/>
+          <br/>MANAGEMENT <br/> PRACTICES
+          </center>
+        </a>
+      	</div>
+	  
+      	<div class="mdl-cell mdl-cell--3-col">
+    	<a href="/icm-coffee-pest-management">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/pest management.png" alt="" border="0"/>
+          <br/>PEST <br/> MANAGEMENT
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-coffee-water-management">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/watering management.png" alt="" border="0"/>
+          <br/>WATER <br/> MANAGEMENT
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-coffee-harvesting">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/harvestingcoffee.png" alt="" border="0"/>
+          <br/>HARVESTING
+          </center>
+        </a>
+      	</div>
+     	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-coffee-processing">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/coffee/icons/processing.png" alt="" border="0"/>
+          <br/>PROCESSING
+          </center>
+        </a>
+      	</div>
+	</div>
+
+
+	{{#if isEnabled}}
+	<div class="mdl-grid" style="margin-left: 10px;">
+		<div id="corn-article" class="col-sm-6 col-md-6 col-xs-12 mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--1-offset-desktop">
+			<h2>
+				{{coffee_article.title}}
+			</h2>
+			{{{coffee_article.content}}}
+		</div>
+
+		<div class="col-sm-8 col-md-8 col-xs-12">
+			<!-- <h2>
+				Trivia
+			</h2>
+			<div class="slider">
+				<img class="service-icon-img" src="/packages/sarai_sarai-icm/public/images/slider_4.png" alt="slider image" />
+			</div>
+			<div class="empty-space" style="height: 32px"></div>
+			<div class="video-container">
+				<iframe src="https://www.youtube.com/embed/VlSmx5Tck-s?feature=oembed" allowfullscreen="" frameborder="0" height="300" ></iframe>
+			</div> -->
+		</div>
+	</div>
+	{{/if}}
+
+</template>

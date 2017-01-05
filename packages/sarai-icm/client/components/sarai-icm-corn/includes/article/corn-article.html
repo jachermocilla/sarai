@@ -1,0 +1,131 @@
+<template name="CornArticle">
+	{{#if isEnabled}}
+	<div class="mdl-grid" style="margin-left: 10px;">
+      	<div class="mdl-cell mdl-cell--3-col">
+    	<a href="/icm-corn-land-prep">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/land_preparation-1.png" alt="" border="0"/>
+          <br/>LAND <br/> PREPARATION
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <!-- <a href=""> -->
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/planting_calendar-1.png" alt="" border="0"/>
+          <br/>PLANTING <br/> CALENDAR
+          </center>
+        <!-- </a> -->
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <!-- <a href=""> -->
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/rainfall_distribution-1.jpg" alt="" border="0"/>
+          <br/>RAINFALL <br/> DISTRIBUTION
+          </center>
+        <!-- </a> -->
+      	</div>
+     	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-corn-pests-and-diseases">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/pest-1.jpg" alt="" border="0"/>
+          <br/>PESTS AND <br/> DISEASES
+          </center>
+        </a>
+      	</div>
+	  
+      	<div class="mdl-cell mdl-cell--3-col">
+    	<a href="/icm-corn-growth-stages">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/growth-1.jpg" alt="" border="0"/>
+          <br/>GROWTH <br/> STAGES
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-corn-fertilizer">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/fertilizer-1.jpg" alt="" border="0"/>
+          <br/>FERTILIZER
+          </center>
+        </a>
+      	</div>
+      	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-corn-processing">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/corn_processing-1.png" alt="" border="0"/>
+          <br/>PROCESSING
+          </center>
+        </a>
+      	</div>
+     	<div class="mdl-cell mdl-cell--3-col">
+        <a href="/icm-corn-farm-mechanization">
+          <center>
+          <img src="/packages/sarai_sarai-icm/public/images/corn/icons/farm_mechanization-1.jpg" alt="" border="0"/>
+          <br/>FARM <br/> MECHANIZATION
+          </center>
+        </a>
+      	</div>
+	</div>
+
+	<div class="mdl-grid" style="margin-left: 10px;">
+		<div id="corn-article" class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--1-offset-desktop">
+			<h2>
+				{{corn_article.title}}
+			</h2>
+			{{{corn_article.content}}}
+			<!-- <img class="service-icon-img" src="/packages/sarai_sarai-icm/public/images/corn/corn-nutrient-expert.png" alt="Corn Nutrient Expert" />
+			<h2>
+				Corn Nutrient Expert
+			</h2> -->
+		</div>
+
+		<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+			<h2>
+				Trivia
+			</h2>
+			<div class="slider">
+      <center>
+				<!-- <img class="service-icon-img" src="/packages/sarai_sarai-icm/public/images/slider_4.png" alt="slider image" /> -->
+			 {{> CornTriviaSlider}}
+       </center>
+      </div>
+			<div class="empty-space" style="height: 32px"></div>
+			<div class="video-container">
+				<iframe src="https://www.youtube.com/embed/VlSmx5Tck-s?feature=oembed" allowfullscreen="" frameborder="0" height="300" ></iframe>
+			</div>
+		</div>
+	</div>
+
+	<div class="mdl-grid" style="margin-left: 10px;">
+		<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--1-offset-desktop">
+			<img class="service-icon-img" src="/packages/sarai_sarai-icm/public/images/corn/corn-nutrient-expert.png" alt="Corn Nutrient Expert"/>
+		</div>
+
+		<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--0-offset-desktop">
+			<h2>
+				Corn Nutrient Expert
+			</h2>
+			<p style="font-size:14px;">Nutrient Expert for Maize is a joint project of the International Plant Nutrition Institute(IPNI) and Project SARAI. IPNI provided nutrient decision support tool. Project SARAI, on the other hand, test for its accuracy. So far, Project SARAI recorded an accuracy rate of 70% for this tool.</p>
+
+			<a href="https://www.ipni.net/" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" role="button" aria-pressed="true">GO TO IPNI WEBSITE</a>
+		</div>
+	</div>
+
+	{{/if}}
+
+</template>
+
+<template name="CornTriviaSlider">
+  <div id="trivia-carousel" class="trivia-carousel add-remove">
+    {{#each entry in slides}}
+      {{> CornTriviaSliderContent entry=entry index=@index}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="CornTriviaSliderContent">
+  <div>
+    <img src='{{entry.image}}' width="600" height="350">
+  </div>
+</template>

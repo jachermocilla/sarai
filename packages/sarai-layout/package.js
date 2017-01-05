@@ -58,6 +58,8 @@ Package.onUse(function(api) {
 
     "client/layout/ndvi-layout/ndvi-layout.html",
     "client/layout/ndvi-layout/ndvi-layout.less",
+
+    "client/layout/icm-layout/index.html"
   ]
 
   api.addFiles(client, "client")

@@ -1,0 +1,22 @@
+<template name="CornBloglist">
+	<div class="mdl-grid" id="bloglistid">
+		{{#if blogMain.enabled}}
+			<div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+				<h3 class="titleblog">{{blogMain.title}}</h3>
+				<p>{{blogMain.text}}</p>
+			</div>
+		{{/if}}
+		{{#each blogs}}
+			<div class="mdl-cell mdl-cell--4-col-dektop mdl-cell--8-col-tablet mdl-cell--4-col-phone" id="blogsection">
+				<div id="eachblog">
+			  		<a href="{{pathFor '/blog/:_id' _id=_id}}"><img src="{{img}}" class="blog-image"/><br />
+			  		<p id="eachtitleid">{{title}}</p></a>
+			  	</div>
+			  	<div id="blogdateid">
+				  	<span>{{makeString date}}</span>
+				  	<i class="material-icons md-15">chat_bubble_outline</i>{{count comments}}
+			  	</div>
+			</div>
+		{{/each}}
+	</div>
+</template>
