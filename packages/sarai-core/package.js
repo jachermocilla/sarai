@@ -46,9 +46,11 @@ Package.onUse(function(api) {
     "sarai:sarai-weather-monitoring",
     "sarai:sarai-apps-data",
     "sarai:sarai-accumulated-rainfall",
-    "sarai:sarai-ndvi"
+    "sarai:sarai-ndvi",
     // "sarai:sarai-satellite-rainfall"
     // "sarai:sarai-satellite-ndvi"
+    "sarai:sarai-icm",
+    "sarai:sarai-icm-data",
     ]
 
   api.use(packages);
