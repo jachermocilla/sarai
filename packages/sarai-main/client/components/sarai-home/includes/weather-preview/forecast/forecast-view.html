@@ -1,0 +1,41 @@
+<template name="ForecastView">
+  <div class="mdl-grid mdl-grid--no-spacing">
+    <div id="main-preview" class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="mdl-cell mdl-cell--12-col preview-title"><h3>Expected Rainfall</h3></div>
+
+      <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone " id="preview-controls">
+        <!-- <a href="" style="text-decoration: none; color: #333;"><strong>Rain</strong></a> | <a href="" style="text-decoration: none; color: #333;">Temp</a> -->
+        <div class="select-container">
+          <select class="mdl-select" id="preview-select-station">
+            {{#each station in weatherStations}}
+              <option value="{{station.id}}">{{station.label}}</option>
+              {{currentlySelected}}
+            {{/each}}
+          </select>
+        </div>
+      </div>
+
+      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone forecast-grid">
+        {{#with forecastToday}}
+          {{> PreviewCol}}
+        {{/with}}
+
+        {{#each forecastFirst3}}
+          {{> PreviewCol}}
+        {{/each}}
+      </div>
+      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone forecast-grid">
+        {{#each forecastNext4}}
+          {{> PreviewCol}}
+        {{/each}}
+      </div>
+
+      <div class="mdl-cell mdl-cell--12-col preview-more">
+        <button class="mdl-button mdl-js-button mdl-button--raised">
+          More
+        </button>
+      </div>
+
+    </div>
+  </div>
+</template>
