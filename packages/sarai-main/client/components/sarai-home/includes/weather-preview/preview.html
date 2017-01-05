@@ -1,53 +1,14 @@
 <template name="Preview">
-  <div class="mdl-grid mdl-grid--no-spacing">
-    <div id="main-preview" class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-      <div class="mdl-cell mdl-cell--12-col preview-title"><h3>Expected Rainfall</h3></div>
-
-      <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone " id="preview-controls">
-        <!-- <a href="" style="text-decoration: none; color: #333;"><strong>Rain</strong></a> | <a href="" style="text-decoration: none; color: #333;">Temp</a> -->
-        <div class="select-container">
-          <select class="mdl-select" id="preview-select-station">
-            {{#each station in weatherStations}}
-              <option value="{{station.id}}">{{station.label}}</option>
-              {{currentlySelected}}
-            {{/each}}
-          </select>
-        </div>
-      </div>
-
-      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone forecast-grid">
-        {{#with forecastToday}}
-          {{> PreviewCol}}
-        {{/with}}
-
-        {{#each forecastFirst3}}
-          {{> PreviewCol}}
-        {{/each}}
-      </div>
-      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone forecast-grid">
-        {{#each forecastNext4}}
-          {{> PreviewCol}}
-        {{/each}}
-      </div>
-
-      <div class="mdl-cell mdl-cell--12-col preview-more">
-        <button class="mdl-button mdl-js-button mdl-button--raised">
-          More
-        </button>
-      </div>
-
-    </div>
+  <div class="preview-controls">
+    <a href="#" class="link" id="forecast-view">Forecast View</a> <span class="pipe">|</span> <a href="#" class="link" id="concise-view">Concise View</a>
   </div>
-</template>
 
-<template name="PreviewCol">
-  <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone rainfall-preview-col">
-    <div class="head"><span class="weekday">{{head}}</span> <span class="date">{{date}}</span></div>
-    <div class="icon"><img src="{{icon}}"></div>
-    <div class="qpf"><span class="value">{{formatQPF qpf}}</span> <span class="unit">mm</span></div>
-    <div class="pop"><span class="value">{{pop}}</span><span class="unit">%</span> chance of rain</div>
-    {{#if today}}
-      <div class="cumulative">Past 30 days: <span class="value">{{cumulative}}</span><span class="unit"> mm</span></div>
+  {{#if forecastViewSelected}}
+    {{> ForecastView}}
+  {{else}}
+    {{#if conciseViewSelected}}
+      {{> ConciseView}}
     {{/if}}
-  </div>
+  {{/if}}
+
 </template>
