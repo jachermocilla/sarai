@@ -63,6 +63,18 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/weather-preview/preview.js",
     "client/components/sarai-home/includes/weather-preview/preview.less",
 
+    "client/components/sarai-home/includes/weather-preview/forecast/preview-col.html",
+
+    "client/components/sarai-home/includes/weather-preview/forecast/forecast-view.html",
+    "client/components/sarai-home/includes/weather-preview/forecast/forecast-view.js",
+    "client/components/sarai-home/includes/weather-preview/forecast/forecast-view.less",
+
+    "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.html",
+    "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.js",
+    "client/components/sarai-home/includes/weather-preview/concise/concise-view.html",
+    "client/components/sarai-home/includes/weather-preview/concise/concise-view.js",
+    "client/components/sarai-home/includes/weather-preview/concise/concise-view.less",
+
     "client/components/sarai-home/includes/twitter-feed/twitter-feed.html",
     "client/components/sarai-home/includes/twitter-feed/twitter-feed.js",
     "client/components/sarai-home/includes/twitter-feed/twitter-feed.less",
