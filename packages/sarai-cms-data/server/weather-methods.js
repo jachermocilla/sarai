@@ -41,8 +41,15 @@ Meteor.methods({
       },
       { upsert: false }
     )
+  },
 
-
-
+  'cms-weather-wu-key-edit': (key) => {
+    DSSSettings.update(
+      { name: 'wunderground-api-key'},
+      { $set:
+          { value: key}
+      },
+      { upsert: false }
+    )
   }
 })
