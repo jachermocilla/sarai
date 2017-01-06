@@ -1,5 +1,9 @@
 Template.PreviewColConcise.onCreated(() => {
-  Meteor.subscribe('weather-data-30')
+  Meteor.subscribe('weather-data-30', () => {
+    console.log("subscriptions finished")
+    const data = WeatherData.find({})
+    console.log(data.fetch())
+  })
 })
 
 Template.PreviewColConcise.onRendered(() => {
