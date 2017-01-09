@@ -22,6 +22,11 @@ Template.PreviewColConcise.helpers({
       return rainfall
     }
 
+  },
+
+  format: (label) => {
+    const newLabel = Meteor.previewHelpers.formatLabel(label)
+    return newLabel
   }
 })
 
