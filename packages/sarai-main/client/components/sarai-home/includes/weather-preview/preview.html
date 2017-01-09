@@ -1,14 +1,10 @@
 <template name="Preview">
   <div class="preview-controls">
-    <a href="#" class="link" id="forecast-view">Forecast View</a> <span class="pipe">|</span> <a href="#" class="link" id="concise-view">Concise View</a>
+    <a href="#" class="link" id="forecast-view">Forecast View</a> <span class="pipe">|</span> <a href="#" class="link" id="concise-view">Rainfall View</a>
   </div>
 
   {{#if forecastViewSelected}}
-<<<<<<< HEAD
-    <!-- {{> ForecastView}} -->
-=======
     {{> ForecastView}}
->>>>>>> 5a9fa292ae1bb3dc9e31635b8624a99402a9d9ad
   {{else}}
     {{#if conciseViewSelected}}
       {{> ConciseView}}

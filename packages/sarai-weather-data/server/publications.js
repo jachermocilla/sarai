@@ -4,17 +4,29 @@ Meteor.publish('weather-data', () => {
 });
 
 Meteor.publish('weather-data-30', () => {
-  let oneMonthAgo = new Date()
-  // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
-  oneMonthAgo.setDate(oneMonthAgo.getDate() - 31)
+  const oneMonthAgo = new Date()
+
+  let reverseOffset = oneMonthAgo.getDate() - 31
+
+  if (reverseOffset > 32 || reverseOffset < -32) {
+    const reverseOffset = -(31 - oneMonthAgo.getDate())
+  }
+
+  oneMonthAgo.setDate(reverseOffset)
 
   return WeatherData.find({dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
 });
 
 Meteor.publish('weather-data-30-by-id', (stationID) => {
-  let oneMonthAgo = new Date()
-  // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
-  oneMonthAgo.setDate(oneMonthAgo.getDate() - 31)
+  const oneMonthAgo = new Date()
+
+  let reverseOffset = oneMonthAgo.getDate() - 31
+
+  if (reverseOffset > 32 || reverseOffset < -32) {
+    const reverseOffset = -(31 - oneMonthAgo.getDate())
+  }
+
+  oneMonthAgo.setDate(reverseOffset)
 
   return WeatherData.find({id: stationID, dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
 });

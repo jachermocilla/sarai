@@ -32,5 +32,22 @@ Meteor.previewHelpers = {
     })
 
     return stations
+  },
+
+  formatLabel: (label) => {
+    const length = 15
+    let result = label
+
+    if (label.length > 20) {
+      result = `${result.substring(0, length)}...`
+    } else {
+      const labelLength = result.length
+
+      while (result.length < length) {
+        result += ' '
+      }
+    }
+
+    return result
   }
 }
