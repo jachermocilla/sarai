@@ -63,22 +63,31 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/weather-preview/preview.js",
     "client/components/sarai-home/includes/weather-preview/preview.less",
 
+<<<<<<< 0b303db1542022d7bef296b172a7f6850c420496
 <<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
     "client/components/sarai-home/includes/weather-preview/forecast/preview-col-forecast.html",
     "client/components/sarai-home/includes/weather-preview/forecast/preview-col-forecast.less",
 =======
     "client/components/sarai-home/includes/weather-preview/forecast/preview-col.html",
 >>>>>>> Started on BOM style weather preview on main page
+=======
+    "client/components/sarai-home/includes/weather-preview/forecast/preview-col-forecast.html",
+    "client/components/sarai-home/includes/weather-preview/forecast/preview-col-forecast.less",
+>>>>>>> Cleaned up rainfall preview a bit
 
     "client/components/sarai-home/includes/weather-preview/forecast/forecast-view.html",
     "client/components/sarai-home/includes/weather-preview/forecast/forecast-view.js",
     "client/components/sarai-home/includes/weather-preview/forecast/forecast-view.less",
 
     "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.html",
+<<<<<<< 0b303db1542022d7bef296b172a7f6850c420496
 <<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
     "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.less",
 =======
 >>>>>>> Started on BOM style weather preview on main page
+=======
+    "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.less",
+>>>>>>> Cleaned up rainfall preview a bit
     "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.js",
     "client/components/sarai-home/includes/weather-preview/concise/concise-view.html",
     "client/components/sarai-home/includes/weather-preview/concise/concise-view.js",

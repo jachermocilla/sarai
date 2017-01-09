@@ -28,12 +28,15 @@ Template.PreviewColConcise.helpers({
   format: (label) => {
     const newLabel = Meteor.previewHelpers.formatLabel(label)
     return newLabel
+<<<<<<< 0b303db1542022d7bef296b172a7f6850c420496
   },
 
   idSuffix: (label) => {
     const suffix = label.replace(/ /g, '-').toLowerCase()
 
     return suffix
+=======
+>>>>>>> Cleaned up rainfall preview a bit
   }
 })
 
