@@ -1,15 +1,35 @@
 
 #twitter-feed {
   position: fixed;
+  -webkit-transform: translateZ(0);
   bottom: 0;
   right: 0;
   background-color: white;
   overflow-y: scroll;
   border-radius: 3px;
-  max-height: 25%;
+  /*height: 25%;*/
+  width: 320px;
   border-style: groove;
   border-width: 1px;
   border-color: #262626;
+  transition: 0.4s ease;
+}
+
+#twitter-feed.min {
+  height: 25px;
+}
+
+#twitter-feed.max {
+  height: 25%;
+}
+
+#twitter-feed #toggle-visibility {
+  transition: 0.4s ease-in-out;
+}
+
+#twitter-feed #toggle-visibility:hover {
+  cursor: pointer;
+  color: gray;
 }
 
 @media screen and (max-width: 600px) {
