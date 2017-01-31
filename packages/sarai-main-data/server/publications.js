@@ -4,3 +4,11 @@
 Meteor.publish('main', function () {
   return Main.find();
 });
+
+Meteor.publish('provinces', function () {
+  return Provinces.find();
+});
+
+Meteor.publish('weather-outlook', function () {
+  return WeatherOutlook.find();
+});
