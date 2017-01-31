@@ -13,9 +13,13 @@
         <div class="select-container">
           <select class="mdl-select" id="preview-select-station">
             {{#each station in weatherStations}}
-              <option value="{{station.id}}">{{station.label}}</option>
-              {{currentlySelected}}
+              <optgroup label="{{station.region}}">
+                {{#each option in station.options}}
+                  <option value="{{option.id}}">{{option.label}}</option>
+                {{/each}}
+              </optgroup>
             {{/each}}
+
           </select>
         </div>
       </div>

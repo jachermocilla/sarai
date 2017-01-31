@@ -87,13 +87,13 @@ Package.onUse(function(api) {
 
     "lib/weather-preview/preview-helpers.js",
     "lib/weather-preview/preview-sample-data.js",
-
     "client/components/sarai-home/includes/rainfall-outlook/preview-col-rainfall-outlook.html",
     "client/components/sarai-home/includes/rainfall-outlook/preview-col-rainfall-outlook.less",
 
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.html",
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.js",
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.less"
+    "lib/weather-preview/weather-constants.js"
   ]
 
   api.addFiles(client, "client")
