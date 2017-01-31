@@ -125,6 +125,9 @@ Package.onUse(function(api) {
     "client/components/weather/stations/weather-stations.html",
     "client/components/weather/stations/weather-stations.js",
     "client/components/weather/stations/weather-stations.less",
+    "client/components/weather/stations/weather-station-row.html",
+    "client/components/weather/stations/weather-station-row.js",
+    "client/components/weather/stations/weather-station-row.less",
 
     //Weather Data
     "client/components/weather/data/weather-data.html",
