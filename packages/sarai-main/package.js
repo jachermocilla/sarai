@@ -93,7 +93,6 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.html",
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.js",
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.less"
-    "lib/weather-preview/weather-constants.js"
   ]
 
   api.addFiles(client, "client")
