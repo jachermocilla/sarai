@@ -32,10 +32,13 @@ Meteor.previewHelpers = {
     })
 
     return stations
+<<<<<<< HEAD
 <<<<<<< 0b303db1542022d7bef296b172a7f6850c420496
 <<<<<<< db011ef3f21ff019438d32f138866499db71fb7e
 =======
 >>>>>>> Cleaned up rainfall preview a bit
+=======
+>>>>>>> 8bafe98f45586038ca70ccd01af295db6bac4ece
   },
 
   formatLabel: (label) => {
@@ -53,10 +56,13 @@ Meteor.previewHelpers = {
     }
 
     return result
+<<<<<<< HEAD
 <<<<<<< 0b303db1542022d7bef296b172a7f6850c420496
 =======
 >>>>>>> Started on BOM style weather preview on main page
 =======
 >>>>>>> Cleaned up rainfall preview a bit
+=======
+>>>>>>> 8bafe98f45586038ca70ccd01af295db6bac4ece
   }
 }
