@@ -21,7 +21,10 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
-    "lib/collections/sarai-main-data.js"
+    "lib/collections/sarai-main-data.js",
+
+    "lib/collections/sarai-provinces.js",
+    "lib/collections/sarai-weather-outlook.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
@@ -29,7 +32,10 @@ Package.onUse(function(api) {
   var server = [
     "server/fixtures.js",
     "server/publications.js",
-    "server/methods.js"
+    "server/methods.js",
+
+    "server/weather-outlook-fixtures.js",
+    "server/provinces-fixtures.js"
   ]
 
   api.addFiles(server, "server")
@@ -39,6 +45,8 @@ Package.onUse(function(api) {
 
   api.export([
     "Main",
+    "WeatherOutlook",
+    "Provinces"
   ])
 });
 
