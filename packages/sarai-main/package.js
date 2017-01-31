@@ -86,7 +86,14 @@ Package.onUse(function(api) {
     "client/components/sarai-home/on-created.js",
 
     "lib/weather-preview/preview-helpers.js",
-    "lib/weather-preview/preview-sample-data.js"
+    "lib/weather-preview/preview-sample-data.js",
+
+    "client/components/sarai-home/includes/rainfall-outlook/preview-col-rainfall-outlook.html",
+    "client/components/sarai-home/includes/rainfall-outlook/preview-col-rainfall-outlook.less",
+
+    "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.html",
+    "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.js",
+    "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.less"
   ]
 
   api.addFiles(client, "client")
