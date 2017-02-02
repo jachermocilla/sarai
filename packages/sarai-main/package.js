@@ -87,7 +87,6 @@ Package.onUse(function(api) {
 
     "lib/weather-preview/preview-helpers.js",
     "lib/weather-preview/preview-sample-data.js",
-
     "client/components/sarai-home/includes/rainfall-outlook/preview-col-rainfall-outlook.html",
     "client/components/sarai-home/includes/rainfall-outlook/preview-col-rainfall-outlook.less",
 
