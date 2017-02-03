@@ -2,6 +2,7 @@
   <div class="mdl-grid mdl-grid--no-spacing">
     <div id="main-preview" class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
       <div class="mdl-cell mdl-cell--12-col preview-title"><h3>Rainfall Outlook for 2017</h3>
+<<<<<<< HEAD
         <h5>Expected amount of rainfall for the first 5 months of 2017<br/>
            Inaasahang dami ng ulan sa unang 5 buwan ng 2017</h5>
       </div>
@@ -9,6 +10,16 @@
       <div class="mdl-cell mdl-cell--3-offset-desktop mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone " id="preview-controls">
        <label for="preview-select-province">PROVINCE</label>
         <div class="select-container">
+=======
+        <h6><strong>Expected amount of rainfall from February to May 2017</strong><br/>
+            Inaasahang dami ng ulan mula Pebrero hanggang Mayo 2017</h6>
+      </div>
+      
+      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone" id="preview-controls">
+      <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+       <label for="preview-select-province">PROVINCE</label>
+       <div class="select-container">
+>>>>>>> rainfall-outlook
           <select class="mdl-select" id="preview-select-province">
             {{#each province in provinces}}
               <option value="{{province.province}}">{{province.province}}</option>
@@ -16,7 +27,13 @@
             {{/each}}
           </select>
         </div>
+<<<<<<< HEAD
 
+=======
+      </div>
+
+      <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+>>>>>>> rainfall-outlook
         <label for="preview-select-municipality">MUNICIPALITY</label>
         <div class="select-container">
           <select class="mdl-select" id="preview-select-municipality">          
@@ -27,6 +44,7 @@
           </select>
         </div>
       </div>
+<<<<<<< HEAD
 
       <div class="mdl-grid mdl-grid--no-spacing mdl-cell--10-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
         <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
@@ -36,6 +54,14 @@
           {{/each}}
         <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--2-col-tablet mdl-cell--2-col-phone">
         </div>
+=======
+      </div>
+
+      <div class="mdl-grid mdl-grid--no-spacing mdl-cell mdl-cell--3-offset-desktop mdl-cell--6-col-desktop mdl-cell--2-offset-tablet mdl-cell--8-col-tablet mdl-cell--1-offset-phone mdl-cell--10-col-phone">
+        {{#each monthlyRainfall}}
+          {{> PreviewRainfallOutlookCol}}
+        {{/each}}
+>>>>>>> rainfall-outlook
       </div>
       
     </div>

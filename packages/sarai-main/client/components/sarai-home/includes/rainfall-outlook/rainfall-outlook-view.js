@@ -40,10 +40,17 @@ Template.RainfallOutlookView.helpers({
       if (weatherOutlook){
         let outlook = []
 
+<<<<<<< HEAD
         outlook.push({
           head: 'January',
           value: Math.round(weatherOutlook.January * 10) / 10
         })
+=======
+        // outlook.push({
+        //   head: 'January',
+        //   value: Math.round(weatherOutlook.January * 10) / 10
+        // })
+>>>>>>> rainfall-outlook
 
         outlook.push({
           head: 'February',
