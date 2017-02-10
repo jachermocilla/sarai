@@ -65,6 +65,11 @@ Template.RainfallOutlookView.helpers({
           value: Math.round(weatherOutlook.May * 10) / 10
         })
 
+        outlook.push({
+          head: 'June',
+          value: Math.round(weatherOutlook.June * 10) / 10
+        })
+
         return outlook
       }
   },
