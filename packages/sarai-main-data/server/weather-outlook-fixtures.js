@@ -1,4 +1,5 @@
-if (WeatherOutlook.find().count() === 0) {
+	WeatherOutlook.remove({});
+
 	WeatherOutlook.insert({ 
 		province: "Abra", 
 		municipality: "Bangued", 
@@ -7,9 +8,10 @@ if (WeatherOutlook.find().count() === 0) {
 				January: 10.0273967143, 
 				February: 9.140968, 
 				March: 22.8693015, 
-				April: 70.5318737143, 
-				May: 301.00, 
-				June: 402.94 
+				April: 70.5318737143,
+				May: 301.00,
+				June: 402.94
+
 			}
 		}
 	}); 
@@ -23653,4 +23655,3 @@ if (WeatherOutlook.find().count() === 0) {
 			}
 		}
 	}); 
-}
