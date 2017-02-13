@@ -5,7 +5,7 @@ Template.WeatherDataCMS.onCreated(() => {
 })
 
 Template.WeatherDataCMS.onRendered(() => {
-  initDialog('cms-weather-data-dialog')
+  initWeatherDataDialog('cms-weather-data-dialog')
 
 })
 
@@ -31,7 +31,7 @@ Template.WeatherDataCMS.events({
 
 })
 
-const initDialog = (dialogID) => {
+const initWeatherDataDialog = (dialogID) => {
   const dialog = document.querySelector(`#${dialogID}`)
 
   dialog.querySelector('.cancel').addEventListener('click', () => {
