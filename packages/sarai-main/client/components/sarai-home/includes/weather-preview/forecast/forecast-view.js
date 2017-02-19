@@ -91,9 +91,9 @@ Template.ForecastView.helpers({
   weatherStations: () => {
     const stations = WeatherStations.find({}).fetch()
 
-    const cleanStations = Meteor.previewHelpers.formatStationList(stations)
+    const processedStations = Meteor.previewHelpers.formatStationList(stations)
 
-    return cleanStations
+    return processedStations
   },
 
   currentlySelected: (curr) => {
