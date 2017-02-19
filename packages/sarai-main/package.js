@@ -21,7 +21,8 @@ Package.onUse(function(api) {
     "sarai:sarai-main-data",
     "sarai:sarai-services-data",
     "sarai:sarai-blog-data",
-    "sarai:sarai-weather-data"
+    "sarai:sarai-weather-data",
+    "clinical:csv"
   ]
 
   api.use(packages)
@@ -72,6 +73,7 @@ Package.onUse(function(api) {
 
     "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.html",
     "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.less",
+
     "client/components/sarai-home/includes/weather-preview/concise/preview-col-concise.js",
     "client/components/sarai-home/includes/weather-preview/concise/concise-view.html",
     "client/components/sarai-home/includes/weather-preview/concise/concise-view.js",
