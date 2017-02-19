@@ -283,4 +283,4 @@ Template.PreviewCol.helpers({
       return qpf
     }
   }
-})
+  
