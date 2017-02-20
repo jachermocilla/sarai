@@ -160,5 +160,59 @@ Meteor.previewHelpers = {
     }
 
     return result
+  },
+
+  constructChart: (provinces, past30DayRainfall) => {
+    return {
+        title: {
+            text: 'Past 30-day rainfall'
+        },
+        plotOptions: {
+          line: {
+            marker: {
+              enabled: false
+            }
+          },
+        },
+        credits: {
+          enabled: false
+        },
+        yAxis: [
+          {
+            title: {
+              text: 'Millimeters of Rain',
+              style: {
+                fontWeight: 'bold'
+              }
+            },
+            labels: {
+              format: '{value}',
+              style: {
+                color: '#0066cc',
+                fontWeight: 'bold'
+              }
+            }
+          }
+        ],
+        xAxis: [
+          {categories: provinces}
+        ],
+        series: [{
+          type: 'line',
+          name: 'Past 30-day rainfall',
+          data: past30DayRainfall
+          }
+        ],
+
+        tooltip: {
+          borderColor: '#cccccc',
+          formatter: function( ) {
+            var s = '<b>' + this.points[0].x + '<br/>' + this.points[0].series.name + ': ' + this.points[0].y + ' mm';
+
+            return s;
+          },
+          shared: true
+        }
+    }
   }
 }
