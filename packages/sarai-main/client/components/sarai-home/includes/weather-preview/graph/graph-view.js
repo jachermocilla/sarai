@@ -23,7 +23,7 @@ const displayRainData = () => {
   let provinces = []
 
   const stations = WeatherStations.find({}).fetch()
-  const cleanStations = Meteor.previewHelpers.formatStationList(stations)
+  const cleanStations = Meteor.previewHelpers.sortStations(stations)
 
   for (let entry of cleanStations){
     // const label = Meteor.previewHelpers.formatLabel(entry.label)
@@ -40,5 +40,5 @@ const displayRainData = () => {
   //remove any existing chart first
   $('div.graph-view').remove()
 
-  $('<div class="rainfall-chart">').appendTo('#graph-view-container').highcharts(Meteor.previewHelpers.constructChart(provinces, past30DayRainfall))
+  $('<div class="graph-view">').appendTo('#graph-view-container').highcharts(Meteor.previewHelpers.constructChart(provinces, past30DayRainfall))
 }
