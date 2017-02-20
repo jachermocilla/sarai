@@ -5,9 +5,7 @@
   bottom: 0;
   right: 0;
   background-color: white;
-  overflow-y: scroll;
   border-radius: 3px;
-  /*height: 25%;*/
   width: 320px;
   border-style: groove;
   border-width: 1px;
@@ -17,10 +15,12 @@
 
 #twitter-feed.min {
   height: 25px;
+  overflow-y: hidden;
 }
 
 #twitter-feed.max {
   height: 25%;
+  overflow-y: scroll;
 }
 
 #twitter-feed #toggle-visibility {
@@ -30,6 +30,10 @@
 #twitter-feed #toggle-visibility:hover {
   cursor: pointer;
   color: gray;
+}
+
+#twitter-feed .header {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
