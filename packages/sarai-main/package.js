@@ -94,7 +94,11 @@ Package.onUse(function(api) {
 
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.html",
     "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.js",
-    "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.less"
+    "client/components/sarai-home/includes/rainfall-outlook/rainfall-outlook-view.less",
+
+    "client/components/sarai-home/includes/weather-preview/graph/graph-view.html",
+    "client/components/sarai-home/includes/weather-preview/graph/graph-view.js",
+    "client/components/sarai-home/includes/weather-preview/graph/graph-view.less",
   ]
 
   api.addFiles(client, "client")
