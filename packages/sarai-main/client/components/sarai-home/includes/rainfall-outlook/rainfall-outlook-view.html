@@ -8,20 +8,33 @@
         <br/>Initial condition considered is February 2017</strong></h6>
       </div>
       
-      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone" id="preview-controls">
-      <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--6-col-phone">
+      <div class="mdl-grid mdl-grid--no-spacing mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone" id="preview-controls">
+      
+      <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+       <label for="preview-select-region">REGION</label>
+       <div class="select-container">
+          <select class="mdl-select" id="preview-select-region">
+            {{#each region in regions}}
+              <option value="{{region.region}}">{{region.region}}</option>
+              {{currentlySelectedRegion}}
+            {{/each}}
+          </select>
+        </div>
+      </div>
+
+      <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
        <label for="preview-select-province">PROVINCE</label>
        <div class="select-container">
           <select class="mdl-select" id="preview-select-province">
             {{#each province in provinces}}
-              <option value="{{province.province}}">{{province.province}}</option>
+              <option value="{{province.[@index]}}">{{province[@index]}}</option>
               {{currentlySelectedProvince}}
             {{/each}}
           </select>
         </div>
       </div>
 
-      <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--6-col-phone">
+      <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
         <label for="preview-select-municipality">MUNICIPALITY</label>
         <div class="select-container">
           <select class="mdl-select" id="preview-select-municipality">          
