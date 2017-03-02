@@ -25,7 +25,7 @@ Template.RainfallOutlookView.events({
     const region = e.currentTarget.value
     Session.set('region', region)
 
-    let province = Regions.findOne({region:region}).province[0]
+    const province = Regions.findOne({region:region}).province[0]
 
     // sets province to first province in the chosen region 
     Session.set('province',Regions.findOne({region:region}).province[0])
