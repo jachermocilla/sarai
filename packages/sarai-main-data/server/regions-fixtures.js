@@ -68,7 +68,7 @@ if (Regions.find().count() === 0) {
 		province: ["Agusan del Norte","Agusan del Sur","Dinagat Islands","Surigao del Norte","Surigao del Sur"]
 	});
 	Regions.insert({
-		region: "Autonomous Region in Muslim Mindanao",
+		region: "ARMM",
 		province: ["Basilan","Maguindanao","Shariff Kabunsuan","Sulu","Tawi-Tawi"]
 	});
 }
