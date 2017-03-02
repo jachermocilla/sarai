@@ -1,13 +1,18 @@
 Template.RainfallOutlookView.onCreated(() => {
+  Meteor.subscribe('regions')
   Meteor.subscribe('provinces')
   Meteor.subscribe('weather-outlook')
 
-  //default is Laguna and Los Baños
+  //default is Region IV-A: CALABARZON, Laguna and Los Baños
+  Session.set('region', 'Region IV-A: CALABARZON')
   Session.set('province', 'Laguna')
   Session.set('municipality', 'Los Baños')
 })
 
 Template.RainfallOutlookView.onRendered(() => {
+  const region = Session.get('region')
+  $('#preview-select-region').val(region)
+
   const province = Session.get('province')
   $('#preview-select-province').val(province)
 
@@ -16,6 +21,19 @@ Template.RainfallOutlookView.onRendered(() => {
 })
 
 Template.RainfallOutlookView.events({
+  'change #preview-select-region': (e) => {
+    const region = e.currentTarget.value
+    Session.set('region', region)
+
+    const province = Regions.findOne({region:region}).province[0]
+
+    // sets province to first province in the chosen region 
+    Session.set('province',Regions.findOne({region:region}).province[0])
+
+    // sets municipality to first municipality in the chosen province 
+    Session.set('municipality',Provinces.findOne({province:province}).municipality[0])
+  },
+  
   'change #preview-select-province': (e) => {
     const province = e.currentTarget.value
     Session.set('province', province)
@@ -79,10 +97,22 @@ Template.RainfallOutlookView.helpers({
       }
   },
 
-  provinces: () => {
-    const provinces = Provinces.find({}).fetch()
+  regions: () => {
+    const regions = Regions.find({}).fetch()
 
-    return provinces
+    return regions
+  },
+
+  currentlySelectedRegion: (curr) => {
+    const region = Session.get('region')
+    $('#preview-select-region').val(region)
+  },
+
+  provinces: () => {
+    const region = Session.get('region')
+    const provinces = Regions.findOne({region:region})
+
+    return provinces && provinces.province
   },
 
   currentlySelectedProvince: (curr) => {
@@ -100,5 +130,5 @@ Template.RainfallOutlookView.helpers({
   currentlySelectedMunicipality: (curr) => {
     const municipality = Session.get('municipality')
     $('#preview-select-municipality').val(municipality)
-  }
+  },
 })
