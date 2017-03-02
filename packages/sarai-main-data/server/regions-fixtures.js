@@ -1,14 +1,14 @@
 if (Regions.find().count() === 0) {
 	Regions.insert({
-		region: "Negros Island Region",
+		region: "Negros Island Region (NIR)",
 		province: ["Negros Occidental","Negros Oriental"]
 	});
 	Regions.insert({
-		region: "National Capital Region",
+		region: "National Capital Region (NCR)",
 		province: ["Metropolitan Manila"]
 	});
 	Regions.insert({
-		region: "Cordillera Administrative Region",
+		region: "Cordillera Administrative Region (CAR)",
 		province: ["Abra","Apayao","Benguet","Ifugao","Kalinga","Mountain Province"]
 	});
 	Regions.insert({
