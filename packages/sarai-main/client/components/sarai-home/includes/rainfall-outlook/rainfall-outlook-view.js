@@ -51,9 +51,10 @@ Template.RainfallOutlookView.events({
 Template.RainfallOutlookView.helpers({
 
   monthlyRainfall: () => {
+      const region = Session.get('region')
       const province = Session.get('province')
       const municipality = Session.get('municipality')
-      const weatherOutlook = WeatherOutlook.findOne({province: province, municipality: municipality}).data.month
+      const weatherOutlook = WeatherOutlook.findOne({region:region, province: province, municipality: municipality}).data.month
 
       if (weatherOutlook){
         let outlook = []

@@ -1,6 +1,7 @@
 WeatherOutlook.remove({});
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "All", 
 	data: {
@@ -17,6 +18,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Bangued", 
 	data: {
@@ -33,6 +35,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Boliney", 
 	data: {
@@ -49,6 +52,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Bucay", 
 	data: {
@@ -65,6 +69,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Bucloc", 
 	data: {
@@ -81,12 +86,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Daguioman", 
 	data: {
 		month: {
 			January: 24.8152027857, 
-			February: 15.10, 
+			February: 15.1, 
 			March: 38.070356875, 
 			April: 82.9906954861, 
 			May: 296.5674338889, 
@@ -97,6 +103,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Danglas", 
 	data: {
@@ -113,6 +120,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Dolores", 
 	data: {
@@ -129,12 +137,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "La Paz", 
 	data: {
 		month: {
 			January: 11.9532634286, 
-			February: 8.10, 
+			February: 8.1, 
 			March: 25.1119277778, 
 			April: 73.8261983333, 
 			May: 293.5130052778, 
@@ -145,6 +154,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Lacub", 
 	data: {
@@ -161,6 +171,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Lagangilang", 
 	data: {
@@ -177,6 +188,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Lagayan", 
 	data: {
@@ -193,6 +205,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Langiden", 
 	data: {
@@ -209,6 +222,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Licuan-Baay", 
 	data: {
@@ -225,6 +239,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Luba", 
 	data: {
@@ -241,12 +256,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Malibcong", 
 	data: {
 		month: {
 			January: 28.3796293929, 
-			February: 17.40, 
+			February: 17.4, 
 			March: 39.0469210417, 
 			April: 79.2404018403, 
 			May: 280.3797979514, 
@@ -257,6 +273,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Manabo", 
 	data: {
@@ -273,6 +290,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Peñarrubia", 
 	data: {
@@ -289,6 +307,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Pidigan", 
 	data: {
@@ -305,6 +324,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Pilar", 
 	data: {
@@ -321,6 +341,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Sallapadan", 
 	data: {
@@ -337,6 +358,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "San Isidro", 
 	data: {
@@ -353,6 +375,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "San Juan", 
 	data: {
@@ -369,6 +392,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "San Quintin", 
 	data: {
@@ -385,6 +409,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Tayum", 
 	data: {
@@ -401,6 +426,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Tineg", 
 	data: {
@@ -417,6 +443,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Tubo", 
 	data: {
@@ -433,6 +460,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Abra", 
 	municipality: "Villaviciosa", 
 	data: {
@@ -449,6 +477,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "All", 
 	data: {
@@ -465,6 +494,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Buenavista", 
 	data: {
@@ -481,6 +511,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Butuan City", 
 	data: {
@@ -497,6 +528,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Cabadbaran City", 
 	data: {
@@ -513,6 +545,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Carmen", 
 	data: {
@@ -529,6 +562,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Jabonga", 
 	data: {
@@ -545,6 +579,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Kitcharao", 
 	data: {
@@ -561,12 +596,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Las Nieves", 
 	data: {
 		month: {
 			January: 438.797341956, 
-			February: 319.60, 
+			February: 319.6, 
 			March: 327.8115637607, 
 			April: 210.9924730983, 
 			May: 174.0582625427, 
@@ -577,12 +613,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Magallanes", 
 	data: {
 		month: {
 			January: 475.6907428571, 
-			February: 358.50, 
+			February: 358.5, 
 			March: 334.0711044444, 
 			April: 220.5732119444, 
 			May: 127.3917763889, 
@@ -593,6 +630,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Mainit Lake", 
 	data: {
@@ -609,12 +647,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Nasipit", 
 	data: {
 		month: {
 			January: 374.5086357143, 
-			February: 311.10, 
+			February: 311.1, 
 			March: 298.4911851852, 
 			April: 168.7030838889, 
 			May: 122.3754181481, 
@@ -625,6 +664,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Remedios T. Romualdez", 
 	data: {
@@ -641,12 +681,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Santiago", 
 	data: {
 		month: {
 			January: 585.7983603492, 
-			February: 459.20, 
+			February: 459.2, 
 			March: 425.2817012346, 
 			April: 270.0499824691, 
 			May: 172.484797284, 
@@ -657,12 +698,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Norte", 
 	municipality: "Tubay", 
 	data: {
 		month: {
 			January: 548.3721762857, 
-			February: 428.10, 
+			February: 428.1, 
 			March: 381.0916602183, 
 			April: 239.6343849365, 
 			May: 151.5072749167, 
@@ -673,6 +715,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "All", 
 	data: {
@@ -689,6 +732,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Bayugan City", 
 	data: {
@@ -705,6 +749,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Bunawan", 
 	data: {
@@ -721,12 +766,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Esperanza", 
 	data: {
 		month: {
 			January: 498.8367544184, 
-			February: 325.20, 
+			February: 325.2, 
 			March: 358.6623908829, 
 			April: 223.477342252, 
 			May: 198.8408103472, 
@@ -737,12 +783,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "La Paz", 
 	data: {
 		month: {
 			January: 471.1107560079, 
-			February: 308.70, 
+			February: 308.7, 
 			March: 371.3169917978, 
 			April: 239.6451671142, 
 			May: 239.5557471682, 
@@ -753,6 +800,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Loreto", 
 	data: {
@@ -769,6 +817,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Prosperidad", 
 	data: {
@@ -785,6 +834,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Rosario", 
 	data: {
@@ -801,12 +851,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "San Francisco", 
 	data: {
 		month: {
 			January: 594.1939909143, 
-			February: 361.40, 
+			February: 361.4, 
 			March: 425.126958963, 
 			April: 271.061642963, 
 			May: 220.3561979815, 
@@ -817,6 +868,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "San Luis", 
 	data: {
@@ -833,6 +885,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Santa Josefa", 
 	data: {
@@ -849,6 +902,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Sibagat", 
 	data: {
@@ -865,6 +919,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Talacogon", 
 	data: {
@@ -881,6 +936,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Trento", 
 	data: {
@@ -897,6 +953,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Agusan del Sur", 
 	municipality: "Veruela", 
 	data: {
@@ -913,6 +970,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "All", 
 	data: {
@@ -929,6 +987,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Altavas", 
 	data: {
@@ -945,12 +1004,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Balete", 
 	data: {
 		month: {
 			January: 190.9518789524, 
-			February: 135.40, 
+			February: 135.4, 
 			March: 175.8643015741, 
 			April: 81.7532190741, 
 			May: 175.5445260185, 
@@ -961,6 +1021,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Banga", 
 	data: {
@@ -977,6 +1038,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Batan", 
 	data: {
@@ -993,6 +1055,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Buruanga", 
 	data: {
@@ -1009,6 +1072,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Ibajay", 
 	data: {
@@ -1025,6 +1089,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Kalibo", 
 	data: {
@@ -1041,6 +1106,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Lezo", 
 	data: {
@@ -1057,6 +1123,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Libacao", 
 	data: {
@@ -1073,6 +1140,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Madalag", 
 	data: {
@@ -1089,6 +1157,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Makato", 
 	data: {
@@ -1105,6 +1174,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Malay", 
 	data: {
@@ -1121,6 +1191,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Malinao", 
 	data: {
@@ -1137,6 +1208,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Nabas", 
 	data: {
@@ -1153,6 +1225,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "New Washington", 
 	data: {
@@ -1169,6 +1242,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Numancia", 
 	data: {
@@ -1185,6 +1259,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Aklan", 
 	municipality: "Tangalan", 
 	data: {
@@ -1201,6 +1276,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "All", 
 	data: {
@@ -1217,6 +1293,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Bacacay", 
 	data: {
@@ -1233,6 +1310,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Camalig", 
 	data: {
@@ -1249,6 +1327,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Daraga", 
 	data: {
@@ -1265,12 +1344,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Guinobatan", 
 	data: {
 		month: {
 			January: 198.5075130612, 
-			February: 133.40, 
+			February: 133.4, 
 			March: 124.8570455159, 
 			April: 96.9986879762, 
 			May: 190.4994857937, 
@@ -1281,6 +1361,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Jovellar", 
 	data: {
@@ -1297,6 +1378,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Legazpi City", 
 	data: {
@@ -1313,6 +1395,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Libon", 
 	data: {
@@ -1329,12 +1412,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Ligao City", 
 	data: {
 		month: {
 			January: 217.9880877551, 
-			February: 146.50, 
+			February: 146.5, 
 			March: 140.7828562698, 
 			April: 107.3619881746, 
 			May: 200.7861392857, 
@@ -1345,6 +1429,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Malilipot", 
 	data: {
@@ -1361,6 +1446,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Malinao", 
 	data: {
@@ -1377,6 +1463,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Manito", 
 	data: {
@@ -1393,6 +1480,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Oas", 
 	data: {
@@ -1409,6 +1497,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Pio Duran", 
 	data: {
@@ -1425,6 +1514,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Polangui", 
 	data: {
@@ -1441,6 +1531,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Rapu-Rapu", 
 	data: {
@@ -1457,6 +1548,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Santo Domingo", 
 	data: {
@@ -1473,6 +1565,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Tabaco City", 
 	data: {
@@ -1489,12 +1582,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Albay", 
 	municipality: "Tiwi", 
 	data: {
 		month: {
 			January: 271.6549013333, 
-			February: 199.60, 
+			February: 199.6, 
 			March: 228.4467303704, 
 			April: 166.4321033333, 
 			May: 305.0216424074, 
@@ -1505,6 +1599,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "All", 
 	data: {
@@ -1521,6 +1616,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Anini-Y", 
 	data: {
@@ -1537,12 +1633,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Barbaza", 
 	data: {
 		month: {
 			January: 79.143302619, 
-			February: 47.70, 
+			February: 47.7, 
 			March: 104.8579072434, 
 			April: 71.6105745278, 
 			May: 286.4336211389, 
@@ -1553,6 +1650,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Bugasong", 
 	data: {
@@ -1569,6 +1667,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Caluya", 
 	data: {
@@ -1585,6 +1684,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Culasi", 
 	data: {
@@ -1601,6 +1701,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Hamtic", 
 	data: {
@@ -1617,6 +1718,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Laua-An", 
 	data: {
@@ -1633,6 +1735,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Libertad", 
 	data: {
@@ -1649,6 +1752,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Pandan", 
 	data: {
@@ -1665,6 +1769,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Patnongon", 
 	data: {
@@ -1681,6 +1786,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "San Jose", 
 	data: {
@@ -1697,6 +1803,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "San Remigio", 
 	data: {
@@ -1713,12 +1820,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Sebaste", 
 	data: {
 		month: {
 			January: 165.5491754762, 
-			February: 93.00, 
+			February: 93, 
 			March: 140.1802744868, 
 			April: 85.0003832354, 
 			May: 282.3688716204, 
@@ -1729,6 +1837,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Sibalom", 
 	data: {
@@ -1745,6 +1854,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Tibiao", 
 	data: {
@@ -1761,6 +1871,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Tobias Fornier", 
 	data: {
@@ -1777,6 +1888,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Antique", 
 	municipality: "Valderrama", 
 	data: {
@@ -1793,6 +1905,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "All", 
 	data: {
@@ -1809,6 +1922,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Calanasan", 
 	data: {
@@ -1825,6 +1939,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Conner", 
 	data: {
@@ -1841,12 +1956,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Flora", 
 	data: {
 		month: {
 			January: 62.9573129351, 
-			February: 31.60, 
+			February: 31.6, 
 			March: 51.5745424242, 
 			April: 55.1729359596, 
 			May: 152.4181116162, 
@@ -1857,6 +1973,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Kabugao", 
 	data: {
@@ -1873,6 +1990,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Luna", 
 	data: {
@@ -1889,6 +2007,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Pudtol", 
 	data: {
@@ -1905,6 +2024,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Apayao", 
 	municipality: "Santa Marcela", 
 	data: {
@@ -1921,6 +2041,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "All", 
 	data: {
@@ -1937,6 +2058,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Baler", 
 	data: {
@@ -1953,6 +2075,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Casiguran", 
 	data: {
@@ -1969,6 +2092,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Dilasag", 
 	data: {
@@ -1985,6 +2109,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Dinalungan", 
 	data: {
@@ -2001,6 +2126,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Dingalan", 
 	data: {
@@ -2017,6 +2143,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Dipaculao", 
 	data: {
@@ -2033,6 +2160,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "Maria Aurora", 
 	data: {
@@ -2049,6 +2177,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Aurora", 
 	municipality: "San Luis", 
 	data: {
@@ -2065,6 +2194,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "All", 
 	data: {
@@ -2081,6 +2211,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Al-Barka", 
 	data: {
@@ -2097,6 +2228,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Isabela City", 
 	data: {
@@ -2113,6 +2245,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Lamitan City", 
 	data: {
@@ -2129,6 +2262,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Lantawan", 
 	data: {
@@ -2145,6 +2279,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Maluso", 
 	data: {
@@ -2161,6 +2296,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Sumisip", 
 	data: {
@@ -2177,6 +2313,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Tipo-Tipo", 
 	data: {
@@ -2193,6 +2330,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Tuburan", 
 	data: {
@@ -2209,6 +2347,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Basilan", 
 	municipality: "Ungkaya Pukan", 
 	data: {
@@ -2225,6 +2364,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "All", 
 	data: {
@@ -2241,6 +2381,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Abucay", 
 	data: {
@@ -2257,6 +2398,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Bagac", 
 	data: {
@@ -2273,6 +2415,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Balanga City", 
 	data: {
@@ -2289,6 +2432,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Dinalupihan", 
 	data: {
@@ -2305,6 +2449,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Hermosa", 
 	data: {
@@ -2321,6 +2466,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Limay", 
 	data: {
@@ -2337,6 +2483,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Mariveles", 
 	data: {
@@ -2353,6 +2500,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Morong", 
 	data: {
@@ -2369,6 +2517,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Orani", 
 	data: {
@@ -2385,6 +2534,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Orion", 
 	data: {
@@ -2401,6 +2551,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Pilar", 
 	data: {
@@ -2417,6 +2568,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bataan", 
 	municipality: "Samal", 
 	data: {
@@ -2433,6 +2585,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Batanes", 
 	municipality: "All", 
 	data: {
@@ -2449,6 +2602,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Batanes", 
 	municipality: "Basco", 
 	data: {
@@ -2465,6 +2619,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Batanes", 
 	municipality: "Itbayat", 
 	data: {
@@ -2481,12 +2636,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Batanes", 
 	municipality: "Uyugan", 
 	data: {
 		month: {
 			January: 150.705902, 
-			February: 130.90, 
+			February: 130.9, 
 			March: 96.5028975, 
 			April: 43.5296897222, 
 			May: 194.5064033333, 
@@ -2497,6 +2653,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "All", 
 	data: {
@@ -2513,6 +2670,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Agoncillo", 
 	data: {
@@ -2529,6 +2687,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Alitagtag", 
 	data: {
@@ -2545,6 +2704,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Balayan", 
 	data: {
@@ -2561,6 +2721,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Balete", 
 	data: {
@@ -2577,6 +2738,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Batangas City", 
 	data: {
@@ -2593,6 +2755,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Bauan", 
 	data: {
@@ -2609,6 +2772,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Calaca", 
 	data: {
@@ -2625,6 +2789,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Calatagan", 
 	data: {
@@ -2641,6 +2806,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Ibaan", 
 	data: {
@@ -2657,6 +2823,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Laurel", 
 	data: {
@@ -2673,6 +2840,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Lemery", 
 	data: {
@@ -2689,6 +2857,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Lian", 
 	data: {
@@ -2705,6 +2874,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Lipa City", 
 	data: {
@@ -2721,6 +2891,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Lobo", 
 	data: {
@@ -2737,6 +2908,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Mabini", 
 	data: {
@@ -2753,6 +2925,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Malvar", 
 	data: {
@@ -2769,6 +2942,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Mataas Na Kahoy", 
 	data: {
@@ -2785,6 +2959,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Nasugbu", 
 	data: {
@@ -2801,6 +2976,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Padre Garcia", 
 	data: {
@@ -2817,6 +2993,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Rosario", 
 	data: {
@@ -2833,6 +3010,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "San Jose", 
 	data: {
@@ -2849,12 +3027,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "San Juan", 
 	data: {
 		month: {
 			January: 67.639215873, 
-			February: 44.80, 
+			February: 44.8, 
 			March: 48.2934074383, 
 			April: 40.96641, 
 			May: 141.6918027778, 
@@ -2865,6 +3044,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "San Luis", 
 	data: {
@@ -2881,6 +3061,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "San Pascual", 
 	data: {
@@ -2897,6 +3078,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Santa Teresita", 
 	data: {
@@ -2913,6 +3095,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Santo Tomas", 
 	data: {
@@ -2929,6 +3112,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Taal", 
 	data: {
@@ -2945,6 +3129,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Taal lake", 
 	data: {
@@ -2961,6 +3146,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Talisay", 
 	data: {
@@ -2977,6 +3163,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Tanauan City", 
 	data: {
@@ -2993,6 +3180,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Taysan", 
 	data: {
@@ -3009,6 +3197,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Tingloy", 
 	data: {
@@ -3025,6 +3214,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Batangas", 
 	municipality: "Tuy", 
 	data: {
@@ -3041,12 +3231,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 16.4758825651, 
-			February: 18.90, 
+			February: 18.9, 
 			March: 45.8493512363, 
 			April: 102.0769538126, 
 			May: 306.2890050458, 
@@ -3057,6 +3248,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Atok", 
 	data: {
@@ -3073,6 +3265,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Baguio City", 
 	data: {
@@ -3089,6 +3282,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Bakun", 
 	data: {
@@ -3105,6 +3299,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Bokod", 
 	data: {
@@ -3121,6 +3316,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Buguias", 
 	data: {
@@ -3137,6 +3333,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Itogon", 
 	data: {
@@ -3153,6 +3350,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Kabayan", 
 	data: {
@@ -3169,6 +3367,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Kapangan", 
 	data: {
@@ -3185,6 +3384,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Kibungan", 
 	data: {
@@ -3201,6 +3401,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "La Trinidad", 
 	data: {
@@ -3217,6 +3418,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Mankayan", 
 	data: {
@@ -3233,6 +3435,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Sablan", 
 	data: {
@@ -3249,6 +3452,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Tuba", 
 	data: {
@@ -3265,6 +3469,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Benguet", 
 	municipality: "Tublay", 
 	data: {
@@ -3281,6 +3486,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "All", 
 	data: {
@@ -3297,6 +3503,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Almeria", 
 	data: {
@@ -3313,6 +3520,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Biliran", 
 	data: {
@@ -3329,6 +3537,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Cabucgayan", 
 	data: {
@@ -3345,12 +3554,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Caibiran", 
 	data: {
 		month: {
 			January: 317.1849222857, 
-			February: 192.40, 
+			February: 192.4, 
 			March: 240.7916297222, 
 			April: 131.46444875, 
 			May: 187.5236775, 
@@ -3361,6 +3571,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Culaba", 
 	data: {
@@ -3377,6 +3588,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Kawayan", 
 	data: {
@@ -3393,6 +3605,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Maripipi", 
 	data: {
@@ -3409,6 +3622,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Biliran", 
 	municipality: "Naval", 
 	data: {
@@ -3425,6 +3639,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "All", 
 	data: {
@@ -3441,6 +3656,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Alicia", 
 	data: {
@@ -3457,6 +3673,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Anda", 
 	data: {
@@ -3473,6 +3690,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Antequera", 
 	data: {
@@ -3489,6 +3707,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Baclayon", 
 	data: {
@@ -3505,6 +3724,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Balilihan", 
 	data: {
@@ -3521,6 +3741,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Batuan", 
 	data: {
@@ -3537,6 +3758,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Bien Unido", 
 	data: {
@@ -3553,6 +3775,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Bilar", 
 	data: {
@@ -3569,6 +3792,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Buenavista", 
 	data: {
@@ -3585,6 +3809,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Calape", 
 	data: {
@@ -3601,6 +3826,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Candijay", 
 	data: {
@@ -3617,6 +3843,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Carmen", 
 	data: {
@@ -3633,6 +3860,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Catigbian", 
 	data: {
@@ -3649,6 +3877,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Clarin", 
 	data: {
@@ -3665,6 +3894,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Corella", 
 	data: {
@@ -3681,6 +3911,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Cortes", 
 	data: {
@@ -3697,6 +3928,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Dagohoy", 
 	data: {
@@ -3713,6 +3945,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Danao", 
 	data: {
@@ -3729,6 +3962,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Dauis", 
 	data: {
@@ -3745,6 +3979,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Dimiao", 
 	data: {
@@ -3761,6 +3996,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Duero", 
 	data: {
@@ -3777,6 +4013,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Garcia Hernandez", 
 	data: {
@@ -3793,6 +4030,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Guindulman", 
 	data: {
@@ -3809,6 +4047,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Inabanga", 
 	data: {
@@ -3825,6 +4064,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Jagna", 
 	data: {
@@ -3841,6 +4081,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Jetafe", 
 	data: {
@@ -3857,6 +4098,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Loay", 
 	data: {
@@ -3873,6 +4115,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Loboc", 
 	data: {
@@ -3889,6 +4132,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Loon", 
 	data: {
@@ -3905,6 +4149,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Mabini", 
 	data: {
@@ -3921,6 +4166,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Maribojoc", 
 	data: {
@@ -3937,6 +4183,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Panglao", 
 	data: {
@@ -3953,6 +4200,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Pilar", 
 	data: {
@@ -3969,6 +4217,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Pres. Carlos P. Garcia", 
 	data: {
@@ -3985,12 +4234,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Sagbayan", 
 	data: {
 		month: {
 			January: 184.9150331429, 
-			February: 122.60, 
+			February: 122.6, 
 			March: 172.424516875, 
 			April: 86.3770664583, 
 			May: 113.0612494444, 
@@ -4001,6 +4251,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "San Isidro", 
 	data: {
@@ -4017,6 +4268,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "San Miguel", 
 	data: {
@@ -4033,6 +4285,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Sevilla", 
 	data: {
@@ -4049,6 +4302,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Sierra Bullones", 
 	data: {
@@ -4065,6 +4319,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Sikatuna", 
 	data: {
@@ -4081,6 +4336,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Tagbilaran City", 
 	data: {
@@ -4097,6 +4353,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Talibon", 
 	data: {
@@ -4113,6 +4370,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Trinidad", 
 	data: {
@@ -4129,6 +4387,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Tubigon", 
 	data: {
@@ -4145,6 +4404,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Ubay", 
 	data: {
@@ -4161,6 +4421,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Bohol", 
 	municipality: "Valencia", 
 	data: {
@@ -4177,12 +4438,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 195.2055875752, 
-			February: 181.10, 
+			February: 181.1, 
 			March: 244.3650005537, 
 			April: 175.9163986102, 
 			May: 251.5046436611, 
@@ -4193,6 +4455,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Baungon", 
 	data: {
@@ -4209,6 +4472,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Cabanglasan", 
 	data: {
@@ -4225,6 +4489,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Damulog", 
 	data: {
@@ -4241,6 +4506,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Dangcagan", 
 	data: {
@@ -4257,12 +4523,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Don Carlos", 
 	data: {
 		month: {
 			January: 181.2828813333, 
-			February: 172.90, 
+			February: 172.9, 
 			March: 232.8024839352, 
 			April: 203.8046262037, 
 			May: 261.3531605556, 
@@ -4273,6 +4540,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Impasug-Ong", 
 	data: {
@@ -4289,6 +4557,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Kadingilan", 
 	data: {
@@ -4305,6 +4574,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Kalilangan", 
 	data: {
@@ -4321,6 +4591,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Kibawe", 
 	data: {
@@ -4337,6 +4608,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Kitaotao", 
 	data: {
@@ -4353,12 +4625,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Lantapan", 
 	data: {
 		month: {
 			January: 151.6704234286, 
-			February: 165.50, 
+			February: 165.5, 
 			March: 226.7435491049, 
 			April: 150.4487544753, 
 			May: 258.6386698148, 
@@ -4369,6 +4642,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Libona", 
 	data: {
@@ -4385,6 +4659,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Malaybalay City", 
 	data: {
@@ -4401,6 +4676,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Malitbog", 
 	data: {
@@ -4417,6 +4693,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Manolo Fortich", 
 	data: {
@@ -4433,6 +4710,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Maramag", 
 	data: {
@@ -4449,6 +4727,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Pangantucan", 
 	data: {
@@ -4465,6 +4744,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Quezon", 
 	data: {
@@ -4481,6 +4761,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "San Fernando", 
 	data: {
@@ -4497,6 +4778,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Sumilao", 
 	data: {
@@ -4513,6 +4795,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Talakag", 
 	data: {
@@ -4529,6 +4812,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Bukidnon", 
 	municipality: "Valencia City", 
 	data: {
@@ -4545,6 +4829,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "All", 
 	data: {
@@ -4561,6 +4846,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Angat", 
 	data: {
@@ -4577,6 +4863,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Baliuag", 
 	data: {
@@ -4593,6 +4880,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Bocaue", 
 	data: {
@@ -4609,6 +4897,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Bulacan", 
 	data: {
@@ -4625,6 +4914,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Bustos", 
 	data: {
@@ -4641,6 +4931,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Calumpit", 
 	data: {
@@ -4657,6 +4948,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Doña Remedios Trinidad", 
 	data: {
@@ -4673,6 +4965,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Guiguinto", 
 	data: {
@@ -4689,6 +4982,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Hagonoy", 
 	data: {
@@ -4705,6 +4999,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Malolos City", 
 	data: {
@@ -4721,6 +5016,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Marilao", 
 	data: {
@@ -4737,6 +5033,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Meycauayan City", 
 	data: {
@@ -4753,6 +5050,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Norzagaray", 
 	data: {
@@ -4769,6 +5067,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Pandi", 
 	data: {
@@ -4785,6 +5084,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Paombong", 
 	data: {
@@ -4801,6 +5101,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Plaridel", 
 	data: {
@@ -4817,12 +5118,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Pulilan", 
 	data: {
 		month: {
 			January: 24.2676214286, 
-			February: 9.20, 
+			February: 9.2, 
 			March: 17.4192166667, 
 			April: 32.7761838889, 
 			May: 197.9182377778, 
@@ -4833,6 +5135,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "San Ildefonso", 
 	data: {
@@ -4849,6 +5152,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "San Jose del Monte City", 
 	data: {
@@ -4865,6 +5169,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "San Miguel", 
 	data: {
@@ -4881,6 +5186,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "San Rafael", 
 	data: {
@@ -4897,12 +5203,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
 	municipality: "Santa Maria", 
 	data: {
 		month: {
 			January: 36.3164482857, 
-			February: 17.10, 
+			February: 17.1, 
 			March: 28.6646465741, 
 			April: 43.9153231481, 
 			May: 227.5324521296, 
@@ -4913,6 +5220,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "All", 
 	data: {
@@ -4929,6 +5237,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Abulug", 
 	data: {
@@ -4945,6 +5254,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Alcala", 
 	data: {
@@ -4961,6 +5271,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Allacapan", 
 	data: {
@@ -4977,6 +5288,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Amulung", 
 	data: {
@@ -4993,6 +5305,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Aparri", 
 	data: {
@@ -5009,6 +5322,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Baggao", 
 	data: {
@@ -5025,6 +5339,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Ballesteros", 
 	data: {
@@ -5041,6 +5356,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Buguey", 
 	data: {
@@ -5057,6 +5373,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Calayan", 
 	data: {
@@ -5073,6 +5390,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Camalaniugan", 
 	data: {
@@ -5089,6 +5407,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Claveria", 
 	data: {
@@ -5105,6 +5424,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Enrile", 
 	data: {
@@ -5121,6 +5441,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Gattaran", 
 	data: {
@@ -5137,6 +5458,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Gonzaga", 
 	data: {
@@ -5153,6 +5475,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Iguig", 
 	data: {
@@ -5169,6 +5492,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Lal-Lo", 
 	data: {
@@ -5185,6 +5509,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Lasam", 
 	data: {
@@ -5201,6 +5526,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Pamplona", 
 	data: {
@@ -5217,6 +5543,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Peñablanca", 
 	data: {
@@ -5233,6 +5560,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Piat", 
 	data: {
@@ -5249,6 +5577,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Rizal", 
 	data: {
@@ -5265,6 +5594,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Sanchez-Mira", 
 	data: {
@@ -5281,6 +5611,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Santa Ana", 
 	data: {
@@ -5297,12 +5628,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Santa Praxedes", 
 	data: {
 		month: {
 			January: 35.0046422857, 
-			February: 24.70, 
+			February: 24.7, 
 			March: 118.850102037, 
 			April: 85.6387489815, 
 			May: 174.5040325, 
@@ -5313,6 +5645,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Santa Teresita", 
 	data: {
@@ -5329,6 +5662,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Santo Niño", 
 	data: {
@@ -5345,6 +5679,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Solana", 
 	data: {
@@ -5361,6 +5696,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Tuao", 
 	data: {
@@ -5377,6 +5713,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Cagayan", 
 	municipality: "Tuguegarao City", 
 	data: {
@@ -5393,6 +5730,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "All", 
 	data: {
@@ -5409,6 +5747,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Basud", 
 	data: {
@@ -5425,6 +5764,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Capalonga", 
 	data: {
@@ -5441,6 +5781,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Jose Panganiban", 
 	data: {
@@ -5457,6 +5798,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Labo", 
 	data: {
@@ -5473,6 +5815,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Mercedes", 
 	data: {
@@ -5489,6 +5832,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Paracale", 
 	data: {
@@ -5505,6 +5849,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "San Lorenzo Ruiz", 
 	data: {
@@ -5521,6 +5866,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "San Vicente", 
 	data: {
@@ -5537,6 +5883,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Santa Elena", 
 	data: {
@@ -5553,12 +5900,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Talisay", 
 	data: {
 		month: {
 			January: 303.6052651429, 
-			February: 205.10, 
+			February: 205.1, 
 			March: 223.6511410185, 
 			April: 129.5978655556, 
 			May: 156.57113, 
@@ -5569,6 +5917,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Norte", 
 	municipality: "Vinzons", 
 	data: {
@@ -5585,6 +5934,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "All", 
 	data: {
@@ -5601,6 +5951,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Baao", 
 	data: {
@@ -5617,6 +5968,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Balatan", 
 	data: {
@@ -5633,6 +5985,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Bato", 
 	data: {
@@ -5649,6 +6002,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Bato Lake", 
 	data: {
@@ -5665,6 +6019,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Bombon", 
 	data: {
@@ -5681,6 +6036,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Buhi", 
 	data: {
@@ -5697,6 +6053,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Bula", 
 	data: {
@@ -5713,6 +6070,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Cabusao", 
 	data: {
@@ -5729,12 +6087,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Calabanga", 
 	data: {
 		month: {
 			January: 185.123370619, 
-			February: 128.60, 
+			February: 128.6, 
 			March: 143.8406638889, 
 			April: 86.139569537, 
 			May: 156.8665275926, 
@@ -5745,6 +6104,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Canaman", 
 	data: {
@@ -5761,6 +6121,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Caramoan", 
 	data: {
@@ -5777,6 +6138,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Del Gallego", 
 	data: {
@@ -5793,6 +6155,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Garchitorena", 
 	data: {
@@ -5809,6 +6172,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Goa", 
 	data: {
@@ -5825,6 +6189,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Iriga City", 
 	data: {
@@ -5841,6 +6206,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Lagonoy", 
 	data: {
@@ -5857,6 +6223,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Libmanan", 
 	data: {
@@ -5873,6 +6240,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Lupi", 
 	data: {
@@ -5889,6 +6257,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Magarao", 
 	data: {
@@ -5905,6 +6274,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Milaor", 
 	data: {
@@ -5921,6 +6291,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Minalabac", 
 	data: {
@@ -5937,6 +6308,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Nabua", 
 	data: {
@@ -5953,6 +6325,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Naga City", 
 	data: {
@@ -5969,6 +6342,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Ocampo", 
 	data: {
@@ -5985,6 +6359,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Pamplona", 
 	data: {
@@ -6001,6 +6376,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Pasacao", 
 	data: {
@@ -6017,6 +6393,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Pili", 
 	data: {
@@ -6033,6 +6410,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Presentacion", 
 	data: {
@@ -6049,6 +6427,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Ragay", 
 	data: {
@@ -6065,6 +6444,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Sagnay", 
 	data: {
@@ -6081,6 +6461,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "San Fernando", 
 	data: {
@@ -6097,6 +6478,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "San Jose", 
 	data: {
@@ -6113,6 +6495,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Sipocot", 
 	data: {
@@ -6129,6 +6512,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Siruma", 
 	data: {
@@ -6145,6 +6529,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Tigaon", 
 	data: {
@@ -6161,12 +6546,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Camarines Sur", 
 	municipality: "Tinambac", 
 	data: {
 		month: {
 			January: 230.490962127, 
-			February: 151.40, 
+			February: 151.4, 
 			March: 173.1792657407, 
 			April: 97.3006266049, 
 			May: 140.9545607099, 
@@ -6177,6 +6563,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Camiguin", 
 	municipality: "All", 
 	data: {
@@ -6193,6 +6580,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Camiguin", 
 	municipality: "Catarman", 
 	data: {
@@ -6209,6 +6597,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Camiguin", 
 	municipality: "Guinsiliban", 
 	data: {
@@ -6225,6 +6614,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Camiguin", 
 	municipality: "Mahinog", 
 	data: {
@@ -6241,6 +6631,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Camiguin", 
 	municipality: "Mambajao", 
 	data: {
@@ -6257,6 +6648,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Camiguin", 
 	municipality: "Sagay", 
 	data: {
@@ -6273,6 +6665,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "All", 
 	data: {
@@ -6289,12 +6682,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Cuartero", 
 	data: {
 		month: {
 			January: 145.8176313333, 
-			February: 98.10, 
+			February: 98.1, 
 			March: 121.8606097222, 
 			April: 76.7825880556, 
 			May: 195.1062776852, 
@@ -6305,12 +6699,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Dao", 
 	data: {
 		month: {
 			January: 120.6958585714, 
-			February: 90.90, 
+			February: 90.9, 
 			March: 117.7198938889, 
 			April: 68.7076377778, 
 			May: 188.0546780556, 
@@ -6321,6 +6716,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Dumalag", 
 	data: {
@@ -6337,6 +6733,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Dumarao", 
 	data: {
@@ -6353,12 +6750,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Ivisan", 
 	data: {
 		month: {
 			January: 106.2196004286, 
-			February: 66.70, 
+			February: 66.7, 
 			March: 114.2608121865, 
 			April: 62.1921965437, 
 			May: 161.9160400198, 
@@ -6369,6 +6767,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Jamindan", 
 	data: {
@@ -6385,6 +6784,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Ma-Ayon", 
 	data: {
@@ -6401,6 +6801,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Mambusao", 
 	data: {
@@ -6417,6 +6818,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Panay", 
 	data: {
@@ -6433,6 +6835,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Panitan", 
 	data: {
@@ -6449,6 +6852,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Pilar", 
 	data: {
@@ -6465,6 +6869,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Pontevedra", 
 	data: {
@@ -6481,6 +6886,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "President Roxas", 
 	data: {
@@ -6497,6 +6903,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Roxas City", 
 	data: {
@@ -6513,6 +6920,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Sapi-An", 
 	data: {
@@ -6529,6 +6937,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Sigma", 
 	data: {
@@ -6545,12 +6954,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Capiz", 
 	municipality: "Tapaz", 
 	data: {
 		month: {
 			January: 127.5034223492, 
-			February: 92.00, 
+			February: 92, 
 			March: 134.4947327469, 
 			April: 87.2535777623, 
 			May: 243.4900864815, 
@@ -6561,12 +6971,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 320.6482317087, 
-			February: 165.60, 
+			February: 165.6, 
 			March: 184.8203182418, 
 			April: 118.0680103701, 
 			May: 183.7835400237, 
@@ -6577,6 +6988,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Bagamanoc", 
 	data: {
@@ -6593,6 +7005,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Baras", 
 	data: {
@@ -6609,6 +7022,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Bato", 
 	data: {
@@ -6625,6 +7039,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Caramoran", 
 	data: {
@@ -6641,6 +7056,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Gigmoto", 
 	data: {
@@ -6657,6 +7073,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Pandan", 
 	data: {
@@ -6673,6 +7090,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Panganiban", 
 	data: {
@@ -6689,6 +7107,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "San Andres", 
 	data: {
@@ -6705,6 +7124,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "San Miguel", 
 	data: {
@@ -6721,6 +7141,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Viga", 
 	data: {
@@ -6737,6 +7158,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Catanduanes", 
 	municipality: "Virac", 
 	data: {
@@ -6753,6 +7175,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "All", 
 	data: {
@@ -6769,6 +7192,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Alfonso", 
 	data: {
@@ -6785,6 +7209,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Amadeo", 
 	data: {
@@ -6801,6 +7226,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Bacoor", 
 	data: {
@@ -6817,6 +7243,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Carmona", 
 	data: {
@@ -6833,6 +7260,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Cavite City", 
 	data: {
@@ -6849,6 +7277,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Dasmariñas", 
 	data: {
@@ -6865,6 +7294,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "General Emilio Aguinaldo", 
 	data: {
@@ -6881,12 +7311,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "General Mariano Alvarez", 
 	data: {
 		month: {
 			January: 31.1990968571, 
-			February: 20.20, 
+			February: 20.2, 
 			March: 20.37401, 
 			April: 21.7672736111, 
 			May: 137.9302916667, 
@@ -6897,12 +7328,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "General Trias", 
 	data: {
 		month: {
 			January: 25.7033325714, 
-			February: 15.20, 
+			February: 15.2, 
 			March: 14.9178835185, 
 			April: 17.7674111111, 
 			May: 143.9155115741, 
@@ -6913,12 +7345,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Imus", 
 	data: {
 		month: {
 			January: 17.2030421429, 
-			February: 11.50, 
+			February: 11.5, 
 			March: 10.4799113889, 
 			April: 13.0279458333, 
 			May: 123.7023222222, 
@@ -6929,6 +7362,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Indang", 
 	data: {
@@ -6945,6 +7379,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Magallanes", 
 	data: {
@@ -6961,12 +7396,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Maragondon", 
 	data: {
 		month: {
 			January: 9.9725069714, 
-			February: 10.20, 
+			February: 10.2, 
 			March: 9.1665486095, 
 			April: 20.2668227698, 
 			May: 153.3815737175, 
@@ -6977,6 +7413,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Mendez", 
 	data: {
@@ -6993,6 +7430,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Naic", 
 	data: {
@@ -7009,6 +7447,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Noveleta", 
 	data: {
@@ -7025,6 +7464,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Silang", 
 	data: {
@@ -7041,6 +7481,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Tagaytay City", 
 	data: {
@@ -7057,12 +7498,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Tanza", 
 	data: {
 		month: {
 			January: 11.0779515238, 
-			February: 14.20, 
+			February: 14.2, 
 			March: 10.8222027778, 
 			April: 15.7765726852, 
 			May: 143.7978531481, 
@@ -7073,6 +7515,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Ternate", 
 	data: {
@@ -7089,6 +7532,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Cavite", 
 	municipality: "Trece Martires City", 
 	data: {
@@ -7105,6 +7549,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "All", 
 	data: {
@@ -7121,6 +7566,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Alcantara", 
 	data: {
@@ -7137,6 +7583,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Alcoy", 
 	data: {
@@ -7153,6 +7600,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Alegria", 
 	data: {
@@ -7169,6 +7617,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Aloguinsan", 
 	data: {
@@ -7185,6 +7634,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Argao", 
 	data: {
@@ -7201,6 +7651,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Asturias", 
 	data: {
@@ -7217,6 +7668,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Badian", 
 	data: {
@@ -7233,6 +7685,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Balamban", 
 	data: {
@@ -7249,6 +7702,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Bantayan", 
 	data: {
@@ -7265,6 +7719,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Barili", 
 	data: {
@@ -7281,6 +7736,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Bogo City", 
 	data: {
@@ -7297,6 +7753,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Boljoon", 
 	data: {
@@ -7313,6 +7770,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Borbon", 
 	data: {
@@ -7329,12 +7787,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Carcar", 
 	data: {
 		month: {
 			January: 113.4246015714, 
-			February: 84.20, 
+			February: 84.2, 
 			March: 152.9654748611, 
 			April: 82.2384691667, 
 			May: 128.0201984722, 
@@ -7345,6 +7804,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Carmen", 
 	data: {
@@ -7361,12 +7821,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Catmon", 
 	data: {
 		month: {
 			January: 173.4606257143, 
-			February: 104.80, 
+			February: 104.8, 
 			March: 171.7427737037, 
 			April: 68.4852377778, 
 			May: 121.7187184259, 
@@ -7377,6 +7838,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Cebu City", 
 	data: {
@@ -7393,6 +7855,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Compostela", 
 	data: {
@@ -7409,6 +7872,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Consolacion", 
 	data: {
@@ -7425,12 +7889,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Daanbantayan", 
 	data: {
 		month: {
 			January: 207.5960261429, 
-			February: 121.30, 
+			February: 121.3, 
 			March: 133.1033783333, 
 			April: 90.8737334722, 
 			May: 128.2380122222, 
@@ -7441,12 +7906,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Dalaguete", 
 	data: {
 		month: {
 			January: 130.0685777857, 
-			February: 86.30, 
+			February: 86.3, 
 			March: 186.6300378472, 
 			April: 71.6199972917, 
 			May: 135.4014615972, 
@@ -7457,6 +7923,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Danao City", 
 	data: {
@@ -7473,6 +7940,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Danao Lake", 
 	data: {
@@ -7489,6 +7957,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Dumanjug", 
 	data: {
@@ -7505,6 +7974,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Ginatilan", 
 	data: {
@@ -7521,6 +7991,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Lapu-Lapu City", 
 	data: {
@@ -7537,6 +8008,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Liloan", 
 	data: {
@@ -7553,6 +8025,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Madridejos", 
 	data: {
@@ -7569,12 +8042,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Malabuyoc", 
 	data: {
 		month: {
 			January: 142.5079416429, 
-			February: 87.00, 
+			February: 87, 
 			March: 211.8789624444, 
 			April: 70.7336655218, 
 			May: 140.4286355714, 
@@ -7585,6 +8059,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Mandaue City", 
 	data: {
@@ -7601,12 +8076,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Medellin", 
 	data: {
 		month: {
 			January: 169.1958387143, 
-			February: 96.20, 
+			February: 96.2, 
 			March: 112.9321488889, 
 			April: 83.5137358333, 
 			May: 124.4261761111, 
@@ -7617,6 +8093,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Minglanilla", 
 	data: {
@@ -7633,6 +8110,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Moalboal", 
 	data: {
@@ -7649,6 +8127,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Naga City", 
 	data: {
@@ -7665,6 +8144,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Oslob", 
 	data: {
@@ -7681,6 +8161,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Pilar", 
 	data: {
@@ -7697,6 +8178,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Pinamungahan", 
 	data: {
@@ -7713,6 +8195,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Poro", 
 	data: {
@@ -7729,6 +8212,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Samboan", 
 	data: {
@@ -7745,6 +8229,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "San Fernando", 
 	data: {
@@ -7761,6 +8246,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "San Francisco", 
 	data: {
@@ -7777,6 +8263,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "San Remigio", 
 	data: {
@@ -7793,6 +8280,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Santa Fe", 
 	data: {
@@ -7809,6 +8297,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Santander", 
 	data: {
@@ -7825,6 +8314,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Sibonga", 
 	data: {
@@ -7841,6 +8331,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Sogod", 
 	data: {
@@ -7857,6 +8348,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Tabogon", 
 	data: {
@@ -7873,6 +8365,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Tabuelan", 
 	data: {
@@ -7889,6 +8382,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Talisay City", 
 	data: {
@@ -7905,6 +8399,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Toledo City", 
 	data: {
@@ -7921,6 +8416,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Tuburan", 
 	data: {
@@ -7937,6 +8433,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
 	province: "Cebu", 
 	municipality: "Tudela", 
 	data: {
@@ -7953,6 +8450,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "All", 
 	data: {
@@ -7969,6 +8467,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Compostela", 
 	data: {
@@ -7985,6 +8484,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Laak", 
 	data: {
@@ -8001,6 +8501,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Mabini", 
 	data: {
@@ -8017,6 +8518,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Maco", 
 	data: {
@@ -8033,6 +8535,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Maragusan", 
 	data: {
@@ -8049,6 +8552,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Mawab", 
 	data: {
@@ -8065,6 +8569,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Monkayo", 
 	data: {
@@ -8081,6 +8586,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Montevista", 
 	data: {
@@ -8097,12 +8603,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Nabunturan", 
 	data: {
 		month: {
 			January: 444.6446296508, 
-			February: 302.60, 
+			February: 302.6, 
 			March: 288.7926440741, 
 			April: 197.380456142, 
 			May: 231.5942796914, 
@@ -8113,6 +8620,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "New Bataan", 
 	data: {
@@ -8129,6 +8637,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Compostela Valley", 
 	municipality: "Pantukan", 
 	data: {
@@ -8145,6 +8654,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "All", 
 	data: {
@@ -8161,6 +8671,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Asuncion", 
 	data: {
@@ -8177,6 +8688,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Braulio E. Dujali", 
 	data: {
@@ -8193,6 +8705,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Carmen", 
 	data: {
@@ -8209,12 +8722,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Kapalong", 
 	data: {
 		month: {
 			January: 314.8160874571, 
-			February: 254.30, 
+			February: 254.3, 
 			March: 320.0485696481, 
 			April: 239.4911353056, 
 			May: 249.7625812037, 
@@ -8225,6 +8739,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "New Corella", 
 	data: {
@@ -8241,6 +8756,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Panabo City", 
 	data: {
@@ -8257,6 +8773,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Samal City", 
 	data: {
@@ -8273,6 +8790,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "San Isidro", 
 	data: {
@@ -8289,6 +8807,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Santo Tomas", 
 	data: {
@@ -8305,6 +8824,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Tagum City", 
 	data: {
@@ -8321,6 +8841,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Norte", 
 	municipality: "Talaingod", 
 	data: {
@@ -8337,6 +8858,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "All", 
 	data: {
@@ -8353,6 +8875,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Bansalan", 
 	data: {
@@ -8369,6 +8892,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Davao City", 
 	data: {
@@ -8385,6 +8909,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Digos City", 
 	data: {
@@ -8401,6 +8926,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Don Marcelino", 
 	data: {
@@ -8417,6 +8943,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Hagonoy", 
 	data: {
@@ -8433,6 +8960,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Jose Abad Santos", 
 	data: {
@@ -8449,6 +8977,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Kiblawan", 
 	data: {
@@ -8465,6 +8994,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Magsaysay", 
 	data: {
@@ -8481,6 +9011,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Malalag", 
 	data: {
@@ -8497,6 +9028,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Malita", 
 	data: {
@@ -8513,6 +9045,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Matanao", 
 	data: {
@@ -8529,6 +9062,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Santa Cruz", 
 	data: {
@@ -8545,6 +9079,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Santa Maria", 
 	data: {
@@ -8561,6 +9096,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Sarangani", 
 	data: {
@@ -8577,6 +9113,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao del Sur", 
 	municipality: "Sulop", 
 	data: {
@@ -8593,12 +9130,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 344.6911832933, 
-			February: 257.50, 
+			February: 257.5, 
 			March: 298.9654613764, 
 			April: 235.962816198, 
 			May: 208.6335995804, 
@@ -8609,6 +9147,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Baganga", 
 	data: {
@@ -8625,6 +9164,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Banaybanay", 
 	data: {
@@ -8641,6 +9181,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Boston", 
 	data: {
@@ -8657,6 +9198,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Caraga", 
 	data: {
@@ -8673,6 +9215,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Cateel", 
 	data: {
@@ -8689,6 +9232,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Governor Generoso", 
 	data: {
@@ -8705,6 +9249,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Lupon", 
 	data: {
@@ -8721,12 +9266,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Manay", 
 	data: {
 		month: {
 			January: 306.5705757662, 
-			February: 251.90, 
+			February: 251.9, 
 			March: 283.6911151515, 
 			April: 216.2084195455, 
 			May: 212.6921225758, 
@@ -8737,6 +9283,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Mati City", 
 	data: {
@@ -8753,6 +9300,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "San Isidro", 
 	data: {
@@ -8769,6 +9317,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
 	province: "Davao Oriental", 
 	municipality: "Tarragona", 
 	data: {
@@ -8785,6 +9334,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Dinagat Islands", 
 	municipality: "All", 
 	data: {
@@ -8801,6 +9351,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Dinagat Islands", 
 	municipality: "Basilisa", 
 	data: {
@@ -8817,6 +9368,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Dinagat Islands", 
 	municipality: "Cagdianao", 
 	data: {
@@ -8833,6 +9385,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Dinagat Islands", 
 	municipality: "Libjo", 
 	data: {
@@ -8849,6 +9402,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Dinagat Islands", 
 	municipality: "Loreto", 
 	data: {
@@ -8865,6 +9419,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Dinagat Islands", 
 	municipality: "Tubajon", 
 	data: {
@@ -8881,12 +9436,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 443.805837556, 
-			February: 273.60, 
+			February: 273.6, 
 			March: 327.7240967255, 
 			April: 217.2287204761, 
 			May: 217.5937039463, 
@@ -8897,6 +9453,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Arteche", 
 	data: {
@@ -8913,6 +9470,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Balangiga", 
 	data: {
@@ -8929,6 +9487,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Balangkayan", 
 	data: {
@@ -8945,6 +9504,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Borongan City", 
 	data: {
@@ -8961,6 +9521,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Can-Avid", 
 	data: {
@@ -8977,6 +9538,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Dolores", 
 	data: {
@@ -8993,6 +9555,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "General Macarthur", 
 	data: {
@@ -9009,6 +9572,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Giporlos", 
 	data: {
@@ -9025,6 +9589,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Guiuan", 
 	data: {
@@ -9041,6 +9606,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Hernani", 
 	data: {
@@ -9057,6 +9623,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Jipapad", 
 	data: {
@@ -9073,6 +9640,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Lawaan", 
 	data: {
@@ -9089,6 +9657,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Llorente", 
 	data: {
@@ -9105,6 +9674,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Maslog", 
 	data: {
@@ -9121,6 +9691,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Maydolong", 
 	data: {
@@ -9137,12 +9708,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Mercedes", 
 	data: {
 		month: {
 			January: 459.1963577143, 
-			February: 264.90, 
+			February: 264.9, 
 			March: 421.1528362857, 
 			April: 221.9499374286, 
 			May: 191.0315131429, 
@@ -9153,6 +9725,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Oras", 
 	data: {
@@ -9169,6 +9742,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Quinapondan", 
 	data: {
@@ -9185,6 +9759,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Salcedo", 
 	data: {
@@ -9201,6 +9776,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "San Julian", 
 	data: {
@@ -9217,6 +9793,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "San Policarpo", 
 	data: {
@@ -9233,6 +9810,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Sulat", 
 	data: {
@@ -9249,6 +9827,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Eastern Samar", 
 	municipality: "Taft", 
 	data: {
@@ -9265,6 +9844,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Guimaras", 
 	municipality: "All", 
 	data: {
@@ -9281,6 +9861,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Guimaras", 
 	municipality: "Buenavista", 
 	data: {
@@ -9297,6 +9878,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Guimaras", 
 	municipality: "Jordan", 
 	data: {
@@ -9313,6 +9895,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Guimaras", 
 	municipality: "Nueva Valencia", 
 	data: {
@@ -9329,6 +9912,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Guimaras", 
 	municipality: "San Lorenzo", 
 	data: {
@@ -9345,6 +9929,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Guimaras", 
 	municipality: "Sibunag", 
 	data: {
@@ -9361,6 +9946,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "All", 
 	data: {
@@ -9377,6 +9963,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Aguinaldo", 
 	data: {
@@ -9393,6 +9980,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Alfonso Lista", 
 	data: {
@@ -9409,6 +9997,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Asipulo", 
 	data: {
@@ -9425,6 +10014,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Banaue", 
 	data: {
@@ -9441,6 +10031,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Hingyon", 
 	data: {
@@ -9457,6 +10048,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Hungduan", 
 	data: {
@@ -9473,6 +10065,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Kiangan", 
 	data: {
@@ -9489,6 +10082,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Lagawe", 
 	data: {
@@ -9505,6 +10099,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Lamut", 
 	data: {
@@ -9521,6 +10116,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Mayoyao", 
 	data: {
@@ -9537,6 +10133,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Ifugao", 
 	municipality: "Tinoc", 
 	data: {
@@ -9553,6 +10150,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "All", 
 	data: {
@@ -9569,6 +10167,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Adams", 
 	data: {
@@ -9585,6 +10184,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Bacarra", 
 	data: {
@@ -9601,6 +10201,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Badoc", 
 	data: {
@@ -9617,6 +10218,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Bangui", 
 	data: {
@@ -9633,12 +10235,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Banna", 
 	data: {
 		month: {
 			January: 14.8054626667, 
-			February: 4.70, 
+			February: 4.7, 
 			March: 13.2854326852, 
 			April: 22.076595463, 
 			May: 195.7399683333, 
@@ -9649,6 +10252,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Batac City", 
 	data: {
@@ -9665,6 +10269,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Burgos", 
 	data: {
@@ -9681,6 +10286,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Carasi", 
 	data: {
@@ -9697,6 +10303,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Currimao", 
 	data: {
@@ -9713,6 +10320,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Dingras", 
 	data: {
@@ -9729,12 +10337,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Dumalneg", 
 	data: {
 		month: {
 			January: 24.4619397143, 
-			February: 12.20, 
+			February: 12.2, 
 			March: 47.0718758333, 
 			April: 41.46282, 
 			May: 188.9863125, 
@@ -9745,6 +10354,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Laoag City", 
 	data: {
@@ -9761,6 +10371,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Marcos", 
 	data: {
@@ -9777,6 +10388,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Nueva Era", 
 	data: {
@@ -9793,6 +10405,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Pagudpud", 
 	data: {
@@ -9809,12 +10422,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Paoay", 
 	data: {
 		month: {
 			January: 10.246308381, 
-			February: 7.50, 
+			February: 7.5, 
 			March: 9.1866428069, 
 			April: 14.8235476958, 
 			May: 147.5765681746, 
@@ -9825,6 +10439,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Pasuquin", 
 	data: {
@@ -9841,6 +10456,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Piddig", 
 	data: {
@@ -9857,6 +10473,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Pinili", 
 	data: {
@@ -9873,6 +10490,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "San Nicolas", 
 	data: {
@@ -9889,12 +10507,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Sarrat", 
 	data: {
 		month: {
 			January: 13.6594581905, 
-			February: 3.50, 
+			February: 3.5, 
 			March: 10.7141481481, 
 			April: 17.1315230556, 
 			May: 170.6055322222, 
@@ -9905,6 +10524,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Solsona", 
 	data: {
@@ -9921,6 +10541,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Norte", 
 	municipality: "Vintar", 
 	data: {
@@ -9937,6 +10558,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "All", 
 	data: {
@@ -9953,6 +10575,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Alilem", 
 	data: {
@@ -9969,6 +10592,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Banayoyo", 
 	data: {
@@ -9985,6 +10609,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Bantay", 
 	data: {
@@ -10001,6 +10626,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Burgos", 
 	data: {
@@ -10017,6 +10643,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Cabugao", 
 	data: {
@@ -10033,6 +10660,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Candon City", 
 	data: {
@@ -10049,6 +10677,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Cervantes", 
 	data: {
@@ -10065,6 +10694,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Galimuyod", 
 	data: {
@@ -10081,6 +10711,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Gregorio Del Pilar", 
 	data: {
@@ -10097,6 +10728,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Lidlidda", 
 	data: {
@@ -10113,6 +10745,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Magsingal", 
 	data: {
@@ -10129,6 +10762,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Nagbukel", 
 	data: {
@@ -10145,6 +10779,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Narvacan", 
 	data: {
@@ -10161,6 +10796,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Quirino", 
 	data: {
@@ -10177,6 +10813,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Salcedo", 
 	data: {
@@ -10193,6 +10830,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "San Emilio", 
 	data: {
@@ -10209,12 +10847,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "San Esteban", 
 	data: {
 		month: {
 			January: 7.7491002857, 
-			February: 7.40, 
+			February: 7.4, 
 			March: 9.698272, 
 			April: 18.8624897143, 
 			May: 184.5847151429, 
@@ -10225,6 +10864,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "San Ildefonso", 
 	data: {
@@ -10241,6 +10881,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "San Juan", 
 	data: {
@@ -10257,6 +10898,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Santa", 
 	data: {
@@ -10273,6 +10915,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Santa Cruz", 
 	data: {
@@ -10289,6 +10932,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Santa Lucia", 
 	data: {
@@ -10305,12 +10949,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Santa Maria", 
 	data: {
 		month: {
 			January: 9.3477315714, 
-			February: 3.20, 
+			February: 3.2, 
 			March: 14.4848301389, 
 			April: 28.0863447222, 
 			May: 203.77014125, 
@@ -10321,6 +10966,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Santiago", 
 	data: {
@@ -10337,6 +10983,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Sigay", 
 	data: {
@@ -10353,6 +11000,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Sinait", 
 	data: {
@@ -10369,6 +11017,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Sugpon", 
 	data: {
@@ -10385,6 +11034,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Suyo", 
 	data: {
@@ -10401,6 +11051,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Tagudin", 
 	data: {
@@ -10417,6 +11068,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Ilocos Sur", 
 	municipality: "Vigan City", 
 	data: {
@@ -10433,6 +11085,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "All", 
 	data: {
@@ -10449,6 +11102,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Ajuy", 
 	data: {
@@ -10465,6 +11119,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Alimodian", 
 	data: {
@@ -10481,6 +11136,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Anilao", 
 	data: {
@@ -10497,6 +11153,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Badiangan", 
 	data: {
@@ -10513,6 +11170,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Balasan", 
 	data: {
@@ -10529,6 +11187,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Banate", 
 	data: {
@@ -10545,6 +11204,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Barotac Nuevo", 
 	data: {
@@ -10561,6 +11221,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Barotac Viejo", 
 	data: {
@@ -10577,6 +11238,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Batad", 
 	data: {
@@ -10593,6 +11255,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Cabatuan", 
 	data: {
@@ -10609,6 +11272,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Calinog", 
 	data: {
@@ -10625,6 +11289,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Carles", 
 	data: {
@@ -10641,6 +11306,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Concepcion", 
 	data: {
@@ -10657,6 +11323,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Dingle", 
 	data: {
@@ -10673,6 +11340,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Duenas", 
 	data: {
@@ -10689,6 +11357,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Dumangas", 
 	data: {
@@ -10705,6 +11374,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Estancia", 
 	data: {
@@ -10721,6 +11391,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Guimbal", 
 	data: {
@@ -10737,12 +11408,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Igbaras", 
 	data: {
 		month: {
 			January: 67.8717054286, 
-			February: 41.70, 
+			February: 41.7, 
 			March: 78.7100396528, 
 			April: 66.2917976389, 
 			May: 247.6935972917, 
@@ -10753,6 +11425,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Iloilo City", 
 	data: {
@@ -10769,12 +11442,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Janiuay", 
 	data: {
 		month: {
 			January: 104.6662282041, 
-			February: 71.40, 
+			February: 71.4, 
 			March: 114.4482135714, 
 			April: 92.766635754, 
 			May: 224.2226375794, 
@@ -10785,6 +11459,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Lambunao", 
 	data: {
@@ -10801,6 +11476,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Leganes", 
 	data: {
@@ -10817,6 +11493,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Lemery", 
 	data: {
@@ -10833,6 +11510,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Leon", 
 	data: {
@@ -10849,6 +11527,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Maasin", 
 	data: {
@@ -10865,6 +11544,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Miagao", 
 	data: {
@@ -10881,6 +11561,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Mina", 
 	data: {
@@ -10897,6 +11578,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "New Lucena", 
 	data: {
@@ -10913,6 +11595,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Oton", 
 	data: {
@@ -10929,6 +11612,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Passi City", 
 	data: {
@@ -10945,6 +11629,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Pavia", 
 	data: {
@@ -10961,6 +11646,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Pototan", 
 	data: {
@@ -10977,6 +11663,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "San Dionisio", 
 	data: {
@@ -10993,6 +11680,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "San Enrique", 
 	data: {
@@ -11009,6 +11697,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "San Joaquin", 
 	data: {
@@ -11025,6 +11714,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "San Miguel", 
 	data: {
@@ -11041,6 +11731,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "San Rafael", 
 	data: {
@@ -11057,6 +11748,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Santa Barbara", 
 	data: {
@@ -11073,12 +11765,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Sara", 
 	data: {
 		month: {
 			January: 146.0972790476, 
-			February: 93.60, 
+			February: 93.6, 
 			March: 138.4895355247, 
 			April: 65.6650762654, 
 			May: 188.2550800617, 
@@ -11089,6 +11782,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Tigbauan", 
 	data: {
@@ -11105,6 +11799,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Tubungan", 
 	data: {
@@ -11121,6 +11816,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
 	province: "Iloilo", 
 	municipality: "Zarraga", 
 	data: {
@@ -11137,6 +11833,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "All", 
 	data: {
@@ -11153,6 +11850,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Alicia", 
 	data: {
@@ -11169,6 +11867,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Angadanan", 
 	data: {
@@ -11185,6 +11884,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Aurora", 
 	data: {
@@ -11201,12 +11901,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Benito Soliven", 
 	data: {
 		month: {
 			January: 96.6847966429, 
-			February: 70.40, 
+			February: 70.4, 
 			March: 80.697265162, 
 			April: 58.0232494676, 
 			May: 160.072921713, 
@@ -11217,6 +11918,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Burgos", 
 	data: {
@@ -11233,6 +11935,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Cabagan", 
 	data: {
@@ -11249,6 +11952,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Cabatuan", 
 	data: {
@@ -11265,6 +11969,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Cauayan City", 
 	data: {
@@ -11281,6 +11986,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Cordon", 
 	data: {
@@ -11297,6 +12003,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Delfin Albano", 
 	data: {
@@ -11313,6 +12020,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Dinapigue", 
 	data: {
@@ -11329,6 +12037,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Divilacan", 
 	data: {
@@ -11345,6 +12054,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Echague", 
 	data: {
@@ -11361,6 +12071,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Gamu", 
 	data: {
@@ -11377,6 +12088,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Ilagan", 
 	data: {
@@ -11393,6 +12105,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Jones", 
 	data: {
@@ -11409,6 +12122,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Luna", 
 	data: {
@@ -11425,6 +12139,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Maconacon", 
 	data: {
@@ -11441,6 +12156,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Mallig", 
 	data: {
@@ -11457,6 +12173,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Naguilian", 
 	data: {
@@ -11473,6 +12190,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Palanan", 
 	data: {
@@ -11489,6 +12207,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Quezon", 
 	data: {
@@ -11505,6 +12224,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Quirino", 
 	data: {
@@ -11521,6 +12241,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Ramon", 
 	data: {
@@ -11537,6 +12258,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Reina Mercedes", 
 	data: {
@@ -11553,6 +12275,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Roxas", 
 	data: {
@@ -11569,6 +12292,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Agustin", 
 	data: {
@@ -11585,6 +12309,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Guillermo", 
 	data: {
@@ -11601,6 +12326,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Isidro", 
 	data: {
@@ -11617,6 +12343,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Manuel", 
 	data: {
@@ -11633,6 +12360,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Mariano", 
 	data: {
@@ -11649,12 +12377,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Mateo", 
 	data: {
 		month: {
 			January: 66.4589714286, 
-			February: 50.50, 
+			February: 50.5, 
 			March: 77.0752556481, 
 			April: 65.7110759259, 
 			May: 174.0889425926, 
@@ -11665,6 +12394,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "San Pablo", 
 	data: {
@@ -11681,6 +12411,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Santa Maria", 
 	data: {
@@ -11697,6 +12428,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Santiago City", 
 	data: {
@@ -11713,6 +12445,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Santo Tomas", 
 	data: {
@@ -11729,6 +12462,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Isabela", 
 	municipality: "Tumauini", 
 	data: {
@@ -11745,12 +12479,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 37.2896844948, 
-			February: 29.00, 
+			February: 29, 
 			March: 44.273034874, 
 			April: 68.1285787887, 
 			May: 222.2132977119, 
@@ -11761,6 +12496,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Balbalan", 
 	data: {
@@ -11777,6 +12513,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Lubuagan", 
 	data: {
@@ -11793,6 +12530,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Pasil", 
 	data: {
@@ -11809,6 +12547,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Pinukpuk", 
 	data: {
@@ -11825,6 +12564,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Rizal", 
 	data: {
@@ -11841,6 +12581,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Tabuk City", 
 	data: {
@@ -11857,6 +12598,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Tanudan", 
 	data: {
@@ -11873,6 +12615,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Kalinga", 
 	municipality: "Tinglayan", 
 	data: {
@@ -11889,6 +12632,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "All", 
 	data: {
@@ -11905,6 +12649,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Agoo", 
 	data: {
@@ -11921,12 +12666,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Aringay", 
 	data: {
 		month: {
 			January: 10.1307506667, 
-			February: 7.50, 
+			February: 7.5, 
 			March: 13.1484613201, 
 			April: 28.6553901852, 
 			May: 217.7776617698, 
@@ -11937,6 +12683,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Bacnotan", 
 	data: {
@@ -11953,6 +12700,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Bagulin", 
 	data: {
@@ -11969,6 +12717,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Balaoan", 
 	data: {
@@ -11985,6 +12734,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Bangar", 
 	data: {
@@ -12001,6 +12751,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Bauang", 
 	data: {
@@ -12017,6 +12768,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Burgos", 
 	data: {
@@ -12033,12 +12785,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Caba", 
 	data: {
 		month: {
 			January: 9.4858427143, 
-			February: 4.20, 
+			February: 4.2, 
 			March: 13.2294984444, 
 			April: 29.6010575119, 
 			May: 211.4208103571, 
@@ -12049,6 +12802,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Luna", 
 	data: {
@@ -12065,6 +12819,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Naguilian", 
 	data: {
@@ -12081,6 +12836,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Pugo", 
 	data: {
@@ -12097,6 +12853,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Rosario", 
 	data: {
@@ -12113,6 +12870,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "San Fernando City", 
 	data: {
@@ -12129,12 +12887,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "San Gabriel", 
 	data: {
 		month: {
 			January: 9.7198772, 
-			February: 10.60, 
+			February: 10.6, 
 			March: 25.8019952222, 
 			April: 50.2963424444, 
 			May: 264.2648642778, 
@@ -12145,6 +12904,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "San Juan", 
 	data: {
@@ -12161,12 +12921,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Santo Tomas", 
 	data: {
 		month: {
 			January: 8.045993, 
-			February: 7.50, 
+			February: 7.5, 
 			March: 12.0798469444, 
 			April: 18.2980780556, 
 			May: 143.0438508333, 
@@ -12177,12 +12938,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Santol", 
 	data: {
 		month: {
 			January: 9.9065026286, 
-			February: 11.50, 
+			February: 11.5, 
 			March: 28.8541165556, 
 			April: 44.7832905, 
 			May: 243.9610893333, 
@@ -12193,6 +12955,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Sudipen", 
 	data: {
@@ -12209,6 +12972,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "La Union", 
 	municipality: "Tubao", 
 	data: {
@@ -12225,6 +12989,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "All", 
 	data: {
@@ -12241,6 +13006,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Alaminos", 
 	data: {
@@ -12257,6 +13023,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Bay", 
 	data: {
@@ -12273,6 +13040,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Biñan", 
 	data: {
@@ -12289,6 +13057,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Cabuyao", 
 	data: {
@@ -12305,6 +13074,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Calamba City", 
 	data: {
@@ -12321,6 +13091,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Calauan", 
 	data: {
@@ -12337,6 +13108,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Cavinti", 
 	data: {
@@ -12353,6 +13125,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Famy", 
 	data: {
@@ -12369,6 +13142,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Kalayaan", 
 	data: {
@@ -12385,6 +13159,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Laguna lake", 
 	data: {
@@ -12401,6 +13176,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Liliw", 
 	data: {
@@ -12417,6 +13193,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Los Baños", 
 	data: {
@@ -12433,12 +13210,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Luisiana", 
 	data: {
 		month: {
 			January: 125.7284937143, 
-			February: 77.90, 
+			February: 77.9, 
 			March: 96.1218822222, 
 			April: 66.3143758333, 
 			May: 153.7676566667, 
@@ -12449,6 +13227,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Lumban", 
 	data: {
@@ -12465,6 +13244,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Mabitac", 
 	data: {
@@ -12481,12 +13261,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Magdalena", 
 	data: {
 		month: {
 			January: 104.218427, 
-			February: 48.20, 
+			February: 48.2, 
 			March: 66.2155655556, 
 			April: 52.334705, 
 			May: 154.2634373611, 
@@ -12497,6 +13278,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Majayjay", 
 	data: {
@@ -12513,6 +13295,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Nagcarlan", 
 	data: {
@@ -12529,6 +13312,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Paete", 
 	data: {
@@ -12545,12 +13329,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Pagsanjan", 
 	data: {
 		month: {
 			January: 126.2457362857, 
-			February: 68.90, 
+			February: 68.9, 
 			March: 89.8161897222, 
 			April: 72.9430463889, 
 			May: 168.2095181944, 
@@ -12561,6 +13346,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Pakil", 
 	data: {
@@ -12577,6 +13363,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Pangil", 
 	data: {
@@ -12593,6 +13380,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Pila", 
 	data: {
@@ -12609,6 +13397,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Rizal", 
 	data: {
@@ -12625,6 +13414,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "San Pablo City", 
 	data: {
@@ -12641,6 +13431,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Santa Cruz", 
 	data: {
@@ -12657,12 +13448,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Santa Maria", 
 	data: {
 		month: {
 			January: 94.9273725714, 
-			February: 58.80, 
+			February: 58.8, 
 			March: 82.6734961111, 
 			April: 58.0159376667, 
 			May: 171.8510251111, 
@@ -12673,6 +13465,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Santa Rosa City", 
 	data: {
@@ -12689,6 +13482,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
 	municipality: "Victoria", 
 	data: {
@@ -12705,6 +13499,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "All", 
 	data: {
@@ -12721,6 +13516,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Bacolod", 
 	data: {
@@ -12737,6 +13533,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Baloi", 
 	data: {
@@ -12753,6 +13550,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Baroy", 
 	data: {
@@ -12769,6 +13567,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Iligan City", 
 	data: {
@@ -12785,6 +13584,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Kapatagan", 
 	data: {
@@ -12801,6 +13601,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Kauswagan", 
 	data: {
@@ -12817,6 +13618,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Kolambugan", 
 	data: {
@@ -12833,6 +13635,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Lala", 
 	data: {
@@ -12849,6 +13652,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Linamon", 
 	data: {
@@ -12865,6 +13669,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Magsaysay", 
 	data: {
@@ -12881,6 +13686,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Maigo", 
 	data: {
@@ -12897,6 +13703,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Matungao", 
 	data: {
@@ -12913,6 +13720,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Munai", 
 	data: {
@@ -12929,6 +13737,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Nunungan", 
 	data: {
@@ -12945,6 +13754,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Pantao Ragat", 
 	data: {
@@ -12961,6 +13771,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Pantar", 
 	data: {
@@ -12977,6 +13788,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Poona Piagapo", 
 	data: {
@@ -12993,6 +13805,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Salvador", 
 	data: {
@@ -13009,6 +13822,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Sapad", 
 	data: {
@@ -13025,6 +13839,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Sultan Naga Dimaporo", 
 	data: {
@@ -13041,6 +13856,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Tangcal", 
 	data: {
@@ -13057,6 +13873,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Norte", 
 	municipality: "Tubod", 
 	data: {
@@ -13073,12 +13890,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 156.1288785338, 
-			February: 157.40, 
+			February: 157.4, 
 			March: 248.5227239206, 
 			April: 200.1947465524, 
 			May: 282.6826870259, 
@@ -13089,6 +13907,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Bacolod Kalawi", 
 	data: {
@@ -13105,6 +13924,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Balabagan", 
 	data: {
@@ -13121,6 +13941,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Balindong", 
 	data: {
@@ -13137,6 +13958,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Bayang", 
 	data: {
@@ -13153,6 +13975,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Binidayan", 
 	data: {
@@ -13169,6 +13992,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Buadiposo-Buntong", 
 	data: {
@@ -13185,6 +14009,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Bubong", 
 	data: {
@@ -13201,6 +14026,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Bumbaran", 
 	data: {
@@ -13217,6 +14043,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Butig", 
 	data: {
@@ -13233,12 +14060,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Calanogas", 
 	data: {
 		month: {
 			January: 138.5582315714, 
-			February: 150.90, 
+			February: 150.9, 
 			March: 259.5865381944, 
 			April: 195.4888820833, 
 			May: 278.5619345833, 
@@ -13249,6 +14077,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Ditsaan-Ramain", 
 	data: {
@@ -13265,6 +14094,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Ganassi", 
 	data: {
@@ -13281,6 +14111,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Kapai", 
 	data: {
@@ -13297,12 +14128,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Kapatagan", 
 	data: {
 		month: {
 			January: 123.9616731429, 
-			February: 126.10, 
+			February: 126.1, 
 			March: 267.5824886455, 
 			April: 223.9033349788, 
 			May: 322.8952056693, 
@@ -13313,6 +14145,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Lanao Lake", 
 	data: {
@@ -13329,6 +14162,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Lumba-Bayabao", 
 	data: {
@@ -13345,6 +14179,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Lumbaca Unayan", 
 	data: {
@@ -13361,6 +14196,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Lumbatan", 
 	data: {
@@ -13377,6 +14213,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Lumbayanague", 
 	data: {
@@ -13393,6 +14230,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Madalum", 
 	data: {
@@ -13409,6 +14247,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Madamba", 
 	data: {
@@ -13425,6 +14264,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Maguing", 
 	data: {
@@ -13441,12 +14281,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Malabang", 
 	data: {
 		month: {
 			January: 127.5185110476, 
-			February: 126.30, 
+			February: 126.3, 
 			March: 288.9598109259, 
 			April: 222.7326459259, 
 			May: 361.9030251852, 
@@ -13457,6 +14298,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Marantao", 
 	data: {
@@ -13473,6 +14315,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Marawi City", 
 	data: {
@@ -13489,6 +14332,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Marogong", 
 	data: {
@@ -13505,6 +14349,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Mulondo", 
 	data: {
@@ -13521,6 +14366,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Pagayawan", 
 	data: {
@@ -13537,6 +14383,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Picong", 
 	data: {
@@ -13553,6 +14400,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Poona Bayabao", 
 	data: {
@@ -13569,6 +14417,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Saguiaran", 
 	data: {
@@ -13585,12 +14434,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Sultan Dumalondong", 
 	data: {
 		month: {
 			January: 152.3482202449, 
-			February: 173.00, 
+			February: 173, 
 			March: 274.689002381, 
 			April: 210.9214100794, 
 			May: 325.2676515873, 
@@ -13601,6 +14451,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Tagoloan II", 
 	data: {
@@ -13617,6 +14468,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Tamparan", 
 	data: {
@@ -13633,6 +14485,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Tubaran", 
 	data: {
@@ -13649,6 +14502,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Tugaya", 
 	data: {
@@ -13665,6 +14519,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Wao", 
 	data: {
@@ -13681,12 +14536,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 384.0909965684, 
-			February: 202.30, 
+			February: 202.3, 
 			March: 240.1532898514, 
 			April: 156.6327049733, 
 			May: 161.2660520655, 
@@ -13697,6 +14553,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Abuyog", 
 	data: {
@@ -13713,6 +14570,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Alangalang", 
 	data: {
@@ -13729,6 +14587,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Albuera", 
 	data: {
@@ -13745,6 +14604,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Babatngon", 
 	data: {
@@ -13761,6 +14621,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Barugo", 
 	data: {
@@ -13777,6 +14638,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Bato", 
 	data: {
@@ -13793,6 +14655,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Baybay City", 
 	data: {
@@ -13809,6 +14672,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Burauen", 
 	data: {
@@ -13825,6 +14689,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Calubian", 
 	data: {
@@ -13841,6 +14706,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Capoocan", 
 	data: {
@@ -13857,12 +14723,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Carigara", 
 	data: {
 		month: {
 			January: 392.9254175, 
-			February: 217.50, 
+			February: 217.5, 
 			March: 259.9776890972, 
 			April: 141.6465564583, 
 			May: 172.0561243056, 
@@ -13873,6 +14740,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Dagami", 
 	data: {
@@ -13889,6 +14757,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Dulag", 
 	data: {
@@ -13905,6 +14774,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Hilongos", 
 	data: {
@@ -13921,6 +14791,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Hindang", 
 	data: {
@@ -13937,6 +14808,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Inopacan", 
 	data: {
@@ -13953,6 +14825,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Isabel", 
 	data: {
@@ -13969,6 +14842,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Jaro", 
 	data: {
@@ -13985,12 +14859,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Javier", 
 	data: {
 		month: {
 			January: 531.7298124571, 
-			February: 201.90, 
+			February: 201.9, 
 			March: 276.5385382222, 
 			April: 258.6568947222, 
 			May: 209.7960228333, 
@@ -14001,6 +14876,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Julita", 
 	data: {
@@ -14017,6 +14893,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Kananga", 
 	data: {
@@ -14033,6 +14910,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "La Paz", 
 	data: {
@@ -14049,6 +14927,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Leyte", 
 	data: {
@@ -14065,12 +14944,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Macarthur", 
 	data: {
 		month: {
 			January: 494.5261939048, 
-			February: 205.30, 
+			February: 205.3, 
 			March: 268.7272021296, 
 			April: 224.6506335185, 
 			May: 188.6839122222, 
@@ -14081,6 +14961,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Mahaplag", 
 	data: {
@@ -14097,6 +14978,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Matag-Ob", 
 	data: {
@@ -14113,6 +14995,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Matalom", 
 	data: {
@@ -14129,6 +15012,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Mayorga", 
 	data: {
@@ -14145,6 +15029,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Merida", 
 	data: {
@@ -14161,6 +15046,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Ormoc City", 
 	data: {
@@ -14177,6 +15063,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Palo", 
 	data: {
@@ -14193,6 +15080,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Palompon", 
 	data: {
@@ -14209,12 +15097,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Pastrana", 
 	data: {
 		month: {
 			January: 431.5481808571, 
-			February: 239.50, 
+			February: 239.5, 
 			March: 241.2088213889, 
 			April: 145.4655270833, 
 			May: 150.7976115278, 
@@ -14225,6 +15114,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "San Isidro", 
 	data: {
@@ -14241,12 +15131,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "San Miguel", 
 	data: {
 		month: {
 			January: 380.2298068571, 
-			February: 237.20, 
+			February: 237.2, 
 			March: 254.6960312963, 
 			April: 138.0840174074, 
 			May: 171.5943531481, 
@@ -14257,6 +15148,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Santa Fe", 
 	data: {
@@ -14273,6 +15165,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Tabango", 
 	data: {
@@ -14289,6 +15182,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Tabontabon", 
 	data: {
@@ -14305,6 +15199,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Tacloban City", 
 	data: {
@@ -14321,6 +15216,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Tanauan", 
 	data: {
@@ -14337,6 +15233,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Tolosa", 
 	data: {
@@ -14353,6 +15250,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Leyte", 
 	municipality: "Villaba", 
 	data: {
@@ -14369,6 +15267,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "All", 
 	data: {
@@ -14385,6 +15284,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Ampatuan", 
 	data: {
@@ -14401,6 +15301,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Buluan", 
 	data: {
@@ -14417,6 +15318,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Buluan Lake", 
 	data: {
@@ -14433,6 +15335,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Cotabato City", 
 	data: {
@@ -14449,6 +15352,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Datu Abdullah Sanki", 
 	data: {
@@ -14465,6 +15369,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Datu Anggal Midtimbang", 
 	data: {
@@ -14481,6 +15386,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Datu Paglas", 
 	data: {
@@ -14497,6 +15403,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Datu Piang", 
 	data: {
@@ -14513,6 +15420,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Datu Saudi-Ampatuan", 
 	data: {
@@ -14529,6 +15437,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Datu Unsay", 
 	data: {
@@ -14545,6 +15454,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Gen. S. K. Pendatun", 
 	data: {
@@ -14561,6 +15471,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Guindulungan", 
 	data: {
@@ -14577,6 +15488,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Mamasapano", 
 	data: {
@@ -14593,6 +15505,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Mangudadatu", 
 	data: {
@@ -14609,6 +15522,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Pagagawan", 
 	data: {
@@ -14625,12 +15539,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Pagalungan", 
 	data: {
 		month: {
 			January: 127.5998278, 
-			February: 121.40, 
+			February: 121.4, 
 			March: 171.2440508333, 
 			April: 151.1860898889, 
 			May: 220.8683524722, 
@@ -14641,6 +15556,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Paglat", 
 	data: {
@@ -14657,6 +15573,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Pandag", 
 	data: {
@@ -14673,6 +15590,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Shariff Aguak", 
 	data: {
@@ -14689,6 +15607,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "South Upi", 
 	data: {
@@ -14705,6 +15624,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Sultan Sa Barongis", 
 	data: {
@@ -14721,6 +15641,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Talayan", 
 	data: {
@@ -14737,6 +15658,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Maguindanao", 
 	municipality: "Talitay", 
 	data: {
@@ -14753,6 +15675,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "All", 
 	data: {
@@ -14769,6 +15692,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "Boac", 
 	data: {
@@ -14785,6 +15709,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "Buenavista", 
 	data: {
@@ -14801,12 +15726,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "Gasan", 
 	data: {
 		month: {
 			January: 94.5600473333, 
-			February: 67.10, 
+			February: 67.1, 
 			March: 71.5163032513, 
 			April: 51.9349655106, 
 			May: 158.8305659021, 
@@ -14817,6 +15743,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "Mogpog", 
 	data: {
@@ -14833,6 +15760,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "Santa Cruz", 
 	data: {
@@ -14849,6 +15777,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Marinduque", 
 	municipality: "Torrijos", 
 	data: {
@@ -14865,6 +15794,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "All", 
 	data: {
@@ -14881,6 +15811,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Aroroy", 
 	data: {
@@ -14897,12 +15828,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Baleno", 
 	data: {
 		month: {
 			January: 189.5503347143, 
-			February: 101.20, 
+			February: 101.2, 
 			March: 118.4688529167, 
 			April: 61.3283529861, 
 			May: 146.1775106597, 
@@ -14913,6 +15845,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Balud", 
 	data: {
@@ -14929,6 +15862,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Batuan", 
 	data: {
@@ -14945,6 +15879,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Cataingan", 
 	data: {
@@ -14961,6 +15896,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Cawayan", 
 	data: {
@@ -14977,6 +15913,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Claveria", 
 	data: {
@@ -14993,6 +15930,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Dimasalang", 
 	data: {
@@ -15009,6 +15947,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Esperanza", 
 	data: {
@@ -15025,6 +15964,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Mandaon", 
 	data: {
@@ -15041,6 +15981,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Masbate City", 
 	data: {
@@ -15057,6 +15998,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Milagros", 
 	data: {
@@ -15073,6 +16015,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Mobo", 
 	data: {
@@ -15089,6 +16032,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Monreal", 
 	data: {
@@ -15105,6 +16049,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Palanas", 
 	data: {
@@ -15121,6 +16066,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Pio V. Corpuz", 
 	data: {
@@ -15137,6 +16083,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Placer", 
 	data: {
@@ -15153,6 +16100,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "San Fernando", 
 	data: {
@@ -15169,6 +16117,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "San Jacinto", 
 	data: {
@@ -15185,6 +16134,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "San Pascual", 
 	data: {
@@ -15201,6 +16151,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Masbate", 
 	municipality: "Uson", 
 	data: {
@@ -15217,6 +16168,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "All", 
 	data: {
@@ -15233,6 +16185,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Kalookan City", 
 	data: {
@@ -15249,6 +16202,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Las Piñas", 
 	data: {
@@ -15265,6 +16219,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Makati City", 
 	data: {
@@ -15281,6 +16236,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Malabon", 
 	data: {
@@ -15297,6 +16253,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Mandaluyong", 
 	data: {
@@ -15313,6 +16270,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Manila", 
 	data: {
@@ -15329,6 +16287,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Marikina", 
 	data: {
@@ -15345,6 +16304,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Muntinlupa", 
 	data: {
@@ -15361,12 +16321,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Parañaque", 
 	data: {
 		month: {
 			January: 14.1170894286, 
-			February: 10.50, 
+			February: 10.5, 
 			March: 14.3491092619, 
 			April: 12.082435369, 
 			May: 126.7274255397, 
@@ -15377,6 +16338,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Pasig City", 
 	data: {
@@ -15393,6 +16355,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Quezon City", 
 	data: {
@@ -15409,6 +16372,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Taguig", 
 	data: {
@@ -15425,6 +16389,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
 	municipality: "Valenzuela", 
 	data: {
@@ -15441,6 +16406,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "All", 
 	data: {
@@ -15457,6 +16423,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Aloran", 
 	data: {
@@ -15473,6 +16440,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Baliangao", 
 	data: {
@@ -15489,6 +16457,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Bonifacio", 
 	data: {
@@ -15505,6 +16474,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Calamba", 
 	data: {
@@ -15521,12 +16491,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Clarin", 
 	data: {
 		month: {
 			January: 289.689689619, 
-			February: 192.30, 
+			February: 192.3, 
 			March: 255.9351824074, 
 			April: 127.3389700926, 
 			May: 159.2396590741, 
@@ -15537,6 +16508,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Concepcion", 
 	data: {
@@ -15553,6 +16525,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Don Victoriano Chiongbian", 
 	data: {
@@ -15569,6 +16542,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Jimenez", 
 	data: {
@@ -15585,6 +16559,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Lopez Jaena", 
 	data: {
@@ -15601,6 +16576,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Oroquieta City", 
 	data: {
@@ -15617,6 +16593,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Ozamis City", 
 	data: {
@@ -15633,6 +16610,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Panaon", 
 	data: {
@@ -15649,6 +16627,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Plaridel", 
 	data: {
@@ -15665,6 +16644,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Sapang Dalaga", 
 	data: {
@@ -15681,6 +16661,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Sinacaban", 
 	data: {
@@ -15697,6 +16678,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Tangub City", 
 	data: {
@@ -15713,12 +16695,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Occidental", 
 	municipality: "Tudela", 
 	data: {
 		month: {
 			January: 285.4944232857, 
-			February: 191.60, 
+			February: 191.6, 
 			March: 249.8662427778, 
 			April: 124.434575, 
 			May: 153.2768951389, 
@@ -15729,6 +16712,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "All", 
 	data: {
@@ -15745,6 +16729,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Alubijid", 
 	data: {
@@ -15761,6 +16746,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Balingasag", 
 	data: {
@@ -15777,6 +16763,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Balingoan", 
 	data: {
@@ -15793,6 +16780,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Binuangan", 
 	data: {
@@ -15809,6 +16797,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Cagayan de Oro City", 
 	data: {
@@ -15825,6 +16814,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Claveria", 
 	data: {
@@ -15841,6 +16831,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "El Salvador City", 
 	data: {
@@ -15857,6 +16848,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Gingoog City", 
 	data: {
@@ -15873,6 +16865,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Gitagum", 
 	data: {
@@ -15889,6 +16882,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Initao", 
 	data: {
@@ -15905,6 +16899,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Jasaan", 
 	data: {
@@ -15921,6 +16916,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Kinoguitan", 
 	data: {
@@ -15937,6 +16933,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Lagonglong", 
 	data: {
@@ -15953,6 +16950,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Laguindingan", 
 	data: {
@@ -15969,6 +16967,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Libertad", 
 	data: {
@@ -15985,6 +16984,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Magsaysay", 
 	data: {
@@ -16001,6 +17001,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Manticao", 
 	data: {
@@ -16017,6 +17018,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Medina", 
 	data: {
@@ -16033,6 +17035,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Naawan", 
 	data: {
@@ -16049,6 +17052,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Opol", 
 	data: {
@@ -16065,6 +17069,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Salay", 
 	data: {
@@ -16081,6 +17086,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Tagoloan", 
 	data: {
@@ -16097,6 +17103,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Talisayan", 
 	data: {
@@ -16113,6 +17120,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
 	province: "Misamis Oriental", 
 	municipality: "Villanueva", 
 	data: {
@@ -16129,12 +17137,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 32.74831661, 
-			February: 31.30, 
+			February: 31.3, 
 			March: 56.7566612875, 
 			April: 90.0735408483, 
 			May: 253.0648020796, 
@@ -16145,6 +17154,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Barlig", 
 	data: {
@@ -16161,6 +17171,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Bauko", 
 	data: {
@@ -16177,6 +17188,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Besao", 
 	data: {
@@ -16193,6 +17205,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Bontoc", 
 	data: {
@@ -16209,12 +17222,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Natonin", 
 	data: {
 		month: {
 			January: 47.8144420816, 
-			February: 44.40, 
+			February: 44.4, 
 			March: 62.17839625, 
 			April: 91.4980589484, 
 			May: 239.8230876786, 
@@ -16225,6 +17239,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Paracelis", 
 	data: {
@@ -16241,6 +17256,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Sabangan", 
 	data: {
@@ -16257,6 +17273,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Sadanga", 
 	data: {
@@ -16273,12 +17290,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Sagada", 
 	data: {
 		month: {
 			January: 14.4646460714, 
-			February: 15.10, 
+			February: 15.1, 
 			March: 48.3227048611, 
 			April: 86.8686384722, 
 			May: 272.5449584028, 
@@ -16289,6 +17307,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
 	province: "Mountain Province", 
 	municipality: "Tadian", 
 	data: {
@@ -16305,6 +17324,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "All", 
 	data: {
@@ -16321,6 +17341,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Bacolod City", 
 	data: {
@@ -16337,6 +17358,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Bago City", 
 	data: {
@@ -16353,6 +17375,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Binalbagan", 
 	data: {
@@ -16369,6 +17392,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Cadiz City", 
 	data: {
@@ -16385,6 +17409,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Calatrava", 
 	data: {
@@ -16401,6 +17426,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Candoni", 
 	data: {
@@ -16417,6 +17443,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Cauayan", 
 	data: {
@@ -16433,6 +17460,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Enrique B. Magalona", 
 	data: {
@@ -16449,6 +17477,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Escalante City", 
 	data: {
@@ -16465,6 +17494,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Himamaylan City", 
 	data: {
@@ -16481,6 +17511,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Hinigaran", 
 	data: {
@@ -16497,6 +17528,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Hinoba-An", 
 	data: {
@@ -16513,6 +17545,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Ilog", 
 	data: {
@@ -16529,6 +17562,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Isabela", 
 	data: {
@@ -16545,6 +17579,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Kabankalan City", 
 	data: {
@@ -16561,6 +17596,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "La Carlota City", 
 	data: {
@@ -16577,6 +17613,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "La Castellana", 
 	data: {
@@ -16593,6 +17630,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Manapla", 
 	data: {
@@ -16609,6 +17647,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Moises Padilla", 
 	data: {
@@ -16625,6 +17664,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Murcia", 
 	data: {
@@ -16641,6 +17681,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Pontevedra", 
 	data: {
@@ -16657,6 +17698,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Sagay City", 
 	data: {
@@ -16673,12 +17715,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Salvador Benedicto", 
 	data: {
 		month: {
 			January: 135.2528500816, 
-			February: 117.20, 
+			February: 117.2, 
 			March: 126.1136420635, 
 			April: 87.5535536905, 
 			May: 177.9844410317, 
@@ -16689,6 +17732,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "San Carlos City", 
 	data: {
@@ -16705,6 +17749,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "San Enrique", 
 	data: {
@@ -16721,6 +17766,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Silay City", 
 	data: {
@@ -16737,6 +17783,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Sipalay City", 
 	data: {
@@ -16753,6 +17800,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Talisay City", 
 	data: {
@@ -16769,6 +17817,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Toboso", 
 	data: {
@@ -16785,6 +17834,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Valladolid", 
 	data: {
@@ -16801,6 +17851,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Occidental", 
 	municipality: "Victorias City", 
 	data: {
@@ -16817,6 +17868,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "All", 
 	data: {
@@ -16833,6 +17885,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Amlan", 
 	data: {
@@ -16849,6 +17902,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Ayungon", 
 	data: {
@@ -16865,6 +17919,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Bacong", 
 	data: {
@@ -16881,12 +17936,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Bais City", 
 	data: {
 		month: {
 			January: 132.1796648929, 
-			February: 78.60, 
+			February: 78.6, 
 			March: 125.8995190278, 
 			April: 88.3396786806, 
 			May: 145.1620531944, 
@@ -16897,6 +17953,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Basay", 
 	data: {
@@ -16913,6 +17970,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Bayawan City", 
 	data: {
@@ -16929,6 +17987,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Bindoy", 
 	data: {
@@ -16945,6 +18004,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Canlaon City", 
 	data: {
@@ -16961,6 +18021,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Dauin", 
 	data: {
@@ -16977,6 +18038,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Dumaguete City", 
 	data: {
@@ -16993,12 +18055,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Guihulngan City", 
 	data: {
 		month: {
 			January: 103.7617155238, 
-			February: 71.60, 
+			February: 71.6, 
 			March: 108.650063179, 
 			April: 83.6551123148, 
 			May: 171.979793858, 
@@ -17009,6 +18072,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Jimalalud", 
 	data: {
@@ -17025,6 +18089,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "La Libertad", 
 	data: {
@@ -17041,6 +18106,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Mabinay", 
 	data: {
@@ -17057,6 +18123,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Manjuyod", 
 	data: {
@@ -17073,6 +18140,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Pamplona", 
 	data: {
@@ -17089,12 +18157,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "San Jose", 
 	data: {
 		month: {
 			January: 121.8633497143, 
-			February: 71.20, 
+			February: 71.2, 
 			March: 136.5014483333, 
 			April: 84.7519541667, 
 			May: 120.9435797222, 
@@ -17105,6 +18174,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Santa Catalina", 
 	data: {
@@ -17121,6 +18191,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Siaton", 
 	data: {
@@ -17137,6 +18208,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Sibulan", 
 	data: {
@@ -17153,6 +18225,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Tanjay City", 
 	data: {
@@ -17169,6 +18242,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Tayasan", 
 	data: {
@@ -17185,6 +18259,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Valencia", 
 	data: {
@@ -17201,12 +18276,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Vallehermoso", 
 	data: {
 		month: {
 			January: 114.6872374286, 
-			February: 84.50, 
+			February: 84.5, 
 			March: 109.6219941667, 
 			April: 72.9093505556, 
 			May: 150.5444262963, 
@@ -17217,6 +18293,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
 	province: "Negros Oriental", 
 	municipality: "Zamboanguita", 
 	data: {
@@ -17233,6 +18310,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "All", 
 	data: {
@@ -17249,6 +18327,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Alamada", 
 	data: {
@@ -17265,6 +18344,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Aleosan", 
 	data: {
@@ -17281,6 +18361,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Antipas", 
 	data: {
@@ -17297,6 +18378,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Arakan", 
 	data: {
@@ -17313,6 +18395,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Banisilan", 
 	data: {
@@ -17329,12 +18412,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Carmen", 
 	data: {
 		month: {
 			January: 155.2208092671, 
-			February: 148.30, 
+			February: 148.3, 
 			March: 223.0752216184, 
 			April: 184.2896382971, 
 			May: 273.6132883092, 
@@ -17345,6 +18429,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Kabacan", 
 	data: {
@@ -17361,6 +18446,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Kidapawan City", 
 	data: {
@@ -17377,6 +18463,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Libungan", 
 	data: {
@@ -17393,12 +18480,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Magpet", 
 	data: {
 		month: {
 			January: 157.9908917143, 
-			February: 140.00, 
+			February: 140, 
 			March: 200.6583387269, 
 			April: 178.8763947917, 
 			May: 250.8625963889, 
@@ -17409,6 +18497,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Makilala", 
 	data: {
@@ -17425,6 +18514,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Matalam", 
 	data: {
@@ -17441,6 +18531,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Midsayap", 
 	data: {
@@ -17457,6 +18548,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "M'Lang", 
 	data: {
@@ -17473,6 +18565,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Pigkawayan", 
 	data: {
@@ -17489,6 +18582,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Pikit", 
 	data: {
@@ -17505,6 +18599,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "President Roxas", 
 	data: {
@@ -17521,6 +18616,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "North Cotabato", 
 	municipality: "Tulunan", 
 	data: {
@@ -17537,6 +18633,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "All", 
 	data: {
@@ -17553,6 +18650,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Allen", 
 	data: {
@@ -17569,6 +18667,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Biri", 
 	data: {
@@ -17585,6 +18684,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Bobon", 
 	data: {
@@ -17601,6 +18701,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Catarman", 
 	data: {
@@ -17617,6 +18718,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Catubig", 
 	data: {
@@ -17633,6 +18735,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Gamay", 
 	data: {
@@ -17649,6 +18752,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Laoang", 
 	data: {
@@ -17665,6 +18769,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Lapinig", 
 	data: {
@@ -17681,12 +18786,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Las Navas", 
 	data: {
 		month: {
 			January: 462.0273311429, 
-			February: 262.50, 
+			February: 262.5, 
 			March: 331.0007528086, 
 			April: 160.1615148148, 
 			May: 193.2682887654, 
@@ -17697,12 +18803,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Lavezares", 
 	data: {
 		month: {
 			January: 352.9741025714, 
-			February: 212.70, 
+			February: 212.7, 
 			March: 232.8779988889, 
 			April: 154.0843674074, 
 			May: 157.610722963, 
@@ -17713,6 +18820,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Lope de Vega", 
 	data: {
@@ -17729,6 +18837,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Mapanas", 
 	data: {
@@ -17745,6 +18854,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Mondragon", 
 	data: {
@@ -17761,6 +18871,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Palapag", 
 	data: {
@@ -17777,6 +18888,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Pambujan", 
 	data: {
@@ -17793,6 +18905,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Rosario", 
 	data: {
@@ -17809,6 +18922,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "San Isidro", 
 	data: {
@@ -17825,6 +18939,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "San Jose", 
 	data: {
@@ -17841,6 +18956,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "San Roque", 
 	data: {
@@ -17857,6 +18973,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Silvino Lobos", 
 	data: {
@@ -17873,6 +18990,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Northern Samar", 
 	municipality: "Victoria", 
 	data: {
@@ -17889,6 +19007,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "All", 
 	data: {
@@ -17905,6 +19024,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Aliaga", 
 	data: {
@@ -17921,12 +19041,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Bongabon", 
 	data: {
 		month: {
 			January: 73.7737557857, 
-			February: 44.90, 
+			February: 44.9, 
 			March: 63.1265827083, 
 			April: 69.0664434028, 
 			May: 245.5268175694, 
@@ -17937,6 +19058,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Cabanatuan City", 
 	data: {
@@ -17953,6 +19075,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Cabiao", 
 	data: {
@@ -17969,6 +19092,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Carranglan", 
 	data: {
@@ -17985,6 +19109,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Cuyapo", 
 	data: {
@@ -18001,12 +19126,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Gabaldon", 
 	data: {
 		month: {
 			January: 74.90802725, 
-			February: 49.40, 
+			February: 49.4, 
 			March: 68.9358877083, 
 			April: 75.2124179861, 
 			May: 248.4501607292, 
@@ -18017,6 +19143,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Gapan City", 
 	data: {
@@ -18033,6 +19160,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "General Mamerto Natividad", 
 	data: {
@@ -18049,6 +19177,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "General Tinio", 
 	data: {
@@ -18065,6 +19194,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Guimba", 
 	data: {
@@ -18081,6 +19211,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Jaen", 
 	data: {
@@ -18097,6 +19228,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Laur", 
 	data: {
@@ -18113,12 +19245,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Licab", 
 	data: {
 		month: {
 			January: 18.0430132381, 
-			February: 4.70, 
+			February: 4.7, 
 			March: 13.9255585185, 
 			April: 37.7241721296, 
 			May: 224.9271251852, 
@@ -18129,12 +19262,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Llanera", 
 	data: {
 		month: {
 			January: 35.1431212381, 
-			February: 18.70, 
+			February: 18.7, 
 			March: 34.1576877778, 
 			April: 39.8934688889, 
 			May: 214.503145, 
@@ -18145,6 +19279,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Lupao", 
 	data: {
@@ -18161,6 +19296,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Muñoz City", 
 	data: {
@@ -18177,6 +19313,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Nampicuan", 
 	data: {
@@ -18193,6 +19330,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Palayan City", 
 	data: {
@@ -18209,6 +19347,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Pantabangan", 
 	data: {
@@ -18225,6 +19364,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Peñaranda", 
 	data: {
@@ -18241,6 +19381,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Quezon", 
 	data: {
@@ -18257,6 +19398,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Rizal", 
 	data: {
@@ -18273,6 +19415,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "San Antonio", 
 	data: {
@@ -18289,6 +19432,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "San Isidro", 
 	data: {
@@ -18305,6 +19449,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "San Jose City", 
 	data: {
@@ -18321,6 +19466,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "San Leonardo", 
 	data: {
@@ -18337,12 +19483,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Santa Rosa", 
 	data: {
 		month: {
 			January: 27.8698918286, 
-			February: 9.80, 
+			February: 9.8, 
 			March: 22.3969844444, 
 			April: 21.9801573333, 
 			May: 177.4901672222, 
@@ -18353,6 +19500,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Santo Domingo", 
 	data: {
@@ -18369,6 +19517,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Talavera", 
 	data: {
@@ -18385,6 +19534,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Talugtug", 
 	data: {
@@ -18401,6 +19551,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Nueva Ecija", 
 	municipality: "Zaragoza", 
 	data: {
@@ -18417,6 +19568,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "All", 
 	data: {
@@ -18433,6 +19585,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Alfonso Castaneda", 
 	data: {
@@ -18449,6 +19602,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Ambaguio", 
 	data: {
@@ -18465,6 +19619,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Aritao", 
 	data: {
@@ -18481,6 +19636,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Bagabag", 
 	data: {
@@ -18497,6 +19653,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Bambang", 
 	data: {
@@ -18513,6 +19670,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Bayombong", 
 	data: {
@@ -18529,12 +19687,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Diadi", 
 	data: {
 		month: {
 			January: 57.4883967619, 
-			February: 49.80, 
+			February: 49.8, 
 			March: 80.7229895988, 
 			April: 88.647816358, 
 			May: 202.8805805247, 
@@ -18545,6 +19704,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Dupax Del Norte", 
 	data: {
@@ -18561,6 +19721,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Dupax Del Sur", 
 	data: {
@@ -18577,6 +19738,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Kasibu", 
 	data: {
@@ -18593,6 +19755,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Kayapa", 
 	data: {
@@ -18609,12 +19772,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Quezon", 
 	data: {
 		month: {
 			January: 59.0960327429, 
-			February: 43.70, 
+			February: 43.7, 
 			March: 77.6915200556, 
 			April: 104.5107062778, 
 			May: 223.0127090556, 
@@ -18625,6 +19789,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Santa Fe", 
 	data: {
@@ -18641,6 +19806,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Solano", 
 	data: {
@@ -18657,6 +19823,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Nueva Vizcaya", 
 	municipality: "Villaverde", 
 	data: {
@@ -18673,6 +19840,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "All", 
 	data: {
@@ -18689,6 +19857,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Abra de Ilog", 
 	data: {
@@ -18705,6 +19874,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Calintaan", 
 	data: {
@@ -18721,6 +19891,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Looc", 
 	data: {
@@ -18737,6 +19908,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Lubang", 
 	data: {
@@ -18753,6 +19925,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Magsaysay", 
 	data: {
@@ -18769,12 +19942,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Mamburao", 
 	data: {
 		month: {
 			January: 28.9152130649, 
-			February: 18.40, 
+			February: 18.4, 
 			March: 20.4904818182, 
 			April: 44.8459697475, 
 			May: 195.0826416667, 
@@ -18785,6 +19959,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Paluan", 
 	data: {
@@ -18801,6 +19976,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Rizal", 
 	data: {
@@ -18817,6 +19993,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Sablayan", 
 	data: {
@@ -18833,6 +20010,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "San Jose", 
 	data: {
@@ -18849,6 +20027,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Occidental Mindoro", 
 	municipality: "Santa Cruz", 
 	data: {
@@ -18865,6 +20044,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "All", 
 	data: {
@@ -18881,6 +20061,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Baco", 
 	data: {
@@ -18897,6 +20078,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Bansud", 
 	data: {
@@ -18913,6 +20095,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Bongabong", 
 	data: {
@@ -18929,6 +20112,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Bulalacao", 
 	data: {
@@ -18945,6 +20129,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Calapan City", 
 	data: {
@@ -18961,6 +20146,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Gloria", 
 	data: {
@@ -18977,6 +20163,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Mansalay", 
 	data: {
@@ -18993,6 +20180,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Naujan", 
 	data: {
@@ -19009,6 +20197,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Naujan Lake", 
 	data: {
@@ -19025,6 +20214,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Pinamalayan", 
 	data: {
@@ -19041,6 +20231,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Pola", 
 	data: {
@@ -19057,6 +20248,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Puerto Galera", 
 	data: {
@@ -19073,6 +20265,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Roxas", 
 	data: {
@@ -19089,6 +20282,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "San Teodoro", 
 	data: {
@@ -19105,6 +20299,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Socorro", 
 	data: {
@@ -19121,6 +20316,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Oriental Mindoro", 
 	municipality: "Victoria", 
 	data: {
@@ -19137,6 +20333,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "All", 
 	data: {
@@ -19153,6 +20350,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Aborlan", 
 	data: {
@@ -19169,6 +20367,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Agutaya", 
 	data: {
@@ -19185,12 +20384,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Araceli", 
 	data: {
 		month: {
 			January: 28.0653306857, 
-			February: 16.40, 
+			February: 16.4, 
 			March: 34.8116025413, 
 			April: 58.7118551683, 
 			May: 161.5465885365, 
@@ -19201,6 +20401,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Balabac", 
 	data: {
@@ -19217,6 +20418,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Bataraza", 
 	data: {
@@ -19233,6 +20435,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Brooke's Point", 
 	data: {
@@ -19249,6 +20452,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Busuanga", 
 	data: {
@@ -19265,6 +20469,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Cagayancillo", 
 	data: {
@@ -19281,6 +20486,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Coron", 
 	data: {
@@ -19297,6 +20503,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Culion", 
 	data: {
@@ -19313,6 +20520,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Dumaran", 
 	data: {
@@ -19329,6 +20537,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "El Nido", 
 	data: {
@@ -19345,12 +20554,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Linapacan", 
 	data: {
 		month: {
 			January: 26.9463222857, 
-			February: 12.40, 
+			February: 12.4, 
 			March: 25.6544612202, 
 			April: 33.0628885536, 
 			May: 195.4889570556, 
@@ -19361,6 +20571,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Magsaysay", 
 	data: {
@@ -19377,6 +20588,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Narra", 
 	data: {
@@ -19393,6 +20605,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Puerto Princesa City", 
 	data: {
@@ -19409,6 +20622,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Quezon", 
 	data: {
@@ -19425,6 +20639,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Rizal", 
 	data: {
@@ -19441,6 +20656,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Roxas", 
 	data: {
@@ -19457,6 +20673,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "San Vicente", 
 	data: {
@@ -19473,6 +20690,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Sofronio Espanola", 
 	data: {
@@ -19489,6 +20707,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Palawan", 
 	municipality: "Taytay", 
 	data: {
@@ -19505,6 +20724,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "All", 
 	data: {
@@ -19521,6 +20741,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Angeles City", 
 	data: {
@@ -19537,6 +20758,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Apalit", 
 	data: {
@@ -19553,6 +20775,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Arayat", 
 	data: {
@@ -19569,6 +20792,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Bacolor", 
 	data: {
@@ -19585,6 +20809,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Candaba", 
 	data: {
@@ -19601,6 +20826,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Floridablanca", 
 	data: {
@@ -19617,6 +20843,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Guagua", 
 	data: {
@@ -19633,6 +20860,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Lubao", 
 	data: {
@@ -19649,6 +20877,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Mabalacat", 
 	data: {
@@ -19665,12 +20894,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Macabebe", 
 	data: {
 		month: {
 			January: 12.5580282857, 
-			February: 5.90, 
+			February: 5.9, 
 			March: 12.2713069444, 
 			April: 27.0147309722, 
 			May: 201.8425922222, 
@@ -19681,6 +20911,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Magalang", 
 	data: {
@@ -19697,6 +20928,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Masantol", 
 	data: {
@@ -19713,6 +20945,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Mexico", 
 	data: {
@@ -19729,6 +20962,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Minalin", 
 	data: {
@@ -19745,6 +20979,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Porac", 
 	data: {
@@ -19761,6 +20996,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "San Fernando City", 
 	data: {
@@ -19777,6 +21013,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "San Luis", 
 	data: {
@@ -19793,6 +21030,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "San Simon", 
 	data: {
@@ -19809,6 +21047,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Santa Ana", 
 	data: {
@@ -19825,12 +21064,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Santa Rita", 
 	data: {
 		month: {
 			January: 10.227864, 
-			February: 12.40, 
+			February: 12.4, 
 			March: 14.2428469444, 
 			April: 28.9882477778, 
 			May: 207.9745911111, 
@@ -19841,12 +21081,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Santo Tomas", 
 	data: {
 		month: {
 			January: 16.7315891429, 
-			February: 6.80, 
+			February: 6.8, 
 			March: 17.0836455556, 
 			April: 30.9082119444, 
 			May: 211.6289083333, 
@@ -19857,6 +21098,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Pampanga", 
 	municipality: "Sasmuan", 
 	data: {
@@ -19873,6 +21115,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "All", 
 	data: {
@@ -19889,6 +21132,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Agno", 
 	data: {
@@ -19905,6 +21149,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Aguilar", 
 	data: {
@@ -19921,6 +21166,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Alaminos City", 
 	data: {
@@ -19937,6 +21183,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Alcala", 
 	data: {
@@ -19953,6 +21200,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Anda", 
 	data: {
@@ -19969,6 +21217,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Asingan", 
 	data: {
@@ -19985,6 +21234,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Balungao", 
 	data: {
@@ -20001,6 +21251,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Bani", 
 	data: {
@@ -20017,6 +21268,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Basista", 
 	data: {
@@ -20033,6 +21285,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Bautista", 
 	data: {
@@ -20049,6 +21302,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Bayambang", 
 	data: {
@@ -20065,6 +21319,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Binalonan", 
 	data: {
@@ -20081,6 +21336,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Binmaley", 
 	data: {
@@ -20097,6 +21353,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Bolinao", 
 	data: {
@@ -20113,6 +21370,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Bugallon", 
 	data: {
@@ -20129,6 +21387,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Burgos", 
 	data: {
@@ -20145,12 +21404,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Calasiao", 
 	data: {
 		month: {
 			January: 7.7389354286, 
-			February: 7.50, 
+			February: 7.5, 
 			March: 23.7395825, 
 			April: 52.2161883333, 
 			May: 192.879855, 
@@ -20161,12 +21421,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Dagupan City", 
 	data: {
 		month: {
 			January: 7.7905554286, 
-			February: 9.30, 
+			February: 9.3, 
 			March: 16.9121037063, 
 			April: 38.2114982381, 
 			May: 214.5326735952, 
@@ -20177,6 +21438,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Dasol", 
 	data: {
@@ -20193,6 +21455,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Infanta", 
 	data: {
@@ -20209,6 +21472,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Labrador", 
 	data: {
@@ -20225,6 +21489,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Laoac", 
 	data: {
@@ -20241,6 +21506,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Lingayen", 
 	data: {
@@ -20257,6 +21523,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Mabini", 
 	data: {
@@ -20273,12 +21540,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Malasiqui", 
 	data: {
 		month: {
 			January: 7.6267206429, 
-			February: 2.40, 
+			February: 2.4, 
 			March: 17.9144244444, 
 			April: 46.7595715278, 
 			May: 222.5348438889, 
@@ -20289,6 +21557,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Manaoag", 
 	data: {
@@ -20305,6 +21574,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Mangaldan", 
 	data: {
@@ -20321,12 +21591,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Mangatarem", 
 	data: {
 		month: {
 			January: 8.095287974, 
-			February: 9.20, 
+			February: 9.2, 
 			March: 49.9586732323, 
 			April: 75.484192298, 
 			May: 255.0722165657, 
@@ -20337,6 +21608,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Mapandan", 
 	data: {
@@ -20353,6 +21625,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Natividad", 
 	data: {
@@ -20369,6 +21642,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Pozzorubio", 
 	data: {
@@ -20385,6 +21659,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Rosales", 
 	data: {
@@ -20401,6 +21676,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "San Carlos City", 
 	data: {
@@ -20417,6 +21693,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "San Fabian", 
 	data: {
@@ -20433,12 +21710,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "San Jacinto", 
 	data: {
 		month: {
 			January: 7.7820354286, 
-			February: 9.90, 
+			February: 9.9, 
 			March: 19.1713758333, 
 			April: 40.0671847222, 
 			May: 206.5853397222, 
@@ -20449,6 +21727,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "San Manuel", 
 	data: {
@@ -20465,6 +21744,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "San Nicolas", 
 	data: {
@@ -20481,6 +21761,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "San Quintin", 
 	data: {
@@ -20497,6 +21778,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Santa Barbara", 
 	data: {
@@ -20513,12 +21795,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Santa Maria", 
 	data: {
 		month: {
 			January: 10.5712064286, 
-			February: 3.10, 
+			February: 3.1, 
 			March: 21.3488576389, 
 			April: 52.8821326389, 
 			May: 216.7017922222, 
@@ -20529,6 +21812,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Sison", 
 	data: {
@@ -20545,6 +21829,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Sual", 
 	data: {
@@ -20561,6 +21846,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Tayug", 
 	data: {
@@ -20577,6 +21863,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Umingan", 
 	data: {
@@ -20593,6 +21880,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Urbiztondo", 
 	data: {
@@ -20609,6 +21897,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Urdaneta City", 
 	data: {
@@ -20625,6 +21914,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
 	province: "Pangasinan", 
 	municipality: "Villasis", 
 	data: {
@@ -20641,6 +21931,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "All", 
 	data: {
@@ -20657,12 +21948,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Agdangan", 
 	data: {
 		month: {
 			January: 149.5545102857, 
-			February: 112.20, 
+			February: 112.2, 
 			March: 103.8963983333, 
 			April: 67.3279222222, 
 			May: 137.4845863889, 
@@ -20673,6 +21965,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Alabat", 
 	data: {
@@ -20689,6 +21982,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Atimonan", 
 	data: {
@@ -20705,12 +21999,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Buenavista", 
 	data: {
 		month: {
 			January: 140.9799789286, 
-			February: 99.00, 
+			February: 99, 
 			March: 120.1828823611, 
 			April: 76.0457734028, 
 			May: 141.4397147917, 
@@ -20721,6 +22016,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Burdeos", 
 	data: {
@@ -20737,6 +22033,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Calauag", 
 	data: {
@@ -20753,12 +22050,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Candelaria", 
 	data: {
 		month: {
 			January: 69.7872702857, 
-			February: 51.80, 
+			February: 51.8, 
 			March: 50.3985397778, 
 			April: 42.6657762222, 
 			May: 136.3669533889, 
@@ -20769,6 +22067,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Catanauan", 
 	data: {
@@ -20785,6 +22084,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Dolores", 
 	data: {
@@ -20801,6 +22101,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "General Luna", 
 	data: {
@@ -20817,6 +22118,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "General Nakar", 
 	data: {
@@ -20833,6 +22135,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Guinayangan", 
 	data: {
@@ -20849,6 +22152,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Gumaca", 
 	data: {
@@ -20865,6 +22169,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Infanta", 
 	data: {
@@ -20881,6 +22186,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Jomalig", 
 	data: {
@@ -20897,6 +22203,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Lopez", 
 	data: {
@@ -20913,6 +22220,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Lucban", 
 	data: {
@@ -20929,6 +22237,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Lucena City", 
 	data: {
@@ -20945,6 +22254,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Macalelon", 
 	data: {
@@ -20961,6 +22271,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Mauban", 
 	data: {
@@ -20977,6 +22288,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Mulanay", 
 	data: {
@@ -20993,12 +22305,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Padre Burgos", 
 	data: {
 		month: {
 			January: 146.6629485714, 
-			February: 107.70, 
+			February: 107.7, 
 			March: 88.1382463889, 
 			April: 64.2811775, 
 			May: 148.4715011111, 
@@ -21009,6 +22322,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Pagbilao", 
 	data: {
@@ -21025,6 +22339,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Panukulan", 
 	data: {
@@ -21041,6 +22356,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Patnanungan", 
 	data: {
@@ -21057,6 +22373,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Perez", 
 	data: {
@@ -21073,6 +22390,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Pitogo", 
 	data: {
@@ -21089,6 +22407,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Plaridel", 
 	data: {
@@ -21105,6 +22424,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Polillo", 
 	data: {
@@ -21121,12 +22441,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Quezon", 
 	data: {
 		month: {
 			January: 175.3973834286, 
-			February: 138.10, 
+			February: 138.1, 
 			March: 123.1193288889, 
 			April: 64.1592845833, 
 			May: 122.0281530556, 
@@ -21137,6 +22458,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Real", 
 	data: {
@@ -21153,6 +22475,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Sampaloc", 
 	data: {
@@ -21169,6 +22492,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "San Andres", 
 	data: {
@@ -21185,12 +22509,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "San Antonio", 
 	data: {
 		month: {
 			January: 72.9163691429, 
-			February: 48.50, 
+			February: 48.5, 
 			March: 48.0997576389, 
 			April: 43.2663023611, 
 			May: 135.5170559722, 
@@ -21201,6 +22526,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "San Francisco", 
 	data: {
@@ -21217,12 +22543,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "San Narciso", 
 	data: {
 		month: {
 			January: 100.8881603265, 
-			February: 70.60, 
+			February: 70.6, 
 			March: 90.4814180159, 
 			April: 55.9476809524, 
 			May: 136.9692580556, 
@@ -21233,6 +22560,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Sariaya", 
 	data: {
@@ -21249,6 +22577,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Tagkawayan", 
 	data: {
@@ -21265,12 +22594,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Tayabas City", 
 	data: {
 		month: {
 			January: 93.9438435102, 
-			February: 72.80, 
+			February: 72.8, 
 			March: 75.0551730159, 
 			April: 54.8796317063, 
 			May: 144.3265737698, 
@@ -21281,6 +22611,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Tiaong", 
 	data: {
@@ -21297,6 +22628,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
 	municipality: "Unisan", 
 	data: {
@@ -21313,6 +22645,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "All", 
 	data: {
@@ -21329,6 +22662,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "Aglipay", 
 	data: {
@@ -21345,6 +22679,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "Cabarroguis", 
 	data: {
@@ -21361,6 +22696,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "Diffun", 
 	data: {
@@ -21377,6 +22713,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "Maddela", 
 	data: {
@@ -21393,12 +22730,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "Nagtipunan", 
 	data: {
 		month: {
 			January: 91.0012170343, 
-			February: 75.20, 
+			February: 75.2, 
 			March: 118.1836192667, 
 			April: 106.0071180167, 
 			May: 235.8089596944, 
@@ -21409,12 +22747,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
 	province: "Quirino", 
 	municipality: "Saguday", 
 	data: {
 		month: {
 			January: 70.9208489524, 
-			February: 57.90, 
+			February: 57.9, 
 			March: 92.395655, 
 			April: 77.6774533333, 
 			May: 188.5423806481, 
@@ -21425,12 +22764,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 73.116282392, 
-			February: 39.80, 
+			February: 39.8, 
 			March: 57.2712021318, 
 			April: 53.6741811822, 
 			May: 190.6363358333, 
@@ -21441,6 +22781,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Antipolo City", 
 	data: {
@@ -21457,6 +22798,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Baras", 
 	data: {
@@ -21473,6 +22815,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Binangonan", 
 	data: {
@@ -21489,6 +22832,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Cardona", 
 	data: {
@@ -21505,12 +22849,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Jala-Jala", 
 	data: {
 		month: {
 			January: 70.4088708571, 
-			February: 39.90, 
+			February: 39.9, 
 			March: 49.9921125, 
 			April: 40.1384823611, 
 			May: 158.2290480556, 
@@ -21521,6 +22866,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Morong", 
 	data: {
@@ -21537,6 +22883,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Pililla", 
 	data: {
@@ -21553,6 +22900,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Rodriguez", 
 	data: {
@@ -21569,6 +22917,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "San Mateo", 
 	data: {
@@ -21585,6 +22934,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Tanay", 
 	data: {
@@ -21601,12 +22951,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Taytay", 
 	data: {
 		month: {
 			January: 31.4707817143, 
-			February: 17.80, 
+			February: 17.8, 
 			March: 22.7530533333, 
 			April: 28.9353655556, 
 			May: 206.7021394444, 
@@ -21617,6 +22968,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
 	province: "Rizal", 
 	municipality: "Teresa", 
 	data: {
@@ -21633,6 +22985,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "All", 
 	data: {
@@ -21649,6 +23002,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Alcantara", 
 	data: {
@@ -21665,6 +23019,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Banton", 
 	data: {
@@ -21681,12 +23036,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Cajidiocan", 
 	data: {
 		month: {
 			January: 117.4050760714, 
-			February: 59.20, 
+			February: 59.2, 
 			March: 87.7743303472, 
 			April: 59.0969125694, 
 			May: 172.6157531944, 
@@ -21697,6 +23053,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Calatrava", 
 	data: {
@@ -21713,6 +23070,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Concepcion", 
 	data: {
@@ -21729,6 +23087,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Ferrol", 
 	data: {
@@ -21745,6 +23104,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Looc", 
 	data: {
@@ -21761,6 +23121,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Magdiwang", 
 	data: {
@@ -21777,6 +23138,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Odiongan", 
 	data: {
@@ -21793,6 +23155,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Romblon", 
 	data: {
@@ -21809,6 +23172,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "San Agustin", 
 	data: {
@@ -21825,6 +23189,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "San Andres", 
 	data: {
@@ -21841,6 +23206,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "San Fernando", 
 	data: {
@@ -21857,6 +23223,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "San Jose", 
 	data: {
@@ -21873,6 +23240,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Santa Fe", 
 	data: {
@@ -21889,12 +23257,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
 	municipality: "Santa Maria", 
 	data: {
 		month: {
 			January: 81.5407192857, 
-			February: 38.40, 
+			February: 38.4, 
 			March: 50.8432856944, 
 			April: 49.7601627778, 
 			May: 194.3857655556, 
@@ -21905,6 +23274,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "All", 
 	data: {
@@ -21921,6 +23291,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Basey", 
 	data: {
@@ -21937,6 +23308,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Calbayog City", 
 	data: {
@@ -21953,12 +23325,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Calbiga", 
 	data: {
 		month: {
 			January: 381.3587986429, 
-			February: 258.70, 
+			February: 258.7, 
 			March: 295.0731179623, 
 			April: 181.1733668135, 
 			May: 198.0210795694, 
@@ -21969,6 +23342,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Catbalogan City", 
 	data: {
@@ -21985,6 +23359,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Daram", 
 	data: {
@@ -22001,6 +23376,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Gandara", 
 	data: {
@@ -22017,6 +23393,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Hinabangan", 
 	data: {
@@ -22033,6 +23410,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Jiabong", 
 	data: {
@@ -22049,6 +23427,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Marabut", 
 	data: {
@@ -22065,6 +23444,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Matuguinao", 
 	data: {
@@ -22081,6 +23461,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Motiong", 
 	data: {
@@ -22097,6 +23478,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Pagsanghan", 
 	data: {
@@ -22113,6 +23495,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Paranas", 
 	data: {
@@ -22129,6 +23512,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Pinabacdao", 
 	data: {
@@ -22145,6 +23529,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "San Jorge", 
 	data: {
@@ -22161,6 +23546,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "San Jose de Buan", 
 	data: {
@@ -22177,6 +23563,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "San Sebastian", 
 	data: {
@@ -22193,6 +23580,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Santa Margarita", 
 	data: {
@@ -22209,12 +23597,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Santa Rita", 
 	data: {
 		month: {
 			January: 385.0950328571, 
-			February: 252.00, 
+			February: 252, 
 			March: 274.3899951032, 
 			April: 160.0395854638, 
 			May: 179.7507261781, 
@@ -22225,6 +23614,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Santo Nino", 
 	data: {
@@ -22241,6 +23631,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Tagapul-An", 
 	data: {
@@ -22257,6 +23648,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Talalora", 
 	data: {
@@ -22273,6 +23665,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Tarangnan", 
 	data: {
@@ -22289,6 +23682,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Villareal", 
 	data: {
@@ -22305,6 +23699,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Samar", 
 	municipality: "Zumarraga", 
 	data: {
@@ -22321,6 +23716,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "All", 
 	data: {
@@ -22337,12 +23733,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Alabel", 
 	data: {
 		month: {
 			January: 125.038468, 
-			February: 110.60, 
+			February: 110.6, 
 			March: 154.3400601389, 
 			April: 101.617034429, 
 			May: 128.348486142, 
@@ -22353,6 +23750,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Glan", 
 	data: {
@@ -22369,6 +23767,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Kiamba", 
 	data: {
@@ -22385,12 +23784,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Maasim", 
 	data: {
 		month: {
 			January: 120.7245678776, 
-			February: 85.80, 
+			February: 85.8, 
 			March: 150.601665924, 
 			April: 105.8229364807, 
 			May: 137.3984752721, 
@@ -22401,6 +23801,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Maitum", 
 	data: {
@@ -22417,6 +23818,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Malapatan", 
 	data: {
@@ -22433,12 +23835,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sarangani", 
 	municipality: "Malungon", 
 	data: {
 		month: {
 			January: 135.9883635102, 
-			February: 114.00, 
+			February: 114, 
 			March: 162.4167210714, 
 			April: 109.6152487897, 
 			May: 134.3300717857, 
@@ -22449,6 +23852,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "All", 
 	data: {
@@ -22465,6 +23869,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Barira", 
 	data: {
@@ -22481,6 +23886,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Buldon", 
 	data: {
@@ -22497,6 +23903,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Datu Blah T. Sinsuat", 
 	data: {
@@ -22513,6 +23920,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Datu Odin Sinsuat", 
 	data: {
@@ -22529,6 +23937,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Kabuntalan", 
 	data: {
@@ -22545,12 +23954,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Matanog", 
 	data: {
 		month: {
 			January: 125.8748102143, 
-			February: 133.80, 
+			February: 133.8, 
 			March: 261.9050374306, 
 			April: 222.1295341667, 
 			May: 320.15798875, 
@@ -22561,6 +23971,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Northern Kabuntalan", 
 	data: {
@@ -22577,6 +23988,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Parang", 
 	data: {
@@ -22593,6 +24005,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Sultan Kudarat", 
 	data: {
@@ -22609,6 +24022,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Sultan Mastura", 
 	data: {
@@ -22625,6 +24039,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Shariff Kabunsuan", 
 	municipality: "Upi", 
 	data: {
@@ -22641,6 +24056,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "All", 
 	data: {
@@ -22657,6 +24073,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "Enrique Villanueva", 
 	data: {
@@ -22673,6 +24090,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "Larena", 
 	data: {
@@ -22689,6 +24107,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "Lazi", 
 	data: {
@@ -22705,6 +24124,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "Maria", 
 	data: {
@@ -22721,6 +24141,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "San Juan", 
 	data: {
@@ -22737,6 +24158,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Siquijor", 
 	municipality: "Siquijor", 
 	data: {
@@ -22753,6 +24175,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "All", 
 	data: {
@@ -22769,6 +24192,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Barcelona", 
 	data: {
@@ -22785,6 +24209,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Bulan", 
 	data: {
@@ -22801,6 +24226,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Bulusan", 
 	data: {
@@ -22817,6 +24243,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Casiguran", 
 	data: {
@@ -22833,6 +24260,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Castilla", 
 	data: {
@@ -22849,6 +24277,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Donsol", 
 	data: {
@@ -22865,6 +24294,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Gubat", 
 	data: {
@@ -22881,6 +24311,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Irosin", 
 	data: {
@@ -22897,6 +24328,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Juban", 
 	data: {
@@ -22913,6 +24345,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Magallanes", 
 	data: {
@@ -22929,6 +24362,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Matnog", 
 	data: {
@@ -22945,6 +24379,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Pilar", 
 	data: {
@@ -22961,6 +24396,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Prieto Diaz", 
 	data: {
@@ -22977,6 +24413,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Santa Magdalena", 
 	data: {
@@ -22993,6 +24430,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
 	province: "Sorsogon", 
 	municipality: "Sorsogon City", 
 	data: {
@@ -23009,6 +24447,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "All", 
 	data: {
@@ -23025,6 +24464,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Banga", 
 	data: {
@@ -23041,6 +24481,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "General Santos City", 
 	data: {
@@ -23057,12 +24498,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Koronadal City", 
 	data: {
 		month: {
 			January: 118.5585149143, 
-			February: 121.50, 
+			February: 121.5, 
 			March: 169.2948298056, 
 			April: 118.3894188056, 
 			May: 163.2283835556, 
@@ -23073,6 +24515,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Lake Sebu", 
 	data: {
@@ -23089,6 +24532,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Norala", 
 	data: {
@@ -23105,6 +24549,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Polomolok", 
 	data: {
@@ -23121,6 +24566,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Santo Nino", 
 	data: {
@@ -23137,6 +24583,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Surallah", 
 	data: {
@@ -23153,6 +24600,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Tampakan", 
 	data: {
@@ -23169,6 +24617,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Tantangan", 
 	data: {
@@ -23185,6 +24634,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "T'Boli", 
 	data: {
@@ -23201,6 +24651,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "South Cotabato", 
 	municipality: "Tupi", 
 	data: {
@@ -23217,12 +24668,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 423.7616213022, 
-			February: 235.90, 
+			February: 235.9, 
 			March: 297.5466580809, 
 			April: 183.9709777022, 
 			May: 140.3493315475, 
@@ -23233,6 +24685,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Anahawan", 
 	data: {
@@ -23249,6 +24702,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Bontoc", 
 	data: {
@@ -23265,6 +24719,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Hinunangan", 
 	data: {
@@ -23281,6 +24736,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Hinundayan", 
 	data: {
@@ -23297,6 +24753,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Libagon", 
 	data: {
@@ -23313,6 +24770,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Liloan", 
 	data: {
@@ -23329,6 +24787,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Maasin City", 
 	data: {
@@ -23345,6 +24804,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Macrohon", 
 	data: {
@@ -23361,6 +24821,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Malitbog", 
 	data: {
@@ -23377,6 +24838,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Padre Burgos", 
 	data: {
@@ -23393,6 +24855,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Pintuyan", 
 	data: {
@@ -23409,6 +24872,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Saint Bernard", 
 	data: {
@@ -23425,6 +24889,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "San Francisco", 
 	data: {
@@ -23441,6 +24906,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "San Juan", 
 	data: {
@@ -23457,6 +24923,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "San Ricardo", 
 	data: {
@@ -23473,6 +24940,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Silago", 
 	data: {
@@ -23489,6 +24957,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Sogod", 
 	data: {
@@ -23505,6 +24974,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
 	province: "Southern Leyte", 
 	municipality: "Tomas Oppus", 
 	data: {
@@ -23521,6 +24991,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "All", 
 	data: {
@@ -23537,6 +25008,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Bagumbayan", 
 	data: {
@@ -23553,6 +25025,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Buluan Lake", 
 	data: {
@@ -23569,6 +25042,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Columbio", 
 	data: {
@@ -23585,6 +25059,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Esperanza", 
 	data: {
@@ -23601,6 +25076,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Isulan", 
 	data: {
@@ -23617,6 +25093,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Kalamansig", 
 	data: {
@@ -23633,6 +25110,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Lambayong", 
 	data: {
@@ -23649,6 +25127,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Lebak", 
 	data: {
@@ -23665,12 +25144,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Lutayan", 
 	data: {
 		month: {
 			January: 119.0764876429, 
-			February: 116.50, 
+			February: 116.5, 
 			March: 164.17091625, 
 			April: 108.67549125, 
 			May: 171.026735, 
@@ -23681,6 +25161,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Palimbang", 
 	data: {
@@ -23697,6 +25178,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "President Quirino", 
 	data: {
@@ -23713,6 +25195,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Sen. Ninoy Aquino", 
 	data: {
@@ -23729,6 +25212,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
 	province: "Sultan Kudarat", 
 	municipality: "Tacurong City", 
 	data: {
@@ -23745,6 +25229,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "All", 
 	data: {
@@ -23761,12 +25246,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Indanan", 
 	data: {
 		month: {
 			January: 123.9802495, 
-			February: 113.60, 
+			February: 113.6, 
 			March: 141.1271817361, 
 			April: 179.4030929861, 
 			May: 218.69017375, 
@@ -23777,6 +25263,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Kalingalan Caluang", 
 	data: {
@@ -23793,12 +25280,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Lugus", 
 	data: {
 		month: {
 			January: 100.8595574286, 
-			February: 99.70, 
+			February: 99.7, 
 			March: 127.7188219444, 
 			April: 122.097105, 
 			May: 137.1520252778, 
@@ -23809,6 +25297,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Luuk", 
 	data: {
@@ -23825,6 +25314,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Maimbung", 
 	data: {
@@ -23841,12 +25331,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Old Panamao", 
 	data: {
 		month: {
 			January: 113.1004008571, 
-			February: 101.70, 
+			February: 101.7, 
 			March: 132.1445736111, 
 			April: 143.8231194444, 
 			May: 151.2521238889, 
@@ -23857,6 +25348,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Pandami", 
 	data: {
@@ -23873,12 +25365,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Panglima Estino", 
 	data: {
 		month: {
 			January: 115.4490802857, 
-			February: 104.30, 
+			February: 104.3, 
 			March: 135.7097652778, 
 			April: 152.7181986111, 
 			May: 161.8398019444, 
@@ -23889,6 +25382,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Pangutaran", 
 	data: {
@@ -23905,6 +25399,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Parang", 
 	data: {
@@ -23921,6 +25416,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Pata", 
 	data: {
@@ -23937,6 +25433,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Patikul", 
 	data: {
@@ -23953,6 +25450,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Siasi", 
 	data: {
@@ -23969,6 +25467,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Talipao", 
 	data: {
@@ -23985,6 +25484,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Tapul", 
 	data: {
@@ -24001,12 +25501,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Sulu", 
 	municipality: "Tongkil", 
 	data: {
 		month: {
 			January: 127.3817840476, 
-			February: 96.60, 
+			February: 96.6, 
 			March: 130.6322248426, 
 			April: 123.6906035198, 
 			May: 135.9620306653, 
@@ -24017,6 +25518,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "All", 
 	data: {
@@ -24033,6 +25535,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Alegria", 
 	data: {
@@ -24049,6 +25552,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Bacuag", 
 	data: {
@@ -24065,6 +25569,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Claver", 
 	data: {
@@ -24081,12 +25586,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Dapa", 
 	data: {
 		month: {
 			January: 518.245586619, 
-			February: 314.90, 
+			February: 314.9, 
 			March: 328.9741347275, 
 			April: 232.5234278677, 
 			May: 167.9679889272, 
@@ -24097,6 +25603,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Del Carmen", 
 	data: {
@@ -24113,6 +25620,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "General Luna", 
 	data: {
@@ -24129,6 +25637,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Gigaquit", 
 	data: {
@@ -24145,6 +25654,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Mainit", 
 	data: {
@@ -24161,6 +25671,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Mainit Lake", 
 	data: {
@@ -24177,6 +25688,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Malimono", 
 	data: {
@@ -24193,6 +25705,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Pilar", 
 	data: {
@@ -24209,6 +25722,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Placer", 
 	data: {
@@ -24225,12 +25739,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "San Benito", 
 	data: {
 		month: {
 			January: 563.0207176429, 
-			February: 301.50, 
+			February: 301.5, 
 			March: 334.0214270397, 
 			April: 231.7785090615, 
 			May: 160.1481569861, 
@@ -24241,12 +25756,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "San Isidro", 
 	data: {
 		month: {
 			January: 554.6685088571, 
-			February: 301.90, 
+			February: 301.9, 
 			March: 320.8675327778, 
 			April: 229.3740611111, 
 			May: 160.2250030556, 
@@ -24257,6 +25773,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Santa Monica", 
 	data: {
@@ -24273,12 +25790,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Sison", 
 	data: {
 		month: {
 			January: 526.1291007619, 
-			February: 337.70, 
+			February: 337.7, 
 			March: 410.027349537, 
 			April: 260.0327974074, 
 			May: 122.4948284259, 
@@ -24289,6 +25807,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Socorro", 
 	data: {
@@ -24305,6 +25824,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Surigao City", 
 	data: {
@@ -24321,6 +25841,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Tagana-An", 
 	data: {
@@ -24337,6 +25858,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Norte", 
 	municipality: "Tubod", 
 	data: {
@@ -24353,6 +25875,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "All", 
 	data: {
@@ -24369,6 +25892,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Barobo", 
 	data: {
@@ -24385,6 +25909,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Bayabas", 
 	data: {
@@ -24401,6 +25926,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Bislig City", 
 	data: {
@@ -24417,6 +25943,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Cagwait", 
 	data: {
@@ -24433,6 +25960,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Cantilan", 
 	data: {
@@ -24449,6 +25977,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Carmen", 
 	data: {
@@ -24465,6 +25994,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Carrascal", 
 	data: {
@@ -24481,6 +26011,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Cortes", 
 	data: {
@@ -24497,12 +26028,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Hinatuan", 
 	data: {
 		month: {
 			January: 618.5751545357, 
-			February: 368.60, 
+			February: 368.6, 
 			March: 408.4444486458, 
 			April: 355.7392915972, 
 			May: 270.1692872917, 
@@ -24513,6 +26045,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Lanuza", 
 	data: {
@@ -24529,12 +26062,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Lianga", 
 	data: {
 		month: {
 			January: 621.7327559429, 
-			February: 383.30, 
+			February: 383.3, 
 			March: 437.4281515, 
 			April: 292.6356031111, 
 			May: 231.5678138333, 
@@ -24545,6 +26079,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Lingig", 
 	data: {
@@ -24561,6 +26096,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Madrid", 
 	data: {
@@ -24577,6 +26113,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Marihatag", 
 	data: {
@@ -24593,6 +26130,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "San Agustin", 
 	data: {
@@ -24609,6 +26147,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "San Miguel", 
 	data: {
@@ -24625,6 +26164,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Tagbina", 
 	data: {
@@ -24641,6 +26181,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Tago", 
 	data: {
@@ -24657,6 +26198,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
 	province: "Surigao del Sur", 
 	municipality: "Tandag City", 
 	data: {
@@ -24673,12 +26215,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "All", 
 	data: {
 		month: {
 			January: 11.4999018197, 
-			February: 6.30, 
+			February: 6.3, 
 			March: 20.9424031203, 
 			April: 48.09038024, 
 			May: 241.1186665939, 
@@ -24689,6 +26232,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Bamban", 
 	data: {
@@ -24705,6 +26249,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Camiling", 
 	data: {
@@ -24721,6 +26266,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Capas", 
 	data: {
@@ -24737,6 +26283,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Concepcion", 
 	data: {
@@ -24753,6 +26300,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Gerona", 
 	data: {
@@ -24769,6 +26317,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "La Paz", 
 	data: {
@@ -24785,6 +26334,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Mayantoc", 
 	data: {
@@ -24801,6 +26351,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Moncada", 
 	data: {
@@ -24817,6 +26368,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Paniqui", 
 	data: {
@@ -24833,6 +26385,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Pura", 
 	data: {
@@ -24849,6 +26402,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Ramos", 
 	data: {
@@ -24865,6 +26419,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "San Clemente", 
 	data: {
@@ -24881,6 +26436,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "San Jose", 
 	data: {
@@ -24897,6 +26453,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "San Manuel", 
 	data: {
@@ -24913,6 +26470,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Santa Ignacia", 
 	data: {
@@ -24929,6 +26487,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Tarlac City", 
 	data: {
@@ -24945,6 +26504,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Tarlac", 
 	municipality: "Victoria", 
 	data: {
@@ -24961,6 +26521,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "All", 
 	data: {
@@ -24977,6 +26538,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Bongao", 
 	data: {
@@ -24993,6 +26555,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Languyan", 
 	data: {
@@ -25009,6 +26572,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Mapun", 
 	data: {
@@ -25025,6 +26589,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Panglima Sugala", 
 	data: {
@@ -25041,6 +26606,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Sibutu", 
 	data: {
@@ -25057,12 +26623,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Simunul", 
 	data: {
 		month: {
 			January: 128.8118974286, 
-			February: 134.90, 
+			February: 134.9, 
 			March: 169.6907408333, 
 			April: 127.0315602778, 
 			May: 156.403645, 
@@ -25073,12 +26640,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "South Ubian", 
 	data: {
 		month: {
 			January: 130.386986381, 
-			February: 113.20, 
+			February: 113.2, 
 			March: 150.4685516561, 
 			April: 125.7480002328, 
 			May: 130.7490072169, 
@@ -25089,12 +26657,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Tandubas", 
 	data: {
 		month: {
 			January: 113.7919696327, 
-			February: 100.80, 
+			February: 100.8, 
 			March: 137.0638202381, 
 			April: 125.5758847052, 
 			May: 143.0667968265, 
@@ -25105,6 +26674,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "ARMM", 
 	province: "Tawi-Tawi", 
 	municipality: "Turtle Islands", 
 	data: {
@@ -25121,6 +26691,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "All", 
 	data: {
@@ -25137,6 +26708,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Botolan", 
 	data: {
@@ -25153,6 +26725,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Cabangan", 
 	data: {
@@ -25169,6 +26742,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Candelaria", 
 	data: {
@@ -25185,6 +26759,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Castillejos", 
 	data: {
@@ -25201,6 +26776,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Iba", 
 	data: {
@@ -25217,12 +26793,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Masinloc", 
 	data: {
 		month: {
 			January: 7.9262399184, 
-			February: 5.60, 
+			February: 5.6, 
 			March: 21.4685925397, 
 			April: 50.7902627381, 
 			May: 258.2767010317, 
@@ -25233,6 +26810,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Olongapo City", 
 	data: {
@@ -25249,12 +26827,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Palauig", 
 	data: {
 		month: {
 			January: 8.2051820317, 
-			February: 4.50, 
+			February: 4.5, 
 			March: 18.3216533951, 
 			April: 45.3307097222, 
 			May: 232.1572732099, 
@@ -25265,12 +26844,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "San Antonio", 
 	data: {
 		month: {
 			January: 7.9091967347, 
-			February: 7.00, 
+			February: 7, 
 			March: 1.011134042, 
 			April: 17.6036969694, 
 			May: 266.4725637619, 
@@ -25281,12 +26861,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "San Felipe", 
 	data: {
 		month: {
 			January: 7.7611249524, 
-			February: 4.80, 
+			February: 4.8, 
 			March: 4.4445963889, 
 			April: 30.5244223148, 
 			May: 245.5350786111, 
@@ -25297,6 +26878,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "San Marcelino", 
 	data: {
@@ -25313,6 +26895,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "San Narciso", 
 	data: {
@@ -25329,6 +26912,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Santa Cruz", 
 	data: {
@@ -25345,6 +26929,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
 	province: "Zambales", 
 	municipality: "Subic", 
 	data: {
@@ -25361,6 +26946,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "All", 
 	data: {
@@ -25377,6 +26963,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Bacungan", 
 	data: {
@@ -25393,6 +26980,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Baliguian", 
 	data: {
@@ -25409,6 +26997,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Dapitan City", 
 	data: {
@@ -25425,6 +27014,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Dipolog City", 
 	data: {
@@ -25441,6 +27031,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Godod", 
 	data: {
@@ -25457,6 +27048,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Gutalac", 
 	data: {
@@ -25473,6 +27065,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Jose Dalman", 
 	data: {
@@ -25489,6 +27082,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Kalawit", 
 	data: {
@@ -25505,6 +27099,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Katipunan", 
 	data: {
@@ -25521,6 +27116,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "La Libertad", 
 	data: {
@@ -25537,6 +27133,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Labason", 
 	data: {
@@ -25553,6 +27150,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Liloy", 
 	data: {
@@ -25569,6 +27167,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Manukan", 
 	data: {
@@ -25585,12 +27184,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Mutia", 
 	data: {
 		month: {
 			January: 187.5533595714, 
-			February: 140.60, 
+			February: 140.6, 
 			March: 194.4046579167, 
 			April: 133.6054608333, 
 			May: 158.4372881944, 
@@ -25601,6 +27201,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Pinan", 
 	data: {
@@ -25617,6 +27218,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Polanco", 
 	data: {
@@ -25633,6 +27235,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Pres. Manuel A. Roxas", 
 	data: {
@@ -25649,6 +27252,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Rizal", 
 	data: {
@@ -25665,6 +27269,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Salug", 
 	data: {
@@ -25681,12 +27286,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Sergio Osmena Sr.", 
 	data: {
 		month: {
 			January: 178.5625018346, 
-			February: 140.20, 
+			February: 140.2, 
 			March: 201.4533306871, 
 			April: 136.2473771637, 
 			May: 179.5227421199, 
@@ -25697,6 +27303,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Siayan", 
 	data: {
@@ -25713,12 +27320,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Sibuco", 
 	data: {
 		month: {
 			January: 82.2481057714, 
-			February: 69.00, 
+			February: 69, 
 			March: 87.520668048, 
 			April: 80.8395369623, 
 			May: 151.3125601675, 
@@ -25729,6 +27337,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Sibutad", 
 	data: {
@@ -25745,6 +27354,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Sindangan", 
 	data: {
@@ -25761,6 +27371,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Siocon", 
 	data: {
@@ -25777,6 +27388,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Sirawai", 
 	data: {
@@ -25793,6 +27405,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Norte", 
 	municipality: "Tampilisan", 
 	data: {
@@ -25809,6 +27422,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "All", 
 	data: {
@@ -25825,6 +27439,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Aurora", 
 	data: {
@@ -25841,6 +27456,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Bayog", 
 	data: {
@@ -25857,6 +27473,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Dimataling", 
 	data: {
@@ -25873,6 +27490,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Dinas", 
 	data: {
@@ -25889,6 +27507,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Dumalinao", 
 	data: {
@@ -25905,6 +27524,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Dumingag", 
 	data: {
@@ -25921,6 +27541,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Guipos", 
 	data: {
@@ -25937,6 +27558,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Josefina", 
 	data: {
@@ -25953,6 +27575,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Kumalarang", 
 	data: {
@@ -25969,6 +27592,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Labangan", 
 	data: {
@@ -25985,6 +27609,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Lakewood", 
 	data: {
@@ -26001,6 +27626,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Lapuyan", 
 	data: {
@@ -26017,6 +27643,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Mahayag", 
 	data: {
@@ -26033,6 +27660,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Margosatubig", 
 	data: {
@@ -26049,6 +27677,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Midsalip", 
 	data: {
@@ -26065,6 +27694,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Molave", 
 	data: {
@@ -26081,6 +27711,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Pagadian City", 
 	data: {
@@ -26097,6 +27728,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Pitogo", 
 	data: {
@@ -26113,6 +27745,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Ramon Magsaysay", 
 	data: {
@@ -26129,12 +27762,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "San Miguel", 
 	data: {
 		month: {
 			January: 131.042073619, 
-			February: 115.80, 
+			February: 115.8, 
 			March: 217.5437841667, 
 			April: 175.8308401852, 
 			May: 285.4419784259, 
@@ -26145,6 +27779,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "San Pablo", 
 	data: {
@@ -26161,6 +27796,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Sominot", 
 	data: {
@@ -26177,6 +27813,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Tabina", 
 	data: {
@@ -26193,12 +27830,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Tambulig", 
 	data: {
 		month: {
 			January: 191.524364, 
-			February: 150.70, 
+			February: 150.7, 
 			March: 217.2701349444, 
 			April: 148.0716547222, 
 			May: 179.5906412778, 
@@ -26209,12 +27847,13 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Tigbao", 
 	data: {
 		month: {
 			January: 141.096764381, 
-			February: 133.90, 
+			February: 133.9, 
 			March: 224.4747542593, 
 			April: 174.5592560185, 
 			May: 279.8218049074, 
@@ -26225,6 +27864,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Tukuran", 
 	data: {
@@ -26241,6 +27881,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Vincenzo A. Sagun", 
 	data: {
@@ -26257,6 +27898,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga del Sur", 
 	municipality: "Zamboanga City", 
 	data: {
@@ -26273,6 +27915,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "All", 
 	data: {
@@ -26289,6 +27932,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Alicia", 
 	data: {
@@ -26305,6 +27949,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Buug", 
 	data: {
@@ -26321,6 +27966,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Diplahan", 
 	data: {
@@ -26337,6 +27983,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Imelda", 
 	data: {
@@ -26353,6 +28000,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Ipil", 
 	data: {
@@ -26369,6 +28017,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Kabasalan", 
 	data: {
@@ -26385,6 +28034,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Mabuhay", 
 	data: {
@@ -26401,6 +28051,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Malangas", 
 	data: {
@@ -26417,6 +28068,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Naga", 
 	data: {
@@ -26433,6 +28085,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Olutanga", 
 	data: {
@@ -26449,6 +28102,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Payao", 
 	data: {
@@ -26465,6 +28119,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Roseller Lim", 
 	data: {
@@ -26481,6 +28136,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Siay", 
 	data: {
@@ -26497,6 +28153,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Talusan", 
 	data: {
@@ -26513,6 +28170,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Titay", 
 	data: {
@@ -26529,6 +28187,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
 	province: "Zamboanga Sibugay", 
 	municipality: "Tungawan", 
 	data: {
@@ -26544,3 +28203,325 @@ WeatherOutlook.insert({
 	}
 }); 
 
+WeatherOutlook.insert({ 
+	region: "All", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 139.811793, 
+			April: 103.7009101, 
+			May: 188.31283, 
+			June: 264.8899477, 
+			July: 315.8708853 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 114.1118552, 
+			April: 84.54583739, 
+			May: 163.0721727, 
+			June: 269.9651036, 
+			July: 307.0414731 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 17.12451436, 
+			April: 19.14201765, 
+			May: 153.1799591, 
+			June: 283.5358008, 
+			July: 225.5144381 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Cordillera Administrative Region (CAR)", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 51.60998348, 
+			April: 82.71892916, 
+			May: 252.9576344, 
+			June: 237.6029334, 
+			July: 365.1688879 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 21.75862575, 
+			April: 37.22857288, 
+			May: 220.8193229, 
+			June: 308.6550668, 
+			July: 326.2515438 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 79.19517466, 
+			April: 70.80615366, 
+			May: 202.9773663, 
+			June: 163.6057521, 
+			July: 362.6638092 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 40.73035214, 
+			April: 51.40676194, 
+			May: 230.5059932, 
+			June: 284.1172678, 
+			July: 307.291614 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 56.16793904, 
+			April: 46.27129364, 
+			May: 158.6450659, 
+			June: 245.7519919, 
+			July: 258.1087456 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-B: MIMAROPA", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 53.84552092, 
+			April: 57.42193093, 
+			May: 188.9055101, 
+			June: 310.4150499, 
+			July: 310.8079304 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 167.8776549, 
+			April: 104.9410653, 
+			May: 170.0374815, 
+			June: 205.977017, 
+			July: 312.3100292 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 108.3093508, 
+			April: 72.63716506, 
+			May: 216.474635, 
+			June: 397.1111118, 
+			July: 316.534043 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 159.2192003, 
+			April: 79.68792528, 
+			May: 107.7381151, 
+			June: 199.4611026, 
+			July: 329.3327032 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 280.0467909, 
+			April: 168.9405172, 
+			May: 178.1587061, 
+			June: 255.7015946, 
+			July: 313.7107433 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 177.5412407, 
+			April: 151.8202165, 
+			May: 218.8546604, 
+			June: 303.8817646, 
+			July: 301.9911265 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 231.3057067, 
+			April: 145.6713231, 
+			May: 183.5450451, 
+			June: 320.9648596, 
+			July: 349.3902926 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 273.329578, 
+			April: 210.73116, 
+			May: 219.3242216, 
+			June: 264.8409768, 
+			July: 278.8530227 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XII: SOCCSKSARGEN", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 186.6124363, 
+			April: 146.6164162, 
+			May: 189.1458733, 
+			June: 250.1386801, 
+			July: 346.4131089 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 381.8356091, 
+			April: 252.8322145, 
+			May: 177.0133558, 
+			June: 236.2913029, 
+			July: 357.4708862 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "ARMM", 
+	province: "All", 
+	municipality: "All", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 158.6946741, 
+			April: 146.5961846, 
+			May: 187.398749, 
+			June: 229.3202639, 
+			July: 339.1750925 
+		}
+	}
+});

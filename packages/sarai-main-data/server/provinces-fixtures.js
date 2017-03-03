@@ -1,5 +1,9 @@
 if (Provinces.find().count() === 0) {
 	Provinces.insert({ 
+		province: "All", 
+		municipality: ["All"]
+	});
+	Provinces.insert({ 
 		province: "Abra", 
 		municipality: ["All", "Bangued","Boliney","Bucay","Bucloc","Daguioman","Danglas","Dolores","La Paz","Lacub","Lagangilang","Lagayan","Langiden","Licuan-Baay","Luba","Malibcong","Manabo","Peñarrubia","Pidigan","Pilar","Sallapadan","San Isidro","San Juan","San Quintin","Tayum","Tineg","Tubo","Villaviciosa"] 
 	}); 
@@ -407,5 +411,5 @@ if (Provinces.find().count() === 0) {
 	Provinces.insert({ 
 		province: "Zamboanga Sibugay", 
 		municipality: ["All", "Alicia","Buug","Diplahan","Imelda","Ipil","Kabasalan","Mabuhay","Malangas","Naga","Olutanga","Payao","Roseller Lim","Siay","Talusan","Titay","Tungawan"] 
-	}); 
+	});
 }
