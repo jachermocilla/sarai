@@ -99,7 +99,7 @@ Template.RainfallOutlookView.helpers({
   },
 
   regions: () => {
-    const regions = Regions.find({}).fetch()
+    const regions = Regions.find({}, {sort: {id: 1}}).fetch()
 
     return regions
   },

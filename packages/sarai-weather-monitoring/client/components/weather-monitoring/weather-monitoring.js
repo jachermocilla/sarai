@@ -12,6 +12,12 @@ Template.WeatherMonitoring.onRendered(() => {
     dialog.close();
   });
 
+  /*** Initial display on rendered ***/ 
+  const stationID = Session.get('stationID')
+  const label = WeatherStations.findOne({id:stationID}).label
+  displayWeatherData(stationID, label)
+  dialog.showModal();
+
   /****MAP****/
   const northEast = L.latLng(21.924058, 115.342984);
   const southWest = L.latLng(4.566972, 128.614468);
