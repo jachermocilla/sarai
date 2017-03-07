@@ -18,7 +18,7 @@ Template.ConciseView.helpers({
   weatherStations: () => {
     const stations = WeatherStations.find({}).fetch()
 
-    const cleanStations = Meteor.previewHelpers.formatStationList(stations)
+    const cleanStations = Meteor.previewHelpers.sortStations(stations)
 
     return cleanStations
   },
@@ -30,7 +30,8 @@ Template.ConciseView.helpers({
 
     const first4 = WeatherStations.find({}, {skip: stationSkip, limit: 4}).fetch()
 
-    const cleaned = Meteor.previewHelpers.formatStationList(first4)
+    const cleaned = Meteor.previewHelpers.sortStations(first4)
+    console.log(cleaned)
     return cleaned
   },
 
@@ -39,7 +40,7 @@ Template.ConciseView.helpers({
 
     const second4 = WeatherStations.find({}, {skip: stationSkip + 4, limit: 4}).fetch()
 
-    const cleaned = Meteor.previewHelpers.formatStationList(second4)
+    const cleaned = Meteor.previewHelpers.sortStations(second4)
     return cleaned
   },
 

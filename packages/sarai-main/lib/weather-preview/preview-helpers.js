@@ -17,6 +17,23 @@ Meteor.previewHelpers = {
 
   },
 
+  sortStations: (stations) => {
+    stations.forEach((element, index) => {
+      element.label = element.label.replace('SARAI', '')
+      element.lable = element.label.replace('(UPLB)', '')
+      element.label = element.label.replace('WFP', '')
+      element.label = element.label.replace('WPU', '')
+      element.label = element.label.replace('APN', '')
+      element.label.trim()
+    })
+
+    stations.sort((a, b) => {
+      return a.label.charCodeAt(0) - b.label.charCodeAt(0)
+    })
+
+    return stations
+  },
+
   formatStationList: (stations) => {
 
     stations.forEach((element, index) => {
@@ -143,5 +160,59 @@ Meteor.previewHelpers = {
     }
 
     return result
+  },
+
+  constructChart: (provinces, past30DayRainfall) => {
+    return {
+        title: {
+            text: ''
+        },
+        plotOptions: {
+          line: {
+            marker: {
+              enabled: false
+            }
+          },
+        },
+        credits: {
+          enabled: false
+        },
+        yAxis: [
+          {
+            title: {
+              text: 'Millimeters of Rain',
+              style: {
+                fontWeight: 'bold'
+              }
+            },
+            labels: {
+              format: '{value}',
+              style: {
+                color: '#0066cc',
+                fontWeight: 'bold'
+              }
+            }
+          }
+        ],
+        xAxis: [
+          {categories: provinces}
+        ],
+        series: [{
+          type: 'column',
+          name: 'Past 30-day rainfall',
+          data: past30DayRainfall
+          }
+        ],
+
+        tooltip: {
+          borderColor: '#cccccc',
+          formatter: function( ) {
+            var s = '<b>' + this.points[0].x + '<br/>' + this.points[0].series.name + ': ' + this.points[0].y + ' mm';
+
+            return s;
+          },
+          shared: true
+        }
+    }
   }
 }

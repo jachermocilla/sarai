@@ -20,26 +20,15 @@
                     <thead>
                       <tr>
                         <td>Station ID</td>
+                        <!-- <td>Region</td> -->
                         <td>Coords</td>
                         <td>Label</td>
                         <td>Actions</td>
                       </tr>
                     </thead>
                     <tbody>
-                      {{#each station in stations}}
-                        <tr>
-                          <td class="id">{{station.id}}</td>
-                          <td class="coords">{{station.coords}}</td>
-                          <td class="station-label">{{station.label}}</td>
-                          <td class="actions">
-                            <a href="">
-                              <i class="material-icons">mode_edits</i>
-                            </a>
-                            <a href="/admin/weather/stations/{{station.id}}">
-                              <i class="material-icons">view_list</i>
-                            </a>
-                          </td>
-                        </tr>
+                      {{#each stations}}
+                        {{> WeatherStationRow}}
                       {{/each}}
                     </tbody>
                   </table>
@@ -62,6 +51,41 @@
     </div>
   </div>
 
+    <!-- ======= DIALOG ======== -->
+  <dialog id="cms-weather-station-dialog" class="mdl-dialog">
+    <h4 id="cms-weather-station-dialog-title" class="mdl-dialog__title">Edit {{stationID}}</h4>
+    <div class="mdl-dialog__content">
+
+      <div class="mdl-grid">
+        <!-- ===== LABEL ===== -->
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-ws-label">
+          <input class="mdl-textfield__input" type="text" pattern="[a-z,A-Z,0-9,-,\s]*" id="cms-ws-label-input">
+          <label class="mdl-textfield__label" for="cms-wd-temp-ave-input">Label</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-ws-lat">
+          <input class="mdl-textfield__input" type="number" id="cms-ws-lat-input">
+          <label class="mdl-textfield__label" for="cms-wd-temp-ave-input">Lat</label>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="cms-ws-long">
+          <input class="mdl-textfield__input" type="number" id="cms-ws-long-input">
+          <label class="mdl-textfield__label" for="cms-wd-temp-ave-input">Long</label>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored save">Save</button>
+      <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect cancel">Cancel</button>
+    </div>
+  </dialog>
+  <!-- ======== END DIALOG ========= -->
+
+  <!-- ======== TOAST ======== -->
   <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
     <div class="mdl-snackbar__text"></div>
     <button class="mdl-snackbar__action" type="button"></button>

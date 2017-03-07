@@ -24,7 +24,8 @@ Package.onUse(function(api) {
     "lib/collections/sarai-main-data.js",
 
     "lib/collections/sarai-provinces.js",
-    "lib/collections/sarai-weather-outlook.js"
+    "lib/collections/sarai-weather-outlook.js",
+    "lib/collections/sarai-regions.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
@@ -35,7 +36,8 @@ Package.onUse(function(api) {
     "server/methods.js",
 
     "server/weather-outlook-fixtures.js",
-    "server/provinces-fixtures.js"
+    "server/provinces-fixtures.js",
+    "server/regions-fixtures.js"
   ]
 
   api.addFiles(server, "server")
@@ -46,7 +48,8 @@ Package.onUse(function(api) {
   api.export([
     "Main",
     "WeatherOutlook",
-    "Provinces"
+    "Provinces",
+    "Regions"
   ])
 });
 
