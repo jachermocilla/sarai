@@ -22,7 +22,7 @@ const displayRainData = () => {
   let past30DayRainfall = []
   let provinces = []
 
-  const stations = WeatherStations.find({}).fetch()
+  const stations = WeatherStations.find({}, {sort: {label: 1}}).fetch()
   const cleanStations = Meteor.previewHelpers.sortStations(stations)
 
   for (let entry of cleanStations){

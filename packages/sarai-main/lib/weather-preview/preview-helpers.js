@@ -165,7 +165,7 @@ Meteor.previewHelpers = {
   constructChart: (provinces, past30DayRainfall) => {
     return {
         title: {
-            text: 'Past 30-day rainfall'
+            text: ''
         },
         plotOptions: {
           line: {
@@ -198,7 +198,7 @@ Meteor.previewHelpers = {
           {categories: provinces}
         ],
         series: [{
-          type: 'line',
+          type: 'column',
           name: 'Past 30-day rainfall',
           data: past30DayRainfall
           }

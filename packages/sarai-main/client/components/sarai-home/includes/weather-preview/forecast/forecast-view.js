@@ -38,6 +38,10 @@ Template.ForecastView.events({
 
     const download = downloadForecast()
   },
+
+  'click #view-weather-monitoring': (e) => {
+    Session.set('stationID', $('#preview-select-station').val())
+  },
 })
 
 Template.ForecastView.helpers({
