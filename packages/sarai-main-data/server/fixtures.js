@@ -196,7 +196,7 @@ if (Main.find().count() === 0) {
 
 	Main.insert({
 		name: 'footer',
-		text: 'Project SARAI aims to develop a national crop forecasting and monitoring system for first six priority crops: rice, corn, banana, coconut, coffee, cacao.',
+		text: 'Project SARAI aims to develop a national crop forecasting and monitoring system for first six priority crops: rice, corn, banana, coconut, coffee, cacao. This project is funded by DOST-PCAARRD.',
 		img: 'http://sarai.ph/wp-content/uploads/2016/03/DOST_PCAARRD_UPLB.png',
 		share: [
 	        {
