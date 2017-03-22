@@ -71,27 +71,27 @@ Template.RainfallOutlookView.helpers({
 
         outlook.push({
           head: 'March',
-          value: Math.round(weatherOutlook.March * 10) / 10
+          value: Math.round(weatherOutlook.March)
         })
 
         outlook.push({
           head: 'April',
-          value: Math.round(weatherOutlook.April * 10) / 10
+          value: Math.round(weatherOutlook.April)
         })
 
         outlook.push({
           head: 'May',
-          value: Math.round(weatherOutlook.May * 10) / 10
+          value: Math.round(weatherOutlook.May)
         })
 
         outlook.push({
           head: 'June',
-          value: Math.round(weatherOutlook.June * 10) / 10
+          value: Math.round(weatherOutlook.June)
         })
 
         outlook.push({
           head: 'July',
-          value: Math.round(weatherOutlook.July * 10) / 10
+          value: Math.round(weatherOutlook.July)
         })
 
         return outlook
