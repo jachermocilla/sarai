@@ -7,7 +7,7 @@ if (Services.find().count() === 0) {
     thumbnail: '',
     info: {
     	crops: 'Rice, Corn, Banana, Coconut, Coffee, Cacao',
-    	experts: ['Dr. Felino A. Lansigan, CA, UPLB'],
+    	experts: ['Dr. Felino A. Lansigan, CAS, UPLB'],
     	ura: ['Roinand Aguila', 'Monina Gazelle Charina Carandang', 'Jeyneth Ann Mariano'],
     	projectLeaders: []
     },
@@ -35,7 +35,7 @@ if (Services.find().count() === 0) {
     thumbnail: '',
     info: {
     	crops: 'Rice, Corn, Banana, Coconut, Coffee, Cacao',
-    	experts: ['Dr. Felino A. Lansigan, CA, UPLB'],
+    	experts: ['Dr. Felino A. Lansigan, CAS, UPLB'],
     	ura: ['Karen Berido Burdeos', 'Julia Dalagan', 'John Christopher Lorenzo', 'Marilyn Yere'],
     	projectLeaders: ['Project 1, Dr. Felino Lansigan, Project Leader']
     },
@@ -59,7 +59,7 @@ if (Services.find().count() === 0) {
 	Services.insert({
 		name: 'integrated-crop-management',
     title: 'Integrated Crop Management',
-    tagline: 'Enhance your adaptibility by using SARAI’s integrated crop support system.',
+    tagline: 'Enhance your adaptibility by using SARAi integrated crop support system.',
     thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, and Cacao',
@@ -79,7 +79,7 @@ if (Services.find().count() === 0) {
     },
     col2: {
     	title: '',
-    	content: '<p>Using the SARAI Nutrient Manager, registered farmers can get recommendation based on the status of their farms. SARAI will recommend what and how much nutrient they will apply on their crops and their estimated yield</p><p>Another service of SARAI is the Integrated Water Management Service. It allows farmers to monitor the soil moisture content of their farm through sensors. They can be notified if there is a significant effect on their crops if there is a detected soil-moisture deficit. By monitoring the soil moisture, they can react accordingly to their crops’ water needs to avoid crop yield losses.</p>'
+    	content: '<p>Using the SARAi Nutrient Manager, registered farmers can get recommendation based on the status of their farms. SARAi will recommend what and how much nutrient they will apply on their crops and their estimated yield</p><p>Another service of SARAi is the Integrated Water Management Service. It allows farmers to monitor the soil moisture content of their farm through sensors. They can be notified if there is a significant effect on their crops if there is a detected soil-moisture deficit. By monitoring the soil moisture, they can react accordingly to their crops’ water needs to avoid crop yield losses.</p>'
     },
     sort: 5
 	});
@@ -127,7 +127,7 @@ if (Services.find().count() === 0) {
     media: {
       link: '',
       type: '',
-      subtitle: 'SARAI Pest Module',
+      subtitle: 'SARAi Pest Module',
       subtitleLink: 'http://sarai.ph:3000/pests'
     },
     col1: {
@@ -171,8 +171,8 @@ if (Services.find().count() === 0) {
 
 	Services.insert({
 		name: 'sarai-eskwela',
-    title: 'SARAI Eskwela',
-    tagline: 'Learn more about smarter agriculture information access, knowledge sharing, and practical trainings by Project SARAI',
+    title: 'SARAi Eskwela',
+    tagline: 'Learn more about smarter agriculture information access, knowledge sharing, and practical trainings by Project SARAi',
     thumbnail: '',
     info: {
       crops: 'Rice, Corn, Banana, Coconut, Coffee, Cacao',
@@ -188,11 +188,11 @@ if (Services.find().count() === 0) {
     },
     col1: {
       title: '',
-      content: '<p>With sustainability as the goal, Project 4 – Capacity and Knowledge-Building component of Project SARAI is tasked to ensure that technical capacities of target groups are strengthened, and that farmers and their communities become more willing participants to the development of the agriculture sector, collectively and individually. Ultimately, this will ensure a more climate-resilient Philippine agricultural industry that is capable of addressing our national food security issues.</p>'
+      content: '<p>With sustainability as the goal, Project 4 – Capacity and Knowledge-Building component of Project SARAi is tasked to ensure that technical capacities of target groups are strengthened, and that farmers and their communities become more willing participants to the development of the agriculture sector, collectively and individually. Ultimately, this will ensure a more climate-resilient Philippine agricultural industry that is capable of addressing our national food security issues.</p>'
     },
     col2: {
       title: '',
-      content: '<p>A major thrust of this project is to develop Information Education and Communication (IEC) materials. Such materials are important components of mass communication or public information campaigns. It is the process of learning that empowers people to make informed decisions, modify behaviors and change social conditions. In order to design these IEC materials, the team had to conduct training needs analyses (TNA) to ensure that the developed resources suit their target audiences. According to the TNA results, in most farming communities, access to information is very variable. Such differences are anchored on the differences in the farmers’ economic circumstances and their ability to adopt technological developments (reflected as a function of age range, educational attainment, and the likes). Additionally, a national lack of reliable extension-communication infrastructure, particularly of internet and mobile connectivity, is blocking significant progress in this field. Hence, the TNA showed a huge demand for on-site, face to face trainings over an online-based approach. Despite these observations, Project SARAI is preparing to utilize both approaches to ensure the sustainability of its efforts and investments.</p><p>To spread scientific agricultural knowledge and to present the new technologies on Smarter Farming, SARAI Eskwela was created for the farmers as an avenue to access information and interaction with SARAI experts. SARAI Eskwela will serve through both online and field-based platforms where all the developed resources will be utilized.  The online platform will be hosting the IEC materials, training modules, and other such materials, including testimonials intended for audiences with access to the internet. Field and classroom-based SARAI Eskwela is also being developed to answer the demand for face to face trainings.</p>'
+      content: '<p>A major thrust of this project is to develop Information Education and Communication (IEC) materials. Such materials are important components of mass communication or public information campaigns. It is the process of learning that empowers people to make informed decisions, modify behaviors and change social conditions. In order to design these IEC materials, the team had to conduct training needs analyses (TNA) to ensure that the developed resources suit their target audiences. According to the TNA results, in most farming communities, access to information is very variable. Such differences are anchored on the differences in the farmers’ economic circumstances and their ability to adopt technological developments (reflected as a function of age range, educational attainment, and the likes). Additionally, a national lack of reliable extension-communication infrastructure, particularly of internet and mobile connectivity, is blocking significant progress in this field. Hence, the TNA showed a huge demand for on-site, face to face trainings over an online-based approach. Despite these observations, Project SARAi is preparing to utilize both approaches to ensure the sustainability of its efforts and investments.</p><p>To spread scientific agricultural knowledge and to present the new technologies on Smarter Farming, SARAi Eskwela was created for the farmers as an avenue to access information and interaction with SARAi experts. SARAi Eskwela will serve through both online and field-based platforms where all the developed resources will be utilized.  The online platform will be hosting the IEC materials, training modules, and other such materials, including testimonials intended for audiences with access to the internet. Field and classroom-based SARAi Eskwela is also being developed to answer the demand for face to face trainings.</p>'
     },
 	    sort: 9
 	});
@@ -220,7 +220,7 @@ if (Services.find().count() === 0) {
     },
     col2: {
       title: '',
-      content: '<p>The SARAI Suitability Maps can be used to identify the different locations of the country which are highly suitable, moderately suitable, and marginally suitable for its initial six crops. By identifying these areas, resources will not be put to waste and farmers can attain more yield.</p>'
+      content: '<p>The SARAi Suitability Maps can be used to identify the different locations of the country which are highly suitable, moderately suitable, and marginally suitable for its initial six crops. By identifying these areas, resources will not be put to waste and farmers can attain more yield.</p>'
     },
     sort: 2
 	});

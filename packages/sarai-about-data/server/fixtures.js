@@ -30,50 +30,67 @@ if (About.find().count() === 0) {
 	      	href: '',
 	      	links: [
 	      		{
-	      			name: 'Suitability Maps',
-	      			href: 'http://159.203.253.36:8081/web/'
-	      		},
-	      		{
-	      			name: 'Weather Monitoring',
-	      			href: '/explore/weather-monitoring'
+	      			name: 'Accumulated Rainfall',
+	      			href: '/accumulated-rainfall'
 	      		},
 	      		{
 	      			name: 'Crop Production Area',
-	      			href: '/explore/crop-production-area'
+	      			href: 'http://159.203.253.31/crop-production-area/rice'
 	      		},
 	      		{
 	      			name: 'Normalized Difference Vegetation Index (NDVI)',
-	      			href: '/explore/ndvi'
-	      		},
-	      		{
-	      			name: 'Rainfall',
-	      			href: '/explore/rainfall'
+	      			href: 'http://159.203.253.31/ndvi/2016-12-01/2016-12-31?province=Laguna&center=14.270005%2C121.335777974'
 	      		},
 	      		{
 	      			name: 'Open Data',
-	      			href: 'http://202.92.144.42/'
+	      			href: 'http://opendata.sarai.ph/'
+	      		},
+	      		{
+	      			name: 'Rainfall Map',
+	      			href: 'http://159.203.253.31/rainfall-maps/2016-12-01/2016-12-31'
+	      		},
+	      		{
+	      			name: 'Suitability Maps',
+	      			href: 'http://159.203.253.31/suitability-maps/rice'
+	      		},
+	      		{
+	      			name: 'Weather Monitoring',
+	      			href: '/weather-monitoring'
 	      		}
 	      	],
 	      	id: 'explore-link',
 	      	withsublinks: true
 	      },
 	      {
-	      	name: 'Planning Dates',
-	      	href: '',
-	      	links: [],
-	      	id: 'planning-dates-link',
-	      	withsublinks: false
-	      },
-	      {
-	      	name: 'DSS',
+	      	name: 'Be Informed',
 	      	href: '',
 	      	links: [
 	      		{
+	      			name: '30-day cummulative rainfall + 10-day weather forecast',
+	      			href: 'http://10.0.3.131:3000/dss'
+	      		},
+	      		{
 	      			name: 'Corn Nutrient Expert',
-	      			href: '/dss/corn-nutrient-expert'
+	      			href: 'http://software.ipni.net/article/nutrient-expert'
+	      		},
+	      		{
+	      			name: 'Integrated Pest Management',
+	      			href: 'http://pests.sarai.ph/'
+	      		},
+	      		{
+	      			name: 'News and Events',
+	      			href: 'http://eskwela.sarai.ph/index.php?option=com_k2&view=itemlist&task=category&id=9&Itemid=322'
+	      		},
+	      		{
+	      			name: 'Planting Dates',
+	      			href: 'http://202.92.144.44/index.php?option=com_content&view=article&id=64&Itemid=321'
+	      		},
+	      		{
+	      			name: 'SARAi Eskwela',
+	      			href: 'http://eskwela.sarai.ph/index.php?option=com_content&view=article&id=38&Itemid=319'
 	      		}
 	      	],
-	      	id: 'dss-link',
+	      	id: 'be-informed-link',
 	      	withsublinks: true
 	      },
 	      {
@@ -81,16 +98,16 @@ if (About.find().count() === 0) {
 	      	href: '',
 	      	links: [
 	      		{
-	      			name: 'Contact Us',
-	      			href: '/get-involved/contact'
-	      		},
-	      		{
-	      			name: 'Submit a Story',
-	      			href: '/get-involved/contact'
+	      			name: 'Blogs',
+	      			href: 'http://eskwela.sarai.ph/index.php?option=com_k2&view=itemlist&layout=category&Itemid=320'
 	      		},
 	      		{
 	      			name: 'Join the Discussion',
 	      			href: 'https://groups.google.com/forum/#!forum/project-sarai-knowledge-hub'
+	      		},
+	      		{
+	      			name: 'Subscribe',
+	      			href: 'https://docs.google.com/forms/d/e/1FAIpQLSdRWCollMXmPGCoKhWZToL249RCc1FAh9KssEuCDH1jDj8ERw/viewform?c=0&w=1'
 	      		}
 	      	],
 	      	id: 'get-involved-link',
@@ -114,7 +131,7 @@ if (About.find().count() === 0) {
 	        },
 	        {
 	            class_name: 'twt',
-	            href: 'https://twitter.com/ProjectSARAI',
+	            href: 'https://twitter.com/projectsarai_ph',
 	            img: '/footer-icons/twitter.png'
 	        },
 	        {
