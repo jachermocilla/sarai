@@ -1,10 +1,6 @@
 <template name="Preview">
   <div class="preview-controls">
-    <div style="padding-left: 7em; padding-right: 7em;">
-      <h5>The <strong>SARAi Knowledge Portal</strong> is a one-stop-shop that can provide access to comprehensive national, regional, provincial and, municipal data for crop monitoring and forecasting. Below, you can view the <strong>expected rainfall</strong> and <strong>rainfall outlook</strong> in your area. Just click on <strong>Forecast view</strong> to know the expected weather for today and for the next 7 days or click on <strong>Rainfall view</strong> to compare the past 30-day rainfall from the 18 Automatic Weather Stations of SARAi. Also, if you want to know the monthly rainfall forecast in your area for the month and the next months, you can explore the <strong>SARAi rainfall outlook for 2017</strong>.</h5>
-    </div>
-
-    <a href="#" class="link" id="forecast-view">Forecast View</a> <span class="pipe">|</span> <a href="#" class="link" id="concise-view">Rainfall View</a>
+    <a href="#" class="link" id="forecast-view" title="Expected weather for today and for the next 7 days">Forecast View</a> <span class="pipe">|</span> <a href="#" class="link" id="concise-view" title="Past 30-day rainfall from the 18 Automatic Weather Stations of SARAi">Rainfall View</a>
   </div>
 
   {{#if forecastViewSelected}}

@@ -15,7 +15,7 @@ if (Services.find().count() === 0) {
     	link: '',
     	type: 'image',
     	subtitle: 'The application is still under development.',
-    	subtitleLink: ''
+    	subtitleLink: 'http://159.203.253.36:81/'
     },
     col1: {
     	title: '',
@@ -128,7 +128,7 @@ if (Services.find().count() === 0) {
       link: '',
       type: '',
       subtitle: 'SARAi Pest Module',
-      subtitleLink: 'http://sarai.ph:3000/pests'
+      subtitleLink: 'pests.sarai.ph'
     },
     col1: {
       title: '',
@@ -184,7 +184,7 @@ if (Services.find().count() === 0) {
       link: '',
       type: '',
       subtitle: 'This application is under development.',
-      subtitleLink: ''
+      subtitleLink: 'http://eskwela.sarai.ph/index.php?option=com_content&view=article&id=38&Itemid=319'
     },
     col1: {
       title: '',
@@ -212,7 +212,7 @@ if (Services.find().count() === 0) {
       link: '',
       type: '',
       subtitle: 'Suitability Maps Application',
-      subtitleLink: 'http://sarai.ph:8080/'
+      subtitleLink: 'http://159.203.253.31/suitability-maps/rice'
     },
     col1: {
       title: '',
