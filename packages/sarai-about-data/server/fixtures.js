@@ -9,7 +9,7 @@ if (About.find().count() === 0) {
 
 	About.insert({
 		name: 'mainHeader',
-		img: '/sarai.png',
+		img: '/header_green.png',
 	    links: [
 	      {
 	      	name: 'Home',
@@ -114,14 +114,14 @@ if (About.find().count() === 0) {
 	      	withsublinks: true
 	      }
 	    ],
-	    buttonText: 'BETA VERSION',
+	    buttonText: 'BETA',
 	    buttonEnabled: true,
 	    enabled: true
 	});
 
 	About.insert({
 		name: 'footer',
-		text: 'Project SARAi aims to develop a national crop forecasting and monitoring system for first six priority crops: rice, corn, banana, coconut, coffee, cacao.',
+		text: 'Project SARAi aims to develop a national crop forecasting and monitoring system for first six priority crops: rice, corn, banana, coconut, coffee, cacao. This project is funded by DOST-PCAARRD.<br/>',
 		img: 'http://sarai.ph/wp-content/uploads/2016/03/DOST_PCAARRD_UPLB.png',
 		share: [
 	        {

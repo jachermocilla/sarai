@@ -10,7 +10,7 @@ if (Main.find().count() === 0) {
 
 	Main.insert({
 		name: 'mainHeader',
-		img: '/sarai.png',
+		img: '/header_green.png',
     links: [
       {
       	name: 'Home',
@@ -119,7 +119,7 @@ if (Main.find().count() === 0) {
       	rank: 6
       }
     ],
-    buttonText: 'BETA VERSION',
+    buttonText: 'BETA',
     buttonEnabled: true,
     enabled: true
 	});
