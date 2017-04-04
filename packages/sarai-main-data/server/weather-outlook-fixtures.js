@@ -9,10 +9,11 @@ WeatherOutlook.insert({
 			January: 19.2940347878, 
 			February: 10.26, 
 			March: 28.3070895057, 
-			April: 68.1010134702, 
-			May: 282.2694552696, 
-			June: 315.7627051757, 
-			July: 402.2676070116 
+			April: 65.52, 
+			May: 274.37, 
+			June: 326.29, 
+			July: 472.54, 
+			Aug: 539.33 
 		}
 	}
 }); 
@@ -26,10 +27,11 @@ WeatherOutlook.insert({
 			January: 10.0273967143, 
 			February: 9.14, 
 			March: 22.6115938889, 
-			April: 69.4900017361, 
-			May: 292.2243035417, 
-			June: 386.3911886111, 
-			July: 459.8591704167 
+			April: 50.33, 
+			May: 277.79, 
+			June: 357.77, 
+			July: 532.32, 
+			Aug: 557.79 
 		}
 	}
 }); 
@@ -43,10 +45,11 @@ WeatherOutlook.insert({
 			January: 19.2889296429, 
 			February: 11.78, 
 			March: 34.9138409722, 
-			April: 76.3441702083, 
-			May: 292.7909096528, 
-			June: 300.3935171528, 
-			July: 241.1415161111 
+			April: 85.53, 
+			May: 284.28, 
+			June: 321.54, 
+			July: 410.96, 
+			Aug: 588.19 
 		}
 	}
 }); 
@@ -60,10 +63,11 @@ WeatherOutlook.insert({
 			January: 12.8079135238, 
 			February: 10.42, 
 			March: 29.5365834259, 
-			April: 96.3604962963, 
-			May: 345.1353844444, 
-			June: 374.4727013889, 
-			July: 591.9344119444 
+			April: 63.34, 
+			May: 335.89, 
+			June: 354.1, 
+			July: 558.12, 
+			Aug: 538.56 
 		}
 	}
 }); 
@@ -77,10 +81,11 @@ WeatherOutlook.insert({
 			January: 19.5329912857, 
 			February: 9.19, 
 			March: 30.8649627778, 
-			April: 71.9924072222, 
-			May: 294.0146308333, 
-			June: 314.1576355556, 
-			July: 204.7510445833 
+			April: 61.62, 
+			May: 285.67, 
+			June: 364.7, 
+			July: 429.4, 
+			Aug: 542.67 
 		}
 	}
 }); 
@@ -94,10 +99,11 @@ WeatherOutlook.insert({
 			January: 24.8152027857, 
 			February: 15.1, 
 			March: 38.070356875, 
-			April: 82.9906954861, 
-			May: 296.5674338889, 
-			June: 285.4643021528, 
-			July: 483.1125754861 
+			April: 67.15, 
+			May: 285.72, 
+			June: 333.44, 
+			July: 379.81, 
+			Aug: 581.58 
 		}
 	}
 }); 
@@ -111,10 +117,11 @@ WeatherOutlook.insert({
 			January: 11.9232244, 
 			February: 6.83, 
 			March: 16.6942655, 
-			April: 53.0305656667, 
-			May: 268.6949861111, 
-			June: 348.8298413333, 
-			July: 401.644226 
+			April: 47.2, 
+			May: 272.73, 
+			June: 350.45, 
+			July: 488.41, 
+			Aug: 583.44 
 		}
 	}
 }); 
@@ -128,10 +135,11 @@ WeatherOutlook.insert({
 			January: 12.8865362857, 
 			February: 9.21, 
 			March: 30.1704008333, 
-			April: 93.734255, 
-			May: 336.7519683333, 
-			June: 384.5478180556, 
-			July: 366.4264413889 
+			April: 60.42, 
+			May: 313.04, 
+			June: 313.36, 
+			July: 563.86, 
+			Aug: 480.46 
 		}
 	}
 }); 
@@ -145,10 +153,11 @@ WeatherOutlook.insert({
 			January: 11.9532634286, 
 			February: 8.1, 
 			March: 25.1119277778, 
-			April: 73.8261983333, 
-			May: 293.5130052778, 
-			June: 385.4694852778, 
-			July: 700.6363830556 
+			April: 46.88, 
+			May: 282.29, 
+			June: 324.43, 
+			July: 532.63, 
+			Aug: 597.67 
 		}
 	}
 }); 
@@ -162,10 +171,11 @@ WeatherOutlook.insert({
 			January: 27.7848525143, 
 			February: 14.59, 
 			March: 35.5434315556, 
-			April: 71.3582778056, 
-			May: 277.5555651667, 
-			June: 274.7403016389, 
-			July: 492.725091 
+			April: 73.02, 
+			May: 279.67, 
+			June: 317.71, 
+			July: 415.96, 
+			Aug: 562.14 
 		}
 	}
 }); 
@@ -179,10 +189,11 @@ WeatherOutlook.insert({
 			January: 17.2280741905, 
 			February: 6.37, 
 			March: 26.2256915741, 
-			April: 78.3178812037, 
-			May: 310.4248982407, 
-			June: 350.6717890741, 
-			July: 498.4582300926 
+			April: 57.34, 
+			May: 330.52, 
+			June: 311.57, 
+			July: 553.7, 
+			Aug: 488.27 
 		}
 	}
 }); 
@@ -196,10 +207,11 @@ WeatherOutlook.insert({
 			January: 16.1682775714, 
 			February: 6.56, 
 			March: 18.8064696759, 
-			April: 55.1225697222, 
-			May: 278.9354971296, 
-			June: 335.5021177315, 
-			July: 312.0913539815 
+			April: 63.45, 
+			May: 266.84, 
+			June: 334.9, 
+			July: 479.09, 
+			Aug: 550.26 
 		}
 	}
 }); 
@@ -213,10 +225,11 @@ WeatherOutlook.insert({
 			January: 9.4588121905, 
 			February: 4.45, 
 			March: 13.3800510185, 
-			April: 41.7739001852, 
-			May: 258.7366525, 
-			June: 365.1147196296, 
-			July: 399.6470152778 
+			April: 60.1, 
+			May: 240.7, 
+			June: 356.04, 
+			July: 501.49, 
+			Aug: 517.12 
 		}
 	}
 }); 
@@ -230,10 +243,11 @@ WeatherOutlook.insert({
 			January: 20.7040180519, 
 			February: 9.21, 
 			March: 29.1299847475, 
-			April: 77.6489494949, 
-			May: 312.1755289394, 
-			June: 317.3290873737, 
-			July: 471.0458311443 
+			April: 71.59, 
+			May: 303.65, 
+			June: 318.89, 
+			July: 438.39, 
+			Aug: 520.63 
 		}
 	}
 }); 
@@ -247,10 +261,11 @@ WeatherOutlook.insert({
 			January: 13.4893457143, 
 			February: 6.76, 
 			March: 21.4034471667, 
-			April: 47.6414921111, 
-			May: 258.7816867778, 
-			June: 323.5961792778, 
-			July: 265.519665 
+			April: 62.79, 
+			May: 253.71, 
+			June: 312.61, 
+			July: 451.13, 
+			Aug: 573.31 
 		}
 	}
 }); 
@@ -264,10 +279,11 @@ WeatherOutlook.insert({
 			January: 28.3796293929, 
 			February: 17.4, 
 			March: 39.0469210417, 
-			April: 79.2404018403, 
-			May: 280.3797979514, 
-			June: 272.77851, 
-			July: 425.222535625 
+			April: 61.02, 
+			May: 268.61, 
+			June: 328.93, 
+			July: 401.07, 
+			Aug: 571.77 
 		}
 	}
 }); 
@@ -281,10 +297,11 @@ WeatherOutlook.insert({
 			January: 14.1042206667, 
 			February: 6.98, 
 			March: 24.2735025, 
-			April: 63.084787963, 
-			May: 280.8124528704, 
-			June: 339.5850806481, 
-			July: 242.5646024074 
+			April: 75.38, 
+			May: 271.84, 
+			June: 313.67, 
+			July: 487.25, 
+			Aug: 557.76 
 		}
 	}
 }); 
@@ -298,10 +315,11 @@ WeatherOutlook.insert({
 			January: 11.1432311429, 
 			February: 11.21, 
 			March: 28.0274561111, 
-			April: 96.846375, 
-			May: 364.0498233333, 
-			June: 379.5039252778, 
-			July: 725.9161375 
+			April: 59.98, 
+			May: 316.05, 
+			June: 310.31, 
+			July: 561.68, 
+			Aug: 566.2 
 		}
 	}
 }); 
@@ -315,10 +333,11 @@ WeatherOutlook.insert({
 			January: 9.4919665714, 
 			February: 8.06, 
 			March: 21.9959441667, 
-			April: 60.85708125, 
-			May: 270.2938318056, 
-			June: 393.2497902778, 
-			July: 547.0295143056 
+			April: 67.6, 
+			May: 245.75, 
+			June: 349.84, 
+			July: 519.43, 
+			Aug: 524.99 
 		}
 	}
 }); 
@@ -332,10 +351,11 @@ WeatherOutlook.insert({
 			January: 11.229636, 
 			February: 7.54, 
 			March: 19.0436505556, 
-			April: 43.4451012037, 
-			May: 243.4699118519, 
-			June: 349.1839022222, 
-			July: 253.4900807407 
+			April: 53.57, 
+			May: 231.65, 
+			June: 324.83, 
+			July: 493.81, 
+			Aug: 519.96 
 		}
 	}
 }); 
@@ -349,10 +369,11 @@ WeatherOutlook.insert({
 			January: 16.3488212571, 
 			February: 8.26, 
 			March: 29.340215, 
-			April: 79.5875870556, 
-			May: 302.7630593333, 
-			June: 341.9173803333, 
-			July: 572.7581701667 
+			April: 62.6, 
+			May: 292.26, 
+			June: 330.19, 
+			July: 501.52, 
+			Aug: 539.22 
 		}
 	}
 }); 
@@ -366,10 +387,11 @@ WeatherOutlook.insert({
 			January: 10.7910597143, 
 			February: 8.37, 
 			March: 22.3125108333, 
-			April: 60.9325333333, 
-			May: 263.4683054167, 
-			June: 374.74089125, 
-			July: 701.6713275 
+			April: 78.44, 
+			May: 251.04, 
+			June: 359.8, 
+			July: 511.95, 
+			Aug: 507.18 
 		}
 	}
 }); 
@@ -383,10 +405,11 @@ WeatherOutlook.insert({
 			January: 15.3785491429, 
 			February: 5.38, 
 			March: 23.5556452778, 
-			April: 69.1998622222, 
-			May: 281.4929500926, 
-			June: 358.5228910185, 
-			July: 505.6776960185 
+			April: 62.1, 
+			May: 277.7, 
+			June: 337.14, 
+			July: 515.46, 
+			Aug: 442.56 
 		}
 	}
 }); 
@@ -400,10 +423,11 @@ WeatherOutlook.insert({
 			January: 8.4911608571, 
 			February: 2.78, 
 			March: 13.1624948611, 
-			April: 33.7997404167, 
-			May: 220.2856816667, 
-			June: 368.3057798611, 
-			July: 709.9557286111 
+			April: 78.52, 
+			May: 215.14, 
+			June: 339.75, 
+			July: 490.24, 
+			Aug: 531.66 
 		}
 	}
 }); 
@@ -417,10 +441,11 @@ WeatherOutlook.insert({
 			January: 10.3571431429, 
 			February: 11.23, 
 			March: 28.0484337037, 
-			April: 91.2234784259, 
-			May: 332.7061118519, 
-			June: 401.3700496296, 
-			July: 318.0939518122 
+			April: 59.32, 
+			May: 339.31, 
+			June: 365.42, 
+			July: 587.07, 
+			Aug: 570.67 
 		}
 	}
 }); 
@@ -434,10 +459,11 @@ WeatherOutlook.insert({
 			January: 28.3039865357, 
 			February: 13.06, 
 			March: 30.4819731134, 
-			April: 64.9234137384, 
-			May: 264.4328694907, 
-			June: 277.8989220833, 
-			July: 369.4559040741 
+			April: 61.88, 
+			May: 248.85, 
+			June: 290.81, 
+			July: 418.97, 
+			Aug: 495.89 
 		}
 	}
 }); 
@@ -451,10 +477,11 @@ WeatherOutlook.insert({
 			January: 16.3173146607, 
 			February: 9.03, 
 			March: 31.4371659028, 
-			April: 67.6225507813, 
-			May: 279.6389386458, 
-			June: 282.3921409549, 
-			July: 274.407006875 
+			April: 80.25, 
+			May: 261.44, 
+			June: 291.38, 
+			July: 402.76, 
+			Aug: 533.17 
 		}
 	}
 }); 
@@ -468,10 +495,11 @@ WeatherOutlook.insert({
 			January: 12.1765438571, 
 			February: 8.16, 
 			March: 21.18937, 
-			April: 51.4253325, 
-			May: 257.7960813889, 
-			June: 347.3549475, 
-			July: 291.2008868056 
+			April: 74.51, 
+			May: 249.46, 
+			June: 326.04, 
+			July: 491.64, 
+			Aug: 577.91 
 		}
 	}
 }); 
@@ -485,10 +513,11 @@ WeatherOutlook.insert({
 			January: 485.7888042017, 
 			February: 373.57, 
 			March: 354.1392956564, 
-			April: 224.3125183508, 
-			May: 150.9080898392, 
-			June: 238.1721129649, 
-			July: 400.8027008 
+			April: 215.77, 
+			May: 148.6, 
+			June: 236.29, 
+			July: 251.15, 
+			Aug: 228.95 
 		}
 	}
 }); 
@@ -502,10 +531,11 @@ WeatherOutlook.insert({
 			January: 379.5868569905, 
 			February: 327.14, 
 			March: 301.0461194074, 
-			April: 174.8652982037, 
-			May: 130.6420368519, 
-			June: 234.4870491296, 
-			July: 362.9054529259 
+			April: 160.56, 
+			May: 157.88, 
+			June: 258.49, 
+			July: 232.34, 
+			Aug: 251.66 
 		}
 	}
 }); 
@@ -519,10 +549,11 @@ WeatherOutlook.insert({
 			January: 472.7086997013, 
 			February: 357.39, 
 			March: 337.6634018561, 
-			April: 213.4998245581, 
-			May: 145.0555209975, 
-			June: 219.1640456692, 
-			July: 431.5197365509 
+			April: 210.38, 
+			May: 136.96, 
+			June: 236.17, 
+			July: 238, 
+			Aug: 226.8 
 		}
 	}
 }); 
@@ -536,10 +567,11 @@ WeatherOutlook.insert({
 			January: 568.0205745934, 
 			February: 429.37, 
 			March: 401.1396287064, 
-			April: 257.3106603602, 
-			May: 164.5410440293, 
-			June: 243.6098065281, 
-			July: 428.3440882265 
+			April: 249.8, 
+			May: 144.62, 
+			June: 225.36, 
+			July: 286.26, 
+			Aug: 224.17 
 		}
 	}
 }); 
@@ -553,10 +585,11 @@ WeatherOutlook.insert({
 			January: 376.1015116429, 
 			February: 286.15, 
 			March: 290.7055209722, 
-			April: 169.223173125, 
-			May: 119.2433509028, 
-			June: 229.1326622222, 
-			July: 516.3483316667 
+			April: 162.36, 
+			May: 166.98, 
+			June: 239.83, 
+			July: 234.86, 
+			Aug: 213.87 
 		}
 	}
 }); 
@@ -570,10 +603,11 @@ WeatherOutlook.insert({
 			January: 575.6637206494, 
 			February: 432.24, 
 			March: 406.0552248232, 
-			April: 272.1267010354, 
-			May: 156.6267269697, 
-			June: 241.8247109596, 
-			July: 283.8979441162 
+			April: 248.67, 
+			May: 151.78, 
+			June: 236.97, 
+			July: 268.98, 
+			Aug: 229.34 
 		}
 	}
 }); 
@@ -587,10 +621,11 @@ WeatherOutlook.insert({
 			January: 577.4313664762, 
 			February: 418.11, 
 			March: 394.6316881481, 
-			April: 281.0633621296, 
-			May: 152.2731253704, 
-			June: 230.1869118519, 
-			July: 376.7699774074 
+			April: 271.92, 
+			May: 149.02, 
+			June: 247.99, 
+			July: 273.29, 
+			Aug: 184.03 
 		}
 	}
 }); 
@@ -604,10 +639,11 @@ WeatherOutlook.insert({
 			January: 438.797341956, 
 			February: 319.6, 
 			March: 327.8115637607, 
-			April: 210.9924730983, 
-			May: 174.0582625427, 
-			June: 267.9251894444, 
-			July: 472.0553733694 
+			April: 217.95, 
+			May: 137.06, 
+			June: 245.01, 
+			July: 247.66, 
+			Aug: 261.4 
 		}
 	}
 }); 
@@ -621,10 +657,11 @@ WeatherOutlook.insert({
 			January: 475.6907428571, 
 			February: 358.5, 
 			March: 334.0711044444, 
-			April: 220.5732119444, 
-			May: 127.3917763889, 
-			June: 210.3495811111, 
-			July: 478.5330002778 
+			April: 220.26, 
+			May: 143.1, 
+			June: 215.2, 
+			July: 225.81, 
+			Aug: 222.4 
 		}
 	}
 }); 
@@ -638,10 +675,11 @@ WeatherOutlook.insert({
 			January: 562.3955571429, 
 			February: 395.48, 
 			March: 368.7420676389, 
-			April: 267.2038693056, 
-			May: 139.5532872222, 
-			June: 209.7394895833, 
-			July: 315.1873990278 
+			April: 259.68, 
+			May: 143.96, 
+			June: 234.2, 
+			July: 242.12, 
+			Aug: 222.3 
 		}
 	}
 }); 
@@ -655,10 +693,11 @@ WeatherOutlook.insert({
 			January: 374.5086357143, 
 			February: 311.1, 
 			March: 298.4911851852, 
-			April: 168.7030838889, 
-			May: 122.3754181481, 
-			June: 231.3418147685, 
-			July: 497.8346558452 
+			April: 162.03, 
+			May: 113.69, 
+			June: 242.94, 
+			July: 225.41, 
+			Aug: 226.15 
 		}
 	}
 }); 
@@ -672,10 +711,11 @@ WeatherOutlook.insert({
 			January: 582.9665248571, 
 			February: 439.13, 
 			March: 436.0104191667, 
-			April: 281.5659672222, 
-			May: 187.1668019444, 
-			June: 267.7708333333, 
-			July: 467.4853991667 
+			April: 242.87, 
+			May: 172.45, 
+			June: 214.91, 
+			July: 251.57, 
+			Aug: 225.53 
 		}
 	}
 }); 
@@ -689,10 +729,11 @@ WeatherOutlook.insert({
 			January: 585.7983603492, 
 			February: 459.2, 
 			March: 425.2817012346, 
-			April: 270.0499824691, 
-			May: 172.484797284, 
-			June: 256.0063848148, 
-			July: 294.6054279012 
+			April: 247.16, 
+			May: 166.35, 
+			June: 210.52, 
+			July: 281.09, 
+			Aug: 237.76 
 		}
 	}
 }); 
@@ -706,10 +747,11 @@ WeatherOutlook.insert({
 			January: 548.3721762857, 
 			February: 428.1, 
 			March: 381.0916602183, 
-			April: 239.6343849365, 
-			May: 151.5072749167, 
-			June: 223.9074412778, 
-			July: 353.1179275 
+			April: 232.18, 
+			May: 140.13, 
+			June: 232.53, 
+			July: 274.5, 
+			Aug: 235.11 
 		}
 	}
 }); 
@@ -723,10 +765,11 @@ WeatherOutlook.insert({
 			January: 524.424163344, 
 			February: 338.42, 
 			March: 397.5932469625, 
-			April: 261.0817858564, 
-			May: 227.5971975953, 
-			June: 285.1485382341, 
-			July: 358.3025483785 
+			April: 258.3, 
+			May: 227.92, 
+			June: 273.09, 
+			July: 292.61, 
+			Aug: 297.56 
 		}
 	}
 }); 
@@ -740,10 +783,11 @@ WeatherOutlook.insert({
 			January: 564.8313830571, 
 			February: 377.18, 
 			March: 405.0888290833, 
-			April: 250.5658592778, 
-			May: 196.9923841667, 
-			June: 259.6379991111, 
-			July: 412.3664488056 
+			April: 238.88, 
+			May: 197.67, 
+			June: 273.71, 
+			July: 293.98, 
+			Aug: 286.28 
 		}
 	}
 }); 
@@ -757,10 +801,11 @@ WeatherOutlook.insert({
 			January: 605.0643790571, 
 			February: 370.36, 
 			March: 448.3880763333, 
-			April: 309.8409607778, 
-			May: 243.2363767917, 
-			June: 273.6407029722, 
-			July: 380.7925692952 
+			April: 306.91, 
+			May: 242.7, 
+			June: 267.08, 
+			July: 305.17, 
+			Aug: 295.25 
 		}
 	}
 }); 
@@ -774,10 +819,11 @@ WeatherOutlook.insert({
 			January: 498.8367544184, 
 			February: 325.2, 
 			March: 358.6623908829, 
-			April: 223.477342252, 
-			May: 198.8408103472, 
-			June: 276.8105148512, 
-			July: 501.33182804 
+			April: 221.42, 
+			May: 200.31, 
+			June: 271.14, 
+			July: 302.62, 
+			Aug: 312.6 
 		}
 	}
 }); 
@@ -791,10 +837,11 @@ WeatherOutlook.insert({
 			January: 471.1107560079, 
 			February: 308.7, 
 			March: 371.3169917978, 
-			April: 239.6451671142, 
-			May: 239.5557471682, 
-			June: 308.7763382562, 
-			July: 183.4765163148 
+			April: 245.47, 
+			May: 236.67, 
+			June: 286.94, 
+			July: 285.27, 
+			Aug: 265.93 
 		}
 	}
 }); 
@@ -808,10 +855,11 @@ WeatherOutlook.insert({
 			January: 445.7344756122, 
 			February: 289.17, 
 			March: 377.744279418, 
-			April: 262.4933399868, 
-			May: 247.8679753505, 
-			June: 317.0325547751, 
-			July: 445.0189597751 
+			April: 264.66, 
+			May: 237.8, 
+			June: 279.92, 
+			July: 282.32, 
+			Aug: 307.94 
 		}
 	}
 }); 
@@ -825,10 +873,11 @@ WeatherOutlook.insert({
 			January: 602.5244524571, 
 			February: 388.47, 
 			March: 423.2941883611, 
-			April: 265.7701555, 
-			May: 210.8621899167, 
-			June: 255.5826237639, 
-			July: 450.4459843369 
+			April: 254.19, 
+			May: 209.28, 
+			June: 275.49, 
+			July: 301.79, 
+			Aug: 281.1 
 		}
 	}
 }); 
@@ -842,10 +891,11 @@ WeatherOutlook.insert({
 			January: 610.9586429048, 
 			February: 381.72, 
 			March: 436.6123852546, 
-			April: 312.4536935417, 
-			May: 246.740570463, 
-			June: 275.5148484028, 
-			July: 197.4254980093 
+			April: 296.6, 
+			May: 219.09, 
+			June: 286.39, 
+			July: 309.9, 
+			Aug: 289.15 
 		}
 	}
 }); 
@@ -859,10 +909,11 @@ WeatherOutlook.insert({
 			January: 594.1939909143, 
 			February: 361.4, 
 			March: 425.126958963, 
-			April: 271.061642963, 
-			May: 220.3561979815, 
-			June: 256.5707652963, 
-			July: 312.1361261418 
+			April: 268.91, 
+			May: 219.25, 
+			June: 274.81, 
+			July: 290.62, 
+			Aug: 300.92 
 		}
 	}
 }); 
@@ -876,10 +927,11 @@ WeatherOutlook.insert({
 			January: 491.2925630823, 
 			February: 318.12, 
 			March: 371.3318886616, 
-			April: 223.5899002273, 
-			May: 225.3825547896, 
-			June: 303.3086531481, 
-			July: 305.0216820611 
+			April: 223.5, 
+			May: 215.15, 
+			June: 271.68, 
+			July: 286.42, 
+			Aug: 314.24 
 		}
 	}
 }); 
@@ -893,10 +945,11 @@ WeatherOutlook.insert({
 			January: 547.5108034286, 
 			February: 329.88, 
 			March: 430.6848975, 
-			April: 276.9080751389, 
-			May: 241.3173444444, 
-			June: 256.6102626389, 
-			July: 283.8708231944 
+			April: 270.77, 
+			May: 237.41, 
+			June: 263.02, 
+			July: 278.28, 
+			Aug: 310.23 
 		}
 	}
 }); 
@@ -910,10 +963,11 @@ WeatherOutlook.insert({
 			January: 587.8661979351, 
 			February: 416.07, 
 			March: 425.8579092677, 
-			April: 267.5571546843, 
-			May: 190.6724241919, 
-			June: 260.1521758965, 
-			July: 453.1212889607 
+			April: 252.68, 
+			May: 257.58, 
+			June: 262.77, 
+			July: 308.21, 
+			Aug: 280.58 
 		}
 	}
 }); 
@@ -927,44 +981,11 @@ WeatherOutlook.insert({
 			January: 564.776151, 
 			February: 351.75, 
 			March: 406.0862501389, 
-			April: 240.5837647222, 
-			May: 210.9703372222, 
-			June: 264.3296734722, 
-			July: 325.7432163849 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region XIII: Caraga", 
-	province: "Agusan del Sur", 
-	municipality: "Trento", 
-	data: {
-		month: {
-			January: 586.6533493445, 
-			February: 358.89, 
-			March: 431.6110115359, 
-			April: 318.7712776144, 
-			May: 246.1824473693, 
-			June: 253.3512888399, 
-			July: 317.8592036928 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region XIII: Caraga", 
-	province: "Agusan del Sur", 
-	municipality: "Veruela", 
-	data: {
-		month: {
-			January: 457.185172619, 
-			February: 295.12, 
-			March: 395.7538116821, 
-			April: 269.9040782562, 
-			May: 244.5666434105, 
-			June: 299.2868780556, 
-			July: 303.3201101001 
+			April: 232.2, 
+			May: 221.73, 
+			June: 256.39, 
+			July: 295.24, 
+			Aug: 317.86 
 		}
 	}
 }); 
@@ -978,10 +999,11 @@ WeatherOutlook.insert({
 			January: 151.174533752, 
 			February: 96.46, 
 			March: 135.5090832164, 
-			April: 80.5748371718, 
-			May: 212.8488744127, 
-			June: 398.7662641411, 
-			July: 372.8116654939 
+			April: 80.51, 
+			May: 178.67, 
+			June: 348.42, 
+			July: 501.62, 
+			Aug: 330.34 
 		}
 	}
 }); 
@@ -995,10 +1017,11 @@ WeatherOutlook.insert({
 			January: 160.7255008571, 
 			February: 108.51, 
 			March: 145.2199491667, 
-			April: 76.9072874074, 
-			May: 163.9962206481, 
-			June: 337.428947037, 
-			July: 452.7945610185 
+			April: 80.67, 
+			May: 177.32, 
+			June: 348.08, 
+			July: 456.74, 
+			Aug: 305.45 
 		}
 	}
 }); 
@@ -1012,10 +1035,11 @@ WeatherOutlook.insert({
 			January: 190.9518789524, 
 			February: 135.4, 
 			March: 175.8643015741, 
-			April: 81.7532190741, 
-			May: 175.5445260185, 
-			June: 326.2652399074, 
-			July: 408.5134126852 
+			April: 82.26, 
+			May: 153.35, 
+			June: 315.02, 
+			July: 453.73, 
+			Aug: 243.46 
 		}
 	}
 }); 
@@ -1029,10 +1053,11 @@ WeatherOutlook.insert({
 			January: 154.840642, 
 			February: 104.84, 
 			March: 145.899195, 
-			April: 80.5447231944, 
-			May: 172.1170009722, 
-			June: 314.4888806944, 
-			July: 351.6586761111 
+			April: 82.62, 
+			May: 171.28, 
+			June: 337.03, 
+			July: 454.3, 
+			Aug: 319.84 
 		}
 	}
 }); 
@@ -1046,10 +1071,11 @@ WeatherOutlook.insert({
 			January: 156.9784698571, 
 			February: 105.12, 
 			March: 139.2582908333, 
-			April: 75.6231881944, 
-			May: 155.5537643056, 
-			June: 333.6236265278, 
-			July: 391.5389333333 
+			April: 77.68, 
+			May: 148.27, 
+			June: 325.06, 
+			July: 428.56, 
+			Aug: 256.18 
 		}
 	}
 }); 
@@ -1063,10 +1089,11 @@ WeatherOutlook.insert({
 			January: 126.6165654286, 
 			February: 71.31, 
 			March: 77.3127621376, 
-			April: 61.9321292116, 
-			May: 209.3977582989, 
-			June: 350.0066601931, 
-			July: 348.5881155556 
+			April: 61.86, 
+			May: 198.3, 
+			June: 343.84, 
+			July: 617.39, 
+			Aug: 519.77 
 		}
 	}
 }); 
@@ -1080,10 +1107,11 @@ WeatherOutlook.insert({
 			January: 164.6537043571, 
 			February: 98.61, 
 			March: 117.4700177083, 
-			April: 75.0346959722, 
-			May: 229.7148326389, 
-			June: 355.0371007639, 
-			July: 329.359849375 
+			April: 76.6, 
+			May: 228.3, 
+			June: 358.72, 
+			July: 633.77, 
+			Aug: 485.61 
 		}
 	}
 }); 
@@ -1097,10 +1125,11 @@ WeatherOutlook.insert({
 			January: 134.2345405714, 
 			February: 88.96, 
 			March: 120.5911463889, 
-			April: 79.1641983333, 
-			May: 175.5994172222, 
-			June: 253.0546827778, 
-			July: 475.9758947222 
+			April: 80.69, 
+			May: 168.62, 
+			June: 253.04, 
+			July: 390.2, 
+			Aug: 251.37 
 		}
 	}
 }); 
@@ -1114,10 +1143,11 @@ WeatherOutlook.insert({
 			January: 130.3224874286, 
 			February: 86.73, 
 			March: 119.1136231944, 
-			April: 81.9588386111, 
-			May: 183.0058795833, 
-			June: 264.2474831944, 
-			July: 432.8257718056 
+			April: 84.12, 
+			May: 174.39, 
+			June: 259.76, 
+			July: 394.78, 
+			Aug: 271.46 
 		}
 	}
 }); 
@@ -1131,10 +1161,11 @@ WeatherOutlook.insert({
 			January: 155.0728257143, 
 			February: 107.35, 
 			March: 163.1230186111, 
-			April: 91.7775099537, 
-			May: 242.9875083333, 
-			June: 509.4836106481, 
-			July: 358.6703768307 
+			April: 93.31, 
+			May: 222.93, 
+			June: 487.38, 
+			July: 599.2, 
+			Aug: 501.56 
 		}
 	}
 }); 
@@ -1148,10 +1179,11 @@ WeatherOutlook.insert({
 			January: 145.9846686286, 
 			February: 93.37, 
 			March: 150.97845425, 
-			April: 89.8381309444, 
-			May: 252.6601999167, 
-			June: 540.9526094444, 
-			July: 397.6661706603 
+			April: 91.73, 
+			May: 215.47, 
+			June: 496.72, 
+			July: 598.05, 
+			Aug: 467.27 
 		}
 	}
 }); 
@@ -1165,10 +1197,11 @@ WeatherOutlook.insert({
 			January: 137.10932, 
 			February: 84.77, 
 			March: 122.7478325, 
-			April: 77.2900843056, 
-			May: 207.9033138889, 
-			June: 322.0936595833, 
-			July: 420.1531343056 
+			April: 79.64, 
+			May: 184.98, 
+			June: 298.93, 
+			July: 447.4, 
+			Aug: 315.21 
 		}
 	}
 }); 
@@ -1182,10 +1215,11 @@ WeatherOutlook.insert({
 			January: 127.5085454286, 
 			February: 71.68, 
 			March: 80.2040283333, 
-			April: 62.2094136111, 
-			May: 202.108835, 
-			June: 340.3217122222, 
-			July: 297.7523338889 
+			April: 62.3, 
+			May: 177.97, 
+			June: 328.5, 
+			July: 563.19, 
+			Aug: 434.19 
 		}
 	}
 }); 
@@ -1199,10 +1233,11 @@ WeatherOutlook.insert({
 			January: 156.1108166667, 
 			February: 93.52, 
 			March: 144.5598468981, 
-			April: 84.324049537, 
-			May: 217.8713433333, 
-			June: 431.3807495833, 
-			July: 334.9713280556 
+			April: 84.01, 
+			May: 182.5, 
+			June: 375.81, 
+			July: 512.31, 
+			Aug: 352.28 
 		}
 	}
 }); 
@@ -1216,10 +1251,11 @@ WeatherOutlook.insert({
 			January: 152.0912059048, 
 			February: 82.47, 
 			March: 95.4914309259, 
-			April: 68.0565762037, 
-			May: 234.5079641667, 
-			June: 368.6224533333, 
-			July: 277.4225616587 
+			April: 69.83, 
+			May: 245.97, 
+			June: 378.53, 
+			July: 645.49, 
+			Aug: 547.34 
 		}
 	}
 }); 
@@ -1233,10 +1269,11 @@ WeatherOutlook.insert({
 			January: 150.8578702857, 
 			February: 101.45, 
 			March: 136.1778274444, 
-			April: 75.6755566508, 
-			May: 161.1498376825, 
-			June: 283.1204129206, 
-			July: 384.0250034722 
+			April: 78.86, 
+			May: 158.1, 
+			June: 289.92, 
+			July: 407.87, 
+			Aug: 254.41 
 		}
 	}
 }); 
@@ -1250,10 +1287,11 @@ WeatherOutlook.insert({
 			January: 129.579068, 
 			February: 84.55, 
 			March: 114.4084205556, 
-			April: 77.7860652778, 
-			May: 176.6908658333, 
-			June: 251.1280266667, 
-			July: 406.2131669444 
+			April: 81.25, 
+			May: 170.19, 
+			June: 250.99, 
+			July: 386.26, 
+			Aug: 249.86 
 		}
 	}
 }); 
@@ -1267,10 +1305,11 @@ WeatherOutlook.insert({
 			January: 141.9958721429, 
 			February: 87.42, 
 			March: 116.4785697222, 
-			April: 74.0224125, 
-			May: 203.0888929167, 
-			June: 316.5644458333, 
-			July: 350.3832756944 
+			April: 75.73, 
+			May: 195.97, 
+			June: 316.09, 
+			July: 501.51, 
+			Aug: 381.13 
 		}
 	}
 }); 
@@ -1284,10 +1323,11 @@ WeatherOutlook.insert({
 			January: 240.4234860659, 
 			February: 164.26, 
 			March: 161.7396794059, 
-			April: 121.7066543357, 
-			May: 204.6334046137, 
-			June: 216.5957992932, 
-			July: 429.1665809537 
+			April: 129.74, 
+			May: 203.79, 
+			June: 208.49, 
+			July: 360.42, 
+			Aug: 256.91 
 		}
 	}
 }); 
@@ -1301,10 +1341,29 @@ WeatherOutlook.insert({
 			January: 305.6405235714, 
 			February: 210.83, 
 			March: 208.3557938889, 
-			April: 155.9984820833, 
-			May: 195.8083401389, 
-			June: 212.5135694444, 
-			July: 374.0595426389 
+			April: 162.29, 
+			May: 196.11, 
+			June: 207.44, 
+			July: 306.57, 
+			Aug: 221.66 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
+	province: "Albay", 
+	municipality: "Bato Lake", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 102.43, 
+			May: 174.24, 
+			June: 186.34, 
+			July: 347.07, 
+			Aug: 247.17 
 		}
 	}
 }); 
@@ -1318,10 +1377,11 @@ WeatherOutlook.insert({
 			January: 238.65724, 
 			February: 171.09, 
 			March: 155.0920560185, 
-			April: 123.9028987963, 
-			May: 193.4282738889, 
-			June: 222.8000515741, 
-			July: 402.4900235635 
+			April: 137.9, 
+			May: 209.75, 
+			June: 222.39, 
+			July: 383.93, 
+			Aug: 287.57 
 		}
 	}
 }); 
@@ -1335,10 +1395,11 @@ WeatherOutlook.insert({
 			January: 286.6283237143, 
 			February: 200.54, 
 			March: 198.8975117778, 
-			April: 151.5846738333, 
-			May: 214.2648175, 
-			June: 226.7848958889, 
-			July: 450.7888066714 
+			April: 166.32, 
+			May: 210.52, 
+			June: 207.37, 
+			July: 351.1, 
+			Aug: 276.09 
 		}
 	}
 }); 
@@ -1352,10 +1413,11 @@ WeatherOutlook.insert({
 			January: 198.5075130612, 
 			February: 133.4, 
 			March: 124.8570455159, 
-			April: 96.9986879762, 
-			May: 190.4994857937, 
-			June: 240.9773256746, 
-			July: 452.0628187302 
+			April: 94.01, 
+			May: 189.07, 
+			June: 232.1, 
+			July: 431.56, 
+			Aug: 270.13 
 		}
 	}
 }); 
@@ -1369,10 +1431,11 @@ WeatherOutlook.insert({
 			January: 212.2923019048, 
 			February: 143.17, 
 			March: 124.7585725, 
-			April: 95.736872037, 
-			May: 176.1690239815, 
-			June: 203.9965458333, 
-			July: 437.7253018995 
+			April: 99.44, 
+			May: 171.7, 
+			June: 213.99, 
+			July: 398.24, 
+			Aug: 247.11 
 		}
 	}
 }); 
@@ -1386,10 +1449,11 @@ WeatherOutlook.insert({
 			January: 267.7133078286, 
 			February: 195.42, 
 			March: 176.8843711667, 
-			April: 138.619055, 
-			May: 183.6984391667, 
-			June: 213.6511537778, 
-			July: 410.5565175 
+			April: 159.38, 
+			May: 191.31, 
+			June: 186.01, 
+			July: 320.82, 
+			Aug: 255.16 
 		}
 	}
 }); 
@@ -1403,10 +1467,11 @@ WeatherOutlook.insert({
 			January: 203.1068986122, 
 			February: 131.45, 
 			March: 127.7282575, 
-			April: 98.9119969048, 
-			May: 192.0581711905, 
-			June: 205.9752555556, 
-			July: 420.0950929524 
+			April: 98.32, 
+			May: 183.22, 
+			June: 198.5, 
+			July: 369.79, 
+			Aug: 253.9 
 		}
 	}
 }); 
@@ -1420,10 +1485,11 @@ WeatherOutlook.insert({
 			January: 217.9880877551, 
 			February: 146.5, 
 			March: 140.7828562698, 
-			April: 107.3619881746, 
-			May: 200.7861392857, 
-			June: 217.3819346032, 
-			July: 511.1710131644 
+			April: 110.08, 
+			May: 194.24, 
+			June: 213.16, 
+			July: 402.21, 
+			Aug: 263.83 
 		}
 	}
 }); 
@@ -1437,10 +1503,11 @@ WeatherOutlook.insert({
 			January: 294.1840857143, 
 			February: 210.98, 
 			March: 219.0948111111, 
-			April: 163.4635066667, 
-			May: 223.4677855556, 
-			June: 228.8300002778, 
-			July: 404.1528830556 
+			April: 167.3, 
+			May: 243.07, 
+			June: 235.8, 
+			July: 351.59, 
+			Aug: 283.43 
 		}
 	}
 }); 
@@ -1454,10 +1521,11 @@ WeatherOutlook.insert({
 			January: 268.1754932143, 
 			February: 204.56, 
 			March: 217.1443456944, 
-			April: 164.4608695139, 
-			May: 276.6040872222, 
-			June: 223.6491627778, 
-			July: 282.7148116667 
+			April: 165.74, 
+			May: 272.24, 
+			June: 217.3, 
+			July: 383.68, 
+			Aug: 266.87 
 		}
 	}
 }); 
@@ -1471,10 +1539,11 @@ WeatherOutlook.insert({
 			January: 203.638826, 
 			February: 143.18, 
 			March: 128.5800385926, 
-			April: 89.408059328, 
-			May: 147.4262485132, 
-			June: 152.046710127, 
-			July: 368.9596369444 
+			April: 97.86, 
+			May: 153.38, 
+			June: 156.73, 
+			July: 270.55, 
+			Aug: 215.23 
 		}
 	}
 }); 
@@ -1488,10 +1557,11 @@ WeatherOutlook.insert({
 			January: 215.7560326571, 
 			February: 141.96, 
 			March: 136.1676348056, 
-			April: 103.6477641944, 
-			May: 198.8911091389, 
-			June: 214.3723463333, 
-			July: 463.2677618333 
+			April: 101.33, 
+			May: 195.68, 
+			June: 203.59, 
+			July: 384.15, 
+			Aug: 266.42 
 		}
 	}
 }); 
@@ -1505,10 +1575,11 @@ WeatherOutlook.insert({
 			January: 194.7651653571, 
 			February: 128.71, 
 			March: 120.6283232639, 
-			April: 87.0813351389, 
-			May: 183.1788986111, 
-			June: 205.5437099306, 
-			July: 428.6156175556 
+			April: 85.54, 
+			May: 173.49, 
+			June: 190.46, 
+			July: 371.03, 
+			Aug: 238.09 
 		}
 	}
 }); 
@@ -1522,10 +1593,11 @@ WeatherOutlook.insert({
 			January: 229.5812315, 
 			February: 152.72, 
 			March: 144.8199825, 
-			April: 111.5601279861, 
-			May: 187.7052873611, 
-			June: 206.6793166667, 
-			July: 390.2318759028 
+			April: 131.69, 
+			May: 218.43, 
+			June: 218.73, 
+			July: 388.75, 
+			Aug: 283.7 
 		}
 	}
 }); 
@@ -1539,10 +1611,11 @@ WeatherOutlook.insert({
 			January: 295.0878342286, 
 			February: 191.86, 
 			March: 182.0382860762, 
-			April: 130.1072012619, 
-			May: 185.8448609206, 
-			June: 210.5978063984, 
-			July: 487.4082335429 
+			April: 129.73, 
+			May: 176.84, 
+			June: 206.14, 
+			July: 266.7, 
+			Aug: 199.79 
 		}
 	}
 }); 
@@ -1556,10 +1629,11 @@ WeatherOutlook.insert({
 			January: 346.6494085714, 
 			February: 227.25, 
 			March: 274.0601116667, 
-			April: 188.3273365278, 
-			May: 248.3776366667, 
-			June: 224.2427906944, 
-			July: 466.2111479167 
+			April: 182.04, 
+			May: 216.37, 
+			June: 198.81, 
+			July: 312.68, 
+			Aug: 252.67 
 		}
 	}
 }); 
@@ -1573,10 +1647,11 @@ WeatherOutlook.insert({
 			January: 287.8418145714, 
 			February: 190.55, 
 			March: 228.803755, 
-			April: 167.0712531481, 
-			May: 267.3729694444, 
-			June: 251.3695128704, 
-			July: 454.4773824074 
+			April: 162, 
+			May: 240.96, 
+			June: 246.86, 
+			July: 376.92, 
+			Aug: 279.68 
 		}
 	}
 }); 
@@ -1590,10 +1665,11 @@ WeatherOutlook.insert({
 			January: 271.6549013333, 
 			February: 199.6, 
 			March: 228.4467303704, 
-			April: 166.4321033333, 
-			May: 305.0216424074, 
-			June: 236.256017037, 
-			July: 311.1149714815 
+			April: 160.41, 
+			May: 259.88, 
+			June: 223.66, 
+			July: 376.24, 
+			Aug: 261.7 
 		}
 	}
 }); 
@@ -1607,10 +1683,11 @@ WeatherOutlook.insert({
 			January: 79.7100357689, 
 			February: 47.47, 
 			March: 83.6945370954, 
-			April: 65.8758409218, 
-			May: 264.168582711, 
-			June: 535.5868013942, 
-			July: 289.472879263 
+			April: 66.94, 
+			May: 244.21, 
+			June: 533.7, 
+			July: 707.65, 
+			Aug: 660.98 
 		}
 	}
 }); 
@@ -1624,10 +1701,11 @@ WeatherOutlook.insert({
 			January: 33.1534574286, 
 			February: 17.93, 
 			March: 53.2024896667, 
-			April: 44.4473260754, 
-			May: 159.5609569127, 
-			June: 380.7147506151, 
-			July: 390.0580177778 
+			April: 49.85, 
+			May: 131.84, 
+			June: 373.91, 
+			July: 461.79, 
+			Aug: 664.36 
 		}
 	}
 }); 
@@ -1641,10 +1719,29 @@ WeatherOutlook.insert({
 			January: 79.143302619, 
 			February: 47.7, 
 			March: 104.8579072434, 
-			April: 71.6105745278, 
-			May: 286.4336211389, 
-			June: 648.4508500053, 
-			July: 261.146917963 
+			April: 58.91, 
+			May: 254.77, 
+			June: 629.93, 
+			July: 744.61, 
+			Aug: 683.2 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
+	province: "Antique", 
+	municipality: "Belison", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 64.33, 
+			May: 231.28, 
+			June: 478.95, 
+			July: 694.44, 
+			Aug: 719.01 
 		}
 	}
 }); 
@@ -1658,27 +1755,11 @@ WeatherOutlook.insert({
 			January: 55.8840259048, 
 			February: 35.91, 
 			March: 75.058704213, 
-			April: 58.4000698148, 
-			May: 292.3083146296, 
-			June: 612.0173208333, 
-			July: 224.2769459259 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region VI: Western Visayas", 
-	province: "Antique", 
-	municipality: "Caluya", 
-	data: {
-		month: {
-			January: 58.3591321429, 
-			February: 36.25, 
-			March: 33.7501468056, 
-			April: 31.0999783333, 
-			May: 177.0940041667, 
-			June: 359.0684081944, 
-			July: 438.1978581944 
+			April: 52.87, 
+			May: 272.8, 
+			June: 602.28, 
+			July: 739.72, 
+			Aug: 656.57 
 		}
 	}
 }); 
@@ -1692,10 +1773,11 @@ WeatherOutlook.insert({
 			January: 100.9361522857, 
 			February: 59.63, 
 			March: 118.8409310648, 
-			April: 87.1217975926, 
-			May: 279.7321956944, 
-			June: 650.8360534259, 
-			July: 269.941431037 
+			April: 72.69, 
+			May: 247.25, 
+			June: 622.53, 
+			July: 724.9, 
+			Aug: 512.87 
 		}
 	}
 }); 
@@ -1709,10 +1791,11 @@ WeatherOutlook.insert({
 			January: 42.8774814857, 
 			February: 28.25, 
 			March: 59.6907462794, 
-			April: 48.1084704127, 
-			May: 230.1358347206, 
-			June: 454.0884218587, 
-			July: 277.8818120556 
+			April: 63.5, 
+			May: 228.87, 
+			June: 463.15, 
+			July: 663.06, 
+			Aug: 701.45 
 		}
 	}
 }); 
@@ -1726,10 +1809,11 @@ WeatherOutlook.insert({
 			January: 62.6068110286, 
 			February: 40.11, 
 			March: 82.4342339444, 
-			April: 58.2982791111, 
-			May: 286.9907253333, 
-			June: 629.701723, 
-			July: 221.4410213476 
+			April: 56.22, 
+			May: 251.72, 
+			June: 615.57, 
+			July: 766.15, 
+			Aug: 695.43 
 		}
 	}
 }); 
@@ -1743,10 +1827,11 @@ WeatherOutlook.insert({
 			January: 150.8507987143, 
 			February: 84.19, 
 			March: 88.8441524306, 
-			April: 64.71275375, 
-			May: 227.2325940278, 
-			June: 367.1834047222, 
-			July: 331.7473489583 
+			April: 69.73, 
+			May: 216.97, 
+			June: 360.22, 
+			July: 680.87, 
+			Aug: 580.62 
 		}
 	}
 }); 
@@ -1760,10 +1845,11 @@ WeatherOutlook.insert({
 			January: 203.5854541429, 
 			February: 115.89, 
 			March: 123.0062164444, 
-			April: 77.7237676607, 
-			May: 276.008876123, 
-			June: 406.4036699067, 
-			July: 321.5597652083 
+			April: 73.7, 
+			May: 291.06, 
+			June: 407.1, 
+			July: 780.07, 
+			Aug: 586.31 
 		}
 	}
 }); 
@@ -1777,10 +1863,11 @@ WeatherOutlook.insert({
 			January: 47.9514015238, 
 			February: 29.42, 
 			March: 57.9247721812, 
-			April: 57.0957789643, 
-			May: 253.4988581984, 
-			June: 524.0596143122, 
-			July: 300.8839325926 
+			April: 55.35, 
+			May: 245, 
+			June: 524.27, 
+			July: 711.5, 
+			Aug: 717.04 
 		}
 	}
 }); 
@@ -1794,10 +1881,11 @@ WeatherOutlook.insert({
 			January: 35.3800468571, 
 			February: 29.63, 
 			March: 53.7147245714, 
-			April: 41.4690354286, 
-			May: 224.85646, 
-			June: 444.1609222857, 
-			July: 296.7485827778 
+			April: 54.37, 
+			May: 220.69, 
+			June: 447.89, 
+			July: 697.14, 
+			Aug: 795.98 
 		}
 	}
 }); 
@@ -1811,10 +1899,11 @@ WeatherOutlook.insert({
 			January: 65.9284109184, 
 			February: 38.83, 
 			March: 74.435164127, 
-			April: 72.3870259524, 
-			May: 279.4184957937, 
-			June: 547.0823376984, 
-			July: 308.6862646678 
+			April: 89.53, 
+			May: 262.34, 
+			June: 538.32, 
+			July: 698.54, 
+			Aug: 697.58 
 		}
 	}
 }); 
@@ -1828,10 +1917,11 @@ WeatherOutlook.insert({
 			January: 165.5491754762, 
 			February: 93, 
 			March: 140.1802744868, 
-			April: 85.0003832354, 
-			May: 282.3688716204, 
-			June: 525.6069019299, 
-			July: 389.5196856944 
+			April: 75.14, 
+			May: 270.34, 
+			June: 511.53, 
+			July: 751.48, 
+			Aug: 543.66 
 		}
 	}
 }); 
@@ -1845,10 +1935,11 @@ WeatherOutlook.insert({
 			January: 51.3587034694, 
 			February: 35.84, 
 			March: 65.794703254, 
-			April: 54.705754127, 
-			May: 243.1912467857, 
-			June: 479.3942945238, 
-			July: 250.2351578549 
+			April: 70.08, 
+			May: 229.63, 
+			June: 479.72, 
+			July: 668.85, 
+			Aug: 671.61 
 		}
 	}
 }); 
@@ -1862,10 +1953,11 @@ WeatherOutlook.insert({
 			January: 83.439352, 
 			February: 50.21, 
 			March: 97.3623768056, 
-			April: 74.2708736111, 
-			May: 265.2534845833, 
-			June: 632.6944413889, 
-			July: 243.41874375 
+			April: 62.08, 
+			May: 248.07, 
+			June: 625.79, 
+			July: 744.41, 
+			Aug: 715.45 
 		}
 	}
 }); 
@@ -1879,10 +1971,11 @@ WeatherOutlook.insert({
 			January: 34.7277057143, 
 			February: 21.28, 
 			March: 52.398500463, 
-			April: 45.2044924074, 
-			May: 169.3636802778, 
-			June: 400.2369035185, 
-			July: 297.8685212963 
+			April: 50.44, 
+			May: 134.09, 
+			June: 380.42, 
+			July: 470.78, 
+			Aug: 677.77 
 		}
 	}
 }); 
@@ -1896,10 +1989,11 @@ WeatherOutlook.insert({
 			January: 68.0266638286, 
 			February: 39.22, 
 			March: 82.7416416667, 
-			April: 73.2720873056, 
-			May: 299.5391951944, 
-			June: 598.3362235556, 
-			July: 257.1672955 
+			April: 67.13, 
+			May: 307.77, 
+			June: 602.68, 
+			July: 730.52, 
+			Aug: 690.08 
 		}
 	}
 }); 
@@ -1913,10 +2007,11 @@ WeatherOutlook.insert({
 			January: 52.4824718088, 
 			February: 27.27, 
 			March: 57.8550780451, 
-			April: 65.0220600668, 
-			May: 208.7632172891, 
-			June: 205.8226191416, 
-			July: 330.4605956655 
+			April: 53.88, 
+			May: 181.8, 
+			June: 188.37, 
+			July: 270.71, 
+			Aug: 278.67 
 		}
 	}
 }); 
@@ -1930,10 +2025,11 @@ WeatherOutlook.insert({
 			January: 42.1978656623, 
 			February: 24.62, 
 			March: 64.6671040152, 
-			April: 69.9625112205, 
-			May: 232.5653571128, 
-			June: 228.9956159596, 
-			July: 346.4003402357 
+			April: 61.31, 
+			May: 163.52, 
+			June: 194.86, 
+			July: 300.65, 
+			Aug: 279.97 
 		}
 	}
 }); 
@@ -1947,10 +2043,11 @@ WeatherOutlook.insert({
 			January: 43.1720995495, 
 			February: 23.23, 
 			March: 44.6105829487, 
-			April: 62.988707703, 
-			May: 232.5768471154, 
-			June: 207.4147907479, 
-			July: 341.1960053382 
+			April: 54.79, 
+			May: 206.77, 
+			June: 192.31, 
+			July: 276.1, 
+			Aug: 270.46 
 		}
 	}
 }); 
@@ -1964,10 +2061,11 @@ WeatherOutlook.insert({
 			January: 62.9573129351, 
 			February: 31.6, 
 			March: 51.5745424242, 
-			April: 55.1729359596, 
-			May: 152.4181116162, 
-			June: 179.9830825758, 
-			July: 298.1092246465 
+			April: 41.26, 
+			May: 140.63, 
+			June: 196.86, 
+			July: 228.02, 
+			Aug: 264.32 
 		}
 	}
 }); 
@@ -1981,10 +2079,11 @@ WeatherOutlook.insert({
 			January: 59.0589599143, 
 			February: 24.52, 
 			March: 47.841141213, 
-			April: 65.4381910741, 
-			May: 218.6224231574, 
-			June: 209.4934213519, 
-			July: 298.8875506111 
+			April: 56.48, 
+			May: 201.52, 
+			June: 188.87, 
+			July: 291.44, 
+			Aug: 294.25 
 		}
 	}
 }); 
@@ -1998,10 +2097,11 @@ WeatherOutlook.insert({
 			January: 59.0896301818, 
 			February: 34.46, 
 			March: 79.1660948232, 
-			April: 66.0609490152, 
-			May: 174.3631352399, 
-			June: 184.5861965025, 
-			July: 370.7562894697 
+			April: 50.69, 
+			May: 134.01, 
+			June: 168.72, 
+			July: 227.06, 
+			Aug: 269.13 
 		}
 	}
 }); 
@@ -2015,10 +2115,11 @@ WeatherOutlook.insert({
 			January: 61.5608043714, 
 			February: 32.67, 
 			March: 59.3015481667, 
-			April: 63.21475125, 
-			May: 186.6307221111, 
-			June: 192.7763449444, 
-			July: 291.8838366667 
+			April: 52.78, 
+			May: 178.63, 
+			June: 185.93, 
+			July: 253.45, 
+			Aug: 295.69 
 		}
 	}
 }); 
@@ -2032,10 +2133,11 @@ WeatherOutlook.insert({
 			January: 85.285448, 
 			February: 42.55, 
 			March: 63.61202, 
-			April: 45.9282997222, 
-			May: 106.2849708333, 
-			June: 171.4921383333, 
-			July: 327.6471325 
+			April: 35.46, 
+			May: 121.52, 
+			June: 162.67, 
+			July: 221.97, 
+			Aug: 269.67 
 		}
 	}
 }); 
@@ -2049,10 +2151,11 @@ WeatherOutlook.insert({
 			January: 132.2423201197, 
 			February: 108.61, 
 			March: 148.9411271853, 
-			April: 115.5471286893, 
-			May: 257.4204561943, 
-			June: 173.7092360911, 
-			July: 317.7225513973 
+			April: 124.23, 
+			May: 247.68, 
+			June: 168.15, 
+			July: 276.82, 
+			Aug: 245.28 
 		}
 	}
 }); 
@@ -2066,10 +2169,11 @@ WeatherOutlook.insert({
 			January: 158.6439058286, 
 			February: 140.05, 
 			March: 195.7667752222, 
-			April: 181.4125013333, 
-			May: 302.7647516667, 
-			June: 203.0228075556, 
-			July: 178.8386558889 
+			April: 161.27, 
+			May: 295.94, 
+			June: 180.21, 
+			July: 280.77, 
+			Aug: 229.28 
 		}
 	}
 }); 
@@ -2083,10 +2187,11 @@ WeatherOutlook.insert({
 			January: 165.2695680909, 
 			February: 128.64, 
 			March: 195.3942472918, 
-			April: 110.920540167, 
-			May: 243.0147444181, 
-			June: 175.0641428676, 
-			July: 390.1069733081 
+			April: 102.68, 
+			May: 221.24, 
+			June: 182.42, 
+			July: 262.23, 
+			Aug: 207.71 
 		}
 	}
 }); 
@@ -2100,10 +2205,11 @@ WeatherOutlook.insert({
 			January: 154.6969182095, 
 			February: 129.31, 
 			March: 170.5670561206, 
-			April: 108.9323478582, 
-			May: 221.4782830466, 
-			June: 153.5837867651, 
-			July: 417.4169629815 
+			April: 97.58, 
+			May: 202.64, 
+			June: 148.44, 
+			July: 243.2, 
+			Aug: 193.58 
 		}
 	}
 }); 
@@ -2117,10 +2223,11 @@ WeatherOutlook.insert({
 			January: 123.3558225714, 
 			February: 105.75, 
 			March: 150.4853019097, 
-			April: 99.3365457986, 
-			May: 240.9986304861, 
-			June: 132.8936105903, 
-			July: 374.3357508333 
+			April: 93.4, 
+			May: 211.94, 
+			June: 135.56, 
+			July: 274.09, 
+			Aug: 233.37 
 		}
 	}
 }); 
@@ -2134,10 +2241,11 @@ WeatherOutlook.insert({
 			January: 95.6507639121, 
 			February: 63.35, 
 			March: 87.9804902991, 
-			April: 92.3886325855, 
-			May: 230.0699424573, 
-			June: 224.3634586752, 
-			July: 391.0641222222 
+			April: 119.55, 
+			May: 200.53, 
+			June: 195.36, 
+			July: 296.69, 
+			Aug: 326.57 
 		}
 	}
 }); 
@@ -2151,10 +2259,11 @@ WeatherOutlook.insert({
 			January: 110.6702167473, 
 			February: 97.16, 
 			March: 133.6137059188, 
-			April: 110.6333943803, 
-			May: 258.3371061111, 
-			June: 142.5344283761, 
-			July: 156.1400244444 
+			April: 108.07, 
+			May: 243.11, 
+			June: 145.72, 
+			July: 278.19, 
+			Aug: 260.42 
 		}
 	}
 }); 
@@ -2168,10 +2277,11 @@ WeatherOutlook.insert({
 			January: 113.5475283636, 
 			February: 104.78, 
 			March: 133.2119928788, 
-			April: 126.1889734343, 
-			May: 282.4623222727, 
-			June: 186.2883451515, 
-			July: 185.0691814646 
+			April: 140.79, 
+			May: 276.34, 
+			June: 176.85, 
+			July: 272.86, 
+			Aug: 287.91 
 		}
 	}
 }); 
@@ -2185,10 +2295,11 @@ WeatherOutlook.insert({
 			January: 123.2109817302, 
 			February: 102.74, 
 			March: 125.1592393519, 
-			April: 129.3939710802, 
-			May: 303.4699610494, 
-			June: 177.0663663426, 
-			July: 304.3869916847 
+			April: 166.64, 
+			May: 288.5, 
+			June: 189.36, 
+			July: 311.44, 
+			Aug: 246.77 
 		}
 	}
 }); 
@@ -2202,10 +2313,29 @@ WeatherOutlook.insert({
 			January: 103.6466675814, 
 			February: 93.09, 
 			March: 129.9282338876, 
-			April: 130.7513808101, 
-			May: 151.6419903492, 
-			June: 210.7271382287, 
-			July: 478.1427406331 
+			April: 141.94, 
+			May: 148.51, 
+			June: 228.62, 
+			July: 204.34, 
+			Aug: 210.61 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "ARMM", 
+	province: "Basilan", 
+	municipality: "Akbar", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 140.82, 
+			May: 152.79, 
+			June: 232.42, 
+			July: 185.76, 
+			Aug: 188.64 
 		}
 	}
 }); 
@@ -2219,10 +2349,29 @@ WeatherOutlook.insert({
 			January: 109.8828099048, 
 			February: 100.05, 
 			March: 135.1753535185, 
-			April: 132.0363365741, 
-			May: 161.0914412963, 
-			June: 225.1843725, 
-			July: 429.1909367593 
+			April: 143.4, 
+			May: 148.16, 
+			June: 228.98, 
+			July: 204.93, 
+			Aug: 216.76 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "ARMM", 
+	province: "Basilan", 
+	municipality: "Hadji Mohammad Ajul", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 138.88, 
+			May: 157.71, 
+			June: 240.17, 
+			July: 213.97, 
+			Aug: 205.53 
 		}
 	}
 }); 
@@ -2236,10 +2385,11 @@ WeatherOutlook.insert({
 			January: 98.5949434286, 
 			February: 91.77, 
 			March: 119.3343715278, 
-			April: 120.9374112037, 
-			May: 141.6746631944, 
-			June: 210.3367700463, 
-			July: 491.8240259259 
+			April: 138.08, 
+			May: 157.26, 
+			June: 232.96, 
+			July: 220.92, 
+			Aug: 247.55 
 		}
 	}
 }); 
@@ -2253,10 +2403,11 @@ WeatherOutlook.insert({
 			January: 104.8339866349, 
 			February: 101.82, 
 			March: 124.5730680864, 
-			April: 127.5835494753, 
-			May: 150.5728419753, 
-			June: 217.3260253395, 
-			July: 442.8868359877 
+			April: 135.81, 
+			May: 139.49, 
+			June: 224.49, 
+			July: 191.36, 
+			Aug: 193.22 
 		}
 	}
 }); 
@@ -2270,10 +2421,11 @@ WeatherOutlook.insert({
 			January: 86.0712247619, 
 			February: 75.51, 
 			March: 115.4112357394, 
-			April: 118.1751064828, 
-			May: 129.7107007646, 
-			June: 179.117949836, 
-			July: 390.9379101852 
+			April: 153.06, 
+			May: 142.37, 
+			June: 211.48, 
+			July: 197.73, 
+			Aug: 238.28 
 		}
 	}
 }); 
@@ -2287,10 +2439,11 @@ WeatherOutlook.insert({
 			January: 111.3584247619, 
 			February: 78.77, 
 			March: 152.5255929471, 
-			April: 145.4902770714, 
-			May: 146.5757396799, 
-			June: 184.1297604947, 
-			July: 656.5451512037 
+			April: 161.05, 
+			May: 164.68, 
+			June: 226.54, 
+			July: 217.77, 
+			Aug: 256.06 
 		}
 	}
 }); 
@@ -2304,10 +2457,11 @@ WeatherOutlook.insert({
 			January: 108.750714, 
 			February: 94.48, 
 			March: 140.2241289899, 
-			April: 140.299482601, 
-			May: 163.7123584343, 
-			June: 219.5099130556, 
-			July: 459.0392680303 
+			April: 148.33, 
+			May: 163.96, 
+			June: 229.09, 
+			July: 215.58, 
+			Aug: 252.1 
 		}
 	}
 }); 
@@ -2321,10 +2475,11 @@ WeatherOutlook.insert({
 			January: 109.5128122857, 
 			February: 102.67, 
 			March: 133.7395036111, 
-			April: 133.1268613889, 
-			May: 163.1385080556, 
-			June: 222.3786994444, 
-			July: 689.3929113889 
+			April: 140.63, 
+			May: 150.6, 
+			June: 227.73, 
+			July: 192.64, 
+			Aug: 201.28 
 		}
 	}
 }); 
@@ -2338,10 +2493,11 @@ WeatherOutlook.insert({
 			January: 108.7440375238, 
 			February: 100.34, 
 			March: 127.7238003704, 
-			April: 132.4210139815, 
-			May: 165.6960248148, 
-			June: 229.2670577778, 
-			July: 526.3156805556 
+			April: 138.73, 
+			May: 157.65, 
+			June: 239.51, 
+			July: 213.29, 
+			Aug: 204.81 
 		}
 	}
 }); 
@@ -2355,10 +2511,11 @@ WeatherOutlook.insert({
 			January: 109.5773342857, 
 			February: 103.28, 
 			March: 134.8036377778, 
-			April: 133.1182705556, 
-			May: 153.0737552778, 
-			June: 215.8730811111, 
-			July: 702.6045413889 
+			April: 139.62, 
+			May: 139.87, 
+			June: 225.77, 
+			July: 196.24, 
+			Aug: 218.15 
 		}
 	}
 }); 
@@ -2372,10 +2529,11 @@ WeatherOutlook.insert({
 			January: 9.0452612952, 
 			February: 8.69, 
 			March: 2.1564966527, 
-			April: 18.6261392843, 
-			May: 226.8996441908, 
-			June: 344.2858947757, 
-			July: 239.369405 
+			April: 18.79, 
+			May: 224.09, 
+			June: 319.22, 
+			July: 681.86, 
+			Aug: 809.04 
 		}
 	}
 }); 
@@ -2389,10 +2547,11 @@ WeatherOutlook.insert({
 			January: 8.8205497143, 
 			February: 8.44, 
 			March: 2.1599925, 
-			April: 20.6238417593, 
-			May: 221.2335341667, 
-			June: 339.4497156481, 
-			July: 223.3448205556 
+			April: 19.28, 
+			May: 210.96, 
+			June: 306.08, 
+			July: 655.32, 
+			Aug: 778.29 
 		}
 	}
 }); 
@@ -2406,10 +2565,11 @@ WeatherOutlook.insert({
 			January: 8.8511703175, 
 			February: 7.95, 
 			March: 1.444298672, 
-			April: 18.5826863236, 
-			May: 229.4524799603, 
-			June: 328.7596296667, 
-			July: 246.0565510185 
+			April: 19.09, 
+			May: 233.6, 
+			June: 300.35, 
+			July: 704.48, 
+			Aug: 842.36 
 		}
 	}
 }); 
@@ -2423,10 +2583,11 @@ WeatherOutlook.insert({
 			January: 8.8071925714, 
 			February: 10.64, 
 			March: 1.8344336111, 
-			April: 20.1033128704, 
-			May: 216.1319524074, 
-			June: 334.2620511111, 
-			July: 277.8240391667 
+			April: 19.92, 
+			May: 218.72, 
+			June: 307.52, 
+			July: 689.67, 
+			Aug: 837.87 
 		}
 	}
 }); 
@@ -2440,10 +2601,11 @@ WeatherOutlook.insert({
 			January: 8.3949232857, 
 			February: 9.64, 
 			March: 6.9636255556, 
-			April: 24.3788176389, 
-			May: 220.1093823611, 
-			June: 342.0519022222, 
-			July: 248.2050156944 
+			April: 21.78, 
+			May: 225.83, 
+			June: 334.73, 
+			July: 666.71, 
+			Aug: 793.81 
 		}
 	}
 }); 
@@ -2457,10 +2619,11 @@ WeatherOutlook.insert({
 			January: 8.2727628571, 
 			February: 9.39, 
 			March: 4.0958773148, 
-			April: 20.8174128704, 
-			May: 215.4731965741, 
-			June: 349.3528240741, 
-			July: 254.9160303704 
+			April: 20.76, 
+			May: 222.32, 
+			June: 334.16, 
+			July: 670.02, 
+			Aug: 788.93 
 		}
 	}
 }); 
@@ -2474,10 +2637,11 @@ WeatherOutlook.insert({
 			January: 12.2908197143, 
 			February: 10.61, 
 			March: 1.8213116667, 
-			April: 14.5015187963, 
-			May: 238.6941824074, 
-			June: 291.9171808333, 
-			July: 181.9791669444 
+			April: 13.68, 
+			May: 227.86, 
+			June: 259.14, 
+			July: 663.26, 
+			Aug: 786.09 
 		}
 	}
 }); 
@@ -2491,10 +2655,11 @@ WeatherOutlook.insert({
 			January: 9.1249617714, 
 			February: 7.81, 
 			March: 0.8709908762, 
-			April: 13.2274931762, 
-			May: 206.1304836778, 
-			June: 296.1285923587, 
-			July: 233.6889375556 
+			April: 14.26, 
+			May: 187.53, 
+			June: 261.36, 
+			July: 633.12, 
+			Aug: 733.09 
 		}
 	}
 }); 
@@ -2508,10 +2673,11 @@ WeatherOutlook.insert({
 			January: 8.663161, 
 			February: 7.01, 
 			March: 1.3022826389, 
-			April: 18.8661270486, 
-			May: 255.0772736458, 
-			June: 425.3268353472, 
-			July: 246.2043820833 
+			April: 17.46, 
+			May: 252.43, 
+			June: 412.14, 
+			July: 749.91, 
+			Aug: 879.82 
 		}
 	}
 }); 
@@ -2525,10 +2691,11 @@ WeatherOutlook.insert({
 			January: 8.261806, 
 			February: 7.03, 
 			March: 1.9429375, 
-			April: 21.2353527778, 
-			May: 230.5931663889, 
-			June: 356.0377175, 
-			July: 212.1593313889 
+			April: 20.82, 
+			May: 216.75, 
+			June: 318.99, 
+			July: 663.63, 
+			Aug: 773.56 
 		}
 	}
 }); 
@@ -2542,10 +2709,11 @@ WeatherOutlook.insert({
 			January: 11.1589537143, 
 			February: 8.89, 
 			March: 1.5940016667, 
-			April: 16.1696643056, 
-			May: 230.2550715278, 
-			June: 313.7530752778, 
-			July: 203.5274322222 
+			April: 15.83, 
+			May: 219.09, 
+			June: 280.96, 
+			July: 666.04, 
+			Aug: 794.02 
 		}
 	}
 }); 
@@ -2559,10 +2727,11 @@ WeatherOutlook.insert({
 			January: 8.7642111429, 
 			February: 15.55, 
 			March: 2.4198647222, 
-			April: 21.0669136111, 
-			May: 212.6388161111, 
-			June: 328.724055, 
-			July: 252.4383880556 
+			April: 18.89, 
+			May: 220.63, 
+			June: 291.57, 
+			July: 688.62, 
+			Aug: 840.11 
 		}
 	}
 }); 
@@ -2576,78 +2745,11 @@ WeatherOutlook.insert({
 			January: 8.4600471429, 
 			February: 9.75, 
 			March: 2.8849559722, 
-			April: 19.9379404167, 
-			May: 204.5809923611, 
-			June: 330.6977193056, 
-			July: 236.0158219444 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Batanes", 
-	municipality: "All", 
-	data: {
-		month: {
-			January: 138.5549050952, 
-			February: 94.32, 
-			March: 63.1004320714, 
-			April: 41.115480754, 
-			May: 261.8104461111, 
-			June: 255.4768977765, 
-			July: 376.8211207407 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Batanes", 
-	municipality: "Basco", 
-	data: {
-		month: {
-			January: 155.29033, 
-			February: 132.37, 
-			March: 97.8896594286, 
-			April: 46.1521474286, 
-			May: 223.6325928571, 
-			June: 266.9617585714, 
-			July: 431.2277669444 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Batanes", 
-	municipality: "Itbayat", 
-	data: {
-		month: {
-			January: 131.3332996429, 
-			February: 75.67, 
-			March: 46.052508875, 
-			April: 39.2527618433, 
-			May: 288.180920119, 
-			June: 251.6192830635, 
-			July: 351.1953851389 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Batanes", 
-	municipality: "Uyugan", 
-	data: {
-		month: {
-			January: 150.705902, 
-			February: 130.9, 
-			March: 96.5028975, 
-			April: 43.5296897222, 
-			May: 194.5064033333, 
-			June: 259.4224958333, 
-			July: 424.9174169444 
+			April: 19.85, 
+			May: 210.95, 
+			June: 300.38, 
+			July: 641.73, 
+			Aug: 761.97 
 		}
 	}
 }); 
@@ -2661,10 +2763,11 @@ WeatherOutlook.insert({
 			January: 41.7898066005, 
 			February: 27.84, 
 			March: 30.086289789, 
-			April: 33.5316772249, 
-			May: 143.5581587895, 
-			June: 246.4308905497, 
-			July: 242.0905826555 
+			April: 31.12, 
+			May: 142.04, 
+			June: 231.27, 
+			July: 378.04, 
+			Aug: 394.15 
 		}
 	}
 }); 
@@ -2678,10 +2781,11 @@ WeatherOutlook.insert({
 			January: 30.4939755714, 
 			February: 21.86, 
 			March: 21.4337266667, 
-			April: 27.5465290278, 
-			May: 143.79866625, 
-			June: 250.47624, 
-			July: 223.7987073611 
+			April: 27.09, 
+			May: 150.58, 
+			June: 241.95, 
+			July: 371.43, 
+			Aug: 414.64 
 		}
 	}
 }); 
@@ -2695,10 +2799,11 @@ WeatherOutlook.insert({
 			January: 40.0904191429, 
 			February: 29.03, 
 			March: 31.0168391667, 
-			April: 34.6005961111, 
-			May: 143.4704833333, 
-			June: 237.4243816667, 
-			July: 166.9343561111 
+			April: 34.6, 
+			May: 143.47, 
+			June: 226.82, 
+			July: 347.86, 
+			Aug: 351.13 
 		}
 	}
 }); 
@@ -2712,27 +2817,11 @@ WeatherOutlook.insert({
 			January: 23.359108381, 
 			February: 19.26, 
 			March: 9.9947328704, 
-			April: 17.6963962037, 
-			May: 140.4808965741, 
-			June: 261.4357399074, 
-			July: 210.9210302778 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Batangas", 
-	municipality: "Balete", 
-	data: {
-		month: {
-			January: 29.8545562857, 
-			February: 26.26, 
-			March: 28.4502780556, 
-			April: 33.4089597222, 
-			May: 129.5217538889, 
-			June: 230.6394877778, 
-			July: 177.9330972222 
+			April: 18.25, 
+			May: 139.77, 
+			June: 225.82, 
+			July: 441.2, 
+			Aug: 499.43 
 		}
 	}
 }); 
@@ -2746,10 +2835,11 @@ WeatherOutlook.insert({
 			January: 42.8918946984, 
 			February: 26.15, 
 			March: 32.5153337654, 
-			April: 35.9680595679, 
-			May: 135.968811142, 
-			June: 220.7845743827, 
-			July: 284.405926821 
+			April: 36.73, 
+			May: 134.01, 
+			June: 219.63, 
+			July: 325.04, 
+			Aug: 310.99 
 		}
 	}
 }); 
@@ -2763,10 +2853,11 @@ WeatherOutlook.insert({
 			January: 32.3734324286, 
 			February: 24.22, 
 			March: 24.5839337381, 
-			April: 31.7748869643, 
-			May: 135.3388105159, 
-			June: 221.6556182064, 
-			July: 244.7053559206 
+			April: 33.28, 
+			May: 135.89, 
+			June: 213.9, 
+			July: 350.21, 
+			Aug: 362.38 
 		}
 	}
 }); 
@@ -2780,10 +2871,11 @@ WeatherOutlook.insert({
 			January: 26.3908110857, 
 			February: 19.68, 
 			March: 14.1364625079, 
-			April: 21.3256607127, 
-			May: 146.2887959905, 
-			June: 262.9729914, 
-			July: 188.3185450556 
+			April: 21.85, 
+			May: 152.77, 
+			June: 228.33, 
+			July: 419.53, 
+			Aug: 468.39 
 		}
 	}
 }); 
@@ -2797,10 +2889,29 @@ WeatherOutlook.insert({
 			January: 21.5136754286, 
 			February: 18.72, 
 			March: 9.5273065972, 
-			April: 17.0541036806, 
-			May: 137.5994455556, 
-			June: 260.5557678472, 
-			July: 238.099060625 
+			April: 17.67, 
+			May: 144.68, 
+			June: 235.79, 
+			July: 409.46, 
+			Aug: 465.26 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "Batangas", 
+	municipality: "Cuenca", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 35.79, 
+			May: 150.94, 
+			June: 234.77, 
+			July: 346.35, 
+			Aug: 359.16 
 		}
 	}
 }); 
@@ -2814,10 +2925,11 @@ WeatherOutlook.insert({
 			January: 53.7340117143, 
 			February: 35.51, 
 			March: 35.8504788889, 
-			April: 37.7319194444, 
-			May: 139.6094558333, 
-			June: 239.9004794444, 
-			July: 243.4185583333 
+			April: 37.73, 
+			May: 139.61, 
+			June: 256.6, 
+			July: 333.27, 
+			Aug: 314.97 
 		}
 	}
 }); 
@@ -2831,10 +2943,11 @@ WeatherOutlook.insert({
 			January: 29.5871551429, 
 			February: 16.97, 
 			March: 23.603974375, 
-			April: 29.3484525694, 
-			May: 162.4120370139, 
-			June: 259.3990149306, 
-			July: 200.5737884028 
+			April: 28.04, 
+			May: 130.12, 
+			June: 221.34, 
+			July: 399.83, 
+			Aug: 428.1 
 		}
 	}
 }); 
@@ -2848,10 +2961,11 @@ WeatherOutlook.insert({
 			January: 29.2704208571, 
 			February: 22.09, 
 			March: 19.5494133333, 
-			April: 26.9654977778, 
-			May: 145.1244334722, 
-			June: 250.9359979167, 
-			July: 235.8656595833 
+			April: 27.12, 
+			May: 153.4, 
+			June: 236.22, 
+			July: 395.87, 
+			Aug: 436.66 
 		}
 	}
 }); 
@@ -2865,10 +2979,11 @@ WeatherOutlook.insert({
 			January: 19.9461478095, 
 			February: 18.38, 
 			March: 9.8673419603, 
-			April: 17.7274937857, 
-			May: 139.2609870132, 
-			June: 271.3721146852, 
-			July: 169.5652487963 
+			April: 18.48, 
+			May: 138.74, 
+			June: 213.05, 
+			July: 447.65, 
+			Aug: 496.24 
 		}
 	}
 }); 
@@ -2882,10 +2997,11 @@ WeatherOutlook.insert({
 			January: 57.5274216071, 
 			February: 36.99, 
 			March: 43.8460567708, 
-			April: 45.1530567708, 
-			May: 149.9793715625, 
-			June: 244.0867502083, 
-			July: 206.5810593403 
+			April: 46.57, 
+			May: 152.69, 
+			June: 226.96, 
+			July: 352.92, 
+			Aug: 335.06 
 		}
 	}
 }); 
@@ -2899,27 +3015,11 @@ WeatherOutlook.insert({
 			January: 62.2800195102, 
 			February: 32.32, 
 			March: 43.8549287415, 
-			April: 44.1149408968, 
-			May: 158.9981318413, 
-			June: 250.5558134263, 
-			July: 313.4281742857 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Batangas", 
-	municipality: "Mabini", 
-	data: {
-		month: {
-			January: 29.706608, 
-			February: 16.39, 
-			March: 23.7653314286, 
-			April: 29.6576634286, 
-			May: 146.8331382857, 
-			June: 228.5582622857, 
-			July: 303.0616525 
+			April: 44.23, 
+			May: 158.74, 
+			June: 248.11, 
+			July: 279.32, 
+			Aug: 261.22 
 		}
 	}
 }); 
@@ -2933,27 +3033,11 @@ WeatherOutlook.insert({
 			January: 49.0344468571, 
 			February: 32.02, 
 			March: 38.446235, 
-			April: 46.0617797222, 
-			May: 142.4448688889, 
-			June: 234.4195222222, 
-			July: 160.3404536111 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Batangas", 
-	municipality: "Mataas Na Kahoy", 
-	data: {
-		month: {
-			January: 35.5313431429, 
-			February: 25.92, 
-			March: 32.1422183333, 
-			April: 37.5814333333, 
-			May: 153.9434963889, 
-			June: 244.0391847222, 
-			July: 185.0519891667 
+			April: 45.06, 
+			May: 145.31, 
+			June: 241.34, 
+			July: 357.19, 
+			Aug: 350.65 
 		}
 	}
 }); 
@@ -2967,10 +3051,11 @@ WeatherOutlook.insert({
 			January: 16.9142363929, 
 			February: 16.04, 
 			March: 12.7428446875, 
-			April: 23.6575093403, 
-			May: 147.2126063542, 
-			June: 288.073609375, 
-			July: 254.3506517708 
+			April: 22.6, 
+			May: 137.5, 
+			June: 234.55, 
+			July: 498.03, 
+			Aug: 580.07 
 		}
 	}
 }); 
@@ -2984,10 +3069,11 @@ WeatherOutlook.insert({
 			January: 68.3866114286, 
 			February: 43.57, 
 			March: 44.7296598611, 
-			April: 44.2369226389, 
-			May: 138.4219865278, 
-			June: 238.1555956944, 
-			July: 235.3558779167 
+			April: 44.54, 
+			May: 137.89, 
+			June: 240.03, 
+			July: 336.98, 
+			Aug: 305.07 
 		}
 	}
 }); 
@@ -3001,10 +3087,11 @@ WeatherOutlook.insert({
 			January: 68.7203156571, 
 			February: 43.55, 
 			March: 43.7055676111, 
-			April: 41.7193975556, 
-			May: 133.24744, 
-			June: 241.0737733889, 
-			July: 255.8117682222 
+			April: 41.71, 
+			May: 132.86, 
+			June: 236.22, 
+			July: 304.41, 
+			Aug: 266.66 
 		}
 	}
 }); 
@@ -3018,10 +3105,11 @@ WeatherOutlook.insert({
 			January: 42.5612828571, 
 			February: 33.71, 
 			March: 35.0264933333, 
-			April: 37.2391955556, 
-			May: 140.1065138889, 
-			June: 236.2951069444, 
-			July: 273.5278552778 
+			April: 35.17, 
+			May: 137.92, 
+			June: 220.54, 
+			July: 344.99, 
+			Aug: 345 
 		}
 	}
 }); 
@@ -3035,10 +3123,11 @@ WeatherOutlook.insert({
 			January: 67.639215873, 
 			February: 44.8, 
 			March: 48.2934074383, 
-			April: 40.96641, 
-			May: 141.6918027778, 
-			June: 231.089862963, 
-			July: 269.7065528325 
+			April: 41.53, 
+			May: 130.4, 
+			June: 234.6, 
+			July: 269.18, 
+			Aug: 227.35 
 		}
 	}
 }); 
@@ -3052,10 +3141,29 @@ WeatherOutlook.insert({
 			January: 33.6374985714, 
 			February: 22.57, 
 			March: 23.7252066667, 
-			April: 29.3146383333, 
-			May: 142.1881138889, 
-			June: 237.1061738889, 
-			July: 239.2056058333 
+			April: 31.28, 
+			May: 139.25, 
+			June: 213.4, 
+			July: 352.14, 
+			Aug: 375.31 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "Batangas", 
+	municipality: "San Niicolas", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 29.34, 
+			May: 148.28, 
+			June: 247.94, 
+			July: 359.37, 
+			Aug: 388.33 
 		}
 	}
 }); 
@@ -3069,10 +3177,11 @@ WeatherOutlook.insert({
 			January: 37.0353834286, 
 			February: 28.19, 
 			March: 28.6518172222, 
-			April: 33.0203236111, 
-			May: 131.1376394444, 
-			June: 230.3961444444, 
-			July: 233.7695405556 
+			April: 33.02, 
+			May: 131.14, 
+			June: 215.21, 
+			July: 343.05, 
+			Aug: 337.73 
 		}
 	}
 }); 
@@ -3086,10 +3195,11 @@ WeatherOutlook.insert({
 			January: 35.6887525714, 
 			February: 27.34, 
 			March: 29.2258552778, 
-			April: 32.910025, 
-			May: 140.1252875, 
-			June: 234.1828605556, 
-			July: 194.8537852778 
+			April: 32.92, 
+			May: 148.82, 
+			June: 231.42, 
+			July: 353.57, 
+			Aug: 379.6 
 		}
 	}
 }); 
@@ -3103,10 +3213,11 @@ WeatherOutlook.insert({
 			January: 50.9286885, 
 			February: 30.77, 
 			March: 37.6015052083, 
-			April: 40.5213120139, 
-			May: 144.3702910417, 
-			June: 234.0723163194, 
-			July: 248.8694884722 
+			April: 42.37, 
+			May: 141.39, 
+			June: 244.17, 
+			July: 365.53, 
+			Aug: 354.19 
 		}
 	}
 }); 
@@ -3120,10 +3231,11 @@ WeatherOutlook.insert({
 			January: 33.061768, 
 			February: 25.91, 
 			March: 25.6773086111, 
-			April: 28.8656638889, 
-			May: 138.1162527778, 
-			June: 238.455335, 
-			July: 210.5454641667 
+			April: 28.87, 
+			May: 147.44, 
+			June: 234.44, 
+			July: 353.17, 
+			Aug: 389.78 
 		}
 	}
 }); 
@@ -3137,10 +3249,11 @@ WeatherOutlook.insert({
 			January: 28.7050144898, 
 			February: 22.61, 
 			March: 27.5930762302, 
-			April: 31.5884387302, 
-			May: 136.9925667857, 
-			June: 240.1395944444, 
-			July: 194.5007584921 
+			April: 30.18, 
+			May: 145.31, 
+			June: 240.75, 
+			July: 366.24, 
+			Aug: 395.27 
 		}
 	}
 }); 
@@ -3154,10 +3267,11 @@ WeatherOutlook.insert({
 			January: 30.8909597143, 
 			February: 17.49, 
 			March: 25.9491927778, 
-			April: 30.3654391667, 
-			May: 148.0297240278, 
-			June: 237.4717876389, 
-			July: 224.6740623611 
+			April: 29.81, 
+			May: 131.31, 
+			June: 224.58, 
+			July: 371.26, 
+			Aug: 393.23 
 		}
 	}
 }); 
@@ -3171,10 +3285,11 @@ WeatherOutlook.insert({
 			January: 38.637956, 
 			February: 27.85, 
 			March: 33.7020187037, 
-			April: 36.0842926852, 
-			May: 136.5020106481, 
-			June: 236.129162963, 
-			July: 314.6231149074 
+			April: 37.18, 
+			May: 174.7, 
+			June: 230.51, 
+			July: 363.78, 
+			Aug: 378.47 
 		}
 	}
 }); 
@@ -3188,27 +3303,11 @@ WeatherOutlook.insert({
 			January: 60.6270291429, 
 			February: 36.44, 
 			March: 42.1230211111, 
-			April: 42.8531024306, 
-			May: 142.57650875, 
-			June: 247.3892777778, 
-			July: 299.1751063234 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Batangas", 
-	municipality: "Tingloy", 
-	data: {
-		month: {
-			January: 31.5762068571, 
-			February: 23.78, 
-			March: 26.4231231429, 
-			April: 29.5937525714, 
-			May: 130.8030082857, 
-			June: 227.0030925714, 
-			July: 313.7722447222 
+			April: 43.15, 
+			May: 145.41, 
+			June: 236.43, 
+			July: 303.62, 
+			Aug: 273.8 
 		}
 	}
 }); 
@@ -3222,10 +3321,11 @@ WeatherOutlook.insert({
 			January: 26.5786917143, 
 			February: 16.57, 
 			March: 12.3248938889, 
-			April: 22.660167963, 
-			May: 153.9638880556, 
-			June: 268.9982056481, 
-			July: 210.5836462963 
+			April: 21.88, 
+			May: 135.33, 
+			June: 229.23, 
+			July: 462.23, 
+			Aug: 513.79 
 		}
 	}
 }); 
@@ -3239,10 +3339,11 @@ WeatherOutlook.insert({
 			January: 16.4758825651, 
 			February: 18.9, 
 			March: 45.8493512363, 
-			April: 102.0769538126, 
-			May: 306.2890050458, 
-			June: 279.4686436996, 
-			July: 372.6988264744 
+			April: 107.42, 
+			May: 275.27, 
+			June: 268.77, 
+			July: 448.68, 
+			Aug: 683.39 
 		}
 	}
 }); 
@@ -3256,10 +3357,11 @@ WeatherOutlook.insert({
 			January: 14.5176941905, 
 			February: 19.86, 
 			March: 48.4311830093, 
-			April: 102.8201255556, 
-			May: 302.0348499537, 
-			June: 275.0967509722, 
-			July: 317.5538522222 
+			April: 110.81, 
+			May: 286.33, 
+			June: 255.34, 
+			July: 421.27, 
+			Aug: 656.23 
 		}
 	}
 }); 
@@ -3273,10 +3375,11 @@ WeatherOutlook.insert({
 			January: 14.2549747143, 
 			February: 9.04, 
 			March: 22.9732336111, 
-			April: 81.5354019444, 
-			May: 311.7566386111, 
-			June: 379.2651009722, 
-			July: 438.4536488889 
+			April: 81.75, 
+			May: 306.96, 
+			June: 329.88, 
+			July: 442.21, 
+			Aug: 752.49 
 		}
 	}
 }); 
@@ -3290,10 +3393,11 @@ WeatherOutlook.insert({
 			January: 13.6622078095, 
 			February: 12.52, 
 			March: 48.384407963, 
-			April: 89.180855, 
-			May: 300.4113594136, 
-			June: 254.064374537, 
-			July: 387.2978382716 
+			April: 102.38, 
+			May: 266.88, 
+			June: 236.59, 
+			July: 438.84, 
+			Aug: 681.07 
 		}
 	}
 }); 
@@ -3307,10 +3411,11 @@ WeatherOutlook.insert({
 			January: 22.322837, 
 			February: 34.32, 
 			March: 52.9335756548, 
-			April: 118.5269870635, 
-			May: 322.7168488889, 
-			June: 276.0729582143, 
-			July: 424.9877446825 
+			April: 120.67, 
+			May: 285.49, 
+			June: 256.35, 
+			July: 466.61, 
+			Aug: 659.71 
 		}
 	}
 }); 
@@ -3324,10 +3429,11 @@ WeatherOutlook.insert({
 			January: 20.5558193333, 
 			February: 24.02, 
 			March: 73.2543788889, 
-			April: 121.8382538426, 
-			May: 284.9517033333, 
-			June: 220.3466556944, 
-			July: 326.7502733333 
+			April: 122.87, 
+			May: 229.32, 
+			June: 212.02, 
+			July: 377.04, 
+			Aug: 644.71 
 		}
 	}
 }); 
@@ -3341,10 +3447,11 @@ WeatherOutlook.insert({
 			January: 16.4292756735, 
 			February: 18.14, 
 			March: 34.436340496, 
-			April: 102.7443270833, 
-			May: 294.8821322024, 
-			June: 299.6386747619, 
-			July: 400.1135752778 
+			April: 107.84, 
+			May: 300.79, 
+			June: 298.05, 
+			July: 515.33, 
+			Aug: 704.28 
 		}
 	}
 }); 
@@ -3358,10 +3465,11 @@ WeatherOutlook.insert({
 			January: 22.1907128163, 
 			February: 21.96, 
 			March: 64.0483573016, 
-			April: 117.6738487698, 
-			May: 282.9712305952, 
-			June: 201.809204246, 
-			July: 288.1308542064 
+			April: 115.44, 
+			May: 246.38, 
+			June: 225.02, 
+			July: 387.17, 
+			Aug: 636.75 
 		}
 	}
 }); 
@@ -3375,10 +3483,11 @@ WeatherOutlook.insert({
 			January: 12.4327017143, 
 			February: 18.59, 
 			March: 44.5542409259, 
-			April: 86.1185184259, 
-			May: 294.0475825, 
-			June: 318.2531838889, 
-			July: 280.1141558333 
+			April: 93.66, 
+			May: 277, 
+			June: 264.48, 
+			July: 411.02, 
+			Aug: 634.35 
 		}
 	}
 }); 
@@ -3392,10 +3501,11 @@ WeatherOutlook.insert({
 			January: 13.3846468095, 
 			February: 14.38, 
 			March: 49.3661153704, 
-			April: 94.7572089815, 
-			May: 293.0862790741, 
-			June: 263.6562480093, 
-			July: 271.6761691667 
+			April: 102.55, 
+			May: 265.43, 
+			June: 250.78, 
+			July: 450.74, 
+			Aug: 657.69 
 		}
 	}
 }); 
@@ -3409,10 +3519,11 @@ WeatherOutlook.insert({
 			January: 14.7361652857, 
 			February: 19.78, 
 			March: 40.1877922222, 
-			April: 98.8390041667, 
-			May: 304.6785918056, 
-			June: 337.9213529167, 
-			July: 382.5845301389 
+			April: 104.67, 
+			May: 291.09, 
+			June: 336.76, 
+			July: 423.41, 
+			Aug: 815.21 
 		}
 	}
 }); 
@@ -3426,10 +3537,11 @@ WeatherOutlook.insert({
 			January: 16.7157449143, 
 			February: 20.89, 
 			March: 61.2900056111, 
-			April: 115.2089832222, 
-			May: 351.2317787778, 
-			June: 248.0993469444, 
-			July: 404.5921583333 
+			April: 128.6, 
+			May: 350.45, 
+			June: 278.51, 
+			July: 427.59, 
+			Aug: 692.9 
 		}
 	}
 }); 
@@ -3443,10 +3555,11 @@ WeatherOutlook.insert({
 			January: 12.2722465714, 
 			February: 11.86, 
 			March: 27.9716223148, 
-			April: 72.5939580556, 
-			May: 305.1594852778, 
-			June: 334.1678321296, 
-			July: 409.1820332407 
+			April: 78.82, 
+			May: 288.03, 
+			June: 307.28, 
+			July: 510.97, 
+			Aug: 805.31 
 		}
 	}
 }); 
@@ -3460,10 +3573,11 @@ WeatherOutlook.insert({
 			January: 11.8332047013, 
 			February: 4.01, 
 			March: 24.0600293939, 
-			April: 85.4919957071, 
-			May: 327.4374484343, 
-			June: 321.3854470707, 
-			July: 404.4332843434 
+			April: 92.34, 
+			May: 300.81, 
+			June: 308.81, 
+			July: 526.03, 
+			Aug: 754.29 
 		}
 	}
 }); 
@@ -3477,10 +3591,11 @@ WeatherOutlook.insert({
 			January: 13.9636042857, 
 			February: 24.02, 
 			March: 41.3313024074, 
-			April: 98.3410405556, 
-			May: 290.8377966667, 
-			June: 316.8231260185, 
-			July: 394.6681975926 
+			April: 105.62, 
+			May: 276.78, 
+			June: 304.48, 
+			July: 450.02, 
+			Aug: 757.38 
 		}
 	}
 }); 
@@ -3494,10 +3609,11 @@ WeatherOutlook.insert({
 			January: 305.0241243492, 
 			February: 185.44, 
 			March: 221.2271637456, 
-			April: 124.4906717284, 
-			May: 174.0609284974, 
-			June: 277.3277083787, 
-			July: 411.9758817227 
+			April: 132.65, 
+			May: 168.66, 
+			June: 262.99, 
+			July: 368.61, 
+			Aug: 267.67 
 		}
 	}
 }); 
@@ -3511,10 +3627,11 @@ WeatherOutlook.insert({
 			January: 297.5071007619, 
 			February: 181.21, 
 			March: 214.7625177831, 
-			April: 121.5146665767, 
-			May: 169.9691016561, 
-			June: 272.3885975291, 
-			July: 336.9886957989 
+			April: 128.21, 
+			May: 164.52, 
+			June: 261.86, 
+			July: 373.75, 
+			Aug: 271.86 
 		}
 	}
 }); 
@@ -3528,10 +3645,11 @@ WeatherOutlook.insert({
 			January: 313.9440698571, 
 			February: 185.52, 
 			March: 213.1516784722, 
-			April: 126.5199018056, 
-			May: 161.7720875, 
-			June: 258.0623170833, 
-			July: 542.2090059722 
+			April: 133.09, 
+			May: 163.03, 
+			June: 254.88, 
+			July: 360.55, 
+			Aug: 256.8 
 		}
 	}
 }); 
@@ -3545,10 +3663,11 @@ WeatherOutlook.insert({
 			January: 326.9307167143, 
 			February: 193.04, 
 			March: 244.7694009722, 
-			April: 132.889459877, 
-			May: 187.4853034762, 
-			June: 304.8144933373, 
-			July: 502.7905345833 
+			April: 137.71, 
+			May: 175.41, 
+			June: 272.78, 
+			July: 350.75, 
+			Aug: 278.37 
 		}
 	}
 }); 
@@ -3562,10 +3681,11 @@ WeatherOutlook.insert({
 			January: 317.1849222857, 
 			February: 192.4, 
 			March: 240.7916297222, 
-			April: 131.46444875, 
-			May: 187.5236775, 
-			June: 297.9476819444, 
-			July: 405.4366795833 
+			April: 140.03, 
+			May: 182.48, 
+			June: 282.39, 
+			July: 374.46, 
+			Aug: 282.81 
 		}
 	}
 }); 
@@ -3579,10 +3699,11 @@ WeatherOutlook.insert({
 			January: 304.2576129524, 
 			February: 189.31, 
 			March: 234.0518577778, 
-			April: 127.9440285185, 
-			May: 188.2726322222, 
-			June: 302.0019555556, 
-			July: 373.4913603704 
+			April: 134.28, 
+			May: 187.49, 
+			June: 287.89, 
+			July: 397.96, 
+			Aug: 302.52 
 		}
 	}
 }); 
@@ -3596,27 +3717,11 @@ WeatherOutlook.insert({
 			January: 287.3721224286, 
 			February: 179.93, 
 			March: 198.4257400913, 
-			April: 110.613535119, 
-			May: 155.1136588492, 
-			June: 248.549078, 
-			July: 442.6679120833 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region VIII: Eastern Visayas", 
-	province: "Biliran", 
-	municipality: "Maripipi", 
-	data: {
-		month: {
-			January: 283.014734, 
-			February: 171.24, 
-			March: 215.7452108333, 
-			April: 108.8839330556, 
-			May: 182.5320136111, 
-			June: 281.6178286111, 
-			July: 349.0461466667 
+			April: 126.66, 
+			May: 169.93, 
+			June: 269.94, 
+			July: 374.87, 
+			Aug: 292.2 
 		}
 	}
 }); 
@@ -3630,10 +3735,11 @@ WeatherOutlook.insert({
 			January: 303.7539001905, 
 			February: 184.47, 
 			March: 208.5412371296, 
-			April: 126.8657938889, 
-			May: 164.0166810185, 
-			June: 256.1207074074, 
-			July: 382.9570971296 
+			April: 134.25, 
+			May: 166.18, 
+			June: 253.02, 
+			July: 361.75, 
+			Aug: 258.96 
 		}
 	}
 }); 
@@ -3647,10 +3753,29 @@ WeatherOutlook.insert({
 			January: 194.6294550346, 
 			February: 126.12, 
 			March: 176.8700220266, 
-			April: 89.9821440696, 
-			May: 106.9506839634, 
-			June: 192.5143845008, 
-			July: 286.4110162983 
+			April: 82.67, 
+			May: 109.86, 
+			June: 204.38, 
+			July: 231.91, 
+			Aug: 199.89 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
+	province: "Bohol", 
+	municipality: "Albuquerque", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 80.71, 
+			May: 99.79, 
+			June: 212.66, 
+			July: 192.45, 
+			Aug: 162.83 
 		}
 	}
 }); 
@@ -3664,10 +3789,11 @@ WeatherOutlook.insert({
 			January: 244.7009643429, 
 			February: 153.03, 
 			March: 184.6609077222, 
-			April: 98.3351926111, 
-			May: 102.0968795, 
-			June: 189.683819, 
-			July: 204.4392654444 
+			April: 89.96, 
+			May: 107.55, 
+			June: 204.33, 
+			July: 236.22, 
+			Aug: 220.86 
 		}
 	}
 }); 
@@ -3681,10 +3807,11 @@ WeatherOutlook.insert({
 			January: 239.9986215714, 
 			February: 154.67, 
 			March: 182.5816959722, 
-			April: 109.2922805556, 
-			May: 103.2474708333, 
-			June: 195.5975133333, 
-			July: 268.5806841667 
+			April: 101.3, 
+			May: 104.51, 
+			June: 191.24, 
+			July: 226.81, 
+			Aug: 210.8 
 		}
 	}
 }); 
@@ -3698,10 +3825,11 @@ WeatherOutlook.insert({
 			January: 131.1301777143, 
 			February: 93.15, 
 			March: 160.03024, 
-			April: 97.4955829167, 
-			May: 115.4246336111, 
-			June: 170.9915879167, 
-			July: 296.3287625 
+			April: 90.82, 
+			May: 118.67, 
+			June: 196.03, 
+			July: 221.32, 
+			Aug: 182.97 
 		}
 	}
 }); 
@@ -3715,10 +3843,11 @@ WeatherOutlook.insert({
 			January: 120.569198, 
 			February: 78.86, 
 			March: 160.7369141667, 
-			April: 92.3995088889, 
-			May: 99.3063730556, 
-			June: 158.4594366667, 
-			July: 379.4252363889 
+			April: 84.9, 
+			May: 100.86, 
+			June: 199.86, 
+			July: 187.81, 
+			Aug: 163.53 
 		}
 	}
 }); 
@@ -3732,10 +3861,11 @@ WeatherOutlook.insert({
 			January: 147.5694957857, 
 			February: 103.05, 
 			March: 162.1830595833, 
-			April: 88.2013603472, 
-			May: 109.556016875, 
-			June: 174.521069375, 
-			July: 299.6475642361 
+			April: 81.53, 
+			May: 117.33, 
+			June: 201.83, 
+			July: 226.38, 
+			Aug: 193.62 
 		}
 	}
 }); 
@@ -3749,10 +3879,11 @@ WeatherOutlook.insert({
 			January: 210.9810001429, 
 			February: 124.23, 
 			March: 182.0920397917, 
-			April: 73.0637152778, 
-			May: 122.2172697917, 
-			June: 203.7908564583, 
-			July: 251.8847475694 
+			April: 63.8, 
+			May: 128.77, 
+			June: 205.52, 
+			July: 252.59, 
+			Aug: 229.19 
 		}
 	}
 }); 
@@ -3766,10 +3897,11 @@ WeatherOutlook.insert({
 			January: 235.3601622857, 
 			February: 143.35, 
 			March: 185.0574951389, 
-			April: 94.7796141667, 
-			May: 94.186955, 
-			June: 185.24349625, 
-			July: 230.1782075 
+			April: 84.43, 
+			May: 92.88, 
+			June: 198.61, 
+			July: 193.95, 
+			Aug: 185.57 
 		}
 	}
 }); 
@@ -3783,10 +3915,11 @@ WeatherOutlook.insert({
 			January: 192.6762713143, 
 			February: 114.36, 
 			March: 176.7431460556, 
-			April: 74.0792678889, 
-			May: 113.6093422778, 
-			June: 193.0702407778, 
-			July: 311.6861241111 
+			April: 66.03, 
+			May: 113.88, 
+			June: 207.8, 
+			July: 241.02, 
+			Aug: 216.26 
 		}
 	}
 }); 
@@ -3800,10 +3933,11 @@ WeatherOutlook.insert({
 			January: 180.4801797143, 
 			February: 127.98, 
 			March: 172.6480480556, 
-			April: 84.09717375, 
-			May: 103.7232979167, 
-			June: 213.58688375, 
-			July: 295.8900556944 
+			April: 84.45, 
+			May: 108.98, 
+			June: 189.3, 
+			July: 223.41, 
+			Aug: 208.31 
 		}
 	}
 }); 
@@ -3817,10 +3951,11 @@ WeatherOutlook.insert({
 			January: 132.6626502857, 
 			February: 95.31, 
 			March: 161.7201525278, 
-			April: 77.0098135754, 
-			May: 115.4208520714, 
-			June: 193.4964071508, 
-			July: 246.57815875 
+			April: 86.47, 
+			May: 116.86, 
+			June: 213.57, 
+			July: 223.97, 
+			Aug: 197.24 
 		}
 	}
 }); 
@@ -3834,10 +3969,11 @@ WeatherOutlook.insert({
 			January: 234.1532889524, 
 			February: 143.95, 
 			March: 180.5530371296, 
-			April: 100.5049417593, 
-			May: 104.8514348148, 
-			June: 190.168840463, 
-			July: 239.6850978704 
+			April: 92.76, 
+			May: 105.39, 
+			June: 194.74, 
+			July: 224.67, 
+			Aug: 203.31 
 		}
 	}
 }); 
@@ -3851,10 +3987,11 @@ WeatherOutlook.insert({
 			January: 216.8100766531, 
 			February: 143.17, 
 			March: 187.5231314683, 
-			April: 85.2366220635, 
-			May: 114.8310330556, 
-			June: 210.5978363492, 
-			July: 285.9618360714 
+			April: 79.67, 
+			May: 115.41, 
+			June: 210.05, 
+			July: 258.89, 
+			Aug: 216.53 
 		}
 	}
 }); 
@@ -3868,10 +4005,11 @@ WeatherOutlook.insert({
 			January: 174.3146968571, 
 			February: 121.15, 
 			March: 164.8442512037, 
-			April: 88.6289147222, 
-			May: 115.9557940741, 
-			June: 189.083757963, 
-			July: 221.6079997222 
+			April: 80.7, 
+			May: 115.66, 
+			June: 215.56, 
+			July: 230.26, 
+			Aug: 201.2 
 		}
 	}
 }); 
@@ -3885,10 +4023,11 @@ WeatherOutlook.insert({
 			January: 162.8655385714, 
 			February: 110.63, 
 			March: 169.8349083333, 
-			April: 89.7291711111, 
-			May: 111.5251005556, 
-			June: 206.2215875, 
-			July: 320.7822425 
+			April: 81.77, 
+			May: 113.18, 
+			June: 208.87, 
+			July: 232.79, 
+			Aug: 202.98 
 		}
 	}
 }); 
@@ -3902,10 +4041,11 @@ WeatherOutlook.insert({
 			January: 124.4382777143, 
 			February: 78.95, 
 			March: 159.8406347222, 
-			April: 92.7617091667, 
-			May: 100.7213880556, 
-			June: 153.9683452778, 
-			July: 287.8397619444 
+			April: 85.26, 
+			May: 102.27, 
+			June: 202.2, 
+			July: 201.7, 
+			Aug: 169.21 
 		}
 	}
 }); 
@@ -3919,10 +4059,11 @@ WeatherOutlook.insert({
 			January: 123.9903348571, 
 			February: 83.76, 
 			March: 157.9608225, 
-			April: 97.2829936111, 
-			May: 102.4619888889, 
-			June: 154.2788386111, 
-			July: 332.9523358333 
+			April: 89.69, 
+			May: 104.15, 
+			June: 210.88, 
+			July: 209.82, 
+			Aug: 162.16 
 		}
 	}
 }); 
@@ -3936,10 +4077,11 @@ WeatherOutlook.insert({
 			January: 224.8480805714, 
 			February: 160.03, 
 			March: 185.9531465278, 
-			April: 93.5290125, 
-			May: 105.6389734722, 
-			June: 203.7699356944, 
-			July: 211.3389176389 
+			April: 86.03, 
+			May: 107.19, 
+			June: 207.64, 
+			July: 259.7, 
+			Aug: 205.41 
 		}
 	}
 }); 
@@ -3953,10 +4095,11 @@ WeatherOutlook.insert({
 			January: 197.1662988, 
 			February: 150.39, 
 			March: 186.1241846667, 
-			April: 94.0161116667, 
-			May: 108.3369013889, 
-			June: 213.3108557222, 
-			July: 250.9141802222 
+			April: 86.01, 
+			May: 112.78, 
+			June: 213.18, 
+			July: 250.49, 
+			Aug: 209.22 
 		}
 	}
 }); 
@@ -3970,10 +4113,11 @@ WeatherOutlook.insert({
 			January: 113.7874488571, 
 			February: 77.56, 
 			March: 164.8182530556, 
-			April: 108.5498119444, 
-			May: 94.7713330556, 
-			June: 148.4654386111, 
-			July: 384.0793613889 
+			April: 89.43, 
+			May: 87.5, 
+			June: 210.58, 
+			July: 167.21, 
+			Aug: 122.34 
 		}
 	}
 }); 
@@ -3987,10 +4131,11 @@ WeatherOutlook.insert({
 			January: 160.908682, 
 			February: 89.61, 
 			March: 175.2226291667, 
-			April: 76.6274452778, 
-			May: 107.8573427778, 
-			June: 189.8163311111, 
-			July: 343.3766166667 
+			April: 67.63, 
+			May: 109.52, 
+			June: 208.71, 
+			July: 214.61, 
+			Aug: 188.35 
 		}
 	}
 }); 
@@ -4004,10 +4149,11 @@ WeatherOutlook.insert({
 			January: 201.4878104286, 
 			February: 141.43, 
 			March: 189.0389825, 
-			April: 88.0087222222, 
-			May: 110.9350469444, 
-			June: 205.3780075, 
-			July: 332.4191843056 
+			April: 80.05, 
+			May: 113.65, 
+			June: 216.68, 
+			July: 259.78, 
+			Aug: 239.88 
 		}
 	}
 }); 
@@ -4021,10 +4167,11 @@ WeatherOutlook.insert({
 			January: 200.0232686667, 
 			February: 120.55, 
 			March: 178.6332391667, 
-			April: 83.5124647222, 
-			May: 110.9258212963, 
-			June: 194.8704062963, 
-			July: 322.679369537 
+			April: 76.02, 
+			May: 111.08, 
+			June: 215.61, 
+			July: 243.87, 
+			Aug: 213.23 
 		}
 	}
 }); 
@@ -4038,10 +4185,11 @@ WeatherOutlook.insert({
 			January: 214.385204381, 
 			February: 135.02, 
 			March: 178.385722037, 
-			April: 94.5942910185, 
-			May: 104.5276992593, 
-			June: 188.3070283333, 
-			July: 303.2192942593 
+			April: 87.96, 
+			May: 108.3, 
+			June: 200.59, 
+			July: 239.56, 
+			Aug: 214.72 
 		}
 	}
 }); 
@@ -4055,10 +4203,11 @@ WeatherOutlook.insert({
 			January: 169.6602747429, 
 			February: 118.24, 
 			March: 169.4981278206, 
-			April: 81.7918428619, 
-			May: 104.6571877794, 
-			June: 210.7986224064, 
-			July: 297.4313142778 
+			April: 82.66, 
+			May: 109.1, 
+			June: 179.56, 
+			July: 244.11, 
+			Aug: 212.13 
 		}
 	}
 }); 
@@ -4072,10 +4221,11 @@ WeatherOutlook.insert({
 			January: 204.6762467857, 
 			February: 113.24, 
 			March: 178.9780584028, 
-			April: 85.7869190278, 
-			May: 105.6300800694, 
-			June: 192.3501410417, 
-			July: 331.5314136111 
+			April: 78.29, 
+			May: 109.79, 
+			June: 202.98, 
+			July: 250.97, 
+			Aug: 221.29 
 		}
 	}
 }); 
@@ -4089,10 +4239,29 @@ WeatherOutlook.insert({
 			January: 181.235421619, 
 			February: 126.87, 
 			March: 173.5427349788, 
-			April: 76.3471978915, 
-			May: 99.5430229788, 
-			June: 216.8282684947, 
-			July: 287.9779712037 
+			April: 83.64, 
+			May: 99.55, 
+			June: 197.01, 
+			July: 226.77, 
+			Aug: 193.32 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
+	province: "Bohol", 
+	municipality: "Lila", 
+	data: {
+		month: {
+			January: 128.8734774286, 
+			February: 78.74, 
+			March: 158.5493302778, 
+			April: 69.51, 
+			May: 107.89, 
+			June: 191.85, 
+			July: 203.49, 
+			Aug: 182.09 
 		}
 	}
 }); 
@@ -4103,13 +4272,14 @@ WeatherOutlook.insert({
 	municipality: "Loay", 
 	data: {
 		month: {
-			January: 128.8734774286, 
-			February: 78.74, 
-			March: 158.5493302778, 
-			April: 88.2080975, 
-			May: 98.2370880556, 
-			June: 158.5060183333, 
-			July: 377.4637594444 
+			January: 145.704374, 
+			February: 84.32, 
+			March: 168.1856288889, 
+			April: 77.47, 
+			May: 101.47, 
+			June: 199.21, 
+			July: 198.69, 
+			Aug: 175.61 
 		}
 	}
 }); 
@@ -4120,13 +4290,14 @@ WeatherOutlook.insert({
 	municipality: "Loboc", 
 	data: {
 		month: {
-			January: 145.704374, 
-			February: 84.32, 
-			March: 168.1856288889, 
-			April: 80.1839176389, 
-			May: 103.2527225, 
-			June: 176.8722743056, 
-			July: 357.9215219444 
+			January: 123.8025507619, 
+			February: 92.48, 
+			March: 166.3515112275, 
+			April: 73.2, 
+			May: 101.47, 
+			June: 204.93, 
+			July: 209.98, 
+			Aug: 175.61 
 		}
 	}
 }); 
@@ -4137,13 +4308,14 @@ WeatherOutlook.insert({
 	municipality: "Loon", 
 	data: {
 		month: {
-			January: 123.8025507619, 
-			February: 92.48, 
-			March: 166.3515112275, 
-			April: 96.1127477884, 
-			May: 120.123413828, 
-			June: 182.2090356138, 
-			July: 279.8773872222 
+			January: 244.1409230476, 
+			February: 152.13, 
+			March: 180.6216234259, 
+			April: 86.61, 
+			May: 119.34, 
+			June: 206.38, 
+			July: 220.88, 
+			Aug: 180.46 
 		}
 	}
 }); 
@@ -4154,13 +4326,14 @@ WeatherOutlook.insert({
 	municipality: "Mabini", 
 	data: {
 		month: {
-			January: 244.1409230476, 
-			February: 152.13, 
-			March: 180.6216234259, 
-			April: 104.1976738889, 
-			May: 99.9172499074, 
-			June: 182.5302732407, 
-			July: 215.5434889815 
+			January: 122.352902, 
+			February: 93.72, 
+			March: 173.9110091667, 
+			April: 98.49, 
+			May: 105.47, 
+			June: 215.39, 
+			July: 214.35, 
+			Aug: 213.85 
 		}
 	}
 }); 
@@ -4171,13 +4344,14 @@ WeatherOutlook.insert({
 	municipality: "Maribojoc", 
 	data: {
 		month: {
-			January: 122.352902, 
-			February: 93.72, 
-			March: 173.9110091667, 
-			April: 95.2216136111, 
-			May: 122.8411369444, 
-			June: 191.7402725, 
-			July: 313.8503397222 
+			January: 106.2953637143, 
+			February: 72.06, 
+			March: 160.6685388889, 
+			April: 89.41, 
+			May: 108.52, 
+			June: 206.06, 
+			July: 222.42, 
+			Aug: 192.11 
 		}
 	}
 }); 
@@ -4188,13 +4362,14 @@ WeatherOutlook.insert({
 	municipality: "Panglao", 
 	data: {
 		month: {
-			January: 106.2953637143, 
-			February: 72.06, 
-			March: 160.6685388889, 
-			April: 101.0432588889, 
-			May: 89.0320280556, 
-			June: 137.5306547222, 
-			July: 374.9778202778 
+			January: 228.8531937143, 
+			February: 154.99, 
+			March: 183.2118540741, 
+			April: 93.54, 
+			May: 90.58, 
+			June: 213.33, 
+			July: 168.11, 
+			Aug: 131.03 
 		}
 	}
 }); 
@@ -4205,13 +4380,14 @@ WeatherOutlook.insert({
 	municipality: "Pilar", 
 	data: {
 		month: {
-			January: 228.8531937143, 
-			February: 154.99, 
-			March: 183.2118540741, 
-			April: 90.1149775926, 
-			May: 104.0453825926, 
-			June: 195.1328409259, 
-			July: 203.1769033333 
+			January: 265.4950252857, 
+			February: 164.56, 
+			March: 198.1301005635, 
+			April: 82.22, 
+			May: 105.34, 
+			June: 203.6, 
+			July: 250.44, 
+			Aug: 210.56 
 		}
 	}
 }); 
@@ -4222,13 +4398,14 @@ WeatherOutlook.insert({
 	municipality: "Pres. Carlos P. Garcia", 
 	data: {
 		month: {
-			January: 265.4950252857, 
-			February: 164.56, 
-			March: 198.1301005635, 
-			April: 113.0640298889, 
-			May: 99.9522222262, 
-			June: 187.2789612222, 
-			July: 366.4455737421 
+			January: 184.9150331429, 
+			February: 122.6, 
+			March: 172.424516875, 
+			April: 104.89, 
+			May: 102.32, 
+			June: 139.03, 
+			July: 215.16, 
+			Aug: 212.99 
 		}
 	}
 }); 
@@ -4239,13 +4416,14 @@ WeatherOutlook.insert({
 	municipality: "Sagbayan", 
 	data: {
 		month: {
-			January: 184.9150331429, 
-			February: 122.6, 
-			March: 172.424516875, 
-			April: 86.3770664583, 
-			May: 113.0612494444, 
-			June: 204.8026369444, 
-			July: 235.1066405556 
+			January: 160.7799308571, 
+			February: 98.32, 
+			March: 164.7786981944, 
+			April: 78.69, 
+			May: 115.64, 
+			June: 211.25, 
+			July: 240.48, 
+			Aug: 203.05 
 		}
 	}
 }); 
@@ -4256,13 +4434,14 @@ WeatherOutlook.insert({
 	municipality: "San Isidro", 
 	data: {
 		month: {
-			January: 160.7799308571, 
-			February: 98.32, 
-			March: 164.7786981944, 
-			April: 87.3893159722, 
-			May: 119.8305151389, 
-			June: 194.6245155556, 
-			July: 260.9665522222 
+			January: 227.6619526429, 
+			February: 154.95, 
+			March: 183.3197208333, 
+			April: 87.59, 
+			May: 118.27, 
+			June: 215.7, 
+			July: 231.35, 
+			Aug: 191.84 
 		}
 	}
 }); 
@@ -4273,13 +4452,14 @@ WeatherOutlook.insert({
 	municipality: "San Miguel", 
 	data: {
 		month: {
-			January: 227.6619526429, 
-			February: 154.95, 
-			March: 183.3197208333, 
-			April: 97.3109960417, 
-			May: 102.0974603472, 
-			June: 194.0927311806, 
-			July: 264.4149777083 
+			January: 169.9427081429, 
+			February: 86.44, 
+			March: 164.0280584722, 
+			April: 88.98, 
+			May: 102.04, 
+			June: 199.79, 
+			July: 234.31, 
+			Aug: 197.97 
 		}
 	}
 }); 
@@ -4290,13 +4470,14 @@ WeatherOutlook.insert({
 	municipality: "Sevilla", 
 	data: {
 		month: {
-			January: 169.9427081429, 
-			February: 86.44, 
-			March: 164.0280584722, 
-			April: 79.9366723611, 
-			May: 105.3652531944, 
-			June: 173.036775, 
-			July: 319.9661040278 
+			January: 215.2353590476, 
+			February: 150.42, 
+			March: 187.5012861111, 
+			April: 72.46, 
+			May: 106.22, 
+			June: 198.57, 
+			July: 226.68, 
+			Aug: 188.9 
 		}
 	}
 }); 
@@ -4307,13 +4488,14 @@ WeatherOutlook.insert({
 	municipality: "Sierra Bullones", 
 	data: {
 		month: {
-			January: 215.2353590476, 
-			February: 150.42, 
-			March: 187.5012861111, 
-			April: 91.2914801852, 
-			May: 111.1508078704, 
-			June: 209.2395536111, 
-			July: 294.7668587037 
+			January: 132.4159474286, 
+			February: 80.29, 
+			March: 162.4788152778, 
+			April: 84.52, 
+			May: 112.51, 
+			June: 220.46, 
+			July: 264.05, 
+			Aug: 219.17 
 		}
 	}
 }); 
@@ -4324,13 +4506,14 @@ WeatherOutlook.insert({
 	municipality: "Sikatuna", 
 	data: {
 		month: {
-			January: 132.4159474286, 
-			February: 80.29, 
-			March: 162.4788152778, 
-			April: 87.8920175, 
-			May: 103.6925058333, 
-			June: 163.186325, 
-			July: 299.7727075 
+			January: 116.581772, 
+			February: 76.09, 
+			March: 160.8905877778, 
+			April: 80.39, 
+			May: 105.24, 
+			June: 187.75, 
+			July: 217.32, 
+			Aug: 180.24 
 		}
 	}
 }); 
@@ -4341,13 +4524,14 @@ WeatherOutlook.insert({
 	municipality: "Tagbilaran City", 
 	data: {
 		month: {
-			January: 116.581772, 
-			February: 76.09, 
-			March: 160.8905877778, 
-			April: 99.095273623, 
-			May: 98.4492856825, 
-			June: 146.8236113651, 
-			July: 356.7839843056 
+			January: 204.7928612, 
+			February: 135.17, 
+			March: 181.4738827778, 
+			April: 91.2, 
+			May: 102.57, 
+			June: 221.78, 
+			July: 204.03, 
+			Aug: 160.04 
 		}
 	}
 }); 
@@ -4358,13 +4542,14 @@ WeatherOutlook.insert({
 	municipality: "Talibon", 
 	data: {
 		month: {
-			January: 204.7928612, 
-			February: 135.17, 
-			March: 181.4738827778, 
-			April: 86.2256297222, 
-			May: 99.4129204444, 
-			June: 206.3509121667, 
-			July: 253.3311035 
+			January: 212.0392174286, 
+			February: 137.81, 
+			March: 181.9828814583, 
+			April: 86.52, 
+			May: 104.41, 
+			June: 199.04, 
+			July: 227.04, 
+			Aug: 199.26 
 		}
 	}
 }); 
@@ -4375,13 +4560,14 @@ WeatherOutlook.insert({
 	municipality: "Trinidad", 
 	data: {
 		month: {
-			January: 212.0392174286, 
-			February: 137.81, 
-			March: 181.9828814583, 
-			April: 98.7048829861, 
-			May: 99.5890463889, 
-			June: 191.6142129167, 
-			July: 389.9725285417 
+			January: 149.076304, 
+			February: 101.02, 
+			March: 168.3018991667, 
+			April: 89.78, 
+			May: 105.97, 
+			June: 193.51, 
+			July: 242.44, 
+			Aug: 203.53 
 		}
 	}
 }); 
@@ -4392,13 +4578,14 @@ WeatherOutlook.insert({
 	municipality: "Tubigon", 
 	data: {
 		month: {
-			January: 149.076304, 
-			February: 101.02, 
-			March: 168.3018991667, 
-			April: 74.9375654167, 
-			May: 112.9547384722, 
-			June: 204.5095043056, 
-			July: 290.2498954167 
+			January: 245.4657828214, 
+			February: 152.93, 
+			March: 183.3546298958, 
+			April: 82.09, 
+			May: 114.5, 
+			June: 209.56, 
+			July: 224.23, 
+			Aug: 207.56 
 		}
 	}
 }); 
@@ -4409,13 +4596,14 @@ WeatherOutlook.insert({
 	municipality: "Ubay", 
 	data: {
 		month: {
-			January: 245.4657828214, 
-			February: 152.93, 
-			March: 183.3546298958, 
-			April: 104.60931625, 
-			May: 98.3556783333, 
-			June: 182.0324514583, 
-			July: 293.1179409028 
+			January: 192.2623288571, 
+			February: 110.63, 
+			March: 176.6548987778, 
+			April: 95.98, 
+			May: 103.36, 
+			June: 183.98, 
+			July: 220.98, 
+			Aug: 213.12 
 		}
 	}
 }); 
@@ -4426,13 +4614,14 @@ WeatherOutlook.insert({
 	municipality: "Valencia", 
 	data: {
 		month: {
-			January: 192.2623288571, 
-			February: 110.63, 
-			March: 176.6548987778, 
-			April: 78.1649006111, 
-			May: 111.4649754444, 
-			June: 192.1986472222, 
-			July: 318.5835692778 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 70.19, 
+			May: 110.42, 
+			June: 194.78, 
+			July: 226.88, 
+			Aug: 205.59 
 		}
 	}
 }); 
@@ -4446,10 +4635,11 @@ WeatherOutlook.insert({
 			January: 195.2055875752, 
 			February: 181.1, 
 			March: 244.3650005537, 
-			April: 175.9163986102, 
-			May: 251.5046436611, 
-			June: 367.6475705019, 
-			July: 294.5470570667 
+			April: 158.89, 
+			May: 239.99, 
+			June: 378.21, 
+			July: 367.91, 
+			Aug: 323.35 
 		}
 	}
 }); 
@@ -4463,10 +4653,11 @@ WeatherOutlook.insert({
 			January: 136.5165372619, 
 			February: 136.45, 
 			March: 200.2105208102, 
-			April: 138.9188778704, 
-			May: 233.6875415741, 
-			June: 385.1363857407, 
-			July: 319.238085162 
+			April: 156.92, 
+			May: 214.68, 
+			June: 365.2, 
+			July: 383.3, 
+			Aug: 322.65 
 		}
 	}
 }); 
@@ -4480,10 +4671,11 @@ WeatherOutlook.insert({
 			January: 267.5696818571, 
 			February: 224.17, 
 			March: 280.1180940972, 
-			April: 196.5807139583, 
-			May: 259.4285104167, 
-			June: 361.2032507986, 
-			July: 296.8702763601 
+			April: 130.22, 
+			May: 252.73, 
+			June: 371.78, 
+			July: 355.47, 
+			Aug: 296.6 
 		}
 	}
 }); 
@@ -4497,10 +4689,11 @@ WeatherOutlook.insert({
 			January: 179.8863952857, 
 			February: 163.88, 
 			March: 238.492795787, 
-			April: 201.1092456481, 
-			May: 274.0327390278, 
-			June: 317.3136018519, 
-			July: 208.8975497222 
+			April: 183.45, 
+			May: 229.79, 
+			June: 331.39, 
+			July: 340.96, 
+			Aug: 290.83 
 		}
 	}
 }); 
@@ -4514,10 +4707,11 @@ WeatherOutlook.insert({
 			January: 191.3189102857, 
 			February: 175.99, 
 			March: 250.5587130556, 
-			April: 202.8045975, 
-			May: 262.4018197222, 
-			June: 325.5050283333, 
-			July: 189.8811997222 
+			April: 153.9, 
+			May: 238.73, 
+			June: 346.49, 
+			July: 366.28, 
+			Aug: 297.63 
 		}
 	}
 }); 
@@ -4531,10 +4725,11 @@ WeatherOutlook.insert({
 			January: 181.2828813333, 
 			February: 172.9, 
 			March: 232.8024839352, 
-			April: 203.8046262037, 
-			May: 261.3531605556, 
-			June: 353.1038625463, 
-			July: 186.4279991667 
+			April: 121.84, 
+			May: 258.56, 
+			June: 366.72, 
+			July: 379.78, 
+			Aug: 319.57 
 		}
 	}
 }); 
@@ -4548,10 +4743,11 @@ WeatherOutlook.insert({
 			January: 261.9682099048, 
 			February: 213.61, 
 			March: 269.6870737315, 
-			April: 165.6229428056, 
-			May: 227.6974356852, 
-			June: 356.5715601389, 
-			July: 267.7313092984 
+			April: 179.36, 
+			May: 239.75, 
+			June: 376.77, 
+			July: 355.46, 
+			Aug: 340.38 
 		}
 	}
 }); 
@@ -4565,10 +4761,11 @@ WeatherOutlook.insert({
 			January: 175.6959571905, 
 			February: 171.57, 
 			March: 241.9452297685, 
-			April: 208.3277096296, 
-			May: 276.0879421296, 
-			June: 344.7856530093, 
-			July: 211.3418214352 
+			April: 134.42, 
+			May: 260.27, 
+			June: 360.65, 
+			July: 356.26, 
+			Aug: 288.49 
 		}
 	}
 }); 
@@ -4582,10 +4779,11 @@ WeatherOutlook.insert({
 			January: 162.8420406984, 
 			February: 168.27, 
 			March: 240.2173434259, 
-			April: 199.6575744753, 
-			May: 279.0693855556, 
-			June: 374.9181882716, 
-			July: 265.0007435362 
+			April: 139.54, 
+			May: 250.87, 
+			June: 389.68, 
+			July: 387.45, 
+			Aug: 330.89 
 		}
 	}
 }); 
@@ -4599,10 +4797,11 @@ WeatherOutlook.insert({
 			January: 188.0277683714, 
 			February: 177.99, 
 			March: 250.1167228611, 
-			April: 205.6676543333, 
-			May: 277.0118941667, 
-			June: 334.0575933333, 
-			July: 232.6713575556 
+			April: 156.52, 
+			May: 274.56, 
+			June: 349.76, 
+			July: 371.36, 
+			Aug: 269.75 
 		}
 	}
 }); 
@@ -4616,10 +4815,11 @@ WeatherOutlook.insert({
 			January: 195.2705651905, 
 			February: 184.87, 
 			March: 250.937601713, 
-			April: 204.2049804167, 
-			May: 266.5494789352, 
-			June: 335.2082345833, 
-			July: 182.6697686574 
+			April: 157.84, 
+			May: 255.89, 
+			June: 347.56, 
+			July: 350.66, 
+			Aug: 305.94 
 		}
 	}
 }); 
@@ -4633,10 +4833,11 @@ WeatherOutlook.insert({
 			January: 151.6704234286, 
 			February: 165.5, 
 			March: 226.7435491049, 
-			April: 150.4487544753, 
-			May: 258.6386698148, 
-			June: 388.6455405864, 
-			July: 295.5513018175 
+			April: 147.84, 
+			May: 251.25, 
+			June: 400.17, 
+			July: 379.48, 
+			Aug: 328.7 
 		}
 	}
 }); 
@@ -4650,10 +4851,11 @@ WeatherOutlook.insert({
 			January: 120.07629625, 
 			February: 118.06, 
 			March: 185.6135949653, 
-			April: 128.5933281597, 
-			May: 210.7317944444, 
-			June: 393.5124083333, 
-			July: 221.4506510724 
+			April: 163.95, 
+			May: 218.87, 
+			June: 405.15, 
+			July: 355.59, 
+			Aug: 278.11 
 		}
 	}
 }); 
@@ -4667,10 +4869,11 @@ WeatherOutlook.insert({
 			January: 219.5315411203, 
 			February: 195.72, 
 			March: 251.4478284942, 
-			April: 167.6901188377, 
-			May: 255.8423271272, 
-			June: 368.2238964839, 
-			July: 380.2579988881 
+			April: 168.54, 
+			May: 236.33, 
+			June: 380.4, 
+			July: 367.77, 
+			Aug: 329.48 
 		}
 	}
 }); 
@@ -4684,10 +4887,11 @@ WeatherOutlook.insert({
 			January: 231.1030490549, 
 			February: 194.29, 
 			March: 255.5601046154, 
-			April: 140.4213285684, 
-			May: 183.4994477564, 
-			June: 341.8686537179, 
-			July: 399.1655566477 
+			April: 173.74, 
+			May: 260.64, 
+			June: 350.4, 
+			July: 353.22, 
+			Aug: 345.89 
 		}
 	}
 }); 
@@ -4701,10 +4905,11 @@ WeatherOutlook.insert({
 			January: 159.4659955238, 
 			February: 132.66, 
 			March: 205.8671567593, 
-			April: 123.6886183796, 
-			May: 215.5243400926, 
-			June: 387.4393229861, 
-			July: 225.9379671991 
+			April: 178.98, 
+			May: 220.33, 
+			June: 400.39, 
+			July: 380.11, 
+			Aug: 314.03 
 		}
 	}
 }); 
@@ -4718,10 +4923,11 @@ WeatherOutlook.insert({
 			January: 182.7303386571, 
 			February: 174.62, 
 			March: 235.7713310556, 
-			April: 190.7580226111, 
-			May: 261.41787075, 
-			June: 365.7241387222, 
-			July: 296.7673017667 
+			April: 171.48, 
+			May: 243.96, 
+			June: 381.37, 
+			July: 355.96, 
+			Aug: 332.2 
 		}
 	}
 }); 
@@ -4735,10 +4941,11 @@ WeatherOutlook.insert({
 			January: 162.7833514694, 
 			February: 172.78, 
 			March: 244.3621443056, 
-			April: 199.3354318056, 
-			May: 282.1576640278, 
-			June: 380.9166902579, 
-			July: 273.623632996 
+			April: 142.92, 
+			May: 257.82, 
+			June: 385.38, 
+			July: 377.79, 
+			Aug: 290.41 
 		}
 	}
 }); 
@@ -4752,10 +4959,11 @@ WeatherOutlook.insert({
 			January: 207.6969676, 
 			February: 198.44, 
 			March: 258.3885309722, 
-			April: 198.2056849583, 
-			May: 257.4356910833, 
-			June: 356.754686125, 
-			July: 256.1887077639 
+			April: 154.09, 
+			May: 241.07, 
+			June: 368.63, 
+			July: 354.8, 
+			Aug: 333.63 
 		}
 	}
 }); 
@@ -4769,10 +4977,11 @@ WeatherOutlook.insert({
 			January: 249.351006812, 
 			February: 229.02, 
 			March: 289.9917553509, 
-			April: 211.6252216959, 
-			May: 259.4112819298, 
-			June: 368.2843609064, 
-			July: 293.5938134453 
+			April: 153.56, 
+			May: 252.52, 
+			June: 380.72, 
+			July: 331.47, 
+			Aug: 385.16 
 		}
 	}
 }); 
@@ -4786,10 +4995,11 @@ WeatherOutlook.insert({
 			January: 155.1964655918, 
 			February: 155.84, 
 			March: 221.7101334127, 
-			April: 141.7875865476, 
-			May: 250.622929881, 
-			June: 384.4593485317, 
-			July: 297.9637893651 
+			April: 155.47, 
+			May: 227.96, 
+			June: 387.21, 
+			July: 366.09, 
+			Aug: 364.29 
 		}
 	}
 }); 
@@ -4803,10 +5013,11 @@ WeatherOutlook.insert({
 			January: 151.556751235, 
 			February: 154.54, 
 			March: 225.0098649552, 
-			April: 176.616056147, 
-			May: 262.5410711201, 
-			June: 387.5142601434, 
-			July: 350.9899633513 
+			April: 160.21, 
+			May: 230.08, 
+			June: 398.34, 
+			July: 374.08, 
+			Aug: 361.4 
 		}
 	}
 }); 
@@ -4820,10 +5031,11 @@ WeatherOutlook.insert({
 			January: 185.0238662286, 
 			February: 180.15, 
 			March: 240.7874710778, 
-			April: 175.5939887111, 
-			May: 259.4425071, 
-			June: 375.3735294333, 
-			July: 289.6023880778 
+			April: 157.75, 
+			May: 237.74, 
+			June: 388.89, 
+			July: 394.37, 
+			Aug: 376.6 
 		}
 	}
 }); 
@@ -4837,10 +5049,11 @@ WeatherOutlook.insert({
 			January: 49.1283835563, 
 			February: 29.27, 
 			March: 41.2335124444, 
-			April: 53.0172445882, 
-			May: 209.2324326373, 
-			June: 295.0182387484, 
-			July: 319.4051941767 
+			April: 45.85, 
+			May: 196.1, 
+			June: 301.67, 
+			July: 523.36, 
+			Aug: 556.08 
 		}
 	}
 }); 
@@ -4854,10 +5067,29 @@ WeatherOutlook.insert({
 			January: 37.2628611429, 
 			February: 18.57, 
 			March: 28.6314797222, 
-			April: 47.3897520833, 
-			May: 223.9245633333, 
-			June: 364.1657369444, 
-			July: 204.1683004167 
+			April: 50.13, 
+			May: 195.67, 
+			June: 353.97, 
+			July: 579.5, 
+			Aug: 553.69 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "Bulacan", 
+	municipality: "Balagtas", 
+	data: {
+		month: {
+			January: 28.7710677143, 
+			February: 14.01, 
+			March: 20.8125975, 
+			April: 32.35, 
+			May: 221.5, 
+			June: 315.14, 
+			July: 541.91, 
+			Aug: 561.3 
 		}
 	}
 }); 
@@ -4868,13 +5100,14 @@ WeatherOutlook.insert({
 	municipality: "Baliuag", 
 	data: {
 		month: {
-			January: 28.7710677143, 
-			February: 14.01, 
-			March: 20.8125975, 
-			April: 40.2007277778, 
-			May: 201.70317, 
-			June: 321.1324922222, 
-			July: 233.5153255556 
+			January: 20.758072, 
+			February: 13.79, 
+			March: 17.1263452778, 
+			April: 40.27, 
+			May: 210.67, 
+			June: 304.51, 
+			July: 520.75, 
+			Aug: 532.94 
 		}
 	}
 }); 
@@ -4885,13 +5118,14 @@ WeatherOutlook.insert({
 	municipality: "Bocaue", 
 	data: {
 		month: {
-			January: 20.758072, 
-			February: 13.79, 
-			March: 17.1263452778, 
-			April: 29.6167911111, 
-			May: 199.7105895833, 
-			June: 322.7194965278, 
-			July: 275.1427223611 
+			January: 13.9409598571, 
+			February: 12.34, 
+			March: 10.3306847222, 
+			April: 29.62, 
+			May: 190.86, 
+			June: 306.22, 
+			July: 537.83, 
+			Aug: 550.76 
 		}
 	}
 }); 
@@ -4902,13 +5136,14 @@ WeatherOutlook.insert({
 	municipality: "Bulacan", 
 	data: {
 		month: {
-			January: 13.9409598571, 
-			February: 12.34, 
-			March: 10.3306847222, 
-			April: 24.0882213889, 
-			May: 194.2766468056, 
-			June: 307.6868883333, 
-			July: 234.2239051389 
+			January: 31.8297905714, 
+			February: 15.88, 
+			March: 23.6432463889, 
+			April: 24.45, 
+			May: 206.45, 
+			June: 291.37, 
+			July: 527.81, 
+			Aug: 661.3 
 		}
 	}
 }); 
@@ -4919,13 +5154,14 @@ WeatherOutlook.insert({
 	municipality: "Bustos", 
 	data: {
 		month: {
-			January: 31.8297905714, 
-			February: 15.88, 
-			March: 23.6432463889, 
-			April: 41.4009325, 
-			May: 205.9433783333, 
-			June: 339.7917936111, 
-			July: 249.5955708333 
+			January: 19.3213914286, 
+			February: 5.77, 
+			March: 10.678815, 
+			April: 41.4, 
+			May: 206.52, 
+			June: 323.36, 
+			July: 535.74, 
+			Aug: 545.46 
 		}
 	}
 }); 
@@ -4936,13 +5172,32 @@ WeatherOutlook.insert({
 	municipality: "Calumpit", 
 	data: {
 		month: {
-			January: 19.3213914286, 
-			February: 5.77, 
-			March: 10.678815, 
-			April: 28.5305822222, 
-			May: 196.9165891667, 
-			June: 307.8194636111, 
-			July: 242.9888213889 
+			January: 73.4784272166, 
+			February: 45.03, 
+			March: 63.492822276, 
+			April: 28.53, 
+			May: 219.26, 
+			June: 291.32, 
+			July: 539.62, 
+			Aug: 519.67 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "Bulacan", 
+	municipality: "Doï?½a Remedios Trinidad", 
+	data: {
+		month: {
+			January: 19.2013382857, 
+			February: 10.01, 
+			March: 16.5513191667, 
+			April: 65.17, 
+			May: 210.9, 
+			June: 273.17, 
+			July: 483.19, 
+			Aug: 567.46 
 		}
 	}
 }); 
@@ -4953,13 +5208,14 @@ WeatherOutlook.insert({
 	municipality: "Doña Remedios Trinidad", 
 	data: {
 		month: {
-			January: 73.4784272166, 
-			February: 45.03, 
-			March: 63.492822276, 
-			April: 71.5174518459, 
-			May: 215.1525894176, 
-			June: 269.9201489964, 
-			July: 355.349119264 
+			January: 9.672122381, 
+			February: 7.68, 
+			March: 5.2891025926, 
+			April: 67.76, 
+			May: 219.99, 
+			June: 269.94, 
+			July: 492.22, 
+			Aug: 621.19 
 		}
 	}
 }); 
@@ -4970,13 +5226,14 @@ WeatherOutlook.insert({
 	municipality: "Guiguinto", 
 	data: {
 		month: {
-			January: 19.2013382857, 
-			February: 10.01, 
-			March: 16.5513191667, 
-			April: 31.7383641667, 
-			May: 201.9416469444, 
-			June: 318.2110047222, 
-			July: 283.2167438889 
+			January: 19.5984751429, 
+			February: 7.08, 
+			March: 13.6395748611, 
+			April: 31.74, 
+			May: 190.69, 
+			June: 301.71, 
+			July: 531.33, 
+			Aug: 660.19 
 		}
 	}
 }); 
@@ -4987,13 +5244,14 @@ WeatherOutlook.insert({
 	municipality: "Hagonoy", 
 	data: {
 		month: {
-			January: 9.672122381, 
-			February: 7.68, 
-			March: 5.2891025926, 
-			April: 21.7964100926, 
-			May: 188.9238997222, 
-			June: 305.1398992593, 
-			July: 232.9050544101 
+			January: 34.7249832857, 
+			February: 23.43, 
+			March: 26.67787, 
+			April: 25.45, 
+			May: 195.58, 
+			June: 298.99, 
+			July: 532.06, 
+			Aug: 661.3 
 		}
 	}
 }); 
@@ -5004,13 +5262,14 @@ WeatherOutlook.insert({
 	municipality: "Malolos City", 
 	data: {
 		month: {
-			January: 19.5984751429, 
-			February: 7.08, 
-			March: 13.6395748611, 
-			April: 28.6184425, 
-			May: 197.3316077778, 
-			June: 313.8474629167, 
-			July: 255.1633602778 
+			January: 28.4513802857, 
+			February: 17.68, 
+			March: 20.4348063889, 
+			April: 28.08, 
+			May: 184.3, 
+			June: 296.86, 
+			July: 527.34, 
+			Aug: 549.58 
 		}
 	}
 }); 
@@ -5021,13 +5280,14 @@ WeatherOutlook.insert({
 	municipality: "Marilao", 
 	data: {
 		month: {
-			January: 34.7249832857, 
-			February: 23.43, 
-			March: 26.67787, 
-			April: 34.0626698611, 
-			May: 204.0748694444, 
-			June: 319.1617493056, 
-			July: 247.0772343056 
+			January: 65.3218027143, 
+			February: 36.32, 
+			March: 55.3394799074, 
+			April: 30.13, 
+			May: 176.93, 
+			June: 299.9, 
+			July: 528.41, 
+			Aug: 555.61 
 		}
 	}
 }); 
@@ -5038,13 +5298,14 @@ WeatherOutlook.insert({
 	municipality: "Meycauayan City", 
 	data: {
 		month: {
-			January: 28.4513802857, 
-			February: 17.68, 
-			March: 20.4348063889, 
-			April: 24.3459463889, 
-			May: 178.3368822222, 
-			June: 306.6034441667, 
-			July: 214.9417186111 
+			January: 32.6721381429, 
+			February: 14.22, 
+			March: 22.0344611111, 
+			April: 22.59, 
+			May: 184.5, 
+			June: 292.97, 
+			July: 515.71, 
+			Aug: 580.94 
 		}
 	}
 }); 
@@ -5055,13 +5316,32 @@ WeatherOutlook.insert({
 	municipality: "Norzagaray", 
 	data: {
 		month: {
-			January: 65.3218027143, 
-			February: 36.32, 
-			March: 55.3394799074, 
-			April: 70.3906230093, 
-			May: 223.4904971296, 
-			June: 306.9429604167, 
-			July: 265.8614729167 
+			January: 9.9493661429, 
+			February: 6.36, 
+			March: 5.4327543056, 
+			April: 60.66, 
+			May: 168.57, 
+			June: 336.72, 
+			July: 565.99, 
+			Aug: 566.41 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "Bulacan", 
+	municipality: "Obando", 
+	data: {
+		month: {
+			January: 27.6809688571, 
+			February: 12.55, 
+			March: 18.8709255556, 
+			April: 21.39, 
+			May: 183.46, 
+			June: 294.64, 
+			July: 521.69, 
+			Aug: 517.57 
 		}
 	}
 }); 
@@ -5072,13 +5352,14 @@ WeatherOutlook.insert({
 	municipality: "Pandi", 
 	data: {
 		month: {
-			January: 32.6721381429, 
-			February: 14.22, 
-			March: 22.0344611111, 
-			April: 39.8985266667, 
-			May: 214.7694216667, 
-			June: 358.2174023611, 
-			July: 268.0427818056 
+			January: 24.2676214286, 
+			February: 9.2, 
+			March: 17.4192166667, 
+			April: 40.68, 
+			May: 199.09, 
+			June: 346.31, 
+			July: 560.84, 
+			Aug: 607.07 
 		}
 	}
 }); 
@@ -5089,13 +5370,14 @@ WeatherOutlook.insert({
 	municipality: "Paombong", 
 	data: {
 		month: {
-			January: 9.9493661429, 
-			February: 6.36, 
-			March: 5.4327543056, 
-			April: 24.2671079167, 
-			May: 187.7323927778, 
-			June: 311.2268936111, 
-			July: 251.7036647222 
+			January: 39.7869220952, 
+			February: 28.42, 
+			March: 36.086857963, 
+			April: 25.36, 
+			May: 207.7, 
+			June: 298.89, 
+			July: 531.87, 
+			Aug: 548.03 
 		}
 	}
 }); 
@@ -5106,13 +5388,14 @@ WeatherOutlook.insert({
 	municipality: "Plaridel", 
 	data: {
 		month: {
-			January: 27.6809688571, 
-			February: 12.55, 
-			March: 18.8709255556, 
-			April: 38.1204597222, 
-			May: 199.9392544444, 
-			June: 326.2807297222, 
-			July: 256.5473669444 
+			January: 46.5464207619, 
+			February: 24.11, 
+			March: 39.6361464815, 
+			April: 38.12, 
+			May: 217.99, 
+			June: 309.78, 
+			July: 531.34, 
+			Aug: 518.87 
 		}
 	}
 }); 
@@ -5123,13 +5406,14 @@ WeatherOutlook.insert({
 	municipality: "Pulilan", 
 	data: {
 		month: {
-			January: 24.2676214286, 
-			February: 9.2, 
-			March: 17.4192166667, 
-			April: 32.7761838889, 
-			May: 197.9182377778, 
-			June: 309.1819475, 
-			July: 234.3350997222 
+			January: 44.2834673651, 
+			February: 23.83, 
+			March: 34.0000971296, 
+			April: 34.66, 
+			May: 204.7, 
+			June: 298.47, 
+			July: 529.16, 
+			Aug: 514.25 
 		}
 	}
 }); 
@@ -5140,13 +5424,14 @@ WeatherOutlook.insert({
 	municipality: "San Ildefonso", 
 	data: {
 		month: {
-			January: 39.7869220952, 
-			February: 28.42, 
-			March: 36.086857963, 
-			April: 47.1967847222, 
-			May: 205.3409873611, 
-			June: 286.5051118981, 
-			July: 399.0156139815 
+			January: 24.645186381, 
+			February: 21.81, 
+			March: 28.3617374074, 
+			April: 54.16, 
+			May: 198.5, 
+			June: 273.9, 
+			July: 495.09, 
+			Aug: 558.23 
 		}
 	}
 }); 
@@ -5157,13 +5442,14 @@ WeatherOutlook.insert({
 	municipality: "San Jose del Monte City", 
 	data: {
 		month: {
-			January: 46.5464207619, 
-			February: 24.11, 
-			March: 39.6361464815, 
-			April: 51.8619412963, 
-			May: 214.8438267593, 
-			June: 328.8340016667, 
-			July: 240.8035724074 
+			January: 36.3164482857, 
+			February: 17.1, 
+			March: 28.6646465741, 
+			April: 50.93, 
+			May: 195.67, 
+			June: 313.25, 
+			July: 548.26, 
+			Aug: 520.57 
 		}
 	}
 }); 
@@ -5174,13 +5460,14 @@ WeatherOutlook.insert({
 	municipality: "San Miguel", 
 	data: {
 		month: {
-			January: 44.2834673651, 
-			February: 23.83, 
-			March: 34.0000971296, 
-			April: 43.9251629321, 
-			May: 199.6380340123, 
-			June: 259.2681008333, 
-			July: 389.9420208201 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 51.25, 
+			May: 198.65, 
+			June: 240.73, 
+			July: 435.77, 
+			Aug: 541.98 
 		}
 	}
 }); 
@@ -5191,30 +5478,14 @@ WeatherOutlook.insert({
 	municipality: "San Rafael", 
 	data: {
 		month: {
-			January: 24.645186381, 
-			February: 21.81, 
-			March: 28.3617374074, 
-			April: 47.6188755556, 
-			May: 208.3518038889, 
-			June: 325.5935223148, 
-			July: 449.2241951852 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region III: Central Luzon", 
-	province: "Bulacan", 
-	municipality: "Santa Maria", 
-	data: {
-		month: {
-			January: 36.3164482857, 
-			February: 17.1, 
-			March: 28.6646465741, 
-			April: 43.9153231481, 
-			May: 227.5324521296, 
-			June: 371.0499760185, 
-			July: 226.6316826852 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 52, 
+			May: 176.57, 
+			June: 309.97, 
+			July: 531.48, 
+			Aug: 561.69 
 		}
 	}
 }); 
@@ -5228,10 +5499,11 @@ WeatherOutlook.insert({
 			January: 81.4580346232, 
 			February: 42.25, 
 			March: 54.190239799, 
-			April: 44.034924067, 
-			May: 130.9145322708, 
-			June: 142.2639375459, 
-			July: 369.4897980647 
+			April: 39.08, 
+			May: 110.95, 
+			June: 139.76, 
+			July: 190.41, 
+			Aug: 228.18 
 		}
 	}
 }); 
@@ -5245,10 +5517,11 @@ WeatherOutlook.insert({
 			January: 84.5039777143, 
 			February: 43.96, 
 			March: 66.8203079861, 
-			April: 45.4001999306, 
-			May: 111.2141804167, 
-			June: 143.9202426389, 
-			July: 425.3340782639 
+			April: 35.05, 
+			May: 108.43, 
+			June: 136.49, 
+			July: 194.68, 
+			Aug: 209.98 
 		}
 	}
 }); 
@@ -5262,10 +5535,11 @@ WeatherOutlook.insert({
 			January: 56.8011073878, 
 			February: 24.88, 
 			March: 32.5788525, 
-			April: 38.3794733333, 
-			May: 106.8581365873, 
-			June: 160.0743933333, 
-			July: 388.547494881 
+			April: 36.89, 
+			May: 109.01, 
+			June: 152.89, 
+			July: 178.23, 
+			Aug: 237.42 
 		}
 	}
 }); 
@@ -5279,10 +5553,11 @@ WeatherOutlook.insert({
 			January: 87.285126, 
 			February: 43.48, 
 			March: 48.8802086389, 
-			April: 40.5475115278, 
-			May: 111.6561335, 
-			June: 178.9664093889, 
-			July: 270.2126921286 
+			April: 31.91, 
+			May: 101.7, 
+			June: 155.03, 
+			July: 176.71, 
+			Aug: 234.04 
 		}
 	}
 }); 
@@ -5296,10 +5571,11 @@ WeatherOutlook.insert({
 			January: 68.6354820952, 
 			February: 31.95, 
 			March: 42.2873967284, 
-			April: 36.0438615123, 
-			May: 128.9044733642, 
-			June: 162.6263039815, 
-			July: 327.1467914815 
+			April: 35.16, 
+			May: 121.55, 
+			June: 153.86, 
+			July: 202.61, 
+			Aug: 237.23 
 		}
 	}
 }); 
@@ -5313,10 +5589,11 @@ WeatherOutlook.insert({
 			January: 102.1971757143, 
 			February: 55.35, 
 			March: 56.7743517758, 
-			April: 30.1607063988, 
-			May: 104.9764564851, 
-			June: 101.9566612758, 
-			July: 366.0187146528 
+			April: 20.08, 
+			May: 99.07, 
+			June: 128.76, 
+			July: 167.68, 
+			Aug: 205.56 
 		}
 	}
 }); 
@@ -5330,10 +5607,11 @@ WeatherOutlook.insert({
 			January: 96.5656042857, 
 			February: 53.49, 
 			March: 58.2111154603, 
-			April: 46.496621627, 
-			May: 129.9811454048, 
-			June: 135.5547115079, 
-			July: 304.355952119 
+			April: 41.3, 
+			May: 116.33, 
+			June: 140.51, 
+			July: 174.11, 
+			Aug: 231.73 
 		}
 	}
 }); 
@@ -5347,10 +5625,11 @@ WeatherOutlook.insert({
 			January: 110.4127424, 
 			February: 54.38, 
 			March: 55.4800384444, 
-			April: 35.1224770556, 
-			May: 109.8459771667, 
-			June: 134.5581016667, 
-			July: 439.4745985556 
+			April: 26.69, 
+			May: 99.09, 
+			June: 137.62, 
+			July: 183.78, 
+			Aug: 202.28 
 		}
 	}
 }); 
@@ -5364,27 +5643,11 @@ WeatherOutlook.insert({
 			January: 102.9957269286, 
 			February: 49.43, 
 			March: 47.4464175694, 
-			April: 31.2737895833, 
-			May: 92.3186436806, 
-			June: 142.3010405556, 
-			July: 256.11090875 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Cagayan", 
-	municipality: "Calayan", 
-	data: {
-		month: {
-			January: 96.1369866071, 
-			February: 75.88, 
-			March: 63.3170329211, 
-			April: 29.4673775317, 
-			May: 142.8479721939, 
-			June: 101.6093509638, 
-			July: 417.9038325174 
+			April: 30.33, 
+			May: 85.16, 
+			June: 141.25, 
+			July: 173.68, 
+			Aug: 216.39 
 		}
 	}
 }); 
@@ -5398,10 +5661,11 @@ WeatherOutlook.insert({
 			January: 129.5043307619, 
 			February: 62.67, 
 			March: 47.2919784259, 
-			April: 28.4023294444, 
-			May: 103.6928862037, 
-			June: 159.2794807407, 
-			July: 295.3809586111 
+			April: 22.12, 
+			May: 99.74, 
+			June: 130.53, 
+			July: 163.14, 
+			Aug: 228.62 
 		}
 	}
 }); 
@@ -5415,10 +5679,11 @@ WeatherOutlook.insert({
 			January: 44.6649289048, 
 			February: 29.82, 
 			March: 144.8710987963, 
-			April: 86.3424576852, 
-			May: 146.3008342593, 
-			June: 198.2267746759, 
-			July: 454.6362410648 
+			April: 79.26, 
+			May: 103.09, 
+			June: 136.32, 
+			July: 219.38, 
+			Aug: 232.35 
 		}
 	}
 }); 
@@ -5432,10 +5697,11 @@ WeatherOutlook.insert({
 			January: 52.0590263673, 
 			February: 21.65, 
 			March: 32.6187917063, 
-			April: 29.2484654365, 
-			May: 130.3615390079, 
-			June: 164.155856746, 
-			July: 720.0009604206 
+			April: 26.91, 
+			May: 118.5, 
+			June: 148.54, 
+			July: 224.05, 
+			Aug: 238.99 
 		}
 	}
 }); 
@@ -5449,10 +5715,11 @@ WeatherOutlook.insert({
 			January: 76.0015471429, 
 			February: 33.66, 
 			March: 42.7793357716, 
-			April: 42.1318531636, 
-			May: 102.4165720062, 
-			June: 151.1007727161, 
-			July: 323.9300196296 
+			April: 40.15, 
+			May: 91.29, 
+			June: 139.89, 
+			July: 181.6, 
+			Aug: 232.24 
 		}
 	}
 }); 
@@ -5466,10 +5733,11 @@ WeatherOutlook.insert({
 			January: 105.4486951964, 
 			February: 44.92, 
 			March: 57.0899471354, 
-			April: 44.5959203646, 
-			May: 120.6029398958, 
-			June: 97.6696142535, 
-			July: 270.0347042346 
+			April: 37.21, 
+			May: 93.21, 
+			June: 136.01, 
+			July: 212.13, 
+			Aug: 217.27 
 		}
 	}
 }); 
@@ -5483,10 +5751,11 @@ WeatherOutlook.insert({
 			January: 68.6165033333, 
 			February: 32.78, 
 			March: 43.2160432407, 
-			April: 33.123910463, 
-			May: 127.9484266667, 
-			June: 153.892190463, 
-			July: 294.4279477778 
+			April: 30.5, 
+			May: 120.01, 
+			June: 150.71, 
+			July: 158.92, 
+			Aug: 217.62 
 		}
 	}
 }); 
@@ -5500,10 +5769,11 @@ WeatherOutlook.insert({
 			January: 95.2460345714, 
 			February: 44.72, 
 			March: 51.3874620139, 
-			April: 42.4611824702, 
-			May: 122.0965026984, 
-			June: 146.1612490476, 
-			July: 308.9854762103 
+			April: 34.27, 
+			May: 95.41, 
+			June: 126.32, 
+			July: 185.64, 
+			Aug: 226.46 
 		}
 	}
 }); 
@@ -5517,10 +5787,11 @@ WeatherOutlook.insert({
 			January: 38.2747417143, 
 			February: 15.24, 
 			March: 28.1231148611, 
-			April: 48.1733475463, 
-			May: 90.5750596296, 
-			June: 176.5199696759, 
-			July: 342.3350564352 
+			April: 41, 
+			May: 74.26, 
+			June: 144.25, 
+			July: 171.76, 
+			Aug: 227.26 
 		}
 	}
 }); 
@@ -5534,10 +5805,29 @@ WeatherOutlook.insert({
 			January: 66.7588501224, 
 			February: 36.64, 
 			March: 83.0227153175, 
-			April: 54.6610240476, 
-			May: 124.9177224603, 
-			June: 144.9621740476, 
-			July: 479.2881923413 
+			April: 45.7, 
+			May: 97.42, 
+			June: 123.76, 
+			July: 208.46, 
+			Aug: 206.1 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
+	province: "Cagayan", 
+	municipality: "Peï?½ablanca", 
+	data: {
+		month: {
+			January: 88.8944883835, 
+			February: 54.01, 
+			March: 52.5728605702, 
+			April: 38.66, 
+			May: 138.38, 
+			June: 154.61, 
+			July: 179.35, 
+			Aug: 240.42 
 		}
 	}
 }); 
@@ -5548,13 +5838,14 @@ WeatherOutlook.insert({
 	municipality: "Peñablanca", 
 	data: {
 		month: {
-			January: 88.8944883835, 
-			February: 54.01, 
-			March: 52.5728605702, 
-			April: 51.2243571053, 
-			May: 158.3991508187, 
-			June: 132.6687683845, 
-			July: 466.6748323087 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 44.55, 
+			May: 157.47, 
+			June: 126.01, 
+			July: 192.7, 
+			Aug: 247.21 
 		}
 	}
 }); 
@@ -5568,10 +5859,11 @@ WeatherOutlook.insert({
 			January: 53.1241358571, 
 			February: 23.63, 
 			March: 38.9952565278, 
-			April: 38.4078477778, 
-			May: 159.8381271759, 
-			June: 179.9722917593, 
-			July: 316.4072810185 
+			April: 39.05, 
+			May: 188.04, 
+			June: 142.93, 
+			July: 210.43, 
+			Aug: 227.71 
 		}
 	}
 }); 
@@ -5585,10 +5877,11 @@ WeatherOutlook.insert({
 			January: 46.2392144762, 
 			February: 20.64, 
 			March: 41.5488723611, 
-			April: 51.8682164352, 
-			May: 197.5444947222, 
-			June: 193.3756075926, 
-			July: 269.0069663426 
+			April: 48.6, 
+			May: 104.89, 
+			June: 170.83, 
+			July: 194.17, 
+			Aug: 223.06 
 		}
 	}
 }); 
@@ -5602,10 +5895,11 @@ WeatherOutlook.insert({
 			January: 53.7221384082, 
 			February: 33.14, 
 			March: 111.6498260317, 
-			April: 69.6767023016, 
-			May: 140.5590155159, 
-			June: 163.6714238095, 
-			July: 432.624145119 
+			April: 59.91, 
+			May: 100.63, 
+			June: 131.48, 
+			July: 213.55, 
+			Aug: 217.78 
 		}
 	}
 }); 
@@ -5619,10 +5913,11 @@ WeatherOutlook.insert({
 			January: 112.4050932857, 
 			February: 46.48, 
 			March: 56.0920664484, 
-			April: 39.0019825198, 
-			May: 113.521494246, 
-			June: 62.8776119048, 
-			July: 405.2092370635 
+			April: 35.13, 
+			May: 118.08, 
+			June: 116.17, 
+			July: 209.73, 
+			Aug: 245.42 
 		}
 	}
 }); 
@@ -5636,10 +5931,11 @@ WeatherOutlook.insert({
 			January: 35.0046422857, 
 			February: 24.7, 
 			March: 118.850102037, 
-			April: 85.6387489815, 
-			May: 174.5040325, 
-			June: 214.0871902778, 
-			July: 478.5886324074 
+			April: 76.9, 
+			May: 86.97, 
+			June: 117.71, 
+			July: 221.95, 
+			Aug: 216.91 
 		}
 	}
 }); 
@@ -5653,10 +5949,29 @@ WeatherOutlook.insert({
 			January: 94.4410028571, 
 			February: 44.58, 
 			March: 49.4304609722, 
-			April: 34.99806625, 
-			May: 96.2943780556, 
-			June: 135.13054625, 
-			July: 210.3648259722 
+			April: 33.53, 
+			May: 117.68, 
+			June: 129.31, 
+			July: 144.54, 
+			Aug: 233.43 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region II: Cagayan Valley", 
+	province: "Cagayan", 
+	municipality: "Santo Niï?½o", 
+	data: {
+		month: {
+			January: 45.047116, 
+			February: 17.53, 
+			March: 34.050814127, 
+			April: 46.94, 
+			May: 125.39, 
+			June: 158.76, 
+			July: 194.04, 
+			Aug: 258.17 
 		}
 	}
 }); 
@@ -5667,13 +5982,14 @@ WeatherOutlook.insert({
 	municipality: "Santo Niño", 
 	data: {
 		month: {
-			January: 45.047116, 
-			February: 17.53, 
-			March: 34.050814127, 
-			April: 48.0533414683, 
-			May: 148.7067760119, 
-			June: 180.5757944246, 
-			July: 337.9687037897 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 40.13, 
+			May: 161.72, 
+			June: 164.45, 
+			July: 174.6, 
+			Aug: 274.74 
 		}
 	}
 }); 
@@ -5687,44 +6003,11 @@ WeatherOutlook.insert({
 			January: 54.0145044898, 
 			February: 23.73, 
 			March: 36.8654029762, 
-			April: 31.3944061905, 
-			May: 138.9182405159, 
-			June: 156.711140119, 
-			July: 341.5303163832 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Cagayan", 
-	municipality: "Tuao", 
-	data: {
-		month: {
-			January: 51.776803619, 
-			February: 22.15, 
-			March: 38.0218014815, 
-			April: 39.6622431944, 
-			May: 163.4234044444, 
-			June: 166.3286985185, 
-			July: 412.0214706944 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Cagayan", 
-	municipality: "Tuguegarao City", 
-	data: {
-		month: {
-			January: 55.2172162857, 
-			February: 22.91, 
-			March: 34.8829618519, 
-			April: 27.4087130556, 
-			May: 122.3729087037, 
-			June: 149.1509550926, 
-			July: 467.9878652778 
+			April: 28.94, 
+			May: 112.91, 
+			June: 111.59, 
+			July: 215.29, 
+			Aug: 218.85 
 		}
 	}
 }); 
@@ -5738,10 +6021,11 @@ WeatherOutlook.insert({
 			January: 245.321104631, 
 			February: 166.36, 
 			March: 197.4637736012, 
-			April: 108.1166930941, 
-			May: 156.4996292812, 
-			June: 210.5898619968, 
-			July: 254.9945488019 
+			April: 111.2, 
+			May: 150.58, 
+			June: 198.68, 
+			July: 327.49, 
+			Aug: 256.59 
 		}
 	}
 }); 
@@ -5755,10 +6039,11 @@ WeatherOutlook.insert({
 			January: 290.5120639643, 
 			February: 194.24, 
 			March: 224.4551619097, 
-			April: 125.9932453819, 
-			May: 172.2617639236, 
-			June: 200.7220748958, 
-			July: 176.4835939395 
+			April: 118.01, 
+			May: 167.71, 
+			June: 194.27, 
+			July: 366.64, 
+			Aug: 300.18 
 		}
 	}
 }); 
@@ -5772,10 +6057,29 @@ WeatherOutlook.insert({
 			January: 189.5568736786, 
 			February: 130.19, 
 			March: 161.6089241865, 
-			April: 84.5303386776, 
-			May: 132.8289268512, 
-			June: 202.920862997, 
-			July: 314.2980638542 
+			April: 87.4, 
+			May: 131.09, 
+			June: 208.68, 
+			July: 307.58, 
+			Aug: 247.53 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
+	province: "Camarines Norte", 
+	municipality: "Daet", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 132.57, 
+			May: 146.07, 
+			June: 186.22, 
+			July: 312.08, 
+			Aug: 257.64 
 		}
 	}
 }); 
@@ -5789,10 +6093,11 @@ WeatherOutlook.insert({
 			January: 218.060898898, 
 			February: 147.89, 
 			March: 179.2889770238, 
-			April: 97.6602287698, 
-			May: 143.6951242857, 
-			June: 205.3801153968, 
-			July: 285.704370754 
+			April: 99.92, 
+			May: 136.16, 
+			June: 193.96, 
+			July: 260.07, 
+			Aug: 241.68 
 		}
 	}
 }); 
@@ -5806,10 +6111,11 @@ WeatherOutlook.insert({
 			January: 249.6624897415, 
 			February: 169.64, 
 			March: 204.1972065344, 
-			April: 111.2752350794, 
-			May: 161.7290729365, 
-			June: 228.8579087963, 
-			July: 261.7528600794 
+			April: 107.28, 
+			May: 147.85, 
+			June: 215.57, 
+			July: 340.21, 
+			Aug: 250.05 
 		}
 	}
 }); 
@@ -5823,10 +6129,11 @@ WeatherOutlook.insert({
 			January: 258.0493135429, 
 			February: 160.67, 
 			March: 195.0266725365, 
-			April: 111.4011275937, 
-			May: 165.9940379635, 
-			June: 193.0322370111, 
-			July: 219.5132184444 
+			April: 111.32, 
+			May: 141.78, 
+			June: 169.48, 
+			July: 319.02, 
+			Aug: 255.13 
 		}
 	}
 }); 
@@ -5840,10 +6147,11 @@ WeatherOutlook.insert({
 			January: 252.528758381, 
 			February: 168.43, 
 			March: 195.4766324074, 
-			April: 109.334844213, 
-			May: 159.7795058796, 
-			June: 212.2687904167, 
-			July: 238.5798873611 
+			April: 109.52, 
+			May: 162.48, 
+			June: 202.19, 
+			July: 289.53, 
+			Aug: 243.24 
 		}
 	}
 }); 
@@ -5857,10 +6165,11 @@ WeatherOutlook.insert({
 			January: 312.5037012857, 
 			February: 215.25, 
 			March: 243.3328931944, 
-			April: 135.4255251389, 
-			May: 179.7378559722, 
-			June: 207.8108034028, 
-			July: 167.4161978472 
+			April: 130.85, 
+			May: 175.72, 
+			June: 203.19, 
+			July: 378.03, 
+			Aug: 286.57 
 		}
 	}
 }); 
@@ -5874,10 +6183,11 @@ WeatherOutlook.insert({
 			January: 335.2090834286, 
 			February: 247.77, 
 			March: 259.4746591667, 
-			April: 143.7736563889, 
-			May: 180.6408841667, 
-			June: 203.6436927778, 
-			July: 177.0386833333 
+			April: 141.34, 
+			May: 190.76, 
+			June: 229.12, 
+			July: 360.5, 
+			Aug: 275.76 
 		}
 	}
 }); 
@@ -5891,10 +6201,11 @@ WeatherOutlook.insert({
 			January: 167.9026211429, 
 			February: 123.36, 
 			March: 158.4935672302, 
-			April: 79.4234074365, 
-			May: 136.0956598821, 
-			June: 206.1870824626, 
-			July: 311.751198373 
+			April: 83.57, 
+			May: 156.27, 
+			June: 204.73, 
+			July: 322.63, 
+			Aug: 252.3 
 		}
 	}
 }); 
@@ -5908,10 +6219,11 @@ WeatherOutlook.insert({
 			January: 303.6052651429, 
 			February: 205.1, 
 			March: 223.6511410185, 
-			April: 129.5978655556, 
-			May: 156.57113, 
-			June: 194.2882912037, 
-			July: 273.6348036111 
+			April: 132.57, 
+			May: 146.07, 
+			June: 186.22, 
+			July: 312.08, 
+			Aug: 257.64 
 		}
 	}
 }); 
@@ -5925,10 +6237,11 @@ WeatherOutlook.insert({
 			January: 288.2261527143, 
 			February: 191.64, 
 			March: 212.2535256944, 
-			April: 118.2818916667, 
-			May: 157.2244190278, 
-			June: 194.9071916667, 
-			July: 278.8509519444 
+			April: 133.12, 
+			May: 158.51, 
+			June: 197.69, 
+			July: 319.06, 
+			Aug: 252.09 
 		}
 	}
 }); 
@@ -5942,10 +6255,11 @@ WeatherOutlook.insert({
 			January: 209.1690970803, 
 			February: 140.54, 
 			March: 156.5124573526, 
-			April: 96.4371521255, 
-			May: 170.1400218101, 
-			June: 209.6669642332, 
-			July: 271.9003122023 
+			April: 95.84, 
+			May: 162.86, 
+			June: 200.74, 
+			July: 350.7, 
+			Aug: 247.42 
 		}
 	}
 }); 
@@ -5959,10 +6273,11 @@ WeatherOutlook.insert({
 			January: 189.7831706667, 
 			February: 135.38, 
 			March: 131.7238652778, 
-			April: 96.3349496296, 
-			May: 182.6213349074, 
-			June: 221.2854894444, 
-			July: 338.9609675 
+			April: 93.8, 
+			May: 170.32, 
+			June: 212.33, 
+			July: 370.44, 
+			Aug: 248.2 
 		}
 	}
 }); 
@@ -5976,10 +6291,11 @@ WeatherOutlook.insert({
 			January: 166.5974375714, 
 			February: 117.93, 
 			March: 116.7868300595, 
-			April: 83.4484807738, 
-			May: 198.3903046587, 
-			June: 224.9662979167, 
-			July: 352.0541038889 
+			April: 82.99, 
+			May: 189.02, 
+			June: 214.86, 
+			July: 377.88, 
+			Aug: 254.57 
 		}
 	}
 }); 
@@ -5993,10 +6309,11 @@ WeatherOutlook.insert({
 			January: 184.1438308571, 
 			February: 121.85, 
 			March: 124.5983363889, 
-			April: 89.2731698611, 
-			May: 203.1300719444, 
-			June: 216.7360068056, 
-			July: 411.4118994444 
+			April: 89.87, 
+			May: 188.23, 
+			June: 206.12, 
+			July: 374.72, 
+			Aug: 256.54 
 		}
 	}
 }); 
@@ -6010,10 +6327,11 @@ WeatherOutlook.insert({
 			January: 184.796784, 
 			February: 129.52, 
 			March: 122.3702105556, 
-			April: 90.6400966667, 
-			May: 189.5163166667, 
-			June: 206.4026980556, 
-			July: 379.1586536111 
+			April: 91.33, 
+			May: 181.03, 
+			June: 198.82, 
+			July: 361.89, 
+			Aug: 263.93 
 		}
 	}
 }); 
@@ -6027,10 +6345,11 @@ WeatherOutlook.insert({
 			January: 162.0026449524, 
 			February: 118.75, 
 			March: 125.3668337963, 
-			April: 81.6808713889, 
-			May: 153.340879537, 
-			June: 214.3134518519, 
-			July: 310.9995771296 
+			April: 79.42, 
+			May: 138.29, 
+			June: 204.09, 
+			July: 369.48, 
+			Aug: 213.89 
 		}
 	}
 }); 
@@ -6044,10 +6363,29 @@ WeatherOutlook.insert({
 			January: 240.8637202857, 
 			February: 154.32, 
 			March: 167.9157902778, 
-			April: 120.2339036574, 
-			May: 220.9130767593, 
-			June: 225.3592725, 
-			July: 308.8270607407 
+			April: 112.86, 
+			May: 195.3, 
+			June: 214.04, 
+			July: 358.62, 
+			Aug: 281.26 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
+	province: "Camarines Sur", 
+	municipality: "Buhi Lake", 
+	data: {
+		month: {
+			January: 154.6663637714, 
+			February: 114.05, 
+			March: 107.4417358333, 
+			April: 121.15, 
+			May: 210.38, 
+			June: 224.4, 
+			July: 375.21, 
+			Aug: 291.86 
 		}
 	}
 }); 
@@ -6058,13 +6396,14 @@ WeatherOutlook.insert({
 	municipality: "Bula", 
 	data: {
 		month: {
-			January: 154.6663637714, 
-			February: 114.05, 
-			March: 107.4417358333, 
-			April: 88.7340640556, 
-			May: 187.2721618333, 
-			June: 224.3202382778, 
-			July: 320.0571687778 
+			January: 183.1733477143, 
+			February: 131.78, 
+			March: 138.6763666667, 
+			April: 88.1, 
+			May: 179.91, 
+			June: 218.5, 
+			July: 372.02, 
+			Aug: 254.47 
 		}
 	}
 }); 
@@ -6075,13 +6414,14 @@ WeatherOutlook.insert({
 	municipality: "Cabusao", 
 	data: {
 		month: {
-			January: 183.1733477143, 
-			February: 131.78, 
-			March: 138.6763666667, 
-			April: 81.2575069444, 
-			May: 139.62974, 
-			June: 195.3712261111, 
-			July: 331.7300230556 
+			January: 185.123370619, 
+			February: 128.6, 
+			March: 143.8406638889, 
+			April: 81.41, 
+			May: 132.43, 
+			June: 189.93, 
+			July: 335.68, 
+			Aug: 244.29 
 		}
 	}
 }); 
@@ -6092,13 +6432,32 @@ WeatherOutlook.insert({
 	municipality: "Calabanga", 
 	data: {
 		month: {
-			January: 185.123370619, 
-			February: 128.6, 
-			March: 143.8406638889, 
-			April: 86.139569537, 
-			May: 156.8665275926, 
-			June: 207.6799143519, 
-			July: 321.432474537 
+			January: 148.6040374286, 
+			February: 113.15, 
+			March: 110.7024955556, 
+			April: 88.19, 
+			May: 158.36, 
+			June: 209.11, 
+			July: 394.42, 
+			Aug: 247.66 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
+	province: "Camarines Sur", 
+	municipality: "Camaligan", 
+	data: {
+		month: {
+			January: 277.0547993061, 
+			February: 174.18, 
+			March: 188.2906457143, 
+			April: 75.47, 
+			May: 140.71, 
+			June: 206.74, 
+			July: 379.63, 
+			Aug: 241.56 
 		}
 	}
 }); 
@@ -6109,13 +6468,14 @@ WeatherOutlook.insert({
 	municipality: "Canaman", 
 	data: {
 		month: {
-			January: 148.6040374286, 
-			February: 113.15, 
-			March: 110.7024955556, 
-			April: 76.8370655556, 
-			May: 145.2232263889, 
-			June: 209.4656105556, 
-			July: 286.7198430556 
+			January: 227.4032516508, 
+			February: 156.75, 
+			March: 197.706058642, 
+			April: 76.84, 
+			May: 137.47, 
+			June: 201.97, 
+			July: 365.39, 
+			Aug: 292.48 
 		}
 	}
 }); 
@@ -6126,13 +6486,14 @@ WeatherOutlook.insert({
 	municipality: "Caramoan", 
 	data: {
 		month: {
-			January: 277.0547993061, 
-			February: 174.18, 
-			March: 188.2906457143, 
-			April: 109.4944854365, 
-			May: 164.7359151984, 
-			June: 193.8262796825, 
-			July: 231.5866406633 
+			January: 264.5833431429, 
+			February: 162.87, 
+			March: 182.3480337986, 
+			April: 105.24, 
+			May: 146.95, 
+			June: 178.03, 
+			July: 299.7, 
+			Aug: 223.88 
 		}
 	}
 }); 
@@ -6143,13 +6504,32 @@ WeatherOutlook.insert({
 	municipality: "Del Gallego", 
 	data: {
 		month: {
-			January: 227.4032516508, 
-			February: 156.75, 
-			March: 197.706058642, 
-			April: 108.4082171914, 
-			May: 179.9439032716, 
-			June: 233.6468241667, 
-			July: 196.6174292284 
+			January: 230.7602911111, 
+			February: 149.76, 
+			March: 172.1036798457, 
+			April: 101.7, 
+			May: 158.42, 
+			June: 227.4, 
+			July: 369.44, 
+			Aug: 275.99 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region V: Bicol Region", 
+	province: "Camarines Sur", 
+	municipality: "Gainza", 
+	data: {
+		month: {
+			January: 213.3467297143, 
+			February: 133.66, 
+			March: 141.5362345139, 
+			April: 78.02, 
+			May: 149.03, 
+			June: 205.23, 
+			July: 370.75, 
+			Aug: 232.44 
 		}
 	}
 }); 
@@ -6160,13 +6540,14 @@ WeatherOutlook.insert({
 	municipality: "Garchitorena", 
 	data: {
 		month: {
-			January: 264.5833431429, 
-			February: 162.87, 
-			March: 182.3480337986, 
-			April: 107.2327382986, 
-			May: 163.5496178671, 
-			June: 181.1745164494, 
-			July: 250.3697526736 
+			January: 247.7751601633, 
+			February: 158.86, 
+			March: 180.5373513889, 
+			April: 102.5, 
+			May: 148.76, 
+			June: 162.43, 
+			July: 280.83, 
+			Aug: 217.36 
 		}
 	}
 }); 
@@ -6177,13 +6558,14 @@ WeatherOutlook.insert({
 	municipality: "Goa", 
 	data: {
 		month: {
-			January: 230.7602911111, 
-			February: 149.76, 
-			March: 172.1036798457, 
-			April: 106.6601015741, 
-			May: 179.0485037346, 
-			June: 210.0528938272, 
-			July: 291.0111536984 
+			January: 175.5992603636, 
+			February: 120.08, 
+			March: 135.8900197727, 
+			April: 106.24, 
+			May: 176.03, 
+			June: 198.09, 
+			July: 376.1, 
+			Aug: 253.24 
 		}
 	}
 }); 
@@ -6194,13 +6576,14 @@ WeatherOutlook.insert({
 	municipality: "Iriga City", 
 	data: {
 		month: {
-			January: 213.3467297143, 
-			February: 133.66, 
-			March: 141.5362345139, 
-			April: 97.7757351389, 
-			May: 188.3991209028, 
-			June: 223.383646875, 
-			July: 351.2713351389 
+			January: 231.1931512245, 
+			February: 162.51, 
+			March: 190.1501234127, 
+			April: 97.47, 
+			May: 192.84, 
+			June: 213.45, 
+			July: 352.92, 
+			Aug: 271.71 
 		}
 	}
 }); 
@@ -6211,13 +6594,14 @@ WeatherOutlook.insert({
 	municipality: "Lagonoy", 
 	data: {
 		month: {
-			January: 247.7751601633, 
-			February: 158.86, 
-			March: 180.5373513889, 
-			April: 110.4861803571, 
-			May: 172.4876948611, 
-			June: 192.1529974802, 
-			July: 233.3061288243 
+			January: 164.842748, 
+			February: 121.61, 
+			March: 121.2212488889, 
+			April: 109.1, 
+			May: 148.49, 
+			June: 177.74, 
+			July: 324.08, 
+			Aug: 251.92 
 		}
 	}
 }); 
@@ -6228,13 +6612,14 @@ WeatherOutlook.insert({
 	municipality: "Libmanan", 
 	data: {
 		month: {
-			January: 175.5992603636, 
-			February: 120.08, 
-			March: 135.8900197727, 
-			April: 77.8234995202, 
-			May: 158.8565473737, 
-			June: 214.2552240152, 
-			July: 308.3626396465 
+			January: 138.4840974286, 
+			February: 106.62, 
+			March: 103.9123575, 
+			April: 78.8, 
+			May: 143.03, 
+			June: 204.3, 
+			July: 349.89, 
+			Aug: 226.06 
 		}
 	}
 }); 
@@ -6245,13 +6630,14 @@ WeatherOutlook.insert({
 	municipality: "Lupi", 
 	data: {
 		month: {
-			January: 231.1931512245, 
-			February: 162.51, 
-			March: 190.1501234127, 
-			April: 100.654119246, 
-			May: 155.6637397222, 
-			June: 208.265360873, 
-			July: 201.1083311973 
+			January: 124.8110655714, 
+			February: 91.28, 
+			March: 90.3721399306, 
+			April: 101.81, 
+			May: 146.73, 
+			June: 202.83, 
+			July: 367.78, 
+			Aug: 254.79 
 		}
 	}
 }); 
@@ -6262,13 +6648,14 @@ WeatherOutlook.insert({
 	municipality: "Magarao", 
 	data: {
 		month: {
-			January: 164.842748, 
-			February: 121.61, 
-			March: 121.2212488889, 
-			April: 77.9841780556, 
-			May: 142.8998522222, 
-			June: 208.8921491667, 
-			July: 319.7802213889 
+			January: 190.260312, 
+			February: 129.91, 
+			March: 125.0034738333, 
+			April: 78.03, 
+			May: 135.15, 
+			June: 201.46, 
+			July: 352.83, 
+			Aug: 217.31 
 		}
 	}
 }); 
@@ -6279,13 +6666,14 @@ WeatherOutlook.insert({
 	municipality: "Milaor", 
 	data: {
 		month: {
-			January: 138.4840974286, 
-			February: 106.62, 
-			March: 103.9123575, 
-			April: 78.0956047222, 
-			May: 157.1339422222, 
-			June: 212.6518161111, 
-			July: 260.0563316667 
+			January: 129.777142, 
+			February: 101.05, 
+			March: 100.8262898611, 
+			April: 76.25, 
+			May: 150.5, 
+			June: 208.28, 
+			July: 366.83, 
+			Aug: 275.85 
 		}
 	}
 }); 
@@ -6296,13 +6684,14 @@ WeatherOutlook.insert({
 	municipality: "Minalabac", 
 	data: {
 		month: {
-			January: 124.8110655714, 
-			February: 91.28, 
-			March: 90.3721399306, 
-			April: 78.8895085417, 
-			May: 175.3728216667, 
-			June: 228.0420925694, 
-			July: 348.5459918056 
+			January: 192.7587564286, 
+			February: 129.14, 
+			March: 145.6126433333, 
+			April: 79.38, 
+			May: 177.85, 
+			June: 221.97, 
+			July: 370.99, 
+			Aug: 257.87 
 		}
 	}
 }); 
@@ -6313,13 +6702,14 @@ WeatherOutlook.insert({
 	municipality: "Nabua", 
 	data: {
 		month: {
-			January: 190.260312, 
-			February: 129.91, 
-			March: 125.0034738333, 
-			April: 94.1359375, 
-			May: 185.1338419444, 
-			June: 208.3846675556, 
-			July: 291.0149269333 
+			January: 156.3072987619, 
+			February: 115.84, 
+			March: 116.1289909259, 
+			April: 93.5, 
+			May: 181.32, 
+			June: 201.52, 
+			July: 361.08, 
+			Aug: 256.1 
 		}
 	}
 }); 
@@ -6330,13 +6720,14 @@ WeatherOutlook.insert({
 	municipality: "Naga City", 
 	data: {
 		month: {
-			January: 129.777142, 
-			February: 101.05, 
-			March: 100.8262898611, 
-			April: 74.9949115278, 
-			May: 150.7674144444, 
-			June: 215.7804820833, 
-			July: 290.9060984722 
+			January: 158.1035621143, 
+			February: 108.93, 
+			March: 118.3153604444, 
+			April: 81.89, 
+			May: 168.45, 
+			June: 216.82, 
+			July: 390.97, 
+			Aug: 242.82 
 		}
 	}
 }); 
@@ -6347,13 +6738,14 @@ WeatherOutlook.insert({
 	municipality: "Ocampo", 
 	data: {
 		month: {
-			January: 192.7587564286, 
-			February: 129.14, 
-			March: 145.6126433333, 
-			April: 98.3525247222, 
-			May: 192.1198085417, 
-			June: 234.1359314583, 
-			July: 244.5916661111 
+			January: 146.3934382286, 
+			February: 101.36, 
+			March: 104.5873967222, 
+			April: 101.02, 
+			May: 201.24, 
+			June: 226.4, 
+			July: 399.13, 
+			Aug: 239.58 
 		}
 	}
 }); 
@@ -6364,13 +6756,14 @@ WeatherOutlook.insert({
 	municipality: "Pamplona", 
 	data: {
 		month: {
-			January: 156.3072987619, 
-			February: 115.84, 
-			March: 116.1289909259, 
-			April: 78.4280168519, 
-			May: 154.4421911111, 
-			June: 213.2602762037, 
-			July: 254.3485880556 
+			January: 270.6925580571, 
+			February: 170.89, 
+			March: 193.8755706667, 
+			April: 79.53, 
+			May: 147.72, 
+			June: 206.79, 
+			July: 368.32, 
+			Aug: 234.44 
 		}
 	}
 }); 
@@ -6381,13 +6774,14 @@ WeatherOutlook.insert({
 	municipality: "Pasacao", 
 	data: {
 		month: {
-			January: 158.1035621143, 
-			February: 108.93, 
-			March: 118.3153604444, 
-			April: 75.796072, 
-			May: 169.4581232778, 
-			June: 214.0778685556, 
-			July: 261.2120605 
+			January: 200.1742553407, 
+			February: 140.62, 
+			March: 166.6301349536, 
+			April: 75.42, 
+			May: 162.13, 
+			June: 205.35, 
+			July: 362.9, 
+			Aug: 250.33 
 		}
 	}
 }); 
@@ -6398,13 +6792,14 @@ WeatherOutlook.insert({
 	municipality: "Pili", 
 	data: {
 		month: {
-			January: 146.3934382286, 
-			February: 101.36, 
-			March: 104.5873967222, 
-			April: 81.7481292222, 
-			May: 171.5277088889, 
-			June: 227.5235241111, 
-			July: 292.0817281667 
+			January: 238.0174572857, 
+			February: 165.79, 
+			March: 175.482694375, 
+			April: 81.18, 
+			May: 169.79, 
+			June: 220.62, 
+			July: 388.28, 
+			Aug: 276.71 
 		}
 	}
 }); 
@@ -6415,13 +6810,14 @@ WeatherOutlook.insert({
 	municipality: "Presentacion", 
 	data: {
 		month: {
-			January: 270.6925580571, 
-			February: 170.89, 
-			March: 193.8755706667, 
-			April: 119.4333433889, 
-			May: 190.5840658889, 
-			June: 209.4915876111, 
-			July: 290.4003667778 
+			January: 144.0114788571, 
+			February: 100.25, 
+			March: 104.7012727778, 
+			April: 120.37, 
+			May: 174.84, 
+			June: 199.11, 
+			July: 339.03, 
+			Aug: 209.89 
 		}
 	}
 }); 
@@ -6432,13 +6828,14 @@ WeatherOutlook.insert({
 	municipality: "Ragay", 
 	data: {
 		month: {
-			January: 200.1742553407, 
-			February: 140.62, 
-			March: 166.6301349536, 
-			April: 87.687018898, 
-			May: 158.7560792241, 
-			June: 225.8387552759, 
-			July: 221.894808547 
+			January: 248.4286885714, 
+			February: 177.44, 
+			March: 176.53349, 
+			April: 91.61, 
+			May: 155.14, 
+			June: 220.2, 
+			July: 362.48, 
+			Aug: 285.21 
 		}
 	}
 }); 
@@ -6449,13 +6846,14 @@ WeatherOutlook.insert({
 	municipality: "Sagnay", 
 	data: {
 		month: {
-			January: 238.0174572857, 
-			February: 165.79, 
-			March: 175.482694375, 
-			April: 121.6058346528, 
-			May: 209.3313109722, 
-			June: 228.5965311806, 
-			July: 402.6564047222 
+			January: 204.9731386786, 
+			February: 140.39, 
+			March: 162.7688709375, 
+			April: 124.19, 
+			May: 195.35, 
+			June: 221.91, 
+			July: 355.05, 
+			Aug: 247.12 
 		}
 	}
 }); 
@@ -6466,13 +6864,14 @@ WeatherOutlook.insert({
 	municipality: "San Fernando", 
 	data: {
 		month: {
-			January: 144.0114788571, 
-			February: 100.25, 
-			March: 104.7012727778, 
-			April: 81.931095, 
-			May: 184.2212327778, 
-			June: 230.5162838889, 
-			July: 357.1537818056 
+			January: 241.5091522286, 
+			February: 154.76, 
+			March: 184.6288209397, 
+			April: 81.87, 
+			May: 166.43, 
+			June: 219.56, 
+			July: 361.82, 
+			Aug: 236.48 
 		}
 	}
 }); 
@@ -6483,13 +6882,14 @@ WeatherOutlook.insert({
 	municipality: "San Jose", 
 	data: {
 		month: {
-			January: 248.4286885714, 
-			February: 177.44, 
-			March: 176.53349, 
-			April: 114.2385577778, 
-			May: 176.225645, 
-			June: 205.5478433333, 
-			July: 321.3889480556 
+			January: 217.928732, 
+			February: 145.14, 
+			March: 167.5373972222, 
+			April: 115.5, 
+			May: 167.24, 
+			June: 194.93, 
+			July: 347.27, 
+			Aug: 274.45 
 		}
 	}
 }); 
@@ -6500,13 +6900,14 @@ WeatherOutlook.insert({
 	municipality: "Sipocot", 
 	data: {
 		month: {
-			January: 204.9731386786, 
-			February: 140.39, 
-			March: 162.7688709375, 
-			April: 88.2641577083, 
-			May: 149.6055377778, 
-			June: 203.5179492361, 
-			July: 256.2968563542 
+			January: 230.490962127, 
+			February: 151.4, 
+			March: 173.1792657407, 
+			April: 92.56, 
+			May: 150.56, 
+			June: 199.75, 
+			July: 357.6, 
+			Aug: 284.09 
 		}
 	}
 }); 
@@ -6517,13 +6918,14 @@ WeatherOutlook.insert({
 	municipality: "Siruma", 
 	data: {
 		month: {
-			January: 241.5091522286, 
-			February: 154.76, 
-			March: 184.6288209397, 
-			April: 97.854229446, 
-			May: 135.2647272286, 
-			June: 163.6855187762, 
-			July: 186.4470181111 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 95.36, 
+			May: 126.8, 
+			June: 151.15, 
+			July: 292.8, 
+			Aug: 223.3 
 		}
 	}
 }); 
@@ -6534,13 +6936,14 @@ WeatherOutlook.insert({
 	municipality: "Tigaon", 
 	data: {
 		month: {
-			January: 217.928732, 
-			February: 145.14, 
-			March: 167.5373972222, 
-			April: 107.8784683333, 
-			May: 196.32527875, 
-			June: 228.2766858333, 
-			July: 264.9971284722 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 110.54, 
+			May: 183.75, 
+			June: 213.02, 
+			July: 363.87, 
+			Aug: 256.17 
 		}
 	}
 }); 
@@ -6551,13 +6954,14 @@ WeatherOutlook.insert({
 	municipality: "Tinambac", 
 	data: {
 		month: {
-			January: 230.490962127, 
-			February: 151.4, 
-			March: 173.1792657407, 
-			April: 97.3006266049, 
-			May: 140.9545607099, 
-			June: 171.4046946605, 
-			July: 227.0889675 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 99.6, 
+			May: 148, 
+			June: 174.67, 
+			July: 355.96, 
+			Aug: 230.53 
 		}
 	}
 }); 
@@ -6571,10 +6975,11 @@ WeatherOutlook.insert({
 			January: 382.8767452381, 
 			February: 185.66, 
 			March: 222.1590105961, 
-			April: 92.373349291, 
-			May: 95.0496964674, 
-			June: 197.5306040203, 
-			July: 402.4319739506 
+			April: 88.81, 
+			May: 99.89, 
+			June: 222.5, 
+			July: 239.9, 
+			Aug: 199 
 		}
 	}
 }); 
@@ -6588,10 +6993,11 @@ WeatherOutlook.insert({
 			January: 371.927202381, 
 			February: 172.88, 
 			March: 212.5125024365, 
-			April: 87.316330836, 
-			May: 87.949688291, 
-			June: 183.2423559497, 
-			July: 431.3862431481 
+			April: 78.51, 
+			May: 97.47, 
+			June: 211.32, 
+			July: 256.79, 
+			Aug: 199.42 
 		}
 	}
 }); 
@@ -6605,10 +7011,11 @@ WeatherOutlook.insert({
 			January: 354.510224, 
 			February: 183.77, 
 			March: 212.8215922222, 
-			April: 101.5363352778, 
-			May: 93.7097811111, 
-			June: 203.7902355556, 
-			July: 450.5020661111 
+			April: 94.04, 
+			May: 95.26, 
+			June: 218.79, 
+			July: 221.56, 
+			Aug: 180.87 
 		}
 	}
 }); 
@@ -6622,10 +7029,11 @@ WeatherOutlook.insert({
 			January: 392.536643, 
 			February: 198.53, 
 			March: 233.5219916667, 
-			April: 97.0559243056, 
-			May: 102.3053631944, 
-			June: 215.9779191667, 
-			July: 392.4163248611 
+			April: 93.52, 
+			May: 98.01, 
+			June: 219.31, 
+			July: 226.66, 
+			Aug: 187.89 
 		}
 	}
 }); 
@@ -6639,10 +7047,11 @@ WeatherOutlook.insert({
 			January: 409.4002402857, 
 			February: 192.66, 
 			March: 230.3123380556, 
-			April: 89.5703279167, 
-			May: 97.6749058333, 
-			June: 191.0996713889, 
-			July: 316.9208105556 
+			April: 85.61, 
+			May: 109.24, 
+			June: 241.68, 
+			July: 271.26, 
+			Aug: 228.38 
 		}
 	}
 }); 
@@ -6656,10 +7065,11 @@ WeatherOutlook.insert({
 			January: 371.7251094286, 
 			February: 186.14, 
 			March: 221.4033363889, 
-			April: 94.6223113889, 
-			May: 97.9278841667, 
-			June: 210.1029516667, 
-			July: 458.5526991667 
+			April: 87.12, 
+			May: 99.48, 
+			June: 225.1, 
+			July: 241.6, 
+			Aug: 198.47 
 		}
 	}
 }); 
@@ -6673,10 +7083,11 @@ WeatherOutlook.insert({
 			January: 135.7681279968, 
 			February: 92.28, 
 			March: 133.5807994973, 
-			April: 75.9656812346, 
-			May: 210.097089931, 
-			June: 384.6779502701, 
-			July: 302.0955644485 
+			April: 87.18, 
+			May: 188.37, 
+			June: 360.45, 
+			July: 454.54, 
+			Aug: 327.13 
 		}
 	}
 }); 
@@ -6690,10 +7101,11 @@ WeatherOutlook.insert({
 			January: 145.8176313333, 
 			February: 98.1, 
 			March: 121.8606097222, 
-			April: 76.7825880556, 
-			May: 195.1062776852, 
-			June: 331.7920828704, 
-			July: 268.5739589074 
+			April: 81.1, 
+			May: 190.91, 
+			June: 322.06, 
+			July: 427.7, 
+			Aug: 312.68 
 		}
 	}
 }); 
@@ -6707,10 +7119,11 @@ WeatherOutlook.insert({
 			January: 120.6958585714, 
 			February: 90.9, 
 			March: 117.7198938889, 
-			April: 68.7076377778, 
-			May: 188.0546780556, 
-			June: 334.4297011111, 
-			July: 225.2840544444 
+			April: 77.73, 
+			May: 217.65, 
+			June: 337.18, 
+			July: 442.68, 
+			Aug: 307.14 
 		}
 	}
 }); 
@@ -6724,10 +7137,11 @@ WeatherOutlook.insert({
 			January: 142.2251616429, 
 			February: 102.31, 
 			March: 126.678479375, 
-			April: 81.371385, 
-			May: 221.4749809028, 
-			June: 362.9583263889, 
-			July: 236.1898577778 
+			April: 85.74, 
+			May: 207.23, 
+			June: 353.09, 
+			July: 430.29, 
+			Aug: 312.74 
 		}
 	}
 }); 
@@ -6741,10 +7155,11 @@ WeatherOutlook.insert({
 			January: 145.1783698776, 
 			February: 100.71, 
 			March: 122.4328457143, 
-			April: 69.4115440873, 
-			May: 203.5701978175, 
-			June: 318.1007744444, 
-			July: 211.7922590476 
+			April: 81.1, 
+			May: 192.45, 
+			June: 344.66, 
+			July: 400.91, 
+			Aug: 285.24 
 		}
 	}
 }); 
@@ -6758,10 +7173,11 @@ WeatherOutlook.insert({
 			January: 106.2196004286, 
 			February: 66.7, 
 			March: 114.2608121865, 
-			April: 62.1921965437, 
-			May: 161.9160400198, 
-			June: 340.9899103571, 
-			July: 405.5623079167 
+			April: 82.22, 
+			May: 173.96, 
+			June: 352.6, 
+			July: 434.41, 
+			Aug: 322.45 
 		}
 	}
 }); 
@@ -6775,10 +7191,11 @@ WeatherOutlook.insert({
 			January: 141.7300683048, 
 			February: 99.46, 
 			March: 150.076379, 
-			April: 87.9480798704, 
-			May: 233.8246382963, 
-			June: 473.7305293148, 
-			July: 309.9444404444 
+			April: 89.55, 
+			May: 194.53, 
+			June: 332.2, 
+			July: 538.95, 
+			Aug: 357.36 
 		}
 	}
 }); 
@@ -6792,10 +7209,11 @@ WeatherOutlook.insert({
 			January: 143.1534001905, 
 			February: 88.93, 
 			March: 130.8352798148, 
-			April: 63.5270801389, 
-			May: 199.7728176389, 
-			June: 323.8501846759, 
-			July: 259.9896081481 
+			April: 80.15, 
+			May: 196.5, 
+			June: 366.42, 
+			July: 429.44, 
+			Aug: 327.32 
 		}
 	}
 }); 
@@ -6809,10 +7227,11 @@ WeatherOutlook.insert({
 			January: 124.4306362857, 
 			February: 94.31, 
 			March: 131.5851847222, 
-			April: 81.4264362963, 
-			May: 203.0570657407, 
-			June: 397.7339932407, 
-			July: 328.760150463 
+			April: 89.82, 
+			May: 176.81, 
+			June: 398.96, 
+			July: 478.39, 
+			Aug: 332.26 
 		}
 	}
 }); 
@@ -6826,10 +7245,11 @@ WeatherOutlook.insert({
 			January: 125.6063898571, 
 			February: 76.78, 
 			March: 112.6880925, 
-			April: 59.9304057639, 
-			May: 156.8027001389, 
-			June: 294.1850207639, 
-			July: 405.6404229861 
+			April: 85.47, 
+			May: 148.49, 
+			June: 373.12, 
+			July: 382.78, 
+			Aug: 291.02 
 		}
 	}
 }); 
@@ -6843,10 +7263,11 @@ WeatherOutlook.insert({
 			January: 117.2288629286, 
 			February: 77.89, 
 			March: 116.8075957639, 
-			April: 63.9233692361, 
-			May: 175.3159727778, 
-			June: 315.7834659028, 
-			July: 402.1367326389 
+			April: 79.96, 
+			May: 168.73, 
+			June: 361.9, 
+			July: 420.41, 
+			Aug: 324.09 
 		}
 	}
 }); 
@@ -6860,10 +7281,11 @@ WeatherOutlook.insert({
 			January: 184.8246957143, 
 			February: 107.42, 
 			March: 172.7209597917, 
-			April: 69.8456563889, 
-			May: 216.2802813889, 
-			June: 324.2839138194, 
-			July: 412.3513574306 
+			April: 88.97, 
+			May: 198.91, 
+			June: 377.72, 
+			July: 394.15, 
+			Aug: 371.3 
 		}
 	}
 }); 
@@ -6877,10 +7299,11 @@ WeatherOutlook.insert({
 			January: 146.3500215429, 
 			February: 92.52, 
 			March: 141.180266, 
-			April: 66.788867, 
-			May: 195.9443508889, 
-			June: 315.8869531111, 
-			July: 363.3127053333 
+			April: 96, 
+			May: 177.82, 
+			June: 358.64, 
+			July: 417.04, 
+			Aug: 338.12 
 		}
 	}
 }); 
@@ -6894,10 +7317,11 @@ WeatherOutlook.insert({
 			January: 184.2271398571, 
 			February: 110.08, 
 			March: 184.1359034722, 
-			April: 75.5748248611, 
-			May: 225.2245004167, 
-			June: 349.1475968056, 
-			July: 265.9034598175 
+			April: 91.79, 
+			May: 207.09, 
+			June: 407.7, 
+			July: 414.07, 
+			Aug: 371.18 
 		}
 	}
 }); 
@@ -6911,10 +7335,11 @@ WeatherOutlook.insert({
 			January: 101.6266181905, 
 			February: 59.73, 
 			March: 101.7722486111, 
-			April: 56.089862037, 
-			May: 142.6317236111, 
-			June: 308.5598017593, 
-			July: 390.4187014815 
+			April: 86.44, 
+			May: 179.35, 
+			June: 349.59, 
+			July: 404.85, 
+			Aug: 308.04 
 		}
 	}
 }); 
@@ -6928,10 +7353,11 @@ WeatherOutlook.insert({
 			January: 118.622165, 
 			February: 82.51, 
 			March: 124.5610325, 
-			April: 74.6707881944, 
-			May: 195.9681338889, 
-			June: 370.314555, 
-			July: 403.8933363889 
+			April: 89.63, 
+			May: 188.7, 
+			June: 344.57, 
+			July: 458.65, 
+			Aug: 320.62 
 		}
 	}
 }); 
@@ -6945,10 +7371,11 @@ WeatherOutlook.insert({
 			January: 116.2422282857, 
 			February: 89.38, 
 			March: 118.1316573611, 
-			April: 72.1839767361, 
-			May: 187.6987727778, 
-			June: 350.6363565972, 
-			July: 350.8618674583 
+			April: 85.9, 
+			May: 175.29, 
+			June: 353.62, 
+			July: 451.58, 
+			Aug: 321.13 
 		}
 	}
 }); 
@@ -6962,10 +7389,11 @@ WeatherOutlook.insert({
 			January: 127.5034223492, 
 			February: 92, 
 			March: 134.4947327469, 
-			April: 87.2535777623, 
-			May: 243.4900864815, 
-			June: 472.2806052932, 
-			July: 237.9405762809 
+			April: 98.36, 
+			May: 201.28, 
+			June: 391.07, 
+			July: 550.88, 
+			Aug: 386.68 
 		}
 	}
 }); 
@@ -6979,10 +7407,11 @@ WeatherOutlook.insert({
 			January: 320.6482317087, 
 			February: 165.6, 
 			March: 184.8203182418, 
-			April: 118.0680103701, 
-			May: 183.7835400237, 
-			June: 232.4083123719, 
-			July: 283.5590470107 
+			April: 115.13, 
+			May: 167.08, 
+			June: 218.63, 
+			July: 341.21, 
+			Aug: 215.86 
 		}
 	}
 }); 
@@ -6996,10 +7425,11 @@ WeatherOutlook.insert({
 			January: 298.6042815714, 
 			February: 165.09, 
 			March: 190.0185715278, 
-			April: 106.6757677778, 
-			May: 158.3863181944, 
-			June: 202.9119756944, 
-			July: 181.3351105556 
+			April: 106.64, 
+			May: 150.64, 
+			June: 195.37, 
+			July: 341.76, 
+			Aug: 212.42 
 		}
 	}
 }); 
@@ -7013,10 +7443,11 @@ WeatherOutlook.insert({
 			January: 409.110498, 
 			February: 168.42, 
 			March: 187.9785981481, 
-			April: 128.461555463, 
-			May: 196.9483387037, 
-			June: 252.4241884259, 
-			July: 318.7198332407 
+			April: 134.01, 
+			May: 199.68, 
+			June: 253.42, 
+			July: 278.97, 
+			Aug: 258.16 
 		}
 	}
 }); 
@@ -7030,10 +7461,11 @@ WeatherOutlook.insert({
 			January: 422.2787486667, 
 			February: 159.39, 
 			March: 172.5210321296, 
-			April: 134.4387326852, 
-			May: 208.6348967593, 
-			June: 264.1160348148, 
-			July: 253.7753241825 
+			April: 134.78, 
+			May: 216.21, 
+			June: 270.54, 
+			July: 292.5, 
+			Aug: 276.05 
 		}
 	}
 }); 
@@ -7047,10 +7479,11 @@ WeatherOutlook.insert({
 			January: 297.8695332208, 
 			February: 167.01, 
 			March: 190.9128913045, 
-			April: 112.7156134076, 
-			May: 175.8890843615, 
-			June: 217.7793305664, 
-			July: 286.723095 
+			April: 107.33, 
+			May: 159.47, 
+			June: 194.8, 
+			July: 341.09, 
+			Aug: 212.37 
 		}
 	}
 }); 
@@ -7064,10 +7497,11 @@ WeatherOutlook.insert({
 			January: 353.9296497143, 
 			February: 169.93, 
 			March: 191.3339464583, 
-			April: 123.4805790278, 
-			May: 178.9916392361, 
-			June: 234.7753276389, 
-			July: 326.5062877083 
+			April: 122.89, 
+			May: 167.19, 
+			June: 222.29, 
+			July: 393.33, 
+			Aug: 226.66 
 		}
 	}
 }); 
@@ -7081,10 +7515,11 @@ WeatherOutlook.insert({
 			January: 276.9630714857, 
 			February: 162.37, 
 			March: 183.9232503778, 
-			April: 95.3019052571, 
-			May: 149.4064102048, 
-			June: 184.3281613286, 
-			July: 191.7048592778 
+			April: 93.75, 
+			May: 137.69, 
+			June: 172.68, 
+			July: 300.11, 
+			Aug: 172.95 
 		}
 	}
 }); 
@@ -7098,10 +7533,11 @@ WeatherOutlook.insert({
 			January: 309.5230409524, 
 			February: 168.34, 
 			March: 192.1364057116, 
-			April: 111.1685916614, 
-			May: 164.0549166825, 
-			June: 211.5627092566, 
-			July: 282.7006341667 
+			April: 112.47, 
+			May: 158.12, 
+			June: 207.49, 
+			July: 359.68, 
+			Aug: 221.64 
 		}
 	}
 }); 
@@ -7115,10 +7551,11 @@ WeatherOutlook.insert({
 			January: 284.2949330476, 
 			February: 165.54, 
 			March: 177.1847159008, 
-			April: 121.601004795, 
-			May: 200.3725959894, 
-			June: 247.7645382566, 
-			July: 302.8398408333 
+			April: 120.61, 
+			May: 179.52, 
+			June: 233.44, 
+			July: 362.76, 
+			Aug: 210.02 
 		}
 	}
 }); 
@@ -7132,10 +7569,11 @@ WeatherOutlook.insert({
 			January: 379.2749998286, 
 			February: 166.28, 
 			March: 186.3586161111, 
-			April: 131.7822161111, 
-			May: 204.5456009444, 
-			June: 259.5183509444, 
-			July: 318.5342308333 
+			April: 132.63, 
+			May: 205.7, 
+			June: 254.16, 
+			July: 306.08, 
+			Aug: 269.73 
 		}
 	}
 }); 
@@ -7149,10 +7587,11 @@ WeatherOutlook.insert({
 			January: 321.6874012143, 
 			February: 170.23, 
 			March: 194.3305986806, 
-			April: 116.3152229167, 
-			May: 172.9924902778, 
-			June: 225.0975622917, 
-			July: 285.2608333333 
+			April: 115.6, 
+			May: 159.49, 
+			June: 214.97, 
+			July: 361.86, 
+			Aug: 220.1 
 		}
 	}
 }); 
@@ -7166,10 +7605,11 @@ WeatherOutlook.insert({
 			January: 273.4242734286, 
 			February: 158.55, 
 			March: 166.1346733111, 
-			April: 124.3657526032, 
-			May: 206.5122741333, 
-			June: 264.361439046, 
-			July: 312.7993553889 
+			April: 121.42, 
+			May: 193.83, 
+			June: 256.68, 
+			July: 362.54, 
+			Aug: 215.15 
 		}
 	}
 }); 
@@ -7183,10 +7623,11 @@ WeatherOutlook.insert({
 			January: 24.9351130565, 
 			February: 17.17, 
 			March: 19.9611825788, 
-			April: 23.028380151, 
-			May: 153.2338340142, 
-			June: 268.376306871, 
-			July: 290.2330157171 
+			April: 20.53, 
+			May: 139.12, 
+			June: 245.92, 
+			July: 452.45, 
+			Aug: 494.64 
 		}
 	}
 }); 
@@ -7200,10 +7641,11 @@ WeatherOutlook.insert({
 			January: 32.0059862857, 
 			February: 20.63, 
 			March: 24.6877772222, 
-			April: 30.0174372222, 
-			May: 162.1945125, 
-			June: 275.9543344444, 
-			July: 320.6714202778 
+			April: 30.02, 
+			May: 152.89, 
+			June: 221.42, 
+			July: 484.48, 
+			Aug: 507.53 
 		}
 	}
 }); 
@@ -7217,10 +7659,11 @@ WeatherOutlook.insert({
 			January: 41.7515341429, 
 			February: 26.53, 
 			March: 41.5870755556, 
-			April: 36.5645872222, 
-			May: 184.8087281944, 
-			June: 258.2712870833, 
-			July: 269.5991286111 
+			April: 27.48, 
+			May: 163.09, 
+			June: 235.09, 
+			July: 480.41, 
+			Aug: 485.77 
 		}
 	}
 }); 
@@ -7234,10 +7677,11 @@ WeatherOutlook.insert({
 			January: 20.8098657143, 
 			February: 14.89, 
 			March: 14.0623591667, 
-			April: 15.0929861111, 
-			May: 130.1153933333, 
-			June: 254.3790688889, 
-			July: 245.0055344444 
+			April: 13.73, 
+			May: 110.7, 
+			June: 248.39, 
+			July: 394.65, 
+			Aug: 435.23 
 		}
 	}
 }); 
@@ -7251,10 +7695,11 @@ WeatherOutlook.insert({
 			January: 37.5826988571, 
 			February: 23.85, 
 			March: 27.4798925, 
-			April: 25.6978816667, 
-			May: 151.6968619444, 
-			June: 249.7842263889, 
-			July: 349.8155622222 
+			April: 25.67, 
+			May: 142.14, 
+			June: 265.8, 
+			July: 403.07, 
+			Aug: 427.47 
 		}
 	}
 }); 
@@ -7268,10 +7713,11 @@ WeatherOutlook.insert({
 			January: 10.9075914286, 
 			February: 7.16, 
 			March: 11.6429322857, 
-			April: 8.7605751429, 
-			May: 124.6162548571, 
-			June: 241.5615708571, 
-			July: 243.9791041667 
+			April: 20.59, 
+			May: 129.38, 
+			June: 244.96, 
+			July: 433.94, 
+			Aug: 468.81 
 		}
 	}
 }); 
@@ -7285,10 +7731,11 @@ WeatherOutlook.insert({
 			January: 29.5645833333, 
 			February: 19.48, 
 			March: 20.8678407407, 
-			April: 19.7182759259, 
-			May: 144.1131178704, 
-			June: 257.297197037, 
-			July: 371.2675025926 
+			April: 17.41, 
+			May: 146.96, 
+			June: 263.39, 
+			July: 429.45, 
+			Aug: 540.88 
 		}
 	}
 }); 
@@ -7302,10 +7749,11 @@ WeatherOutlook.insert({
 			January: 20.5905392857, 
 			February: 16.02, 
 			March: 14.8024305556, 
-			April: 24.4156343056, 
-			May: 151.1227023611, 
-			June: 290.2856170833, 
-			July: 299.1129868056 
+			April: 23.67, 
+			May: 137.49, 
+			June: 253.77, 
+			July: 492.89, 
+			Aug: 447.95 
 		}
 	}
 }); 
@@ -7319,10 +7767,11 @@ WeatherOutlook.insert({
 			January: 31.1990968571, 
 			February: 20.2, 
 			March: 20.37401, 
-			April: 21.7672736111, 
-			May: 137.9302916667, 
-			June: 251.4150936111, 
-			July: 363.8292719444 
+			April: 22.44, 
+			May: 130.9, 
+			June: 249.63, 
+			July: 418.72, 
+			Aug: 488.44 
 		}
 	}
 }); 
@@ -7336,10 +7785,11 @@ WeatherOutlook.insert({
 			January: 25.7033325714, 
 			February: 15.2, 
 			March: 14.9178835185, 
-			April: 17.7674111111, 
-			May: 143.9155115741, 
-			June: 262.8006615741, 
-			July: 259.9844644444 
+			April: 17.53, 
+			May: 118.98, 
+			June: 251.68, 
+			July: 434.07, 
+			Aug: 474.87 
 		}
 	}
 }); 
@@ -7353,10 +7803,11 @@ WeatherOutlook.insert({
 			January: 17.2030421429, 
 			February: 11.5, 
 			March: 10.4799113889, 
-			April: 13.0279458333, 
-			May: 123.7023222222, 
-			June: 253.6576548611, 
-			July: 247.1608955556 
+			April: 15.36, 
+			May: 150.41, 
+			June: 242.31, 
+			July: 418.18, 
+			Aug: 521.68 
 		}
 	}
 }); 
@@ -7370,10 +7821,11 @@ WeatherOutlook.insert({
 			January: 30.9831589286, 
 			February: 19.91, 
 			March: 26.0152389583, 
-			April: 29.3195848611, 
-			May: 169.2744036111, 
-			June: 275.4355989583, 
-			July: 287.8634630556 
+			April: 25.45, 
+			May: 113.01, 
+			June: 259.93, 
+			July: 478.98, 
+			Aug: 466.51 
 		}
 	}
 }); 
@@ -7387,10 +7839,11 @@ WeatherOutlook.insert({
 			January: 20.8025077143, 
 			February: 14.98, 
 			March: 14.8338959722, 
-			April: 26.5166618056, 
-			May: 156.0763090278, 
-			June: 286.8124438889, 
-			July: 277.7689647222 
+			April: 9.4, 
+			May: 144.93, 
+			June: 259.45, 
+			July: 373.97, 
+			Aug: 561.07 
 		}
 	}
 }); 
@@ -7404,10 +7857,11 @@ WeatherOutlook.insert({
 			January: 9.9725069714, 
 			February: 10.2, 
 			March: 9.1665486095, 
-			April: 20.2668227698, 
-			May: 153.3815737175, 
-			June: 301.1560783079, 
-			July: 245.8569038889 
+			April: 26.4, 
+			May: 142.11, 
+			June: 235.65, 
+			July: 481.33, 
+			Aug: 584.52 
 		}
 	}
 }); 
@@ -7421,10 +7875,11 @@ WeatherOutlook.insert({
 			January: 31.4397171429, 
 			February: 24.78, 
 			March: 34.8283713889, 
-			April: 34.5755969444, 
-			May: 169.3711272222, 
-			June: 257.7869952778, 
-			July: 279.6021422222 
+			April: 20.89, 
+			May: 139.08, 
+			June: 238.59, 
+			July: 505.59, 
+			Aug: 554.19 
 		}
 	}
 }); 
@@ -7438,10 +7893,11 @@ WeatherOutlook.insert({
 			January: 9.3208908571, 
 			February: 14.23, 
 			March: 9.4928061111, 
-			April: 17.0661483333, 
-			May: 145.88363, 
-			June: 274.9881513889, 
-			July: 340.4085765278 
+			April: 17.71, 
+			May: 113.01, 
+			June: 235.75, 
+			July: 485.81, 
+			Aug: 466.51 
 		}
 	}
 }); 
@@ -7455,10 +7911,11 @@ WeatherOutlook.insert({
 			January: 9.4230222857, 
 			February: 8.55, 
 			March: 8.4340719444, 
-			April: 9.4021841667, 
-			May: 122.3086008333, 
-			June: 251.5902002778, 
-			July: 240.7137847222 
+			April: 9.4, 
+			May: 118.83, 
+			June: 236.66, 
+			July: 373.97, 
+			Aug: 507.12 
 		}
 	}
 }); 
@@ -7472,10 +7929,11 @@ WeatherOutlook.insert({
 			January: 46.4167027429, 
 			February: 25.98, 
 			March: 37.3763851667, 
-			April: 31.7270684444, 
-			May: 167.8584975, 
-			June: 253.7907158889, 
-			July: 291.1762956667 
+			April: 12.88, 
+			May: 152.47, 
+			June: 270.71, 
+			July: 425.23, 
+			Aug: 435.94 
 		}
 	}
 }); 
@@ -7489,10 +7947,11 @@ WeatherOutlook.insert({
 			January: 36.5465451429, 
 			February: 18.24, 
 			March: 31.3025169444, 
-			April: 32.2567252778, 
-			May: 176.2901972222, 
-			June: 240.8014661111, 
-			July: 298.9314466667 
+			April: 29.48, 
+			May: 150.39, 
+			June: 254.22, 
+			July: 450.97, 
+			Aug: 410.43 
 		}
 	}
 }); 
@@ -7506,10 +7965,11 @@ WeatherOutlook.insert({
 			January: 11.0779515238, 
 			February: 14.2, 
 			March: 10.8222027778, 
-			April: 15.7765726852, 
-			May: 143.7978531481, 
-			June: 264.3159314815, 
-			July: 311.7719989815 
+			April: 29.75, 
+			May: 132.16, 
+			June: 231.73, 
+			July: 384.83, 
+			Aug: 515.78 
 		}
 	}
 }); 
@@ -7523,10 +7983,11 @@ WeatherOutlook.insert({
 			January: 9.9386554286, 
 			February: 9.32, 
 			March: 9.2178216667, 
-			April: 19.9895333333, 
-			May: 153.8818127778, 
-			June: 292.01597, 
-			July: 345.1680369444 
+			April: 15.68, 
+			May: 142.73, 
+			June: 230.29, 
+			July: 458.4, 
+			Aug: 605.74 
 		}
 	}
 }); 
@@ -7540,10 +8001,11 @@ WeatherOutlook.insert({
 			January: 28.1033674286, 
 			February: 16.95, 
 			March: 17.3094527778, 
-			April: 20.4436233333, 
-			May: 158.6850083333, 
-			June: 267.1442238889, 
-			July: 258.5105197222 
+			April: 19.55, 
+			May: 149.39, 
+			June: 255.22, 
+			July: 510.33, 
+			Aug: 490.65 
 		}
 	}
 }); 
@@ -7557,10 +8019,11 @@ WeatherOutlook.insert({
 			January: 137.8889100255, 
 			February: 88.39, 
 			March: 152.0447859896, 
-			April: 73.5339979147, 
-			May: 123.5002254196, 
-			June: 204.8182805296, 
-			July: 309.5541126595 
+			April: 82.31, 
+			May: 124.51, 
+			June: 208.87, 
+			July: 264.29, 
+			Aug: 203.24 
 		}
 	}
 }); 
@@ -7574,10 +8037,11 @@ WeatherOutlook.insert({
 			January: 120.602978, 
 			February: 83.79, 
 			March: 173.9392431944, 
-			April: 73.0645116667, 
-			May: 133.1732023611, 
-			June: 186.9664723611, 
-			July: 310.8221215278 
+			April: 80.46, 
+			May: 123.16, 
+			June: 208.52, 
+			July: 262.06, 
+			Aug: 210.57 
 		}
 	}
 }); 
@@ -7591,10 +8055,11 @@ WeatherOutlook.insert({
 			January: 139.7352060952, 
 			February: 85.49, 
 			March: 198.9107808333, 
-			April: 70.2341783333, 
-			May: 129.6761290741, 
-			June: 199.2666360185, 
-			July: 334.1438692593 
+			April: 72.47, 
+			May: 113.82, 
+			June: 229.17, 
+			July: 275.75, 
+			Aug: 174.92 
 		}
 	}
 }); 
@@ -7608,10 +8073,11 @@ WeatherOutlook.insert({
 			January: 149.3847568571, 
 			February: 92.06, 
 			March: 211.8469102778, 
-			April: 64.8352301389, 
-			May: 148.5934129167, 
-			June: 216.8453684722, 
-			July: 319.1689026111 
+			April: 71.55, 
+			May: 118.11, 
+			June: 228.22, 
+			July: 265.37, 
+			Aug: 200.52 
 		}
 	}
 }); 
@@ -7625,10 +8091,11 @@ WeatherOutlook.insert({
 			January: 114.504054, 
 			February: 84.49, 
 			March: 150.1412161111, 
-			April: 79.4258347222, 
-			May: 130.682105, 
-			June: 186.7597697222, 
-			July: 312.1769080556 
+			April: 86.35, 
+			May: 134.12, 
+			June: 195.78, 
+			July: 248.51, 
+			Aug: 199.65 
 		}
 	}
 }); 
@@ -7642,10 +8109,11 @@ WeatherOutlook.insert({
 			January: 121.8602511905, 
 			February: 85.21, 
 			March: 170.4102774537, 
-			April: 73.8908855556, 
-			May: 129.4312808333, 
-			June: 200.8407191204, 
-			July: 241.7824856944 
+			April: 82.02, 
+			May: 132.17, 
+			June: 212.9, 
+			July: 248.24, 
+			Aug: 202.74 
 		}
 	}
 }); 
@@ -7659,10 +8127,11 @@ WeatherOutlook.insert({
 			January: 149.4968317959, 
 			February: 91.19, 
 			March: 145.4087141156, 
-			April: 59.0376656757, 
-			May: 116.0736655136, 
-			June: 199.4718061054, 
-			July: 297.9956287698 
+			April: 67.11, 
+			May: 119.27, 
+			June: 205.96, 
+			July: 259.9, 
+			Aug: 176.49 
 		}
 	}
 }); 
@@ -7676,10 +8145,11 @@ WeatherOutlook.insert({
 			January: 129.067001619, 
 			February: 85.91, 
 			March: 188.7354825, 
-			April: 71.3489674074, 
-			May: 144.811830463, 
-			June: 216.0241134259, 
-			July: 206.8314399074 
+			April: 79.25, 
+			May: 118.56, 
+			June: 224.92, 
+			July: 277.01, 
+			Aug: 225.29 
 		}
 	}
 }); 
@@ -7693,10 +8163,11 @@ WeatherOutlook.insert({
 			January: 126.6079656429, 
 			February: 85.82, 
 			March: 148.5079864236, 
-			April: 73.1292233681, 
-			May: 127.9697934375, 
-			June: 217.5166433681, 
-			July: 397.6225004861 
+			April: 81.33, 
+			May: 117.53, 
+			June: 204.38, 
+			July: 286.29, 
+			Aug: 212.1 
 		}
 	}
 }); 
@@ -7710,10 +8181,11 @@ WeatherOutlook.insert({
 			January: 165.0689941905, 
 			February: 89.18, 
 			March: 107.8016041825, 
-			April: 69.2363488968, 
-			May: 124.7516770238, 
-			June: 193.7968922275, 
-			July: 255.6015344444 
+			April: 79.51, 
+			May: 125.85, 
+			June: 226.46, 
+			July: 255.15, 
+			Aug: 156.24 
 		}
 	}
 }); 
@@ -7727,10 +8199,11 @@ WeatherOutlook.insert({
 			January: 118.9970942143, 
 			February: 85.01, 
 			March: 164.7802872222, 
-			April: 76.7183929167, 
-			May: 136.7643075694, 
-			June: 197.7695334722, 
-			July: 278.7318953472 
+			April: 83.28, 
+			May: 132.58, 
+			June: 204.45, 
+			July: 236.76, 
+			Aug: 196.17 
 		}
 	}
 }); 
@@ -7744,10 +8217,11 @@ WeatherOutlook.insert({
 			January: 124.0045121429, 
 			February: 68.32, 
 			March: 87.9886961111, 
-			April: 67.3118663889, 
-			May: 117.8633288889, 
-			June: 240.9312761111, 
-			July: 262.8029256429 
+			April: 75.78, 
+			May: 120.72, 
+			June: 206.37, 
+			July: 284.3, 
+			Aug: 221.44 
 		}
 	}
 }); 
@@ -7761,10 +8235,11 @@ WeatherOutlook.insert({
 			January: 142.3434575714, 
 			February: 86.92, 
 			March: 203.2214338889, 
-			April: 70.1605859722, 
-			May: 128.0044843056, 
-			June: 196.9491836111, 
-			July: 358.1223756944 
+			April: 70.16, 
+			May: 118.22, 
+			June: 219.13, 
+			July: 250.36, 
+			Aug: 201.48 
 		}
 	}
 }); 
@@ -7778,10 +8253,11 @@ WeatherOutlook.insert({
 			January: 161.6867121905, 
 			February: 89.63, 
 			March: 114.060780463, 
-			April: 78.7092158333, 
-			May: 112.1553759259, 
-			June: 197.948430463, 
-			July: 384.0393036111 
+			April: 83.15, 
+			May: 115.23, 
+			June: 211.15, 
+			July: 283.12, 
+			Aug: 198.56 
 		}
 	}
 }); 
@@ -7795,10 +8271,11 @@ WeatherOutlook.insert({
 			January: 113.4246015714, 
 			February: 84.2, 
 			March: 152.9654748611, 
-			April: 82.2384691667, 
-			May: 128.0201984722, 
-			June: 190.7327858333, 
-			July: 269.5576490278 
+			April: 89.63, 
+			May: 130.85, 
+			June: 197.91, 
+			July: 244.65, 
+			Aug: 204.35 
 		}
 	}
 }); 
@@ -7812,10 +8289,11 @@ WeatherOutlook.insert({
 			January: 163.5389017143, 
 			February: 101.46, 
 			March: 171.8129845833, 
-			April: 68.0672359722, 
-			May: 125.0161056944, 
-			June: 221.6870633333, 
-			July: 249.5382848611 
+			April: 76.29, 
+			May: 123.87, 
+			June: 213.98, 
+			July: 284.43, 
+			Aug: 201.47 
 		}
 	}
 }); 
@@ -7829,10 +8307,11 @@ WeatherOutlook.insert({
 			January: 173.4606257143, 
 			February: 104.8, 
 			March: 171.7427737037, 
-			April: 68.4852377778, 
-			May: 121.7187184259, 
-			June: 214.5855730556, 
-			July: 291.4245684921 
+			April: 77.2, 
+			May: 126.85, 
+			June: 207.85, 
+			July: 290.36, 
+			Aug: 202.31 
 		}
 	}
 }); 
@@ -7846,10 +8325,11 @@ WeatherOutlook.insert({
 			January: 112.9814719643, 
 			February: 81.22, 
 			March: 142.8114998611, 
-			April: 70.9329678125, 
-			May: 121.4193469097, 
-			June: 223.9951678472, 
-			July: 373.1824495486 
+			April: 78.85, 
+			May: 131.65, 
+			June: 210.61, 
+			July: 279.81, 
+			Aug: 234.76 
 		}
 	}
 }); 
@@ -7863,10 +8343,11 @@ WeatherOutlook.insert({
 			January: 146.9866807143, 
 			February: 93.94, 
 			March: 150.7887161111, 
-			April: 72.4379945833, 
-			May: 108.5162556944, 
-			June: 191.0188758333, 
-			July: 401.3540906944 
+			April: 79.94, 
+			May: 121.44, 
+			June: 222.86, 
+			July: 272.27, 
+			Aug: 221.38 
 		}
 	}
 }); 
@@ -7880,10 +8361,29 @@ WeatherOutlook.insert({
 			January: 129.4475842857, 
 			February: 86.08, 
 			March: 144.2827727778, 
-			April: 70.0609702778, 
-			May: 104.9442958333, 
-			June: 196.8598116667, 
-			July: 331.7283144444 
+			April: 72.48, 
+			May: 132.05, 
+			June: 187.09, 
+			July: 257.61, 
+			Aug: 197.57 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
+	province: "Cebu", 
+	municipality: "Cordoba", 
+	data: {
+		month: {
+			January: 207.5960261429, 
+			February: 121.3, 
+			March: 133.1033783333, 
+			April: 60.9, 
+			May: 136.64, 
+			June: 195.74, 
+			July: 197.88, 
+			Aug: 179.74 
 		}
 	}
 }); 
@@ -7894,13 +8394,14 @@ WeatherOutlook.insert({
 	municipality: "Daanbantayan", 
 	data: {
 		month: {
-			January: 207.5960261429, 
-			February: 121.3, 
-			March: 133.1033783333, 
-			April: 90.8737334722, 
-			May: 128.2380122222, 
-			June: 222.2503533333, 
-			July: 247.0941583333 
+			January: 130.0685777857, 
+			February: 86.3, 
+			March: 186.6300378472, 
+			April: 96.23, 
+			May: 117.16, 
+			June: 212.84, 
+			July: 273.94, 
+			Aug: 188.49 
 		}
 	}
 }); 
@@ -7911,13 +8412,14 @@ WeatherOutlook.insert({
 	municipality: "Dalaguete", 
 	data: {
 		month: {
-			January: 130.0685777857, 
-			February: 86.3, 
-			March: 186.6300378472, 
-			April: 71.6199972917, 
-			May: 135.4014615972, 
-			June: 204.2471411111, 
-			July: 269.4774772222 
+			January: 151.8496477143, 
+			February: 95.39, 
+			March: 160.8037515278, 
+			April: 77.29, 
+			May: 113.82, 
+			June: 213.29, 
+			July: 269.92, 
+			Aug: 220.65 
 		}
 	}
 }); 
@@ -7928,13 +8430,14 @@ WeatherOutlook.insert({
 	municipality: "Danao City", 
 	data: {
 		month: {
-			January: 151.8496477143, 
-			February: 95.39, 
-			March: 160.8037515278, 
-			April: 71.1100759028, 
-			May: 118.0964470833, 
-			June: 208.8915736111, 
-			July: 309.052721875 
+			January: 253.0642268571, 
+			February: 135.69, 
+			March: 188.6067472222, 
+			April: 78.76, 
+			May: 123.02, 
+			June: 203.78, 
+			July: 276.5, 
+			Aug: 210.5 
 		}
 	}
 }); 
@@ -7945,13 +8448,14 @@ WeatherOutlook.insert({
 	municipality: "Danao Lake", 
 	data: {
 		month: {
-			January: 253.0642268571, 
-			February: 135.69, 
-			March: 188.6067472222, 
-			April: 97.1911986111, 
-			May: 107.1707794444, 
-			June: 198.18599, 
-			July: 350.82649 
+			January: 122.9370141905, 
+			February: 85.25, 
+			March: 178.3028603704, 
+			April: 104.69, 
+			May: 94.7, 
+			June: 231.79, 
+			July: 274.22, 
+			Aug: 180.02 
 		}
 	}
 }); 
@@ -7962,13 +8466,14 @@ WeatherOutlook.insert({
 	municipality: "Dumanjug", 
 	data: {
 		month: {
-			January: 122.9370141905, 
-			February: 85.25, 
-			March: 178.3028603704, 
-			April: 72.8756187037, 
-			May: 135.4404565741, 
-			June: 173.440160463, 
-			July: 309.8079193519 
+			January: 125.2405611429, 
+			February: 78.48, 
+			March: 190.8026391667, 
+			April: 80.99, 
+			May: 131.33, 
+			June: 201.6, 
+			July: 240.48, 
+			Aug: 179.29 
 		}
 	}
 }); 
@@ -7979,13 +8484,14 @@ WeatherOutlook.insert({
 	municipality: "Ginatilan", 
 	data: {
 		month: {
-			January: 125.2405611429, 
-			February: 78.48, 
-			March: 190.8026391667, 
-			April: 79.2421275, 
-			May: 133.0310833333, 
-			June: 195.1343044444, 
-			July: 293.2277794444 
+			January: 115.9964035238, 
+			February: 84.71, 
+			March: 129.810687828, 
+			April: 71.74, 
+			May: 109.23, 
+			June: 233.41, 
+			July: 251.44, 
+			Aug: 217.62 
 		}
 	}
 }); 
@@ -7996,13 +8502,14 @@ WeatherOutlook.insert({
 	municipality: "Lapu-Lapu City", 
 	data: {
 		month: {
-			January: 115.9964035238, 
-			February: 84.71, 
-			March: 129.810687828, 
-			April: 58.4549120661, 
-			May: 78.0867370582, 
-			June: 181.438450672, 
-			July: 287.1559201852 
+			January: 134.3022357143, 
+			February: 89.34, 
+			March: 139.5599119444, 
+			April: 61.41, 
+			May: 140.11, 
+			June: 210.71, 
+			July: 215.67, 
+			Aug: 176.02 
 		}
 	}
 }); 
@@ -8013,13 +8520,14 @@ WeatherOutlook.insert({
 	municipality: "Liloan", 
 	data: {
 		month: {
-			January: 134.3022357143, 
-			February: 89.34, 
-			March: 139.5599119444, 
-			April: 68.4755004167, 
-			May: 94.8563816667, 
-			June: 182.5271033333, 
-			July: 360.5327773611 
+			January: 178.2216302857, 
+			February: 92.34, 
+			March: 112.6453794444, 
+			April: 76.77, 
+			May: 98.01, 
+			June: 189.85, 
+			July: 276.91, 
+			Aug: 209.18 
 		}
 	}
 }); 
@@ -8030,13 +8538,14 @@ WeatherOutlook.insert({
 	municipality: "Madridejos", 
 	data: {
 		month: {
-			January: 178.2216302857, 
-			February: 92.34, 
-			March: 112.6453794444, 
-			April: 71.6067088889, 
-			May: 125.96554, 
-			June: 196.5737711111, 
-			July: 272.7920361111 
+			January: 142.5079416429, 
+			February: 87, 
+			March: 211.8789624444, 
+			April: 79.24, 
+			May: 117.04, 
+			June: 211.9, 
+			July: 286.37, 
+			Aug: 158.16 
 		}
 	}
 }); 
@@ -8047,13 +8556,14 @@ WeatherOutlook.insert({
 	municipality: "Malabuyoc", 
 	data: {
 		month: {
-			January: 142.5079416429, 
-			February: 87, 
-			March: 211.8789624444, 
-			April: 70.7336655218, 
-			May: 140.4286355714, 
-			June: 209.359935252, 
-			July: 323.7766733333 
+			January: 113.8321672857, 
+			February: 80.56, 
+			March: 127.8779318056, 
+			April: 70.05, 
+			May: 118.23, 
+			June: 217.75, 
+			July: 254.19, 
+			Aug: 189.38 
 		}
 	}
 }); 
@@ -8064,13 +8574,14 @@ WeatherOutlook.insert({
 	municipality: "Mandaue City", 
 	data: {
 		month: {
-			January: 113.8321672857, 
-			February: 80.56, 
-			March: 127.8779318056, 
-			April: 61.7090981944, 
-			May: 87.147915, 
-			June: 189.5862369444, 
-			July: 336.8312015278 
+			January: 169.1958387143, 
+			February: 96.2, 
+			March: 112.9321488889, 
+			April: 70.7, 
+			May: 148.91, 
+			June: 213.08, 
+			July: 250.92, 
+			Aug: 197.9 
 		}
 	}
 }); 
@@ -8081,13 +8592,14 @@ WeatherOutlook.insert({
 	municipality: "Medellin", 
 	data: {
 		month: {
-			January: 169.1958387143, 
-			February: 96.2, 
-			March: 112.9321488889, 
-			April: 83.5137358333, 
-			May: 124.4261761111, 
-			June: 220.4863134722, 
-			July: 265.5670208333 
+			January: 91.3294494286, 
+			February: 80.78, 
+			March: 140.6507694444, 
+			April: 92.06, 
+			May: 118.84, 
+			June: 225.57, 
+			July: 269.41, 
+			Aug: 193.08 
 		}
 	}
 }); 
@@ -8098,13 +8610,14 @@ WeatherOutlook.insert({
 	municipality: "Minglanilla", 
 	data: {
 		month: {
-			January: 91.3294494286, 
-			February: 80.78, 
-			March: 140.6507694444, 
-			April: 84.7798363889, 
-			May: 141.4289405556, 
-			June: 230.4187563889, 
-			July: 315.0889302778 
+			January: 121.6140945714, 
+			February: 83.07, 
+			March: 170.5125188889, 
+			April: 99.19, 
+			May: 138.1, 
+			June: 208.41, 
+			July: 275.65, 
+			Aug: 264.88 
 		}
 	}
 }); 
@@ -8115,13 +8628,14 @@ WeatherOutlook.insert({
 	municipality: "Moalboal", 
 	data: {
 		month: {
-			January: 121.6140945714, 
-			February: 83.07, 
-			March: 170.5125188889, 
-			April: 73.0334536111, 
-			May: 134.7468765741, 
-			June: 194.5403403704, 
-			July: 265.9421888889 
+			January: 98.4098115238, 
+			February: 83.31, 
+			March: 149.620957037, 
+			April: 80.38, 
+			May: 125, 
+			June: 207.33, 
+			July: 238.85, 
+			Aug: 194.36 
 		}
 	}
 }); 
@@ -8132,13 +8646,14 @@ WeatherOutlook.insert({
 	municipality: "Naga City", 
 	data: {
 		month: {
-			January: 98.4098115238, 
-			February: 83.31, 
-			March: 149.620957037, 
-			April: 88.4231544444, 
-			May: 144.9145451852, 
-			June: 227.1075046296, 
-			July: 277.9129696296 
+			January: 122.0182902857, 
+			February: 76.61, 
+			March: 186.2743286111, 
+			April: 98.92, 
+			May: 126.58, 
+			June: 194.83, 
+			July: 279.23, 
+			Aug: 240.23 
 		}
 	}
 }); 
@@ -8149,13 +8664,14 @@ WeatherOutlook.insert({
 	municipality: "Oslob", 
 	data: {
 		month: {
-			January: 122.0182902857, 
-			February: 76.61, 
-			March: 186.2743286111, 
-			April: 77.6593861111, 
-			May: 120.9400859444, 
-			June: 184.4696529444, 
-			July: 345.1052667778 
+			January: 316.2939028571, 
+			February: 154.58, 
+			March: 200.2966333333, 
+			April: 70.07, 
+			May: 115.3, 
+			June: 220.3, 
+			July: 229.78, 
+			Aug: 192.6 
 		}
 	}
 }); 
@@ -8166,13 +8682,14 @@ WeatherOutlook.insert({
 	municipality: "Pilar", 
 	data: {
 		month: {
-			January: 316.2939028571, 
-			February: 154.58, 
-			March: 200.2966333333, 
-			April: 118.8957438889, 
-			May: 132.0883097222, 
-			June: 228.7422938889, 
-			July: 217.8657813889 
+			January: 110.9520321714, 
+			February: 84.84, 
+			March: 145.1484014254, 
+			April: 125.17, 
+			May: 118.18, 
+			June: 196.99, 
+			July: 284.33, 
+			Aug: 221.57 
 		}
 	}
 }); 
@@ -8183,13 +8700,14 @@ WeatherOutlook.insert({
 	municipality: "Pinamungahan", 
 	data: {
 		month: {
-			January: 110.9520321714, 
-			February: 84.84, 
-			March: 145.1484014254, 
-			April: 78.7280095635, 
-			May: 130.535035073, 
-			June: 201.8353364111, 
-			July: 309.7030948333 
+			January: 270.226454, 
+			February: 143.19, 
+			March: 198.3092091667, 
+			April: 87.96, 
+			May: 143.67, 
+			June: 204.11, 
+			July: 260.62, 
+			Aug: 225.3 
 		}
 	}
 }); 
@@ -8200,13 +8718,32 @@ WeatherOutlook.insert({
 	municipality: "Poro", 
 	data: {
 		month: {
-			January: 270.226454, 
-			February: 143.19, 
-			March: 198.3092091667, 
-			April: 105.8438252778, 
-			May: 118.4093297222, 
-			June: 229.5164663889, 
-			July: 331.5702652778 
+			January: 115.6342194286, 
+			February: 72.66, 
+			March: 184.6724141667, 
+			April: 112.13, 
+			May: 110.15, 
+			June: 215.02, 
+			July: 263.1, 
+			Aug: 209.84 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VII: Central Visayas", 
+	province: "Cebu", 
+	municipality: "Ronda", 
+	data: {
+		month: {
+			January: 107.247196, 
+			February: 83.83, 
+			March: 150.0597755556, 
+			April: 80.65, 
+			May: 132.15, 
+			June: 217.94, 
+			July: 252.17, 
+			Aug: 195.84 
 		}
 	}
 }); 
@@ -8217,13 +8754,14 @@ WeatherOutlook.insert({
 	municipality: "Samboan", 
 	data: {
 		month: {
-			January: 115.6342194286, 
-			February: 72.66, 
-			March: 184.6724141667, 
-			April: 77.8640052778, 
-			May: 123.34856, 
-			June: 192.7875919444, 
-			July: 323.6854213889 
+			January: 246.463922, 
+			February: 134.67, 
+			March: 193.8066794444, 
+			April: 69.01, 
+			May: 115.13, 
+			June: 224.94, 
+			July: 232.11, 
+			Aug: 204.65 
 		}
 	}
 }); 
@@ -8234,13 +8772,14 @@ WeatherOutlook.insert({
 	municipality: "San Fernando", 
 	data: {
 		month: {
-			January: 107.247196, 
-			February: 83.83, 
-			March: 150.0597755556, 
-			April: 83.8520943519, 
-			May: 133.8468267593, 
-			June: 200.0341512037, 
-			July: 314.8693101852 
+			January: 125.7433094286, 
+			February: 69.87, 
+			March: 89.4883738611, 
+			April: 92.54, 
+			May: 133.62, 
+			June: 189.79, 
+			July: 270.03, 
+			Aug: 221.28 
 		}
 	}
 }); 
@@ -8251,13 +8790,14 @@ WeatherOutlook.insert({
 	municipality: "San Francisco", 
 	data: {
 		month: {
-			January: 246.463922, 
-			February: 134.67, 
-			March: 193.8066794444, 
-			April: 94.7011375, 
-			May: 109.9164058333, 
-			June: 198.7352863889, 
-			July: 315.9121302778 
+			January: 185.4608385714, 
+			February: 98.55, 
+			March: 115.7481856865, 
+			April: 107.09, 
+			May: 124.23, 
+			June: 218.49, 
+			July: 287.38, 
+			Aug: 187.67 
 		}
 	}
 }); 
@@ -8268,13 +8808,14 @@ WeatherOutlook.insert({
 	municipality: "San Remigio", 
 	data: {
 		month: {
-			January: 125.7433094286, 
-			February: 69.87, 
-			March: 89.4883738611, 
-			April: 73.4822705159, 
-			May: 115.4603315397, 
-			June: 230.7781723254, 
-			July: 251.9188904167 
+			January: 107.4328234286, 
+			February: 66.33, 
+			March: 165.0430691667, 
+			April: 82.14, 
+			May: 111.13, 
+			June: 218.33, 
+			July: 285.15, 
+			Aug: 211.17 
 		}
 	}
 }); 
@@ -8285,13 +8826,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Fe", 
 	data: {
 		month: {
-			January: 185.4608385714, 
-			February: 98.55, 
-			March: 115.7481856865, 
-			April: 75.8969153254, 
-			May: 125.9631852103, 
-			June: 203.1397048016, 
-			July: 234.6805686111 
+			January: 119.0915522143, 
+			February: 86.46, 
+			March: 170.1817325694, 
+			April: 85.55, 
+			May: 121.18, 
+			June: 215.17, 
+			July: 295.28, 
+			Aug: 184.2 
 		}
 	}
 }); 
@@ -8302,13 +8844,14 @@ WeatherOutlook.insert({
 	municipality: "Santander", 
 	data: {
 		month: {
-			January: 107.4328234286, 
-			February: 66.33, 
-			March: 165.0430691667, 
-			April: 75.4303683333, 
-			May: 102.5600466667, 
-			June: 166.2731041667, 
-			July: 350.2017730556 
+			January: 177.8041842857, 
+			February: 101.92, 
+			March: 128.8790727778, 
+			April: 69.01, 
+			May: 114.01, 
+			June: 209.45, 
+			July: 227.85, 
+			Aug: 204.65 
 		}
 	}
 }); 
@@ -8319,13 +8862,14 @@ WeatherOutlook.insert({
 	municipality: "Sibonga", 
 	data: {
 		month: {
-			January: 119.0915522143, 
-			February: 86.46, 
-			March: 170.1817325694, 
-			April: 76.2459130556, 
-			May: 131.6711015278, 
-			June: 196.6170084722, 
-			July: 292.4102780556 
+			January: 127.437796, 
+			February: 69.52, 
+			March: 92.84044, 
+			April: 84.72, 
+			May: 141.46, 
+			June: 202.97, 
+			July: 255.81, 
+			Aug: 197.31 
 		}
 	}
 }); 
@@ -8336,13 +8880,14 @@ WeatherOutlook.insert({
 	municipality: "Sogod", 
 	data: {
 		month: {
-			January: 177.8041842857, 
-			February: 101.92, 
-			March: 128.8790727778, 
-			April: 66.9156925, 
-			May: 112.9750811111, 
-			June: 200.8886063889, 
-			July: 324.4976747222 
+			January: 157.5057050714, 
+			February: 86.85, 
+			March: 109.7401434861, 
+			April: 74.69, 
+			May: 115.06, 
+			June: 213.79, 
+			July: 284.19, 
+			Aug: 185.27 
 		}
 	}
 }); 
@@ -8353,13 +8898,14 @@ WeatherOutlook.insert({
 	municipality: "Tabogon", 
 	data: {
 		month: {
-			January: 127.437796, 
-			February: 69.52, 
-			March: 92.84044, 
-			April: 71.8738457407, 
-			May: 113.6925725, 
-			June: 232.9333988889, 
-			July: 268.687975 
+			January: 94.5632198571, 
+			February: 82.99, 
+			March: 141.0461983333, 
+			April: 81.19, 
+			May: 108.97, 
+			June: 201.73, 
+			July: 277.72, 
+			Aug: 213.81 
 		}
 	}
 }); 
@@ -8370,13 +8916,14 @@ WeatherOutlook.insert({
 	municipality: "Tabuelan", 
 	data: {
 		month: {
-			January: 157.5057050714, 
-			February: 86.85, 
-			March: 109.7401434861, 
-			April: 76.1351018393, 
-			May: 111.5946546806, 
-			June: 193.4685539484, 
-			July: 316.4319464583 
+			January: 109.5509528214, 
+			February: 84.68, 
+			March: 142.8644008403, 
+			April: 79.02, 
+			May: 108.72, 
+			June: 192.04, 
+			July: 271.42, 
+			Aug: 174.8 
 		}
 	}
 }); 
@@ -8387,13 +8934,14 @@ WeatherOutlook.insert({
 	municipality: "Talisay City", 
 	data: {
 		month: {
-			January: 94.5632198571, 
-			February: 82.99, 
-			March: 141.0461983333, 
-			April: 78.6302443056, 
-			May: 131.2721384722, 
-			June: 226.9734029167, 
-			July: 331.87119125 
+			January: 165.1830043492, 
+			February: 97.02, 
+			March: 126.5667248492, 
+			April: 91.64, 
+			May: 138.56, 
+			June: 199.47, 
+			July: 250.76, 
+			Aug: 225.95 
 		}
 	}
 }); 
@@ -8404,13 +8952,14 @@ WeatherOutlook.insert({
 	municipality: "Toledo City", 
 	data: {
 		month: {
-			January: 109.5509528214, 
-			February: 84.68, 
-			March: 142.8644008403, 
-			April: 79.4049080357, 
-			May: 132.8595325714, 
-			June: 216.8456020982, 
-			July: 363.3447215972 
+			January: 283.4902291429, 
+			February: 148.29, 
+			March: 201.3428816667, 
+			April: 87.09, 
+			May: 108.74, 
+			June: 216.6, 
+			July: 274.55, 
+			Aug: 227.48 
 		}
 	}
 }); 
@@ -8421,13 +8970,14 @@ WeatherOutlook.insert({
 	municipality: "Tuburan", 
 	data: {
 		month: {
-			January: 165.1830043492, 
-			February: 97.02, 
-			March: 126.5667248492, 
-			April: 56.5717406975, 
-			May: 106.2803084083, 
-			June: 186.5671558571, 
-			July: 295.4052625 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 61.78, 
+			May: 129.47, 
+			June: 203.84, 
+			July: 253.93, 
+			Aug: 146.77 
 		}
 	}
 }); 
@@ -8438,13 +8988,14 @@ WeatherOutlook.insert({
 	municipality: "Tudela", 
 	data: {
 		month: {
-			January: 283.4902291429, 
-			February: 148.29, 
-			March: 201.3428816667, 
-			April: 111.3948141667, 
-			May: 121.3006569444, 
-			June: 225.9081775, 
-			July: 341.8488388889 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 117.82, 
+			May: 122.89, 
+			June: 213.69, 
+			July: 283.49, 
+			Aug: 218.7 
 		}
 	}
 }); 
@@ -8458,10 +9009,11 @@ WeatherOutlook.insert({
 			January: 405.0301078701, 
 			February: 291.94, 
 			March: 327.777826611, 
-			April: 234.683618894, 
-			May: 236.1109604281, 
-			June: 253.5991723473, 
-			July: 261.6447564088 
+			April: 230.4, 
+			May: 235.63, 
+			June: 257.47, 
+			July: 245.53, 
+			Aug: 233.62 
 		}
 	}
 }); 
@@ -8475,10 +9027,11 @@ WeatherOutlook.insert({
 			January: 483.8111493061, 
 			February: 347.09, 
 			March: 358.4225468254, 
-			April: 267.8792356746, 
-			May: 235.8624547222, 
-			June: 236.4783342857, 
-			July: 245.5077060714 
+			April: 265.15, 
+			May: 232.06, 
+			June: 257.36, 
+			July: 267.33, 
+			Aug: 203.38 
 		}
 	}
 }); 
@@ -8492,10 +9045,11 @@ WeatherOutlook.insert({
 			January: 417.5953088254, 
 			February: 287.26, 
 			March: 372.4850523457, 
-			April: 260.1876252984, 
-			May: 239.9606307305, 
-			June: 282.641145751, 
-			July: 303.281842597 
+			April: 250.06, 
+			May: 237.65, 
+			June: 246.41, 
+			July: 231.95, 
+			Aug: 249.75 
 		}
 	}
 }); 
@@ -8509,10 +9063,11 @@ WeatherOutlook.insert({
 			January: 303.4511214921, 
 			February: 241.92, 
 			March: 268.8917537963, 
-			April: 203.1106429321, 
-			May: 240.5544408333, 
-			June: 263.3377103086, 
-			July: 258.3544427055 
+			April: 196.07, 
+			May: 234, 
+			June: 279.64, 
+			July: 271.49, 
+			Aug: 215.41 
 		}
 	}
 }); 
@@ -8526,10 +9081,11 @@ WeatherOutlook.insert({
 			January: 328.4237748214, 
 			February: 253.44, 
 			March: 260.2594015278, 
-			April: 200.0221837153, 
-			May: 238.2018195486, 
-			June: 244.4584870139, 
-			July: 176.6875054514 
+			April: 193.05, 
+			May: 213.81, 
+			June: 284.2, 
+			July: 247.63, 
+			Aug: 218.88 
 		}
 	}
 }); 
@@ -8543,10 +9099,11 @@ WeatherOutlook.insert({
 			January: 369.5165704935, 
 			February: 293.95, 
 			March: 312.5405976768, 
-			April: 228.8908208081, 
-			May: 234.2749618939, 
-			June: 259.0732324747, 
-			July: 203.8608849242 
+			April: 216.51, 
+			May: 223.74, 
+			June: 238.05, 
+			July: 266.58, 
+			Aug: 228.64 
 		}
 	}
 }); 
@@ -8560,10 +9117,11 @@ WeatherOutlook.insert({
 			January: 407.1330721905, 
 			February: 281.42, 
 			March: 271.5478776389, 
-			April: 193.3385247685, 
-			May: 228.2300875, 
-			June: 215.0918868056, 
-			July: 230.6698670833 
+			April: 183.87, 
+			May: 226.27, 
+			June: 263.42, 
+			July: 251.23, 
+			Aug: 184.79 
 		}
 	}
 }); 
@@ -8577,10 +9135,11 @@ WeatherOutlook.insert({
 			January: 510.3927701224, 
 			February: 336.53, 
 			March: 397.9033671296, 
-			April: 278.073435463, 
-			May: 239.5494517064, 
-			June: 258.5135569444, 
-			July: 322.4925592989 
+			April: 264.82, 
+			May: 243.49, 
+			June: 255.94, 
+			July: 227.68, 
+			Aug: 257.09 
 		}
 	}
 }); 
@@ -8594,10 +9153,11 @@ WeatherOutlook.insert({
 			January: 457.6452197619, 
 			February: 315.57, 
 			March: 328.7146350926, 
-			April: 233.023075787, 
-			May: 236.5042140741, 
-			June: 233.4640794907, 
-			July: 273.9468516204 
+			April: 234.18, 
+			May: 239.97, 
+			June: 244.02, 
+			July: 215.86, 
+			Aug: 236.71 
 		}
 	}
 }); 
@@ -8611,10 +9171,11 @@ WeatherOutlook.insert({
 			January: 444.6446296508, 
 			February: 302.6, 
 			March: 288.7926440741, 
-			April: 197.380456142, 
-			May: 231.5942796914, 
-			June: 212.3709995062, 
-			July: 244.2849086235 
+			April: 188.84, 
+			May: 246.71, 
+			June: 253.66, 
+			July: 262.43, 
+			Aug: 239.77 
 		}
 	}
 }); 
@@ -8628,10 +9189,11 @@ WeatherOutlook.insert({
 			January: 441.1449346316, 
 			February: 332.07, 
 			March: 344.1390226462, 
-			April: 239.8148473977, 
-			May: 243.4125829386, 
-			June: 250.5799404532, 
-			July: 244.6680006759 
+			April: 226.68, 
+			May: 227.52, 
+			June: 262.24, 
+			July: 253.61, 
+			Aug: 220.54 
 		}
 	}
 }); 
@@ -8645,10 +9207,11 @@ WeatherOutlook.insert({
 			January: 277.1974062714, 
 			February: 222.06, 
 			March: 263.5403190187, 
-			April: 199.1473365087, 
-			May: 222.9066067694, 
-			June: 250.5015583246, 
-			July: 243.9788231877 
+			April: 189.19, 
+			May: 233.32, 
+			June: 269.98, 
+			July: 255.13, 
+			Aug: 216.72 
 		}
 	}
 }); 
@@ -8662,10 +9225,11 @@ WeatherOutlook.insert({
 			January: 278.6020451404, 
 			February: 233.02, 
 			March: 276.9310294571, 
-			April: 219.567088933, 
-			May: 240.5507760292, 
-			June: 284.326473225, 
-			July: 246.1728439096 
+			April: 215.76, 
+			May: 234.94, 
+			June: 301.17, 
+			July: 282.71, 
+			Aug: 258.85 
 		}
 	}
 }); 
@@ -8679,10 +9243,11 @@ WeatherOutlook.insert({
 			January: 355.2352596508, 
 			February: 274.13, 
 			March: 301.901338179, 
-			April: 229.1665221296, 
-			May: 236.3088722531, 
-			June: 252.6418690432, 
-			July: 266.9938632099 
+			April: 226.7, 
+			May: 241.66, 
+			June: 274.59, 
+			July: 269.4, 
+			Aug: 283.46 
 		}
 	}
 }); 
@@ -8696,10 +9261,11 @@ WeatherOutlook.insert({
 			January: 258.1621647619, 
 			February: 221.81, 
 			March: 241.5572123148, 
-			April: 213.4875790741, 
-			May: 224.8482374074, 
-			June: 256.6162010185, 
-			July: 204.04209 
+			April: 199.42, 
+			May: 254.34, 
+			June: 273.15, 
+			July: 259.94, 
+			Aug: 268.21 
 		}
 	}
 }); 
@@ -8713,10 +9279,11 @@ WeatherOutlook.insert({
 			January: 232.4212040816, 
 			February: 210.41, 
 			March: 223.1892888889, 
-			April: 211.2655256746, 
-			May: 228.2956788889, 
-			June: 250.2362269444, 
-			July: 210.0162007937 
+			April: 202.5, 
+			May: 226.53, 
+			June: 312.14, 
+			July: 333.68, 
+			Aug: 217.65 
 		}
 	}
 }); 
@@ -8730,10 +9297,11 @@ WeatherOutlook.insert({
 			January: 314.8160874571, 
 			February: 254.3, 
 			March: 320.0485696481, 
-			April: 239.4911353056, 
-			May: 249.7625812037, 
-			June: 321.9184046852, 
-			July: 279.7034627778 
+			April: 229.71, 
+			May: 235.03, 
+			June: 322.16, 
+			July: 248.99, 
+			Aug: 255.04 
 		}
 	}
 }); 
@@ -8747,10 +9315,11 @@ WeatherOutlook.insert({
 			January: 373.8588636786, 
 			February: 278.58, 
 			March: 286.9226748958, 
-			April: 214.2054385764, 
-			May: 236.3747648611, 
-			June: 234.9728900347, 
-			July: 220.4945015972 
+			April: 207.57, 
+			May: 229.35, 
+			June: 273.02, 
+			July: 304.14, 
+			Aug: 235.29 
 		}
 	}
 }); 
@@ -8764,27 +9333,11 @@ WeatherOutlook.insert({
 			January: 208.3501300635, 
 			February: 185.11, 
 			March: 225.5574487346, 
-			April: 204.0613222531, 
-			May: 230.630561821, 
-			June: 261.9322194136, 
-			July: 257.2945241235 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region XI: Davao Region", 
-	province: "Davao del Norte", 
-	municipality: "Samal City", 
-	data: {
-		month: {
-			January: 151.9978635873, 
-			February: 129.01, 
-			March: 168.7911268889, 
-			April: 159.8357187372, 
-			May: 202.8565093951, 
-			June: 214.6953670847, 
-			July: 228.0485407778 
+			April: 196.46, 
+			May: 227.84, 
+			June: 275.89, 
+			July: 281.08, 
+			Aug: 239.08 
 		}
 	}
 }); 
@@ -8798,10 +9351,11 @@ WeatherOutlook.insert({
 			January: 343.3331788571, 
 			February: 268.67, 
 			March: 334.7329227778, 
-			April: 239.6476121667, 
-			May: 241.1929890556, 
-			June: 296.1058434444, 
-			July: 293.7759145556 
+			April: 229.08, 
+			May: 231.21, 
+			June: 304.87, 
+			July: 316.06, 
+			Aug: 273.74 
 		}
 	}
 }); 
@@ -8815,27 +9369,11 @@ WeatherOutlook.insert({
 			January: 263.1382625714, 
 			February: 229.76, 
 			March: 260.6968270139, 
-			April: 218.8055184028, 
-			May: 233.8368007639, 
-			June: 269.6681591667, 
-			July: 236.6234954514 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region XI: Davao Region", 
-	province: "Davao del Norte", 
-	municipality: "Tagum City", 
-	data: {
-		month: {
-			January: 284.4281333571, 
-			February: 235.86, 
-			March: 237.1516936806, 
-			April: 210.6457045139, 
-			May: 228.3536768056, 
-			June: 240.6596520833, 
-			July: 196.553729375 
+			April: 209.23, 
+			May: 240.07, 
+			June: 314.47, 
+			July: 292.39, 
+			Aug: 236.9 
 		}
 	}
 }); 
@@ -8849,10 +9387,11 @@ WeatherOutlook.insert({
 			January: 251.0959491818, 
 			February: 234.05, 
 			March: 291.4639536995, 
-			April: 222.0050936111, 
-			May: 261.2754953662, 
-			June: 326.8382861995, 
-			July: 223.0586285065 
+			April: 214.57, 
+			May: 239.71, 
+			June: 321.89, 
+			July: 282, 
+			Aug: 298.43 
 		}
 	}
 }); 
@@ -8866,10 +9405,11 @@ WeatherOutlook.insert({
 			January: 152.911976756, 
 			February: 125.45, 
 			March: 189.6439944085, 
-			April: 152.7111158761, 
-			May: 192.0015503334, 
-			June: 256.7387814347, 
-			July: 320.6503498353 
+			April: 133.71, 
+			May: 168.57, 
+			June: 263.9, 
+			July: 214.49, 
+			Aug: 196.4 
 		}
 	}
 }); 
@@ -8883,10 +9423,11 @@ WeatherOutlook.insert({
 			January: 142.9256327429, 
 			February: 122.28, 
 			March: 172.5568917222, 
-			April: 153.9387936667, 
-			May: 215.3065877222, 
-			June: 259.4602074444, 
-			July: 394.7314608889 
+			April: 141.29, 
+			May: 117.74, 
+			June: 243.84, 
+			July: 194.68, 
+			Aug: 192.88 
 		}
 	}
 }); 
@@ -8900,10 +9441,11 @@ WeatherOutlook.insert({
 			January: 174.6474094688, 
 			February: 154.65, 
 			March: 213.3652560407, 
-			April: 193.4883181182, 
-			May: 255.2809033998, 
-			June: 288.4797886933, 
-			July: 227.7178408849 
+			April: 190.92, 
+			May: 135, 
+			June: 307.81, 
+			July: 262.61, 
+			Aug: 266.16 
 		}
 	}
 }); 
@@ -8917,10 +9459,11 @@ WeatherOutlook.insert({
 			January: 119.023585, 
 			February: 103.52, 
 			March: 158.2279301389, 
-			April: 142.560345463, 
-			May: 213.0380194444, 
-			June: 250.885912963, 
-			July: 431.8657532407 
+			April: 134.75, 
+			May: 144.27, 
+			June: 271.81, 
+			July: 253.17, 
+			Aug: 213.82 
 		}
 	}
 }); 
@@ -8934,10 +9477,11 @@ WeatherOutlook.insert({
 			January: 165.4580039481, 
 			February: 126.41, 
 			March: 204.4328508081, 
-			April: 134.5040888889, 
-			May: 138.7694343687, 
-			June: 262.827199697, 
-			July: 381.0354832828 
+			April: 126.81, 
+			May: 186.07, 
+			June: 224.65, 
+			July: 253.89, 
+			Aug: 173.84 
 		}
 	}
 }); 
@@ -8951,10 +9495,11 @@ WeatherOutlook.insert({
 			January: 107.9989775238, 
 			February: 81.42, 
 			March: 130.4375630556, 
-			April: 119.1139176852, 
-			May: 154.0389163889, 
-			June: 203.6836234259, 
-			July: 373.4641323148 
+			April: 108.3, 
+			May: 144.06, 
+			June: 321.57, 
+			July: 173.92, 
+			Aug: 158.28 
 		}
 	}
 }); 
@@ -8968,10 +9513,11 @@ WeatherOutlook.insert({
 			January: 164.9579085714, 
 			February: 117.23, 
 			March: 200.9849585386, 
-			April: 134.8046144807, 
-			May: 142.3857727778, 
-			June: 252.5083604348, 
-			July: 303.0034671222 
+			April: 126.42, 
+			May: 208.77, 
+			June: 224.84, 
+			July: 193.27, 
+			Aug: 175.8 
 		}
 	}
 }); 
@@ -8985,10 +9531,11 @@ WeatherOutlook.insert({
 			January: 129.6214797143, 
 			February: 101.91, 
 			March: 143.8897104167, 
-			April: 112.4704091667, 
-			May: 154.9888126389, 
-			June: 209.14763625, 
-			July: 623.3812130556 
+			April: 106.05, 
+			May: 262.76, 
+			June: 259.62, 
+			July: 227.71, 
+			Aug: 177.93 
 		}
 	}
 }); 
@@ -9002,10 +9549,11 @@ WeatherOutlook.insert({
 			January: 139.2717468571, 
 			February: 111.28, 
 			March: 144.9860262037, 
-			April: 123.7922175, 
-			May: 175.8017514815, 
-			June: 217.959564537, 
-			July: 411.042487791 
+			April: 114.71, 
+			May: 125.07, 
+			June: 254.1, 
+			July: 203.55, 
+			Aug: 173.65 
 		}
 	}
 }); 
@@ -9019,10 +9567,11 @@ WeatherOutlook.insert({
 			January: 124.5691136964, 
 			February: 103.84, 
 			March: 160.6813447396, 
-			April: 117.0771320833, 
-			May: 147.2719507639, 
-			June: 210.997744809, 
-			July: 439.4064019097 
+			April: 110.01, 
+			May: 174.36, 
+			June: 262.58, 
+			July: 179.63, 
+			Aug: 161.13 
 		}
 	}
 }); 
@@ -9036,10 +9585,11 @@ WeatherOutlook.insert({
 			January: 142.0915867619, 
 			February: 107.47, 
 			March: 181.2232433681, 
-			April: 119.890170081, 
-			May: 130.4304175463, 
-			June: 233.3792798148, 
-			July: 364.4582740258 
+			April: 111.21, 
+			May: 190.81, 
+			June: 244.63, 
+			July: 189.08, 
+			Aug: 171.68 
 		}
 	}
 }); 
@@ -9053,10 +9603,29 @@ WeatherOutlook.insert({
 			January: 128.207178, 
 			February: 90.17, 
 			March: 137.3232667222, 
-			April: 120.2210006111, 
-			May: 161.4826558333, 
-			June: 214.3253711111, 
-			July: 384.9120143349 
+			April: 112.01, 
+			May: 129.18, 
+			June: 253.74, 
+			July: 242.15, 
+			Aug: 187.85 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XI: Davao Region", 
+	province: "Davao del Sur", 
+	municipality: "Padada", 
+	data: {
+		month: {
+			January: 115.8733259286, 
+			February: 102.96, 
+			March: 158.9762398264, 
+			April: 109.31, 
+			May: 131.17, 
+			June: 256.71, 
+			July: 198.23, 
+			Aug: 152.31 
 		}
 	}
 }); 
@@ -9067,13 +9636,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Cruz", 
 	data: {
 		month: {
-			January: 115.8733259286, 
-			February: 102.96, 
-			March: 158.9762398264, 
-			April: 151.6425539583, 
-			May: 231.5385844097, 
-			June: 269.2221119444, 
-			July: 342.2625028125 
+			January: 118.9627389524, 
+			February: 98.93, 
+			March: 165.5966466587, 
+			April: 146.54, 
+			May: 136.04, 
+			June: 267.95, 
+			July: 239.01, 
+			Aug: 198.81 
 		}
 	}
 }); 
@@ -9084,13 +9654,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Maria", 
 	data: {
 		month: {
-			January: 118.9627389524, 
-			February: 98.93, 
-			March: 165.5966466587, 
-			April: 118.7506556878, 
-			May: 144.4303680617, 
-			June: 230.1821347116, 
-			July: 328.430875194 
+			January: 165.2246833571, 
+			February: 107.52, 
+			March: 206.1340828075, 
+			April: 111.42, 
+			May: 194.32, 
+			June: 250.19, 
+			July: 194.41, 
+			Aug: 168.08 
 		}
 	}
 }); 
@@ -9101,13 +9672,14 @@ WeatherOutlook.insert({
 	municipality: "Sarangani", 
 	data: {
 		month: {
-			January: 165.2246833571, 
-			February: 107.52, 
-			March: 206.1340828075, 
-			April: 139.2178216865, 
-			May: 132.6165122401, 
-			June: 240.0370108353, 
-			July: 347.9411101389 
+			January: 106.1744675714, 
+			February: 85.02, 
+			March: 135.7521770833, 
+			April: 134.08, 
+			May: 157.4, 
+			June: 247.69, 
+			July: 181.54, 
+			Aug: 251.62 
 		}
 	}
 }); 
@@ -9118,13 +9690,14 @@ WeatherOutlook.insert({
 	municipality: "Sulop", 
 	data: {
 		month: {
-			January: 106.1744675714, 
-			February: 85.02, 
-			March: 135.7521770833, 
-			April: 116.8132340278, 
-			May: 153.5068686111, 
-			June: 196.4452804167, 
-			July: 641.7464383333 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 109.62, 
+			May: 234.73, 
+			June: 281.74, 
+			July: 196.85, 
+			Aug: 179.36 
 		}
 	}
 }); 
@@ -9138,10 +9711,11 @@ WeatherOutlook.insert({
 			January: 344.6911832933, 
 			February: 257.5, 
 			March: 298.9654613764, 
-			April: 235.962816198, 
-			May: 208.6335995804, 
-			June: 264.6994803876, 
-			July: 286.9441404829 
+			April: 227.82, 
+			May: 182.26, 
+			June: 284.96, 
+			July: 238.69, 
+			Aug: 223.76 
 		}
 	}
 }); 
@@ -9155,10 +9729,11 @@ WeatherOutlook.insert({
 			January: 438.0972025857, 
 			February: 329.52, 
 			March: 355.1183071944, 
-			April: 301.1121542917, 
-			May: 240.038284, 
-			June: 200.3876976806, 
-			July: 239.9438698939 
+			April: 290.83, 
+			May: 221.22, 
+			June: 206.92, 
+			July: 212.67, 
+			Aug: 198.57 
 		}
 	}
 }); 
@@ -9172,10 +9747,11 @@ WeatherOutlook.insert({
 			January: 268.5335622857, 
 			February: 215.73, 
 			March: 253.3290286831, 
-			April: 187.0266775947, 
-			May: 210.291288157, 
-			June: 260.1903825119, 
-			July: 226.4948363005 
+			April: 177.82, 
+			May: 163.8, 
+			June: 274.95, 
+			July: 207.67, 
+			Aug: 185.78 
 		}
 	}
 }); 
@@ -9189,10 +9765,11 @@ WeatherOutlook.insert({
 			January: 545.8385507912, 
 			February: 357.12, 
 			March: 422.342969359, 
-			April: 325.5834265171, 
-			May: 244.2557975, 
-			June: 229.2350052137, 
-			July: 268.1705370946 
+			April: 316.83, 
+			May: 250.56, 
+			June: 238.43, 
+			July: 218.3, 
+			Aug: 212.48 
 		}
 	}
 }); 
@@ -9206,10 +9783,11 @@ WeatherOutlook.insert({
 			January: 349.0284802429, 
 			February: 294.55, 
 			March: 319.715004875, 
-			April: 244.6283901528, 
-			May: 232.5764193889, 
-			June: 248.8157989444, 
-			July: 214.5585255972 
+			April: 236.15, 
+			May: 236.75, 
+			June: 257.72, 
+			July: 250.18, 
+			Aug: 188.69 
 		}
 	}
 }); 
@@ -9223,10 +9801,11 @@ WeatherOutlook.insert({
 			January: 496.3988744643, 
 			February: 343.29, 
 			March: 397.5473347917, 
-			April: 349.6066156944, 
-			May: 227.0103412153, 
-			June: 182.2024589931, 
-			July: 359.8763964246 
+			April: 352.83, 
+			May: 209.65, 
+			June: 150.3, 
+			July: 232.2, 
+			Aug: 179.35 
 		}
 	}
 }); 
@@ -9240,10 +9819,11 @@ WeatherOutlook.insert({
 			January: 238.3382613929, 
 			February: 140.32, 
 			March: 218.8646622966, 
-			April: 162.8313629881, 
-			May: 125.673547251, 
-			June: 440.3610768075, 
-			July: 488.4326437153 
+			April: 156.62, 
+			May: 175.1, 
+			June: 406.67, 
+			July: 280.61, 
+			Aug: 238.2 
 		}
 	}
 }); 
@@ -9257,10 +9837,11 @@ WeatherOutlook.insert({
 			January: 252.1822151868, 
 			February: 201.14, 
 			March: 235.6509787393, 
-			April: 178.5538304915, 
-			May: 189.5096923932, 
-			June: 263.4789107479, 
-			July: 253.5719785043 
+			April: 162.74, 
+			May: 152.64, 
+			June: 259.75, 
+			July: 250.78, 
+			Aug: 195.08 
 		}
 	}
 }); 
@@ -9274,10 +9855,11 @@ WeatherOutlook.insert({
 			January: 306.5705757662, 
 			February: 251.9, 
 			March: 283.6911151515, 
-			April: 216.2084195455, 
-			May: 212.6921225758, 
-			June: 250.4534528535, 
-			July: 272.8008108427 
+			April: 205.91, 
+			May: 211.85, 
+			June: 251.08, 
+			July: 199.12, 
+			Aug: 228.01 
 		}
 	}
 }); 
@@ -9291,10 +9873,11 @@ WeatherOutlook.insert({
 			January: 242.1531967302, 
 			February: 172.96, 
 			March: 228.4070591917, 
-			April: 170.1009744985, 
-			May: 170.5796334806, 
-			June: 334.0427705076, 
-			July: 374.9031438489 
+			April: 162.34, 
+			May: 158, 
+			June: 386.86, 
+			July: 266.33, 
+			Aug: 261.19 
 		}
 	}
 }); 
@@ -9308,10 +9891,11 @@ WeatherOutlook.insert({
 			January: 240.8128442041, 
 			February: 157.41, 
 			March: 215.4787489365, 
-			April: 159.5499054671, 
-			May: 140.2913405726, 
-			June: 400.0603260646, 
-			July: 421.920332102 
+			April: 155.99, 
+			May: 144.74, 
+			June: 469.35, 
+			July: 241.71, 
+			Aug: 247.46 
 		}
 	}
 }); 
@@ -9325,10 +9909,11 @@ WeatherOutlook.insert({
 			January: 267.5765996429, 
 			February: 219.66, 
 			March: 262.2953470486, 
-			April: 197.6415051389, 
-			May: 209.2769043056, 
-			June: 267.4210853472, 
-			July: 223.4931967361 
+			April: 190.66, 
+			May: 152.22, 
+			June: 262.67, 
+			July: 209.22, 
+			Aug: 138.44 
 		}
 	}
 }); 
@@ -9342,10 +9927,11 @@ WeatherOutlook.insert({
 			January: 537.8981151314, 
 			February: 293.21, 
 			March: 358.2136814006, 
-			April: 222.1296149375, 
-			May: 141.0640746032, 
-			June: 205.2389179213, 
-			July: 313.0589759498 
+			April: 217.55, 
+			May: 149.34, 
+			June: 190.13, 
+			July: 219.27, 
+			Aug: 191.6 
 		}
 	}
 }); 
@@ -9359,10 +9945,11 @@ WeatherOutlook.insert({
 			January: 570.7606831429, 
 			February: 311.19, 
 			March: 369.1831577778, 
-			April: 227.0388027778, 
-			May: 135.0011466667, 
-			June: 198.9927216667, 
-			July: 416.3164597222 
+			April: 205.32, 
+			May: 141.31, 
+			June: 207.73, 
+			July: 207.9, 
+			Aug: 180.73 
 		}
 	}
 }); 
@@ -9376,10 +9963,29 @@ WeatherOutlook.insert({
 			January: 564.2941375, 
 			February: 314.65, 
 			March: 374.6093616954, 
-			April: 233.1026925694, 
-			May: 142.6281554593, 
-			June: 208.6320114593, 
-			July: 326.0396251905 
+			April: 231.34, 
+			May: 153.84, 
+			June: 191.26, 
+			July: 219.79, 
+			Aug: 191.1 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
+	province: "Dinagat Islands", 
+	municipality: "Dinagat", 
+	data: {
+		month: {
+			January: 544.3175646786, 
+			February: 295.83, 
+			March: 352.3172121706, 
+			April: 240.37, 
+			May: 140.99, 
+			June: 197.45, 
+			July: 213, 
+			Aug: 176.21 
 		}
 	}
 }); 
@@ -9390,13 +9996,14 @@ WeatherOutlook.insert({
 	municipality: "Libjo", 
 	data: {
 		month: {
-			January: 544.3175646786, 
-			February: 295.83, 
-			March: 352.3172121706, 
-			April: 220.034224756, 
-			May: 136.0117848413, 
-			June: 197.3765428006, 
-			July: 284.9331078819 
+			January: 489.9130931429, 
+			February: 258.87, 
+			March: 349.0406020952, 
+			April: 211.78, 
+			May: 151.43, 
+			June: 192.69, 
+			July: 222.17, 
+			Aug: 200.15 
 		}
 	}
 }); 
@@ -9407,13 +10014,32 @@ WeatherOutlook.insert({
 	municipality: "Loreto", 
 	data: {
 		month: {
-			January: 489.9130931429, 
-			February: 258.87, 
-			March: 349.0406020952, 
-			April: 211.9467025222, 
-			May: 147.7631943127, 
-			June: 215.0928041794, 
-			July: 331.3841091667 
+			January: 519.4110373333, 
+			February: 280.32, 
+			March: 341.8477586111, 
+			April: 222.77, 
+			May: 159.78, 
+			June: 175.53, 
+			July: 225.04, 
+			Aug: 213.07 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
+	province: "Dinagat Islands", 
+	municipality: "San Jose", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 219.48, 
+			May: 149.76, 
+			June: 191.18, 
+			July: 225.07, 
+			Aug: 182.99 
 		}
 	}
 }); 
@@ -9424,13 +10050,14 @@ WeatherOutlook.insert({
 	municipality: "Tubajon", 
 	data: {
 		month: {
-			January: 519.4110373333, 
-			February: 280.32, 
-			March: 341.8477586111, 
-			April: 213.7909064815, 
-			May: 141.2217414815, 
-			June: 202.8159237963, 
-			July: 288.4851762037 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 212.46, 
+			May: 152.32, 
+			June: 177.84, 
+			July: 221.09, 
+			Aug: 197.06 
 		}
 	}
 }); 
@@ -9444,10 +10071,11 @@ WeatherOutlook.insert({
 			January: 443.805837556, 
 			February: 273.6, 
 			March: 327.7240967255, 
-			April: 217.2287204761, 
-			May: 217.5937039463, 
-			June: 275.3804173658, 
-			July: 315.1100072717 
+			April: 221.12, 
+			May: 211.7, 
+			June: 250.18, 
+			July: 316.87, 
+			Aug: 236.87 
 		}
 	}
 }); 
@@ -9461,10 +10089,11 @@ WeatherOutlook.insert({
 			January: 479.6522047857, 
 			February: 273.14, 
 			March: 282.8536829861, 
-			April: 197.2939434722, 
-			May: 210.9900463889, 
-			June: 254.3200411111, 
-			July: 264.3028284722 
+			April: 206.57, 
+			May: 211.28, 
+			June: 238.02, 
+			July: 342.25, 
+			Aug: 251.08 
 		}
 	}
 }); 
@@ -9478,10 +10107,11 @@ WeatherOutlook.insert({
 			January: 431.7081538571, 
 			February: 269.06, 
 			March: 322.4419879167, 
-			April: 201.1352586574, 
-			May: 184.2402426852, 
-			June: 265.6437861574, 
-			July: 225.355355 
+			April: 214.9, 
+			May: 182.23, 
+			June: 246.36, 
+			July: 295.68, 
+			Aug: 237.72 
 		}
 	}
 }); 
@@ -9495,10 +10125,11 @@ WeatherOutlook.insert({
 			January: 428.6146390286, 
 			February: 271.75, 
 			March: 354.5339246111, 
-			April: 234.8086869444, 
-			May: 227.3943779444, 
-			June: 294.9530038333, 
-			July: 299.3448671111 
+			April: 224.24, 
+			May: 231.08, 
+			June: 267.52, 
+			July: 314.81, 
+			Aug: 249.42 
 		}
 	}
 }); 
@@ -9512,10 +10143,11 @@ WeatherOutlook.insert({
 			January: 442.2932352653, 
 			February: 273.27, 
 			March: 332.9292085053, 
-			April: 250.5226062963, 
-			May: 263.9922400265, 
-			June: 305.1939252513, 
-			July: 400.9746505556 
+			April: 219.25, 
+			May: 266.49, 
+			June: 286.18, 
+			July: 343.47, 
+			Aug: 255.49 
 		}
 	}
 }); 
@@ -9529,10 +10161,11 @@ WeatherOutlook.insert({
 			January: 446.2703294571, 
 			February: 281.99, 
 			March: 314.852226, 
-			April: 210.9491165, 
-			May: 212.6984649167, 
-			June: 267.4307872778, 
-			July: 312.3177541111 
+			April: 227.71, 
+			May: 212.1, 
+			June: 241.42, 
+			July: 357.65, 
+			Aug: 232.99 
 		}
 	}
 }); 
@@ -9546,10 +10179,11 @@ WeatherOutlook.insert({
 			January: 473.4265406032, 
 			February: 292.43, 
 			March: 299.5539358951, 
-			April: 213.4249296914, 
-			May: 217.301882037, 
-			June: 251.939961358, 
-			July: 450.2028004259 
+			April: 234.09, 
+			May: 226.82, 
+			June: 237.48, 
+			July: 369.15, 
+			Aug: 270.26 
 		}
 	}
 }); 
@@ -9563,10 +10197,11 @@ WeatherOutlook.insert({
 			January: 423.9933211429, 
 			February: 274.17, 
 			March: 344.2682008333, 
-			April: 221.894093125, 
-			May: 194.7636853472, 
-			June: 266.7835002083, 
-			July: 249.7858471409 
+			April: 216.61, 
+			May: 197.03, 
+			June: 252.09, 
+			July: 307.95, 
+			Aug: 221.27 
 		}
 	}
 }); 
@@ -9580,10 +10215,11 @@ WeatherOutlook.insert({
 			January: 436.5837445714, 
 			February: 266.92, 
 			March: 327.85852375, 
-			April: 205.34769, 
-			May: 176.8729288889, 
-			June: 246.5002393056, 
-			July: 242.9389291667 
+			April: 228.7, 
+			May: 179.69, 
+			June: 240.57, 
+			July: 285.69, 
+			Aug: 243.44 
 		}
 	}
 }); 
@@ -9597,10 +10233,11 @@ WeatherOutlook.insert({
 			January: 453.5665221633, 
 			February: 255.17, 
 			March: 357.8765393186, 
-			April: 205.5726412903, 
-			May: 174.8622543016, 
-			June: 232.3526843401, 
-			July: 264.684709881 
+			April: 202.65, 
+			May: 186.18, 
+			June: 219.04, 
+			July: 248, 
+			Aug: 200.27 
 		}
 	}
 }); 
@@ -9614,10 +10251,11 @@ WeatherOutlook.insert({
 			January: 433.5180902857, 
 			February: 276.83, 
 			March: 361.0446463889, 
-			April: 220.5454308333, 
-			May: 198.9609875, 
-			June: 269.7171566667, 
-			July: 210.9608163889 
+			April: 251.09, 
+			May: 200.54, 
+			June: 254.68, 
+			July: 279.61, 
+			Aug: 217.59 
 		}
 	}
 }); 
@@ -9631,10 +10269,11 @@ WeatherOutlook.insert({
 			January: 447.8928807429, 
 			February: 256.02, 
 			March: 296.2321404444, 
-			April: 174.7877498889, 
-			May: 195.7382235, 
-			June: 268.4180337778, 
-			July: 238.7075119444 
+			April: 183.77, 
+			May: 197.79, 
+			June: 248.92, 
+			July: 352.25, 
+			Aug: 231.53 
 		}
 	}
 }); 
@@ -9648,10 +10287,11 @@ WeatherOutlook.insert({
 			January: 436.1484256429, 
 			February: 274.25, 
 			March: 318.6060079167, 
-			April: 193.5626345833, 
-			May: 184.4933689583, 
-			June: 264.26509, 
-			July: 246.5809486111 
+			April: 220.05, 
+			May: 184, 
+			June: 249.87, 
+			July: 295.86, 
+			Aug: 231.64 
 		}
 	}
 }); 
@@ -9665,10 +10305,11 @@ WeatherOutlook.insert({
 			January: 424.7754974286, 
 			February: 275.91, 
 			March: 347.7784973843, 
-			April: 220.1511448148, 
-			May: 205.8798199306, 
-			June: 275.2355906944, 
-			July: 255.9290015278 
+			April: 268.02, 
+			May: 204.22, 
+			June: 258.25, 
+			July: 316.75, 
+			Aug: 261.25 
 		}
 	}
 }); 
@@ -9682,10 +10323,11 @@ WeatherOutlook.insert({
 			January: 466.5653502, 
 			February: 273.61, 
 			March: 321.5931072778, 
-			April: 196.4284555833, 
-			May: 227.0776640833, 
-			June: 300.1208505278, 
-			July: 333.30627025 
+			April: 222.75, 
+			May: 227.55, 
+			June: 265.2, 
+			July: 381.91, 
+			Aug: 266.09 
 		}
 	}
 }); 
@@ -9699,10 +10341,11 @@ WeatherOutlook.insert({
 			January: 445.5674922857, 
 			February: 281.38, 
 			March: 337.9728000397, 
-			April: 240.9054321825, 
-			May: 237.2331442857, 
-			June: 304.831000873, 
-			July: 318.9527792438 
+			April: 208.59, 
+			May: 255.76, 
+			June: 286.33, 
+			July: 336.84, 
+			Aug: 301.54 
 		}
 	}
 }); 
@@ -9716,10 +10359,11 @@ WeatherOutlook.insert({
 			January: 459.1963577143, 
 			February: 264.9, 
 			March: 421.1528362857, 
-			April: 221.9499374286, 
-			May: 191.0315131429, 
-			June: 263.6594545714, 
-			July: 259.6351111111 
+			April: 222.82, 
+			May: 189.22, 
+			June: 255.89, 
+			July: 256.8, 
+			Aug: 197.37 
 		}
 	}
 }); 
@@ -9733,10 +10377,11 @@ WeatherOutlook.insert({
 			January: 466.1964366857, 
 			February: 285.93, 
 			March: 275.5937301111, 
-			April: 211.1971454444, 
-			May: 215.5179029444, 
-			June: 233.3115887222, 
-			July: 299.6817176111 
+			April: 222.28, 
+			May: 218.93, 
+			June: 217.91, 
+			July: 345.55, 
+			Aug: 262.38 
 		}
 	}
 }); 
@@ -9750,10 +10395,11 @@ WeatherOutlook.insert({
 			January: 430.004007, 
 			February: 271.38, 
 			March: 335.9313823611, 
-			April: 210.1077834722, 
-			May: 182.7206335417, 
-			June: 262.4644918056, 
-			July: 223.3189841667 
+			April: 221.51, 
+			May: 179.18, 
+			June: 253.16, 
+			July: 292.62, 
+			Aug: 211.42 
 		}
 	}
 }); 
@@ -9767,10 +10413,11 @@ WeatherOutlook.insert({
 			January: 450.9251088571, 
 			February: 268.23, 
 			March: 377.6825890972, 
-			April: 220.2388428472, 
-			May: 178.468660625, 
-			June: 257.6299763194, 
-			July: 244.1720290238 
+			April: 217.75, 
+			May: 186.04, 
+			June: 254.81, 
+			July: 268.63, 
+			Aug: 196.28 
 		}
 	}
 }); 
@@ -9784,10 +10431,11 @@ WeatherOutlook.insert({
 			January: 416.935753, 
 			February: 267.44, 
 			March: 329.0258830556, 
-			April: 228.3559315972, 
-			May: 256.0649599306, 
-			June: 290.3809502778, 
-			July: 409.7088296845 
+			April: 237, 
+			May: 267.79, 
+			June: 279.04, 
+			July: 353.04, 
+			Aug: 260.84 
 		}
 	}
 }); 
@@ -9801,10 +10449,11 @@ WeatherOutlook.insert({
 			January: 454.9236621429, 
 			February: 272.91, 
 			March: 262.8060388889, 
-			April: 197.8250723611, 
-			May: 185.3442969444, 
-			June: 225.44335625, 
-			July: 287.2094675 
+			April: 221.54, 
+			May: 190, 
+			June: 212.85, 
+			July: 328.23, 
+			Aug: 242.8 
 		}
 	}
 }); 
@@ -9818,10 +10467,11 @@ WeatherOutlook.insert({
 			January: 419.9432031429, 
 			February: 266.49, 
 			March: 337.3321796667, 
-			April: 217.3162845, 
-			May: 241.9086077778, 
-			June: 291.7248141667, 
-			July: 370.3156895 
+			April: 223.13, 
+			May: 235.85, 
+			June: 259.1, 
+			July: 329.65, 
+			Aug: 283.32 
 		}
 	}
 }); 
@@ -9835,10 +10485,11 @@ WeatherOutlook.insert({
 			January: 427.2234975918, 
 			February: 269.41, 
 			March: 326.7572245238, 
-			April: 205.7203398016, 
-			May: 220.0449374206, 
-			June: 280.8823925397, 
-			July: 320.0565441984 
+			April: 212.88, 
+			May: 214.62, 
+			June: 253.95, 
+			July: 345.22, 
+			Aug: 264.05 
 		}
 	}
 }); 
@@ -9852,10 +10503,11 @@ WeatherOutlook.insert({
 			January: 69.1683647519, 
 			February: 49.28, 
 			March: 82.346419142, 
-			April: 69.1683016796, 
-			May: 191.4396926044, 
-			June: 316.4958931867, 
-			July: 344.7402215556 
+			April: 77.73, 
+			May: 190.5, 
+			June: 323.86, 
+			July: 481.99, 
+			Aug: 448.34 
 		}
 	}
 }); 
@@ -9869,10 +10521,11 @@ WeatherOutlook.insert({
 			January: 69.7544685714, 
 			February: 54.15, 
 			March: 89.3409325, 
-			April: 69.0822038889, 
-			May: 178.5065370833, 
-			June: 309.4059979861, 
-			July: 311.1379359028 
+			April: 77.21, 
+			May: 172.9, 
+			June: 318.14, 
+			July: 456.11, 
+			Aug: 400.11 
 		}
 	}
 }); 
@@ -9886,10 +10539,11 @@ WeatherOutlook.insert({
 			January: 54.1806961429, 
 			February: 37.85, 
 			March: 73.0504944444, 
-			April: 63.8624169444, 
-			May: 169.7848073611, 
-			June: 323.0747119444, 
-			July: 355.9881052778 
+			April: 72.78, 
+			May: 178.92, 
+			June: 332.92, 
+			July: 472.62, 
+			Aug: 471.73 
 		}
 	}
 }); 
@@ -9903,10 +10557,11 @@ WeatherOutlook.insert({
 			January: 71.5222388571, 
 			February: 47.56, 
 			March: 79.1520098508, 
-			April: 68.2424021048, 
-			May: 194.6769443413, 
-			June: 320.1488237762, 
-			July: 371.2821660778 
+			April: 78.23, 
+			May: 189.22, 
+			June: 321.19, 
+			July: 487.43, 
+			Aug: 432.21 
 		}
 	}
 }); 
@@ -9920,10 +10575,11 @@ WeatherOutlook.insert({
 			January: 71.4052832857, 
 			February: 52.81, 
 			March: 84.7498234722, 
-			April: 71.2330494444, 
-			May: 196.6071186806, 
-			June: 308.18803375, 
-			July: 352.6755438194 
+			April: 80.23, 
+			May: 199.98, 
+			June: 317.74, 
+			July: 484.1, 
+			Aug: 460.27 
 		}
 	}
 }); 
@@ -9937,10 +10593,11 @@ WeatherOutlook.insert({
 			January: 70.8968340714, 
 			February: 48.73, 
 			March: 81.5894754167, 
-			April: 70.9999685417, 
-			May: 205.9863, 
-			June: 324.0380752083, 
-			July: 331.6058124306 
+			April: 78.4, 
+			May: 201.28, 
+			June: 333.24, 
+			July: 504.75, 
+			Aug: 477 
 		}
 	}
 }); 
@@ -9954,10 +10611,11 @@ WeatherOutlook.insert({
 			January: 47.6465153563, 
 			February: 45.24, 
 			March: 76.6186859103, 
-			April: 102.9114279752, 
-			May: 245.1460288454, 
-			June: 200.611597925, 
-			July: 344.2834739802 
+			April: 112.56, 
+			May: 232.46, 
+			June: 187.32, 
+			July: 313.26, 
+			Aug: 395.11 
 		}
 	}
 }); 
@@ -9971,10 +10629,11 @@ WeatherOutlook.insert({
 			January: 57.6546466327, 
 			February: 50.25, 
 			March: 73.2387943056, 
-			April: 89.0752288889, 
-			May: 228.3644686706, 
-			June: 203.297001369, 
-			July: 333.750168648 
+			April: 96, 
+			May: 222.37, 
+			June: 184.23, 
+			July: 296.32, 
+			Aug: 387.59 
 		}
 	}
 }); 
@@ -9988,10 +10647,11 @@ WeatherOutlook.insert({
 			January: 62.8833957143, 
 			February: 49.99, 
 			March: 74.2358015278, 
-			April: 70.9801736979, 
-			May: 189.3704577778, 
-			June: 198.3651527951, 
-			July: 412.0096083681 
+			April: 80.14, 
+			May: 185.51, 
+			June: 188.98, 
+			July: 295.32, 
+			Aug: 358.35 
 		}
 	}
 }); 
@@ -10005,10 +10665,11 @@ WeatherOutlook.insert({
 			January: 39.936926, 
 			February: 42.82, 
 			March: 79.5194516204, 
-			April: 120.4208443056, 
-			May: 267.4674735648, 
-			June: 183.9744474537, 
-			July: 220.1631388426 
+			April: 126.41, 
+			May: 253.47, 
+			June: 193.75, 
+			July: 304.43, 
+			Aug: 345.44 
 		}
 	}
 }); 
@@ -10022,10 +10683,11 @@ WeatherOutlook.insert({
 			January: 34.935549102, 
 			February: 40.02, 
 			March: 77.5623136111, 
-			April: 118.8668423016, 
-			May: 283.3390875, 
-			June: 216.075485754, 
-			July: 330.6102337698 
+			April: 127.8, 
+			May: 269.78, 
+			June: 178.72, 
+			July: 340.15, 
+			Aug: 409.84 
 		}
 	}
 }); 
@@ -10039,10 +10701,11 @@ WeatherOutlook.insert({
 			January: 38.0661968571, 
 			February: 43.59, 
 			March: 82.1210784722, 
-			April: 122.5797530556, 
-			May: 275.9820775, 
-			June: 220.5136533333, 
-			July: 465.0879823611 
+			April: 130.24, 
+			May: 248.57, 
+			June: 174.32, 
+			July: 346.05, 
+			Aug: 424.6 
 		}
 	}
 }); 
@@ -10056,10 +10719,11 @@ WeatherOutlook.insert({
 			January: 29.6563519184, 
 			February: 35.63, 
 			March: 73.770819881, 
-			April: 124.8704536111, 
-			May: 310.3683275397, 
-			June: 213.238335, 
-			July: 406.6669735782 
+			April: 131.74, 
+			May: 298.93, 
+			June: 176.96, 
+			July: 322.34, 
+			Aug: 459.27 
 		}
 	}
 }); 
@@ -10073,10 +10737,11 @@ WeatherOutlook.insert({
 			January: 42.2907285, 
 			February: 44.48, 
 			March: 80.69940375, 
-			April: 119.9355183333, 
-			May: 269.8241404861, 
-			June: 197.2134453472, 
-			July: 311.3357012837 
+			April: 128.42, 
+			May: 254.52, 
+			June: 208.59, 
+			July: 317.09, 
+			Aug: 444.79 
 		}
 	}
 }); 
@@ -10090,10 +10755,11 @@ WeatherOutlook.insert({
 			January: 50.9524630571, 
 			February: 47.09, 
 			March: 81.0987229444, 
-			April: 103.2308493611, 
-			May: 229.8812410278, 
-			June: 196.5483265556, 
-			July: 385.0749866786 
+			April: 115.03, 
+			May: 221.58, 
+			June: 196.4, 
+			July: 310.95, 
+			Aug: 389.45 
 		}
 	}
 }); 
@@ -10107,10 +10773,11 @@ WeatherOutlook.insert({
 			January: 49.3147655714, 
 			February: 48.33, 
 			March: 80.7536970139, 
-			April: 104.2861153472, 
-			May: 212.1288497222, 
-			June: 173.4679732639, 
-			July: 229.9465886806 
+			April: 112.78, 
+			May: 200.95, 
+			June: 179.4, 
+			July: 294.01, 
+			Aug: 365.44 
 		}
 	}
 }); 
@@ -10124,10 +10791,11 @@ WeatherOutlook.insert({
 			January: 48.5209868571, 
 			February: 47.53, 
 			March: 76.5148812778, 
-			April: 103.8224824444, 
-			May: 247.8099782222, 
-			June: 210.9716816667, 
-			July: 353.7686768524 
+			April: 112.8, 
+			May: 243.14, 
+			June: 188.25, 
+			July: 319.75, 
+			Aug: 411.43 
 		}
 	}
 }); 
@@ -10141,10 +10809,11 @@ WeatherOutlook.insert({
 			January: 31.8640740357, 
 			February: 37.32, 
 			March: 75.7712682292, 
-			April: 129.5949318056, 
-			May: 292.7119180556, 
-			June: 197.2030098611, 
-			July: 264.2568231597 
+			April: 137.56, 
+			May: 284.4, 
+			June: 190.74, 
+			July: 323.59, 
+			Aug: 397.64 
 		}
 	}
 }); 
@@ -10158,10 +10827,11 @@ WeatherOutlook.insert({
 			January: 19.8027795956, 
 			February: 9.41, 
 			March: 23.7173680583, 
-			April: 32.7167894913, 
-			May: 196.3033433886, 
-			June: 276.0739941581, 
-			July: 355.9857072693 
+			April: 18.67, 
+			May: 159.75, 
+			June: 266.26, 
+			July: 443.6, 
+			Aug: 479.29 
 		}
 	}
 }); 
@@ -10175,10 +10845,11 @@ WeatherOutlook.insert({
 			January: 29.4914238857, 
 			February: 16.87, 
 			March: 65.7306377222, 
-			April: 60.7727985556, 
-			May: 203.4015803333, 
-			June: 216.1786495556, 
-			July: 466.9449450556 
+			April: 48.63, 
+			May: 186.46, 
+			June: 266.41, 
+			July: 290.62, 
+			Aug: 373.59 
 		}
 	}
 }); 
@@ -10192,10 +10863,11 @@ WeatherOutlook.insert({
 			January: 13.972077, 
 			February: 7.48, 
 			March: 10.6869551389, 
-			April: 15.1186627778, 
-			May: 151.2713955556, 
-			June: 276.013065, 
-			July: 288.21949 
+			April: 6.33, 
+			May: 159.87, 
+			June: 222.85, 
+			July: 463.56, 
+			Aug: 496.57 
 		}
 	}
 }); 
@@ -10209,10 +10881,11 @@ WeatherOutlook.insert({
 			January: 11.6912742857, 
 			February: 2.13, 
 			March: 10.7254909722, 
-			April: 23.3805023611, 
-			May: 204.12749625, 
-			June: 316.6634891667, 
-			July: 309.1515998611 
+			April: 12.58, 
+			May: 184.77, 
+			June: 307.26, 
+			July: 522.19, 
+			Aug: 566.15 
 		}
 	}
 }); 
@@ -10226,10 +10899,11 @@ WeatherOutlook.insert({
 			January: 21.7124138776, 
 			February: 11.72, 
 			March: 30.9518753571, 
-			April: 31.8335178571, 
-			May: 162.1720645238, 
-			June: 201.0635913492, 
-			July: 462.3011450397 
+			April: 22, 
+			May: 137.73, 
+			June: 244.52, 
+			July: 365.56, 
+			Aug: 397.12 
 		}
 	}
 }); 
@@ -10243,10 +10917,11 @@ WeatherOutlook.insert({
 			January: 14.8054626667, 
 			February: 4.7, 
 			March: 13.2854326852, 
-			April: 22.076595463, 
-			May: 195.7399683333, 
-			June: 340.0979134259, 
-			July: 361.5568737037 
+			April: 15.27, 
+			May: 174, 
+			June: 323.51, 
+			July: 498.81, 
+			Aug: 556.12 
 		}
 	}
 }); 
@@ -10260,10 +10935,11 @@ WeatherOutlook.insert({
 			January: 11.9865960714, 
 			February: 4.44, 
 			March: 11.1734116667, 
-			April: 18.5655456944, 
-			May: 172.9145455556, 
-			June: 323.0326884722, 
-			July: 327.0878388889 
+			April: 8.95, 
+			May: 173.78, 
+			June: 287.02, 
+			July: 499.82, 
+			Aug: 561.83 
 		}
 	}
 }); 
@@ -10277,10 +10953,11 @@ WeatherOutlook.insert({
 			January: 17.8031428571, 
 			February: 9.46, 
 			March: 13.2237163889, 
-			April: 16.7708697222, 
-			May: 134.5895868056, 
-			June: 207.4411699074, 
-			July: 452.5549430093 
+			April: 6.32, 
+			May: 102.99, 
+			June: 236.6, 
+			July: 427.2, 
+			Aug: 404.03 
 		}
 	}
 }); 
@@ -10294,10 +10971,11 @@ WeatherOutlook.insert({
 			January: 28.5934983265, 
 			February: 15.72, 
 			March: 32.2818121825, 
-			April: 48.0240874206, 
-			May: 241.7886584921, 
-			June: 263.3848501587, 
-			July: 266.2706438095 
+			April: 35.51, 
+			May: 198.95, 
+			June: 252.21, 
+			July: 396.05, 
+			Aug: 450.87 
 		}
 	}
 }); 
@@ -10311,10 +10989,11 @@ WeatherOutlook.insert({
 			January: 10.3691907143, 
 			February: 0.43, 
 			March: 9.67131525, 
-			April: 16.1967569841, 
-			May: 164.9379914643, 
-			June: 304.4069014643, 
-			July: 304.0201455556 
+			April: 7.76, 
+			May: 158.72, 
+			June: 287.79, 
+			July: 508.32, 
+			Aug: 564.28 
 		}
 	}
 }); 
@@ -10328,10 +11007,11 @@ WeatherOutlook.insert({
 			January: 18.1126687143, 
 			February: 6.09, 
 			March: 14.82453125, 
-			April: 24.4706927778, 
-			May: 201.3986661111, 
-			June: 345.2885454167, 
-			July: 328.4189859722 
+			April: 15, 
+			May: 172.88, 
+			June: 299.08, 
+			July: 499.9, 
+			Aug: 511.62 
 		}
 	}
 }); 
@@ -10345,10 +11025,11 @@ WeatherOutlook.insert({
 			January: 24.4619397143, 
 			February: 12.2, 
 			March: 47.0718758333, 
-			April: 41.46282, 
-			May: 188.9863125, 
-			June: 210.5354894444, 
-			July: 515.2927305556 
+			April: 30.75, 
+			May: 155.64, 
+			June: 272.61, 
+			July: 329.7, 
+			Aug: 363.68 
 		}
 	}
 }); 
@@ -10362,10 +11043,11 @@ WeatherOutlook.insert({
 			January: 11.141688, 
 			February: 9.18, 
 			March: 9.2742063889, 
-			April: 14.9238543056, 
-			May: 149.1656391667, 
-			June: 279.1888661111, 
-			July: 213.7462431944 
+			April: 6.72, 
+			May: 144.27, 
+			June: 224.66, 
+			July: 475.59, 
+			Aug: 474.48 
 		}
 	}
 }); 
@@ -10379,10 +11061,11 @@ WeatherOutlook.insert({
 			January: 17.5587538571, 
 			February: 5.93, 
 			March: 15.2044568056, 
-			April: 26.4349390278, 
-			May: 203.72649375, 
-			June: 356.0218230556, 
-			July: 353.7612941667 
+			April: 13.55, 
+			May: 164.45, 
+			June: 331.63, 
+			July: 517.46, 
+			Aug: 551.42 
 		}
 	}
 }); 
@@ -10396,10 +11079,11 @@ WeatherOutlook.insert({
 			January: 19.0782550857, 
 			February: 8.41, 
 			March: 18.6282564861, 
-			April: 44.3896610556, 
-			May: 252.4081898333, 
-			June: 317.1983672778, 
-			July: 348.6795117222 
+			April: 34.23, 
+			May: 185.32, 
+			June: 290.29, 
+			July: 449.34, 
+			Aug: 533.82 
 		}
 	}
 }); 
@@ -10413,10 +11097,11 @@ WeatherOutlook.insert({
 			January: 26.5833215102, 
 			February: 19.32, 
 			March: 61.782164407, 
-			April: 49.2726409717, 
-			May: 153.6160257007, 
-			June: 179.082762415, 
-			July: 454.3550850397 
+			April: 43.77, 
+			May: 130.06, 
+			June: 247.21, 
+			July: 291.95, 
+			Aug: 339.59 
 		}
 	}
 }); 
@@ -10430,10 +11115,29 @@ WeatherOutlook.insert({
 			January: 10.246308381, 
 			February: 7.5, 
 			March: 9.1866428069, 
-			April: 14.8235476958, 
-			May: 147.5765681746, 
-			June: 289.1715554603, 
-			July: 290.8766890741 
+			April: 6.22, 
+			May: 165.79, 
+			June: 277.49, 
+			July: 493.09, 
+			Aug: 551.63 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "Ilocos Norte", 
+	municipality: "Paoay Lake", 
+	data: {
+		month: {
+			January: 16.4362143571, 
+			February: 5.68, 
+			March: 10.844645, 
+			April: 6.39, 
+			May: 197.26, 
+			June: 214.62, 
+			July: 489.97, 
+			Aug: 543.72 
 		}
 	}
 }); 
@@ -10444,13 +11148,14 @@ WeatherOutlook.insert({
 	municipality: "Pasuquin", 
 	data: {
 		month: {
-			January: 16.4362143571, 
-			February: 5.68, 
-			March: 10.844645, 
-			April: 16.5622311111, 
-			May: 160.593943125, 
-			June: 237.9903000694, 
-			July: 453.8896861806 
+			January: 19.759618, 
+			February: 7.16, 
+			March: 16.9496734028, 
+			April: 5.5, 
+			May: 160.26, 
+			June: 252.52, 
+			July: 445.9, 
+			Aug: 418.22 
 		}
 	}
 }); 
@@ -10461,13 +11166,14 @@ WeatherOutlook.insert({
 	municipality: "Piddig", 
 	data: {
 		month: {
-			January: 19.759618, 
-			February: 7.16, 
-			March: 16.9496734028, 
-			April: 24.9786839583, 
-			May: 196.2445657639, 
-			June: 309.9937531944, 
-			July: 285.8303061111 
+			January: 11.9405202857, 
+			February: 3.15, 
+			March: 11.611129537, 
+			April: 15.12, 
+			May: 155.71, 
+			June: 258.14, 
+			July: 476.9, 
+			Aug: 508.93 
 		}
 	}
 }); 
@@ -10478,13 +11184,14 @@ WeatherOutlook.insert({
 	municipality: "Pinili", 
 	data: {
 		month: {
-			January: 11.9405202857, 
-			February: 3.15, 
-			March: 11.611129537, 
-			April: 22.0269316667, 
-			May: 190.6414193519, 
-			June: 331.4289780556, 
-			July: 339.3776428704 
+			January: 11.9601837143, 
+			February: 9.59, 
+			March: 10.30665375, 
+			April: 12.74, 
+			May: 186.91, 
+			June: 300.71, 
+			July: 507.11, 
+			Aug: 580.27 
 		}
 	}
 }); 
@@ -10495,13 +11202,14 @@ WeatherOutlook.insert({
 	municipality: "San Nicolas", 
 	data: {
 		month: {
-			January: 11.9601837143, 
-			February: 9.59, 
-			March: 10.30665375, 
-			April: 16.4061104167, 
-			May: 159.4858384722, 
-			June: 295.6187452778, 
-			July: 263.4658191667 
+			January: 13.6594581905, 
+			February: 3.5, 
+			March: 10.7141481481, 
+			April: 7.45, 
+			May: 135, 
+			June: 255.04, 
+			July: 499.01, 
+			Aug: 498.1 
 		}
 	}
 }); 
@@ -10512,13 +11220,14 @@ WeatherOutlook.insert({
 	municipality: "Sarrat", 
 	data: {
 		month: {
-			January: 13.6594581905, 
-			February: 3.5, 
-			March: 10.7141481481, 
-			April: 17.1315230556, 
-			May: 170.6055322222, 
-			June: 311.1173935185, 
-			July: 283.2362931481 
+			January: 24.5272694694, 
+			February: 9.59, 
+			March: 20.9349343254, 
+			April: 8.83, 
+			May: 158.14, 
+			June: 282.48, 
+			July: 493.96, 
+			Aug: 528.21 
 		}
 	}
 }); 
@@ -10529,13 +11238,14 @@ WeatherOutlook.insert({
 	municipality: "Solsona", 
 	data: {
 		month: {
-			January: 24.5272694694, 
-			February: 9.59, 
-			March: 20.9349343254, 
-			April: 35.7877173413, 
-			May: 227.7239464286, 
-			June: 312.723522619, 
-			July: 306.4025447619 
+			January: 21.9993044286, 
+			February: 9.69, 
+			March: 26.0034540586, 
+			April: 25.82, 
+			May: 183.27, 
+			June: 292.43, 
+			July: 443.15, 
+			Aug: 482.51 
 		}
 	}
 }); 
@@ -10546,13 +11256,14 @@ WeatherOutlook.insert({
 	municipality: "Vintar", 
 	data: {
 		month: {
-			January: 21.9993044286, 
-			February: 9.69, 
-			March: 26.0034540586, 
-			April: 32.2780057253, 
-			May: 194.5148370216, 
-			June: 259.2450373611, 
-			July: 342.8495127778 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 17.56, 
+			May: 150.45, 
+			June: 234.4, 
+			July: 428.85, 
+			Aug: 459.66 
 		}
 	}
 }); 
@@ -10566,10 +11277,11 @@ WeatherOutlook.insert({
 			January: 10.8164406063, 
 			February: 7.88, 
 			March: 20.4888802451, 
-			April: 35.6455621774, 
-			May: 233.6374574779, 
-			June: 315.8486245769, 
-			July: 362.0409047672 
+			April: 33.93, 
+			May: 207.65, 
+			June: 312.32, 
+			July: 509.26, 
+			Aug: 609.85 
 		}
 	}
 }); 
@@ -10583,10 +11295,11 @@ WeatherOutlook.insert({
 			January: 11.3694092, 
 			February: 12.48, 
 			March: 33.1123576667, 
-			April: 54.5636118889, 
-			May: 280.3931207222, 
-			June: 306.3427653889, 
-			July: 300.943112319 
+			April: 37.81, 
+			May: 253.64, 
+			June: 303.52, 
+			July: 521.84, 
+			Aug: 586.38 
 		}
 	}
 }); 
@@ -10600,10 +11313,11 @@ WeatherOutlook.insert({
 			January: 10.267878, 
 			February: 2.61, 
 			March: 10.54289, 
-			April: 10.1325891667, 
-			May: 206.6047847222, 
-			June: 316.3041202778, 
-			July: 265.9576313889 
+			April: 17.14, 
+			May: 197.54, 
+			June: 316.74, 
+			July: 497.62, 
+			Aug: 612.04 
 		}
 	}
 }); 
@@ -10617,10 +11331,11 @@ WeatherOutlook.insert({
 			January: 8.1220960952, 
 			February: 2.96, 
 			March: 10.119435, 
-			April: 25.1486375, 
-			May: 197.5257385185, 
-			June: 346.4332736111, 
-			July: 325.550400463 
+			April: 21.86, 
+			May: 160.71, 
+			June: 321.14, 
+			July: 516.95, 
+			Aug: 606.66 
 		}
 	}
 }); 
@@ -10634,10 +11349,11 @@ WeatherOutlook.insert({
 			January: 9.681956, 
 			February: 3.05, 
 			March: 12.6952586111, 
-			April: 23.1747604167, 
-			May: 212.5800594444, 
-			June: 328.6812880556, 
-			July: 263.7822461111 
+			April: 28.77, 
+			May: 202.25, 
+			June: 314.07, 
+			July: 498.31, 
+			Aug: 624.44 
 		}
 	}
 }); 
@@ -10651,10 +11367,11 @@ WeatherOutlook.insert({
 			January: 11.3289467143, 
 			February: 4.51, 
 			March: 11.5000447222, 
-			April: 24.3767345833, 
-			May: 213.6743040278, 
-			June: 325.9983618056, 
-			July: 256.5603186111 
+			April: 45.25, 
+			May: 204, 
+			June: 312.2, 
+			July: 524.42, 
+			Aug: 595.48 
 		}
 	}
 }); 
@@ -10668,10 +11385,29 @@ WeatherOutlook.insert({
 			January: 9.7705595238, 
 			February: 8.34, 
 			March: 8.6807246825, 
-			April: 5.7081577619, 
-			May: 205.9411121614, 
-			June: 312.190409664, 
-			July: 280.416085 
+			April: 23.12, 
+			May: 198.16, 
+			June: 316.94, 
+			July: 505.17, 
+			Aug: 630.27 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "Ilocos Sur", 
+	municipality: "Caoayan", 
+	data: {
+		month: {
+			January: 13.3422874694, 
+			February: 10.55, 
+			March: 33.4426647619, 
+			April: 20.45, 
+			May: 117.13, 
+			June: 334.24, 
+			July: 513.99, 
+			Aug: 581.58 
 		}
 	}
 }); 
@@ -10682,13 +11418,14 @@ WeatherOutlook.insert({
 	municipality: "Cervantes", 
 	data: {
 		month: {
-			January: 13.3422874694, 
-			February: 10.55, 
-			March: 33.4426647619, 
-			April: 64.508136627, 
-			May: 288.7365500397, 
-			June: 279.345072619, 
-			July: 405.165719246 
+			January: 11.4475845714, 
+			February: 6.94, 
+			March: 15.3870919444, 
+			April: 48.95, 
+			May: 276.34, 
+			June: 284.46, 
+			July: 487.62, 
+			Aug: 578.3 
 		}
 	}
 }); 
@@ -10699,13 +11436,14 @@ WeatherOutlook.insert({
 	municipality: "Galimuyod", 
 	data: {
 		month: {
-			January: 11.4475845714, 
-			February: 6.94, 
-			March: 15.3870919444, 
-			April: 18.5399577778, 
-			May: 224.8472986111, 
-			June: 316.0866377778, 
-			July: 276.5003316667 
+			January: 12.1239862857, 
+			February: 7.35, 
+			March: 15.8180288889, 
+			April: 21.1, 
+			May: 211.25, 
+			June: 306.06, 
+			July: 442.76, 
+			Aug: 635.89 
 		}
 	}
 }); 
@@ -10716,13 +11454,14 @@ WeatherOutlook.insert({
 	municipality: "Gregorio Del Pilar", 
 	data: {
 		month: {
-			January: 12.1239862857, 
-			February: 7.35, 
-			March: 15.8180288889, 
-			April: 31.9531213889, 
-			May: 264.7722230556, 
-			June: 291.8514780556, 
-			July: 318.1949983333 
+			January: 11.0389817143, 
+			February: 5.58, 
+			March: 14.6643497222, 
+			April: 44.79, 
+			May: 236.93, 
+			June: 293.19, 
+			July: 534.67, 
+			Aug: 608.64 
 		}
 	}
 }); 
@@ -10733,13 +11472,14 @@ WeatherOutlook.insert({
 	municipality: "Lidlidda", 
 	data: {
 		month: {
-			January: 11.0389817143, 
-			February: 5.58, 
-			March: 14.6643497222, 
-			April: 20.9854681944, 
-			May: 221.7650998611, 
-			June: 327.8366648611, 
-			July: 263.8052845833 
+			January: 8.6809449524, 
+			February: 5.41, 
+			March: 10.9121960185, 
+			April: 31.51, 
+			May: 217.23, 
+			June: 314.48, 
+			July: 491.02, 
+			Aug: 592.01 
 		}
 	}
 }); 
@@ -10750,13 +11490,14 @@ WeatherOutlook.insert({
 	municipality: "Magsingal", 
 	data: {
 		month: {
-			January: 8.6809449524, 
-			February: 5.41, 
-			March: 10.9121960185, 
-			April: 24.0072599074, 
-			May: 190.9342389815, 
-			June: 343.8055119444, 
-			July: 654.1596421296 
+			January: 9.5788857143, 
+			February: 3.79, 
+			March: 14.3463166667, 
+			April: 40.18, 
+			May: 176.67, 
+			June: 329.91, 
+			July: 532.22, 
+			Aug: 597.8 
 		}
 	}
 }); 
@@ -10767,13 +11508,14 @@ WeatherOutlook.insert({
 	municipality: "Nagbukel", 
 	data: {
 		month: {
-			January: 9.5788857143, 
-			February: 3.79, 
-			March: 14.3463166667, 
-			April: 34.0671630556, 
-			May: 220.1584186111, 
-			June: 367.7315972222, 
-			July: 223.7308672222 
+			January: 8.4503272381, 
+			February: 2.24, 
+			March: 13.427707037, 
+			April: 26.46, 
+			May: 211.34, 
+			June: 338.84, 
+			July: 511.77, 
+			Aug: 607.49 
 		}
 	}
 }); 
@@ -10784,13 +11526,14 @@ WeatherOutlook.insert({
 	municipality: "Narvacan", 
 	data: {
 		month: {
-			January: 8.4503272381, 
-			February: 2.24, 
-			March: 13.427707037, 
-			April: 29.0232761111, 
-			May: 202.442700463, 
-			June: 356.7122767593, 
-			July: 528.948491463 
+			January: 13.3100682857, 
+			February: 7.37, 
+			March: 27.1694354514, 
+			April: 29.51, 
+			May: 179.78, 
+			June: 326.7, 
+			July: 510.52, 
+			Aug: 568.72 
 		}
 	}
 }); 
@@ -10801,13 +11544,14 @@ WeatherOutlook.insert({
 	municipality: "Quirino", 
 	data: {
 		month: {
-			January: 13.3100682857, 
-			February: 7.37, 
-			March: 27.1694354514, 
-			April: 52.6089022569, 
-			May: 262.3055351042, 
-			June: 279.5552885069, 
-			July: 269.4088106806 
+			January: 11.5499367143, 
+			February: 8.46, 
+			March: 19.8024527778, 
+			April: 41.88, 
+			May: 247.6, 
+			June: 290.74, 
+			July: 503.98, 
+			Aug: 590.78 
 		}
 	}
 }); 
@@ -10818,13 +11562,14 @@ WeatherOutlook.insert({
 	municipality: "Salcedo", 
 	data: {
 		month: {
-			January: 11.5499367143, 
-			February: 8.46, 
-			March: 19.8024527778, 
-			April: 26.53800625, 
-			May: 234.4786444444, 
-			June: 313.2640495833, 
-			July: 369.6482848611 
+			January: 12.4306755, 
+			February: 8.03, 
+			March: 19.9835854167, 
+			April: 37.64, 
+			May: 231.35, 
+			June: 309.62, 
+			July: 540.13, 
+			Aug: 584.94 
 		}
 	}
 }); 
@@ -10835,13 +11580,14 @@ WeatherOutlook.insert({
 	municipality: "San Emilio", 
 	data: {
 		month: {
-			January: 12.4306755, 
-			February: 8.03, 
-			March: 19.9835854167, 
-			April: 34.2999536806, 
-			May: 234.4021086111, 
-			June: 327.1397129167, 
-			July: 278.2570636806 
+			January: 7.7491002857, 
+			February: 7.4, 
+			March: 9.698272, 
+			April: 34.38, 
+			May: 227.59, 
+			June: 313.74, 
+			July: 501.98, 
+			Aug: 614.06 
 		}
 	}
 }); 
@@ -10852,13 +11598,14 @@ WeatherOutlook.insert({
 	municipality: "San Esteban", 
 	data: {
 		month: {
-			January: 7.7491002857, 
-			February: 7.4, 
-			March: 9.698272, 
-			April: 18.8624897143, 
-			May: 184.5847151429, 
-			June: 311.4887157143, 
-			July: 284.0774444444 
+			January: 7.8099848571, 
+			February: 7.46, 
+			March: 10.0874866667, 
+			April: 21.49, 
+			May: 181.15, 
+			June: 309.59, 
+			July: 505.56, 
+			Aug: 630.58 
 		}
 	}
 }); 
@@ -10869,13 +11616,14 @@ WeatherOutlook.insert({
 	municipality: "San Ildefonso", 
 	data: {
 		month: {
-			January: 7.8099848571, 
-			February: 7.46, 
-			March: 10.0874866667, 
-			April: 18.47909375, 
-			May: 158.9597252778, 
-			June: 345.3653426389, 
-			July: 378.7088575 
+			January: 10.2304391429, 
+			February: 4.53, 
+			March: 11.8855813889, 
+			April: 25.51, 
+			May: 141.34, 
+			June: 321.73, 
+			July: 481.75, 
+			Aug: 688.73 
 		}
 	}
 }); 
@@ -10886,13 +11634,32 @@ WeatherOutlook.insert({
 	municipality: "San Juan", 
 	data: {
 		month: {
-			January: 10.2304391429, 
-			February: 4.53, 
-			March: 11.8855813889, 
-			April: 25.9955669444, 
-			May: 203.4548895833, 
-			June: 338.7686605556, 
-			July: 617.8071975 
+			January: 8.0029765714, 
+			February: 7.38, 
+			March: 8.7402641865, 
+			April: 45.9, 
+			May: 195.91, 
+			June: 316.06, 
+			July: 513.95, 
+			Aug: 603.86 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "Ilocos Sur", 
+	municipality: "San Vicente", 
+	data: {
+		month: {
+			January: 10.320214, 
+			February: 8.77, 
+			March: 18.9389660185, 
+			April: 19.32, 
+			May: 140.94, 
+			June: 336.03, 
+			July: 451.24, 
+			Aug: 581.83 
 		}
 	}
 }); 
@@ -10903,13 +11670,32 @@ WeatherOutlook.insert({
 	municipality: "Santa", 
 	data: {
 		month: {
-			January: 8.0029765714, 
-			February: 7.38, 
-			March: 8.7402641865, 
-			April: 16.9790657817, 
-			May: 164.0911519365, 
-			June: 344.6955576429, 
-			July: 662.3310141667 
+			January: 9.7804042857, 
+			February: 8.69, 
+			March: 10.786063254, 
+			April: 38.04, 
+			May: 160.88, 
+			June: 331.64, 
+			July: 515.69, 
+			Aug: 572.72 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "Ilocos Sur", 
+	municipality: "Santa Catalina", 
+	data: {
+		month: {
+			January: 9.3477315714, 
+			February: 3.2, 
+			March: 14.4848301389, 
+			April: 30.24, 
+			May: 121.31, 
+			June: 338.14, 
+			July: 494.95, 
+			Aug: 611.51 
 		}
 	}
 }); 
@@ -10920,13 +11706,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Cruz", 
 	data: {
 		month: {
-			January: 10.320214, 
-			February: 8.77, 
-			March: 18.9389660185, 
-			April: 22.5793568519, 
-			May: 218.2479241667, 
-			June: 320.0680096296, 
-			July: 360.8609137963 
+			January: 8.832899, 
+			February: 4.56, 
+			March: 8.8738475, 
+			April: 34.88, 
+			May: 194.81, 
+			June: 314.68, 
+			July: 489.42, 
+			Aug: 643.24 
 		}
 	}
 }); 
@@ -10937,13 +11724,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Lucia", 
 	data: {
 		month: {
-			January: 9.7804042857, 
-			February: 8.69, 
-			March: 10.786063254, 
-			April: 6.5480504643, 
-			May: 207.9305556508, 
-			June: 320.6498869643, 
-			July: 340.5102031944 
+			January: 12.1861018095, 
+			February: 12.36, 
+			March: 26.8220664815, 
+			April: 26.46, 
+			May: 199.98, 
+			June: 313.94, 
+			July: 526.68, 
+			Aug: 630.94 
 		}
 	}
 }); 
@@ -10954,13 +11742,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Maria", 
 	data: {
 		month: {
-			January: 9.3477315714, 
-			February: 3.2, 
-			March: 14.4848301389, 
-			April: 28.0863447222, 
-			May: 203.77014125, 
-			June: 341.9534469444, 
-			July: 270.3621640278 
+			January: 12.0285427143, 
+			February: 1.31, 
+			March: 11.3725095833, 
+			April: 28.32, 
+			May: 189.45, 
+			June: 322.54, 
+			July: 504.96, 
+			Aug: 618.87 
 		}
 	}
 }); 
@@ -10971,13 +11760,32 @@ WeatherOutlook.insert({
 	municipality: "Santiago", 
 	data: {
 		month: {
-			January: 8.832899, 
-			February: 4.56, 
-			March: 8.8738475, 
-			April: 11.5512195833, 
-			May: 197.6306140278, 
-			June: 312.2957486111, 
-			July: 277.3386986111 
+			January: 11.7534334857, 
+			February: 13.13, 
+			March: 37.6105088333, 
+			April: 17.7, 
+			May: 185.29, 
+			June: 314.51, 
+			July: 505.97, 
+			Aug: 641.34 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "Ilocos Sur", 
+	municipality: "Santo Domingo", 
+	data: {
+		month: {
+			January: 10.8399948, 
+			February: 12.35, 
+			March: 27.4984496111, 
+			April: 27.33, 
+			May: 185.75, 
+			June: 338.76, 
+			July: 487.54, 
+			Aug: 639.18 
 		}
 	}
 }); 
@@ -10988,13 +11796,14 @@ WeatherOutlook.insert({
 	municipality: "Sigay", 
 	data: {
 		month: {
-			January: 12.1861018095, 
-			February: 12.36, 
-			March: 26.8220664815, 
-			April: 44.389074537, 
-			May: 263.2986694444, 
-			June: 295.9522968519, 
-			July: 516.3942502778 
+			January: 8.5054587143, 
+			February: 9.16, 
+			March: 23.0251566667, 
+			April: 43.89, 
+			May: 248.66, 
+			June: 286, 
+			July: 506.81, 
+			Aug: 599.99 
 		}
 	}
 }); 
@@ -11005,13 +11814,14 @@ WeatherOutlook.insert({
 	municipality: "Sinait", 
 	data: {
 		month: {
-			January: 12.0285427143, 
-			February: 1.31, 
-			March: 11.3725095833, 
-			April: 24.25657125, 
-			May: 210.82677875, 
-			June: 323.8703969444, 
-			July: 277.3782222222 
+			January: 7.5, 
+			February: 7.41, 
+			March: 9.2615452778, 
+			April: 46.41, 
+			May: 210.06, 
+			June: 337.01, 
+			July: 532.37, 
+			Aug: 616.38 
 		}
 	}
 }); 
@@ -11022,13 +11832,14 @@ WeatherOutlook.insert({
 	municipality: "Sugpon", 
 	data: {
 		month: {
-			January: 11.7534334857, 
-			February: 13.13, 
-			March: 37.6105088333, 
-			April: 71.559971, 
-			May: 299.7272466667, 
-			June: 302.5556277222, 
-			July: 327.3608445635 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 53.95, 
+			May: 273.2, 
+			June: 306.67, 
+			July: 546.46, 
+			Aug: 626.25 
 		}
 	}
 }); 
@@ -11039,13 +11850,14 @@ WeatherOutlook.insert({
 	municipality: "Suyo", 
 	data: {
 		month: {
-			January: 10.8399948, 
-			February: 12.35, 
-			March: 27.4984496111, 
-			April: 40.9141424444, 
-			May: 252.7778447778, 
-			June: 310.9358562222, 
-			July: 453.5712848333 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 25.75, 
+			May: 214.83, 
+			June: 294.16, 
+			July: 506.87, 
+			Aug: 611.97 
 		}
 	}
 }); 
@@ -11056,13 +11868,14 @@ WeatherOutlook.insert({
 	municipality: "Tagudin", 
 	data: {
 		month: {
-			January: 8.5054587143, 
-			February: 9.16, 
-			March: 23.0251566667, 
-			April: 22.9973104167, 
-			May: 204.6239630556, 
-			June: 334.7089051389, 
-			July: 319.0870983333 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 29.42, 
+			May: 200.22, 
+			June: 302.95, 
+			July: 489.61, 
+			Aug: 653.44 
 		}
 	}
 }); 
@@ -11073,13 +11886,14 @@ WeatherOutlook.insert({
 	municipality: "Vigan City", 
 	data: {
 		month: {
-			January: 7.5, 
-			February: 7.41, 
-			March: 9.2615452778, 
-			April: 12.0604888889, 
-			May: 132.8614408333, 
-			June: 354.8747966667, 
-			July: 211.4294055556 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 25.43, 
+			May: 123.56, 
+			June: 332.25, 
+			July: 503.68, 
+			Aug: 581.83 
 		}
 	}
 }); 
@@ -11093,10 +11907,11 @@ WeatherOutlook.insert({
 			January: 103.8513956868, 
 			February: 72.19, 
 			March: 106.4159151524, 
-			April: 71.6011643048, 
-			May: 203.818935546, 
-			June: 350.0286498208, 
-			July: 273.5498840039 
+			April: 80.23, 
+			May: 180.9, 
+			June: 321.23, 
+			July: 434.04, 
+			Aug: 309.02 
 		}
 	}
 }); 
@@ -11110,10 +11925,11 @@ WeatherOutlook.insert({
 			January: 119.3265044286, 
 			February: 85.39, 
 			March: 116.9079620139, 
-			April: 68.4600995833, 
-			May: 171.088695, 
-			June: 265.3765761806, 
-			July: 234.820241875 
+			April: 76.25, 
+			May: 173.58, 
+			June: 350.42, 
+			July: 378.98, 
+			Aug: 277.74 
 		}
 	}
 }); 
@@ -11127,10 +11943,11 @@ WeatherOutlook.insert({
 			January: 100.6675702857, 
 			February: 63.49, 
 			March: 101.3413125, 
-			April: 87.7741552778, 
-			May: 201.7236855556, 
-			June: 346.02104, 
-			July: 261.4148359722 
+			April: 95.27, 
+			May: 178.83, 
+			June: 296.36, 
+			July: 455.26, 
+			Aug: 280.87 
 		}
 	}
 }); 
@@ -11144,10 +11961,11 @@ WeatherOutlook.insert({
 			January: 88.741595, 
 			February: 72.77, 
 			March: 95.9734036111, 
-			April: 66.3839581944, 
-			May: 167.9990784722, 
-			June: 297.4898445833, 
-			July: 251.0677681944 
+			April: 73.88, 
+			May: 181.48, 
+			June: 473.6, 
+			July: 437.07, 
+			Aug: 337.86 
 		}
 	}
 }); 
@@ -11161,10 +11979,11 @@ WeatherOutlook.insert({
 			January: 110.0023351429, 
 			February: 78.29, 
 			March: 110.2718408333, 
-			April: 86.2782077778, 
-			May: 196.0856486111, 
-			June: 315.1647175, 
-			July: 262.57999 
+			April: 90.79, 
+			May: 178.05, 
+			June: 286.55, 
+			July: 436.21, 
+			Aug: 325.31 
 		}
 	}
 }); 
@@ -11178,10 +11997,11 @@ WeatherOutlook.insert({
 			January: 174.971688, 
 			February: 103.59, 
 			March: 150.0202752778, 
-			April: 64.3261830556, 
-			May: 190.0938711111, 
-			June: 268.1296430556, 
-			July: 483.5386358333 
+			April: 81.93, 
+			May: 177.47, 
+			June: 268.62, 
+			July: 381.41, 
+			Aug: 272.27 
 		}
 	}
 }); 
@@ -11195,10 +12015,11 @@ WeatherOutlook.insert({
 			January: 81.8062219048, 
 			February: 75.54, 
 			March: 89.7473857407, 
-			April: 62.9424748148, 
-			May: 144.5017110185, 
-			June: 274.9982781481, 
-			July: 237.4583492249 
+			April: 72.18, 
+			May: 184.43, 
+			June: 342.07, 
+			July: 430.59, 
+			Aug: 303.89 
 		}
 	}
 }); 
@@ -11212,10 +12033,11 @@ WeatherOutlook.insert({
 			January: 85.4269626667, 
 			February: 70.66, 
 			March: 99.4582825, 
-			April: 70.1067248148, 
-			May: 188.9414426852, 
-			June: 303.1586194444, 
-			July: 363.3058798836 
+			April: 77.71, 
+			May: 174.71, 
+			June: 350.59, 
+			July: 424.02, 
+			Aug: 272.61 
 		}
 	}
 }); 
@@ -11229,10 +12051,11 @@ WeatherOutlook.insert({
 			January: 93.8752515714, 
 			February: 81.47, 
 			March: 102.0485280093, 
-			April: 64.0092330556, 
-			May: 165.0626328704, 
-			June: 270.8457693519, 
-			July: 259.591939213 
+			April: 73.47, 
+			May: 170.84, 
+			June: 374.21, 
+			July: 408.65, 
+			Aug: 277.04 
 		}
 	}
 }); 
@@ -11246,10 +12069,29 @@ WeatherOutlook.insert({
 			January: 162.1004028571, 
 			February: 97.96, 
 			March: 138.7590920833, 
-			April: 61.7241526389, 
-			May: 186.58798, 
-			June: 278.2745022222, 
-			July: 315.03417625 
+			April: 75.49, 
+			May: 187.75, 
+			June: 301.07, 
+			July: 355.37, 
+			Aug: 276.34 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VI: Western Visayas", 
+	province: "Iloilo", 
+	municipality: "Bingawan", 
+	data: {
+		month: {
+			January: 107.3121510476, 
+			February: 68.29, 
+			March: 104.3154268519, 
+			April: 84.9, 
+			May: 173.12, 
+			June: 292.65, 
+			July: 451, 
+			Aug: 272.13 
 		}
 	}
 }); 
@@ -11260,13 +12102,14 @@ WeatherOutlook.insert({
 	municipality: "Cabatuan", 
 	data: {
 		month: {
-			January: 107.3121510476, 
-			February: 68.29, 
-			March: 104.3154268519, 
-			April: 86.4234306481, 
-			May: 186.4212591667, 
-			June: 274.5014243519, 
-			July: 341.1026801852 
+			January: 121.1201279286, 
+			February: 93.02, 
+			March: 122.6380096528, 
+			April: 93.6, 
+			May: 179.96, 
+			June: 302.9, 
+			July: 386.95, 
+			Aug: 297.3 
 		}
 	}
 }); 
@@ -11277,13 +12120,14 @@ WeatherOutlook.insert({
 	municipality: "Calinog", 
 	data: {
 		month: {
-			January: 121.1201279286, 
-			February: 93.02, 
-			March: 122.6380096528, 
-			April: 78.7051008333, 
-			May: 222.2480276389, 
-			June: 382.1717289583, 
-			July: 262.6739804167 
+			January: 157.2339323571, 
+			February: 88.99, 
+			March: 116.6668302143, 
+			April: 92.08, 
+			May: 184.38, 
+			June: 278.19, 
+			July: 513.55, 
+			Aug: 364.87 
 		}
 	}
 }); 
@@ -11294,13 +12138,14 @@ WeatherOutlook.insert({
 	municipality: "Carles", 
 	data: {
 		month: {
-			January: 157.2339323571, 
-			February: 88.99, 
-			March: 116.6668302143, 
-			April: 56.0390416429, 
-			May: 162.9143865, 
-			June: 238.0691069286, 
-			July: 427.5337519444 
+			January: 133.5173041429, 
+			February: 90.08, 
+			March: 116.7518837579, 
+			April: 71.69, 
+			May: 186.87, 
+			June: 272.84, 
+			July: 314.71, 
+			Aug: 280.4 
 		}
 	}
 }); 
@@ -11311,13 +12156,14 @@ WeatherOutlook.insert({
 	municipality: "Concepcion", 
 	data: {
 		month: {
-			January: 133.5173041429, 
-			February: 90.08, 
-			March: 116.7518837579, 
-			April: 67.3707523056, 
-			May: 166.1233553452, 
-			June: 245.5594596944, 
-			July: 242.8767402778 
+			January: 101.2524717143, 
+			February: 79.59, 
+			March: 107.8217651852, 
+			April: 73.93, 
+			May: 209.79, 
+			June: 343.8, 
+			July: 333, 
+			Aug: 290.32 
 		}
 	}
 }); 
@@ -11328,13 +12174,14 @@ WeatherOutlook.insert({
 	municipality: "Dingle", 
 	data: {
 		month: {
-			January: 101.2524717143, 
-			February: 79.59, 
-			March: 107.8217651852, 
-			April: 71.0552417593, 
-			May: 188.1190384259, 
-			June: 319.1310632407, 
-			July: 282.9887624074 
+			January: 114.0688294286, 
+			February: 85.98, 
+			March: 116.4800734259, 
+			April: 79.08, 
+			May: 186.86, 
+			June: 340.27, 
+			July: 447.08, 
+			Aug: 367.66 
 		}
 	}
 }); 
@@ -11345,13 +12192,14 @@ WeatherOutlook.insert({
 	municipality: "Duenas", 
 	data: {
 		month: {
-			January: 114.0688294286, 
-			February: 85.98, 
-			March: 116.4800734259, 
-			April: 81.1160821296, 
-			May: 205.3112992593, 
-			June: 340.9291747222, 
-			July: 251.8247560185 
+			January: 85.3388830476, 
+			February: 68.68, 
+			March: 101.0512983333, 
+			April: 88.41, 
+			May: 171.94, 
+			June: 293.78, 
+			July: 478.11, 
+			Aug: 271.71 
 		}
 	}
 }); 
@@ -11362,13 +12210,14 @@ WeatherOutlook.insert({
 	municipality: "Dumangas", 
 	data: {
 		month: {
-			January: 85.3388830476, 
-			February: 68.68, 
-			March: 101.0512983333, 
-			April: 70.4068414815, 
-			May: 188.5160191667, 
-			June: 294.9399986111, 
-			July: 232.3583049074 
+			January: 161.7686394286, 
+			February: 96.01, 
+			March: 130.9318831944, 
+			April: 77.74, 
+			May: 162.24, 
+			June: 379.74, 
+			July: 419.91, 
+			Aug: 268.39 
 		}
 	}
 }); 
@@ -11379,13 +12228,14 @@ WeatherOutlook.insert({
 	municipality: "Estancia", 
 	data: {
 		month: {
-			January: 161.7686394286, 
-			February: 96.01, 
-			March: 130.9318831944, 
-			April: 59.4587691667, 
-			May: 176.4771098611, 
-			June: 252.5813256944, 
-			July: 356.1230706944 
+			January: 64.3510781429, 
+			February: 44.13, 
+			March: 73.7521911111, 
+			April: 74.75, 
+			May: 197.32, 
+			June: 348.27, 
+			July: 339.45, 
+			Aug: 276.28 
 		}
 	}
 }); 
@@ -11396,13 +12246,14 @@ WeatherOutlook.insert({
 	municipality: "Guimbal", 
 	data: {
 		month: {
-			January: 64.3510781429, 
-			February: 44.13, 
-			March: 73.7521911111, 
-			April: 64.9275093056, 
-			May: 215.8935134722, 
-			June: 395.4910993056, 
-			July: 246.8505244444 
+			January: 67.8717054286, 
+			February: 41.7, 
+			March: 78.7100396528, 
+			April: 73.08, 
+			May: 196.83, 
+			June: 386.27, 
+			July: 514.12, 
+			Aug: 341.78 
 		}
 	}
 }); 
@@ -11413,13 +12264,14 @@ WeatherOutlook.insert({
 	municipality: "Igbaras", 
 	data: {
 		month: {
-			January: 67.8717054286, 
-			February: 41.7, 
-			March: 78.7100396528, 
-			April: 66.2917976389, 
-			May: 247.6935972917, 
-			June: 472.2973495139, 
-			July: 250.5499250952 
+			January: 49.1851918571, 
+			February: 36.56, 
+			March: 73.7214461111, 
+			April: 74.16, 
+			May: 229.3, 
+			June: 301.95, 
+			July: 591.48, 
+			Aug: 448.12 
 		}
 	}
 }); 
@@ -11430,13 +12282,14 @@ WeatherOutlook.insert({
 	municipality: "Iloilo City", 
 	data: {
 		month: {
-			January: 49.1851918571, 
-			February: 36.56, 
-			March: 73.7214461111, 
-			April: 62.5514776389, 
-			May: 146.3377290278, 
-			June: 325.1759230556, 
-			July: 243.9937305556 
+			January: 104.6662282041, 
+			February: 71.4, 
+			March: 114.4482135714, 
+			April: 69.91, 
+			May: 158.94, 
+			June: 405.04, 
+			July: 436.81, 
+			Aug: 453.92 
 		}
 	}
 }); 
@@ -11447,13 +12300,14 @@ WeatherOutlook.insert({
 	municipality: "Janiuay", 
 	data: {
 		month: {
-			January: 104.6662282041, 
-			February: 71.4, 
-			March: 114.4482135714, 
-			April: 92.766635754, 
-			May: 224.2226375794, 
-			June: 381.8774086508, 
-			July: 273.0625537698 
+			January: 107.8017374095, 
+			February: 76.54, 
+			March: 121.8257903333, 
+			April: 99.7, 
+			May: 161.4, 
+			June: 270.81, 
+			July: 461.37, 
+			Aug: 359.66 
 		}
 	}
 }); 
@@ -11464,13 +12318,14 @@ WeatherOutlook.insert({
 	municipality: "Lambunao", 
 	data: {
 		month: {
-			January: 107.8017374095, 
-			February: 76.54, 
-			March: 121.8257903333, 
-			April: 87.1405599815, 
-			May: 248.5844413704, 
-			June: 461.5643941852, 
-			July: 224.262001872 
+			January: 68.5827352857, 
+			February: 53.02, 
+			March: 91.9349689484, 
+			April: 98.12, 
+			May: 171.92, 
+			June: 283.27, 
+			July: 542.1, 
+			Aug: 348.39 
 		}
 	}
 }); 
@@ -11481,13 +12336,14 @@ WeatherOutlook.insert({
 	municipality: "Leganes", 
 	data: {
 		month: {
-			January: 68.5827352857, 
-			February: 53.02, 
-			March: 91.9349689484, 
-			April: 68.0348760198, 
-			May: 170.1361899365, 
-			June: 313.6997566349, 
-			July: 311.9259829167 
+			January: 129.1835395429, 
+			February: 87.26, 
+			March: 119.4976281667, 
+			April: 74.53, 
+			May: 159.49, 
+			June: 385.17, 
+			July: 430.1, 
+			Aug: 328.14 
 		}
 	}
 }); 
@@ -11498,13 +12354,14 @@ WeatherOutlook.insert({
 	municipality: "Lemery", 
 	data: {
 		month: {
-			January: 129.1835395429, 
-			February: 87.26, 
-			March: 119.4976281667, 
-			April: 64.0398581667, 
-			May: 181.6121205, 
-			June: 281.1150248889, 
-			July: 211.1543365 
+			January: 88.4472061143, 
+			February: 55.99, 
+			March: 95.0035895, 
+			April: 76.25, 
+			May: 173.88, 
+			June: 361.86, 
+			July: 407.83, 
+			Aug: 282.89 
 		}
 	}
 }); 
@@ -11515,13 +12372,14 @@ WeatherOutlook.insert({
 	municipality: "Leon", 
 	data: {
 		month: {
-			January: 88.4472061143, 
-			February: 55.99, 
-			March: 95.0035895, 
-			April: 80.2338666667, 
-			May: 232.2781276111, 
-			June: 419.5993872778, 
-			July: 286.4740901111 
+			January: 101.8585185143, 
+			February: 64.24, 
+			March: 110.1834196667, 
+			April: 87.83, 
+			May: 161.65, 
+			June: 317.06, 
+			July: 537.1, 
+			Aug: 328.03 
 		}
 	}
 }); 
@@ -11532,13 +12390,14 @@ WeatherOutlook.insert({
 	municipality: "Maasin", 
 	data: {
 		month: {
-			January: 101.8585185143, 
-			February: 64.24, 
-			March: 110.1834196667, 
-			April: 94.2149290556, 
-			May: 227.0465250556, 
-			June: 382.1803869444, 
-			July: 357.6806972222 
+			January: 65.847917, 
+			February: 36.33, 
+			March: 73.9796146296, 
+			April: 101.59, 
+			May: 173.65, 
+			June: 271.76, 
+			July: 462.42, 
+			Aug: 337.6 
 		}
 	}
 }); 
@@ -11549,13 +12408,14 @@ WeatherOutlook.insert({
 	municipality: "Miagao", 
 	data: {
 		month: {
-			January: 65.847917, 
-			February: 36.33, 
-			March: 73.9796146296, 
-			April: 58.7228010185, 
-			May: 255.5874483796, 
-			June: 474.5335058333, 
-			July: 296.1291185185 
+			January: 107.928596, 
+			February: 73.64, 
+			March: 104.1260269444, 
+			April: 65.95, 
+			May: 210.52, 
+			June: 308.59, 
+			July: 592.96, 
+			Aug: 426.29 
 		}
 	}
 }); 
@@ -11566,13 +12426,14 @@ WeatherOutlook.insert({
 	municipality: "Mina", 
 	data: {
 		month: {
-			January: 107.928596, 
-			February: 73.64, 
-			March: 104.1260269444, 
-			April: 77.8711077778, 
-			May: 195.1170163889, 
-			June: 309.8401094444, 
-			July: 362.8088474286 
+			January: 94.3864014286, 
+			February: 62.56, 
+			March: 103.4890695833, 
+			April: 85.26, 
+			May: 173.07, 
+			June: 305.94, 
+			July: 424.7, 
+			Aug: 315.78 
 		}
 	}
 }); 
@@ -11583,13 +12444,14 @@ WeatherOutlook.insert({
 	municipality: "New Lucena", 
 	data: {
 		month: {
-			January: 94.3864014286, 
-			February: 62.56, 
-			March: 103.4890695833, 
-			April: 80.0591140278, 
-			May: 191.6006715278, 
-			June: 302.4434470833, 
-			July: 364.3985741667 
+			January: 57.498843, 
+			February: 40.95, 
+			March: 77.5608816667, 
+			April: 86.95, 
+			May: 175.97, 
+			June: 322.98, 
+			July: 411.03, 
+			Aug: 403.72 
 		}
 	}
 }); 
@@ -11600,13 +12462,14 @@ WeatherOutlook.insert({
 	municipality: "Oton", 
 	data: {
 		month: {
-			January: 57.498843, 
-			February: 40.95, 
-			March: 77.5608816667, 
-			April: 66.7166644444, 
-			May: 171.4929669444, 
-			June: 344.1813059722, 
-			July: 245.1229488889 
+			January: 134.11661, 
+			February: 100.33, 
+			March: 119.1691003333, 
+			April: 74.24, 
+			May: 187.66, 
+			June: 309.98, 
+			July: 458.58, 
+			Aug: 288.81 
 		}
 	}
 }); 
@@ -11617,13 +12480,14 @@ WeatherOutlook.insert({
 	municipality: "Passi City", 
 	data: {
 		month: {
-			January: 134.11661, 
-			February: 100.33, 
-			March: 119.1691003333, 
-			April: 63.8514677222, 
-			May: 212.2802116944, 
-			June: 326.0412260833, 
-			July: 240.0175640833 
+			January: 63.5091097143, 
+			February: 46.38, 
+			March: 86.2490588889, 
+			April: 78.51, 
+			May: 172.67, 
+			June: 300.35, 
+			July: 428.68, 
+			Aug: 301.07 
 		}
 	}
 }); 
@@ -11634,13 +12498,14 @@ WeatherOutlook.insert({
 	municipality: "Pavia", 
 	data: {
 		month: {
-			January: 63.5091097143, 
-			February: 46.38, 
-			March: 86.2490588889, 
-			April: 67.6800375, 
-			May: 171.1750969444, 
-			June: 328.7597183333, 
-			July: 333.2978313889 
+			January: 102.3899665714, 
+			February: 71.78, 
+			March: 104.7729439583, 
+			April: 75.18, 
+			May: 200.32, 
+			June: 293.51, 
+			July: 429.35, 
+			Aug: 273.84 
 		}
 	}
 }); 
@@ -11651,13 +12516,14 @@ WeatherOutlook.insert({
 	municipality: "Pototan", 
 	data: {
 		month: {
-			January: 102.3899665714, 
-			February: 71.78, 
-			March: 104.7729439583, 
-			April: 74.5460491667, 
-			May: 191.173099375, 
-			June: 310.7670565278, 
-			July: 302.189137744 
+			January: 150.1953328571, 
+			February: 93.63, 
+			March: 131.7932852778, 
+			April: 81.81, 
+			May: 177.78, 
+			June: 309.78, 
+			July: 430.82, 
+			Aug: 387.41 
 		}
 	}
 }); 
@@ -11668,13 +12534,14 @@ WeatherOutlook.insert({
 	municipality: "San Dionisio", 
 	data: {
 		month: {
-			January: 150.1953328571, 
-			February: 93.63, 
-			March: 131.7932852778, 
-			April: 62.6988311111, 
-			May: 179.7781875926, 
-			June: 278.1107839815, 
-			July: 250.6602697222 
+			January: 108.9849161905, 
+			February: 87.58, 
+			March: 110.3397311111, 
+			April: 74.59, 
+			May: 189.4, 
+			June: 323.46, 
+			July: 362.63, 
+			Aug: 275.77 
 		}
 	}
 }); 
@@ -11685,13 +12552,14 @@ WeatherOutlook.insert({
 	municipality: "San Enrique", 
 	data: {
 		month: {
-			January: 108.9849161905, 
-			February: 87.58, 
-			March: 110.3397311111, 
-			April: 66.9350619444, 
-			May: 188.2083082407, 
-			June: 314.3932088889, 
-			July: 222.8315585952 
+			January: 49.9265551429, 
+			February: 31.72, 
+			March: 63.6592856944, 
+			April: 75.69, 
+			May: 183.21, 
+			June: 316.19, 
+			July: 456.69, 
+			Aug: 289.95 
 		}
 	}
 }); 
@@ -11702,13 +12570,14 @@ WeatherOutlook.insert({
 	municipality: "San Joaquin", 
 	data: {
 		month: {
-			January: 49.9265551429, 
-			February: 31.72, 
-			March: 63.6592856944, 
-			April: 52.655640463, 
-			May: 221.054871713, 
-			June: 443.7225252315, 
-			July: 276.5659158796 
+			January: 67.221394, 
+			February: 55.29, 
+			March: 87.6763048611, 
+			April: 62.96, 
+			May: 186.55, 
+			June: 297.72, 
+			July: 538.37, 
+			Aug: 339.55 
 		}
 	}
 }); 
@@ -11719,13 +12588,14 @@ WeatherOutlook.insert({
 	municipality: "San Miguel", 
 	data: {
 		month: {
-			January: 67.221394, 
-			February: 55.29, 
-			March: 87.6763048611, 
-			April: 71.9273458333, 
-			May: 179.6338086111, 
-			June: 334.3465001389, 
-			July: 367.2013025 
+			January: 130.2586691429, 
+			February: 93.59, 
+			March: 114.7717743056, 
+			April: 78.91, 
+			May: 163.2, 
+			June: 316.1, 
+			July: 454.89, 
+			Aug: 321.3 
 		}
 	}
 }); 
@@ -11736,13 +12606,14 @@ WeatherOutlook.insert({
 	municipality: "San Rafael", 
 	data: {
 		month: {
-			January: 130.2586691429, 
-			February: 93.59, 
-			March: 114.7717743056, 
-			April: 60.4385451389, 
-			May: 197.0438930556, 
-			June: 300.0660551389, 
-			July: 237.8472606944 
+			January: 87.7139764286, 
+			February: 56.08, 
+			March: 97.2176244444, 
+			April: 74.57, 
+			May: 168.8, 
+			June: 357.58, 
+			July: 439.73, 
+			Aug: 270.78 
 		}
 	}
 }); 
@@ -11753,13 +12624,14 @@ WeatherOutlook.insert({
 	municipality: "Santa Barbara", 
 	data: {
 		month: {
-			January: 87.7139764286, 
-			February: 56.08, 
-			March: 97.2176244444, 
-			April: 72.8389515278, 
-			May: 183.4090376389, 
-			June: 314.4695355556, 
-			July: 256.8802415278 
+			January: 146.0972790476, 
+			February: 93.6, 
+			March: 138.4895355247, 
+			April: 81.04, 
+			May: 170.78, 
+			June: 299.27, 
+			July: 412.85, 
+			Aug: 426.86 
 		}
 	}
 }); 
@@ -11770,13 +12642,14 @@ WeatherOutlook.insert({
 	municipality: "Sara", 
 	data: {
 		month: {
-			January: 146.0972790476, 
-			February: 93.6, 
-			March: 138.4895355247, 
-			April: 65.6650762654, 
-			May: 188.2550800617, 
-			June: 299.2853125309, 
-			July: 247.4123875 
+			January: 64.5210468571, 
+			February: 45.05, 
+			March: 77.6451437963, 
+			April: 78.52, 
+			May: 188.09, 
+			June: 371.57, 
+			July: 397.35, 
+			Aug: 308.36 
 		}
 	}
 }); 
@@ -11787,13 +12660,14 @@ WeatherOutlook.insert({
 	municipality: "Tigbauan", 
 	data: {
 		month: {
-			January: 64.5210468571, 
-			February: 45.05, 
-			March: 77.6451437963, 
-			April: 67.5414088889, 
-			May: 204.4597922222, 
-			June: 385.2488533333, 
-			July: 299.7773093519 
+			January: 76.3604947143, 
+			February: 49.17, 
+			March: 85.4631822222, 
+			April: 74.99, 
+			May: 170.23, 
+			June: 317.14, 
+			July: 481.17, 
+			Aug: 331.6 
 		}
 	}
 }); 
@@ -11804,13 +12678,14 @@ WeatherOutlook.insert({
 	municipality: "Tubungan", 
 	data: {
 		month: {
-			January: 76.3604947143, 
-			February: 49.17, 
-			March: 85.4631822222, 
-			April: 74.7680360417, 
-			May: 244.7155504861, 
-			June: 461.5353020139, 
-			July: 259.1207533095 
+			January: 77.4110902857, 
+			February: 61.44, 
+			March: 97.6899122222, 
+			April: 82.47, 
+			May: 212.84, 
+			June: 280.02, 
+			July: 584.83, 
+			Aug: 317.43 
 		}
 	}
 }); 
@@ -11821,13 +12696,14 @@ WeatherOutlook.insert({
 	municipality: "Zarraga", 
 	data: {
 		month: {
-			January: 77.4110902857, 
-			February: 61.44, 
-			March: 97.6899122222, 
-			April: 69.5502297222, 
-			May: 181.92317, 
-			June: 306.2002538889, 
-			July: 263.0850197222 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 77.05, 
+			May: 212.28, 
+			June: 360.74, 
+			July: 416.85, 
+			Aug: 355.87 
 		}
 	}
 }); 
@@ -11841,10 +12717,11 @@ WeatherOutlook.insert({
 			January: 97.6626194015, 
 			February: 70.47, 
 			March: 84.9958527953, 
-			April: 66.2728118717, 
-			May: 167.2614202237, 
-			June: 132.4024291232, 
-			July: 343.6749314091 
+			April: 59.64, 
+			May: 147.82, 
+			June: 139.35, 
+			July: 245.42, 
+			Aug: 245.06 
 		}
 	}
 }); 
@@ -11858,10 +12735,11 @@ WeatherOutlook.insert({
 			January: 69.3220472, 
 			February: 50.42, 
 			March: 77.8255838333, 
-			April: 65.1407434444, 
-			May: 175.9282040556, 
-			June: 144.1113256111, 
-			July: 484.7658056111 
+			April: 58.37, 
+			May: 168.37, 
+			June: 135.61, 
+			July: 257.93, 
+			Aug: 290.58 
 		}
 	}
 }); 
@@ -11875,10 +12753,11 @@ WeatherOutlook.insert({
 			January: 83.2141065306, 
 			February: 61.05, 
 			March: 83.8865296032, 
-			April: 67.1804611905, 
-			May: 178.4634127381, 
-			June: 133.1333074603, 
-			July: 336.1956832608 
+			April: 52.22, 
+			May: 172.36, 
+			June: 123.76, 
+			July: 251.94, 
+			Aug: 218.2 
 		}
 	}
 }); 
@@ -11892,10 +12771,11 @@ WeatherOutlook.insert({
 			January: 69.0962841429, 
 			February: 50.37, 
 			March: 73.8734745833, 
-			April: 61.6892779167, 
-			May: 173.3942715278, 
-			June: 185.6335122222, 
-			July: 366.7370558333 
+			April: 89.67, 
+			May: 161.22, 
+			June: 175.02, 
+			July: 279.74, 
+			Aug: 280.52 
 		}
 	}
 }); 
@@ -11909,10 +12789,11 @@ WeatherOutlook.insert({
 			January: 96.6847966429, 
 			February: 70.4, 
 			March: 80.697265162, 
-			April: 58.0232494676, 
-			May: 160.072921713, 
-			June: 130.1048984259, 
-			July: 375.3569579861 
+			April: 61.43, 
+			May: 153.31, 
+			June: 121.85, 
+			July: 239.19, 
+			Aug: 226.42 
 		}
 	}
 }); 
@@ -11926,10 +12807,11 @@ WeatherOutlook.insert({
 			January: 62.9116260952, 
 			February: 47.23, 
 			March: 62.1470362963, 
-			April: 50.5880367593, 
-			May: 142.8766860185, 
-			June: 180.602305, 
-			July: 579.1547351852 
+			April: 49.59, 
+			May: 123.77, 
+			June: 166.05, 
+			July: 255.08, 
+			Aug: 243.15 
 		}
 	}
 }); 
@@ -11943,10 +12825,11 @@ WeatherOutlook.insert({
 			January: 76.730384026, 
 			February: 41.14, 
 			March: 51.0625414394, 
-			April: 43.7770340657, 
-			May: 147.3268888636, 
-			June: 169.1967756818, 
-			July: 264.1615183838 
+			April: 45.34, 
+			May: 136.35, 
+			June: 166.3, 
+			July: 231.16, 
+			Aug: 253.05 
 		}
 	}
 }); 
@@ -11960,10 +12843,11 @@ WeatherOutlook.insert({
 			January: 71.0124705714, 
 			February: 52.79, 
 			March: 76.8769550926, 
-			April: 59.3076983333, 
-			May: 167.2847459259, 
-			June: 178.7443426852, 
-			July: 320.4859707672 
+			April: 87.86, 
+			May: 162.01, 
+			June: 167.76, 
+			July: 272.23, 
+			Aug: 248.21 
 		}
 	}
 }); 
@@ -11977,10 +12861,11 @@ WeatherOutlook.insert({
 			January: 81.3110401587, 
 			February: 58.91, 
 			March: 77.1693464198, 
-			April: 57.6950323457, 
-			May: 164.3701255864, 
-			June: 148.4754778086, 
-			July: 331.9373046605 
+			April: 58.28, 
+			May: 154.75, 
+			June: 136.85, 
+			July: 258.46, 
+			Aug: 238.51 
 		}
 	}
 }); 
@@ -11994,10 +12879,11 @@ WeatherOutlook.insert({
 			January: 61.8454125, 
 			February: 50.01, 
 			March: 81.103773125, 
-			April: 77.4655236111, 
-			May: 197.3830747917, 
-			June: 142.1563761806, 
-			July: 232.7040313194 
+			April: 61.99, 
+			May: 195.01, 
+			June: 129.64, 
+			July: 282.92, 
+			Aug: 226.14 
 		}
 	}
 }); 
@@ -12011,10 +12897,11 @@ WeatherOutlook.insert({
 			January: 67.146003873, 
 			February: 37.69, 
 			March: 48.9753449074, 
-			April: 45.0702848765, 
-			May: 142.463546821, 
-			June: 182.4217830556, 
-			July: 233.6139978704 
+			April: 56.38, 
+			May: 131.14, 
+			June: 173.81, 
+			July: 252.14, 
+			Aug: 232.99 
 		}
 	}
 }); 
@@ -12028,10 +12915,11 @@ WeatherOutlook.insert({
 			January: 142.0852392738, 
 			February: 113.81, 
 			March: 128.619686956, 
-			April: 90.2179502662, 
-			May: 199.2701259722, 
-			June: 100.3469016782, 
-			July: 274.6274927315 
+			April: 61.95, 
+			May: 174.04, 
+			June: 115.12, 
+			July: 180.12, 
+			Aug: 259.64 
 		}
 	}
 }); 
@@ -12045,10 +12933,11 @@ WeatherOutlook.insert({
 			January: 112.4727969388, 
 			February: 73.15, 
 			March: 79.7739324008, 
-			April: 66.8302602183, 
-			May: 158.1603447619, 
-			June: 108.7062769841, 
-			July: 263.0501069881 
+			April: 46.84, 
+			May: 157, 
+			June: 92.49, 
+			July: 141.46, 
+			Aug: 267.87 
 		}
 	}
 }); 
@@ -12062,10 +12951,11 @@ WeatherOutlook.insert({
 			January: 84.4692289143, 
 			February: 67.25, 
 			March: 93.4885216111, 
-			April: 79.6839715556, 
-			May: 190.514596963, 
-			June: 114.5075269259, 
-			July: 230.5875386365 
+			April: 57.89, 
+			May: 179.89, 
+			June: 104.84, 
+			July: 245.34, 
+			Aug: 231.88 
 		}
 	}
 }); 
@@ -12079,10 +12969,11 @@ WeatherOutlook.insert({
 			January: 57.489795, 
 			February: 44.11, 
 			March: 47.6660548611, 
-			April: 41.3490516667, 
-			May: 115.9313461111, 
-			June: 153.9839765278, 
-			July: 645.8703858333 
+			April: 58.19, 
+			May: 110.97, 
+			June: 146.35, 
+			July: 227.64, 
+			Aug: 230.38 
 		}
 	}
 }); 
@@ -12096,10 +12987,11 @@ WeatherOutlook.insert({
 			January: 103.7793277516, 
 			February: 70.69, 
 			March: 76.9915736649, 
-			April: 58.5835521734, 
-			May: 140.0000726888, 
-			June: 115.8886039526, 
-			July: 352.8064965093 
+			April: 47.05, 
+			May: 116.9, 
+			June: 125.5, 
+			July: 203.27, 
+			Aug: 237.44 
 		}
 	}
 }); 
@@ -12113,10 +13005,11 @@ WeatherOutlook.insert({
 			January: 90.3165934762, 
 			February: 79.77, 
 			March: 109.0673740046, 
-			April: 82.5342315046, 
-			May: 193.1091268056, 
-			June: 139.7612609028, 
-			July: 424.2483547454 
+			April: 61.85, 
+			May: 184.89, 
+			June: 132.71, 
+			July: 286.38, 
+			Aug: 208.91 
 		}
 	}
 }); 
@@ -12130,10 +13023,11 @@ WeatherOutlook.insert({
 			January: 69.3645814286, 
 			February: 52.99, 
 			March: 71.0839108333, 
-			April: 54.9059319444, 
-			May: 156.2708438889, 
-			June: 178.0490852778, 
-			July: 381.0153525714 
+			April: 92.95, 
+			May: 146.97, 
+			June: 169.05, 
+			July: 263.88, 
+			Aug: 294.29 
 		}
 	}
 }); 
@@ -12147,10 +13041,11 @@ WeatherOutlook.insert({
 			January: 105.9242519643, 
 			February: 68.29, 
 			March: 69.6533825694, 
-			April: 68.0545365972, 
-			May: 186.4267319097, 
-			June: 114.2132049653, 
-			July: 288.6994382639 
+			April: 54.46, 
+			May: 158.89, 
+			June: 104.79, 
+			July: 145.44, 
+			Aug: 270.57 
 		}
 	}
 }); 
@@ -12164,10 +13059,11 @@ WeatherOutlook.insert({
 			January: 61.5816867143, 
 			February: 41.44, 
 			March: 57.6129581944, 
-			April: 57.9301851389, 
-			May: 160.2585577778, 
-			June: 185.6822420833, 
-			July: 260.6206909722 
+			April: 55.12, 
+			May: 144.31, 
+			June: 176.34, 
+			July: 280.99, 
+			Aug: 260.2 
 		}
 	}
 }); 
@@ -12181,10 +13077,11 @@ WeatherOutlook.insert({
 			January: 71.4626884286, 
 			February: 53.91, 
 			March: 54.9783027083, 
-			April: 47.5232083333, 
-			May: 128.1040121528, 
-			June: 141.1448732639, 
-			July: 407.042389375 
+			April: 57.94, 
+			May: 121.93, 
+			June: 131.93, 
+			July: 232.36, 
+			Aug: 241.88 
 		}
 	}
 }); 
@@ -12198,10 +13095,11 @@ WeatherOutlook.insert({
 			January: 133.9502102208, 
 			February: 91.39, 
 			March: 112.4342097854, 
-			April: 73.4399307955, 
-			May: 148.1262032828, 
-			June: 91.1145392045, 
-			July: 386.4487852778 
+			April: 49.13, 
+			May: 121.01, 
+			June: 86.68, 
+			July: 179.51, 
+			Aug: 227.31 
 		}
 	}
 }); 
@@ -12215,10 +13113,11 @@ WeatherOutlook.insert({
 			January: 60.4861891837, 
 			February: 38.07, 
 			March: 50.375100119, 
-			April: 52.195232381, 
-			May: 152.6364349206, 
-			June: 181.5235577381, 
-			July: 240.9841946825 
+			April: 48.1, 
+			May: 143.79, 
+			June: 172.25, 
+			July: 280.71, 
+			Aug: 254.83 
 		}
 	}
 }); 
@@ -12232,10 +13131,11 @@ WeatherOutlook.insert({
 			January: 63.2746349714, 
 			February: 41.65, 
 			March: 53.1391140556, 
-			April: 48.0140706667, 
-			May: 141.9302087778, 
-			June: 188.3116792778, 
-			July: 253.1858088889 
+			April: 68.52, 
+			May: 129.87, 
+			June: 182.16, 
+			July: 251.7, 
+			Aug: 253.3 
 		}
 	}
 }); 
@@ -12249,10 +13149,11 @@ WeatherOutlook.insert({
 			January: 61.7178624286, 
 			February: 49.77, 
 			March: 77.191825625, 
-			April: 70.3121615972, 
-			May: 190.2395504861, 
-			June: 178.68861625, 
-			July: 546.5999585417 
+			April: 77.4, 
+			May: 171.98, 
+			June: 159.81, 
+			July: 266.5, 
+			Aug: 272.24 
 		}
 	}
 }); 
@@ -12266,10 +13167,11 @@ WeatherOutlook.insert({
 			January: 65.1905294286, 
 			February: 49.05, 
 			March: 57.8352122222, 
-			April: 47.2998711111, 
-			May: 126.5087116667, 
-			June: 157.3544427778, 
-			July: 311.0957405556 
+			April: 52.04, 
+			May: 117.21, 
+			June: 148.35, 
+			July: 246.67, 
+			Aug: 298.53 
 		}
 	}
 }); 
@@ -12283,10 +13185,11 @@ WeatherOutlook.insert({
 			January: 64.2197102143, 
 			February: 45.69, 
 			March: 64.9682457639, 
-			April: 59.7388467361, 
-			May: 162.67841875, 
-			June: 190.1554922917, 
-			July: 442.3875822222 
+			April: 53.2, 
+			May: 146.74, 
+			June: 180.8, 
+			July: 280.79, 
+			Aug: 233.28 
 		}
 	}
 }); 
@@ -12300,10 +13203,11 @@ WeatherOutlook.insert({
 			January: 107.0763860286, 
 			February: 96.97, 
 			March: 129.6159875833, 
-			April: 92.2597545556, 
-			May: 201.8600791389, 
-			June: 149.7606535833, 
-			July: 426.1954890556 
+			April: 66.46, 
+			May: 183.83, 
+			June: 147.04, 
+			July: 304.9, 
+			Aug: 261.89 
 		}
 	}
 }); 
@@ -12317,10 +13221,11 @@ WeatherOutlook.insert({
 			January: 112.4319059048, 
 			February: 93.81, 
 			March: 111.7197782407, 
-			April: 82.8358630864, 
-			May: 198.0319346605, 
-			June: 118.7186403858, 
-			July: 230.895140724 
+			April: 70.4, 
+			May: 171.74, 
+			June: 115.25, 
+			July: 247.39, 
+			Aug: 247.61 
 		}
 	}
 }); 
@@ -12334,10 +13239,11 @@ WeatherOutlook.insert({
 			January: 62.6746058571, 
 			February: 41.77, 
 			March: 68.8603554167, 
-			April: 69.3877884722, 
-			May: 178.3583402778, 
-			June: 123.0657118056, 
-			July: 255.3508018056 
+			April: 60.64, 
+			May: 169.75, 
+			June: 106.58, 
+			July: 247.07, 
+			Aug: 298.37 
 		}
 	}
 }); 
@@ -12351,10 +13257,11 @@ WeatherOutlook.insert({
 			January: 68.2098144762, 
 			February: 49.82, 
 			March: 72.0268730556, 
-			April: 58.5586650926, 
-			May: 156.4873927778, 
-			June: 184.1641317593, 
-			July: 378.0480937037 
+			April: 93.37, 
+			May: 147.69, 
+			June: 175.16, 
+			July: 273.56, 
+			Aug: 236.17 
 		}
 	}
 }); 
@@ -12368,10 +13275,11 @@ WeatherOutlook.insert({
 			January: 128.1330851626, 
 			February: 96.46, 
 			March: 106.9088433716, 
-			April: 71.9539421839, 
-			May: 176.8322552682, 
-			June: 107.658833113, 
-			July: 371.9458182195 
+			April: 71.91, 
+			May: 167.68, 
+			June: 111.75, 
+			July: 218.31, 
+			Aug: 219.89 
 		}
 	}
 }); 
@@ -12385,10 +13293,11 @@ WeatherOutlook.insert({
 			January: 66.4589714286, 
 			February: 50.5, 
 			March: 77.0752556481, 
-			April: 65.7110759259, 
-			May: 174.0889425926, 
-			June: 174.8919799074, 
-			July: 379.5438411111 
+			April: 80.08, 
+			May: 165.68, 
+			June: 165.89, 
+			July: 269.8, 
+			Aug: 241.67 
 		}
 	}
 }); 
@@ -12402,10 +13311,11 @@ WeatherOutlook.insert({
 			January: 92.8993402857, 
 			February: 57.51, 
 			March: 59.9473762731, 
-			April: 55.7302116782, 
-			May: 168.0638634606, 
-			June: 142.3768212153, 
-			July: 491.7181424947 
+			April: 55.04, 
+			May: 131.51, 
+			June: 167.99, 
+			July: 221.12, 
+			Aug: 271.79 
 		}
 	}
 }); 
@@ -12419,10 +13329,11 @@ WeatherOutlook.insert({
 			January: 60.6060411429, 
 			February: 26.83, 
 			March: 37.5672866667, 
-			April: 32.1241518519, 
-			May: 134.8531117593, 
-			June: 180.6395538889, 
-			July: 638.3620596799 
+			April: 49.85, 
+			May: 124.39, 
+			June: 172.58, 
+			July: 242.54, 
+			Aug: 252.87 
 		}
 	}
 }); 
@@ -12436,10 +13347,11 @@ WeatherOutlook.insert({
 			January: 60.7512128286, 
 			February: 47.02, 
 			March: 75.1768987222, 
-			April: 75.5588038056, 
-			May: 193.5220159722, 
-			June: 143.6714543611, 
-			July: 279.7133844444 
+			April: 81.11, 
+			May: 189.17, 
+			June: 129.18, 
+			July: 277.58, 
+			Aug: 235.49 
 		}
 	}
 }); 
@@ -12453,10 +13365,11 @@ WeatherOutlook.insert({
 			January: 68.4639891429, 
 			February: 35.42, 
 			March: 46.34238, 
-			April: 39.8295058333, 
-			May: 134.8349416667, 
-			June: 182.72746625, 
-			July: 274.7915944444 
+			April: 57.42, 
+			May: 125.58, 
+			June: 174.86, 
+			July: 255.01, 
+			Aug: 270.63 
 		}
 	}
 }); 
@@ -12470,10 +13383,11 @@ WeatherOutlook.insert({
 			January: 78.5561861071, 
 			February: 44.78, 
 			March: 53.2064825347, 
-			April: 45.2889528125, 
-			May: 138.283515, 
-			June: 165.3833203125, 
-			July: 250.1596494444 
+			April: 48.07, 
+			May: 122.05, 
+			June: 164.85, 
+			July: 221.07, 
+			Aug: 243.53 
 		}
 	}
 }); 
@@ -12487,10 +13401,11 @@ WeatherOutlook.insert({
 			January: 37.2896844948, 
 			February: 29, 
 			March: 44.273034874, 
-			April: 68.1285787887, 
-			May: 222.2132977119, 
-			June: 205.9307338832, 
-			July: 402.2303206539 
+			April: 66.65, 
+			May: 209.4, 
+			June: 193.17, 
+			July: 277.86, 
+			Aug: 326.97 
 		}
 	}
 }); 
@@ -12504,10 +13419,11 @@ WeatherOutlook.insert({
 			January: 32.7619880357, 
 			February: 24.48, 
 			March: 44.1164375868, 
-			April: 80.7624152778, 
-			May: 273.5042522917, 
-			June: 232.5424585764, 
-			July: 518.9202733135 
+			April: 58.89, 
+			May: 259.54, 
+			June: 192.76, 
+			July: 298.22, 
+			Aug: 331.7 
 		}
 	}
 }); 
@@ -12521,10 +13437,11 @@ WeatherOutlook.insert({
 			January: 26.6906278571, 
 			February: 24.39, 
 			March: 48.0813544444, 
-			April: 89.9507600694, 
-			May: 281.1022302431, 
-			June: 253.4949932639, 
-			July: 283.1090243056 
+			April: 75.12, 
+			May: 266.11, 
+			June: 194.84, 
+			July: 302.19, 
+			Aug: 253.47 
 		}
 	}
 }); 
@@ -12538,10 +13455,11 @@ WeatherOutlook.insert({
 			January: 29.3177629206, 
 			February: 24.66, 
 			March: 47.1871087346, 
-			April: 84.881904321, 
-			May: 273.3102816667, 
-			June: 251.1896119753, 
-			July: 252.3483721914 
+			April: 71.04, 
+			May: 263.12, 
+			June: 219.52, 
+			July: 301.69, 
+			Aug: 323.33 
 		}
 	}
 }); 
@@ -12555,10 +13473,11 @@ WeatherOutlook.insert({
 			January: 41.1759927227, 
 			February: 25.83, 
 			March: 40.4662195588, 
-			April: 55.8796119281, 
-			May: 204.3459655882, 
-			June: 189.0546140196, 
-			July: 513.9930945915 
+			April: 63.75, 
+			May: 188.17, 
+			June: 195.95, 
+			July: 260.23, 
+			Aug: 331.77 
 		}
 	}
 }); 
@@ -12572,10 +13491,11 @@ WeatherOutlook.insert({
 			January: 55.8359759048, 
 			February: 29.97, 
 			March: 38.7177553241, 
-			April: 39.6935222222, 
-			May: 152.9263908796, 
-			June: 175.3293123148, 
-			July: 612.2278045833 
+			April: 69.87, 
+			May: 138.99, 
+			June: 216.3, 
+			July: 254.93, 
+			Aug: 385.63 
 		}
 	}
 }); 
@@ -12589,10 +13509,11 @@ WeatherOutlook.insert({
 			January: 42.1014496044, 
 			February: 34.92, 
 			March: 43.556741656, 
-			April: 53.5064511111, 
-			May: 164.2526038141, 
-			June: 170.8974281197, 
-			July: 375.9654605611 
+			April: 62.08, 
+			May: 164.64, 
+			June: 180.34, 
+			July: 267.48, 
+			Aug: 342.71 
 		}
 	}
 }); 
@@ -12606,10 +13527,11 @@ WeatherOutlook.insert({
 			January: 33.8616245079, 
 			February: 34.24, 
 			March: 48.5928478395, 
-			April: 79.8050754938, 
-			May: 238.9131295679, 
-			June: 209.2294746296, 
-			July: 272.3562061102 
+			April: 77.2, 
+			May: 227.29, 
+			June: 199, 
+			July: 278.17, 
+			Aug: 285.45 
 		}
 	}
 }); 
@@ -12623,10 +13545,11 @@ WeatherOutlook.insert({
 			January: 30.187109381, 
 			February: 28.25, 
 			March: 48.2072315278, 
-			April: 89.2003890278, 
-			May: 276.2976398148, 
-			June: 228.9387800926, 
-			July: 256.6753201852 
+			April: 87.09, 
+			May: 269.53, 
+			June: 188.85, 
+			July: 300.09, 
+			Aug: 284.2 
 		}
 	}
 }); 
@@ -12640,10 +13563,11 @@ WeatherOutlook.insert({
 			January: 9.1146971989, 
 			February: 8.15, 
 			March: 20.1800392484, 
-			April: 34.852178263, 
-			May: 222.9165464272, 
-			June: 329.6534816046, 
-			July: 351.5832741449 
+			April: 41.63, 
+			May: 204.13, 
+			June: 321.38, 
+			July: 544.29, 
+			Aug: 731.87 
 		}
 	}
 }); 
@@ -12657,10 +13581,11 @@ WeatherOutlook.insert({
 			January: 8.3979725714, 
 			February: 8.72, 
 			March: 13.6698741667, 
-			April: 18.3344222222, 
-			May: 159.5258488889, 
-			June: 237.6489691667, 
-			July: 354.8507069444 
+			April: 25.83, 
+			May: 142.48, 
+			June: 228.65, 
+			July: 390.73, 
+			Aug: 706.46 
 		}
 	}
 }); 
@@ -12674,10 +13599,11 @@ WeatherOutlook.insert({
 			January: 10.1307506667, 
 			February: 7.5, 
 			March: 13.1484613201, 
-			April: 28.6553901852, 
-			May: 217.7776617698, 
-			June: 327.2207041323, 
-			July: 407.7029239815 
+			April: 50.45, 
+			May: 225.11, 
+			June: 323.5, 
+			July: 549.9, 
+			Aug: 743.57 
 		}
 	}
 }); 
@@ -12691,10 +13617,11 @@ WeatherOutlook.insert({
 			January: 8.379572381, 
 			February: 11.31, 
 			March: 18.7549588148, 
-			April: 11.8153159418, 
-			May: 191.650348, 
-			June: 361.3109584259, 
-			July: 360.7721228704 
+			April: 23.22, 
+			May: 186.09, 
+			June: 355.41, 
+			July: 583.45, 
+			Aug: 723.68 
 		}
 	}
 }); 
@@ -12708,10 +13635,11 @@ WeatherOutlook.insert({
 			January: 10.2558353333, 
 			February: 9.85, 
 			March: 25.183015, 
-			April: 61.1887509259, 
-			May: 287.6773468519, 
-			June: 321.9197378704, 
-			July: 351.5553583333 
+			April: 64.35, 
+			May: 258.23, 
+			June: 314.75, 
+			July: 534.75, 
+			Aug: 773.47 
 		}
 	}
 }); 
@@ -12725,10 +13653,11 @@ WeatherOutlook.insert({
 			January: 8.7774354286, 
 			February: 12.07, 
 			March: 21.7298119444, 
-			April: 17.3784558333, 
-			May: 185.5701791667, 
-			June: 345.2504966667, 
-			July: 376.7681691667 
+			April: 23.53, 
+			May: 184.24, 
+			June: 338.6, 
+			July: 576.32, 
+			Aug: 726.67 
 		}
 	}
 }); 
@@ -12742,10 +13671,11 @@ WeatherOutlook.insert({
 			January: 8.1263954286, 
 			February: 10.34, 
 			March: 21.5265805556, 
-			April: 17.3952525, 
-			May: 191.9024847222, 
-			June: 339.8349722222, 
-			July: 215.5370922222 
+			April: 25.14, 
+			May: 184.34, 
+			June: 330.21, 
+			July: 572.38, 
+			Aug: 728.42 
 		}
 	}
 }); 
@@ -12759,10 +13689,11 @@ WeatherOutlook.insert({
 			January: 8.514862, 
 			February: 5.29, 
 			March: 13.6617982778, 
-			April: 29.067824537, 
-			May: 208.3124147513, 
-			June: 345.0484516587, 
-			July: 450.8937705556 
+			April: 36.65, 
+			May: 191.97, 
+			June: 335.57, 
+			July: 570.46, 
+			Aug: 757.11 
 		}
 	}
 }); 
@@ -12776,10 +13707,11 @@ WeatherOutlook.insert({
 			January: 10.5907077143, 
 			February: 10.05, 
 			March: 26.7293438889, 
-			April: 61.7378083333, 
-			May: 283.5005086111, 
-			June: 325.3212527778, 
-			July: 454.6233886111 
+			April: 64.64, 
+			May: 253.99, 
+			June: 320.2, 
+			July: 566.72, 
+			Aug: 739.58 
 		}
 	}
 }); 
@@ -12793,10 +13725,11 @@ WeatherOutlook.insert({
 			January: 9.4858427143, 
 			February: 4.2, 
 			March: 13.2294984444, 
-			April: 29.6010575119, 
-			May: 211.4208103571, 
-			June: 339.3469524762, 
-			July: 400.6682351389 
+			April: 38.06, 
+			May: 195.47, 
+			June: 332.51, 
+			July: 548.9, 
+			Aug: 700.61 
 		}
 	}
 }); 
@@ -12810,10 +13743,11 @@ WeatherOutlook.insert({
 			January: 8.0922787143, 
 			February: 10.11, 
 			March: 17.3844872381, 
-			April: 8.9655432302, 
-			May: 175.8931392064, 
-			June: 353.1751115159, 
-			July: 470.0130311111 
+			April: 16.02, 
+			May: 165.56, 
+			June: 344.45, 
+			July: 580.49, 
+			Aug: 697.27 
 		}
 	}
 }); 
@@ -12827,10 +13761,11 @@ WeatherOutlook.insert({
 			January: 8.8148347143, 
 			February: 4.65, 
 			March: 19.3642647222, 
-			April: 39.6087035417, 
-			May: 228.2218190972, 
-			June: 343.2151377778, 
-			July: 454.8034229861 
+			April: 46.76, 
+			May: 209.43, 
+			June: 334.67, 
+			July: 574.64, 
+			Aug: 740.95 
 		}
 	}
 }); 
@@ -12844,10 +13779,11 @@ WeatherOutlook.insert({
 			January: 10.3470111429, 
 			February: 4.52, 
 			March: 23.6491516667, 
-			April: 58.2859238889, 
-			May: 259.8437558333, 
-			June: 327.7837961111, 
-			July: 362.2314115278 
+			April: 66.58, 
+			May: 248, 
+			June: 320.27, 
+			July: 547.67, 
+			Aug: 704.92 
 		}
 	}
 }); 
@@ -12861,10 +13797,11 @@ WeatherOutlook.insert({
 			January: 8.6492045714, 
 			February: 7.67, 
 			March: 20.9492502778, 
-			April: 39.2851622222, 
-			May: 201.3465176389, 
-			June: 300.7370168056, 
-			July: 345.7006501389 
+			April: 46.73, 
+			May: 184.45, 
+			June: 291.76, 
+			July: 494.09, 
+			Aug: 691.07 
 		}
 	}
 }); 
@@ -12878,10 +13815,11 @@ WeatherOutlook.insert({
 			January: 8.0439488, 
 			February: 5.23, 
 			March: 16.5316785556, 
-			April: 29.1050939444, 
-			May: 221.1890461667, 
-			June: 348.5757258333, 
-			July: 299.1382545556 
+			April: 38.47, 
+			May: 208.3, 
+			June: 338.35, 
+			July: 573.91, 
+			Aug: 786.1 
 		}
 	}
 }); 
@@ -12895,10 +13833,11 @@ WeatherOutlook.insert({
 			January: 9.7198772, 
 			February: 10.6, 
 			March: 25.8019952222, 
-			April: 50.2963424444, 
-			May: 264.2648642778, 
-			June: 330.0670445, 
-			July: 222.0993067778 
+			April: 56.63, 
+			May: 242.51, 
+			June: 321.97, 
+			July: 534.7, 
+			Aug: 730.99 
 		}
 	}
 }); 
@@ -12912,10 +13851,11 @@ WeatherOutlook.insert({
 			January: 7.9256625714, 
 			February: 7.56, 
 			March: 19.5914450317, 
-			April: 22.2953875794, 
-			May: 210.365984631, 
-			June: 360.8154707381, 
-			July: 228.4135395833 
+			April: 33.89, 
+			May: 201.48, 
+			June: 346.83, 
+			July: 577.43, 
+			Aug: 762.54 
 		}
 	}
 }); 
@@ -12929,10 +13869,11 @@ WeatherOutlook.insert({
 			January: 8.045993, 
 			February: 7.5, 
 			March: 12.0798469444, 
-			April: 18.2980780556, 
-			May: 143.0438508333, 
-			June: 207.8487626389, 
-			July: 347.51437625 
+			April: 27.26, 
+			May: 135.87, 
+			June: 205.97, 
+			July: 360.76, 
+			Aug: 715.41 
 		}
 	}
 }); 
@@ -12946,10 +13887,11 @@ WeatherOutlook.insert({
 			January: 9.9065026286, 
 			February: 11.5, 
 			March: 28.8541165556, 
-			April: 44.7832905, 
-			May: 243.9610893333, 
-			June: 336.7968617222, 
-			July: 346.4801816111 
+			April: 44.14, 
+			May: 208.12, 
+			June: 330.03, 
+			July: 549.43, 
+			Aug: 725.19 
 		}
 	}
 }); 
@@ -12963,10 +13905,11 @@ WeatherOutlook.insert({
 			January: 9.4085537143, 
 			February: 8.07, 
 			March: 25.49852875, 
-			April: 30.5053305556, 
-			May: 222.8488920833, 
-			June: 331.8281820833, 
-			July: 282.4914420833 
+			April: 38.2, 
+			May: 209.46, 
+			June: 323.08, 
+			July: 555.16, 
+			Aug: 697.35 
 		}
 	}
 }); 
@@ -12980,10 +13923,11 @@ WeatherOutlook.insert({
 			January: 9.796955, 
 			February: 9.09, 
 			March: 17.5606318056, 
-			April: 38.3009465278, 
-			May: 211.2516779167, 
-			June: 302.3215093056, 
-			July: 392.1636594444 
+			April: 44.1, 
+			May: 178.54, 
+			June: 285.67, 
+			July: 485.86, 
+			Aug: 785.22 
 		}
 	}
 }); 
@@ -12997,10 +13941,11 @@ WeatherOutlook.insert({
 			January: 76.1388320162, 
 			February: 45.28, 
 			March: 59.1351063037, 
-			April: 46.4115654198, 
-			May: 152.808942077, 
-			June: 240.9251416067, 
-			July: 260.0685745175 
+			April: 48.89, 
+			May: 149.85, 
+			June: 223.97, 
+			July: 357.86, 
+			Aug: 365.57 
 		}
 	}
 }); 
@@ -13014,10 +13959,11 @@ WeatherOutlook.insert({
 			January: 73.309068, 
 			February: 36.31, 
 			March: 46.4738711111, 
-			April: 50.1129269444, 
-			May: 153.7651677778, 
-			June: 237.0764886111, 
-			July: 169.2761905556 
+			April: 41.44, 
+			May: 135.93, 
+			June: 213.91, 
+			July: 350.52, 
+			Aug: 319.98 
 		}
 	}
 }); 
@@ -13031,10 +13977,29 @@ WeatherOutlook.insert({
 			January: 58.0259437143, 
 			February: 30.83, 
 			March: 41.21811, 
-			April: 37.2521702778, 
-			May: 146.5163888889, 
-			June: 227.1104244444, 
-			July: 255.9898202778 
+			April: 36.61, 
+			May: 142.66, 
+			June: 213.21, 
+			July: 342.32, 
+			Aug: 339.42 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "Laguna", 
+	municipality: "Biï?½an", 
+	data: {
+		month: {
+			January: 34.3690654286, 
+			February: 24.55, 
+			March: 25.5774163889, 
+			April: 25.76, 
+			May: 143.61, 
+			June: 234.65, 
+			July: 399.36, 
+			Aug: 438.22 
 		}
 	}
 }); 
@@ -13045,13 +14010,14 @@ WeatherOutlook.insert({
 	municipality: "Biñan", 
 	data: {
 		month: {
-			January: 34.3690654286, 
-			February: 24.55, 
-			March: 25.5774163889, 
-			April: 25.7632969444, 
-			May: 134.2339147222, 
-			June: 251.1526102778, 
-			July: 352.1264083333 
+			January: 45.5974705714, 
+			February: 29.54, 
+			March: 34.91799375, 
+			April: 26.47, 
+			May: 135.27, 
+			June: 234.18, 
+			July: 393.11, 
+			Aug: 405.92 
 		}
 	}
 }); 
@@ -13062,13 +14028,14 @@ WeatherOutlook.insert({
 	municipality: "Cabuyao", 
 	data: {
 		month: {
-			January: 45.5974705714, 
-			February: 29.54, 
-			March: 34.91799375, 
-			April: 30.7672952778, 
-			May: 139.7181177778, 
-			June: 248.7204038889, 
-			July: 282.8231454167 
+			January: 45.8406574286, 
+			February: 29.29, 
+			March: 38.0332102778, 
+			April: 32.05, 
+			May: 136.94, 
+			June: 232.41, 
+			July: 388.1, 
+			Aug: 422.79 
 		}
 	}
 }); 
@@ -13079,13 +14046,14 @@ WeatherOutlook.insert({
 	municipality: "Calamba City", 
 	data: {
 		month: {
-			January: 45.8406574286, 
-			February: 29.29, 
-			March: 38.0332102778, 
-			April: 35.6532564583, 
-			May: 142.3987086111, 
-			June: 242.1865011806, 
-			July: 220.6266609722 
+			January: 65.8423151429, 
+			February: 36.94, 
+			March: 46.6510373148, 
+			April: 36.36, 
+			May: 137.93, 
+			June: 227.52, 
+			July: 384.58, 
+			Aug: 309.31 
 		}
 	}
 }); 
@@ -13096,13 +14064,14 @@ WeatherOutlook.insert({
 	municipality: "Calauan", 
 	data: {
 		month: {
-			January: 65.8423151429, 
-			February: 36.94, 
-			March: 46.6510373148, 
-			April: 40.9416542593, 
-			May: 141.0795515741, 
-			June: 231.6664753704, 
-			July: 231.0677164815 
+			January: 125.014598381, 
+			February: 73.67, 
+			March: 96.2796975926, 
+			April: 39.15, 
+			May: 152.3, 
+			June: 214.59, 
+			July: 340.08, 
+			Aug: 317.39 
 		}
 	}
 }); 
@@ -13113,13 +14082,14 @@ WeatherOutlook.insert({
 	municipality: "Cavinti", 
 	data: {
 		month: {
-			January: 125.014598381, 
-			February: 73.67, 
-			March: 96.2796975926, 
-			April: 67.4740480556, 
-			May: 164.0731794444, 
-			June: 255.8114212963, 
-			July: 250.2449396296 
+			January: 97.8141678571, 
+			February: 63.58, 
+			March: 87.7890355556, 
+			April: 68.44, 
+			May: 153.01, 
+			June: 234.47, 
+			July: 331.76, 
+			Aug: 343.01 
 		}
 	}
 }); 
@@ -13130,13 +14100,14 @@ WeatherOutlook.insert({
 	municipality: "Famy", 
 	data: {
 		month: {
-			January: 97.8141678571, 
-			February: 63.58, 
-			March: 87.7890355556, 
-			April: 59.3287327778, 
-			May: 165.2694270833, 
-			June: 230.7104916667, 
-			July: 232.1042945833 
+			January: 124.0540145714, 
+			February: 74.22, 
+			March: 100.9328295833, 
+			April: 57.59, 
+			May: 162.74, 
+			June: 213.99, 
+			July: 366.61, 
+			Aug: 328.01 
 		}
 	}
 }); 
@@ -13147,13 +14118,14 @@ WeatherOutlook.insert({
 	municipality: "Kalayaan", 
 	data: {
 		month: {
-			January: 124.0540145714, 
-			February: 74.22, 
-			March: 100.9328295833, 
-			April: 72.2354051389, 
-			May: 167.7022365278, 
-			June: 257.2401419444, 
-			July: 373.4878519444 
+			January: 49.3710369184, 
+			February: 33.56, 
+			March: 38.7528772222, 
+			April: 72.78, 
+			May: 147.3, 
+			June: 242.5, 
+			July: 319.89, 
+			Aug: 395.85 
 		}
 	}
 }); 
@@ -13164,30 +14136,14 @@ WeatherOutlook.insert({
 	municipality: "Laguna lake", 
 	data: {
 		month: {
-			January: 49.3710369184, 
-			February: 33.56, 
-			March: 38.7528772222, 
-			April: 31.6274469544, 
-			May: 141.5634848214, 
-			June: 244.7988987897, 
-			July: 268.2055271885 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Laguna", 
-	municipality: "Liliw", 
-	data: {
-		month: {
 			January: 107.7981028571, 
 			February: 44.51, 
 			March: 72.6534501389, 
-			April: 63.5168586111, 
-			May: 189.1314295833, 
-			June: 229.54014125, 
-			July: 291.1435227778 
+			April: 32.33, 
+			May: 132.61, 
+			June: 224.89, 
+			July: 388.95, 
+			Aug: 473.96 
 		}
 	}
 }); 
@@ -13201,10 +14157,11 @@ WeatherOutlook.insert({
 			January: 45.5378811429, 
 			February: 26.57, 
 			March: 39.1818955556, 
-			April: 35.6025986111, 
-			May: 150.2186205556, 
-			June: 230.4347313889, 
-			July: 238.8701497222 
+			April: 35.57, 
+			May: 149.56, 
+			June: 213.9, 
+			July: 335.4, 
+			Aug: 366.89 
 		}
 	}
 }); 
@@ -13218,10 +14175,11 @@ WeatherOutlook.insert({
 			January: 125.7284937143, 
 			February: 77.9, 
 			March: 96.1218822222, 
-			April: 66.3143758333, 
-			May: 153.7676566667, 
-			June: 237.7656216667, 
-			July: 192.1809658333 
+			April: 67.26, 
+			May: 162.21, 
+			June: 215.98, 
+			July: 326.22, 
+			Aug: 354.48 
 		}
 	}
 }); 
@@ -13235,10 +14193,11 @@ WeatherOutlook.insert({
 			January: 119.1229745714, 
 			February: 76.67, 
 			March: 102.1513698611, 
-			April: 69.783983125, 
-			May: 157.4443718056, 
-			June: 248.27989, 
-			July: 307.7574544444 
+			April: 71.12, 
+			May: 150.32, 
+			June: 237.17, 
+			July: 326.86, 
+			Aug: 390.41 
 		}
 	}
 }); 
@@ -13252,27 +14211,11 @@ WeatherOutlook.insert({
 			January: 81.717828, 
 			February: 43.87, 
 			March: 65.0404925, 
-			April: 48.8234527778, 
-			May: 178.3800091667, 
-			June: 225.953185, 
-			July: 263.8075980556 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Laguna", 
-	municipality: "Magdalena", 
-	data: {
-		month: {
-			January: 104.218427, 
-			February: 48.2, 
-			March: 66.2155655556, 
-			April: 52.334705, 
-			May: 154.2634373611, 
-			June: 249.4356115278, 
-			July: 241.5325583333 
+			April: 53.96, 
+			May: 155.25, 
+			June: 213.49, 
+			July: 363.48, 
+			Aug: 317.57 
 		}
 	}
 }); 
@@ -13283,13 +14226,14 @@ WeatherOutlook.insert({
 	municipality: "Majayjay", 
 	data: {
 		month: {
-			January: 115.4097701429, 
-			February: 57.95, 
-			March: 79.3117572222, 
-			April: 63.1679961111, 
-			May: 170.2248856944, 
-			June: 237.9947845833, 
-			July: 270.1531394444 
+			January: 104.218427, 
+			February: 48.2, 
+			March: 66.2155655556, 
+			April: 66.2, 
+			May: 160.27, 
+			June: 208.22, 
+			July: 317.32, 
+			Aug: 326.54 
 		}
 	}
 }); 
@@ -13300,13 +14244,14 @@ WeatherOutlook.insert({
 	municipality: "Nagcarlan", 
 	data: {
 		month: {
-			January: 85.9737277143, 
-			February: 37.08, 
-			March: 63.6183152778, 
-			April: 55.8231970833, 
-			May: 178.3319259722, 
-			June: 236.4139961111, 
-			July: 217.4459990913 
+			January: 115.4097701429, 
+			February: 57.95, 
+			March: 79.3117572222, 
+			April: 55.85, 
+			May: 149.23, 
+			June: 216.05, 
+			July: 325.75, 
+			Aug: 328.4 
 		}
 	}
 }); 
@@ -13317,13 +14262,14 @@ WeatherOutlook.insert({
 	municipality: "Paete", 
 	data: {
 		month: {
-			January: 115.9757886667, 
-			February: 74.26, 
-			March: 100.5290881481, 
-			April: 70.0806840741, 
-			May: 166.3722703704, 
-			June: 239.9057248148, 
-			July: 189.8993957487 
+			January: 85.9737277143, 
+			February: 37.08, 
+			March: 63.6183152778, 
+			April: 68.15, 
+			May: 148.19, 
+			June: 225.23, 
+			July: 340.93, 
+			Aug: 328.25 
 		}
 	}
 }); 
@@ -13334,13 +14280,14 @@ WeatherOutlook.insert({
 	municipality: "Pagsanjan", 
 	data: {
 		month: {
-			January: 126.2457362857, 
-			February: 68.9, 
-			March: 89.8161897222, 
-			April: 72.9430463889, 
-			May: 168.2095181944, 
-			June: 268.7270880556, 
-			July: 325.9128438889 
+			January: 115.9757886667, 
+			February: 74.26, 
+			March: 100.5290881481, 
+			April: 66.27, 
+			May: 149.67, 
+			June: 250.08, 
+			July: 311.84, 
+			Aug: 451.81 
 		}
 	}
 }); 
@@ -13351,13 +14298,14 @@ WeatherOutlook.insert({
 	municipality: "Pakil", 
 	data: {
 		month: {
-			January: 84.11931, 
-			February: 41.38, 
-			March: 62.0503455556, 
-			April: 49.0116869444, 
-			May: 183.0952172222, 
-			June: 231.5126566667, 
-			July: 245.7529841667 
+			January: 126.2457362857, 
+			February: 68.9, 
+			March: 89.8161897222, 
+			April: 58.78, 
+			May: 148.69, 
+			June: 221.34, 
+			July: 338.12, 
+			Aug: 334.41 
 		}
 	}
 }); 
@@ -13368,13 +14316,14 @@ WeatherOutlook.insert({
 	municipality: "Pangil", 
 	data: {
 		month: {
-			January: 108.5294481429, 
-			February: 70.59, 
-			March: 97.6184995833, 
-			April: 65.6520651389, 
-			May: 167.6743041667, 
-			June: 234.3768991667, 
-			July: 250.9729359722 
+			January: 84.11931, 
+			February: 41.38, 
+			March: 62.0503455556, 
+			April: 61.44, 
+			May: 153.1, 
+			June: 218.03, 
+			July: 349.01, 
+			Aug: 341.93 
 		}
 	}
 }); 
@@ -13385,13 +14334,14 @@ WeatherOutlook.insert({
 	municipality: "Pila", 
 	data: {
 		month: {
-			January: 50.6795805714, 
-			February: 25.96, 
-			March: 45.8874022222, 
-			April: 36.3009933333, 
-			May: 146.9726105556, 
-			June: 243.603285, 
-			July: 203.1012180556 
+			January: 108.5294481429, 
+			February: 70.59, 
+			March: 97.6184995833, 
+			April: 35.37, 
+			May: 186.25, 
+			June: 219.64, 
+			July: 328.29, 
+			Aug: 325.14 
 		}
 	}
 }); 
@@ -13402,13 +14352,14 @@ WeatherOutlook.insert({
 	municipality: "Rizal", 
 	data: {
 		month: {
-			January: 93.5309357143, 
-			February: 47.23, 
-			March: 65.3324027778, 
-			April: 55.0167341667, 
-			May: 153.9728397222, 
-			June: 232.8736183333, 
-			July: 262.9385944444 
+			January: 50.6795805714, 
+			February: 25.96, 
+			March: 45.8874022222, 
+			April: 62.75, 
+			May: 166.79, 
+			June: 213.88, 
+			July: 320.38, 
+			Aug: 318.81 
 		}
 	}
 }); 
@@ -13419,13 +14370,32 @@ WeatherOutlook.insert({
 	municipality: "San Pablo City", 
 	data: {
 		month: {
+			January: 93.5309357143, 
+			February: 47.23, 
+			March: 65.3324027778, 
+			April: 51.78, 
+			May: 140.99, 
+			June: 214.36, 
+			July: 330.47, 
+			Aug: 373.38 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "Laguna", 
+	municipality: "San Pedro", 
+	data: {
+		month: {
 			January: 81.2541411837, 
 			February: 42.84, 
 			March: 53.2070049206, 
-			April: 47.947709246, 
-			May: 147.4291802778, 
-			June: 230.5069957143, 
-			July: 249.3288996825 
+			April: 23.71, 
+			May: 147.98, 
+			June: 234.71, 
+			July: 404.5, 
+			Aug: 337.58 
 		}
 	}
 }); 
@@ -13439,10 +14409,11 @@ WeatherOutlook.insert({
 			January: 64.3881591429, 
 			February: 36.81, 
 			March: 53.3161669444, 
-			April: 40.2504547222, 
-			May: 147.8116055556, 
-			June: 241.4755836111, 
-			July: 379.2939161111 
+			April: 40.25, 
+			May: 143.01, 
+			June: 224.98, 
+			July: 321.51, 
+			Aug: 342.98 
 		}
 	}
 }); 
@@ -13456,10 +14427,11 @@ WeatherOutlook.insert({
 			January: 94.9273725714, 
 			February: 58.8, 
 			March: 82.6734961111, 
-			April: 58.0159376667, 
-			May: 171.8510251111, 
-			June: 226.223392, 
-			July: 241.1504318333 
+			April: 57.97, 
+			May: 139.88, 
+			June: 210.3, 
+			July: 381.46, 
+			Aug: 387.28 
 		}
 	}
 }); 
@@ -13473,10 +14445,11 @@ WeatherOutlook.insert({
 			January: 37.8588445714, 
 			February: 28.59, 
 			March: 30.0452366667, 
-			April: 27.174625, 
-			May: 139.88403, 
-			June: 250.2051327778, 
-			July: 317.3227972222 
+			April: 27.17, 
+			May: 143.23, 
+			June: 233.71, 
+			July: 386.86, 
+			Aug: 356.21 
 		}
 	}
 }); 
@@ -13484,16 +14457,17 @@ WeatherOutlook.insert({
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
-	municipality: "Victoria", 
+	municipality: "Siniloan", 
 	data: {
 		month: {
 			January: 55.486914, 
 			February: 32.79, 
 			March: 44.6638830556, 
-			April: 35.2833827778, 
-			May: 142.0176, 
-			June: 235.7680575, 
-			July: 190.2496761111 
+			April: 57.65, 
+			May: 140.06, 
+			June: 216.87, 
+			July: 360.73, 
+			Aug: 341.74 
 		}
 	}
 }); 
@@ -13507,10 +14481,11 @@ WeatherOutlook.insert({
 			January: 173.3905380506, 
 			February: 146.02, 
 			March: 222.1017081724, 
-			April: 150.5462543714, 
-			May: 189.8468060396, 
-			June: 352.6970834165, 
-			July: 344.1553315136 
+			April: 138.2, 
+			May: 214.1, 
+			June: 380, 
+			July: 350.6, 
+			Aug: 346.18 
 		}
 	}
 }); 
@@ -13524,10 +14499,11 @@ WeatherOutlook.insert({
 			January: 166.9922982857, 
 			February: 123.06, 
 			March: 197.3321483333, 
-			April: 121.4541811111, 
-			May: 148.7307120833, 
-			June: 291.4488320833, 
-			July: 468.7206983333 
+			April: 146.67, 
+			May: 174.23, 
+			June: 346, 
+			July: 345.17, 
+			Aug: 309.6 
 		}
 	}
 }); 
@@ -13541,10 +14517,11 @@ WeatherOutlook.insert({
 			January: 137.6412268571, 
 			February: 116.12, 
 			March: 191.17896625, 
-			April: 139.0192829167, 
-			May: 162.3514402778, 
-			June: 293.1655077778, 
-			July: 484.9325877778 
+			April: 143.14, 
+			May: 216.61, 
+			June: 342.84, 
+			July: 293.44, 
+			Aug: 294.86 
 		}
 	}
 }); 
@@ -13558,10 +14535,11 @@ WeatherOutlook.insert({
 			January: 245.5211106667, 
 			February: 165.25, 
 			March: 244.1389793519, 
-			April: 151.2242591667, 
-			May: 168.9891512963, 
-			June: 348.1075035185, 
-			July: 283.0793408333 
+			April: 164.17, 
+			May: 182.68, 
+			June: 375.18, 
+			July: 311.3, 
+			Aug: 313.89 
 		}
 	}
 }); 
@@ -13575,10 +14553,11 @@ WeatherOutlook.insert({
 			January: 132.1648670062, 
 			February: 125.42, 
 			March: 189.4829315994, 
-			April: 133.5771894914, 
-			May: 172.9365406518, 
-			June: 331.0159580262, 
-			July: 349.3995409458 
+			April: 123.84, 
+			May: 192.06, 
+			June: 351.6, 
+			July: 361.88, 
+			Aug: 323.42 
 		}
 	}
 }); 
@@ -13592,27 +14571,11 @@ WeatherOutlook.insert({
 			January: 172.2200672857, 
 			February: 145.64, 
 			March: 235.4324758333, 
-			April: 155.8830215278, 
-			May: 200.5884800463, 
-			June: 386.1103464815, 
-			July: 337.2770950926 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region X: Northern Mindanao", 
-	province: "Lanao del Norte", 
-	municipality: "Kauswagan", 
-	data: {
-		month: {
-			January: 134.62682, 
-			February: 108.47, 
-			March: 179.5069297222, 
-			April: 115.6226397222, 
-			May: 132.5990733333, 
-			June: 273.4081044444, 
-			July: 559.3716580556 
+			April: 144.35, 
+			May: 211.15, 
+			June: 418.73, 
+			July: 407.71, 
+			Aug: 402.31 
 		}
 	}
 }); 
@@ -13626,10 +14589,11 @@ WeatherOutlook.insert({
 			January: 288.5062507619, 
 			February: 184.08, 
 			March: 253.4974159259, 
-			April: 136.5360728704, 
-			May: 154.1442975, 
-			June: 331.2754267593, 
-			July: 422.3302307407 
+			April: 119.54, 
+			May: 161.38, 
+			June: 354.71, 
+			July: 404.76, 
+			Aug: 282.85 
 		}
 	}
 }); 
@@ -13643,10 +14607,11 @@ WeatherOutlook.insert({
 			January: 211.6516905, 
 			February: 158.03, 
 			March: 239.4644163889, 
-			April: 148.9325379861, 
-			May: 178.8853842361, 
-			June: 359.1170785417, 
-			July: 285.2031991667 
+			April: 143.96, 
+			May: 188.9, 
+			June: 385.08, 
+			July: 330.42, 
+			Aug: 338.08 
 		}
 	}
 }); 
@@ -13660,10 +14625,11 @@ WeatherOutlook.insert({
 			January: 110.5468668571, 
 			February: 98.38, 
 			March: 168.5345766667, 
-			April: 113.4379005556, 
-			May: 114.5418336111, 
-			June: 253.1828805556, 
-			July: 562.1577233333 
+			April: 136.18, 
+			May: 164.55, 
+			June: 357.14, 
+			July: 368.57, 
+			Aug: 301.76 
 		}
 	}
 }); 
@@ -13677,10 +14643,11 @@ WeatherOutlook.insert({
 			January: 234.8547452381, 
 			February: 166.38, 
 			March: 236.510725463, 
-			April: 147.4512927778, 
-			May: 164.5239369444, 
-			June: 337.5915662037, 
-			July: 187.0109977593 
+			April: 122.66, 
+			May: 174.23, 
+			June: 346, 
+			July: 485.65, 
+			Aug: 333.33 
 		}
 	}
 }); 
@@ -13694,10 +14661,11 @@ WeatherOutlook.insert({
 			January: 221.2169425, 
 			February: 154.56, 
 			March: 220.1131811726, 
-			April: 129.1092274603, 
-			May: 151.7367584782, 
-			June: 307.0873805119, 
-			July: 434.8040336111 
+			April: 147.57, 
+			May: 165.9, 
+			June: 332.6, 
+			July: 318.61, 
+			Aug: 327.19 
 		}
 	}
 }); 
@@ -13711,10 +14679,11 @@ WeatherOutlook.insert({
 			January: 130.0585265714, 
 			February: 118.88, 
 			March: 188.2044664815, 
-			April: 127.95766, 
-			May: 142.6140425926, 
-			June: 284.7460115741, 
-			July: 420.3892312963 
+			April: 130.03, 
+			May: 239.77, 
+			June: 395.05, 
+			July: 348.94, 
+			Aug: 363.03 
 		}
 	}
 }); 
@@ -13728,10 +14697,11 @@ WeatherOutlook.insert({
 			January: 186.2893152571, 
 			February: 175.96, 
 			March: 241.4216772222, 
-			April: 169.2915777778, 
-			May: 233.2824543333, 
-			June: 387.3682343889, 
-			July: 284.9574965 
+			April: 155.46, 
+			May: 268.88, 
+			June: 430.45, 
+			July: 329.96, 
+			Aug: 369.24 
 		}
 	}
 }); 
@@ -13745,10 +14715,11 @@ WeatherOutlook.insert({
 			January: 164.4086968132, 
 			February: 157.66, 
 			March: 254.9548178632, 
-			April: 182.8269502778, 
-			May: 247.0133986325, 
-			June: 411.6996765598, 
-			July: 328.2796494658 
+			April: 133.99, 
+			May: 195.23, 
+			June: 359.93, 
+			July: 360.09, 
+			Aug: 330.72 
 		}
 	}
 }); 
@@ -13762,10 +14733,11 @@ WeatherOutlook.insert({
 			January: 185.9775431429, 
 			February: 158.14, 
 			March: 219.2630283333, 
-			April: 153.0752012963, 
-			May: 191.9969591667, 
-			June: 342.9211940741, 
-			July: 325.1745780556 
+			April: 136.27, 
+			May: 226.97, 
+			June: 378.55, 
+			July: 304.88, 
+			Aug: 344.46 
 		}
 	}
 }); 
@@ -13779,10 +14751,11 @@ WeatherOutlook.insert({
 			January: 173.6563507143, 
 			February: 134.32, 
 			March: 211.5574140278, 
-			April: 164.6380459722, 
-			May: 207.3094952778, 
-			June: 347.5136858333, 
-			July: 329.1652902778 
+			April: 134.34, 
+			May: 177.36, 
+			June: 346.93, 
+			July: 350.17, 
+			Aug: 326.35 
 		}
 	}
 }); 
@@ -13796,10 +14769,11 @@ WeatherOutlook.insert({
 			January: 171.689114381, 
 			February: 142.64, 
 			March: 205.1430828704, 
-			April: 134.8667919444, 
-			May: 160.2837068519, 
-			June: 314.2736497222, 
-			July: 384.1900926852 
+			April: 149.2, 
+			May: 205.51, 
+			June: 391.32, 
+			July: 302.19, 
+			Aug: 389.46 
 		}
 	}
 }); 
@@ -13813,10 +14787,11 @@ WeatherOutlook.insert({
 			January: 216.4970034286, 
 			February: 177.41, 
 			March: 242.3778191667, 
-			April: 163.5415561111, 
-			May: 189.1387336111, 
-			June: 366.6687041667, 
-			July: 252.6616233333 
+			April: 131.23, 
+			May: 233.95, 
+			June: 420.33, 
+			July: 320.01, 
+			Aug: 308.51 
 		}
 	}
 }); 
@@ -13830,10 +14805,11 @@ WeatherOutlook.insert({
 			January: 179.2984615714, 
 			February: 147.39, 
 			March: 244.9001220833, 
-			April: 168.3668820833, 
-			May: 207.9362954167, 
-			June: 384.1558488889, 
-			July: 334.4741840278 
+			April: 135.08, 
+			May: 225.8, 
+			June: 425.26, 
+			July: 442.16, 
+			Aug: 459.2 
 		}
 	}
 }); 
@@ -13847,10 +14823,11 @@ WeatherOutlook.insert({
 			January: 147.8649466667, 
 			February: 134.45, 
 			March: 230.2467223638, 
-			April: 167.6616909008, 
-			May: 220.9769630661, 
-			June: 393.790908, 
-			July: 334.1258002778 
+			April: 142.04, 
+			May: 206.86, 
+			June: 362.28, 
+			July: 305.75, 
+			Aug: 411.19 
 		}
 	}
 }); 
@@ -13864,10 +14841,11 @@ WeatherOutlook.insert({
 			January: 201.9216584762, 
 			February: 181.52, 
 			March: 252.2097809259, 
-			April: 168.2840275926, 
-			May: 216.5102872222, 
-			June: 393.0709555556, 
-			July: 290.8726217593 
+			April: 114.64, 
+			May: 192.04, 
+			June: 364.71, 
+			July: 363.05, 
+			Aug: 301.76 
 		}
 	}
 }); 
@@ -13881,10 +14859,11 @@ WeatherOutlook.insert({
 			January: 244.1737494286, 
 			February: 165.38, 
 			March: 244.1636316667, 
-			April: 155.258895, 
-			May: 177.38753, 
-			June: 343.5347608333, 
-			July: 284.6451165741 
+			April: 136.5, 
+			May: 160.33, 
+			June: 351.79, 
+			July: 319.54, 
+			Aug: 278.33 
 		}
 	}
 }); 
@@ -13898,10 +14877,11 @@ WeatherOutlook.insert({
 			January: 156.1288785338, 
 			February: 157.4, 
 			March: 248.5227239206, 
-			April: 200.1947465524, 
-			May: 282.6826870259, 
-			June: 401.4365943821, 
-			July: 304.8453640453 
+			April: 175.54, 
+			May: 283.39, 
+			June: 423.79, 
+			July: 403.17, 
+			Aug: 361.37 
 		}
 	}
 }); 
@@ -13915,10 +14895,11 @@ WeatherOutlook.insert({
 			January: 179.9783802857, 
 			February: 183.39, 
 			March: 249.9740661111, 
-			April: 181.9911736111, 
-			May: 256.6934611111, 
-			June: 426.5898219444, 
-			July: 237.5013563889 
+			April: 173.02, 
+			May: 265.99, 
+			June: 449.09, 
+			July: 334.76, 
+			Aug: 344.6 
 		}
 	}
 }); 
@@ -13932,10 +14913,11 @@ WeatherOutlook.insert({
 			January: 127.4335692857, 
 			February: 142.18, 
 			March: 276.1114495833, 
-			April: 214.4431263889, 
-			May: 338.3902683333, 
-			June: 415.9129244444, 
-			July: 173.5953755556 
+			April: 190.75, 
+			May: 339.94, 
+			June: 443.27, 
+			July: 449.18, 
+			Aug: 348.85 
 		}
 	}
 }); 
@@ -13949,10 +14931,11 @@ WeatherOutlook.insert({
 			January: 186.3360217143, 
 			February: 160.35, 
 			March: 242.0941233333, 
-			April: 187.0718816667, 
-			May: 265.2636277778, 
-			June: 424.9530497222, 
-			July: 282.7144261111 
+			April: 161.74, 
+			May: 274.56, 
+			June: 447.45, 
+			July: 407.9, 
+			Aug: 363.78 
 		}
 	}
 }); 
@@ -13966,10 +14949,11 @@ WeatherOutlook.insert({
 			January: 142.5938297143, 
 			February: 167.31, 
 			March: 263.922605, 
-			April: 200.6739786111, 
-			May: 301.5622663889, 
-			June: 431.7989125, 
-			July: 315.8267288889 
+			April: 176.44, 
+			May: 305.47, 
+			June: 450.17, 
+			July: 441.78, 
+			Aug: 411.66 
 		}
 	}
 }); 
@@ -13983,10 +14967,11 @@ WeatherOutlook.insert({
 			January: 147.9389285714, 
 			February: 145.17, 
 			March: 248.4405208333, 
-			April: 191.2300088889, 
-			May: 269.1227761111, 
-			June: 414.1779736111, 
-			July: 352.2731258333 
+			April: 176.64, 
+			May: 300.04, 
+			June: 445.34, 
+			July: 450.19, 
+			Aug: 393.47 
 		}
 	}
 }); 
@@ -14000,10 +14985,11 @@ WeatherOutlook.insert({
 			January: 162.344696, 
 			February: 145.11, 
 			March: 224.9635241667, 
-			April: 206.4469613889, 
-			May: 267.5471130556, 
-			June: 384.8263327778, 
-			July: 208.9499105556 
+			April: 181.73, 
+			May: 276.85, 
+			June: 407.33, 
+			July: 339.08, 
+			Aug: 389.53 
 		}
 	}
 }); 
@@ -14017,10 +15003,11 @@ WeatherOutlook.insert({
 			January: 162.9586466032, 
 			February: 157.92, 
 			March: 229.4748671605, 
-			April: 197.8717128395, 
-			May: 261.2362252778, 
-			June: 381.246589784, 
-			July: 304.9703881173 
+			April: 177.86, 
+			May: 282.59, 
+			June: 407.05, 
+			July: 437.3, 
+			Aug: 377.92 
 		}
 	}
 }); 
@@ -14034,10 +15021,11 @@ WeatherOutlook.insert({
 			January: 160.8973358367, 
 			February: 178.32, 
 			March: 265.3454266667, 
-			April: 207.7547609524, 
-			May: 289.1529683333, 
-			June: 399.8646283333, 
-			July: 280.9067236111 
+			April: 181.05, 
+			May: 296.49, 
+			June: 428.26, 
+			July: 416.01, 
+			Aug: 347.88 
 		}
 	}
 }); 
@@ -14051,10 +15039,11 @@ WeatherOutlook.insert({
 			January: 164.1309215714, 
 			February: 170.47, 
 			March: 261.4684273611, 
-			April: 206.49610625, 
-			May: 300.8423073611, 
-			June: 418.9765122222, 
-			July: 251.6521649008 
+			April: 179.3, 
+			May: 287.38, 
+			June: 423.95, 
+			July: 449.54, 
+			Aug: 411.41 
 		}
 	}
 }); 
@@ -14068,10 +15057,29 @@ WeatherOutlook.insert({
 			January: 138.5582315714, 
 			February: 150.9, 
 			March: 259.5865381944, 
-			April: 195.4888820833, 
-			May: 278.5619345833, 
-			June: 414.2038619444, 
-			July: 316.7693931944 
+			April: 177.51, 
+			May: 298.49, 
+			June: 442.56, 
+			July: 397.44, 
+			Aug: 382.33 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Lanao del Sur", 
+	municipality: "Dapao Lake", 
+	data: {
+		month: {
+			January: 174.6895565714, 
+			February: 148.65, 
+			March: 224.103325, 
+			April: 169.05, 
+			May: 275.01, 
+			June: 434.69, 
+			July: 402.48, 
+			Aug: 484.35 
 		}
 	}
 }); 
@@ -14082,13 +15090,14 @@ WeatherOutlook.insert({
 	municipality: "Ditsaan-Ramain", 
 	data: {
 		month: {
-			January: 174.6895565714, 
-			February: 148.65, 
-			March: 224.103325, 
-			April: 207.4362394444, 
-			May: 259.0221727778, 
-			June: 391.9133075, 
-			July: 200.5759052778 
+			January: 147.8106484286, 
+			February: 148.57, 
+			March: 247.6554475, 
+			April: 186.51, 
+			May: 268.32, 
+			June: 414.41, 
+			July: 302.26, 
+			Aug: 348.26 
 		}
 	}
 }); 
@@ -14099,13 +15108,14 @@ WeatherOutlook.insert({
 	municipality: "Ganassi", 
 	data: {
 		month: {
-			January: 147.8106484286, 
-			February: 148.57, 
-			March: 247.6554475, 
-			April: 185.66593875, 
-			May: 262.8468536111, 
-			June: 409.2993968056, 
-			July: 435.3954859722 
+			January: 141.6136072571, 
+			February: 139.73, 
+			March: 209.6151359444, 
+			April: 172.32, 
+			May: 268.16, 
+			June: 428.39, 
+			July: 388.41, 
+			Aug: 364.74 
 		}
 	}
 }); 
@@ -14116,13 +15126,14 @@ WeatherOutlook.insert({
 	municipality: "Kapai", 
 	data: {
 		month: {
-			January: 141.6136072571, 
-			February: 139.73, 
-			March: 209.6151359444, 
-			April: 161.0189152778, 
-			May: 211.1251945, 
-			June: 354.1998322222, 
-			July: 527.3440146111 
+			January: 123.9616731429, 
+			February: 126.1, 
+			March: 267.5824886455, 
+			April: 149.13, 
+			May: 217.6, 
+			June: 374.64, 
+			July: 372.78, 
+			Aug: 366.81 
 		}
 	}
 }); 
@@ -14133,13 +15144,14 @@ WeatherOutlook.insert({
 	municipality: "Kapatagan", 
 	data: {
 		month: {
-			January: 123.9616731429, 
-			February: 126.1, 
-			March: 267.5824886455, 
-			April: 223.9033349788, 
-			May: 322.8952056693, 
-			June: 392.8239621111, 
-			July: 266.2931634259 
+			January: 172.2221953714, 
+			February: 149.88, 
+			March: 228.6333023056, 
+			April: 185.8, 
+			May: 301.7, 
+			June: 414.36, 
+			July: 430.42, 
+			Aug: 364.53 
 		}
 	}
 }); 
@@ -14150,13 +15162,14 @@ WeatherOutlook.insert({
 	municipality: "Lanao Lake", 
 	data: {
 		month: {
-			January: 172.2221953714, 
-			February: 149.88, 
-			March: 228.6333023056, 
-			April: 193.2627648333, 
-			May: 257.5206946111, 
-			June: 402.5659709444, 
-			July: 325.7924434167 
+			January: 160.2792598095, 
+			February: 167.98, 
+			March: 258.2702820635, 
+			April: 172.22, 
+			May: 266.46, 
+			June: 427.38, 
+			July: 415.49, 
+			Aug: 331.98 
 		}
 	}
 }); 
@@ -14167,13 +15180,14 @@ WeatherOutlook.insert({
 	municipality: "Lumba-Bayabao", 
 	data: {
 		month: {
-			January: 160.2792598095, 
-			February: 167.98, 
-			March: 258.2702820635, 
-			April: 208.8200144048, 
-			May: 291.907648082, 
-			June: 402.0985060317, 
-			July: 316.3187424074 
+			January: 143.3958151429, 
+			February: 162.29, 
+			March: 257.7740608333, 
+			April: 185.94, 
+			May: 292.62, 
+			June: 420.27, 
+			July: 386.1, 
+			Aug: 356.52 
 		}
 	}
 }); 
@@ -14184,13 +15198,14 @@ WeatherOutlook.insert({
 	municipality: "Lumbaca Unayan", 
 	data: {
 		month: {
-			January: 143.3958151429, 
-			February: 162.29, 
-			March: 257.7740608333, 
-			April: 201.7228147222, 
-			May: 293.8072716667, 
-			June: 410.7630461111, 
-			July: 251.7529134286 
+			January: 151.5338105714, 
+			February: 148.71, 
+			March: 245.5902066667, 
+			April: 183.13, 
+			May: 295.36, 
+			June: 433.26, 
+			July: 425.09, 
+			Aug: 385.53 
 		}
 	}
 }); 
@@ -14201,13 +15216,14 @@ WeatherOutlook.insert({
 	municipality: "Lumbatan", 
 	data: {
 		month: {
-			January: 151.5338105714, 
-			February: 148.71, 
-			March: 245.5902066667, 
-			April: 191.1969755556, 
-			May: 271.6827777778, 
-			June: 412.0886711111, 
-			July: 348.3330205556 
+			January: 152.14818, 
+			February: 147.66, 
+			March: 243.4705277778, 
+			April: 175.19, 
+			May: 290.5, 
+			June: 434.08, 
+			July: 437.25, 
+			Aug: 379.27 
 		}
 	}
 }); 
@@ -14218,13 +15234,14 @@ WeatherOutlook.insert({
 	municipality: "Lumbayanague", 
 	data: {
 		month: {
-			January: 152.14818, 
-			February: 147.66, 
-			March: 243.4705277778, 
-			April: 190.5448272222, 
-			May: 273.4235111111, 
-			June: 405.0678766667, 
-			July: 359.1905677778 
+			January: 179.7553348571, 
+			February: 176.12, 
+			March: 242.8481586111, 
+			April: 146.13, 
+			May: 274.97, 
+			June: 427.57, 
+			July: 364.37, 
+			Aug: 316.5 
 		}
 	}
 }); 
@@ -14235,13 +15252,14 @@ WeatherOutlook.insert({
 	municipality: "Madalum", 
 	data: {
 		month: {
-			January: 179.7553348571, 
-			February: 176.12, 
-			March: 242.8481586111, 
-			April: 178.4104252778, 
-			May: 243.1370519444, 
-			June: 398.1768, 
-			July: 254.5958244444 
+			January: 182.1177054286, 
+			February: 171.23, 
+			March: 246.9786022222, 
+			April: 159.39, 
+			May: 261.79, 
+			June: 424.08, 
+			July: 391.45, 
+			Aug: 403.33 
 		}
 	}
 }); 
@@ -14252,13 +15270,14 @@ WeatherOutlook.insert({
 	municipality: "Madamba", 
 	data: {
 		month: {
-			January: 182.1177054286, 
-			February: 171.23, 
-			March: 246.9786022222, 
-			April: 176.3142038889, 
-			May: 230.2386519444, 
-			June: 383.8477891667, 
-			July: 268.3552925 
+			January: 160.1598671714, 
+			February: 167.39, 
+			March: 235.83068075, 
+			April: 160.54, 
+			May: 257.96, 
+			June: 417.53, 
+			July: 384.15, 
+			Aug: 389.27 
 		}
 	}
 }); 
@@ -14269,13 +15288,14 @@ WeatherOutlook.insert({
 	municipality: "Maguing", 
 	data: {
 		month: {
-			January: 160.1598671714, 
-			February: 167.39, 
-			March: 235.83068075, 
-			April: 203.1657295833, 
-			May: 283.97991825, 
-			June: 383.3808022778, 
-			July: 286.01663175 
+			January: 127.5185110476, 
+			February: 126.3, 
+			March: 288.9598109259, 
+			April: 182, 
+			May: 284.09, 
+			June: 405.25, 
+			July: 430.4, 
+			Aug: 338.83 
 		}
 	}
 }); 
@@ -14286,13 +15306,14 @@ WeatherOutlook.insert({
 	municipality: "Malabang", 
 	data: {
 		month: {
-			January: 127.5185110476, 
-			February: 126.3, 
-			March: 288.9598109259, 
-			April: 222.7326459259, 
-			May: 361.9030251852, 
-			June: 430.0679185185, 
-			July: 269.7358821296 
+			January: 194.9242037143, 
+			February: 155.25, 
+			March: 230.3517273611, 
+			April: 188.94, 
+			May: 365.96, 
+			June: 461.92, 
+			July: 378.45, 
+			Aug: 399.92 
 		}
 	}
 }); 
@@ -14303,13 +15324,14 @@ WeatherOutlook.insert({
 	municipality: "Marantao", 
 	data: {
 		month: {
-			January: 194.9242037143, 
-			February: 155.25, 
-			March: 230.3517273611, 
-			April: 196.1723765278, 
-			May: 261.2137513889, 
-			June: 411.9437511111, 
-			July: 235.3960904167 
+			January: 171.0885842857, 
+			February: 142.87, 
+			March: 219.6877756944, 
+			April: 177.44, 
+			May: 265.38, 
+			June: 434.23, 
+			July: 365.42, 
+			Aug: 329.99 
 		}
 	}
 }); 
@@ -14320,13 +15342,14 @@ WeatherOutlook.insert({
 	municipality: "Marawi City", 
 	data: {
 		month: {
-			January: 171.0885842857, 
-			February: 142.87, 
-			March: 219.6877756944, 
-			April: 192.1823301389, 
-			May: 244.6034666667, 
-			June: 384.0192293056, 
-			July: 204.5973566667 
+			January: 132.6546258367, 
+			February: 154.59, 
+			March: 276.0464794444, 
+			April: 174.28, 
+			May: 250.72, 
+			June: 408.98, 
+			July: 357.96, 
+			Aug: 341.17 
 		}
 	}
 }); 
@@ -14337,13 +15360,32 @@ WeatherOutlook.insert({
 	municipality: "Marogong", 
 	data: {
 		month: {
-			January: 132.6546258367, 
-			February: 154.59, 
-			March: 276.0464794444, 
-			April: 212.7993369048, 
-			May: 335.3445380159, 
-			June: 430.541873373, 
-			July: 240.2152671032 
+			January: 167.497796, 
+			February: 148.53, 
+			March: 224.3741090278, 
+			April: 189.55, 
+			May: 348.32, 
+			June: 451.19, 
+			July: 463.83, 
+			Aug: 387.22 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Lanao del Sur", 
+	municipality: "Masiu", 
+	data: {
+		month: {
+			January: 141.0082105714, 
+			February: 142.22, 
+			March: 256.8131168056, 
+			April: 186.17, 
+			May: 280.2, 
+			June: 421.12, 
+			July: 344.4, 
+			Aug: 292.65 
 		}
 	}
 }); 
@@ -14354,13 +15396,14 @@ WeatherOutlook.insert({
 	municipality: "Mulondo", 
 	data: {
 		month: {
-			January: 167.497796, 
-			February: 148.53, 
-			March: 224.3741090278, 
-			April: 207.3561291667, 
-			May: 261.9697626389, 
-			June: 398.98713375, 
-			July: 275.4531823611 
+			January: 129.4656235, 
+			February: 129.12, 
+			March: 267.5788077321, 
+			April: 188.06, 
+			May: 277.32, 
+			June: 415.32, 
+			July: 354.44, 
+			Aug: 319.2 
 		}
 	}
 }); 
@@ -14371,13 +15414,32 @@ WeatherOutlook.insert({
 	municipality: "Pagayawan", 
 	data: {
 		month: {
-			January: 141.0082105714, 
-			February: 142.22, 
-			March: 256.8131168056, 
-			April: 193.9864575, 
-			May: 281.10492375, 
-			June: 414.8155165278, 
-			July: 338.1536684722 
+			January: 157.2802451429, 
+			February: 148.92, 
+			March: 235.3405958333, 
+			April: 177.89, 
+			May: 305.8, 
+			June: 439.95, 
+			July: 449.39, 
+			Aug: 480.64 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Lanao del Sur", 
+	municipality: "Piagapo", 
+	data: {
+		month: {
+			January: 173.2557292857, 
+			February: 141.04, 
+			March: 217.0032222222, 
+			April: 165.78, 
+			May: 260.63, 
+			June: 416.07, 
+			July: 403.91, 
+			Aug: 294.93 
 		}
 	}
 }); 
@@ -14388,13 +15450,14 @@ WeatherOutlook.insert({
 	municipality: "Picong", 
 	data: {
 		month: {
-			January: 129.4656235, 
-			February: 129.12, 
-			March: 267.5788077321, 
-			April: 207.3729443849, 
-			May: 310.5655694861, 
-			June: 425.5203553631, 
-			July: 256.1092749306 
+			January: 152.3482202449, 
+			February: 173, 
+			March: 274.689002381, 
+			April: 178.69, 
+			May: 296.12, 
+			June: 454.99, 
+			July: 420.72, 
+			Aug: 341.57 
 		}
 	}
 }); 
@@ -14405,13 +15468,32 @@ WeatherOutlook.insert({
 	municipality: "Poona Bayabao", 
 	data: {
 		month: {
-			January: 157.2802451429, 
-			February: 148.92, 
-			March: 235.3405958333, 
-			April: 199.02002, 
-			May: 275.6520966667, 
-			June: 397.7868127778, 
-			July: 361.6764011111 
+			January: 158.7117933143, 
+			February: 156.96, 
+			March: 221.1920862222, 
+			April: 172.03, 
+			May: 277.5, 
+			June: 420.49, 
+			July: 351.96, 
+			Aug: 372.31 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Lanao del Sur", 
+	municipality: "Pualas", 
+	data: {
+		month: {
+			January: 169.0159108571, 
+			February: 148.04, 
+			March: 224.9939977778, 
+			April: 163.51, 
+			May: 261.94, 
+			June: 418.77, 
+			July: 354.99, 
+			Aug: 388.9 
 		}
 	}
 }); 
@@ -14422,13 +15504,14 @@ WeatherOutlook.insert({
 	municipality: "Saguiaran", 
 	data: {
 		month: {
-			January: 173.2557292857, 
-			February: 141.04, 
-			March: 217.0032222222, 
-			April: 177.1894184722, 
-			May: 224.88065125, 
-			June: 372.0637813889, 
-			July: 339.1157229167 
+			January: 132.96952, 
+			February: 135.68, 
+			March: 270.7473788889, 
+			April: 166.89, 
+			May: 250.07, 
+			June: 400.68, 
+			July: 395.53, 
+			Aug: 254.94 
 		}
 	}
 }); 
@@ -14439,13 +15522,14 @@ WeatherOutlook.insert({
 	municipality: "Sultan Dumalondong", 
 	data: {
 		month: {
-			January: 152.3482202449, 
-			February: 173, 
-			March: 274.689002381, 
-			April: 210.9214100794, 
-			May: 325.2676515873, 
-			June: 434.7270746032, 
-			July: 241.2588336508 
+			January: 181.2107882857, 
+			February: 178.81, 
+			March: 239.0658177778, 
+			April: 186.11, 
+			May: 314.43, 
+			June: 443.16, 
+			July: 416.29, 
+			Aug: 387.68 
 		}
 	}
 }); 
@@ -14456,13 +15540,14 @@ WeatherOutlook.insert({
 	municipality: "Tagoloan II", 
 	data: {
 		month: {
-			January: 158.7117933143, 
-			February: 156.96, 
-			March: 221.1920862222, 
-			April: 167.8060879444, 
-			May: 239.5203079444, 
-			June: 381.832857, 
-			July: 533.2637709444 
+			January: 165.3467686429, 
+			February: 174.31, 
+			March: 250.5346775694, 
+			April: 156.69, 
+			May: 254.65, 
+			June: 405.83, 
+			July: 417.89, 
+			Aug: 310.84 
 		}
 	}
 }); 
@@ -14473,13 +15558,32 @@ WeatherOutlook.insert({
 	municipality: "Tamparan", 
 	data: {
 		month: {
-			January: 169.0159108571, 
-			February: 148.04, 
-			March: 224.9939977778, 
-			April: 199.7324708333, 
-			May: 257.3649058333, 
-			June: 397.4930391667, 
-			July: 311.0406269444 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 172.33, 
+			May: 266.66, 
+			June: 419.99, 
+			July: 317, 
+			Aug: 266.56 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Lanao del Sur", 
+	municipality: "Taraka", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 178.93, 
+			May: 266.47, 
+			June: 420.28, 
+			July: 328.96, 
+			Aug: 306.83 
 		}
 	}
 }); 
@@ -14490,13 +15594,14 @@ WeatherOutlook.insert({
 	municipality: "Tubaran", 
 	data: {
 		month: {
-			January: 132.96952, 
-			February: 135.68, 
-			March: 270.7473788889, 
-			April: 205.4627040278, 
-			May: 317.287555, 
-			June: 425.5223455556, 
-			July: 294.0361758333 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 186.19, 
+			May: 326.59, 
+			June: 451.77, 
+			July: 414.65, 
+			Aug: 408.71 
 		}
 	}
 }); 
@@ -14507,13 +15612,14 @@ WeatherOutlook.insert({
 	municipality: "Tugaya", 
 	data: {
 		month: {
-			January: 181.2107882857, 
-			February: 178.81, 
-			March: 239.0658177778, 
-			April: 179.6732280556, 
-			May: 246.8958686111, 
-			June: 409.7465266667, 
-			July: 279.8764675 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 161.15, 
+			May: 265.59, 
+			June: 448.48, 
+			July: 413.2, 
+			Aug: 351.36 
 		}
 	}
 }); 
@@ -14524,13 +15630,14 @@ WeatherOutlook.insert({
 	municipality: "Wao", 
 	data: {
 		month: {
-			January: 165.3467686429, 
-			February: 174.31, 
-			March: 250.5346775694, 
-			April: 205.1415508333, 
-			May: 279.2041925694, 
-			June: 380.7476497222, 
-			July: 196.5783479861 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 185.15, 
+			May: 296.7, 
+			June: 406.66, 
+			July: 428.55, 
+			Aug: 326.3 
 		}
 	}
 }); 
@@ -14544,10 +15651,11 @@ WeatherOutlook.insert({
 			January: 384.0909965684, 
 			February: 202.3, 
 			March: 240.1532898514, 
-			April: 156.6327049733, 
-			May: 161.2660520655, 
-			June: 240.3980108926, 
-			July: 286.0840550937 
+			April: 161.49, 
+			May: 167.63, 
+			June: 233.17, 
+			July: 304, 
+			Aug: 235.47 
 		}
 	}
 }); 
@@ -14561,10 +15669,11 @@ WeatherOutlook.insert({
 			January: 540.7412013968, 
 			February: 194.96, 
 			March: 288.7231781173, 
-			April: 270.4309539506, 
-			May: 208.6797549691, 
-			June: 240.9437520679, 
-			July: 290.3821792901 
+			April: 287.97, 
+			May: 164.76, 
+			June: 235.52, 
+			July: 260.38, 
+			Aug: 253.07 
 		}
 	}
 }); 
@@ -14578,10 +15687,11 @@ WeatherOutlook.insert({
 			January: 419.2083953143, 
 			February: 240.47, 
 			March: 239.3161529444, 
-			April: 136.7056265, 
-			May: 151.5278905, 
-			June: 222.3384964444, 
-			July: 286.6158286111 
+			April: 141.44, 
+			May: 173.25, 
+			June: 215.78, 
+			July: 278.63, 
+			Aug: 195.37 
 		}
 	}
 }); 
@@ -14595,10 +15705,11 @@ WeatherOutlook.insert({
 			January: 389.2765166286, 
 			February: 204.01, 
 			March: 269.5775070556, 
-			April: 155.4451176111, 
-			May: 164.225392, 
-			June: 255.2654870556, 
-			July: 266.5909255968 
+			April: 157.74, 
+			May: 192.24, 
+			June: 244.88, 
+			July: 334.38, 
+			Aug: 264.42 
 		}
 	}
 }); 
@@ -14612,10 +15723,11 @@ WeatherOutlook.insert({
 			January: 380.0007635714, 
 			February: 237.69, 
 			March: 280.1374775754, 
-			April: 145.1055004683, 
-			May: 181.2487402917, 
-			June: 264.8615724722, 
-			July: 250.1333664583 
+			April: 155.07, 
+			May: 181.8, 
+			June: 254.03, 
+			July: 314.34, 
+			Aug: 231.24 
 		}
 	}
 }); 
@@ -14629,10 +15741,11 @@ WeatherOutlook.insert({
 			January: 371.0373000714, 
 			February: 221.77, 
 			March: 249.84176875, 
-			April: 139.1767959722, 
-			May: 168.3004245833, 
-			June: 255.7061977778, 
-			July: 280.9080773611 
+			April: 147.28, 
+			May: 158.4, 
+			June: 249.24, 
+			July: 282.13, 
+			Aug: 215.59 
 		}
 	}
 }); 
@@ -14646,10 +15759,11 @@ WeatherOutlook.insert({
 			January: 352.8630175714, 
 			February: 213.02, 
 			March: 238.0055141667, 
-			April: 150.1122884722, 
-			May: 123.7022266667, 
-			June: 211.0144106944, 
-			July: 249.4316901389 
+			April: 138.78, 
+			May: 134.28, 
+			June: 213.52, 
+			July: 264.66, 
+			Aug: 241.02 
 		}
 	}
 }); 
@@ -14663,10 +15777,11 @@ WeatherOutlook.insert({
 			January: 440.603215956, 
 			February: 194.44, 
 			March: 257.7690622344, 
-			April: 197.0805842485, 
-			May: 171.2644368333, 
-			June: 255.2927260415, 
-			July: 317.5167963675 
+			April: 205.95, 
+			May: 153.05, 
+			June: 243.65, 
+			July: 293.74, 
+			Aug: 266.52 
 		}
 	}
 }); 
@@ -14680,10 +15795,11 @@ WeatherOutlook.insert({
 			January: 411.3232426939, 
 			February: 219.16, 
 			March: 267.7191736111, 
-			April: 161.9688859127, 
-			May: 163.7557273413, 
-			June: 248.8031982143, 
-			July: 250.2279430952 
+			April: 171.46, 
+			May: 183.88, 
+			June: 234.36, 
+			July: 328.49, 
+			Aug: 245.35 
 		}
 	}
 }); 
@@ -14697,10 +15813,11 @@ WeatherOutlook.insert({
 			January: 292.3649985, 
 			February: 174.04, 
 			March: 186.1333421032, 
-			April: 113.774010619, 
-			May: 149.4801412163, 
-			June: 238.0803026567, 
-			July: 370.60020625 
+			April: 118.84, 
+			May: 147.96, 
+			June: 229.43, 
+			July: 323.55, 
+			Aug: 222.87 
 		}
 	}
 }); 
@@ -14714,10 +15831,11 @@ WeatherOutlook.insert({
 			January: 367.2341337714, 
 			February: 208.26, 
 			March: 252.1576348889, 
-			April: 134.8896237222, 
-			May: 167.990649, 
-			June: 278.4662370556, 
-			July: 246.9322344444 
+			April: 141.06, 
+			May: 172.41, 
+			June: 275.03, 
+			July: 303.02, 
+			Aug: 260.79 
 		}
 	}
 }); 
@@ -14731,10 +15849,11 @@ WeatherOutlook.insert({
 			January: 392.9254175, 
 			February: 217.5, 
 			March: 259.9776890972, 
-			April: 141.6465564583, 
-			May: 172.0561243056, 
-			June: 277.7186219444, 
-			July: 270.772453125 
+			April: 150.09, 
+			May: 177.81, 
+			June: 269.74, 
+			July: 324.25, 
+			Aug: 247.09 
 		}
 	}
 }); 
@@ -14748,10 +15867,11 @@ WeatherOutlook.insert({
 			January: 413.2123803429, 
 			February: 231.26, 
 			March: 254.4377761667, 
-			April: 149.0098597778, 
-			May: 157.1159874444, 
-			June: 222.6002602222, 
-			July: 273.3241043889 
+			April: 158.19, 
+			May: 174.69, 
+			June: 226.65, 
+			July: 333.18, 
+			Aug: 250.14 
 		}
 	}
 }); 
@@ -14765,10 +15885,11 @@ WeatherOutlook.insert({
 			January: 432.715977619, 
 			February: 215.69, 
 			March: 254.3969301852, 
-			April: 176.6619018519, 
-			May: 157.9385006481, 
-			June: 216.3430221296, 
-			July: 263.4158843519 
+			April: 187.98, 
+			May: 200.93, 
+			June: 214.29, 
+			July: 314.72, 
+			Aug: 191.39 
 		}
 	}
 }); 
@@ -14782,10 +15903,11 @@ WeatherOutlook.insert({
 			January: 336.5874740476, 
 			February: 191.22, 
 			March: 221.0433888638, 
-			April: 137.1632629868, 
-			May: 123.3995167487, 
-			June: 221.0842779021, 
-			July: 377.519925082 
+			April: 145.71, 
+			May: 141.33, 
+			June: 223.2, 
+			July: 283.41, 
+			Aug: 249.41 
 		}
 	}
 }); 
@@ -14799,10 +15921,11 @@ WeatherOutlook.insert({
 			January: 315.7019753714, 
 			February: 181.05, 
 			March: 202.4871692429, 
-			April: 125.4484301159, 
-			May: 124.4888499111, 
-			June: 229.2736107825, 
-			July: 389.3428931667 
+			April: 137.65, 
+			May: 142.7, 
+			June: 229.98, 
+			July: 291.51, 
+			Aug: 254.59 
 		}
 	}
 }); 
@@ -14816,10 +15939,11 @@ WeatherOutlook.insert({
 			January: 376.8017670857, 
 			February: 195.87, 
 			March: 239.1585966667, 
-			April: 160.8245907778, 
-			May: 146.8822332778, 
-			June: 246.4672935, 
-			July: 302.1875998889 
+			April: 170.51, 
+			May: 145.25, 
+			June: 242.47, 
+			July: 301.67, 
+			Aug: 264.75 
 		}
 	}
 }); 
@@ -14833,10 +15957,11 @@ WeatherOutlook.insert({
 			January: 288.787088, 
 			February: 155.54, 
 			March: 207.4221214702, 
-			April: 110.2051345714, 
-			May: 139.0775218274, 
-			June: 232.2323294841, 
-			July: 260.744215246 
+			April: 118.33, 
+			May: 163.36, 
+			June: 222.26, 
+			July: 314.89, 
+			Aug: 211.17 
 		}
 	}
 }); 
@@ -14850,10 +15975,11 @@ WeatherOutlook.insert({
 			January: 396.5510433143, 
 			February: 238.36, 
 			March: 258.6624841111, 
-			April: 145.1432371667, 
-			May: 164.5241788333, 
-			June: 256.142772, 
-			July: 255.7432367746 
+			April: 155.61, 
+			May: 177.78, 
+			June: 249.84, 
+			July: 346.53, 
+			Aug: 302.75 
 		}
 	}
 }); 
@@ -14867,10 +15993,11 @@ WeatherOutlook.insert({
 			January: 531.7298124571, 
 			February: 201.9, 
 			March: 276.5385382222, 
-			April: 258.6568947222, 
-			May: 209.7960228333, 
-			June: 249.4125352778, 
-			July: 283.8114591111 
+			April: 269.79, 
+			May: 170.66, 
+			June: 241.55, 
+			July: 275.11, 
+			Aug: 259.43 
 		}
 	}
 }); 
@@ -14884,10 +16011,11 @@ WeatherOutlook.insert({
 			January: 412.0347848571, 
 			February: 223.04, 
 			March: 242.3259947222, 
-			April: 156.81445, 
-			May: 149.1837941667, 
-			June: 202.0205630556, 
-			July: 308.7587919444 
+			April: 164.31, 
+			May: 182.43, 
+			June: 196.02, 
+			July: 253.94, 
+			Aug: 198.33 
 		}
 	}
 }); 
@@ -14901,10 +16029,11 @@ WeatherOutlook.insert({
 			January: 332.772208, 
 			February: 203.85, 
 			March: 209.685849, 
-			April: 124.7162651667, 
-			May: 155.6683075, 
-			June: 253.2563909444, 
-			July: 223.4881987222 
+			April: 132.51, 
+			May: 162.09, 
+			June: 248.66, 
+			July: 320.51, 
+			Aug: 239.23 
 		}
 	}
 }); 
@@ -14918,10 +16047,11 @@ WeatherOutlook.insert({
 			January: 441.0532759429, 
 			February: 210.88, 
 			March: 274.9697024444, 
-			April: 192.2709959444, 
-			May: 168.9591792222, 
-			June: 241.2196143889, 
-			July: 338.1669713333 
+			April: 203.74, 
+			May: 196.88, 
+			June: 240.19, 
+			July: 322.36, 
+			Aug: 242.09 
 		}
 	}
 }); 
@@ -14935,10 +16065,11 @@ WeatherOutlook.insert({
 			January: 317.3998247937, 
 			February: 185.43, 
 			March: 200.036421157, 
-			April: 124.1237075212, 
-			May: 156.5836349656, 
-			June: 251.6096734171, 
-			July: 244.3804912892 
+			April: 131.53, 
+			May: 163.88, 
+			June: 251.17, 
+			July: 307.06, 
+			Aug: 247.58 
 		}
 	}
 }); 
@@ -14952,10 +16083,11 @@ WeatherOutlook.insert({
 			January: 494.5261939048, 
 			February: 205.3, 
 			March: 268.7272021296, 
-			April: 224.6506335185, 
-			May: 188.6839122222, 
-			June: 234.7884662963, 
-			July: 269.3439159259 
+			April: 239.64, 
+			May: 171.49, 
+			June: 233.43, 
+			July: 297.51, 
+			Aug: 247.21 
 		}
 	}
 }); 
@@ -14969,10 +16101,11 @@ WeatherOutlook.insert({
 			January: 502.8544630357, 
 			February: 198.82, 
 			March: 281.8383585069, 
-			April: 241.9489522569, 
-			May: 189.1334901042, 
-			June: 237.4048419444, 
-			July: 381.8771502778 
+			April: 247.34, 
+			May: 148.67, 
+			June: 233.24, 
+			July: 283.75, 
+			Aug: 242.04 
 		}
 	}
 }); 
@@ -14986,10 +16119,11 @@ WeatherOutlook.insert({
 			January: 296.2980365714, 
 			February: 174.22, 
 			March: 200.2444680556, 
-			April: 111.7084445833, 
-			May: 158.6924755556, 
-			June: 244.0816495833, 
-			July: 249.8489687698 
+			April: 120.41, 
+			May: 164.54, 
+			June: 238.8, 
+			July: 335.59, 
+			Aug: 237.95 
 		}
 	}
 }); 
@@ -15003,10 +16137,11 @@ WeatherOutlook.insert({
 			January: 343.2457972143, 
 			February: 203.95, 
 			March: 240.1607520595, 
-			April: 135.9646219345, 
-			May: 122.6298426171, 
-			June: 209.732909002, 
-			July: 293.0007614583 
+			April: 126.56, 
+			May: 154.99, 
+			June: 211.67, 
+			July: 274.04, 
+			Aug: 247.26 
 		}
 	}
 }); 
@@ -15020,10 +16155,11 @@ WeatherOutlook.insert({
 			January: 470.4481688571, 
 			February: 208.93, 
 			March: 260.9768105556, 
-			April: 209.0649338889, 
-			May: 174.2772444444, 
-			June: 230.3285422222, 
-			July: 306.0286294444 
+			April: 216.56, 
+			May: 233.68, 
+			June: 224.33, 
+			July: 285.31, 
+			Aug: 210.74 
 		}
 	}
 }); 
@@ -15037,10 +16173,11 @@ WeatherOutlook.insert({
 			January: 306.2226245714, 
 			February: 167.41, 
 			March: 211.1624315972, 
-			April: 120.2148221528, 
-			May: 147.5380105556, 
-			June: 244.8906065972, 
-			July: 268.3663560417 
+			April: 126.79, 
+			May: 170.26, 
+			June: 240.37, 
+			July: 327.44, 
+			Aug: 245.54 
 		}
 	}
 }); 
@@ -15054,10 +16191,11 @@ WeatherOutlook.insert({
 			January: 335.353286, 
 			February: 197.36, 
 			March: 234.1680740332, 
-			April: 133.7543000933, 
-			May: 162.964799813, 
-			June: 240.1664582197, 
-			July: 271.5875569965 
+			April: 139.32, 
+			May: 179.93, 
+			June: 230.17, 
+			July: 323.67, 
+			Aug: 260.3 
 		}
 	}
 }); 
@@ -15071,10 +16209,11 @@ WeatherOutlook.insert({
 			January: 385.9747844762, 
 			February: 235.95, 
 			March: 227.1112152778, 
-			April: 134.7723626852, 
-			May: 134.7376293519, 
-			June: 185.7688026852, 
-			July: 246.3743746296 
+			April: 143.29, 
+			May: 152.67, 
+			June: 180.17, 
+			July: 299.04, 
+			Aug: 181.13 
 		}
 	}
 }); 
@@ -15088,10 +16227,11 @@ WeatherOutlook.insert({
 			January: 279.6894261429, 
 			February: 157.37, 
 			March: 181.1102588274, 
-			April: 107.6887046647, 
-			May: 148.8972486885, 
-			June: 223.4874454802, 
-			July: 260.4343212619 
+			April: 115.8, 
+			May: 177.16, 
+			June: 218.04, 
+			July: 322.67, 
+			Aug: 226.27 
 		}
 	}
 }); 
@@ -15105,10 +16245,11 @@ WeatherOutlook.insert({
 			January: 431.5481808571, 
 			February: 239.5, 
 			March: 241.2088213889, 
-			April: 145.4655270833, 
-			May: 150.7976115278, 
-			June: 200.8835498611, 
-			July: 273.7539348571 
+			April: 153.44, 
+			May: 171.86, 
+			June: 206.29, 
+			July: 344.27, 
+			Aug: 228.05 
 		}
 	}
 }); 
@@ -15122,10 +16263,11 @@ WeatherOutlook.insert({
 			January: 289.8906056, 
 			February: 173.11, 
 			March: 184.4487932952, 
-			April: 113.5471778302, 
-			May: 146.5128721698, 
-			June: 241.0390355127, 
-			July: 308.2357152222 
+			April: 119.71, 
+			May: 147.61, 
+			June: 233.71, 
+			July: 319.78, 
+			Aug: 219.92 
 		}
 	}
 }); 
@@ -15139,10 +16281,11 @@ WeatherOutlook.insert({
 			January: 380.2298068571, 
 			February: 237.2, 
 			March: 254.6960312963, 
-			April: 138.0840174074, 
-			May: 171.5943531481, 
-			June: 249.2676302778, 
-			July: 267.6888168519 
+			April: 144.25, 
+			May: 170.47, 
+			June: 229.25, 
+			July: 295.55, 
+			Aug: 209.69 
 		}
 	}
 }); 
@@ -15156,10 +16299,11 @@ WeatherOutlook.insert({
 			January: 380.527976, 
 			February: 240.37, 
 			March: 228.5378129167, 
-			April: 128.0377622222, 
-			May: 139.6655868056, 
-			June: 199.1330527778, 
-			July: 241.06269 
+			April: 135.9, 
+			May: 142.71, 
+			June: 184.43, 
+			July: 286.45, 
+			Aug: 181.43 
 		}
 	}
 }); 
@@ -15173,10 +16317,11 @@ WeatherOutlook.insert({
 			January: 300.4494177143, 
 			February: 175.93, 
 			March: 188.4105938651, 
-			April: 115.3655510185, 
-			May: 149.3922275899, 
-			June: 243.9796359841, 
-			July: 242.7846153545 
+			April: 123.52, 
+			May: 162.81, 
+			June: 237.76, 
+			July: 319.59, 
+			Aug: 214.74 
 		}
 	}
 }); 
@@ -15190,10 +16335,11 @@ WeatherOutlook.insert({
 			January: 407.0712402857, 
 			February: 220.31, 
 			March: 239.8714827778, 
-			April: 156.2369719444, 
-			May: 151.3386080556, 
-			June: 202.8669008333, 
-			July: 303.0726791667 
+			April: 163.74, 
+			May: 178.67, 
+			June: 196.87, 
+			July: 266.7, 
+			Aug: 213.07 
 		}
 	}
 }); 
@@ -15207,10 +16353,11 @@ WeatherOutlook.insert({
 			January: 383.4642808571, 
 			February: 245.86, 
 			March: 247.2892187963, 
-			April: 130.7240675926, 
-			May: 159.0280384259, 
-			June: 233.2438649074, 
-			July: 228.8169150529 
+			April: 141.66, 
+			May: 163.28, 
+			June: 236.06, 
+			July: 282.08, 
+			Aug: 201.43 
 		}
 	}
 }); 
@@ -15224,10 +16371,11 @@ WeatherOutlook.insert({
 			January: 397.4820445714, 
 			February: 228.74, 
 			March: 235.629785, 
-			April: 146.1672347222, 
-			May: 139.4692636111, 
-			June: 194.7231044444, 
-			July: 292.0403869444 
+			April: 153.57, 
+			May: 176.65, 
+			June: 188.45, 
+			July: 285.93, 
+			Aug: 189.76 
 		}
 	}
 }); 
@@ -15241,10 +16389,11 @@ WeatherOutlook.insert({
 			January: 411.4314334286, 
 			February: 225.53, 
 			March: 250.3785475, 
-			April: 157.8901488889, 
-			May: 153.8072969444, 
-			June: 212.4228216667, 
-			July: 285.5443313889 
+			April: 165.39, 
+			May: 174.6, 
+			June: 206.42, 
+			July: 262.8, 
+			Aug: 179.6 
 		}
 	}
 }); 
@@ -15258,10 +16407,11 @@ WeatherOutlook.insert({
 			January: 297.1431536571, 
 			February: 176.69, 
 			March: 195.9399487365, 
-			April: 115.0787664286, 
-			May: 155.5059648492, 
-			June: 249.4387116238, 
-			July: 262.6782101111 
+			April: 123.93, 
+			May: 160.3, 
+			June: 242.48, 
+			July: 299.79, 
+			Aug: 229.16 
 		}
 	}
 }); 
@@ -15275,10 +16425,11 @@ WeatherOutlook.insert({
 			January: 121.8465801495, 
 			February: 120.25, 
 			March: 186.2748623611, 
-			April: 152.2919738372, 
-			May: 213.4101125937, 
-			June: 258.9157127358, 
-			July: 333.9086580056 
+			April: 131.73, 
+			May: 207.8, 
+			June: 281.38, 
+			July: 234.8, 
+			Aug: 228.89 
 		}
 	}
 }); 
@@ -15292,10 +16443,11 @@ WeatherOutlook.insert({
 			January: 122.4849784694, 
 			February: 127.13, 
 			March: 206.2770623016, 
-			April: 157.4339845635, 
-			May: 221.0774364683, 
-			June: 278.3177979762, 
-			July: 438.6202287534 
+			April: 144.73, 
+			May: 198.62, 
+			June: 290.48, 
+			July: 263.78, 
+			Aug: 214.18 
 		}
 	}
 }); 
@@ -15309,10 +16461,11 @@ WeatherOutlook.insert({
 			January: 114.6877354286, 
 			February: 106.76, 
 			March: 166.5532497222, 
-			April: 110.7495805556, 
-			May: 190.2172691667, 
-			June: 254.9346183333, 
-			July: 124.9366083333 
+			April: 126.71, 
+			May: 181.86, 
+			June: 272.91, 
+			July: 204.14, 
+			Aug: 275.65 
 		}
 	}
 }); 
@@ -15326,27 +16479,11 @@ WeatherOutlook.insert({
 			January: 117.8481385714, 
 			February: 109.65, 
 			March: 161.8098633333, 
-			April: 100.7954786111, 
-			May: 178.3995844444, 
-			June: 246.5684677778, 
-			July: 592.2013605556 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Maguindanao", 
-	municipality: "Cotabato City", 
-	data: {
-		month: {
-			January: 100.9230012143, 
-			February: 102.45, 
-			March: 175.2773759028, 
-			April: 184.02118125, 
-			May: 220.934040625, 
-			June: 279.03476, 
-			July: 292.2273750139 
+			April: 130.24, 
+			May: 209.12, 
+			June: 272.22, 
+			July: 195.85, 
+			Aug: 275.8 
 		}
 	}
 }); 
@@ -15357,13 +16494,14 @@ WeatherOutlook.insert({
 	municipality: "Datu Abdullah Sanki", 
 	data: {
 		month: {
-			January: 116.5204635714, 
-			February: 109.52, 
-			March: 173.8752071528, 
-			April: 142.9388341667, 
-			May: 205.2811190972, 
-			June: 244.3028991667, 
-			July: 467.8190421528 
+			January: 100.9230012143, 
+			February: 102.45, 
+			March: 175.2773759028, 
+			April: 153.24, 
+			May: 201.65, 
+			June: 274.55, 
+			July: 229.01, 
+			Aug: 223.69 
 		}
 	}
 }); 
@@ -15374,13 +16512,14 @@ WeatherOutlook.insert({
 	municipality: "Datu Anggal Midtimbang", 
 	data: {
 		month: {
-			January: 119.4526911429, 
-			February: 117.59, 
-			March: 185.3663691667, 
-			April: 157.2632186111, 
-			May: 202.7403933333, 
-			June: 259.9734502778, 
-			July: 232.5344986111 
+			January: 116.5204635714, 
+			February: 109.52, 
+			March: 173.8752071528, 
+			April: 126.58, 
+			May: 232.82, 
+			June: 280.97, 
+			July: 228.16, 
+			Aug: 206.66 
 		}
 	}
 }); 
@@ -15391,13 +16530,14 @@ WeatherOutlook.insert({
 	municipality: "Datu Paglas", 
 	data: {
 		month: {
-			January: 129.7792871429, 
-			February: 119.47, 
-			March: 165.6032041667, 
-			April: 117.2269005556, 
-			May: 194.1855808333, 
-			June: 255.0091200694, 
-			July: 356.8795164583 
+			January: 119.4526911429, 
+			February: 117.59, 
+			March: 185.3663691667, 
+			April: 151.65, 
+			May: 207.09, 
+			June: 280.86, 
+			July: 227.64, 
+			Aug: 260.79 
 		}
 	}
 }); 
@@ -15408,13 +16548,14 @@ WeatherOutlook.insert({
 	municipality: "Datu Piang", 
 	data: {
 		month: {
-			January: 121.6068730476, 
-			February: 124.01, 
-			March: 179.5440762037, 
-			April: 154.7346612963, 
-			May: 206.6284217593, 
-			June: 253.9567160185, 
-			July: 240.8699847222 
+			January: 129.7792871429, 
+			February: 119.47, 
+			March: 165.6032041667, 
+			April: 98.65, 
+			May: 206.56, 
+			June: 272.94, 
+			July: 203.39, 
+			Aug: 194.92 
 		}
 	}
 }); 
@@ -15425,13 +16566,14 @@ WeatherOutlook.insert({
 	municipality: "Datu Saudi-Ampatuan", 
 	data: {
 		month: {
-			January: 120.0544419048, 
-			February: 119.23, 
-			March: 178.5962744444, 
-			April: 156.3297087037, 
-			May: 210.0393677778, 
-			June: 259.3439330556, 
-			July: 275.4925755556 
+			January: 121.6068730476, 
+			February: 124.01, 
+			March: 179.5440762037, 
+			April: 105.99, 
+			May: 207.27, 
+			June: 295.9, 
+			July: 240.16, 
+			Aug: 222.21 
 		}
 	}
 }); 
@@ -15442,13 +16584,14 @@ WeatherOutlook.insert({
 	municipality: "Datu Unsay", 
 	data: {
 		month: {
-			January: 120.7305067143, 
-			February: 120.16, 
-			March: 188.7985686111, 
-			April: 152.4073209722, 
-			May: 212.6569908333, 
-			June: 272.4372464583, 
-			July: 325.0434033333 
+			January: 120.0544419048, 
+			February: 119.23, 
+			March: 178.5962744444, 
+			April: 116.41, 
+			May: 219.88, 
+			June: 299.47, 
+			July: 251.24, 
+			Aug: 230.47 
 		}
 	}
 }); 
@@ -15459,13 +16602,14 @@ WeatherOutlook.insert({
 	municipality: "Gen. S. K. Pendatun", 
 	data: {
 		month: {
-			January: 119.4388825714, 
-			February: 115.87, 
-			March: 168.5966797222, 
-			April: 136.4250695833, 
-			May: 215.9492786111, 
-			June: 243.7937126389, 
-			July: 466.5406519444 
+			January: 120.7305067143, 
+			February: 120.16, 
+			March: 188.7985686111, 
+			April: 138, 
+			May: 205.83, 
+			June: 266.46, 
+			July: 209.26, 
+			Aug: 239.83 
 		}
 	}
 }); 
@@ -15476,13 +16620,14 @@ WeatherOutlook.insert({
 	municipality: "Guindulungan", 
 	data: {
 		month: {
-			January: 120.9377087143, 
-			February: 123.48, 
-			March: 194.9660658333, 
-			April: 160.8337791667, 
-			May: 213.7737694444, 
-			June: 274.5790961111, 
-			July: 318.0371120833 
+			January: 119.4388825714, 
+			February: 115.87, 
+			March: 168.5966797222, 
+			April: 109.15, 
+			May: 221.99, 
+			June: 286.57, 
+			July: 232.59, 
+			Aug: 218.66 
 		}
 	}
 }); 
@@ -15493,13 +16638,14 @@ WeatherOutlook.insert({
 	municipality: "Mamasapano", 
 	data: {
 		month: {
-			January: 119.0940862857, 
-			February: 113.17, 
-			March: 171.9066805556, 
-			April: 152.391515, 
-			May: 209.4735452778, 
-			June: 242.9971691667, 
-			July: 231.4718705556 
+			January: 120.9377087143, 
+			February: 123.48, 
+			March: 194.9660658333, 
+			April: 140.85, 
+			May: 199.42, 
+			June: 265.5, 
+			July: 207.05, 
+			Aug: 199.72 
 		}
 	}
 }); 
@@ -15510,13 +16656,14 @@ WeatherOutlook.insert({
 	municipality: "Mangudadatu", 
 	data: {
 		month: {
-			January: 114.0805768571, 
-			February: 108.18, 
-			March: 171.5197397222, 
-			April: 92.6625638889, 
-			May: 182.2127097222, 
-			June: 252.8259791667, 
-			July: 606.1120111111 
+			January: 119.0940862857, 
+			February: 113.17, 
+			March: 171.9066805556, 
+			April: 141.78, 
+			May: 206.49, 
+			June: 273.24, 
+			July: 197.16, 
+			Aug: 276.1 
 		}
 	}
 }); 
@@ -15527,13 +16674,14 @@ WeatherOutlook.insert({
 	municipality: "Pagagawan", 
 	data: {
 		month: {
-			January: 130.5693825714, 
-			February: 119.31, 
-			March: 177.0197337963, 
-			April: 154.965855463, 
-			May: 228.5006377778, 
-			June: 233.5647166667, 
-			July: 185.8331825159 
+			January: 114.0805768571, 
+			February: 108.18, 
+			March: 171.5197397222, 
+			April: 84.75, 
+			May: 185.72, 
+			June: 276.07, 
+			July: 211.65, 
+			Aug: 189.52 
 		}
 	}
 }); 
@@ -15544,13 +16692,14 @@ WeatherOutlook.insert({
 	municipality: "Pagalungan", 
 	data: {
 		month: {
-			January: 127.5998278, 
-			February: 121.4, 
-			March: 171.2440508333, 
-			April: 151.1860898889, 
-			May: 220.8683524722, 
-			June: 236.8386043333, 
-			July: 274.1542393333 
+			January: 130.5693825714, 
+			February: 119.31, 
+			March: 177.0197337963, 
+			April: 126.46, 
+			May: 206.37, 
+			June: 265, 
+			July: 202.81, 
+			Aug: 215.86 
 		}
 	}
 }); 
@@ -15561,13 +16710,14 @@ WeatherOutlook.insert({
 	municipality: "Paglat", 
 	data: {
 		month: {
-			January: 121.1163357143, 
-			February: 118.65, 
-			March: 165.0720891667, 
-			April: 134.5631741667, 
-			May: 212.7245, 
-			June: 239.0617775, 
-			July: 550.8443555556 
+			January: 127.5998278, 
+			February: 121.4, 
+			March: 171.2440508333, 
+			April: 145.02, 
+			May: 216.33, 
+			June: 264.4, 
+			July: 210.29, 
+			Aug: 252.3 
 		}
 	}
 }); 
@@ -15578,13 +16728,32 @@ WeatherOutlook.insert({
 	municipality: "Pandag", 
 	data: {
 		month: {
+			January: 121.1163357143, 
+			February: 118.65, 
+			March: 165.0720891667, 
+			April: 140.09, 
+			May: 208.53, 
+			June: 273.33, 
+			July: 209.98, 
+			Aug: 280.06 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "ARMM", 
+	province: "Maguindanao", 
+	municipality: "Rajah Buayan", 
+	data: {
+		month: {
 			January: 119.6558521429, 
 			February: 110.84, 
 			March: 162.6422434722, 
-			April: 116.7690894444, 
-			May: 197.2280005556, 
-			June: 246.3875391667, 
-			July: 280.4526013889 
+			April: 114.62, 
+			May: 213.73, 
+			June: 265.48, 
+			July: 206.44, 
+			Aug: 201 
 		}
 	}
 }); 
@@ -15598,10 +16767,11 @@ WeatherOutlook.insert({
 			January: 117.4407915714, 
 			February: 113.79, 
 			March: 180.9673858333, 
-			April: 148.4322619444, 
-			May: 203.7385122222, 
-			June: 254.1814611111, 
-			July: 418.3002723611 
+			April: 127.05, 
+			May: 215.45, 
+			June: 274.18, 
+			July: 220.17, 
+			Aug: 209.03 
 		}
 	}
 }); 
@@ -15615,10 +16785,11 @@ WeatherOutlook.insert({
 			January: 124.7183847551, 
 			February: 126.64, 
 			March: 210.2235343452, 
-			April: 167.6194379762, 
-			May: 217.0978764484, 
-			June: 266.9054625397, 
-			July: 317.3181354365 
+			April: 131.59, 
+			May: 203.81, 
+			June: 297.08, 
+			July: 289.01, 
+			Aug: 255.79 
 		}
 	}
 }); 
@@ -15632,10 +16803,11 @@ WeatherOutlook.insert({
 			January: 120.8127608571, 
 			February: 114.45, 
 			March: 169.9546670139, 
-			April: 148.4568378472, 
-			May: 214.0247233333, 
-			June: 239.8349808333, 
-			July: 314.5560458333 
+			April: 124.79, 
+			May: 202.78, 
+			June: 261.26, 
+			July: 203.41, 
+			Aug: 214.28 
 		}
 	}
 }); 
@@ -15649,10 +16821,11 @@ WeatherOutlook.insert({
 			January: 120.789684, 
 			February: 123.95, 
 			March: 191.1910875926, 
-			April: 157.0038433333, 
-			May: 210.4326881481, 
-			June: 269.8489968519, 
-			July: 209.23038 
+			April: 128.84, 
+			May: 216.5, 
+			June: 297.79, 
+			July: 257.1, 
+			Aug: 226.15 
 		}
 	}
 }); 
@@ -15666,10 +16839,11 @@ WeatherOutlook.insert({
 			January: 123.3046365714, 
 			February: 124.46, 
 			March: 183.2634763889, 
-			April: 155.9242494444, 
-			May: 208.9257443056, 
-			June: 259.1877052778, 
-			July: 163.1616083333 
+			April: 98.64, 
+			May: 212.05, 
+			June: 282.06, 
+			July: 228.71, 
+			Aug: 211.25 
 		}
 	}
 }); 
@@ -15683,10 +16857,11 @@ WeatherOutlook.insert({
 			January: 98.6161870268, 
 			February: 69.72, 
 			March: 78.9192022927, 
-			April: 49.7512881218, 
-			May: 149.9829702093, 
-			June: 227.9853328145, 
-			July: 319.1657359983 
+			April: 49.14, 
+			May: 144.3, 
+			June: 220.93, 
+			July: 290.39, 
+			Aug: 196.79 
 		}
 	}
 }); 
@@ -15700,10 +16875,11 @@ WeatherOutlook.insert({
 			January: 94.3930841633, 
 			February: 72.88, 
 			March: 73.1705411111, 
-			April: 55.7058642506, 
-			May: 161.1463325147, 
-			June: 230.132018466, 
-			July: 283.4082980556 
+			April: 53.35, 
+			May: 150.65, 
+			June: 216.91, 
+			July: 297.87, 
+			Aug: 202.31 
 		}
 	}
 }); 
@@ -15717,10 +16893,11 @@ WeatherOutlook.insert({
 			January: 96.0211795238, 
 			February: 61.62, 
 			March: 72.0026665741, 
-			April: 48.3224312037, 
-			May: 155.7964492593, 
-			June: 242.7410225926, 
-			July: 479.8364455556 
+			April: 46.18, 
+			May: 153.31, 
+			June: 216.14, 
+			July: 302.08, 
+			Aug: 207.3 
 		}
 	}
 }); 
@@ -15734,10 +16911,11 @@ WeatherOutlook.insert({
 			January: 94.5600473333, 
 			February: 67.1, 
 			March: 71.5163032513, 
-			April: 51.9349655106, 
-			May: 158.8305659021, 
-			June: 236.5512127672, 
-			July: 365.3285050926 
+			April: 52.48, 
+			May: 151.68, 
+			June: 225.85, 
+			July: 303.25, 
+			Aug: 201.66 
 		}
 	}
 }); 
@@ -15751,10 +16929,11 @@ WeatherOutlook.insert({
 			January: 99.2992935238, 
 			February: 74.93, 
 			March: 77.6405200926, 
-			April: 51.9352418519, 
-			May: 151.2946744444, 
-			June: 223.6510289815, 
-			July: 251.7332603704 
+			April: 52.14, 
+			May: 141.07, 
+			June: 224.25, 
+			July: 270.29, 
+			Aug: 180.84 
 		}
 	}
 }); 
@@ -15768,10 +16947,11 @@ WeatherOutlook.insert({
 			January: 102.42635225, 
 			February: 74.06, 
 			March: 89.8350090278, 
-			April: 44.3020246875, 
-			May: 135.4690611458, 
-			June: 215.6578021181, 
-			July: 270.5699619097 
+			April: 45.2, 
+			May: 130.44, 
+			June: 215.25, 
+			July: 280.4, 
+			Aug: 193.53 
 		}
 	}
 }); 
@@ -15785,10 +16965,11 @@ WeatherOutlook.insert({
 			January: 100.7392520714, 
 			February: 64.69, 
 			March: 78.8827679514, 
-			April: 48.8882571181, 
-			May: 148.7391451389, 
-			June: 231.3142888542, 
-			July: 346.7738921528 
+			April: 47.36, 
+			May: 157.84, 
+			June: 227.91, 
+			July: 296.66, 
+			Aug: 208.79 
 		}
 	}
 }); 
@@ -15802,10 +16983,11 @@ WeatherOutlook.insert({
 			January: 186.507934913, 
 			February: 105.24, 
 			March: 124.7463787481, 
-			April: 67.448034965, 
-			May: 142.4103678301, 
-			June: 184.6734552487, 
-			July: 294.3784127817 
+			April: 68.91, 
+			May: 146.59, 
+			June: 178.56, 
+			July: 307.32, 
+			Aug: 227.36 
 		}
 	}
 }); 
@@ -15819,10 +17001,11 @@ WeatherOutlook.insert({
 			January: 178.0174814545, 
 			February: 104.79, 
 			March: 105.8241681551, 
-			April: 64.0049199185, 
-			May: 147.544291785, 
-			June: 192.9275281068, 
-			July: 199.1625536364 
+			April: 72.76, 
+			May: 137.78, 
+			June: 182.7, 
+			July: 284.32, 
+			Aug: 214.71 
 		}
 	}
 }); 
@@ -15836,10 +17019,11 @@ WeatherOutlook.insert({
 			January: 189.5503347143, 
 			February: 101.2, 
 			March: 118.4688529167, 
-			April: 61.3283529861, 
-			May: 146.1775106597, 
-			June: 192.2985360764, 
-			July: 208.8346679167 
+			April: 72.2, 
+			May: 146.19, 
+			June: 197.55, 
+			July: 320.43, 
+			Aug: 262.77 
 		}
 	}
 }); 
@@ -15853,10 +17037,11 @@ WeatherOutlook.insert({
 			January: 146.45634, 
 			February: 85.97, 
 			March: 104.8205225926, 
-			April: 54.971105, 
-			May: 151.2122414352, 
-			June: 206.4704332407, 
-			July: 413.4676016204 
+			April: 64.13, 
+			May: 151.4, 
+			June: 199.12, 
+			July: 317.08, 
+			Aug: 208.01 
 		}
 	}
 }); 
@@ -15870,10 +17055,11 @@ WeatherOutlook.insert({
 			January: 234.0023808571, 
 			February: 129.82, 
 			March: 137.9056275, 
-			April: 80.1546002778, 
-			May: 136.1479427778, 
-			June: 159.0796969444, 
-			July: 220.1756630556 
+			April: 75.46, 
+			May: 154.12, 
+			June: 153.14, 
+			July: 265.26, 
+			Aug: 217.12 
 		}
 	}
 }); 
@@ -15887,10 +17073,11 @@ WeatherOutlook.insert({
 			January: 205.4543699592, 
 			February: 113.05, 
 			March: 155.4691045238, 
-			April: 87.3766740646, 
-			May: 128.7671227642, 
-			June: 169.2629651383, 
-			July: 357.7772467064 
+			April: 72.16, 
+			May: 129.55, 
+			June: 162.92, 
+			July: 300.34, 
+			Aug: 213.22 
 		}
 	}
 }); 
@@ -15904,10 +17091,11 @@ WeatherOutlook.insert({
 			January: 186.7895473968, 
 			February: 99.83, 
 			March: 128.1997774048, 
-			April: 70.5880863095, 
-			May: 129.5836655776, 
-			June: 177.567270097, 
-			July: 417.8882669409 
+			April: 67.77, 
+			May: 144.23, 
+			June: 176.54, 
+			July: 299.3, 
+			Aug: 216.78 
 		}
 	}
 }); 
@@ -15921,10 +17109,11 @@ WeatherOutlook.insert({
 			January: 176.8639346857, 
 			February: 116.51, 
 			March: 102.4717308825, 
-			April: 66.7192583857, 
-			May: 165.4685804921, 
-			June: 172.9945458683, 
-			July: 446.6974336667 
+			April: 54.94, 
+			May: 152.77, 
+			June: 163.18, 
+			July: 286.46, 
+			Aug: 205.59 
 		}
 	}
 }); 
@@ -15938,10 +17127,11 @@ WeatherOutlook.insert({
 			January: 191.1409033333, 
 			February: 100.74, 
 			March: 164.2653815741, 
-			April: 83.8999181481, 
-			May: 108.4872950926, 
-			June: 145.104467037, 
-			July: 253.84781 
+			April: 62.03, 
+			May: 105.83, 
+			June: 135.22, 
+			July: 257.27, 
+			Aug: 222.72 
 		}
 	}
 }); 
@@ -15955,10 +17145,11 @@ WeatherOutlook.insert({
 			January: 225.3951632381, 
 			February: 132.52, 
 			March: 157.7086972434, 
-			April: 84.6480143757, 
-			May: 141.2071071164, 
-			June: 193.3130143069, 
-			July: 290.7239567593 
+			April: 78.89, 
+			May: 145.38, 
+			June: 188.66, 
+			July: 306.03, 
+			Aug: 217.9 
 		}
 	}
 }); 
@@ -15972,10 +17163,11 @@ WeatherOutlook.insert({
 			January: 164.3202471714, 
 			February: 97.29, 
 			March: 109.3987794183, 
-			April: 61.4525802889, 
-			May: 151.2292535849, 
-			June: 203.6202256516, 
-			July: 222.2305836944 
+			April: 89.74, 
+			May: 155.2, 
+			June: 197.81, 
+			July: 346.57, 
+			Aug: 248.17 
 		}
 	}
 }); 
@@ -15989,10 +17181,11 @@ WeatherOutlook.insert({
 			January: 184.0123794286, 
 			February: 86.71, 
 			March: 109.9560378241, 
-			April: 50.3597691204, 
-			May: 133.3571168056, 
-			June: 177.4310668056, 
-			July: 216.1919935185 
+			April: 71.85, 
+			May: 143.08, 
+			June: 184.96, 
+			July: 334.95, 
+			Aug: 265.05 
 		}
 	}
 }); 
@@ -16006,10 +17199,11 @@ WeatherOutlook.insert({
 			January: 176.2952724127, 
 			February: 98.97, 
 			March: 120.9001511265, 
-			April: 53.2897529938, 
-			May: 153.0266118827, 
-			June: 206.4947419444, 
-			July: 280.1542805864 
+			April: 74.2, 
+			May: 154.06, 
+			June: 199.58, 
+			July: 349.78, 
+			Aug: 259.22 
 		}
 	}
 }); 
@@ -16023,10 +17217,11 @@ WeatherOutlook.insert({
 			January: 197.0791068571, 
 			February: 95.86, 
 			March: 127.2002068519, 
-			April: 57.6878543981, 
-			May: 141.7679335648, 
-			June: 184.6980521296, 
-			July: 238.8158603241 
+			April: 83.44, 
+			May: 149.63, 
+			June: 185.92, 
+			July: 327.6, 
+			Aug: 263.73 
 		}
 	}
 }); 
@@ -16040,10 +17235,11 @@ WeatherOutlook.insert({
 			January: 233.9343595238, 
 			February: 139.58, 
 			March: 126.4628620476, 
-			April: 85.8646140053, 
-			May: 149.8236003095, 
-			June: 169.3504036905, 
-			July: 259.5833484259 
+			April: 61.2, 
+			May: 139.74, 
+			June: 158.24, 
+			July: 281.64, 
+			Aug: 206.52 
 		}
 	}
 }); 
@@ -16057,10 +17253,11 @@ WeatherOutlook.insert({
 			January: 179.3673168, 
 			February: 93.84, 
 			March: 153.6576425556, 
-			April: 84.7056858889, 
-			May: 106.5866535, 
-			June: 146.9431913333, 
-			July: 371.7189148889 
+			April: 67.36, 
+			May: 109.03, 
+			June: 140.72, 
+			July: 266.68, 
+			Aug: 208.02 
 		}
 	}
 }); 
@@ -16074,10 +17271,11 @@ WeatherOutlook.insert({
 			January: 236.445422, 
 			February: 138.74, 
 			March: 167.0442904127, 
-			April: 92.6247257011, 
-			May: 144.3666528651, 
-			June: 192.9739301085, 
-			July: 291.7155383333 
+			April: 62.88, 
+			May: 146.75, 
+			June: 190.56, 
+			July: 323.63, 
+			Aug: 226.51 
 		}
 	}
 }); 
@@ -16091,10 +17289,11 @@ WeatherOutlook.insert({
 			January: 195.5142889388, 
 			February: 107.63, 
 			March: 139.5561491667, 
-			April: 76.4139834127, 
-			May: 126.0710755556, 
-			June: 178.7040313492, 
-			July: 305.5151002778 
+			April: 54.94, 
+			May: 131.46, 
+			June: 171, 
+			July: 289.37, 
+			Aug: 211.12 
 		}
 	}
 }); 
@@ -16108,10 +17307,11 @@ WeatherOutlook.insert({
 			January: 237.242609, 
 			February: 133.21, 
 			March: 137.8611237857, 
-			April: 83.5714639325, 
-			May: 140.0081727738, 
-			June: 162.8085346706, 
-			July: 201.9557318056 
+			April: 71.7, 
+			May: 132.35, 
+			June: 155.33, 
+			July: 268.81, 
+			Aug: 207.99 
 		}
 	}
 }); 
@@ -16125,10 +17325,11 @@ WeatherOutlook.insert({
 			January: 237.6619832857, 
 			February: 137.62, 
 			March: 141.8438472222, 
-			April: 80.452975625, 
-			May: 151.9090113889, 
-			June: 167.8761045139, 
-			July: 173.6552359028 
+			April: 78.17, 
+			May: 144.67, 
+			June: 159.2, 
+			July: 274.24, 
+			Aug: 205.79 
 		}
 	}
 }); 
@@ -16142,10 +17343,11 @@ WeatherOutlook.insert({
 			January: 149.8587311746, 
 			February: 105.74, 
 			March: 91.4961476949, 
-			April: 63.3567352337, 
-			May: 160.1044946526, 
-			June: 183.4706542434, 
-			July: 430.3907858951 
+			April: 61.99, 
+			May: 148.99, 
+			June: 178.5, 
+			July: 301.02, 
+			Aug: 207.68 
 		}
 	}
 }); 
@@ -16159,10 +17361,11 @@ WeatherOutlook.insert({
 			January: 201.6430833878, 
 			February: 105.78, 
 			March: 143.8380936667, 
-			April: 72.0957163617, 
-			May: 130.9407179444, 
-			June: 170.4354164955, 
-			July: 262.7097383333 
+			April: 81.45, 
+			May: 126.16, 
+			June: 155.06, 
+			July: 303.93, 
+			Aug: 228.29 
 		}
 	}
 }); 
@@ -16176,10 +17379,11 @@ WeatherOutlook.insert({
 			January: 23.1064899864, 
 			February: 13.87, 
 			March: 17.1245143571, 
-			April: 19.1420176466, 
-			May: 153.1799590518, 
-			June: 283.5358008367, 
-			July: 225.5144380688 
+			April: 20.44, 
+			May: 153.86, 
+			June: 265.91, 
+			July: 472.09, 
+			Aug: 503.67 
 		}
 	}
 }); 
@@ -16193,10 +17397,29 @@ WeatherOutlook.insert({
 			January: 33.6245968571, 
 			February: 21.38, 
 			March: 27.5878069444, 
-			April: 31.400395, 
-			May: 186.6216166667, 
-			June: 303.8341213889, 
-			July: 213.1023627778 
+			April: 31.56, 
+			May: 167.13, 
+			June: 287.52, 
+			July: 515.84, 
+			Aug: 532.47 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
+	province: "Metropolitan Manila", 
+	municipality: "Las Piï?½as", 
+	data: {
+		month: {
+			January: 12.4282832857, 
+			February: 8.97, 
+			March: 10.0305279167, 
+			April: 12.37, 
+			May: 155.77, 
+			June: 239.65, 
+			July: 387.28, 
+			Aug: 435.23 
 		}
 	}
 }); 
@@ -16210,10 +17433,11 @@ WeatherOutlook.insert({
 			January: 12.4282832857, 
 			February: 8.97, 
 			March: 10.0305279167, 
-			April: 11.1794330556, 
-			May: 119.5567702778, 
-			June: 252.1242218056, 
-			July: 226.0551902778 
+			April: 12.37, 
+			May: 158.46, 
+			June: 239.65, 
+			July: 387.28, 
+			Aug: 460.05 
 		}
 	}
 }); 
@@ -16227,61 +17451,11 @@ WeatherOutlook.insert({
 			January: 18.6841131429, 
 			February: 12.22, 
 			March: 17.3780797222, 
-			April: 14.9340672222, 
-			May: 137.30478, 
-			June: 268.1908633333, 
-			July: 187.5489972222 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "National Capital Region (NCR)", 
-	province: "Metropolitan Manila", 
-	municipality: "Malabon", 
-	data: {
-		month: {
-			January: 14.0967428571, 
-			February: 10.23, 
-			March: 11.2524268571, 
-			April: 17.919138, 
-			May: 163.7859634286, 
-			June: 297.6832614286, 
-			July: 276.3139761111 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "National Capital Region (NCR)", 
-	province: "Metropolitan Manila", 
-	municipality: "Mandaluyong", 
-	data: {
-		month: {
-			January: 20.3670565714, 
-			February: 11.63, 
-			March: 17.9518536111, 
-			April: 14.9670288889, 
-			May: 148.2648205556, 
-			June: 284.9791633333, 
-			July: 215.5968638889 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "National Capital Region (NCR)", 
-	province: "Metropolitan Manila", 
-	municipality: "Manila", 
-	data: {
-		month: {
-			January: 12.3029648571, 
-			February: 7.24, 
-			March: 8.9056802857, 
-			April: 8.9093562857, 
-			May: 137.7393708571, 
-			June: 273.7494294286, 
-			July: 201.17358 
+			April: 14.93, 
+			May: 158.46, 
+			June: 251.69, 
+			July: 441.22, 
+			Aug: 517.86 
 		}
 	}
 }); 
@@ -16295,10 +17469,11 @@ WeatherOutlook.insert({
 			January: 34.9432497143, 
 			February: 18.39, 
 			March: 20.3428616667, 
-			April: 24.3763738889, 
-			May: 172.2702983333, 
-			June: 284.8107408333, 
-			July: 219.1472797222 
+			April: 24.63, 
+			May: 153.17, 
+			June: 268.68, 
+			July: 496.09, 
+			Aug: 460.05 
 		}
 	}
 }); 
@@ -16306,33 +17481,17 @@ WeatherOutlook.insert({
 WeatherOutlook.insert({ 
 	region: "National Capital Region (NCR)", 
 	province: "Metropolitan Manila", 
-	municipality: "Muntinlupa", 
+	municipality: "Pasay City", 
 	data: {
 		month: {
-			January: 22.5656614286, 
-			February: 15.73, 
-			March: 15.4970041667, 
-			April: 16.91863625, 
-			May: 126.5491598611, 
-			June: 262.2576047222, 
-			July: 266.2666659722 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "National Capital Region (NCR)", 
-	province: "Metropolitan Manila", 
-	municipality: "Parañaque", 
-	data: {
-		month: {
-			January: 14.1170894286, 
-			February: 10.5, 
-			March: 14.3491092619, 
-			April: 12.082435369, 
-			May: 126.7274255397, 
-			June: 264.9764464127, 
-			July: 208.98661 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 14.93, 
+			May: 137.3, 
+			June: 251.69, 
+			July: 441.22, 
+			Aug: 495.86 
 		}
 	}
 }); 
@@ -16346,10 +17505,29 @@ WeatherOutlook.insert({
 			January: 25.2451928571, 
 			February: 16.11, 
 			March: 21.2566222222, 
-			April: 22.5774372222, 
-			May: 178.4023902778, 
-			June: 289.1676777778, 
-			July: 191.7177186111 
+			April: 20.36, 
+			May: 137.3, 
+			June: 261.69, 
+			July: 483.78, 
+			Aug: 495.86 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "National Capital Region (NCR)", 
+	province: "Metropolitan Manila", 
+	municipality: "Pateros", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 20.36, 
+			May: 163.51, 
+			June: 261.69, 
+			July: 483.78, 
+			Aug: 530.78 
 		}
 	}
 }); 
@@ -16363,10 +17541,11 @@ WeatherOutlook.insert({
 			January: 32.6370448571, 
 			February: 16.31, 
 			March: 21.6027726111, 
-			April: 25.3445186111, 
-			May: 169.5224038889, 
-			June: 299.6759356111, 
-			July: 227.0959163333 
+			April: 26.88, 
+			May: 120, 
+			June: 283.29, 
+			July: 503.94, 
+			Aug: 495.86 
 		}
 	}
 }); 
@@ -16380,27 +17559,11 @@ WeatherOutlook.insert({
 			January: 22.2331802857, 
 			February: 16.26, 
 			March: 17.6379008333, 
-			April: 20.3569372222, 
-			May: 158.4601886111, 
-			June: 278.1936972222, 
-			July: 210.5189619444 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "National Capital Region (NCR)", 
-	province: "Metropolitan Manila", 
-	municipality: "Valenzuela", 
-	data: {
-		month: {
-			January: 21.16595, 
-			February: 12.91, 
-			March: 14.7672118056, 
-			April: 19.7290172222, 
-			May: 170.3254902778, 
-			June: 308.2733194444, 
-			July: 241.2934725 
+			April: 20.36, 
+			May: 165.82, 
+			June: 261.69, 
+			July: 483.78, 
+			Aug: 544.6 
 		}
 	}
 }); 
@@ -16414,10 +17577,11 @@ WeatherOutlook.insert({
 			January: 212.3033492927, 
 			February: 147.07, 
 			March: 211.4135663495, 
-			April: 117.2303042583, 
-			May: 145.3134328431, 
-			June: 318.0081408253, 
-			July: 351.4474054785 
+			April: 109.17, 
+			May: 146.69, 
+			June: 337.45, 
+			July: 304.97, 
+			Aug: 244.57 
 		}
 	}
 }); 
@@ -16431,10 +17595,11 @@ WeatherOutlook.insert({
 			January: 188.1406937714, 
 			February: 133.04, 
 			March: 195.4494678889, 
-			April: 106.032507, 
-			May: 133.949041, 
-			June: 309.2633278333, 
-			July: 201.132319 
+			April: 95.26, 
+			May: 126.4, 
+			June: 310.53, 
+			July: 265.55, 
+			Aug: 221.12 
 		}
 	}
 }); 
@@ -16448,10 +17613,11 @@ WeatherOutlook.insert({
 			January: 142.7862001429, 
 			February: 84.78, 
 			March: 147.8342836587, 
-			April: 93.9034464048, 
-			May: 108.5250506032, 
-			June: 236.6382329484, 
-			July: 621.4655540278 
+			April: 84.78, 
+			May: 107.2, 
+			June: 256.52, 
+			July: 225.61, 
+			Aug: 179.48 
 		}
 	}
 }); 
@@ -16465,27 +17631,11 @@ WeatherOutlook.insert({
 			January: 200.4640881429, 
 			February: 165.36, 
 			March: 225.6862572222, 
-			April: 147.0259020833, 
-			May: 184.90648125, 
-			June: 355.4734355556, 
-			July: 408.8994223611 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region X: Northern Mindanao", 
-	province: "Misamis Occidental", 
-	municipality: "Calamba", 
-	data: {
-		month: {
-			January: 149.1614556, 
-			February: 96.11, 
-			March: 161.7652052778, 
-			April: 99.5012771111, 
-			May: 111.9895763333, 
-			June: 263.1619120556, 
-			July: 435.8615735 
+			April: 140.26, 
+			May: 181.83, 
+			June: 375.12, 
+			July: 317.09, 
+			Aug: 276 
 		}
 	}
 }); 
@@ -16499,10 +17649,11 @@ WeatherOutlook.insert({
 			January: 289.689689619, 
 			February: 192.3, 
 			March: 255.9351824074, 
-			April: 127.3389700926, 
-			May: 159.2396590741, 
-			June: 339.6098188889, 
-			July: 526.2294764815 
+			April: 113.82, 
+			May: 146.87, 
+			June: 325.19, 
+			July: 288.54, 
+			Aug: 248.6 
 		}
 	}
 }); 
@@ -16516,10 +17667,11 @@ WeatherOutlook.insert({
 			January: 165.6318181429, 
 			February: 120.29, 
 			March: 196.8047834722, 
-			April: 117.0204555556, 
-			May: 156.7613075, 
-			June: 332.6146575, 
-			July: 211.7284159722 
+			April: 113.21, 
+			May: 165.04, 
+			June: 370.63, 
+			July: 352.41, 
+			Aug: 251.76 
 		}
 	}
 }); 
@@ -16533,10 +17685,11 @@ WeatherOutlook.insert({
 			January: 204.3592836571, 
 			February: 169.36, 
 			March: 228.1942128611, 
-			April: 132.6439167778, 
-			May: 177.8708066111, 
-			June: 375.7182244167, 
-			July: 310.4577366111 
+			April: 124.17, 
+			May: 180.88, 
+			June: 400.48, 
+			July: 357.79, 
+			Aug: 258.38 
 		}
 	}
 }); 
@@ -16550,10 +17703,11 @@ WeatherOutlook.insert({
 			January: 221.6922364286, 
 			February: 154.29, 
 			March: 217.4456592361, 
-			April: 110.7721897222, 
-			May: 142.7877283333, 
-			June: 325.3788340278, 
-			July: 184.0685405556 
+			April: 111.05, 
+			May: 165.67, 
+			June: 382.36, 
+			July: 365.46, 
+			Aug: 282.47 
 		}
 	}
 }); 
@@ -16567,10 +17721,11 @@ WeatherOutlook.insert({
 			January: 154.6755593333, 
 			February: 100.92, 
 			March: 167.8512246296, 
-			April: 98.0743424074, 
-			May: 115.5735112963, 
-			June: 269.3456875, 
-			July: 371.8923284259 
+			April: 94.66, 
+			May: 131.06, 
+			June: 301.01, 
+			July: 306.03, 
+			Aug: 253.73 
 		}
 	}
 }); 
@@ -16584,10 +17739,11 @@ WeatherOutlook.insert({
 			January: 165.8330716429, 
 			February: 110.95, 
 			March: 180.2660345139, 
-			April: 100.7676029167, 
-			May: 130.5441108333, 
-			June: 287.4443038889, 
-			July: 257.2077404861 
+			April: 95.71, 
+			May: 134.01, 
+			June: 319.51, 
+			July: 280.57, 
+			Aug: 236.76 
 		}
 	}
 }); 
@@ -16601,10 +17757,11 @@ WeatherOutlook.insert({
 			January: 337.6428744, 
 			February: 196.83, 
 			March: 264.1359138333, 
-			April: 124.1934562778, 
-			May: 140.2305612222, 
-			June: 304.4870916667, 
-			July: 498.3844748889 
+			April: 118.8, 
+			May: 149.14, 
+			June: 336.56, 
+			July: 316.64, 
+			Aug: 263.04 
 		}
 	}
 }); 
@@ -16618,10 +17775,11 @@ WeatherOutlook.insert({
 			January: 196.1043574286, 
 			February: 124.34, 
 			March: 194.4828480556, 
-			April: 104.17704, 
-			May: 122.0086055556, 
-			June: 291.6249722222, 
-			July: 183.3607130556 
+			April: 101.47, 
+			May: 144.61, 
+			June: 336.87, 
+			July: 283.92, 
+			Aug: 303.25 
 		}
 	}
 }); 
@@ -16635,27 +17793,11 @@ WeatherOutlook.insert({
 			January: 140.8949751429, 
 			February: 84.09, 
 			March: 143.6368663889, 
-			April: 90.8943119444, 
-			May: 96.7092125, 
-			June: 234.7926827778, 
-			July: 569.6752322222 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region X: Northern Mindanao", 
-	province: "Misamis Occidental", 
-	municipality: "Sapang Dalaga", 
-	data: {
-		month: {
-			January: 152.2608026667, 
-			February: 99.53, 
-			March: 168.2662335185, 
-			April: 106.4538044444, 
-			May: 125.1349178704, 
-			June: 281.4681727778, 
-			July: 411.161680463 
+			April: 83.39, 
+			May: 98.26, 
+			June: 257.29, 
+			July: 282.31, 
+			Aug: 173.38 
 		}
 	}
 }); 
@@ -16669,10 +17811,11 @@ WeatherOutlook.insert({
 			January: 254.046536, 
 			February: 171.84, 
 			March: 230.8637069444, 
-			April: 119.0917808333, 
-			May: 142.6063785417, 
-			June: 325.1274224306, 
-			July: 180.4852773671 
+			April: 121.3, 
+			May: 173.52, 
+			June: 392.84, 
+			July: 381.8, 
+			Aug: 258.29 
 		}
 	}
 }); 
@@ -16686,10 +17829,11 @@ WeatherOutlook.insert({
 			January: 250.0536856571, 
 			February: 177.76, 
 			March: 247.7140221111, 
-			April: 139.6010870556, 
-			May: 173.0622043889, 
-			June: 359.9930957222, 
-			July: 418.3361398333 
+			April: 130.27, 
+			May: 171.77, 
+			June: 374.33, 
+			July: 317.16, 
+			Aug: 263.74 
 		}
 	}
 }); 
@@ -16703,10 +17847,11 @@ WeatherOutlook.insert({
 			January: 285.4944232857, 
 			February: 191.6, 
 			March: 249.8662427778, 
-			April: 124.434575, 
-			May: 153.2768951389, 
-			June: 328.9218119444, 
-			July: 456.5112061111 
+			April: 112.77, 
+			May: 143.64, 
+			June: 328.29, 
+			July: 292.27, 
+			Aug: 201.3 
 		}
 	}
 }); 
@@ -16720,10 +17865,11 @@ WeatherOutlook.insert({
 			January: 236.9327053915, 
 			February: 186.19, 
 			March: 239.2722304398, 
-			April: 137.7668854306, 
-			May: 136.8730043398, 
-			June: 288.4691646579, 
-			July: 398.9146233923 
+			April: 122.17, 
+			May: 133.99, 
+			June: 304.3, 
+			July: 282.92, 
+			Aug: 229.51 
 		}
 	}
 }); 
@@ -16737,10 +17883,11 @@ WeatherOutlook.insert({
 			January: 127.486944, 
 			February: 85.04, 
 			March: 138.8638029167, 
-			April: 84.1796627778, 
-			May: 94.2664286111, 
-			June: 242.2226551389, 
-			July: 451.3443745833 
+			April: 77.12, 
+			May: 102.28, 
+			June: 271.81, 
+			July: 249.74, 
+			Aug: 210.36 
 		}
 	}
 }); 
@@ -16754,10 +17901,11 @@ WeatherOutlook.insert({
 			January: 224.3392503571, 
 			February: 165.96, 
 			March: 226.4654189603, 
-			April: 122.5832776369, 
-			May: 125.3590129127, 
-			June: 271.2505130714, 
-			July: 360.5389688194 
+			April: 115.83, 
+			May: 132.53, 
+			June: 292.99, 
+			July: 267.8, 
+			Aug: 229.62 
 		}
 	}
 }); 
@@ -16771,27 +17919,11 @@ WeatherOutlook.insert({
 			January: 275.1579117143, 
 			February: 189.23, 
 			March: 237.9705693056, 
-			April: 125.4984459722, 
-			May: 114.4236534722, 
-			June: 244.6254752778, 
-			July: 482.9067570833 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region X: Northern Mindanao", 
-	province: "Misamis Oriental", 
-	municipality: "Binuangan", 
-	data: {
-		month: {
-			January: 246.5049977143, 
-			February: 166.85, 
-			March: 220.8305954286, 
-			April: 115.5951254286, 
-			May: 110.4194351429, 
-			June: 249.5002751429, 
-			July: 512.9270188889 
+			April: 132.13, 
+			May: 123.49, 
+			June: 285.96, 
+			July: 264.61, 
+			Aug: 210.63 
 		}
 	}
 }); 
@@ -16802,13 +17934,14 @@ WeatherOutlook.insert({
 	municipality: "Cagayan de Oro City", 
 	data: {
 		month: {
-			January: 137.200825219, 
-			February: 102.63, 
-			March: 157.9508777222, 
-			April: 94.6115480185, 
-			May: 134.8898665185, 
-			June: 303.9812998333, 
-			July: 231.2312729259 
+			January: 246.5049977143, 
+			February: 166.85, 
+			March: 220.8305954286, 
+			April: 94.01, 
+			May: 155.98, 
+			June: 334.37, 
+			July: 307.55, 
+			Aug: 269.28 
 		}
 	}
 }); 
@@ -16819,13 +17952,14 @@ WeatherOutlook.insert({
 	municipality: "Claveria", 
 	data: {
 		month: {
-			January: 289.2115135833, 
-			February: 236.24, 
-			March: 288.7188578935, 
-			April: 163.5821613426, 
-			May: 164.3070149421, 
-			June: 311.6211113657, 
-			July: 512.712715044 
+			January: 137.200825219, 
+			February: 102.63, 
+			March: 157.9508777222, 
+			April: 133.89, 
+			May: 145.92, 
+			June: 316.59, 
+			July: 286.04, 
+			Aug: 246.73 
 		}
 	}
 }); 
@@ -16836,13 +17970,14 @@ WeatherOutlook.insert({
 	municipality: "El Salvador City", 
 	data: {
 		month: {
-			January: 122.4679544, 
-			February: 87.75, 
-			March: 143.2181589444, 
-			April: 85.1746433333, 
-			May: 106.5812488889, 
-			June: 262.3083683889, 
-			July: 336.301998 
+			January: 289.2115135833, 
+			February: 236.24, 
+			March: 288.7188578935, 
+			April: 77.12, 
+			May: 102.33, 
+			June: 271.82, 
+			July: 281.51, 
+			Aug: 210.42 
 		}
 	}
 }); 
@@ -16853,13 +17988,14 @@ WeatherOutlook.insert({
 	municipality: "Gingoog City", 
 	data: {
 		month: {
-			January: 342.1480096429, 
-			February: 286.53, 
-			March: 335.8229237222, 
-			April: 197.9445608611, 
-			May: 150.2838020972, 
-			June: 294.8832938056, 
-			July: 422.1988188119 
+			January: 122.4679544, 
+			February: 87.75, 
+			March: 143.2181589444, 
+			April: 189.74, 
+			May: 146.73, 
+			June: 307.94, 
+			July: 287.81, 
+			Aug: 208.64 
 		}
 	}
 }); 
@@ -16870,13 +18006,14 @@ WeatherOutlook.insert({
 	municipality: "Gitagum", 
 	data: {
 		month: {
-			January: 131.2338411429, 
-			February: 87.01, 
-			March: 141.8389761111, 
-			April: 85.3275627778, 
-			May: 95.5022991667, 
-			June: 245.2850775, 
-			July: 495.0850488889 
+			January: 342.1480096429, 
+			February: 286.53, 
+			March: 335.8229237222, 
+			April: 78.2, 
+			May: 98.08, 
+			June: 272.21, 
+			July: 252.33, 
+			Aug: 210.59 
 		}
 	}
 }); 
@@ -16887,13 +18024,14 @@ WeatherOutlook.insert({
 	municipality: "Initao", 
 	data: {
 		month: {
-			January: 124.1294342857, 
-			February: 88.91, 
-			March: 148.3147992593, 
-			April: 89.521909537, 
-			May: 109.849517037, 
-			June: 264.9137939815, 
-			July: 364.6745922222 
+			January: 131.2338411429, 
+			February: 87.01, 
+			March: 141.8389761111, 
+			April: 82.61, 
+			May: 117.5, 
+			June: 291.77, 
+			July: 262.89, 
+			Aug: 222.78 
 		}
 	}
 }); 
@@ -16904,13 +18042,14 @@ WeatherOutlook.insert({
 	municipality: "Jasaan", 
 	data: {
 		month: {
-			January: 192.1178592857, 
-			February: 143.07, 
-			March: 205.8003979167, 
-			April: 108.3545491667, 
-			May: 134.4741773611, 
-			June: 283.3385872222, 
-			July: 450.6667061429 
+			January: 124.1294342857, 
+			February: 88.91, 
+			March: 148.3147992593, 
+			April: 100.53, 
+			May: 136.86, 
+			June: 301.29, 
+			July: 286.68, 
+			Aug: 240.44 
 		}
 	}
 }); 
@@ -16921,13 +18060,14 @@ WeatherOutlook.insert({
 	municipality: "Kinoguitan", 
 	data: {
 		month: {
-			January: 263.3147265714, 
-			February: 172.91, 
-			March: 225.0048369405, 
-			April: 116.8604035833, 
-			May: 110.7541863135, 
-			June: 244.7544068294, 
-			July: 499.9849859722 
+			January: 192.1178592857, 
+			February: 143.07, 
+			March: 205.8003979167, 
+			April: 115.55, 
+			May: 118.43, 
+			June: 271.36, 
+			July: 298.17, 
+			Aug: 200.3 
 		}
 	}
 }); 
@@ -16938,13 +18078,14 @@ WeatherOutlook.insert({
 	municipality: "Lagonglong", 
 	data: {
 		month: {
-			January: 243.090568, 
-			February: 188.78, 
-			March: 252.3485044444, 
-			April: 128.8934219444, 
-			May: 128.6452705556, 
-			June: 284.3082013889, 
-			July: 262.8779319444 
+			January: 263.3147265714, 
+			February: 172.91, 
+			March: 225.0048369405, 
+			April: 115.74, 
+			May: 121.81, 
+			June: 283.65, 
+			July: 256.8, 
+			Aug: 216.72 
 		}
 	}
 }); 
@@ -16955,13 +18096,14 @@ WeatherOutlook.insert({
 	municipality: "Laguindingan", 
 	data: {
 		month: {
-			January: 128.7755628571, 
-			February: 86.99, 
-			March: 140.2120575, 
-			April: 84.1809825, 
-			May: 97.7495127778, 
-			June: 242.7368902778, 
-			July: 492.9020897222 
+			January: 243.090568, 
+			February: 188.78, 
+			March: 252.3485044444, 
+			April: 78.2, 
+			May: 98.08, 
+			June: 272.21, 
+			July: 266.81, 
+			Aug: 210.59 
 		}
 	}
 }); 
@@ -16972,13 +18114,32 @@ WeatherOutlook.insert({
 	municipality: "Libertad", 
 	data: {
 		month: {
+			January: 128.7755628571, 
+			February: 86.99, 
+			March: 140.2120575, 
+			April: 79.97, 
+			May: 98.91, 
+			June: 280.32, 
+			July: 239.94, 
+			Aug: 216.06 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Misamis Oriental", 
+	municipality: "Lugait", 
+	data: {
+		month: {
 			January: 126.2436702857, 
 			February: 88.27, 
 			March: 146.0253902778, 
-			April: 87.4703761111, 
-			May: 97.3589338889, 
-			June: 257.8160402778, 
-			July: 410.6156052778 
+			April: 100.72, 
+			May: 134.59, 
+			June: 320.75, 
+			July: 265.67, 
+			Aug: 279.98 
 		}
 	}
 }); 
@@ -16992,10 +18153,11 @@ WeatherOutlook.insert({
 			January: 378.2809060714, 
 			February: 283.69, 
 			March: 294.3255769484, 
-			April: 172.8538803353, 
-			May: 121.8150984484, 
-			June: 237.2186980119, 
-			July: 484.0247698492 
+			April: 165.11, 
+			May: 124.02, 
+			June: 249.16, 
+			July: 300.26, 
+			Aug: 142.19 
 		}
 	}
 }); 
@@ -17009,10 +18171,11 @@ WeatherOutlook.insert({
 			January: 124.80578, 
 			February: 101.12, 
 			March: 171.9063377778, 
-			April: 106.8143268519, 
-			May: 126.3013053704, 
-			June: 311.5127501852, 
-			July: 193.2460525 
+			April: 99.34, 
+			May: 121.84, 
+			June: 334.31, 
+			July: 284.87, 
+			Aug: 258.82 
 		}
 	}
 }); 
@@ -17026,10 +18189,11 @@ WeatherOutlook.insert({
 			January: 295.4239909286, 
 			February: 235.16, 
 			March: 295.2777670139, 
-			April: 160.8831728472, 
-			May: 134.982715, 
-			June: 282.8993402778, 
-			July: 498.0951160417 
+			April: 151.33, 
+			May: 137.35, 
+			June: 298.48, 
+			July: 301.74, 
+			Aug: 219.38 
 		}
 	}
 }); 
@@ -17043,10 +18207,11 @@ WeatherOutlook.insert({
 			January: 123.4697645714, 
 			February: 92.33, 
 			March: 158.0845739259, 
-			April: 97.8595156746, 
-			May: 124.2824866429, 
-			June: 286.1160404365, 
-			July: 181.8002367593 
+			April: 90.17, 
+			May: 121.1, 
+			June: 309.45, 
+			July: 245.88, 
+			Aug: 234.63 
 		}
 	}
 }); 
@@ -17060,10 +18225,11 @@ WeatherOutlook.insert({
 			January: 135.7213258857, 
 			February: 98.91, 
 			March: 149.5406688889, 
-			April: 92.5922334444, 
-			May: 118.7682624444, 
-			June: 285.9264603333, 
-			July: 227.0048912222 
+			April: 90.91, 
+			May: 128.02, 
+			June: 320.12, 
+			July: 243.77, 
+			Aug: 250.1 
 		}
 	}
 }); 
@@ -17077,10 +18243,29 @@ WeatherOutlook.insert({
 			January: 253.2523668571, 
 			February: 191.64, 
 			March: 253.5690252778, 
-			April: 127.5999497222, 
-			May: 123.9492405556, 
-			June: 284.7712358333, 
-			July: 566.7551361111 
+			April: 121.39, 
+			May: 129.99, 
+			June: 298.95, 
+			July: 325.99, 
+			Aug: 236.46 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region X: Northern Mindanao", 
+	province: "Misamis Oriental", 
+	municipality: "Sugbongcogon", 
+	data: {
+		month: {
+			January: 157.122872, 
+			February: 116.86, 
+			March: 183.716595, 
+			April: 115.55, 
+			May: 118.43, 
+			June: 271.36, 
+			July: 250.38, 
+			Aug: 200.3 
 		}
 	}
 }); 
@@ -17091,13 +18276,14 @@ WeatherOutlook.insert({
 	municipality: "Tagoloan", 
 	data: {
 		month: {
-			January: 157.122872, 
-			February: 116.86, 
-			March: 183.716595, 
-			April: 101.8395327778, 
-			May: 133.9458944444, 
-			June: 310.5389927778, 
-			July: 390.9424294444 
+			January: 286.991209, 
+			February: 208.55, 
+			March: 258.7744373611, 
+			April: 100.17, 
+			May: 157.9, 
+			June: 340.89, 
+			July: 298.67, 
+			Aug: 263.15 
 		}
 	}
 }); 
@@ -17108,13 +18294,14 @@ WeatherOutlook.insert({
 	municipality: "Talisayan", 
 	data: {
 		month: {
-			January: 286.991209, 
-			February: 208.55, 
-			March: 258.7744373611, 
-			April: 136.6676668056, 
-			May: 123.4336726389, 
-			June: 259.6706677778, 
-			July: 537.3335524484 
+			January: 169.9841777143, 
+			February: 125.24, 
+			March: 192.0711011111, 
+			April: 134.97, 
+			May: 130.35, 
+			June: 284.96, 
+			July: 279.84, 
+			Aug: 205.22 
 		}
 	}
 }); 
@@ -17125,13 +18312,14 @@ WeatherOutlook.insert({
 	municipality: "Villanueva", 
 	data: {
 		month: {
-			January: 169.9841777143, 
-			February: 125.24, 
-			March: 192.0711011111, 
-			April: 104.0559455556, 
-			May: 130.9424577778, 
-			June: 299.9213361111, 
-			July: 482.3181730556 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 104.61, 
+			May: 145.51, 
+			June: 332.52, 
+			July: 293.48, 
+			Aug: 261.77 
 		}
 	}
 }); 
@@ -17145,10 +18333,11 @@ WeatherOutlook.insert({
 			January: 32.74831661, 
 			February: 31.3, 
 			March: 56.7566612875, 
-			April: 90.0735408483, 
-			May: 253.0648020796, 
-			June: 218.0213007695, 
-			July: 339.072503668 
+			April: 96.01, 
+			May: 239.17, 
+			June: 197.62, 
+			July: 339.67, 
+			Aug: 396.08 
 		}
 	}
 }); 
@@ -17162,10 +18351,11 @@ WeatherOutlook.insert({
 			January: 34.13589, 
 			February: 39.89, 
 			March: 68.8524138426, 
-			April: 109.4251819444, 
-			May: 268.7287072685, 
-			June: 213.2917358796, 
-			July: 435.8848773082 
+			April: 111.4, 
+			May: 250.89, 
+			June: 189.74, 
+			July: 358.88, 
+			Aug: 356.78 
 		}
 	}
 }); 
@@ -17179,10 +18369,11 @@ WeatherOutlook.insert({
 			January: 20.8152672571, 
 			February: 26.44, 
 			March: 66.8481354444, 
-			April: 117.0256595, 
-			May: 316.3570516667, 
-			June: 238.0241822778, 
-			July: 382.2928605 
+			April: 98.88, 
+			May: 303.88, 
+			June: 195.71, 
+			July: 366.02, 
+			Aug: 452.55 
 		}
 	}
 }); 
@@ -17196,10 +18387,11 @@ WeatherOutlook.insert({
 			January: 13.647714381, 
 			February: 7.94, 
 			March: 34.7054021296, 
-			April: 72.417572037, 
-			May: 280.2339627778, 
-			June: 253.1728566667, 
-			July: 203.609452037 
+			April: 87.81, 
+			May: 274.74, 
+			June: 201.42, 
+			July: 381.04, 
+			Aug: 409.14 
 		}
 	}
 }); 
@@ -17213,10 +18405,11 @@ WeatherOutlook.insert({
 			January: 20.5726472468, 
 			February: 24.03, 
 			March: 58.1407759343, 
-			April: 98.7146587374, 
-			May: 271.1703885859, 
-			June: 218.8365011111, 
-			July: 447.1824254206 
+			April: 105.92, 
+			May: 253.42, 
+			June: 204.19, 
+			July: 370.89, 
+			Aug: 365.59 
 		}
 	}
 }); 
@@ -17230,10 +18423,11 @@ WeatherOutlook.insert({
 			January: 47.8144420816, 
 			February: 44.4, 
 			March: 62.17839625, 
-			April: 91.4980589484, 
-			May: 239.8230876786, 
-			June: 207.7122751786, 
-			July: 353.9370176236 
+			April: 89.65, 
+			May: 233.66, 
+			June: 188.57, 
+			July: 298.32, 
+			Aug: 358.14 
 		}
 	}
 }); 
@@ -17247,10 +18441,11 @@ WeatherOutlook.insert({
 			January: 50.3843438393, 
 			February: 41.02, 
 			March: 54.3805919965, 
-			April: 66.3317600347, 
-			May: 180.3986746354, 
-			June: 186.2001599132, 
-			July: 239.8108469717 
+			April: 89.94, 
+			May: 173.47, 
+			June: 202.03, 
+			July: 288.22, 
+			Aug: 397.95 
 		}
 	}
 }); 
@@ -17264,10 +18459,11 @@ WeatherOutlook.insert({
 			January: 23.7477190476, 
 			February: 28.17, 
 			March: 65.9916425926, 
-			April: 118.6077584259, 
-			May: 317.261995463, 
-			June: 221.7714799074, 
-			July: 343.8752832407 
+			April: 110.48, 
+			May: 295.18, 
+			June: 178.36, 
+			July: 366.29, 
+			Aug: 453.71 
 		}
 	}
 }); 
@@ -17281,10 +18477,11 @@ WeatherOutlook.insert({
 			January: 24.7831652857, 
 			February: 25.28, 
 			March: 51.3143606944, 
-			April: 93.3415436111, 
-			May: 268.7152560648, 
-			June: 237.4071235185, 
-			July: 236.4385768981 
+			April: 95.03, 
+			May: 253.37, 
+			June: 188.31, 
+			July: 354.71, 
+			Aug: 359.11 
 		}
 	}
 }); 
@@ -17298,10 +18495,11 @@ WeatherOutlook.insert({
 			January: 14.4646460714, 
 			February: 15.1, 
 			March: 48.3227048611, 
-			April: 86.8686384722, 
-			May: 272.5449584028, 
-			June: 238.0516164583, 
-			July: 321.5322340159 
+			April: 91.94, 
+			May: 260.93, 
+			June: 200.32, 
+			July: 386.1, 
+			Aug: 376.02 
 		}
 	}
 }); 
@@ -17315,10 +18513,11 @@ WeatherOutlook.insert({
 			January: 15.6481777143, 
 			February: 13.67, 
 			March: 44.8723504167, 
-			April: 85.836765787, 
-			May: 301.8170518519, 
-			June: 261.3077983796, 
-			July: 417.7131039815 
+			April: 102.99, 
+			May: 305.94, 
+			June: 219.23, 
+			July: 373.62, 
+			Aug: 486.99 
 		}
 	}
 }); 
@@ -17332,10 +18531,11 @@ WeatherOutlook.insert({
 			January: 114.0899037937, 
 			February: 91.54, 
 			March: 108.9087838741, 
-			April: 85.2918633756, 
-			May: 182.0981175618, 
-			June: 300.0556083895, 
-			July: 306.9776172024 
+			April: 92.82, 
+			May: 170.8, 
+			June: 301.91, 
+			July: 383.85, 
+			Aug: 321.26 
 		}
 	}
 }); 
@@ -17349,10 +18549,11 @@ WeatherOutlook.insert({
 			January: 115.8745779286, 
 			February: 105.81, 
 			March: 118.6274503472, 
-			April: 77.5288231944, 
-			May: 182.5656716667, 
-			June: 281.1049952778, 
-			July: 317.4189445833 
+			April: 87.26, 
+			May: 174.15, 
+			June: 292.51, 
+			July: 405.41, 
+			Aug: 272.84 
 		}
 	}
 }); 
@@ -17366,10 +18567,11 @@ WeatherOutlook.insert({
 			January: 100.0347563516, 
 			February: 84.44, 
 			March: 97.492781279, 
-			April: 87.5115242515, 
-			May: 210.3573439603, 
-			June: 329.963887801, 
-			July: 379.0244056624 
+			April: 96.46, 
+			May: 186.16, 
+			June: 342.03, 
+			July: 334.19, 
+			Aug: 327.28 
 		}
 	}
 }); 
@@ -17383,10 +18585,11 @@ WeatherOutlook.insert({
 			January: 101.4877645143, 
 			February: 75.33, 
 			March: 103.3628198889, 
-			April: 89.6661248889, 
-			May: 200.4372623889, 
-			June: 310.4905088889, 
-			July: 288.7616216667 
+			April: 97.36, 
+			May: 146.87, 
+			June: 318.48, 
+			July: 347.19, 
+			Aug: 318.19 
 		}
 	}
 }); 
@@ -17400,10 +18603,11 @@ WeatherOutlook.insert({
 			January: 144.8237433492, 
 			February: 118.63, 
 			March: 128.9722679321, 
-			April: 80.1451452778, 
-			May: 159.2180395062, 
-			June: 279.9936747222, 
-			July: 322.1756854167 
+			April: 86.14, 
+			May: 182.76, 
+			June: 277.57, 
+			July: 439.77, 
+			Aug: 291.82 
 		}
 	}
 }); 
@@ -17417,10 +18621,11 @@ WeatherOutlook.insert({
 			January: 127.4511927619, 
 			February: 104.75, 
 			March: 121.6903394213, 
-			April: 77.6504534722, 
-			May: 155.109912662, 
-			June: 233.6944087731, 
-			July: 300.0643323657 
+			April: 84.61, 
+			May: 178.86, 
+			June: 230.58, 
+			July: 383.71, 
+			Aug: 274.52 
 		}
 	}
 }); 
@@ -17434,10 +18639,11 @@ WeatherOutlook.insert({
 			January: 114.4051969048, 
 			February: 93.86, 
 			March: 101.4076828009, 
-			April: 82.6761267361, 
-			May: 185.2026320139, 
-			June: 309.7413775, 
-			July: 285.1619694769 
+			April: 90.38, 
+			May: 163.88, 
+			June: 318.97, 
+			July: 358.36, 
+			Aug: 346.54 
 		}
 	}
 }); 
@@ -17451,10 +18657,11 @@ WeatherOutlook.insert({
 			January: 89.3249454476, 
 			February: 69.29, 
 			March: 97.5102519444, 
-			April: 74.5048678889, 
-			May: 184.0399115926, 
-			June: 340.1499904259, 
-			July: 234.7375733333 
+			April: 82.55, 
+			May: 155.99, 
+			June: 344.31, 
+			July: 410.95, 
+			Aug: 373.84 
 		}
 	}
 }); 
@@ -17468,10 +18675,11 @@ WeatherOutlook.insert({
 			January: 148.8471652143, 
 			February: 119.76, 
 			March: 126.4401199306, 
-			April: 95.7079005556, 
-			May: 183.4279049306, 
-			June: 308.9411257639, 
-			July: 334.9921286111 
+			April: 103.91, 
+			May: 176.2, 
+			June: 317.76, 
+			July: 415.72, 
+			Aug: 371.86 
 		}
 	}
 }); 
@@ -17485,10 +18693,11 @@ WeatherOutlook.insert({
 			January: 133.4343191429, 
 			February: 92.78, 
 			March: 110.1576190079, 
-			April: 74.5623605159, 
-			May: 132.4854051984, 
-			June: 210.4636196825, 
-			July: 273.3769589286 
+			April: 82.38, 
+			May: 179.24, 
+			June: 213.97, 
+			July: 438.02, 
+			Aug: 269.28 
 		}
 	}
 }); 
@@ -17502,10 +18711,11 @@ WeatherOutlook.insert({
 			January: 87.678139119, 
 			February: 68.41, 
 			March: 101.1555661574, 
-			April: 81.099133912, 
-			May: 191.3089150231, 
-			June: 283.3981835648, 
-			July: 296.2837043981 
+			April: 88.66, 
+			May: 173.59, 
+			June: 292.46, 
+			July: 400.91, 
+			Aug: 385.52 
 		}
 	}
 }); 
@@ -17519,10 +18729,11 @@ WeatherOutlook.insert({
 			January: 77.2619368, 
 			February: 57.51, 
 			March: 83.4608343333, 
-			April: 108.7120785, 
-			May: 213.2405976111, 
-			June: 369.4597860556, 
-			July: 276.0616743333 
+			April: 118, 
+			May: 166.82, 
+			June: 382.19, 
+			July: 398.61, 
+			Aug: 390.3 
 		}
 	}
 }); 
@@ -17536,10 +18747,11 @@ WeatherOutlook.insert({
 			January: 98.0756716571, 
 			February: 71.34, 
 			March: 97.8753298455, 
-			April: 80.3399547381, 
-			May: 177.5021124212, 
-			June: 298.9252045296, 
-			July: 328.5160330741 
+			April: 83.78, 
+			May: 140.33, 
+			June: 308.38, 
+			July: 321.33, 
+			Aug: 421.02 
 		}
 	}
 }); 
@@ -17553,10 +18765,11 @@ WeatherOutlook.insert({
 			January: 91.5231958095, 
 			February: 82.22, 
 			March: 97.8939730146, 
-			April: 76.8246412381, 
-			May: 182.2608020807, 
-			June: 293.6791731336, 
-			July: 292.0572159722 
+			April: 85.16, 
+			May: 141.29, 
+			June: 310.4, 
+			July: 325.93, 
+			Aug: 368.66 
 		}
 	}
 }); 
@@ -17570,10 +18783,11 @@ WeatherOutlook.insert({
 			January: 103.1380785238, 
 			February: 72.42, 
 			March: 98.1923708333, 
-			April: 102.3860318981, 
-			May: 208.3754355556, 
-			June: 356.1509852315, 
-			July: 257.6567136111 
+			April: 109.73, 
+			May: 151.91, 
+			June: 364.81, 
+			July: 341.26, 
+			Aug: 293.4 
 		}
 	}
 }); 
@@ -17587,10 +18801,11 @@ WeatherOutlook.insert({
 			January: 114.3289037619, 
 			February: 93.36, 
 			March: 107.0279251968, 
-			April: 82.552023206, 
-			May: 178.78906625, 
-			June: 285.2601339931, 
-			July: 267.8338078125 
+			April: 89.56, 
+			May: 141.63, 
+			June: 295.77, 
+			July: 364.31, 
+			Aug: 417.84 
 		}
 	}
 }); 
@@ -17604,10 +18819,11 @@ WeatherOutlook.insert({
 			January: 82.2992882857, 
 			February: 79.21, 
 			March: 89.0760648611, 
-			April: 103.7990781944, 
-			May: 215.06253, 
-			June: 373.3892036111, 
-			July: 344.2042748611 
+			April: 113.33, 
+			May: 191.54, 
+			June: 380.79, 
+			July: 325.98, 
+			Aug: 308.54 
 		}
 	}
 }); 
@@ -17621,10 +18837,11 @@ WeatherOutlook.insert({
 			January: 106.3696898367, 
 			February: 75.48, 
 			March: 99.951717619, 
-			April: 109.5761490079, 
-			May: 211.770339881, 
-			June: 373.8240694841, 
-			July: 354.6353642857 
+			April: 117.67, 
+			May: 175.25, 
+			June: 379.01, 
+			July: 378.85, 
+			Aug: 362.95 
 		}
 	}
 }); 
@@ -17638,10 +18855,11 @@ WeatherOutlook.insert({
 			January: 147.6045861905, 
 			February: 119.14, 
 			March: 121.674607119, 
-			April: 82.8684394762, 
-			May: 156.109514545, 
-			June: 280.1537593783, 
-			July: 385.0864131481 
+			April: 91.43, 
+			May: 165.76, 
+			June: 290.9, 
+			July: 415.42, 
+			Aug: 370.31 
 		}
 	}
 }); 
@@ -17655,10 +18873,11 @@ WeatherOutlook.insert({
 			January: 103.7622205714, 
 			February: 71.48, 
 			March: 96.2378748333, 
-			April: 101.4353736111, 
-			May: 195.4532568333, 
-			June: 339.862212, 
-			July: 293.0485995556 
+			April: 112.61, 
+			May: 153.93, 
+			June: 349.47, 
+			July: 303.7, 
+			Aug: 318.65 
 		}
 	}
 }); 
@@ -17672,10 +18891,11 @@ WeatherOutlook.insert({
 			January: 126.1639249388, 
 			February: 106.07, 
 			March: 122.5989130556, 
-			April: 92.9591357937, 
-			May: 207.6491906746, 
-			June: 336.4511084722, 
-			July: 316.8118839484 
+			April: 98.47, 
+			May: 185.64, 
+			June: 318.41, 
+			July: 384.41, 
+			Aug: 365.57 
 		}
 	}
 }); 
@@ -17689,10 +18909,29 @@ WeatherOutlook.insert({
 			January: 73.5296091429, 
 			February: 66.86, 
 			March: 84.1496333889, 
-			April: 113.9380128333, 
-			May: 222.7246231111, 
-			June: 397.8399913889, 
-			July: 361.9854666111 
+			April: 122.6, 
+			May: 180.1, 
+			June: 405.66, 
+			July: 371.31, 
+			Aug: 290.13 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Negros Island Region (NIR)", 
+	province: "Negros Occidental", 
+	municipality: "Pulupandan", 
+	data: {
+		month: {
+			January: 139.0606465397, 
+			February: 103.98, 
+			March: 112.3930641005, 
+			April: 94.19, 
+			May: 235.99, 
+			June: 341.5, 
+			July: 417.4, 
+			Aug: 210.35 
 		}
 	}
 }); 
@@ -17703,13 +18942,14 @@ WeatherOutlook.insert({
 	municipality: "Sagay City", 
 	data: {
 		month: {
-			January: 139.0606465397, 
-			February: 103.98, 
-			March: 112.3930641005, 
-			April: 75.9029547407, 
-			May: 139.2818209965, 
-			June: 230.3758295467, 
-			July: 300.821259164 
+			January: 135.2528500816, 
+			February: 117.2, 
+			March: 126.1136420635, 
+			April: 85.63, 
+			May: 182.32, 
+			June: 240.06, 
+			July: 460.11, 
+			Aug: 318.81 
 		}
 	}
 }); 
@@ -17720,13 +18960,14 @@ WeatherOutlook.insert({
 	municipality: "Salvador Benedicto", 
 	data: {
 		month: {
-			January: 135.2528500816, 
-			February: 117.2, 
-			March: 126.1136420635, 
-			April: 87.5535536905, 
-			May: 177.9844410317, 
-			June: 273.4139896032, 
-			July: 283.1611559127 
+			January: 127.5135472143, 
+			February: 106.47, 
+			March: 117.2987190509, 
+			April: 93.94, 
+			May: 172.25, 
+			June: 267.73, 
+			July: 411.89, 
+			Aug: 325.14 
 		}
 	}
 }); 
@@ -17737,13 +18978,14 @@ WeatherOutlook.insert({
 	municipality: "San Carlos City", 
 	data: {
 		month: {
-			January: 127.5135472143, 
-			February: 106.47, 
-			March: 117.2987190509, 
-			April: 76.2169561343, 
-			May: 154.897798287, 
-			June: 233.7887136574, 
-			July: 426.9385158102 
+			January: 81.7689432857, 
+			February: 61.78, 
+			March: 85.0584814603, 
+			April: 82.73, 
+			May: 171.72, 
+			June: 225.64, 
+			July: 359.45, 
+			Aug: 323.06 
 		}
 	}
 }); 
@@ -17754,13 +18996,14 @@ WeatherOutlook.insert({
 	municipality: "San Enrique", 
 	data: {
 		month: {
-			January: 81.7689432857, 
-			February: 61.78, 
-			March: 85.0584814603, 
-			April: 101.7910521587, 
-			May: 242.4867725278, 
-			June: 388.6931444841, 
-			July: 348.0164720833 
+			January: 145.3440605714, 
+			February: 114.01, 
+			March: 128.9618826984, 
+			April: 110.36, 
+			May: 228.94, 
+			June: 402.03, 
+			July: 307.97, 
+			Aug: 185.03 
 		}
 	}
 }); 
@@ -17771,13 +19014,14 @@ WeatherOutlook.insert({
 	municipality: "Silay City", 
 	data: {
 		month: {
-			January: 145.3440605714, 
-			February: 114.01, 
-			March: 128.9618826984, 
-			April: 91.651245754, 
-			May: 184.1588134127, 
-			June: 296.5682487698, 
-			July: 281.5177225 
+			January: 87.2702093673, 
+			February: 71.57, 
+			March: 94.5086646893, 
+			April: 99.26, 
+			May: 171.4, 
+			June: 301.79, 
+			July: 432.55, 
+			Aug: 238.86 
 		}
 	}
 }); 
@@ -17788,13 +19032,14 @@ WeatherOutlook.insert({
 	municipality: "Sipalay City", 
 	data: {
 		month: {
-			January: 87.2702093673, 
-			February: 71.57, 
-			March: 94.5086646893, 
-			April: 79.8624769507, 
-			May: 184.8436991871, 
-			June: 329.8910306763, 
-			July: 285.1822967857 
+			January: 141.2606964286, 
+			February: 121.36, 
+			March: 141.1085840278, 
+			April: 87.56, 
+			May: 149.95, 
+			June: 338.66, 
+			July: 369.74, 
+			Aug: 320.44 
 		}
 	}
 }); 
@@ -17805,13 +19050,14 @@ WeatherOutlook.insert({
 	municipality: "Talisay City", 
 	data: {
 		month: {
-			January: 141.2606964286, 
-			February: 121.36, 
-			March: 141.1085840278, 
-			April: 93.8230418056, 
-			May: 194.4915629167, 
-			June: 301.2474563426, 
-			July: 297.1246418519 
+			January: 132.4905166429, 
+			February: 106.63, 
+			March: 120.3646400694, 
+			April: 100.72, 
+			May: 174.6, 
+			June: 299.59, 
+			July: 449.18, 
+			Aug: 406.85 
 		}
 	}
 }); 
@@ -17822,13 +19068,14 @@ WeatherOutlook.insert({
 	municipality: "Toboso", 
 	data: {
 		month: {
-			January: 132.4905166429, 
-			February: 106.63, 
-			March: 120.3646400694, 
-			April: 79.7978847222, 
-			May: 149.989158125, 
-			June: 227.4310654167, 
-			July: 303.459811875 
+			January: 95.3731242857, 
+			February: 58.94, 
+			March: 87.9412286111, 
+			April: 84.98, 
+			May: 182.04, 
+			June: 224.84, 
+			July: 425.14, 
+			Aug: 258.82 
 		}
 	}
 }); 
@@ -17839,13 +19086,14 @@ WeatherOutlook.insert({
 	municipality: "Valladolid", 
 	data: {
 		month: {
-			January: 95.3731242857, 
-			February: 58.94, 
-			March: 87.9412286111, 
-			April: 93.2653163889, 
-			May: 258.3976430556, 
-			June: 365.4342938889, 
-			July: 112.6435225 
+			January: 156.3946698095, 
+			February: 128.92, 
+			March: 130.2867882407, 
+			April: 100.79, 
+			May: 249.74, 
+			June: 374.47, 
+			July: 470.26, 
+			Aug: 191.03 
 		}
 	}
 }); 
@@ -17856,13 +19104,14 @@ WeatherOutlook.insert({
 	municipality: "Victorias City", 
 	data: {
 		month: {
-			January: 156.3946698095, 
-			February: 128.92, 
-			March: 130.2867882407, 
-			April: 92.1717808333, 
-			May: 180.5040475, 
-			June: 316.127814537, 
-			July: 354.0770621296 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 99.93, 
+			May: 170.95, 
+			June: 320, 
+			July: 399.99, 
+			Aug: 300.15 
 		}
 	}
 }); 
@@ -17876,10 +19125,11 @@ WeatherOutlook.insert({
 			January: 119.5987133444, 
 			February: 75.46, 
 			March: 119.3149264415, 
-			April: 83.7998113997, 
-			May: 144.0462278485, 
-			June: 239.8745988513, 
-			July: 307.1053290341 
+			April: 84.01, 
+			May: 133.08, 
+			June: 254.59, 
+			July: 309.91, 
+			Aug: 275.32 
 		}
 	}
 }); 
@@ -17893,10 +19143,11 @@ WeatherOutlook.insert({
 			January: 134.683226, 
 			February: 68.98, 
 			March: 130.8206440278, 
-			April: 89.7253151389, 
-			May: 111.1464880556, 
-			June: 175.1253670833, 
-			July: 329.2061304167 
+			April: 86.43, 
+			May: 112.46, 
+			June: 277.43, 
+			July: 288.3, 
+			Aug: 255.8 
 		}
 	}
 }); 
@@ -17910,27 +19161,11 @@ WeatherOutlook.insert({
 			January: 106.1183918776, 
 			February: 74.72, 
 			March: 120.273608254, 
-			April: 80.1184720238, 
-			May: 168.5580749206, 
-			June: 257.2595844444, 
-			July: 235.256075 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Negros Island Region (NIR)", 
-	province: "Negros Oriental", 
-	municipality: "Bacong", 
-	data: {
-		month: {
-			January: 84.8483465714, 
-			February: 59.64, 
-			March: 134.7225205556, 
-			April: 64.4351755556, 
-			May: 80.6179372222, 
-			June: 158.5111922222, 
-			July: 285.2218888889 
+			April: 87.71, 
+			May: 160.82, 
+			June: 245.26, 
+			July: 303.21, 
+			Aug: 279.94 
 		}
 	}
 }); 
@@ -17944,10 +19179,11 @@ WeatherOutlook.insert({
 			January: 132.1796648929, 
 			February: 78.6, 
 			March: 125.8995190278, 
-			April: 88.3396786806, 
-			May: 145.1620531944, 
-			June: 224.0049380556, 
-			July: 306.1361839583 
+			April: 88.01, 
+			May: 129.95, 
+			June: 270.19, 
+			July: 317.24, 
+			Aug: 271.11 
 		}
 	}
 }); 
@@ -17961,10 +19197,11 @@ WeatherOutlook.insert({
 			January: 99.9851930714, 
 			February: 62.44, 
 			March: 96.7710053472, 
-			April: 85.8643694444, 
-			May: 158.7999685417, 
-			June: 273.1000711111, 
-			July: 297.4699928472 
+			April: 77.74, 
+			May: 144.92, 
+			June: 261.05, 
+			July: 323.83, 
+			Aug: 404.1 
 		}
 	}
 }); 
@@ -17978,10 +19215,11 @@ WeatherOutlook.insert({
 			January: 122.619454619, 
 			February: 81.55, 
 			March: 108.158543125, 
-			April: 84.0556111227, 
-			May: 152.2414768519, 
-			June: 247.3370450463, 
-			July: 325.7828237269 
+			April: 80.64, 
+			May: 145.52, 
+			June: 246.21, 
+			July: 331.65, 
+			Aug: 364.82 
 		}
 	}
 }); 
@@ -17995,10 +19233,11 @@ WeatherOutlook.insert({
 			January: 110.0098544762, 
 			February: 75.35, 
 			March: 125.6240218981, 
-			April: 81.3991980093, 
-			May: 165.4778571759, 
-			June: 245.7239429167, 
-			July: 268.1075859722 
+			April: 88.57, 
+			May: 156.07, 
+			June: 254.75, 
+			July: 301.18, 
+			Aug: 269.81 
 		}
 	}
 }); 
@@ -18012,10 +19251,11 @@ WeatherOutlook.insert({
 			January: 111.1523195429, 
 			February: 81.36, 
 			March: 103.4022279444, 
-			April: 85.2225492778, 
-			May: 162.7413499444, 
-			June: 275.771115, 
-			July: 336.3504573952 
+			April: 95.52, 
+			May: 169.77, 
+			June: 259.69, 
+			July: 333.46, 
+			Aug: 320.17 
 		}
 	}
 }); 
@@ -18029,27 +19269,11 @@ WeatherOutlook.insert({
 			January: 94.72439, 
 			February: 63.93, 
 			March: 146.7930162037, 
-			April: 70.4202190741, 
-			May: 105.4231385185, 
-			June: 214.1533972222, 
-			July: 339.403717037 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Negros Island Region (NIR)", 
-	province: "Negros Oriental", 
-	municipality: "Dumaguete City", 
-	data: {
-		month: {
-			January: 81.9283152857, 
-			February: 59.33, 
-			March: 140.0820629167, 
-			April: 65.3989794444, 
-			May: 78.1545620833, 
-			June: 140.7230280556, 
-			July: 323.9416306944 
+			April: 63.74, 
+			May: 87.76, 
+			June: 295.22, 
+			July: 261.53, 
+			Aug: 211.15 
 		}
 	}
 }); 
@@ -18063,10 +19287,11 @@ WeatherOutlook.insert({
 			January: 103.7617155238, 
 			February: 71.6, 
 			March: 108.650063179, 
-			April: 83.6551123148, 
-			May: 171.979793858, 
-			June: 279.7122824383, 
-			July: 295.5661558642 
+			April: 90.43, 
+			May: 158.19, 
+			June: 238.09, 
+			July: 299.87, 
+			Aug: 282.31 
 		}
 	}
 }); 
@@ -18080,10 +19305,11 @@ WeatherOutlook.insert({
 			January: 107.9430999429, 
 			February: 73.75, 
 			March: 119.9115631111, 
-			April: 79.5197323889, 
-			May: 171.2319811111, 
-			June: 269.8333703889, 
-			July: 321.622075 
+			April: 86.68, 
+			May: 165.54, 
+			June: 259.38, 
+			July: 258.99, 
+			Aug: 277.68 
 		}
 	}
 }); 
@@ -18097,10 +19323,11 @@ WeatherOutlook.insert({
 			January: 108.4086910714, 
 			February: 71.66, 
 			March: 114.24109125, 
-			April: 82.2066295833, 
-			May: 172.2987871528, 
-			June: 270.3567224306, 
-			July: 264.775381875 
+			April: 89.91, 
+			May: 154.16, 
+			June: 216.14, 
+			July: 270.02, 
+			Aug: 245.68 
 		}
 	}
 }); 
@@ -18114,10 +19341,11 @@ WeatherOutlook.insert({
 			January: 124.1240616703, 
 			February: 87.05, 
 			March: 117.6586200855, 
-			April: 85.6687186111, 
-			May: 162.5822091453, 
-			June: 248.8408756624, 
-			July: 301.0857376514 
+			April: 93.12, 
+			May: 151.83, 
+			June: 241.99, 
+			July: 316.66, 
+			Aug: 304.28 
 		}
 	}
 }); 
@@ -18131,10 +19359,11 @@ WeatherOutlook.insert({
 			January: 114.0436677143, 
 			February: 74.28, 
 			March: 131.5036174074, 
-			April: 77.3490318519, 
-			May: 150.0812948148, 
-			June: 221.833697963, 
-			July: 321.4423106481 
+			April: 84.31, 
+			May: 136.7, 
+			June: 266.68, 
+			July: 292.52, 
+			Aug: 256.13 
 		}
 	}
 }); 
@@ -18148,10 +19377,11 @@ WeatherOutlook.insert({
 			January: 156.5858095714, 
 			February: 83.29, 
 			March: 124.3840660185, 
-			April: 97.8919285648, 
-			May: 123.260400463, 
-			June: 193.897044537, 
-			July: 328.8329874074 
+			April: 90.26, 
+			May: 112.18, 
+			June: 263.08, 
+			July: 294.48, 
+			Aug: 257.37 
 		}
 	}
 }); 
@@ -18165,10 +19395,11 @@ WeatherOutlook.insert({
 			January: 121.8633497143, 
 			February: 71.2, 
 			March: 136.5014483333, 
-			April: 84.7519541667, 
-			May: 120.9435797222, 
-			June: 220.2065361111, 
-			July: 314.5389680556 
+			April: 77.25, 
+			May: 113.19, 
+			June: 255.4, 
+			July: 317.43, 
+			Aug: 281.22 
 		}
 	}
 }); 
@@ -18182,10 +19413,11 @@ WeatherOutlook.insert({
 			January: 127.1734035294, 
 			February: 74.51, 
 			March: 116.8360310107, 
-			April: 85.8987711657, 
-			May: 130.5524600896, 
-			June: 241.3365571718, 
-			July: 273.5308900654 
+			April: 78.93, 
+			May: 125.37, 
+			June: 258.7, 
+			July: 327.87, 
+			Aug: 335.49 
 		}
 	}
 }); 
@@ -18199,10 +19431,11 @@ WeatherOutlook.insert({
 			January: 115.4467234921, 
 			February: 64.59, 
 			March: 109.1178724074, 
-			April: 79.4186408333, 
-			May: 115.7606591049, 
-			June: 242.0444344753, 
-			July: 405.8599715741 
+			April: 70.99, 
+			May: 106.82, 
+			June: 286.03, 
+			July: 298.47, 
+			Aug: 259.59 
 		}
 	}
 }); 
@@ -18216,10 +19449,11 @@ WeatherOutlook.insert({
 			January: 131.5912270857, 
 			February: 74.76, 
 			March: 141.7955018333, 
-			April: 86.7969198889, 
-			May: 117.0791400556, 
-			June: 207.6697878889, 
-			July: 244.5188131667 
+			April: 86.59, 
+			May: 116.01, 
+			June: 246.79, 
+			July: 333.07, 
+			Aug: 280.17 
 		}
 	}
 }); 
@@ -18233,10 +19467,11 @@ WeatherOutlook.insert({
 			January: 149.1783307619, 
 			February: 76.81, 
 			March: 126.7348614506, 
-			April: 94.7815556481, 
-			May: 134.9422251235, 
-			June: 211.2136769753, 
-			July: 310.7271101852 
+			April: 86.99, 
+			May: 115.08, 
+			June: 282.06, 
+			July: 294.56, 
+			Aug: 252.14 
 		}
 	}
 }); 
@@ -18250,10 +19485,11 @@ WeatherOutlook.insert({
 			January: 103.3811166286, 
 			February: 76.82, 
 			March: 116.2077365556, 
-			April: 81.3154720556, 
-			May: 172.4996009444, 
-			June: 269.8358552778, 
-			July: 272.7983237222 
+			April: 87.94, 
+			May: 154.19, 
+			June: 239.79, 
+			July: 316.13, 
+			Aug: 266.23 
 		}
 	}
 }); 
@@ -18267,10 +19503,11 @@ WeatherOutlook.insert({
 			January: 114.5737119524, 
 			February: 68.64, 
 			March: 138.4838868981, 
-			April: 81.9383958796, 
-			May: 118.6050384259, 
-			June: 225.5931263889, 
-			July: 250.6680612037 
+			April: 77.23, 
+			May: 112.25, 
+			June: 255.01, 
+			July: 359.82, 
+			Aug: 288.27 
 		}
 	}
 }); 
@@ -18284,10 +19521,11 @@ WeatherOutlook.insert({
 			January: 114.6872374286, 
 			February: 84.5, 
 			March: 109.6219941667, 
-			April: 72.9093505556, 
-			May: 150.5444262963, 
-			June: 246.4263562037, 
-			July: 331.6477648148 
+			April: 81.48, 
+			May: 137.58, 
+			June: 216.06, 
+			July: 316.08, 
+			Aug: 232.59 
 		}
 	}
 }); 
@@ -18301,10 +19539,11 @@ WeatherOutlook.insert({
 			January: 109.8640732381, 
 			February: 64.45, 
 			March: 138.1243591204, 
-			April: 75.7352674074, 
-			May: 110.4844576852, 
-			June: 216.318360463, 
-			July: 395.893432963 
+			April: 62.96, 
+			May: 97.51, 
+			June: 279.38, 
+			July: 282.54, 
+			Aug: 226.68 
 		}
 	}
 }); 
@@ -18318,10 +19557,11 @@ WeatherOutlook.insert({
 			January: 155.2508410522, 
 			February: 148.29, 
 			March: 211.8828727631, 
-			April: 179.2174336819, 
-			May: 252.7553561138, 
-			June: 293.1498816026, 
-			July: 252.9302894761 
+			April: 165.92, 
+			May: 249.69, 
+			June: 315.74, 
+			July: 273.76, 
+			Aug: 237.92 
 		}
 	}
 }); 
@@ -18335,10 +19575,11 @@ WeatherOutlook.insert({
 			January: 156.1415749405, 
 			February: 170.62, 
 			March: 257.9194418981, 
-			April: 207.3988235185, 
-			May: 299.1021425579, 
-			June: 388.3438774537, 
-			July: 218.593794829 
+			April: 161.32, 
+			May: 266.91, 
+			June: 394.61, 
+			July: 311.06, 
+			Aug: 256.61 
 		}
 	}
 }); 
@@ -18352,10 +19593,11 @@ WeatherOutlook.insert({
 			January: 137.2918245714, 
 			February: 139.45, 
 			March: 202.0511145833, 
-			April: 173.9261075694, 
-			May: 240.31824625, 
-			June: 278.1558152778, 
-			July: 186.3685446905 
+			April: 148, 
+			May: 262.74, 
+			June: 302.89, 
+			July: 224.24, 
+			Aug: 208.4 
 		}
 	}
 }); 
@@ -18369,10 +19611,11 @@ WeatherOutlook.insert({
 			January: 168.1303052857, 
 			February: 151.54, 
 			March: 222.1600547569, 
-			April: 186.080913125, 
-			May: 261.4430936111, 
-			June: 294.4172985069, 
-			July: 247.3634130556 
+			April: 177.89, 
+			May: 255.53, 
+			June: 310.45, 
+			July: 285.13, 
+			Aug: 268.96 
 		}
 	}
 }); 
@@ -18386,10 +19629,11 @@ WeatherOutlook.insert({
 			January: 191.3891786032, 
 			February: 175.54, 
 			March: 241.6751580401, 
-			April: 205.7571355556, 
-			May: 269.9074173765, 
-			June: 315.7008232407, 
-			July: 242.6089297901 
+			April: 191.03, 
+			May: 251.82, 
+			June: 329.03, 
+			July: 266.29, 
+			Aug: 260.62 
 		}
 	}
 }); 
@@ -18403,10 +19647,11 @@ WeatherOutlook.insert({
 			January: 161.1317328095, 
 			February: 167.56, 
 			March: 250.8580067361, 
-			April: 202.0319493981, 
-			May: 287.9560312731, 
-			June: 357.6382950694, 
-			July: 218.1678732176 
+			April: 135.61, 
+			May: 267.51, 
+			June: 380.37, 
+			July: 318.02, 
+			Aug: 237.12 
 		}
 	}
 }); 
@@ -18420,10 +19665,11 @@ WeatherOutlook.insert({
 			January: 155.2208092671, 
 			February: 148.3, 
 			March: 223.0752216184, 
-			April: 184.2896382971, 
-			May: 273.6132883092, 
-			June: 303.6511826087, 
-			July: 223.8863000483 
+			April: 144.77, 
+			May: 237.76, 
+			June: 334.62, 
+			July: 283.82, 
+			Aug: 245.4 
 		}
 	}
 }); 
@@ -18437,10 +19683,11 @@ WeatherOutlook.insert({
 			January: 138.0694121429, 
 			February: 125.45, 
 			March: 187.3111968056, 
-			April: 160.2878536574, 
-			May: 236.8192675, 
-			June: 239.1012233333, 
-			July: 198.8655026852 
+			April: 172.38, 
+			May: 265.78, 
+			June: 262.42, 
+			July: 233.93, 
+			Aug: 222.14 
 		}
 	}
 }); 
@@ -18454,10 +19701,11 @@ WeatherOutlook.insert({
 			January: 159.8489236071, 
 			February: 141.93, 
 			March: 185.1067392361, 
-			April: 164.3078864236, 
-			May: 220.9104539583, 
-			June: 241.9297802778, 
-			July: 227.2023338889 
+			April: 182.52, 
+			May: 224.45, 
+			June: 265.08, 
+			July: 262.73, 
+			Aug: 231.03 
 		}
 	}
 }); 
@@ -18471,10 +19719,11 @@ WeatherOutlook.insert({
 			January: 149.1047571429, 
 			February: 161.38, 
 			March: 231.4849795833, 
-			April: 202.5346177431, 
-			May: 289.7037520833, 
-			June: 350.4725598958, 
-			July: 211.0101575744 
+			April: 155.39, 
+			May: 276.4, 
+			June: 371.99, 
+			July: 267.46, 
+			Aug: 251.78 
 		}
 	}
 }); 
@@ -18488,10 +19737,11 @@ WeatherOutlook.insert({
 			January: 157.9908917143, 
 			February: 140, 
 			March: 200.6583387269, 
-			April: 178.8763947917, 
-			May: 250.8625963889, 
-			June: 288.0906769213, 
-			July: 214.9084441144 
+			April: 195.32, 
+			May: 217.65, 
+			June: 309.47, 
+			July: 303.89, 
+			Aug: 269.7 
 		}
 	}
 }); 
@@ -18505,10 +19755,11 @@ WeatherOutlook.insert({
 			January: 155.4404202381, 
 			February: 139.29, 
 			March: 182.3654011111, 
-			April: 157.7318667593, 
-			May: 217.1180153241, 
-			June: 254.8127196065, 
-			July: 313.0294283333 
+			April: 190.2, 
+			May: 209.11, 
+			June: 286.58, 
+			July: 304.22, 
+			Aug: 209.44 
 		}
 	}
 }); 
@@ -18522,10 +19773,11 @@ WeatherOutlook.insert({
 			January: 151.8232825714, 
 			February: 137.12, 
 			March: 201.8680276111, 
-			April: 168.0206140556, 
-			May: 250.6659421667, 
-			June: 253.3816230833, 
-			July: 242.9126565556 
+			April: 169.4, 
+			May: 213.48, 
+			June: 286.83, 
+			July: 277.62, 
+			Aug: 233.29 
 		}
 	}
 }); 
@@ -18539,10 +19791,11 @@ WeatherOutlook.insert({
 			January: 132.9536682857, 
 			February: 141.08, 
 			March: 195.1969738272, 
-			April: 167.9664501543, 
-			May: 226.1096876235, 
-			June: 267.3899721605, 
-			July: 216.8786734109 
+			April: 171.86, 
+			May: 295.83, 
+			June: 287.53, 
+			July: 240.91, 
+			Aug: 258.59 
 		}
 	}
 }); 
@@ -18556,10 +19809,11 @@ WeatherOutlook.insert({
 			January: 145.397628881, 
 			February: 131.71, 
 			March: 169.7126760648, 
-			April: 151.5223749769, 
-			May: 207.0187215741, 
-			June: 224.7262373611, 
-			July: 300.6227178472 
+			April: 174.98, 
+			May: 196.23, 
+			June: 247.31, 
+			July: 237.57, 
+			Aug: 204.44 
 		}
 	}
 }); 
@@ -18573,10 +19827,11 @@ WeatherOutlook.insert({
 			January: 133.9309451429, 
 			February: 143.64, 
 			March: 208.1293755556, 
-			April: 187.4728246528, 
-			May: 244.4845577083, 
-			June: 305.3408018056, 
-			July: 254.1233504167 
+			April: 144.38, 
+			May: 298.66, 
+			June: 339.84, 
+			July: 271.57, 
+			Aug: 239.77 
 		}
 	}
 }); 
@@ -18590,10 +19845,11 @@ WeatherOutlook.insert({
 			January: 128.4890817143, 
 			February: 123.53, 
 			March: 180.4273504293, 
-			April: 160.2890433333, 
-			May: 229.7663056818, 
-			June: 251.4113428788, 
-			July: 211.1051737121 
+			April: 146.16, 
+			May: 277.34, 
+			June: 273.34, 
+			July: 233.8, 
+			Aug: 217.2 
 		}
 	}
 }); 
@@ -18607,10 +19863,11 @@ WeatherOutlook.insert({
 			January: 175.124084119, 
 			February: 153.38, 
 			March: 217.6430079398, 
-			April: 188.5931657407, 
-			May: 255.250746412, 
-			June: 282.2438059259, 
-			July: 256.5432713459 
+			April: 174.96, 
+			May: 236.09, 
+			June: 307.09, 
+			July: 272.15, 
+			Aug: 248.56 
 		}
 	}
 }); 
@@ -18624,10 +19881,11 @@ WeatherOutlook.insert({
 			January: 142.0334026667, 
 			February: 124.75, 
 			March: 167.4054396667, 
-			April: 135.1000961852, 
-			May: 201.2725989259, 
-			June: 235.2791871852, 
-			July: 470.9788873148 
+			April: 179.73, 
+			May: 247.52, 
+			June: 256.76, 
+			July: 244.09, 
+			Aug: 205.66 
 		}
 	}
 }); 
@@ -18641,10 +19899,11 @@ WeatherOutlook.insert({
 			January: 450.2263542807, 
 			February: 259.42, 
 			March: 309.2965195799, 
-			April: 156.7195906452, 
-			May: 175.3434728782, 
-			June: 242.7751234211, 
-			July: 206.9992952047 
+			April: 156.57, 
+			May: 162.02, 
+			June: 225.23, 
+			July: 362.5, 
+			Aug: 225.65 
 		}
 	}
 }); 
@@ -18658,10 +19917,11 @@ WeatherOutlook.insert({
 			January: 351.2021454286, 
 			February: 205.88, 
 			March: 239.8232990655, 
-			April: 156.2618042778, 
-			May: 166.0705998075, 
-			June: 202.9384500536, 
-			July: 226.4525942361 
+			April: 158.52, 
+			May: 167.29, 
+			June: 203.17, 
+			July: 363.96, 
+			Aug: 201.51 
 		}
 	}
 }); 
@@ -18675,10 +19935,11 @@ WeatherOutlook.insert({
 			January: 353.5354651429, 
 			February: 212.45, 
 			March: 227.6958266667, 
-			April: 141.3706602778, 
-			May: 152.3249436111, 
-			June: 193.7413222222, 
-			July: 253.1421122222 
+			April: 142.87, 
+			May: 144.57, 
+			June: 186.24, 
+			July: 283.82, 
+			Aug: 189.55 
 		}
 	}
 }); 
@@ -18692,10 +19953,11 @@ WeatherOutlook.insert({
 			January: 449.5749583333, 
 			February: 251.14, 
 			March: 282.0667739577, 
-			April: 184.347898877, 
-			May: 166.8337740966, 
-			June: 232.8433568175, 
-			July: 189.2561193056 
+			April: 188.05, 
+			May: 161.21, 
+			June: 216.81, 
+			July: 371.94, 
+			Aug: 230.62 
 		}
 	}
 }); 
@@ -18709,10 +19971,11 @@ WeatherOutlook.insert({
 			January: 498.4555963714, 
 			February: 267.14, 
 			March: 297.4034860833, 
-			April: 186.3906265556, 
-			May: 164.4213586944, 
-			June: 224.2491703889, 
-			July: 165.0582376667 
+			April: 189.98, 
+			May: 151.64, 
+			June: 206.02, 
+			July: 358.71, 
+			Aug: 233.9 
 		}
 	}
 }); 
@@ -18726,10 +19989,11 @@ WeatherOutlook.insert({
 			January: 480.7029473929, 
 			February: 266.88, 
 			March: 342.2730596875, 
-			April: 133.8400785069, 
-			May: 187.5487663889, 
-			June: 267.9534098264, 
-			July: 240.3305119792 
+			April: 133.36, 
+			May: 159.15, 
+			June: 253.04, 
+			July: 365.92, 
+			Aug: 226.42 
 		}
 	}
 }); 
@@ -18743,10 +20007,11 @@ WeatherOutlook.insert({
 			January: 448.6401129524, 
 			February: 255.53, 
 			March: 289.4436336111, 
-			April: 157.1336258333, 
-			May: 177.5287948148, 
-			June: 250.0350843519, 
-			July: 226.5936862963 
+			April: 160.61, 
+			May: 151.73, 
+			June: 243.58, 
+			July: 339.73, 
+			Aug: 231.73 
 		}
 	}
 }); 
@@ -18760,10 +20025,11 @@ WeatherOutlook.insert({
 			January: 476.3003317143, 
 			February: 305.18, 
 			March: 359.4033404365, 
-			April: 108.6643813832, 
-			May: 156.2710378583, 
-			June: 231.8451122551, 
-			July: 177.3702429762 
+			April: 101.05, 
+			May: 167.79, 
+			June: 215.62, 
+			July: 347.27, 
+			Aug: 234.4 
 		}
 	}
 }); 
@@ -18777,10 +20043,11 @@ WeatherOutlook.insert({
 			January: 438.1680657143, 
 			February: 262.35, 
 			March: 277.3199915317, 
-			April: 179.0842864233, 
-			May: 189.7223566984, 
-			June: 246.987668746, 
-			July: 221.9761677778 
+			April: 163.59, 
+			May: 165.04, 
+			June: 236.65, 
+			July: 338.05, 
+			Aug: 198.55 
 		}
 	}
 }); 
@@ -18794,10 +20061,11 @@ WeatherOutlook.insert({
 			January: 462.0273311429, 
 			February: 262.5, 
 			March: 331.0007528086, 
-			April: 160.1615148148, 
-			May: 193.2682887654, 
-			June: 282.284748858, 
-			July: 246.1649110494 
+			April: 157.31, 
+			May: 151.73, 
+			June: 266.37, 
+			July: 371.56, 
+			Aug: 224.76 
 		}
 	}
 }); 
@@ -18811,10 +20079,11 @@ WeatherOutlook.insert({
 			January: 352.9741025714, 
 			February: 212.7, 
 			March: 232.8779988889, 
-			April: 154.0843674074, 
-			May: 157.610722963, 
-			June: 196.2662268519, 
-			July: 226.2138935185 
+			April: 157.71, 
+			May: 171.24, 
+			June: 195.8, 
+			July: 342.7, 
+			Aug: 211.48 
 		}
 	}
 }); 
@@ -18828,10 +20097,11 @@ WeatherOutlook.insert({
 			January: 453.8759375238, 
 			February: 268.18, 
 			March: 306.0257698148, 
-			April: 173.6146518056, 
-			May: 189.2522373148, 
-			June: 253.4413419907, 
-			July: 193.3636581481 
+			April: 175.77, 
+			May: 176.51, 
+			June: 237.47, 
+			July: 400.21, 
+			Aug: 192.83 
 		}
 	}
 }); 
@@ -18845,10 +20115,11 @@ WeatherOutlook.insert({
 			January: 455.4532462857, 
 			February: 259.26, 
 			March: 302.5143327778, 
-			April: 136.5848139583, 
-			May: 175.3278552083, 
-			June: 249.3374317361, 
-			July: 244.0002370139 
+			April: 139.47, 
+			May: 169.29, 
+			June: 234.94, 
+			July: 325.75, 
+			Aug: 220.98 
 		}
 	}
 }); 
@@ -18862,10 +20133,11 @@ WeatherOutlook.insert({
 			January: 471.4636714857, 
 			February: 266.03, 
 			March: 316.7707478056, 
-			April: 164.63019375, 
-			May: 178.8937874722, 
-			June: 249.4678521667, 
-			July: 185.9505630278 
+			April: 164.15, 
+			May: 158.98, 
+			June: 229.27, 
+			July: 366.56, 
+			Aug: 217.12 
 		}
 	}
 }); 
@@ -18879,10 +20151,11 @@ WeatherOutlook.insert({
 			January: 466.7200559048, 
 			February: 290.69, 
 			March: 334.6708783796, 
-			April: 123.7077381944, 
-			May: 158.3559216204, 
-			June: 239.1373233333, 
-			July: 157.0991764352 
+			April: 124.22, 
+			May: 156.42, 
+			June: 224.19, 
+			July: 324.79, 
+			Aug: 226.98 
 		}
 	}
 }); 
@@ -18896,10 +20169,11 @@ WeatherOutlook.insert({
 			January: 478.0695833143, 
 			February: 278.87, 
 			March: 372.6834159444, 
-			April: 114.1106912222, 
-			May: 170.1104411111, 
-			June: 238.1819331667, 
-			July: 203.3250234444 
+			April: 106.49, 
+			May: 168.45, 
+			June: 216.63, 
+			July: 360.89, 
+			Aug: 238.67 
 		}
 	}
 }); 
@@ -18913,10 +20187,11 @@ WeatherOutlook.insert({
 			January: 386.7841074286, 
 			February: 222.11, 
 			March: 256.6780130556, 
-			April: 162.5252579167, 
-			May: 162.3432219444, 
-			June: 202.6925415278, 
-			July: 236.4735686111 
+			April: 164.08, 
+			May: 154.07, 
+			June: 195.12, 
+			July: 344.81, 
+			Aug: 213.97 
 		}
 	}
 }); 
@@ -18930,10 +20205,11 @@ WeatherOutlook.insert({
 			January: 366.8077989286, 
 			February: 212.76, 
 			March: 262.957128125, 
-			April: 196.0707150694, 
-			May: 176.1002838889, 
-			June: 229.4277190972, 
-			July: 209.16139125 
+			April: 196.46, 
+			May: 174.64, 
+			June: 224.26, 
+			July: 400.87, 
+			Aug: 223.42 
 		}
 	}
 }); 
@@ -18947,10 +20223,11 @@ WeatherOutlook.insert({
 			January: 415.0306016429, 
 			February: 230.38, 
 			March: 265.6453015278, 
-			April: 175.034258002, 
-			May: 158.530217371, 
-			June: 206.9123580357, 
-			July: 200.5246867361 
+			April: 178.52, 
+			May: 165.33, 
+			June: 200.78, 
+			July: 358.85, 
+			Aug: 233.48 
 		}
 	}
 }); 
@@ -18964,10 +20241,11 @@ WeatherOutlook.insert({
 			January: 472.3322492857, 
 			February: 264.86, 
 			March: 345.5894304167, 
-			April: 133.2068917593, 
-			May: 174.7393129167, 
-			June: 240.7350561574, 
-			July: 205.9729522685 
+			April: 129.26, 
+			May: 177.62, 
+			June: 220.25, 
+			July: 352.15, 
+			Aug: 218.9 
 		}
 	}
 }); 
@@ -18981,10 +20259,11 @@ WeatherOutlook.insert({
 			January: 453.2022196, 
 			February: 264.05, 
 			March: 322.2194702222, 
-			April: 169.9162693333, 
-			May: 196.9607426111, 
-			June: 274.4083978611, 
-			July: 230.5266719444 
+			April: 163.41, 
+			May: 159.91, 
+			June: 252.49, 
+			July: 390.22, 
+			Aug: 243.69 
 		}
 	}
 }); 
@@ -18998,10 +20277,11 @@ WeatherOutlook.insert({
 			January: 370.2749387619, 
 			February: 214.42, 
 			March: 255.1934630556, 
-			April: 176.9621952778, 
-			May: 170.4475026852, 
-			June: 222.2315817593, 
-			July: 213.6907491667 
+			April: 176.72, 
+			May: 160.9, 
+			June: 215.9, 
+			July: 374.03, 
+			Aug: 223 
 		}
 	}
 }); 
@@ -19015,10 +20295,11 @@ WeatherOutlook.insert({
 			January: 41.4743789631, 
 			February: 22.47, 
 			March: 39.6566062082, 
-			April: 50.1863531123, 
-			May: 220.1806153181, 
-			June: 210.2438913053, 
-			July: 278.5314947048 
+			April: 50.27, 
+			May: 210.71, 
+			June: 197.62, 
+			July: 386.45, 
+			Aug: 428.06 
 		}
 	}
 }); 
@@ -19032,10 +20313,11 @@ WeatherOutlook.insert({
 			January: 19.3199774286, 
 			February: 4.45, 
 			March: 15.4973725926, 
-			April: 31.1720481481, 
-			May: 212.4706966667, 
-			June: 225.7228997222, 
-			July: 289.7479391667 
+			April: 36.45, 
+			May: 184.39, 
+			June: 213.67, 
+			July: 355.9, 
+			Aug: 480.81 
 		}
 	}
 }); 
@@ -19049,10 +20331,11 @@ WeatherOutlook.insert({
 			January: 73.7737557857, 
 			February: 44.9, 
 			March: 63.1265827083, 
-			April: 69.0664434028, 
-			May: 245.5268175694, 
-			June: 186.5493521875, 
-			July: 287.2333632986 
+			April: 56.48, 
+			May: 218.38, 
+			June: 179.09, 
+			July: 426.92, 
+			Aug: 396.48 
 		}
 	}
 }); 
@@ -19066,10 +20349,11 @@ WeatherOutlook.insert({
 			January: 25.6624728163, 
 			February: 8.48, 
 			March: 19.6580753175, 
-			April: 25.6074586111, 
-			May: 184.6162275397, 
-			June: 215.9815346429, 
-			July: 310.7913216667 
+			April: 40.34, 
+			May: 200.1, 
+			June: 199.06, 
+			July: 362.76, 
+			Aug: 406.76 
 		}
 	}
 }); 
@@ -19083,10 +20367,11 @@ WeatherOutlook.insert({
 			January: 21.9424028571, 
 			February: 6.15, 
 			March: 17.3659216667, 
-			April: 31.4954524306, 
-			May: 201.0367578472, 
-			June: 236.0304545139, 
-			July: 395.3779054167 
+			April: 60.42, 
+			May: 212.29, 
+			June: 221.27, 
+			July: 428.95, 
+			Aug: 471.31 
 		}
 	}
 }); 
@@ -19100,10 +20385,11 @@ WeatherOutlook.insert({
 			January: 44.9429104656, 
 			February: 26.83, 
 			March: 55.0266336111, 
-			April: 74.389797037, 
-			May: 229.2227861626, 
-			June: 168.7559839815, 
-			July: 185.09307607 
+			April: 48.14, 
+			May: 210.69, 
+			June: 158.22, 
+			July: 352.91, 
+			Aug: 429.52 
 		}
 	}
 }); 
@@ -19117,10 +20403,11 @@ WeatherOutlook.insert({
 			January: 14.7073085238, 
 			February: 1.65, 
 			March: 17.9769806481, 
-			April: 44.6992881481, 
-			May: 249.129999213, 
-			June: 245.926339537, 
-			July: 145.8113209259 
+			April: 65.5, 
+			May: 230.38, 
+			June: 236.11, 
+			July: 421.19, 
+			Aug: 522.37 
 		}
 	}
 }); 
@@ -19134,10 +20421,11 @@ WeatherOutlook.insert({
 			January: 74.90802725, 
 			February: 49.4, 
 			March: 68.9358877083, 
-			April: 75.2124179861, 
-			May: 248.4501607292, 
-			June: 196.955066875, 
-			July: 325.6697721528 
+			April: 61.47, 
+			May: 198.09, 
+			June: 180.47, 
+			July: 373.96, 
+			Aug: 350.89 
 		}
 	}
 }); 
@@ -19151,10 +20439,11 @@ WeatherOutlook.insert({
 			January: 33.6041746286, 
 			February: 14.81, 
 			March: 25.2811573333, 
-			April: 34.0351094444, 
-			May: 198.1470852778, 
-			June: 225.7386291111, 
-			July: 371.5326276476 
+			April: 60.32, 
+			May: 189.46, 
+			June: 205.15, 
+			July: 402.11, 
+			Aug: 389.15 
 		}
 	}
 }); 
@@ -19168,10 +20457,11 @@ WeatherOutlook.insert({
 			January: 36.2922272381, 
 			February: 18.91, 
 			March: 33.3451697222, 
-			April: 47.3565706481, 
-			May: 201.9820659259, 
-			June: 202.5879463889, 
-			July: 286.7472005556 
+			April: 63.35, 
+			May: 196.36, 
+			June: 186.27, 
+			July: 372.94, 
+			Aug: 418.55 
 		}
 	}
 }); 
@@ -19185,10 +20475,11 @@ WeatherOutlook.insert({
 			January: 66.2261002236, 
 			February: 42.47, 
 			March: 62.4292395169, 
-			April: 66.0941239976, 
-			May: 211.8255236353, 
-			June: 236.4701483575, 
-			July: 370.6437031401 
+			April: 55.61, 
+			May: 194.91, 
+			June: 221.06, 
+			July: 395.14, 
+			Aug: 395.27 
 		}
 	}
 }); 
@@ -19202,10 +20493,11 @@ WeatherOutlook.insert({
 			January: 16.9472756327, 
 			February: 2.83, 
 			March: 14.6792054365, 
-			April: 31.6353012302, 
-			May: 239.0371297222, 
-			June: 234.1760668254, 
-			July: 263.2842068254 
+			April: 58.36, 
+			May: 210.08, 
+			June: 219.87, 
+			July: 425.02, 
+			Aug: 506.89 
 		}
 	}
 }); 
@@ -19219,10 +20511,11 @@ WeatherOutlook.insert({
 			January: 20.6148848571, 
 			February: 5.56, 
 			March: 17.7580788889, 
-			April: 26.8027364815, 
-			May: 195.8289540741, 
-			June: 217.9836075926, 
-			July: 341.5409624074 
+			April: 43.25, 
+			May: 203.86, 
+			June: 199.66, 
+			July: 382.81, 
+			Aug: 413.44 
 		}
 	}
 }); 
@@ -19236,10 +20529,11 @@ WeatherOutlook.insert({
 			January: 57.9899737714, 
 			February: 34.74, 
 			March: 47.9473315, 
-			April: 56.6896800556, 
-			May: 221.0972262778, 
-			June: 206.2912640556, 
-			July: 327.3096103889 
+			April: 49.93, 
+			May: 214.68, 
+			June: 195.3, 
+			July: 367.88, 
+			Aug: 398.57 
 		}
 	}
 }); 
@@ -19253,10 +20547,11 @@ WeatherOutlook.insert({
 			January: 18.0430132381, 
 			February: 4.7, 
 			March: 13.9255585185, 
-			April: 37.7241721296, 
-			May: 224.9271251852, 
-			June: 244.0237261111, 
-			July: 311.6609232407 
+			April: 39.67, 
+			May: 202.1, 
+			June: 228.04, 
+			July: 397.01, 
+			Aug: 488.5 
 		}
 	}
 }); 
@@ -19270,10 +20565,11 @@ WeatherOutlook.insert({
 			January: 35.1431212381, 
 			February: 18.7, 
 			March: 34.1576877778, 
-			April: 39.8934688889, 
-			May: 214.503145, 
-			June: 198.0263775, 
-			July: 289.2681497222 
+			April: 59.11, 
+			May: 195.94, 
+			June: 181.53, 
+			July: 414.06, 
+			Aug: 422.09 
 		}
 	}
 }); 
@@ -19287,10 +20583,11 @@ WeatherOutlook.insert({
 			January: 29.1323042143, 
 			February: 12.35, 
 			March: 30.2978182639, 
-			April: 47.5627878472, 
-			May: 226.1279819444, 
-			June: 214.4476882639, 
-			July: 209.4903300694 
+			April: 46.35, 
+			May: 220.7, 
+			June: 195.83, 
+			July: 406.33, 
+			Aug: 465.74 
 		}
 	}
 }); 
@@ -19304,10 +20601,29 @@ WeatherOutlook.insert({
 			January: 20.6329042143, 
 			February: 7.73, 
 			March: 22.7457379167, 
-			April: 26.041098125, 
-			May: 236.268646875, 
-			June: 203.0950611806, 
-			July: 229.1022537976 
+			April: 39.27, 
+			May: 218.59, 
+			June: 186.6, 
+			July: 389.09, 
+			Aug: 433.94 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "Nueva Ecija", 
+	municipality: "Muñoz City", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 72.6, 
+			May: 231.15, 
+			June: 191.44, 
+			July: 433.86, 
+			Aug: 539.4 
 		}
 	}
 }); 
@@ -19321,10 +20637,11 @@ WeatherOutlook.insert({
 			January: 12.0606078571, 
 			February: 2.01, 
 			March: 13.8566683333, 
-			April: 38.5248026389, 
-			May: 245.3810327778, 
-			June: 250.5981127778, 
-			July: 236.8758073611 
+			April: 74.15, 
+			May: 186.54, 
+			June: 242.17, 
+			July: 407.18, 
+			Aug: 434.52 
 		}
 	}
 }); 
@@ -19338,10 +20655,11 @@ WeatherOutlook.insert({
 			January: 47.1851234286, 
 			February: 25.29, 
 			March: 38.7073013889, 
-			April: 47.8928987222, 
-			May: 203.0262522778, 
-			June: 209.8075782778, 
-			July: 313.4811065 
+			April: 44.3, 
+			May: 231.89, 
+			June: 191.18, 
+			July: 364.69, 
+			Aug: 413.46 
 		}
 	}
 }); 
@@ -19355,10 +20673,11 @@ WeatherOutlook.insert({
 			January: 61.0151364615, 
 			February: 35.97, 
 			March: 56.0595117308, 
-			April: 59.6634022863, 
-			May: 227.8740414957, 
-			June: 188.7393147222, 
-			July: 205.6124598718 
+			April: 34.47, 
+			May: 226.13, 
+			June: 171.07, 
+			July: 364.75, 
+			Aug: 396.91 
 		}
 	}
 }); 
@@ -19372,10 +20691,29 @@ WeatherOutlook.insert({
 			January: 35.2908518095, 
 			February: 16.03, 
 			March: 27.3619135185, 
-			April: 30.2692471296, 
-			May: 186.6056841667, 
-			June: 231.0576942593, 
-			July: 345.4174065741 
+			April: 70.73, 
+			May: 181.45, 
+			June: 210.43, 
+			July: 399.76, 
+			Aug: 465.39 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "Nueva Ecija", 
+	municipality: "Peñaranda", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 42.41, 
+			May: 222.04, 
+			June: 213.8, 
+			July: 384.34, 
+			Aug: 417.6 
 		}
 	}
 }); 
@@ -19389,10 +20727,11 @@ WeatherOutlook.insert({
 			January: 17.8260453333, 
 			February: 4.98, 
 			March: 15.9069886111, 
-			April: 31.5115461111, 
-			May: 230.1294446296, 
-			June: 227.4816323148, 
-			July: 344.3586121296 
+			April: 66.62, 
+			May: 207.39, 
+			June: 210.22, 
+			July: 328.98, 
+			Aug: 460.84 
 		}
 	}
 }); 
@@ -19406,10 +20745,11 @@ WeatherOutlook.insert({
 			January: 49.3237704, 
 			February: 29.15, 
 			March: 45.0403285556, 
-			April: 50.9107325, 
-			May: 216.8633260556, 
-			June: 193.5966642222, 
-			July: 229.3508723333 
+			April: 41.29, 
+			May: 234.9, 
+			June: 174.81, 
+			July: 370.19, 
+			Aug: 362.3 
 		}
 	}
 }); 
@@ -19423,10 +20763,11 @@ WeatherOutlook.insert({
 			January: 19.3262252381, 
 			February: 6.49, 
 			March: 17.2307980093, 
-			April: 31.9204745833, 
-			May: 205.4097438889, 
-			June: 237.0783806481, 
-			July: 343.3225734722 
+			April: 52.77, 
+			May: 209.35, 
+			June: 216.89, 
+			July: 404.57, 
+			Aug: 444.3 
 		}
 	}
 }); 
@@ -19440,10 +20781,11 @@ WeatherOutlook.insert({
 			January: 26.3379891429, 
 			February: 9.98, 
 			March: 18.5159175, 
-			April: 31.8047969444, 
-			May: 194.2706205556, 
-			June: 220.4229033333, 
-			July: 380.3155763889 
+			April: 45.37, 
+			May: 184.09, 
+			June: 194.21, 
+			July: 403.5, 
+			Aug: 398.06 
 		}
 	}
 }); 
@@ -19457,10 +20799,11 @@ WeatherOutlook.insert({
 			January: 36.8190746122, 
 			February: 19.66, 
 			March: 37.6360853571, 
-			April: 41.6712311111, 
-			May: 222.5041637698, 
-			June: 200.3805242857, 
-			July: 210.4389020238 
+			April: 37.19, 
+			May: 195.75, 
+			June: 185.55, 
+			July: 384.52, 
+			Aug: 396.96 
 		}
 	}
 }); 
@@ -19474,10 +20817,11 @@ WeatherOutlook.insert({
 			January: 23.9032262857, 
 			February: 7.02, 
 			March: 19.2783455556, 
-			April: 26.7341804167, 
-			May: 188.5563427778, 
-			June: 210.9338154167, 
-			July: 346.1450608333 
+			April: 42.68, 
+			May: 161.67, 
+			June: 194.43, 
+			July: 427.14, 
+			Aug: 423.64 
 		}
 	}
 }); 
@@ -19491,10 +20835,11 @@ WeatherOutlook.insert({
 			January: 27.8698918286, 
 			February: 9.8, 
 			March: 22.3969844444, 
-			April: 21.9801573333, 
-			May: 177.4901672222, 
-			June: 225.6226556111, 
-			July: 342.317929 
+			April: 41.5, 
+			May: 204.24, 
+			June: 210.66, 
+			July: 385.55, 
+			Aug: 419.73 
 		}
 	}
 }); 
@@ -19508,10 +20853,11 @@ WeatherOutlook.insert({
 			January: 20.3000468571, 
 			February: 7.06, 
 			March: 20.8727331944, 
-			April: 31.5031915278, 
-			May: 222.0820856944, 
-			June: 207.4064144444, 
-			July: 284.3042041627 
+			April: 57.02, 
+			May: 233.88, 
+			June: 188.52, 
+			July: 392.71, 
+			Aug: 482.42 
 		}
 	}
 }); 
@@ -19525,44 +20871,11 @@ WeatherOutlook.insert({
 			January: 24.7124058095, 
 			February: 10.65, 
 			March: 24.5862052778, 
-			April: 31.9509155556, 
-			May: 219.7953281481, 
-			June: 206.9647164815, 
-			July: 286.1895583333 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region III: Central Luzon", 
-	province: "Nueva Ecija", 
-	municipality: "Talugtug", 
-	data: {
-		month: {
-			January: 17.8823197857, 
-			February: 3.21, 
-			March: 17.4981323611, 
-			April: 32.077246875, 
-			May: 246.9427488889, 
-			June: 229.7277383333, 
-			July: 193.3034215972 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region III: Central Luzon", 
-	province: "Nueva Ecija", 
-	municipality: "Zaragoza", 
-	data: {
-		month: {
-			January: 17.9519352857, 
-			February: 4.84, 
-			March: 15.7795972222, 
-			April: 31.1900901389, 
-			May: 219.2055026389, 
-			June: 239.18202125, 
-			July: 326.5669983333 
+			April: 48.44, 
+			May: 221.74, 
+			June: 189.8, 
+			July: 376.95, 
+			Aug: 482.32 
 		}
 	}
 }); 
@@ -19576,10 +20889,11 @@ WeatherOutlook.insert({
 			January: 54.6105992962, 
 			February: 42.12, 
 			March: 76.0382101716, 
-			April: 102.793971297, 
-			May: 229.5244982741, 
-			June: 154.0204488521, 
-			July: 358.9249147059 
+			April: 103.35, 
+			May: 201.51, 
+			June: 139.93, 
+			July: 292.29, 
+			Aug: 342.1 
 		}
 	}
 }); 
@@ -19593,10 +20907,11 @@ WeatherOutlook.insert({
 			January: 83.7308881524, 
 			February: 62.17, 
 			March: 94.1905795741, 
-			April: 93.2102000926, 
-			May: 258.3254850926, 
-			June: 164.2912082593, 
-			July: 165.354110037 
+			April: 96.45, 
+			May: 251.56, 
+			June: 155.41, 
+			July: 311.09, 
+			Aug: 364.95 
 		}
 	}
 }); 
@@ -19610,10 +20925,11 @@ WeatherOutlook.insert({
 			January: 43.655904381, 
 			February: 36.35, 
 			March: 71.6002499537, 
-			April: 118.5099374537, 
-			May: 260.2121536111, 
-			June: 166.7322848148, 
-			July: 368.6470533796 
+			April: 115.32, 
+			May: 240.76, 
+			June: 156.45, 
+			July: 298.89, 
+			Aug: 334.84 
 		}
 	}
 }); 
@@ -19627,10 +20943,11 @@ WeatherOutlook.insert({
 			January: 44.007606619, 
 			February: 34.07, 
 			March: 67.0405793519, 
-			April: 100.2068204861, 
-			May: 213.7514598148, 
-			June: 159.4709444907, 
-			July: 380.2687521528 
+			April: 97.55, 
+			May: 194.54, 
+			June: 150.21, 
+			July: 310.73, 
+			Aug: 381.1 
 		}
 	}
 }); 
@@ -19644,10 +20961,11 @@ WeatherOutlook.insert({
 			January: 46.7806616, 
 			February: 47.59, 
 			March: 77.8067746111, 
-			April: 93.0169723333, 
-			May: 181.7584457778, 
-			June: 148.2795838333, 
-			July: 336.4025768889 
+			April: 108.63, 
+			May: 161.25, 
+			June: 144.64, 
+			July: 234.89, 
+			Aug: 323.39 
 		}
 	}
 }); 
@@ -19661,10 +20979,11 @@ WeatherOutlook.insert({
 			January: 49.6730710794, 
 			February: 30.93, 
 			March: 64.571737284, 
-			April: 103.5502765432, 
-			May: 222.1791334259, 
-			June: 126.6356053704, 
-			July: 423.198692284 
+			April: 102.01, 
+			May: 198.78, 
+			June: 120.95, 
+			July: 275.69, 
+			Aug: 316.43 
 		}
 	}
 }); 
@@ -19678,10 +20997,11 @@ WeatherOutlook.insert({
 			January: 47.0776505714, 
 			February: 27.32, 
 			March: 61.3223817778, 
-			April: 103.3450629444, 
-			May: 228.7553485556, 
-			June: 114.7703330556, 
-			July: 470.2834374444 
+			April: 103.71, 
+			May: 199.68, 
+			June: 97.91, 
+			July: 219.92, 
+			Aug: 295.34 
 		}
 	}
 }); 
@@ -19695,10 +21015,11 @@ WeatherOutlook.insert({
 			January: 57.4883967619, 
 			February: 49.8, 
 			March: 80.7229895988, 
-			April: 88.647816358, 
-			May: 202.8805805247, 
-			June: 144.9563806173, 
-			July: 305.5691765432 
+			April: 100.51, 
+			May: 189.03, 
+			June: 135.94, 
+			July: 275.53, 
+			Aug: 372.87 
 		}
 	}
 }); 
@@ -19712,10 +21033,11 @@ WeatherOutlook.insert({
 			January: 68.4094037524, 
 			February: 51.17, 
 			March: 89.2553337963, 
-			April: 105.9901541667, 
-			May: 223.1298503333, 
-			June: 145.455809, 
-			July: 336.5984543333 
+			April: 99.62, 
+			May: 204.57, 
+			June: 138.89, 
+			July: 329.29, 
+			Aug: 397.45 
 		}
 	}
 }); 
@@ -19729,10 +21051,11 @@ WeatherOutlook.insert({
 			January: 64.0128226234, 
 			February: 46.92, 
 			March: 82.7386169444, 
-			April: 101.5370488636, 
-			May: 230.7473731566, 
-			June: 147.9472606566, 
-			July: 335.7006393434 
+			April: 102.9, 
+			May: 221.6, 
+			June: 143.32, 
+			July: 337.71, 
+			Aug: 371.08 
 		}
 	}
 }); 
@@ -19746,10 +21069,11 @@ WeatherOutlook.insert({
 			January: 70.7895342078, 
 			February: 54.05, 
 			March: 95.1179014899, 
-			April: 111.2604580556, 
-			May: 223.4163929545, 
-			June: 133.4692493687, 
-			July: 436.5015983586 
+			April: 109.25, 
+			May: 207.16, 
+			June: 126.56, 
+			July: 318, 
+			Aug: 375 
 		}
 	}
 }); 
@@ -19763,10 +21087,11 @@ WeatherOutlook.insert({
 			January: 31.0625460179, 
 			February: 28.91, 
 			March: 60.0071434375, 
-			April: 116.6024713368, 
-			May: 262.6638272917, 
-			June: 184.2951061458, 
-			July: 405.6810192882 
+			April: 106.28, 
+			May: 228.94, 
+			June: 159.77, 
+			July: 314.39, 
+			Aug: 347.15 
 		}
 	}
 }); 
@@ -19780,10 +21105,11 @@ WeatherOutlook.insert({
 			January: 59.0960327429, 
 			February: 43.7, 
 			March: 77.6915200556, 
-			April: 104.5107062778, 
-			May: 223.0127090556, 
-			June: 128.3785633889, 
-			July: 428.1247763889 
+			April: 108.16, 
+			May: 197.02, 
+			June: 121.87, 
+			July: 262.62, 
+			Aug: 282.92 
 		}
 	}
 }); 
@@ -19797,10 +21123,11 @@ WeatherOutlook.insert({
 			January: 33.2843509351, 
 			February: 23.64, 
 			March: 54.0052375253, 
-			April: 93.955652399, 
-			May: 224.3979283333, 
-			June: 181.6939507576, 
-			July: 430.5575330808 
+			April: 100.33, 
+			May: 195.65, 
+			June: 168.53, 
+			July: 331.4, 
+			Aug: 456.48 
 		}
 	}
 }); 
@@ -19814,10 +21141,11 @@ WeatherOutlook.insert({
 			January: 48.6691498571, 
 			February: 41.77, 
 			March: 78.80651625, 
-			April: 96.3511791667, 
-			May: 171.7767797222, 
-			June: 158.0032163889, 
-			July: 449.2753758333 
+			April: 104.73, 
+			May: 164.54, 
+			June: 144.43, 
+			July: 260.55, 
+			Aug: 242.63 
 		}
 	}
 }); 
@@ -19831,10 +21159,11 @@ WeatherOutlook.insert({
 			January: 45.5981658571, 
 			February: 41.31, 
 			March: 73.8642159028, 
-			April: 102.9150289583, 
-			May: 215.9219792361, 
-			June: 156.5293168056, 
-			July: 289.1558190972 
+			April: 103.38, 
+			May: 186.23, 
+			June: 148.22, 
+			July: 247.38, 
+			Aug: 289.75 
 		}
 	}
 }); 
@@ -19848,10 +21177,11 @@ WeatherOutlook.insert({
 			January: 52.0328941494, 
 			February: 26.84, 
 			March: 33.3105709899, 
-			April: 56.8591908836, 
-			May: 234.2987561298, 
-			June: 444.0718400412, 
-			July: 349.7651484212 
+			April: 49, 
+			May: 222.74, 
+			June: 421.08, 
+			July: 537.19, 
+			Aug: 621.45 
 		}
 	}
 }); 
@@ -19865,10 +21195,11 @@ WeatherOutlook.insert({
 			January: 44.144461563, 
 			February: 14.97, 
 			March: 27.4878078758, 
-			April: 52.6376533824, 
-			May: 198.2404804085, 
-			June: 346.7440452941, 
-			July: 302.2862722059 
+			April: 51.23, 
+			May: 188.05, 
+			June: 459.07, 
+			July: 431.41, 
+			Aug: 620.25 
 		}
 	}
 }); 
@@ -19882,10 +21213,11 @@ WeatherOutlook.insert({
 			January: 54.6749854524, 
 			February: 32.08, 
 			March: 28.337465463, 
-			April: 48.1641358102, 
-			May: 255.0598876389, 
-			June: 468.3627543981, 
-			July: 163.7770465972 
+			April: 44.27, 
+			May: 244.87, 
+			June: 436.25, 
+			July: 588, 
+			Aug: 615.16 
 		}
 	}
 }); 
@@ -19899,10 +21231,11 @@ WeatherOutlook.insert({
 			January: 16.7629952857, 
 			February: 12.92, 
 			March: 1.0504127778, 
-			April: 16.5677786111, 
-			May: 135.1866327778, 
-			June: 303.4462472222, 
-			July: 300.5622748611 
+			April: 18.58, 
+			May: 139.59, 
+			June: 335.43, 
+			July: 433.85, 
+			Aug: 525.7 
 		}
 	}
 }); 
@@ -19916,10 +21249,11 @@ WeatherOutlook.insert({
 			January: 12.7973974286, 
 			February: 11.01, 
 			March: 0.9359846171, 
-			April: 15.3679888849, 
-			May: 147.3275907381, 
-			June: 305.6292862361, 
-			July: 269.7255136806 
+			April: 15.35, 
+			May: 141.86, 
+			June: 333.86, 
+			July: 452.03, 
+			Aug: 597.14 
 		}
 	}
 }); 
@@ -19933,10 +21267,11 @@ WeatherOutlook.insert({
 			January: 34.8174276429, 
 			February: 30.82, 
 			March: 19.8649891815, 
-			April: 31.761038497, 
-			May: 211.2504283224, 
-			June: 465.1460947014, 
-			July: 207.9547012847 
+			April: 31.29, 
+			May: 204.03, 
+			June: 411.72, 
+			July: 621.35, 
+			Aug: 613.43 
 		}
 	}
 }); 
@@ -19950,10 +21285,11 @@ WeatherOutlook.insert({
 			January: 28.9152130649, 
 			February: 18.4, 
 			March: 20.4904818182, 
-			April: 44.8459697475, 
-			May: 195.0826416667, 
-			June: 402.6066191414, 
-			July: 463.3303138384 
+			April: 44.47, 
+			May: 183.88, 
+			June: 442.66, 
+			July: 493.78, 
+			Aug: 686.11 
 		}
 	}
 }); 
@@ -19967,10 +21303,11 @@ WeatherOutlook.insert({
 			January: 21.3010898346, 
 			February: 9.83, 
 			March: 11.6835693789, 
-			April: 31.4322841838, 
-			May: 184.1091559591, 
-			June: 369.6717635409, 
-			July: 361.2204454616 
+			April: 31.26, 
+			May: 174.2, 
+			June: 355.09, 
+			July: 483.77, 
+			Aug: 627.71 
 		}
 	}
 }); 
@@ -19984,10 +21321,11 @@ WeatherOutlook.insert({
 			January: 36.1285177143, 
 			February: 32.13, 
 			March: 20.891809537, 
-			April: 35.414780787, 
-			May: 243.0128381019, 
-			June: 447.587853287, 
-			July: 176.3021311574 
+			April: 35.3, 
+			May: 234.87, 
+			June: 405.94, 
+			July: 630.05, 
+			Aug: 642.74 
 		}
 	}
 }); 
@@ -20001,10 +21339,11 @@ WeatherOutlook.insert({
 			January: 73.5265912929, 
 			February: 34.23, 
 			March: 49.1546597703, 
-			April: 75.8416236842, 
-			May: 265.2241818519, 
-			June: 486.0156265078, 
-			July: 387.7918935045 
+			April: 72.18, 
+			May: 267.27, 
+			June: 443.5, 
+			July: 541.69, 
+			Aug: 646.78 
 		}
 	}
 }); 
@@ -20018,10 +21357,11 @@ WeatherOutlook.insert({
 			January: 40.5211808571, 
 			February: 30.12, 
 			March: 21.9226619796, 
-			April: 35.3373022772, 
-			May: 231.8357328169, 
-			June: 472.5762323322, 
-			July: 227.8803783135 
+			April: 38.38, 
+			May: 235.67, 
+			June: 450.98, 
+			July: 627.28, 
+			Aug: 620.72 
 		}
 	}
 }); 
@@ -20035,10 +21375,11 @@ WeatherOutlook.insert({
 			January: 45.4869367381, 
 			February: 24.51, 
 			March: 32.4188109722, 
-			April: 63.112298669, 
-			May: 233.7777594213, 
-			June: 449.2204773958, 
-			July: 467.6903065794 
+			April: 64.86, 
+			May: 235.14, 
+			June: 432.77, 
+			July: 510.48, 
+			Aug: 653.02 
 		}
 	}
 }); 
@@ -20052,10 +21393,11 @@ WeatherOutlook.insert({
 			January: 76.1620785632, 
 			February: 45.38, 
 			March: 56.6766832034, 
-			April: 65.6856764888, 
-			May: 210.7599554756, 
-			June: 375.6774523861, 
-			July: 330.7284082412 
+			April: 64.24, 
+			May: 190.2, 
+			June: 360.97, 
+			July: 407.38, 
+			Aug: 379.98 
 		}
 	}
 }); 
@@ -20069,10 +21411,11 @@ WeatherOutlook.insert({
 			January: 91.9379217143, 
 			February: 43.48, 
 			March: 81.3258624537, 
-			April: 88.8824867593, 
-			May: 236.3693293519, 
-			June: 361.3399959722, 
-			July: 413.1779311111 
+			April: 88.07, 
+			May: 199.78, 
+			June: 329.95, 
+			July: 353.88, 
+			Aug: 486.99 
 		}
 	}
 }); 
@@ -20086,10 +21429,11 @@ WeatherOutlook.insert({
 			January: 83.6695727857, 
 			February: 45.53, 
 			March: 61.5600988889, 
-			April: 70.1252689583, 
-			May: 237.8262456944, 
-			June: 419.9366617361, 
-			July: 498.2701209524 
+			April: 61.85, 
+			May: 195.1, 
+			June: 376.71, 
+			July: 428.41, 
+			Aug: 362.97 
 		}
 	}
 }); 
@@ -20103,10 +21447,11 @@ WeatherOutlook.insert({
 			January: 75.0929777143, 
 			February: 45.71, 
 			March: 50.842572066, 
-			April: 60.2653282986, 
-			May: 227.2347097743, 
-			June: 404.7887752604, 
-			July: 237.3715363715 
+			April: 58.32, 
+			May: 193.07, 
+			June: 382.48, 
+			July: 445.93, 
+			Aug: 363.75 
 		}
 	}
 }); 
@@ -20120,10 +21465,11 @@ WeatherOutlook.insert({
 			January: 46.7636397802, 
 			February: 27.32, 
 			March: 22.3989495085, 
-			April: 35.3048526709, 
-			May: 215.7453569444, 
-			June: 432.3889110043, 
-			July: 171.0685545727 
+			April: 35.43, 
+			May: 199.55, 
+			June: 414.35, 
+			July: 533.49, 
+			Aug: 467.12 
 		}
 	}
 }); 
@@ -20137,10 +21483,11 @@ WeatherOutlook.insert({
 			January: 88.8955193878, 
 			February: 58.72, 
 			March: 76.9721034921, 
-			April: 84.3295406349, 
-			May: 170.2565202778, 
-			June: 279.1865737302, 
-			July: 344.904289881 
+			April: 84.45, 
+			May: 195.97, 
+			June: 291.05, 
+			July: 320.44, 
+			Aug: 469.5 
 		}
 	}
 }); 
@@ -20154,10 +21501,11 @@ WeatherOutlook.insert({
 			January: 83.6015429762, 
 			February: 53.43, 
 			March: 60.2321573843, 
-			April: 66.4420591435, 
-			May: 208.1087705787, 
-			June: 376.7346973843, 
-			July: 403.1297282639 
+			April: 69.47, 
+			May: 184.62, 
+			June: 380.84, 
+			July: 418.96, 
+			Aug: 330.9 
 		}
 	}
 }); 
@@ -20171,10 +21519,11 @@ WeatherOutlook.insert({
 			January: 64.0530345905, 
 			February: 32.74, 
 			March: 36.2638906111, 
-			April: 51.742282537, 
-			May: 239.0336492963, 
-			June: 441.7979262963, 
-			July: 168.7592124333 
+			April: 50.99, 
+			May: 215.49, 
+			June: 420.21, 
+			July: 493.75, 
+			Aug: 530.37 
 		}
 	}
 }); 
@@ -20188,10 +21537,11 @@ WeatherOutlook.insert({
 			January: 88.0743813905, 
 			February: 57.06, 
 			March: 71.6347493519, 
-			April: 75.9966415, 
-			May: 184.1977653704, 
-			June: 321.8702617963, 
-			July: 436.5210471296 
+			April: 77.06, 
+			May: 188.55, 
+			June: 322.44, 
+			July: 335.6, 
+			Aug: 344.61 
 		}
 	}
 }); 
@@ -20205,10 +21555,11 @@ WeatherOutlook.insert({
 			January: 78.3955302857, 
 			February: 62.79, 
 			March: 64.3077055556, 
-			April: 65.6389011111, 
-			May: 169.2008798611, 
-			June: 321.1647638889, 
-			July: 526.2143560119 
+			April: 63.79, 
+			May: 169.98, 
+			June: 313.22, 
+			July: 330.76, 
+			Aug: 265.94 
 		}
 	}
 }); 
@@ -20222,10 +21573,11 @@ WeatherOutlook.insert({
 			January: 83.0404351429, 
 			February: 54.14, 
 			March: 61.3895369444, 
-			April: 63.4937517857, 
-			May: 190.1555488095, 
-			June: 355.0293306349, 
-			July: 394.8786422222 
+			April: 63.24, 
+			May: 173.27, 
+			June: 344.34, 
+			July: 362.44, 
+			Aug: 264.93 
 		}
 	}
 }); 
@@ -20239,10 +21591,11 @@ WeatherOutlook.insert({
 			January: 79.3532919048, 
 			February: 51.48, 
 			March: 59.71862125, 
-			April: 59.0357465741, 
-			May: 183.1182169907, 
-			June: 316.309580787, 
-			July: 471.0790778942 
+			April: 59.81, 
+			May: 168.61, 
+			June: 308.86, 
+			July: 313.7, 
+			Aug: 271.1 
 		}
 	}
 }); 
@@ -20256,10 +21609,11 @@ WeatherOutlook.insert({
 			January: 61.9732139184, 
 			February: 24.83, 
 			March: 50.6300417063, 
-			April: 69.2879127381, 
-			May: 215.9310265079, 
-			June: 357.7681244444, 
-			July: 312.363372619 
+			April: 64.38, 
+			May: 158.8, 
+			June: 319.82, 
+			July: 392.58, 
+			Aug: 443.78 
 		}
 	}
 }); 
@@ -20273,10 +21627,11 @@ WeatherOutlook.insert({
 			January: 64.0169410714, 
 			February: 43.89, 
 			March: 39.9960427083, 
-			April: 52.2482216667, 
-			May: 208.6506549306, 
-			June: 385.3414552083, 
-			July: 167.7863783333 
+			April: 51.98, 
+			May: 197.18, 
+			June: 372.23, 
+			July: 441.48, 
+			Aug: 418.13 
 		}
 	}
 }); 
@@ -20290,10 +21645,11 @@ WeatherOutlook.insert({
 			January: 80.1991435952, 
 			February: 33.94, 
 			March: 69.2597506944, 
-			April: 82.6322077546, 
-			May: 235.4270130093, 
-			June: 374.1932060417, 
-			July: 353.3148640509 
+			April: 82.26, 
+			May: 221.87, 
+			June: 360.59, 
+			July: 393.51, 
+			Aug: 367.56 
 		}
 	}
 }); 
@@ -20307,10 +21663,11 @@ WeatherOutlook.insert({
 			January: 84.5019104286, 
 			February: 61.85, 
 			March: 64.7563560185, 
-			April: 69.8221402315, 
-			May: 193.7132443519, 
-			June: 367.9421613426, 
-			July: 385.6244315741 
+			April: 71.03, 
+			May: 182.96, 
+			June: 362.65, 
+			July: 378.46, 
+			Aug: 263.44 
 		}
 	}
 }); 
@@ -20324,10 +21681,11 @@ WeatherOutlook.insert({
 			January: 87.1334916735, 
 			February: 62.56, 
 			March: 72.6317401984, 
-			April: 79.3047412698, 
-			May: 192.3389165476, 
-			June: 367.7787637302, 
-			July: 441.7009238889 
+			April: 76.23, 
+			May: 188.18, 
+			June: 355.5, 
+			July: 364.01, 
+			Aug: 430.64 
 		}
 	}
 }); 
@@ -20341,10 +21699,11 @@ WeatherOutlook.insert({
 			January: 57.1786433962, 
 			February: 18.35, 
 			March: 36.5182547004, 
-			April: 61.6068759729, 
-			May: 175.084660712, 
-			June: 232.7157694596, 
-			July: 336.3779398142 
+			April: 51.06, 
+			May: 153.2, 
+			June: 254.73, 
+			July: 395.66, 
+			Aug: 414.52 
 		}
 	}
 }); 
@@ -20358,27 +21717,11 @@ WeatherOutlook.insert({
 			January: 50.9186143286, 
 			February: 22.27, 
 			March: 44.9494847714, 
-			April: 68.3166195702, 
-			May: 173.0424863036, 
-			June: 186.6337015214, 
-			July: 338.5056800833 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-B: MIMAROPA", 
-	province: "Palawan", 
-	municipality: "Agutaya", 
-	data: {
-		month: {
-			January: 38.376072, 
-			February: 21.87, 
-			March: 30.325592, 
-			April: 31.2099362857, 
-			May: 182.5017562857, 
-			June: 451.1803428571, 
-			July: 280.1965019444 
+			April: 44.99, 
+			May: 139.79, 
+			June: 234, 
+			July: 417.89, 
+			Aug: 230.6 
 		}
 	}
 }); 
@@ -20392,10 +21735,11 @@ WeatherOutlook.insert({
 			January: 28.0653306857, 
 			February: 16.4, 
 			March: 34.8116025413, 
-			April: 58.7118551683, 
-			May: 161.5465885365, 
-			June: 219.1731025254, 
-			July: 282.0260217778 
+			April: 31.28, 
+			May: 186.82, 
+			June: 193.27, 
+			July: 353.14, 
+			Aug: 347.64 
 		}
 	}
 }); 
@@ -20409,10 +21753,11 @@ WeatherOutlook.insert({
 			January: 262.1712952932, 
 			February: 56.93, 
 			March: 52.1700793116, 
-			April: 65.6745591107, 
-			May: 135.9558452719, 
-			June: 141.0321188003, 
-			July: 323.2517277047 
+			April: 63.41, 
+			May: 124.43, 
+			June: 161.41, 
+			July: 160.93, 
+			Aug: 144.37 
 		}
 	}
 }); 
@@ -20426,10 +21771,11 @@ WeatherOutlook.insert({
 			January: 119.2271167959, 
 			February: 25.33, 
 			March: 36.6988165896, 
-			April: 61.4618726502, 
-			May: 133.1866243914, 
-			June: 142.0212699175, 
-			July: 429.6423588812 
+			April: 65.6, 
+			May: 119.38, 
+			June: 245.87, 
+			July: 199.38, 
+			Aug: 174.78 
 		}
 	}
 }); 
@@ -20443,10 +21789,11 @@ WeatherOutlook.insert({
 			January: 71.2522950936, 
 			February: 16.66, 
 			March: 28.5303742816, 
-			April: 66.1586709291, 
-			May: 166.7546863985, 
-			June: 152.7479470115, 
-			July: 451.8608210857 
+			April: 62.01, 
+			May: 122.84, 
+			June: 262.96, 
+			July: 432.32, 
+			Aug: 163.32 
 		}
 	}
 }); 
@@ -20460,27 +21807,11 @@ WeatherOutlook.insert({
 			January: 23.8020566857, 
 			February: 13.65, 
 			March: 12.6064013048, 
-			April: 28.7041998071, 
-			May: 206.7200045619, 
-			June: 417.899061669, 
-			July: 234.4418020556 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-B: MIMAROPA", 
-	province: "Palawan", 
-	municipality: "Cagayancillo", 
-	data: {
-		month: {
-			January: 57.7646048571, 
-			February: 28.66, 
-			March: 72.1196374286, 
-			April: 66.9677631429, 
-			May: 177.1710642857, 
-			June: 433.3346174286, 
-			July: 285.4993311111 
+			April: 54.05, 
+			May: 174.32, 
+			June: 378.33, 
+			July: 521.33, 
+			Aug: 624.92 
 		}
 	}
 }); 
@@ -20494,10 +21825,11 @@ WeatherOutlook.insert({
 			January: 25.8930451724, 
 			February: 12.48, 
 			March: 18.4947963196, 
-			April: 26.8466863465, 
-			May: 180.0199026823, 
-			June: 373.9568198782, 
-			July: 361.4712337704 
+			April: 51.37, 
+			May: 142.47, 
+			June: 339.72, 
+			July: 440.1, 
+			Aug: 575.07 
 		}
 	}
 }); 
@@ -20511,10 +21843,11 @@ WeatherOutlook.insert({
 			January: 26.1815549365, 
 			February: 17.67, 
 			March: 22.4625217773, 
-			April: 41.4476007116, 
-			May: 186.9776072165, 
-			June: 383.4398473236, 
-			July: 301.1684639661 
+			April: 52.46, 
+			May: 174.67, 
+			June: 257.55, 
+			July: 364.29, 
+			Aug: 617.54 
 		}
 	}
 }); 
@@ -20528,10 +21861,11 @@ WeatherOutlook.insert({
 			January: 30.2033103619, 
 			February: 15.24, 
 			March: 36.0688816111, 
-			April: 64.0218170185, 
-			May: 169.0432703889, 
-			June: 215.2590147778, 
-			July: 367.6540360894 
+			April: 38.45, 
+			May: 151, 
+			June: 206.78, 
+			July: 388.87, 
+			Aug: 387.26 
 		}
 	}
 }); 
@@ -20545,10 +21879,11 @@ WeatherOutlook.insert({
 			January: 30.8259115639, 
 			February: 12.59, 
 			March: 27.4203784428, 
-			April: 41.757914373, 
-			May: 219.4893278968, 
-			June: 409.6038305397, 
-			July: 247.522026551 
+			April: 43.58, 
+			May: 175.92, 
+			June: 166.14, 
+			July: 497.79, 
+			Aug: 548.58 
 		}
 	}
 }); 
@@ -20562,27 +21897,11 @@ WeatherOutlook.insert({
 			January: 26.9463222857, 
 			February: 12.4, 
 			March: 25.6544612202, 
-			April: 33.0628885536, 
-			May: 195.4889570556, 
-			June: 372.1792621032, 
-			July: 333.7623308333 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-B: MIMAROPA", 
-	province: "Palawan", 
-	municipality: "Magsaysay", 
-	data: {
-		month: {
-			January: 22.8694557143, 
-			February: 24.27, 
-			March: 34.8173736111, 
-			April: 44.5906641667, 
-			May: 172.5933305556, 
-			June: 422.9665038889, 
-			July: 273.6429372222 
+			April: 49, 
+			May: 173.21, 
+			June: 171.59, 
+			July: 310.59, 
+			Aug: 482.94 
 		}
 	}
 }); 
@@ -20596,10 +21915,11 @@ WeatherOutlook.insert({
 			January: 54.7422124762, 
 			February: 17.28, 
 			March: 42.8781735168, 
-			April: 69.5297740608, 
-			May: 178.1601819659, 
-			June: 145.734174515, 
-			July: 269.1930545165 
+			April: 54.42, 
+			May: 159.55, 
+			June: 295.05, 
+			July: 485.96, 
+			Aug: 195.62 
 		}
 	}
 }); 
@@ -20613,10 +21933,11 @@ WeatherOutlook.insert({
 			January: 40.1054158068, 
 			February: 13.43, 
 			March: 37.2564488763, 
-			April: 66.447309646, 
-			May: 182.8304813116, 
-			June: 230.0210742593, 
-			July: 295.7077247611 
+			April: 44.62, 
+			May: 147.07, 
+			June: 286.74, 
+			July: 455.43, 
+			Aug: 310.09 
 		}
 	}
 }); 
@@ -20630,10 +21951,11 @@ WeatherOutlook.insert({
 			January: 56.3871165, 
 			February: 19.94, 
 			March: 42.8301219869, 
-			April: 71.7604326912, 
-			May: 171.3658577329, 
-			June: 178.201327162, 
-			July: 312.0359459425 
+			April: 53.86, 
+			May: 118.6, 
+			June: 320.39, 
+			July: 513.19, 
+			Aug: 258.16 
 		}
 	}
 }); 
@@ -20647,10 +21969,11 @@ WeatherOutlook.insert({
 			January: 82.0745424196, 
 			February: 23.39, 
 			March: 38.2547557307, 
-			April: 68.4195613224, 
-			May: 151.2734569732, 
-			June: 184.2048330414, 
-			July: 456.5839025414 
+			April: 62.08, 
+			May: 127.5, 
+			June: 289.87, 
+			July: 307.77, 
+			Aug: 210.47 
 		}
 	}
 }); 
@@ -20664,10 +21987,11 @@ WeatherOutlook.insert({
 			January: 35.4973764874, 
 			February: 14.66, 
 			March: 42.4688633824, 
-			April: 70.4898796814, 
-			May: 172.0412851879, 
-			June: 215.7530365196, 
-			July: 318.9446428651 
+			April: 43.22, 
+			May: 147, 
+			June: 199.26, 
+			July: 420.7, 
+			Aug: 403.96 
 		}
 	}
 }); 
@@ -20681,10 +22005,11 @@ WeatherOutlook.insert({
 			January: 33.9515268265, 
 			February: 11.99, 
 			March: 43.0008751213, 
-			April: 72.4949155938, 
-			May: 192.4638810882, 
-			June: 245.6552936148, 
-			July: 334.3390184127 
+			April: 40.64, 
+			May: 148.19, 
+			June: 241, 
+			July: 437.07, 
+			Aug: 475.73 
 		}
 	}
 }); 
@@ -20698,10 +22023,11 @@ WeatherOutlook.insert({
 			January: 65.0233695604, 
 			February: 24.51, 
 			March: 53.5681558974, 
-			April: 74.4433130983, 
-			May: 149.7307037393, 
-			June: 147.4367008974, 
-			July: 446.3688317521 
+			April: 60.4, 
+			May: 109.1, 
+			June: 343.24, 
+			July: 521.03, 
+			Aug: 184.27 
 		}
 	}
 }); 
@@ -20715,10 +22041,11 @@ WeatherOutlook.insert({
 			January: 30.3586477631, 
 			February: 14.26, 
 			March: 33.8866992766, 
-			April: 61.554587499, 
-			May: 198.1548036924, 
-			June: 277.1665699044, 
-			July: 280.2040569841 
+			April: 47.33, 
+			May: 177.17, 
+			June: 214.01, 
+			July: 386.19, 
+			Aug: 460.87 
 		}
 	}
 }); 
@@ -20732,10 +22059,11 @@ WeatherOutlook.insert({
 			January: 17.9463298534, 
 			February: 9.82, 
 			March: 17.5182291996, 
-			April: 34.021879894, 
-			May: 206.0263218275, 
-			June: 292.908165826, 
-			July: 388.3427727397 
+			April: 35.7, 
+			May: 204.89, 
+			June: 267.71, 
+			July: 523.66, 
+			Aug: 583.7 
 		}
 	}
 }); 
@@ -20749,10 +22077,11 @@ WeatherOutlook.insert({
 			January: 17.3945152857, 
 			February: 7.05, 
 			March: 23.5730686111, 
-			April: 36.3785033333, 
-			May: 201.1468102778, 
-			June: 302.0982795833, 
-			July: 607.4078306944 
+			April: 36.18, 
+			May: 179.73, 
+			June: 249.17, 
+			July: 514.83, 
+			Aug: 603.85 
 		}
 	}
 }); 
@@ -20766,10 +22095,11 @@ WeatherOutlook.insert({
 			January: 17.8483131429, 
 			February: 11.04, 
 			March: 17.9759041667, 
-			April: 37.2195626389, 
-			May: 200.0470406944, 
-			June: 300.68775625, 
-			July: 296.9705090278 
+			April: 34.9, 
+			May: 192.46, 
+			June: 283.79, 
+			July: 517.2, 
+			Aug: 502.13 
 		}
 	}
 }); 
@@ -20783,10 +22113,11 @@ WeatherOutlook.insert({
 			January: 22.0931151429, 
 			February: 6.75, 
 			March: 16.0110845139, 
-			April: 36.1969502083, 
-			May: 205.7398650694, 
-			June: 274.5395271528, 
-			July: 430.6838939583 
+			April: 39.44, 
+			May: 210.75, 
+			June: 248.63, 
+			July: 474.59, 
+			Aug: 540.92 
 		}
 	}
 }); 
@@ -20800,10 +22131,11 @@ WeatherOutlook.insert({
 			January: 15.9371022143, 
 			February: 10.74, 
 			March: 15.0847684722, 
-			April: 29.8583545139, 
-			May: 218.9592247222, 
-			June: 260.6034657639, 
-			July: 336.4001739167 
+			April: 29.65, 
+			May: 216.29, 
+			June: 230.38, 
+			July: 502.55, 
+			Aug: 799.93 
 		}
 	}
 }); 
@@ -20817,10 +22149,11 @@ WeatherOutlook.insert({
 			January: 27.2416357429, 
 			February: 15.64, 
 			March: 23.0798544444, 
-			April: 39.2259377778, 
-			May: 195.1316603889, 
-			June: 279.2241621944, 
-			July: 380.1694045 
+			April: 42.71, 
+			May: 187.72, 
+			June: 285.67, 
+			July: 474.12, 
+			Aug: 581.18 
 		}
 	}
 }); 
@@ -20834,10 +22167,11 @@ WeatherOutlook.insert({
 			January: 15.6300221429, 
 			February: 13.53, 
 			March: 18.4333631481, 
-			April: 31.1206035185, 
-			May: 196.7334550926, 
-			June: 281.1808279167, 
-			July: 373.0160901323 
+			April: 31.57, 
+			May: 203.06, 
+			June: 253.03, 
+			July: 583.94, 
+			Aug: 591.68 
 		}
 	}
 }); 
@@ -20851,10 +22185,11 @@ WeatherOutlook.insert({
 			January: 11.8354512857, 
 			February: 10.91, 
 			March: 11.0544058333, 
-			April: 25.9996393056, 
-			May: 221.6871188889, 
-			June: 259.3462788889, 
-			July: 465.9980247222 
+			April: 26, 
+			May: 223.47, 
+			June: 261.16, 
+			July: 532.75, 
+			Aug: 501.13 
 		}
 	}
 }); 
@@ -20868,10 +22203,11 @@ WeatherOutlook.insert({
 			January: 8.5763139429, 
 			February: 10.66, 
 			March: 6.6430973889, 
-			April: 22.9606297778, 
-			May: 194.819519, 
-			June: 298.4260093889, 
-			July: 225.4415236111 
+			April: 24.17, 
+			May: 189.34, 
+			June: 246.78, 
+			July: 575.58, 
+			Aug: 558.97 
 		}
 	}
 }); 
@@ -20885,10 +22221,11 @@ WeatherOutlook.insert({
 			January: 17.977214127, 
 			February: 6.81, 
 			March: 22.8282456173, 
-			April: 42.0199285185, 
-			May: 233.616894321, 
-			June: 364.2397897222, 
-			July: 511.0208208951 
+			April: 40.23, 
+			May: 240.37, 
+			June: 262.9, 
+			July: 671.44, 
+			Aug: 694.28 
 		}
 	}
 }); 
@@ -20902,10 +22239,11 @@ WeatherOutlook.insert({
 			January: 12.5580282857, 
 			February: 5.9, 
 			March: 12.2713069444, 
-			April: 27.0147309722, 
-			May: 201.8425922222, 
-			June: 290.2422218056, 
-			July: 243.4340313889 
+			April: 27.06, 
+			May: 191.75, 
+			June: 260.2, 
+			July: 520.74, 
+			Aug: 567.04 
 		}
 	}
 }); 
@@ -20919,10 +22257,11 @@ WeatherOutlook.insert({
 			January: 19.7959198095, 
 			February: 5.48, 
 			March: 17.9378146296, 
-			April: 34.8910163889, 
-			May: 218.4274216667, 
-			June: 274.751717037, 
-			July: 375.4979517593 
+			April: 40.04, 
+			May: 210.97, 
+			June: 301.47, 
+			July: 495.6, 
+			Aug: 534.62 
 		}
 	}
 }); 
@@ -20936,10 +22275,11 @@ WeatherOutlook.insert({
 			January: 9.9689702857, 
 			February: 10.05, 
 			March: 6.4503077778, 
-			April: 22.2799738889, 
-			May: 196.2882297222, 
-			June: 294.2722556944, 
-			July: 225.9563704722 
+			April: 26.35, 
+			May: 191.44, 
+			June: 265.34, 
+			July: 531.04, 
+			Aug: 497.9 
 		}
 	}
 }); 
@@ -20953,10 +22293,11 @@ WeatherOutlook.insert({
 			January: 20.3576415238, 
 			February: 7.62, 
 			March: 18.7814901852, 
-			April: 36.3711616667, 
-			May: 200.9095761111, 
-			June: 302.4008001852, 
-			July: 455.0349803704 
+			April: 36.36, 
+			May: 194.46, 
+			June: 265.12, 
+			July: 515.01, 
+			Aug: 509.04 
 		}
 	}
 }); 
@@ -20970,10 +22311,11 @@ WeatherOutlook.insert({
 			January: 13.5255185714, 
 			February: 11.09, 
 			March: 10.0929061111, 
-			April: 24.7571138889, 
-			May: 212.7944416667, 
-			June: 261.5634836111, 
-			July: 241.7121894444 
+			April: 26.24, 
+			May: 196.9, 
+			June: 267.08, 
+			July: 514.04, 
+			Aug: 733.65 
 		}
 	}
 }); 
@@ -20987,10 +22329,11 @@ WeatherOutlook.insert({
 			January: 16.83941925, 
 			February: 8.04, 
 			March: 21.2337122569, 
-			April: 36.2549880556, 
-			May: 198.1822604514, 
-			June: 280.1180719097, 
-			July: 444.92523125 
+			April: 37.03, 
+			May: 205.97, 
+			June: 260.37, 
+			July: 527.62, 
+			Aug: 521.86 
 		}
 	}
 }); 
@@ -21004,10 +22347,11 @@ WeatherOutlook.insert({
 			January: 17.6911802857, 
 			February: 6.75, 
 			March: 17.4393733333, 
-			April: 34.93882875, 
-			May: 209.1091583333, 
-			June: 281.3437088889, 
-			July: 340.0415112381 
+			April: 34.88, 
+			May: 199.36, 
+			June: 276.74, 
+			July: 507.19, 
+			Aug: 714.36 
 		}
 	}
 }); 
@@ -21021,10 +22365,11 @@ WeatherOutlook.insert({
 			January: 23.9803944286, 
 			February: 9.58, 
 			March: 19.5543198611, 
-			April: 38.3834216667, 
-			May: 202.8552480556, 
-			June: 293.7196366667, 
-			July: 382.0207598611 
+			April: 38.64, 
+			May: 192.28, 
+			June: 270.35, 
+			July: 498.75, 
+			Aug: 526.57 
 		}
 	}
 }); 
@@ -21038,10 +22383,11 @@ WeatherOutlook.insert({
 			January: 23.9161348571, 
 			February: 9.34, 
 			March: 17.5297616667, 
-			April: 34.5887866667, 
-			May: 201.3261984722, 
-			June: 297.3146422222, 
-			July: 448.8542104167 
+			April: 34.15, 
+			May: 196.37, 
+			June: 261.88, 
+			July: 516.44, 
+			Aug: 521.02 
 		}
 	}
 }); 
@@ -21055,10 +22401,11 @@ WeatherOutlook.insert({
 			January: 22.0527675714, 
 			February: 8.62, 
 			March: 16.8464525, 
-			April: 39.2740701389, 
-			May: 199.2416252778, 
-			June: 293.00862, 
-			July: 423.1780230556 
+			April: 39.64, 
+			May: 192.46, 
+			June: 300.27, 
+			July: 499.67, 
+			Aug: 513.9 
 		}
 	}
 }); 
@@ -21072,10 +22419,11 @@ WeatherOutlook.insert({
 			January: 10.227864, 
 			February: 12.4, 
 			March: 14.2428469444, 
-			April: 28.9882477778, 
-			May: 207.9745911111, 
-			June: 282.5636419444, 
-			July: 399.2940075 
+			April: 29.32, 
+			May: 216.29, 
+			June: 251.46, 
+			July: 510.07, 
+			Aug: 522.7 
 		}
 	}
 }); 
@@ -21089,10 +22437,11 @@ WeatherOutlook.insert({
 			January: 16.7315891429, 
 			February: 6.8, 
 			March: 17.0836455556, 
-			April: 30.9082119444, 
-			May: 211.6289083333, 
-			June: 269.9717975, 
-			July: 461.6707811111 
+			April: 30.91, 
+			May: 203.88, 
+			June: 308.83, 
+			July: 502.74, 
+			Aug: 742.68 
 		}
 	}
 }); 
@@ -21106,10 +22455,11 @@ WeatherOutlook.insert({
 			January: 10.2582305714, 
 			February: 10.72, 
 			March: 6.6989246296, 
-			April: 22.9470338889, 
-			May: 202.6273531481, 
-			June: 286.7553457407, 
-			July: 219.3762328704 
+			April: 24.76, 
+			May: 205.04, 
+			June: 248.81, 
+			July: 517.43, 
+			Aug: 550.15 
 		}
 	}
 }); 
@@ -21123,10 +22473,11 @@ WeatherOutlook.insert({
 			January: 9.8920318489, 
 			February: 5.39, 
 			March: 22.6482154603, 
-			April: 45.6997615865, 
-			May: 230.4199441258, 
-			June: 313.0441669219, 
-			July: 235.3962891529 
+			April: 45.9, 
+			May: 218.52, 
+			June: 319.18, 
+			July: 543.12, 
+			Aug: 677.71 
 		}
 	}
 }); 
@@ -21140,10 +22491,11 @@ WeatherOutlook.insert({
 			January: 8.030034, 
 			February: 7.56, 
 			March: 16.2075042143, 
-			April: 30.4139835992, 
-			May: 224.4702841164, 
-			June: 427.6817638545, 
-			July: 396.9598456944 
+			April: 30.72, 
+			May: 219.59, 
+			June: 232.55, 
+			July: 595.53, 
+			Aug: 740 
 		}
 	}
 }); 
@@ -21157,10 +22509,11 @@ WeatherOutlook.insert({
 			January: 7.7562195714, 
 			February: 2.89, 
 			March: 36.2732140278, 
-			April: 59.2092790278, 
-			May: 249.2269870139, 
-			June: 281.2155064583, 
-			July: 209.1939031944 
+			April: 63.54, 
+			May: 240.87, 
+			June: 314.67, 
+			July: 572.07, 
+			Aug: 628.62 
 		}
 	}
 }); 
@@ -21174,10 +22527,11 @@ WeatherOutlook.insert({
 			January: 8.1547310857, 
 			February: 7.57, 
 			March: 17.4153414937, 
-			April: 25.8323979794, 
-			May: 218.6064773175, 
-			June: 390.4102385984, 
-			July: 480.5663785 
+			April: 35.19, 
+			May: 215.06, 
+			June: 324.91, 
+			July: 617.07, 
+			Aug: 731.87 
 		}
 	}
 }); 
@@ -21191,10 +22545,11 @@ WeatherOutlook.insert({
 			January: 7.5526337143, 
 			February: 0.84, 
 			March: 13.6916752778, 
-			April: 48.422615, 
-			May: 234.5572405556, 
-			June: 249.5089988889, 
-			July: 177.8886516667 
+			April: 55.04, 
+			May: 196.55, 
+			June: 338.61, 
+			July: 515.84, 
+			Aug: 566.94 
 		}
 	}
 }); 
@@ -21208,10 +22563,11 @@ WeatherOutlook.insert({
 			January: 8.3343957143, 
 			February: 7.32, 
 			March: 9.4900619444, 
-			April: 13.7706844444, 
-			May: 192.1891627778, 
-			June: 371.7326293056, 
-			July: 372.4482208333 
+			April: 22.83, 
+			May: 201.96, 
+			June: 309.23, 
+			July: 584.04, 
+			Aug: 751.72 
 		}
 	}
 }); 
@@ -21225,10 +22581,11 @@ WeatherOutlook.insert({
 			January: 8.7790144762, 
 			February: 2.19, 
 			March: 22.5029378704, 
-			April: 50.7337996296, 
-			May: 225.5594139815, 
-			June: 272.3494553704, 
-			July: 196.0259181481 
+			April: 57.98, 
+			May: 223.22, 
+			June: 425.22, 
+			July: 457.47, 
+			Aug: 581.99 
 		}
 	}
 }); 
@@ -21242,10 +22599,11 @@ WeatherOutlook.insert({
 			January: 8.6672565714, 
 			February: 1.96, 
 			March: 19.9407180556, 
-			April: 51.5125094444, 
-			May: 231.2378198611, 
-			June: 253.6920091667, 
-			July: 162.4606994444 
+			April: 67.04, 
+			May: 214.36, 
+			June: 349.07, 
+			July: 531.21, 
+			Aug: 581.08 
 		}
 	}
 }); 
@@ -21259,10 +22617,11 @@ WeatherOutlook.insert({
 			January: 7.9517737143, 
 			February: 7.39, 
 			March: 11.6769316667, 
-			April: 21.5343897222, 
-			May: 216.6851066667, 
-			June: 393.7956285648, 
-			July: 379.8125699537 
+			April: 22.64, 
+			May: 210.27, 
+			June: 259.08, 
+			July: 613.37, 
+			Aug: 789.94 
 		}
 	}
 }); 
@@ -21276,10 +22635,11 @@ WeatherOutlook.insert({
 			January: 7.6648045714, 
 			February: 3.01, 
 			March: 22.4697527778, 
-			April: 47.6235147222, 
-			May: 218.6667002778, 
-			June: 261.2738308333, 
-			July: 164.0920494444 
+			April: 54.12, 
+			May: 210.7, 
+			June: 406.69, 
+			July: 504.56, 
+			Aug: 567.29 
 		}
 	}
 }); 
@@ -21293,10 +22653,11 @@ WeatherOutlook.insert({
 			January: 7.5994354286, 
 			February: 1.47, 
 			March: 15.4621348611, 
-			April: 45.6381102778, 
-			May: 250.7388948611, 
-			June: 252.7450866667, 
-			July: 183.1459169444 
+			April: 53.38, 
+			May: 203.04, 
+			June: 298.29, 
+			July: 493.3, 
+			Aug: 646.54 
 		}
 	}
 }); 
@@ -21310,10 +22671,11 @@ WeatherOutlook.insert({
 			January: 7.6261186429, 
 			February: 2.56, 
 			March: 20.3973565972, 
-			April: 45.6912701389, 
-			May: 243.0062667361, 
-			June: 257.8024925, 
-			July: 203.5279720139 
+			April: 53.56, 
+			May: 199.55, 
+			June: 273.35, 
+			July: 474.63, 
+			Aug: 474.57 
 		}
 	}
 }); 
@@ -21327,10 +22689,11 @@ WeatherOutlook.insert({
 			January: 7.7897581429, 
 			February: 1.89, 
 			March: 23.19999875, 
-			April: 49.1815313889, 
-			May: 224.8720670833, 
-			June: 287.2734277778, 
-			July: 194.7989366667 
+			April: 59.44, 
+			May: 225.49, 
+			June: 319.52, 
+			July: 497.2, 
+			Aug: 695.97 
 		}
 	}
 }); 
@@ -21344,10 +22707,11 @@ WeatherOutlook.insert({
 			January: 7.681676, 
 			February: 8.39, 
 			March: 17.3579476389, 
-			April: 36.48152625, 
-			May: 211.2207230556, 
-			June: 309.19611625, 
-			July: 127.3041411111 
+			April: 54.18, 
+			May: 197.75, 
+			June: 293.04, 
+			July: 566.66, 
+			Aug: 720.8 
 		}
 	}
 }); 
@@ -21361,10 +22725,11 @@ WeatherOutlook.insert({
 			January: 8.0261573878, 
 			February: 7.24, 
 			March: 6.8851494728, 
-			April: 17.1350709569, 
-			May: 210.456522415, 
-			June: 417.380730568, 
-			July: 400.63359 
+			April: 18.41, 
+			May: 206.29, 
+			June: 241.54, 
+			July: 583.45, 
+			Aug: 718.3 
 		}
 	}
 }); 
@@ -21378,10 +22743,11 @@ WeatherOutlook.insert({
 			January: 7.6472415429, 
 			February: 3.54, 
 			March: 21.5985482222, 
-			April: 37.7014367778, 
-			May: 223.5237865, 
-			June: 304.002829, 
-			July: 147.4231401111 
+			April: 52.92, 
+			May: 236.99, 
+			June: 316.16, 
+			July: 504.37, 
+			Aug: 658.79 
 		}
 	}
 }); 
@@ -21395,10 +22761,11 @@ WeatherOutlook.insert({
 			January: 8.2908537714, 
 			February: 7.75, 
 			March: 21.9758511667, 
-			April: 39.6713247222, 
-			May: 245.010425, 
-			June: 471.593637, 
-			July: 141.0018794222 
+			April: 34.66, 
+			May: 225.81, 
+			June: 235.51, 
+			July: 593.58, 
+			Aug: 746.19 
 		}
 	}
 }); 
@@ -21412,10 +22779,11 @@ WeatherOutlook.insert({
 			January: 7.7389354286, 
 			February: 7.5, 
 			March: 23.7395825, 
-			April: 52.2161883333, 
-			May: 192.879855, 
-			June: 265.3002167593, 
-			July: 110.575922963 
+			April: 58.65, 
+			May: 208.54, 
+			June: 371.32, 
+			July: 429.53, 
+			Aug: 557.12 
 		}
 	}
 }); 
@@ -21429,10 +22797,11 @@ WeatherOutlook.insert({
 			January: 7.7905554286, 
 			February: 9.3, 
 			March: 16.9121037063, 
-			April: 38.2114982381, 
-			May: 214.5326735952, 
-			June: 312.0139427143, 
-			July: 135.8863783333 
+			April: 45.71, 
+			May: 204.92, 
+			June: 382.58, 
+			July: 583.74, 
+			Aug: 619.39 
 		}
 	}
 }); 
@@ -21446,10 +22815,11 @@ WeatherOutlook.insert({
 			January: 8.2658209796, 
 			February: 4.66, 
 			March: 19.522303373, 
-			April: 38.6886080159, 
-			May: 257.1122396429, 
-			June: 426.8003472222, 
-			July: 166.1674689286 
+			April: 37.79, 
+			May: 238.72, 
+			June: 338.13, 
+			July: 561.73, 
+			Aug: 644.06 
 		}
 	}
 }); 
@@ -21463,10 +22833,11 @@ WeatherOutlook.insert({
 			January: 7.9149145714, 
 			February: 0.74, 
 			March: 21.6742827778, 
-			April: 42.8590588095, 
-			May: 247.1533860714, 
-			June: 357.573781746, 
-			July: 139.2696601587 
+			April: 43.62, 
+			May: 237.08, 
+			June: 320.13, 
+			July: 599.23, 
+			Aug: 669.5 
 		}
 	}
 }); 
@@ -21480,10 +22851,11 @@ WeatherOutlook.insert({
 			January: 8.011032, 
 			February: 7.39, 
 			March: 11.8756801389, 
-			April: 32.3094581944, 
-			May: 247.8042147222, 
-			June: 304.3756648611, 
-			July: 169.0019602778 
+			April: 40.46, 
+			May: 226.22, 
+			June: 337.74, 
+			July: 578.37, 
+			Aug: 779.53 
 		}
 	}
 }); 
@@ -21497,10 +22869,11 @@ WeatherOutlook.insert({
 			January: 7.564142, 
 			February: 1.15, 
 			March: 20.0006618056, 
-			April: 41.3911783333, 
-			May: 222.4015756944, 
-			June: 270.6407818056, 
-			July: 154.4275706825 
+			April: 48.22, 
+			May: 183.92, 
+			June: 291.52, 
+			July: 471.44, 
+			Aug: 543.36 
 		}
 	}
 }); 
@@ -21514,10 +22887,11 @@ WeatherOutlook.insert({
 			January: 8.1104075714, 
 			February: 8.12, 
 			March: 17.6752138889, 
-			April: 31.9321454167, 
-			May: 206.5641238889, 
-			June: 320.5711956944, 
-			July: 187.5782275 
+			April: 46.42, 
+			May: 201.02, 
+			June: 327.27, 
+			July: 564.43, 
+			Aug: 695.15 
 		}
 	}
 }); 
@@ -21531,10 +22905,11 @@ WeatherOutlook.insert({
 			January: 7.9785769206, 
 			February: 5.39, 
 			March: 21.1556174383, 
-			April: 41.1700458333, 
-			May: 244.4296610802, 
-			June: 378.3849221914, 
-			July: 140.1874424074 
+			April: 41.2, 
+			May: 226.1, 
+			June: 339.51, 
+			July: 601.39, 
+			Aug: 697.04 
 		}
 	}
 }); 
@@ -21548,10 +22923,11 @@ WeatherOutlook.insert({
 			January: 7.6267206429, 
 			February: 2.4, 
 			March: 17.9144244444, 
-			April: 46.7595715278, 
-			May: 222.5348438889, 
-			June: 259.3904824306, 
-			July: 171.037180625 
+			April: 55.31, 
+			May: 211.34, 
+			June: 353.23, 
+			July: 533.65, 
+			Aug: 685.1 
 		}
 	}
 }); 
@@ -21565,10 +22941,11 @@ WeatherOutlook.insert({
 			January: 7.7274591429, 
 			February: 3.49, 
 			March: 23.2659711111, 
-			April: 41.4290833333, 
-			May: 211.5149645833, 
-			June: 279.8687754167, 
-			July: 166.9675275 
+			April: 45.38, 
+			May: 207.6, 
+			June: 286.85, 
+			July: 544.36, 
+			Aug: 629.12 
 		}
 	}
 }); 
@@ -21582,10 +22959,11 @@ WeatherOutlook.insert({
 			January: 7.8148931429, 
 			February: 9.15, 
 			March: 20.6318358333, 
-			April: 39.5779197222, 
-			May: 208.4030411111, 
-			June: 292.0933855556, 
-			July: 170.9540461111 
+			April: 44.76, 
+			May: 232.36, 
+			June: 269.36, 
+			July: 477.99, 
+			Aug: 546.71 
 		}
 	}
 }); 
@@ -21599,10 +22977,11 @@ WeatherOutlook.insert({
 			January: 8.095287974, 
 			February: 9.2, 
 			March: 49.9586732323, 
-			April: 75.484192298, 
-			May: 255.0722165657, 
-			June: 247.8645089141, 
-			July: 212.3601118182 
+			April: 77.36, 
+			May: 242.56, 
+			June: 284.85, 
+			July: 482.69, 
+			Aug: 630.54 
 		}
 	}
 }); 
@@ -21616,10 +22995,11 @@ WeatherOutlook.insert({
 			January: 7.7136188571, 
 			February: 4.14, 
 			March: 20.6630419444, 
-			April: 44.4195997222, 
-			May: 201.9331797222, 
-			June: 284.6024763889, 
-			July: 110.2608902778 
+			April: 48.79, 
+			May: 205.62, 
+			June: 314.06, 
+			July: 511.81, 
+			Aug: 499.36 
 		}
 	}
 }); 
@@ -21633,10 +23013,11 @@ WeatherOutlook.insert({
 			January: 23.0631584286, 
 			February: 8.15, 
 			March: 31.3233948611, 
-			April: 65.4448802778, 
-			May: 210.8717159722, 
-			June: 227.30339, 
-			July: 159.6961041667 
+			April: 74.9, 
+			May: 225.3, 
+			June: 404.1, 
+			July: 418.96, 
+			Aug: 525.14 
 		}
 	}
 }); 
@@ -21650,10 +23031,11 @@ WeatherOutlook.insert({
 			January: 8.0706648571, 
 			February: 5.75, 
 			March: 23.23059875, 
-			April: 42.7386981944, 
-			May: 218.91452, 
-			June: 300.7823948611, 
-			July: 503.6974495833 
+			April: 46.67, 
+			May: 219.89, 
+			June: 314.78, 
+			July: 548.35, 
+			Aug: 637.5 
 		}
 	}
 }); 
@@ -21667,10 +23049,11 @@ WeatherOutlook.insert({
 			January: 7.9787197143, 
 			February: 1.54, 
 			March: 17.157435, 
-			April: 50.8325627778, 
-			May: 234.5801694444, 
-			June: 253.7380308333, 
-			July: 170.3979376389 
+			April: 59.9, 
+			May: 227.54, 
+			June: 345.93, 
+			July: 481.29, 
+			Aug: 567.92 
 		}
 	}
 }); 
@@ -21684,10 +23067,11 @@ WeatherOutlook.insert({
 			January: 7.6689499429, 
 			February: 3.82, 
 			March: 25.4875062222, 
-			April: 47.2433865556, 
-			May: 213.1162021111, 
-			June: 280.715214, 
-			July: 151.8877455 
+			April: 47.45, 
+			May: 204.49, 
+			June: 310.97, 
+			July: 520.13, 
+			Aug: 686.44 
 		}
 	}
 }); 
@@ -21701,10 +23085,11 @@ WeatherOutlook.insert({
 			January: 7.8752172857, 
 			February: 9.31, 
 			March: 17.9389997222, 
-			April: 33.2288945833, 
-			May: 205.2984794444, 
-			June: 300.9597747222, 
-			July: 427.3930568056 
+			April: 42.08, 
+			May: 213.6, 
+			June: 326.4, 
+			July: 518.42, 
+			Aug: 652.73 
 		}
 	}
 }); 
@@ -21718,10 +23103,11 @@ WeatherOutlook.insert({
 			January: 7.7820354286, 
 			February: 9.9, 
 			March: 19.1713758333, 
-			April: 40.0671847222, 
-			May: 206.5853397222, 
-			June: 293.3670852778, 
-			July: 165.1742266667 
+			April: 49.63, 
+			May: 207.69, 
+			June: 346.96, 
+			July: 539.32, 
+			Aug: 625.81 
 		}
 	}
 }); 
@@ -21735,10 +23121,11 @@ WeatherOutlook.insert({
 			January: 10.5025586429, 
 			February: 2.66, 
 			March: 23.37343, 
-			April: 59.9308915278, 
-			May: 245.5205145139, 
-			June: 280.9532296528, 
-			July: 352.2295123611 
+			April: 65.53, 
+			May: 207.49, 
+			June: 360.93, 
+			July: 439.21, 
+			Aug: 634.23 
 		}
 	}
 }); 
@@ -21752,10 +23139,11 @@ WeatherOutlook.insert({
 			January: 17.473265873, 
 			February: 6.35, 
 			March: 29.401377284, 
-			April: 72.3671227778, 
-			May: 237.1545129321, 
-			June: 245.6921330864, 
-			July: 434.4666499383 
+			April: 72.5, 
+			May: 221.85, 
+			June: 405.87, 
+			July: 436.16, 
+			Aug: 562.43 
 		}
 	}
 }); 
@@ -21769,10 +23157,11 @@ WeatherOutlook.insert({
 			January: 24.9078102857, 
 			February: 7.91, 
 			March: 29.5764178472, 
-			April: 66.7533878472, 
-			May: 226.0181520833, 
-			June: 215.9215909722, 
-			July: 136.0226309722 
+			April: 68.38, 
+			May: 231.69, 
+			June: 404.41, 
+			July: 469.02, 
+			Aug: 501.64 
 		}
 	}
 }); 
@@ -21786,10 +23175,11 @@ WeatherOutlook.insert({
 			January: 7.6737587143, 
 			February: 3.42, 
 			March: 20.1175833333, 
-			April: 47.4244598611, 
-			May: 210.9461247222, 
-			June: 260.8558166667, 
-			July: 103.1351966667 
+			April: 54.66, 
+			May: 234.06, 
+			June: 315.51, 
+			July: 501.45, 
+			Aug: 636.23 
 		}
 	}
 }); 
@@ -21803,10 +23193,29 @@ WeatherOutlook.insert({
 			January: 10.5712064286, 
 			February: 3.1, 
 			March: 21.3488576389, 
-			April: 52.8821326389, 
-			May: 216.7017922222, 
-			June: 256.5157354167, 
-			July: 188.9597241667 
+			April: 48.62, 
+			May: 200.61, 
+			June: 366.36, 
+			July: 465.1, 
+			Aug: 556.53 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region I: Ilocos Region", 
+	province: "Pangasinan", 
+	municipality: "Santo Tomas", 
+	data: {
+		month: {
+			January: 9.4187618857, 
+			February: 2.51, 
+			March: 21.429071, 
+			April: 58.52, 
+			May: 236.62, 
+			June: 422.82, 
+			July: 544.06, 
+			Aug: 535.31 
 		}
 	}
 }); 
@@ -21817,13 +23226,14 @@ WeatherOutlook.insert({
 	municipality: "Sison", 
 	data: {
 		month: {
-			January: 9.4187618857, 
-			February: 2.51, 
-			March: 21.429071, 
-			April: 56.2080833333, 
-			May: 245.0761656667, 
-			June: 303.6022592778, 
-			July: 437.9927872778 
+			January: 8.0347642857, 
+			February: 7.56, 
+			March: 17.4000273016, 
+			April: 61.37, 
+			May: 200.94, 
+			June: 373.04, 
+			July: 451.67, 
+			Aug: 655.04 
 		}
 	}
 }); 
@@ -21834,13 +23244,14 @@ WeatherOutlook.insert({
 	municipality: "Sual", 
 	data: {
 		month: {
-			January: 8.0347642857, 
-			February: 7.56, 
-			March: 17.4000273016, 
-			April: 30.3367801587, 
-			May: 229.3330780952, 
-			June: 367.9459179365, 
-			July: 247.6867992415 
+			January: 12.6405268571, 
+			February: 4.98, 
+			March: 24.7553027778, 
+			April: 35.87, 
+			May: 213.65, 
+			June: 359.22, 
+			July: 585.75, 
+			Aug: 715.85 
 		}
 	}
 }); 
@@ -21851,13 +23262,14 @@ WeatherOutlook.insert({
 	municipality: "Tayug", 
 	data: {
 		month: {
-			January: 12.6405268571, 
-			February: 4.98, 
-			March: 24.7553027778, 
-			April: 55.3717025, 
-			May: 207.2431536111, 
-			June: 256.6319566667, 
-			July: 167.1662855556 
+			January: 20.6560794857, 
+			February: 6.36, 
+			March: 25.8539551667, 
+			April: 62.87, 
+			May: 205.59, 
+			June: 391.75, 
+			July: 511.41, 
+			Aug: 565.55 
 		}
 	}
 }); 
@@ -21868,13 +23280,14 @@ WeatherOutlook.insert({
 	municipality: "Umingan", 
 	data: {
 		month: {
-			January: 20.6560794857, 
-			February: 6.36, 
-			March: 25.8539551667, 
-			April: 51.5593369444, 
-			May: 228.5824739167, 
-			June: 232.7853265833, 
-			July: 141.7225813333 
+			January: 7.7080945714, 
+			February: 4.32, 
+			March: 30.6487720833, 
+			April: 64.53, 
+			May: 222.46, 
+			June: 376.11, 
+			July: 447.63, 
+			Aug: 555.95 
 		}
 	}
 }); 
@@ -21885,13 +23298,14 @@ WeatherOutlook.insert({
 	municipality: "Urbiztondo", 
 	data: {
 		month: {
-			January: 7.7080945714, 
-			February: 4.32, 
-			March: 30.6487720833, 
-			April: 51.5191966667, 
-			May: 235.9208098611, 
-			June: 268.1461181944, 
-			July: 199.8781634722 
+			January: 7.5733285714, 
+			February: 1.29, 
+			March: 18.8721618056, 
+			April: 57.09, 
+			May: 212.66, 
+			June: 346.73, 
+			July: 485.4, 
+			Aug: 569.62 
 		}
 	}
 }); 
@@ -21902,13 +23316,14 @@ WeatherOutlook.insert({
 	municipality: "Urdaneta City", 
 	data: {
 		month: {
-			January: 7.5733285714, 
-			February: 1.29, 
-			March: 18.8721618056, 
-			April: 45.8965148611, 
-			May: 225.8488147222, 
-			June: 263.9239919444, 
-			July: 106.8866694444 
+			January: 7.5361247143, 
+			February: 0.77, 
+			March: 15.2972633333, 
+			April: 53.35, 
+			May: 209.11, 
+			June: 283.5, 
+			July: 495.19, 
+			Aug: 614.16 
 		}
 	}
 }); 
@@ -21919,13 +23334,14 @@ WeatherOutlook.insert({
 	municipality: "Villasis", 
 	data: {
 		month: {
-			January: 7.5361247143, 
-			February: 0.77, 
-			March: 15.2972633333, 
-			April: 47.2671352778, 
-			May: 231.4792836111, 
-			June: 255.0041370833, 
-			July: 155.5347148611 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 49.11, 
+			May: 235.09, 
+			June: 353.57, 
+			July: 570.32, 
+			Aug: 614.57 
 		}
 	}
 }); 
@@ -21939,27 +23355,11 @@ WeatherOutlook.insert({
 			January: 138.0438688114, 
 			February: 97.66, 
 			March: 114.3859143859, 
-			April: 74.7106642157, 
-			May: 152.9880585952, 
-			June: 219.4457176248, 
-			July: 252.4415739103 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Agdangan", 
-	data: {
-		month: {
-			January: 149.5545102857, 
-			February: 112.2, 
-			March: 103.8963983333, 
-			April: 67.3279222222, 
-			May: 137.4845863889, 
-			June: 207.7529902778, 
-			July: 284.0346713889 
+			April: 68.43, 
+			May: 142.66, 
+			June: 217.28, 
+			July: 327.07, 
+			Aug: 270.98 
 		}
 	}
 }); 
@@ -21973,10 +23373,11 @@ WeatherOutlook.insert({
 			January: 180.6424891429, 
 			February: 141.04, 
 			March: 124.7819514815, 
-			April: 62.5653321296, 
-			May: 118.2397048148, 
-			June: 195.8535800926, 
-			July: 215.185833709 
+			April: 62.05, 
+			May: 107.17, 
+			June: 206.64, 
+			July: 290.59, 
+			Aug: 229.31 
 		}
 	}
 }); 
@@ -21990,10 +23391,11 @@ WeatherOutlook.insert({
 			January: 159.0952430476, 
 			February: 115.65, 
 			March: 98.9705687654, 
-			April: 67.8716506173, 
-			May: 148.4248849074, 
-			June: 205.4130508025, 
-			July: 188.1057664198 
+			April: 64.48, 
+			May: 131, 
+			June: 199.78, 
+			July: 288.83, 
+			Aug: 220.12 
 		}
 	}
 }); 
@@ -22007,27 +23409,11 @@ WeatherOutlook.insert({
 			January: 140.9799789286, 
 			February: 99, 
 			March: 120.1828823611, 
-			April: 76.0457734028, 
-			May: 141.4397147917, 
-			June: 238.9846724306, 
-			July: 292.8272474306 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Burdeos", 
-	data: {
-		month: {
-			January: 173.9999323571, 
-			February: 118.27, 
-			March: 140.1704843403, 
-			April: 81.1504433681, 
-			May: 147.1937023958, 
-			June: 165.3107321181, 
-			July: 248.6387002778 
+			April: 76.11, 
+			May: 131.33, 
+			June: 220.95, 
+			July: 340.81, 
+			Aug: 281.28 
 		}
 	}
 }); 
@@ -22041,10 +23427,11 @@ WeatherOutlook.insert({
 			January: 160.5227374, 
 			February: 124.83, 
 			March: 138.4342220437, 
-			April: 75.5197426881, 
-			May: 129.7021510135, 
-			June: 208.2422530016, 
-			July: 242.0244810833 
+			April: 65.97, 
+			May: 113.54, 
+			June: 207.58, 
+			July: 291.66, 
+			Aug: 215.5 
 		}
 	}
 }); 
@@ -22058,10 +23445,11 @@ WeatherOutlook.insert({
 			January: 69.7872702857, 
 			February: 51.8, 
 			March: 50.3985397778, 
-			April: 42.6657762222, 
-			May: 136.3669533889, 
-			June: 215.4681654444, 
-			July: 208.2526047778 
+			April: 44.21, 
+			May: 135.86, 
+			June: 194.9, 
+			July: 288.03, 
+			Aug: 254.86 
 		}
 	}
 }); 
@@ -22075,10 +23463,11 @@ WeatherOutlook.insert({
 			January: 126.5959904643, 
 			February: 89.94, 
 			March: 106.8149753819, 
-			April: 69.2071705556, 
-			May: 139.3988638889, 
-			June: 237.9136430556, 
-			July: 290.1904815972 
+			April: 67.04, 
+			May: 125.96, 
+			June: 221.85, 
+			July: 319.82, 
+			Aug: 269.75 
 		}
 	}
 }); 
@@ -22092,10 +23481,11 @@ WeatherOutlook.insert({
 			January: 82.0926332857, 
 			February: 50.53, 
 			March: 62.4823480556, 
-			April: 54.7292705556, 
-			May: 151.0890268056, 
-			June: 221.4321969444, 
-			July: 163.611165 
+			April: 52.5, 
+			May: 142.64, 
+			June: 212.47, 
+			July: 305.23, 
+			Aug: 284.87 
 		}
 	}
 }); 
@@ -22109,10 +23499,11 @@ WeatherOutlook.insert({
 			January: 137.3971554286, 
 			February: 100.82, 
 			March: 118.2487235556, 
-			April: 73.7158801111, 
-			May: 134.3103758889, 
-			June: 231.8394192222, 
-			July: 327.045207 
+			April: 72.99, 
+			May: 126.21, 
+			June: 217.01, 
+			July: 327.82, 
+			Aug: 267.88 
 		}
 	}
 }); 
@@ -22126,10 +23517,11 @@ WeatherOutlook.insert({
 			January: 150.4734017352, 
 			February: 100.08, 
 			March: 130.0167036789, 
-			April: 103.2329883469, 
-			May: 200.4616342073, 
-			June: 232.8839482656, 
-			July: 279.1073786568 
+			April: 109.24, 
+			May: 205.01, 
+			June: 228.01, 
+			July: 373.45, 
+			Aug: 328.65 
 		}
 	}
 }); 
@@ -22143,10 +23535,11 @@ WeatherOutlook.insert({
 			January: 155.4740981905, 
 			February: 111.58, 
 			March: 139.3666671759, 
-			April: 81.0874123148, 
-			May: 145.1885387037, 
-			June: 233.4457216667, 
-			July: 204.7984895833 
+			April: 70.41, 
+			May: 131.53, 
+			June: 239.04, 
+			July: 326.33, 
+			Aug: 258.04 
 		}
 	}
 }); 
@@ -22154,16 +23547,17 @@ WeatherOutlook.insert({
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
 	province: "Quezon", 
-	municipality: "Gumaca", 
+	municipality: "Hinunangan", 
 	data: {
 		month: {
-			January: 156.1014184286, 
-			February: 117.86, 
-			March: 122.6316080093, 
-			April: 71.6880589352, 
-			May: 136.6669800463, 
-			June: 215.1432775, 
-			July: 209.1450303704 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 133.12, 
+			May: 129.71, 
+			June: 215.28, 
+			July: 202.96, 
+			Aug: 165.35 
 		}
 	}
 }); 
@@ -22177,10 +23571,11 @@ WeatherOutlook.insert({
 			January: 292.8193691429, 
 			February: 202.03, 
 			March: 230.2883099074, 
-			April: 145.0220573148, 
-			May: 192.094125, 
-			June: 209.9664266667, 
-			July: 260.4969167593 
+			April: 147.33, 
+			May: 194.48, 
+			June: 248.9, 
+			July: 321.94, 
+			Aug: 263.46 
 		}
 	}
 }); 
@@ -22194,10 +23589,11 @@ WeatherOutlook.insert({
 			January: 181.2082168571, 
 			February: 126.45, 
 			March: 133.0326662857, 
-			April: 72.0787694286, 
-			May: 126.2315734286, 
-			June: 170.685804, 
-			July: 276.2579455556 
+			April: 78.97, 
+			May: 116.97, 
+			June: 198.14, 
+			July: 198.68, 
+			Aug: 142.41 
 		}
 	}
 }); 
@@ -22211,10 +23607,11 @@ WeatherOutlook.insert({
 			January: 148.3780981667, 
 			February: 110.83, 
 			March: 134.5072703241, 
-			April: 84.9136880787, 
-			May: 142.001056713, 
-			June: 239.8825598611, 
-			July: 234.7214672996 
+			April: 82.73, 
+			May: 138.01, 
+			June: 209.61, 
+			July: 328.47, 
+			Aug: 364.99 
 		}
 	}
 }); 
@@ -22228,10 +23625,11 @@ WeatherOutlook.insert({
 			January: 106.4889444286, 
 			February: 67.55, 
 			March: 83.9741201389, 
-			April: 62.7157993056, 
-			May: 167.4376247222, 
-			June: 218.5521369444, 
-			July: 288.2831018056 
+			April: 62.91, 
+			May: 148.27, 
+			June: 205.6, 
+			July: 313.81, 
+			Aug: 276.19 
 		}
 	}
 }); 
@@ -22245,27 +23643,11 @@ WeatherOutlook.insert({
 			January: 80.5276291429, 
 			February: 66.32, 
 			March: 59.4051592593, 
-			April: 45.5439444444, 
-			May: 116.9673453704, 
-			June: 178.2569515741, 
-			July: 192.1270798148 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Macalelon", 
-	data: {
-		month: {
-			January: 139.5913965714, 
-			February: 106.33, 
-			March: 122.4182616964, 
-			April: 77.3308955159, 
-			May: 138.0483655179, 
-			June: 231.7181120774, 
-			July: 246.1100771528 
+			April: 42.99, 
+			May: 104.71, 
+			June: 194.67, 
+			July: 228.04, 
+			Aug: 197.6 
 		}
 	}
 }); 
@@ -22279,10 +23661,11 @@ WeatherOutlook.insert({
 			January: 123.6623248791, 
 			February: 87.02, 
 			March: 107.8957015171, 
-			April: 67.9389780769, 
-			May: 154.646395, 
-			June: 215.5240707692, 
-			July: 262.855437094 
+			April: 67.76, 
+			May: 146.78, 
+			June: 217.75, 
+			July: 325.67, 
+			Aug: 270.67 
 		}
 	}
 }); 
@@ -22296,27 +23679,11 @@ WeatherOutlook.insert({
 			January: 90.5048498929, 
 			February: 60.12, 
 			March: 82.4928923958, 
-			April: 46.8233457639, 
-			May: 127.6004843056, 
-			June: 240.4919370486, 
-			July: 271.0061070347 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Padre Burgos", 
-	data: {
-		month: {
-			January: 146.6629485714, 
-			February: 107.7, 
-			March: 88.1382463889, 
-			April: 64.2811775, 
-			May: 148.4715011111, 
-			June: 201.2982202778, 
-			July: 158.8271358333 
+			April: 47.58, 
+			May: 118.2, 
+			June: 227.72, 
+			July: 353.48, 
+			Aug: 252.53 
 		}
 	}
 }); 
@@ -22330,10 +23697,11 @@ WeatherOutlook.insert({
 			January: 111.1039757143, 
 			February: 81.76, 
 			March: 78.2251143254, 
-			April: 57.8389397619, 
-			May: 140.9809188492, 
-			June: 195.8914104365, 
-			July: 183.3614936905 
+			April: 54.83, 
+			May: 131.9, 
+			June: 204.24, 
+			July: 258.89, 
+			Aug: 209.45 
 		}
 	}
 }); 
@@ -22347,61 +23715,11 @@ WeatherOutlook.insert({
 			January: 165.9353897143, 
 			February: 113.54, 
 			March: 134.4605736519, 
-			April: 86.4196676916, 
-			May: 152.2246115533, 
-			June: 159.5037799444, 
-			July: 301.6205958016 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Patnanungan", 
-	data: {
-		month: {
-			January: 166.9257805714, 
-			February: 123.99, 
-			March: 135.9724098611, 
-			April: 71.9350658333, 
-			May: 129.6652781944, 
-			June: 158.2065729167, 
-			July: 240.6465584722 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Perez", 
-	data: {
-		month: {
-			January: 155.8039892857, 
-			February: 121.04, 
-			March: 118.6056680913, 
-			April: 60.8553797024, 
-			May: 126.487052631, 
-			June: 189.988365377, 
-			July: 238.9870509722 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Pitogo", 
-	data: {
-		month: {
-			January: 145.6720072857, 
-			February: 112.85, 
-			March: 122.33184875, 
-			April: 74.4175547222, 
-			May: 137.8195131944, 
-			June: 222.1624802778, 
-			July: 218.3169986111 
+			April: 95.75, 
+			May: 141.7, 
+			June: 223.26, 
+			July: 287.98, 
+			Aug: 271.06 
 		}
 	}
 }); 
@@ -22415,27 +23733,11 @@ WeatherOutlook.insert({
 			January: 173.8915065714, 
 			February: 135.21, 
 			March: 112.9981302778, 
-			April: 67.0879741667, 
-			May: 125.8700961111, 
-			June: 210.5074216667, 
-			July: 207.1816722222 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Polillo", 
-	data: {
-		month: {
-			January: 170.2789192063, 
-			February: 123.79, 
-			March: 145.7342228907, 
-			April: 80.2801403386, 
-			May: 139.5835746243, 
-			June: 179.7399956323, 
-			July: 256.0036531173 
+			April: 65.23, 
+			May: 125.28, 
+			June: 223.02, 
+			July: 292.78, 
+			Aug: 214.01 
 		}
 	}
 }); 
@@ -22449,10 +23751,11 @@ WeatherOutlook.insert({
 			January: 175.3973834286, 
 			February: 138.1, 
 			March: 123.1193288889, 
-			April: 64.1592845833, 
-			May: 122.0281530556, 
-			June: 195.91637, 
-			July: 236.0908818056 
+			April: 62.62, 
+			May: 113.99, 
+			June: 169.36, 
+			July: 295.1, 
+			Aug: 224.84 
 		}
 	}
 }); 
@@ -22466,10 +23769,11 @@ WeatherOutlook.insert({
 			January: 156.0403914286, 
 			February: 102.01, 
 			March: 132.0314812393, 
-			April: 89.3960111325, 
-			May: 183.5484770299, 
-			June: 222.229723953, 
-			July: 231.7058494017 
+			April: 83.65, 
+			May: 163.34, 
+			June: 202.15, 
+			July: 352.33, 
+			Aug: 309.19 
 		}
 	}
 }); 
@@ -22483,10 +23787,11 @@ WeatherOutlook.insert({
 			January: 108.3577775, 
 			February: 81.02, 
 			March: 99.0320147917, 
-			April: 65.9561447222, 
-			May: 157.0836485417, 
-			June: 221.5811388889, 
-			July: 221.461436875 
+			April: 65.98, 
+			May: 146.14, 
+			June: 214.96, 
+			July: 334.25, 
+			Aug: 289.12 
 		}
 	}
 }); 
@@ -22500,10 +23805,11 @@ WeatherOutlook.insert({
 			January: 50.3000528571, 
 			February: 41.75, 
 			March: 57.8256651111, 
-			April: 49.3602818889, 
-			May: 151.3256442778, 
-			June: 330.16411, 
-			July: 335.6033326984 
+			April: 47.1, 
+			May: 138.64, 
+			June: 235.01, 
+			July: 395, 
+			Aug: 354.35 
 		}
 	}
 }); 
@@ -22517,10 +23823,11 @@ WeatherOutlook.insert({
 			January: 72.9163691429, 
 			February: 48.5, 
 			March: 48.0997576389, 
-			April: 43.2663023611, 
-			May: 135.5170559722, 
-			June: 232.9778625, 
-			July: 222.6055944444 
+			April: 44.88, 
+			May: 139.72, 
+			June: 184.25, 
+			July: 323.6, 
+			Aug: 295.1 
 		}
 	}
 }); 
@@ -22534,10 +23841,11 @@ WeatherOutlook.insert({
 			January: 69.9461652727, 
 			February: 37.78, 
 			March: 54.3562162345, 
-			April: 35.4967423925, 
-			May: 130.3356784199, 
-			June: 241.3212221364, 
-			July: 410.4478707323 
+			April: 39.37, 
+			May: 133.07, 
+			June: 232.02, 
+			July: 352.09, 
+			Aug: 325.59 
 		}
 	}
 }); 
@@ -22551,10 +23859,11 @@ WeatherOutlook.insert({
 			January: 100.8881603265, 
 			February: 70.6, 
 			March: 90.4814180159, 
-			April: 55.9476809524, 
-			May: 136.9692580556, 
-			June: 258.951409127, 
-			July: 279.3294605159 
+			April: 54.22, 
+			May: 128.12, 
+			June: 235.68, 
+			July: 360.43, 
+			Aug: 283.67 
 		}
 	}
 }); 
@@ -22568,10 +23877,11 @@ WeatherOutlook.insert({
 			January: 78.5844668571, 
 			February: 53.27, 
 			March: 55.1970995238, 
-			April: 45.2216131349, 
-			May: 137.8553022619, 
-			June: 196.1237910317, 
-			July: 200.6861844841 
+			April: 41.63, 
+			May: 119.98, 
+			June: 199.71, 
+			July: 236.53, 
+			Aug: 213.61 
 		}
 	}
 }); 
@@ -22585,10 +23895,11 @@ WeatherOutlook.insert({
 			January: 188.6924535429, 
 			February: 135.12, 
 			March: 164.6942465139, 
-			April: 92.142541125, 
-			May: 155.8489755278, 
-			June: 226.0112714167, 
-			July: 211.1922481944 
+			April: 97.28, 
+			May: 153.07, 
+			June: 197.39, 
+			July: 353.84, 
+			Aug: 272.63 
 		}
 	}
 }); 
@@ -22602,10 +23913,11 @@ WeatherOutlook.insert({
 			January: 93.9438435102, 
 			February: 72.8, 
 			March: 75.0551730159, 
-			April: 54.8796317063, 
-			May: 144.3265737698, 
-			June: 197.501811746, 
-			July: 212.4984017732 
+			April: 52.08, 
+			May: 136.46, 
+			June: 212.8, 
+			July: 277.21, 
+			Aug: 221.42 
 		}
 	}
 }); 
@@ -22619,27 +23931,11 @@ WeatherOutlook.insert({
 			January: 77.8959520714, 
 			February: 48.43, 
 			March: 52.5218840972, 
-			April: 45.6047384028, 
-			May: 142.83154125, 
-			June: 229.3959238889, 
-			July: 208.6407225694 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Quezon", 
-	municipality: "Unisan", 
-	data: {
-		month: {
-			January: 146.5619955, 
-			February: 112.38, 
-			March: 113.129918377, 
-			April: 69.5851149306, 
-			May: 134.8542151845, 
-			June: 215.1922815814, 
-			July: 233.9804644444 
+			April: 42.61, 
+			May: 139.98, 
+			June: 204.12, 
+			July: 312.35, 
+			Aug: 282.15 
 		}
 	}
 }); 
@@ -22653,10 +23949,11 @@ WeatherOutlook.insert({
 			January: 92.1412429736, 
 			February: 77.46, 
 			March: 117.6511384763, 
-			April: 99.8135803236, 
-			May: 225.3759343743, 
-			June: 133.8650472276, 
-			July: 364.4082812271 
+			April: 92.08, 
+			May: 201.8, 
+			June: 126.1, 
+			July: 298.34, 
+			Aug: 292.88 
 		}
 	}
 }); 
@@ -22670,10 +23967,11 @@ WeatherOutlook.insert({
 			January: 84.8135154286, 
 			February: 73.04, 
 			March: 111.6854594444, 
-			April: 88.5725759524, 
-			May: 207.7137455556, 
-			June: 136.5107170635, 
-			July: 410.3786614683 
+			April: 84.06, 
+			May: 186.57, 
+			June: 132.28, 
+			July: 303.7, 
+			Aug: 312.41 
 		}
 	}
 }); 
@@ -22687,10 +23985,11 @@ WeatherOutlook.insert({
 			January: 78.9790775918, 
 			February: 63.77, 
 			March: 104.4575479762, 
-			April: 93.1229817857, 
-			May: 210.149769881, 
-			June: 133.5252721429, 
-			July: 421.3423671429 
+			April: 89.93, 
+			May: 187.47, 
+			June: 125.13, 
+			July: 301.4, 
+			Aug: 287.64 
 		}
 	}
 }); 
@@ -22704,10 +24003,11 @@ WeatherOutlook.insert({
 			January: 66.7375324286, 
 			February: 51.43, 
 			March: 87.4228763056, 
-			April: 85.1562237778, 
-			May: 207.3034219444, 
-			June: 132.3637250833, 
-			July: 348.1041188056 
+			April: 81.15, 
+			May: 185.2, 
+			June: 123.7, 
+			July: 287.51, 
+			Aug: 277.61 
 		}
 	}
 }); 
@@ -22721,10 +24021,11 @@ WeatherOutlook.insert({
 			January: 112.0692750879, 
 			February: 98.94, 
 			March: 136.3257507585, 
-			April: 100.9222834829, 
-			May: 225.3679725534, 
-			June: 138.898103547, 
-			July: 391.0168823291 
+			April: 92.25, 
+			May: 195.14, 
+			June: 131.29, 
+			July: 298.82, 
+			Aug: 279.22 
 		}
 	}
 }); 
@@ -22738,10 +24039,11 @@ WeatherOutlook.insert({
 			January: 91.0012170343, 
 			February: 75.2, 
 			March: 118.1836192667, 
-			April: 106.0071180167, 
-			May: 235.8089596944, 
-			June: 131.7144993167, 
-			July: 335.5500420056 
+			April: 103.37, 
+			May: 217.7, 
+			June: 124.88, 
+			July: 301.62, 
+			Aug: 303.99 
 		}
 	}
 }); 
@@ -22755,10 +24057,11 @@ WeatherOutlook.insert({
 			January: 70.9208489524, 
 			February: 57.9, 
 			March: 92.395655, 
-			April: 77.6774533333, 
-			May: 188.5423806481, 
-			June: 125.711677037, 
-			July: 429.0078457407 
+			April: 76.96, 
+			May: 177.38, 
+			June: 118.76, 
+			July: 293.07, 
+			Aug: 270.19 
 		}
 	}
 }); 
@@ -22772,10 +24075,29 @@ WeatherOutlook.insert({
 			January: 73.116282392, 
 			February: 39.8, 
 			March: 57.2712021318, 
-			April: 53.6741811822, 
-			May: 190.6363358333, 
-			June: 253.5819026098, 
-			July: 245.7099813953 
+			April: 40.02, 
+			May: 165.28, 
+			June: 237.06, 
+			July: 442.79, 
+			Aug: 458.44 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "Rizal", 
+	municipality: "Angono", 
+	data: {
+		month: {
+			January: 66.7757359524, 
+			February: 35.81, 
+			March: 52.1696724074, 
+			April: 26.63, 
+			May: 182.88, 
+			June: 264.95, 
+			July: 523.18, 
+			Aug: 530.4 
 		}
 	}
 }); 
@@ -22786,13 +24108,14 @@ WeatherOutlook.insert({
 	municipality: "Antipolo City", 
 	data: {
 		month: {
-			January: 66.7757359524, 
-			February: 35.81, 
-			March: 52.1696724074, 
-			April: 51.5106243056, 
-			May: 194.0061349306, 
-			June: 260.5712222222, 
-			July: 252.6127267824 
+			January: 67.095382, 
+			February: 37.67, 
+			March: 50.5922077778, 
+			April: 46.95, 
+			May: 183.09, 
+			June: 249.39, 
+			July: 482.97, 
+			Aug: 493.61 
 		}
 	}
 }); 
@@ -22803,13 +24126,14 @@ WeatherOutlook.insert({
 	municipality: "Baras", 
 	data: {
 		month: {
-			January: 67.095382, 
-			February: 37.67, 
-			March: 50.5922077778, 
-			April: 39.5304391667, 
-			May: 169.2680841667, 
-			June: 236.8716008333, 
-			July: 203.5659416667 
+			January: 39.4601465714, 
+			February: 22.61, 
+			March: 27.9570923611, 
+			April: 39.53, 
+			May: 161.52, 
+			June: 220.37, 
+			July: 429.07, 
+			Aug: 484.2 
 		}
 	}
 }); 
@@ -22820,13 +24144,32 @@ WeatherOutlook.insert({
 	municipality: "Binangonan", 
 	data: {
 		month: {
-			January: 39.4601465714, 
-			February: 22.61, 
-			March: 27.9570923611, 
-			April: 25.5764219444, 
-			May: 174.3175701389, 
-			June: 261.2925663889, 
-			July: 300.9632715278 
+			January: 52.3682722857, 
+			February: 32.27, 
+			March: 38.6988758333, 
+			April: 28.01, 
+			May: 149.68, 
+			June: 233.06, 
+			July: 428.43, 
+			Aug: 436.14 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IV-A: CALABARZON", 
+	province: "Rizal", 
+	municipality: "Cainta", 
+	data: {
+		month: {
+			January: 70.4088708571, 
+			February: 39.9, 
+			March: 49.9921125, 
+			April: 25.85, 
+			May: 185.08, 
+			June: 276.03, 
+			July: 539.12, 
+			Aug: 544.99 
 		}
 	}
 }); 
@@ -22837,13 +24180,14 @@ WeatherOutlook.insert({
 	municipality: "Cardona", 
 	data: {
 		month: {
-			January: 52.3682722857, 
-			February: 32.27, 
-			March: 38.6988758333, 
-			April: 30.4423705556, 
-			May: 138.765525, 
-			June: 233.1116230556, 
-			July: 391.2989108333 
+			January: 53.2626302857, 
+			February: 28.79, 
+			March: 37.2956958333, 
+			April: 28.11, 
+			May: 148.01, 
+			June: 226.87, 
+			July: 406.78, 
+			Aug: 446.86 
 		}
 	}
 }); 
@@ -22854,13 +24198,14 @@ WeatherOutlook.insert({
 	municipality: "Jala-Jala", 
 	data: {
 		month: {
-			January: 70.4088708571, 
-			February: 39.9, 
-			March: 49.9921125, 
-			April: 40.1384823611, 
-			May: 158.2290480556, 
-			June: 230.0734375, 
-			July: 294.6985604167 
+			January: 68.7146751429, 
+			February: 43.01, 
+			March: 52.6410166667, 
+			April: 40.55, 
+			May: 152.17, 
+			June: 214.32, 
+			July: 344.25, 
+			Aug: 366.02 
 		}
 	}
 }); 
@@ -22871,13 +24216,14 @@ WeatherOutlook.insert({
 	municipality: "Morong", 
 	data: {
 		month: {
-			January: 53.2626302857, 
-			February: 28.79, 
-			March: 37.2956958333, 
-			April: 30.8718541667, 
-			May: 178.1051172222, 
-			June: 260.4040561111, 
-			July: 279.6463983333 
+			January: 76.074161039, 
+			February: 40.11, 
+			March: 64.3690816919, 
+			April: 30.04, 
+			May: 174.52, 
+			June: 245.81, 
+			July: 464.38, 
+			Aug: 495.76 
 		}
 	}
 }); 
@@ -22888,13 +24234,14 @@ WeatherOutlook.insert({
 	municipality: "Pililla", 
 	data: {
 		month: {
-			January: 68.7146751429, 
-			February: 43.01, 
-			March: 52.6410166667, 
-			April: 39.5740430556, 
-			May: 162.9689402778, 
-			June: 229.0095380556, 
-			July: 228.6669438889 
+			January: 44.2890885714, 
+			February: 27.12, 
+			March: 34.604445, 
+			April: 42.07, 
+			May: 156.52, 
+			June: 212.6, 
+			July: 376.86, 
+			Aug: 412.98 
 		}
 	}
 }); 
@@ -22905,13 +24252,14 @@ WeatherOutlook.insert({
 	municipality: "Rodriguez", 
 	data: {
 		month: {
-			January: 76.074161039, 
-			February: 40.11, 
-			March: 64.3690816919, 
-			April: 70.2667046465, 
-			May: 212.3564152778, 
-			June: 263.573059798, 
-			July: 249.0507725505 
+			January: 101.6291086984, 
+			February: 55.34, 
+			March: 77.1047899074, 
+			April: 53.43, 
+			May: 191.12, 
+			June: 268.94, 
+			July: 501.73, 
+			Aug: 439.19 
 		}
 	}
 }); 
@@ -22922,13 +24270,14 @@ WeatherOutlook.insert({
 	municipality: "San Mateo", 
 	data: {
 		month: {
-			January: 44.2890885714, 
-			February: 27.12, 
-			March: 34.604445, 
-			April: 37.3346683333, 
-			May: 188.6109372222, 
-			June: 286.4144891667, 
-			July: 247.4731652778 
+			January: 31.4707817143, 
+			February: 17.8, 
+			March: 22.7530533333, 
+			April: 39.6, 
+			May: 183.31, 
+			June: 266.17, 
+			July: 501.82, 
+			Aug: 510.13 
 		}
 	}
 }); 
@@ -22939,13 +24288,14 @@ WeatherOutlook.insert({
 	municipality: "Tanay", 
 	data: {
 		month: {
-			January: 101.6291086984, 
-			February: 55.34, 
-			March: 77.1047899074, 
-			April: 60.4991368827, 
-			May: 182.2361152778, 
-			June: 231.7186377161, 
-			July: 211.0197035802 
+			January: 54.2746968571, 
+			February: 30.51, 
+			March: 42.1389108333, 
+			April: 56.31, 
+			May: 166.39, 
+			June: 215.65, 
+			July: 416.49, 
+			Aug: 432.66 
 		}
 	}
 }); 
@@ -22956,13 +24306,14 @@ WeatherOutlook.insert({
 	municipality: "Taytay", 
 	data: {
 		month: {
-			January: 31.4707817143, 
-			February: 17.8, 
-			March: 22.7530533333, 
-			April: 28.9353655556, 
-			May: 206.7021394444, 
-			June: 295.590585, 
-			July: 177.6000527778 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 28.03, 
+			May: 193.44, 
+			June: 276.41, 
+			July: 556.35, 
+			Aug: 554.06 
 		}
 	}
 }); 
@@ -22973,13 +24324,14 @@ WeatherOutlook.insert({
 	municipality: "Teresa", 
 	data: {
 		month: {
-			January: 54.2746968571, 
-			February: 30.51, 
-			March: 42.1389108333, 
-			April: 34.3177666667, 
-			May: 183.7292363889, 
-			June: 268.2618483333, 
-			July: 175.8655716667 
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 34.32, 
+			May: 175.98, 
+			June: 251.76, 
+			July: 480.16, 
+			Aug: 523.84 
 		}
 	}
 }); 
@@ -22993,10 +24345,11 @@ WeatherOutlook.insert({
 			January: 92.0730070801, 
 			February: 47.85, 
 			March: 63.8028934001, 
-			April: 53.2066231703, 
-			May: 174.4012080383, 
-			June: 271.6248546609, 
-			July: 218.0024195867 
+			April: 54.39, 
+			May: 159.06, 
+			June: 269.03, 
+			July: 439.13, 
+			Aug: 331.09 
 		}
 	}
 }); 
@@ -23010,27 +24363,11 @@ WeatherOutlook.insert({
 			January: 76.7839159048, 
 			February: 41.49, 
 			March: 47.5768355556, 
-			April: 49.2961835185, 
-			May: 183.1379177778, 
-			June: 298.5497668519, 
-			July: 201.1709561111 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-B: MIMAROPA", 
-	province: "Romblon", 
-	municipality: "Banton", 
-	data: {
-		month: {
-			January: 84.0757551429, 
-			February: 38.01, 
-			March: 49.3498491667, 
-			April: 45.1732894444, 
-			May: 170.3082075, 
-			June: 252.7286222222, 
-			July: 386.9654591667 
+			April: 56.58, 
+			May: 178.06, 
+			June: 298.27, 
+			July: 497, 
+			Aug: 377.46 
 		}
 	}
 }); 
@@ -23044,10 +24381,11 @@ WeatherOutlook.insert({
 			January: 117.4050760714, 
 			February: 59.2, 
 			March: 87.7743303472, 
-			April: 59.0969125694, 
-			May: 172.6157531944, 
-			June: 244.9318066667, 
-			July: 187.6321351389 
+			April: 51.62, 
+			May: 146.06, 
+			June: 216.81, 
+			July: 355.38, 
+			Aug: 274.63 
 		}
 	}
 }); 
@@ -23061,10 +24399,11 @@ WeatherOutlook.insert({
 			January: 87.5111674286, 
 			February: 50.22, 
 			March: 58.9803577143, 
-			April: 54.9285282857, 
-			May: 163.6103977143, 
-			June: 247.6207814286, 
-			July: 139.8197208333 
+			April: 57.32, 
+			May: 159.99, 
+			June: 255.85, 
+			July: 370.55, 
+			Aug: 300.59 
 		}
 	}
 }); 
@@ -23072,16 +24411,17 @@ WeatherOutlook.insert({
 WeatherOutlook.insert({ 
 	region: "Region IV-B: MIMAROPA", 
 	province: "Romblon", 
-	municipality: "Concepcion", 
+	municipality: "Corcuera", 
 	data: {
 		month: {
 			January: 74.5583177143, 
 			February: 47.84, 
 			March: 44.6113321429, 
-			April: 45.8968407143, 
-			May: 159.3122887143, 
-			June: 264.1024058571, 
-			July: 362.6069952778 
+			April: 48.53, 
+			May: 136.37, 
+			June: 237.08, 
+			July: 338.54, 
+			Aug: 228.87 
 		}
 	}
 }); 
@@ -23095,10 +24435,11 @@ WeatherOutlook.insert({
 			January: 61.7142125714, 
 			February: 31.32, 
 			March: 39.8900714286, 
-			April: 46.2302225714, 
-			May: 198.8195271429, 
-			June: 316.1347728571, 
-			July: 127.7051197222 
+			April: 45.71, 
+			May: 188.55, 
+			June: 314.47, 
+			July: 555.11, 
+			Aug: 395.52 
 		}
 	}
 }); 
@@ -23112,10 +24453,11 @@ WeatherOutlook.insert({
 			January: 69.1149822857, 
 			February: 38.72, 
 			March: 42.4658794444, 
-			April: 44.0197425, 
-			May: 181.7792919444, 
-			June: 291.0905027778, 
-			July: 178.8956936111 
+			April: 54.81, 
+			May: 163.4, 
+			June: 288.41, 
+			July: 507.61, 
+			Aug: 358.76 
 		}
 	}
 }); 
@@ -23129,10 +24471,11 @@ WeatherOutlook.insert({
 			January: 112.6062965714, 
 			February: 57.79, 
 			March: 83.3634876852, 
-			April: 58.8578648148, 
-			May: 165.5475760185, 
-			June: 242.1726312963, 
-			July: 179.1475243519 
+			April: 47.96, 
+			May: 144.84, 
+			June: 230.5, 
+			July: 366.39, 
+			Aug: 277.06 
 		}
 	}
 }); 
@@ -23146,10 +24489,11 @@ WeatherOutlook.insert({
 			January: 70.9481293714, 
 			February: 36.81, 
 			March: 45.0040539444, 
-			April: 48.7225012222, 
-			May: 192.8275035556, 
-			June: 300.5453082222, 
-			July: 208.3387343889 
+			April: 50.01, 
+			May: 184.43, 
+			June: 298.85, 
+			July: 508.04, 
+			Aug: 380.54 
 		}
 	}
 }); 
@@ -23163,10 +24507,11 @@ WeatherOutlook.insert({
 			January: 100.8373251429, 
 			February: 54.07, 
 			March: 76.1077533333, 
-			April: 59.6063154167, 
-			May: 133.8809538889, 
-			June: 229.7921170833, 
-			July: 178.1159856944 
+			April: 53.98, 
+			May: 124.14, 
+			June: 218.02, 
+			July: 354.47, 
+			Aug: 250.17 
 		}
 	}
 }); 
@@ -23180,10 +24525,11 @@ WeatherOutlook.insert({
 			January: 87.2005514286, 
 			February: 42.04, 
 			March: 58.9455152778, 
-			April: 53.7778525, 
-			May: 172.2560561111, 
-			June: 269.94104125, 
-			July: 211.0656034722 
+			April: 54.01, 
+			May: 159.49, 
+			June: 266.28, 
+			July: 395.62, 
+			Aug: 315.67 
 		}
 	}
 }); 
@@ -23197,10 +24543,11 @@ WeatherOutlook.insert({
 			January: 83.6526921429, 
 			February: 47.01, 
 			March: 56.3044910417, 
-			April: 52.5092560417, 
-			May: 167.7632555556, 
-			June: 269.2214847917, 
-			July: 204.4236394444 
+			April: 57.97, 
+			May: 159.25, 
+			June: 269.17, 
+			July: 402.85, 
+			Aug: 341.31 
 		}
 	}
 }); 
@@ -23214,10 +24561,11 @@ WeatherOutlook.insert({
 			January: 113.3595779592, 
 			February: 53.19, 
 			March: 87.1112613299, 
-			April: 59.1558171315, 
-			May: 179.0750940964, 
-			June: 265.7775166803, 
-			July: 203.1443156746 
+			April: 57.1, 
+			May: 155.38, 
+			June: 248.95, 
+			July: 413.33, 
+			Aug: 338.78 
 		}
 	}
 }); 
@@ -23231,10 +24579,11 @@ WeatherOutlook.insert({
 			January: 93.3913214286, 
 			February: 55.64, 
 			March: 57.2390075, 
-			April: 48.0328433333, 
-			May: 169.5049422222, 
-			June: 305.7527905556, 
-			July: 503.8534233333 
+			April: 67.24, 
+			May: 159.21, 
+			June: 301.73, 
+			July: 492.29, 
+			Aug: 389.87 
 		}
 	}
 }); 
@@ -23248,10 +24597,11 @@ WeatherOutlook.insert({
 			January: 85.1263107143, 
 			February: 52.13, 
 			March: 51.5211684722, 
-			April: 48.2072677778, 
-			May: 160.7606708333, 
-			June: 279.91505625, 
-			July: 247.7868093056 
+			April: 63.23, 
+			May: 152.94, 
+			June: 279.59, 
+			July: 478.79, 
+			Aug: 353.96 
 		}
 	}
 }); 
@@ -23265,10 +24615,11 @@ WeatherOutlook.insert({
 			January: 81.5407192857, 
 			February: 38.4, 
 			March: 50.8432856944, 
-			April: 49.7601627778, 
-			May: 194.3857655556, 
-			June: 296.9204061111, 
-			July: 214.41328875 
+			April: 49.74, 
+			May: 188.95, 
+			June: 296.91, 
+			July: 443.34, 
+			Aug: 371.1 
 		}
 	}
 }); 
@@ -23282,10 +24633,29 @@ WeatherOutlook.insert({
 			January: 386.1373551585, 
 			February: 239.23, 
 			March: 284.3330175391, 
-			April: 174.600437786, 
-			May: 200.3387474313, 
-			June: 280.9482173719, 
-			July: 336.8355658096 
+			April: 170.02, 
+			May: 189.69, 
+			June: 259.72, 
+			July: 342.81, 
+			Aug: 263.84 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region VIII: Eastern Visayas", 
+	province: "Samar", 
+	municipality: "Almagro", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 151.31, 
+			May: 166.87, 
+			June: 250.72, 
+			July: 348.09, 
+			Aug: 278.6 
 		}
 	}
 }); 
@@ -23299,10 +24669,11 @@ WeatherOutlook.insert({
 			January: 422.8801120952, 
 			February: 271.29, 
 			March: 318.32292875, 
-			April: 184.5383148302, 
-			May: 194.8407998457, 
-			June: 271.4092435185, 
-			July: 332.8247459625 
+			April: 174.09, 
+			May: 176.79, 
+			June: 263.91, 
+			July: 301.72, 
+			Aug: 272.44 
 		}
 	}
 }); 
@@ -23316,10 +24687,11 @@ WeatherOutlook.insert({
 			January: 343.5500006, 
 			February: 213.08, 
 			March: 256.3642846225, 
-			April: 165.2321824847, 
-			May: 195.5753281955, 
-			June: 263.0971287013, 
-			July: 286.9686156296 
+			April: 169.29, 
+			May: 186.77, 
+			June: 264.67, 
+			July: 402.08, 
+			Aug: 259.64 
 		}
 	}
 }); 
@@ -23333,10 +24705,11 @@ WeatherOutlook.insert({
 			January: 381.3587986429, 
 			February: 258.7, 
 			March: 295.0731179623, 
-			April: 181.1733668135, 
-			May: 198.0210795694, 
-			June: 287.0912785675, 
-			July: 393.9134004514 
+			April: 154.8, 
+			May: 181.9, 
+			June: 247.06, 
+			July: 328.97, 
+			Aug: 235.34 
 		}
 	}
 }); 
@@ -23350,10 +24723,11 @@ WeatherOutlook.insert({
 			January: 312.6793668571, 
 			February: 179.58, 
 			March: 221.282916832, 
-			April: 144.5338643386, 
-			May: 177.8376010265, 
-			June: 267.9072175635, 
-			July: 304.7847566204 
+			April: 162.1, 
+			May: 176.72, 
+			June: 263.16, 
+			July: 310.47, 
+			Aug: 246.37 
 		}
 	}
 }); 
@@ -23367,10 +24741,11 @@ WeatherOutlook.insert({
 			January: 331.8120814286, 
 			February: 202.94, 
 			March: 228.2982076852, 
-			April: 135.4094802778, 
-			May: 176.772742037, 
-			June: 269.1914765741, 
-			July: 384.4603221296 
+			April: 153.1, 
+			May: 168.26, 
+			June: 265.68, 
+			July: 311.33, 
+			Aug: 238.08 
 		}
 	}
 }); 
@@ -23384,10 +24759,11 @@ WeatherOutlook.insert({
 			January: 383.1591778214, 
 			February: 245.31, 
 			March: 278.8836375774, 
-			April: 182.2778682728, 
-			May: 205.3383036667, 
-			June: 278.4486686964, 
-			July: 420.8525059028 
+			April: 168.24, 
+			May: 198.49, 
+			June: 248.44, 
+			July: 383.89, 
+			Aug: 280.98 
 		}
 	}
 }); 
@@ -23401,10 +24777,11 @@ WeatherOutlook.insert({
 			January: 428.3562120779, 
 			February: 265.88, 
 			March: 320.2479433333, 
-			April: 198.5461136111, 
-			May: 221.6004057323, 
-			June: 300.2069065404, 
-			July: 386.064492298 
+			April: 196.25, 
+			May: 221.76, 
+			June: 255.26, 
+			July: 349.26, 
+			Aug: 266.3 
 		}
 	}
 }); 
@@ -23418,10 +24795,11 @@ WeatherOutlook.insert({
 			January: 344.4760558571, 
 			February: 199.32, 
 			March: 256.3749811111, 
-			April: 162.2822564583, 
-			May: 190.42029125, 
-			June: 283.3890328472, 
-			July: 327.815421875 
+			April: 172.23, 
+			May: 190.07, 
+			June: 261.51, 
+			July: 338.77, 
+			Aug: 285.57 
 		}
 	}
 }); 
@@ -23435,10 +24813,11 @@ WeatherOutlook.insert({
 			January: 415.3001497143, 
 			February: 261.39, 
 			March: 304.7746941984, 
-			April: 180.5479449974, 
-			May: 178.7675093466, 
-			June: 257.9823271243, 
-			July: 244.2519150926 
+			April: 177.2, 
+			May: 178.51, 
+			June: 246.52, 
+			July: 282.58, 
+			Aug: 272.48 
 		}
 	}
 }); 
@@ -23452,10 +24831,11 @@ WeatherOutlook.insert({
 			January: 450.0057656122, 
 			February: 257.65, 
 			March: 328.1852228968, 
-			April: 185.0169881944, 
-			May: 222.550646369, 
-			June: 304.4559261706, 
-			July: 252.2221786706 
+			April: 176.56, 
+			May: 218.83, 
+			June: 261.44, 
+			July: 407.22, 
+			Aug: 225.65 
 		}
 	}
 }); 
@@ -23469,10 +24849,11 @@ WeatherOutlook.insert({
 			January: 363.7533979048, 
 			February: 214.41, 
 			March: 270.6289137037, 
-			April: 168.6084093519, 
-			May: 197.7304524074, 
-			June: 294.1966703704, 
-			July: 348.0492750926 
+			April: 160.38, 
+			May: 194.9, 
+			June: 264.09, 
+			July: 336.42, 
+			Aug: 269.1 
 		}
 	}
 }); 
@@ -23486,10 +24867,11 @@ WeatherOutlook.insert({
 			January: 336.9422171429, 
 			February: 216.76, 
 			March: 245.0745738889, 
-			April: 165.2897102778, 
-			May: 186.6242806944, 
-			June: 279.1679006944, 
-			July: 278.32202625 
+			April: 178.38, 
+			May: 188.43, 
+			June: 249.88, 
+			July: 360.22, 
+			Aug: 299.92 
 		}
 	}
 }); 
@@ -23503,10 +24885,11 @@ WeatherOutlook.insert({
 			January: 413.3965326803, 
 			February: 253.23, 
 			March: 307.085586455, 
-			April: 187.028655291, 
-			May: 214.011963545, 
-			June: 303.2062870635, 
-			July: 316.062043545 
+			April: 187.65, 
+			May: 212.46, 
+			June: 254.59, 
+			July: 349.99, 
+			Aug: 271.21 
 		}
 	}
 }); 
@@ -23520,10 +24903,11 @@ WeatherOutlook.insert({
 			January: 402.0840926667, 
 			February: 269.79, 
 			March: 304.3092074074, 
-			April: 186.2718537037, 
-			May: 202.8542988889, 
-			June: 285.987530463, 
-			July: 425.916747037 
+			April: 150.14, 
+			May: 204.8, 
+			June: 258.26, 
+			July: 327.97, 
+			Aug: 280.7 
 		}
 	}
 }); 
@@ -23537,10 +24921,11 @@ WeatherOutlook.insert({
 			January: 375.1411267937, 
 			February: 232.93, 
 			March: 267.3292225, 
-			April: 173.9167886728, 
-			May: 200.657557284, 
-			June: 285.103026142, 
-			July: 328.5679748148 
+			April: 166.39, 
+			May: 196, 
+			June: 258.59, 
+			July: 359.61, 
+			Aug: 268.11 
 		}
 	}
 }); 
@@ -23554,10 +24939,11 @@ WeatherOutlook.insert({
 			January: 443.1675880952, 
 			February: 257.55, 
 			March: 316.4487940123, 
-			April: 192.8432433333, 
-			May: 230.0815533951, 
-			June: 311.9329690123, 
-			July: 398.382183179 
+			April: 183.07, 
+			May: 227.32, 
+			June: 250.48, 
+			July: 394, 
+			Aug: 303.02 
 		}
 	}
 }); 
@@ -23571,10 +24957,11 @@ WeatherOutlook.insert({
 			January: 357.7245285714, 
 			February: 222.31, 
 			March: 276.8196811111, 
-			April: 172.6975255556, 
-			May: 188.7285694444, 
-			June: 289.1844322222, 
-			July: 415.2277580556 
+			April: 169.63, 
+			May: 183.94, 
+			June: 232.43, 
+			July: 313.56, 
+			Aug: 243.57 
 		}
 	}
 }); 
@@ -23588,10 +24975,11 @@ WeatherOutlook.insert({
 			January: 340.0434930857, 
 			February: 220.55, 
 			March: 255.2807587778, 
-			April: 173.8541483333, 
-			May: 200.2136428889, 
-			June: 271.8169412222, 
-			July: 409.7563678333 
+			April: 170.51, 
+			May: 204.12, 
+			June: 269.01, 
+			July: 389.17, 
+			Aug: 285.69 
 		}
 	}
 }); 
@@ -23605,10 +24993,11 @@ WeatherOutlook.insert({
 			January: 385.0950328571, 
 			February: 252, 
 			March: 274.3899951032, 
-			April: 160.0395854638, 
-			May: 179.7507261781, 
-			June: 259.3540770961, 
-			July: 366.321334784 
+			April: 170.42, 
+			May: 174.87, 
+			June: 260.92, 
+			July: 294.26, 
+			Aug: 262.07 
 		}
 	}
 }); 
@@ -23622,27 +25011,11 @@ WeatherOutlook.insert({
 			January: 277.6052265714, 
 			February: 177.83, 
 			March: 208.0046454286, 
-			April: 128.1926505714, 
-			May: 179.0210628571, 
-			June: 257.1206134286, 
-			July: 289.3905841667 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region VIII: Eastern Visayas", 
-	province: "Samar", 
-	municipality: "Tagapul-An", 
-	data: {
-		month: {
-			January: 264.5410757143, 
-			February: 152.35, 
-			March: 206.9841852778, 
-			April: 115.2201527778, 
-			May: 176.4266044444, 
-			June: 199.6650463889, 
-			July: 471.5197419444 
+			April: 158.49, 
+			May: 182.24, 
+			June: 279.19, 
+			July: 361.57, 
+			Aug: 255.5 
 		}
 	}
 }); 
@@ -23656,10 +25029,11 @@ WeatherOutlook.insert({
 			January: 360.4449595714, 
 			February: 227.74, 
 			March: 251.66446, 
-			April: 145.9943858571, 
-			May: 184.1766525714, 
-			June: 265.8150191429, 
-			July: 480.7395338889 
+			April: 176.05, 
+			May: 185.31, 
+			June: 270.58, 
+			July: 310.52, 
+			Aug: 275.99 
 		}
 	}
 }); 
@@ -23673,10 +25047,11 @@ WeatherOutlook.insert({
 			January: 330.1330825714, 
 			February: 196.62, 
 			March: 225.8605480714, 
-			April: 148.5443765873, 
-			May: 179.2851563413, 
-			June: 268.0929215291, 
-			July: 313.623844537 
+			April: 161.81, 
+			May: 184.77, 
+			June: 257.03, 
+			July: 320.65, 
+			Aug: 269.46 
 		}
 	}
 }); 
@@ -23690,10 +25065,11 @@ WeatherOutlook.insert({
 			January: 365.0788191429, 
 			February: 235.02, 
 			March: 266.9816385417, 
-			April: 160.1558361806, 
-			May: 181.82968875, 
-			June: 274.3571920833, 
-			July: 395.89352 
+			April: 171.24, 
+			May: 179.79, 
+			June: 274.79, 
+			July: 314.32, 
+			Aug: 263.82 
 		}
 	}
 }); 
@@ -23707,10 +25083,11 @@ WeatherOutlook.insert({
 			January: 310.1914831429, 
 			February: 180.27, 
 			March: 216.0819214841, 
-			April: 128.9384203532, 
-			May: 166.6716717937, 
-			June: 268.8368685873, 
-			July: 460.0308611111 
+			April: 155.8, 
+			May: 169.15, 
+			June: 272, 
+			July: 305.29, 
+			Aug: 250.35 
 		}
 	}
 }); 
@@ -23724,10 +25101,11 @@ WeatherOutlook.insert({
 			January: 129.6737387989, 
 			February: 102.72, 
 			March: 166.9999697377, 
-			April: 121.0538622707, 
-			May: 140.4927385464, 
-			June: 208.5098339588, 
-			July: 330.3200272439 
+			April: 112.29, 
+			May: 141.31, 
+			June: 210.21, 
+			July: 172.26, 
+			Aug: 162.97 
 		}
 	}
 }); 
@@ -23741,10 +25119,11 @@ WeatherOutlook.insert({
 			January: 125.038468, 
 			February: 110.6, 
 			March: 154.3400601389, 
-			April: 101.617034429, 
-			May: 128.348486142, 
-			June: 189.9574189661, 
-			July: 372.645842284 
+			April: 90.33, 
+			May: 118.72, 
+			June: 191.6, 
+			July: 185.87, 
+			Aug: 120.69 
 		}
 	}
 }); 
@@ -23758,10 +25137,11 @@ WeatherOutlook.insert({
 			January: 141.4799489143, 
 			February: 94.59, 
 			March: 169.6272848511, 
-			April: 123.7519648178, 
-			May: 127.3642555333, 
-			June: 209.9883606378, 
-			July: 340.6771337333 
+			April: 112.05, 
+			May: 114.12, 
+			June: 212.35, 
+			July: 166.02, 
+			Aug: 142.95 
 		}
 	}
 }); 
@@ -23775,10 +25155,11 @@ WeatherOutlook.insert({
 			January: 105.0406240952, 
 			February: 96.47, 
 			March: 176.1799106944, 
-			April: 145.1492246759, 
-			May: 169.2652205093, 
-			June: 223.7028434722, 
-			July: 307.4823844517 
+			April: 138.05, 
+			May: 158.11, 
+			June: 216.66, 
+			July: 163.22, 
+			Aug: 187.62 
 		}
 	}
 }); 
@@ -23792,10 +25173,11 @@ WeatherOutlook.insert({
 			January: 120.7245678776, 
 			February: 85.8, 
 			March: 150.601665924, 
-			April: 105.8229364807, 
-			May: 137.3984752721, 
-			June: 199.4692032149, 
-			July: 268.8338065992 
+			April: 98.31, 
+			May: 137.7, 
+			June: 202.01, 
+			July: 172.92, 
+			Aug: 167.65 
 		}
 	}
 }); 
@@ -23809,10 +25191,11 @@ WeatherOutlook.insert({
 			January: 106.5503720635, 
 			February: 106.94, 
 			March: 196.1574976543, 
-			April: 168.7112536111, 
-			May: 189.8045041975, 
-			June: 250.5955646605, 
-			July: 329.5618054012 
+			April: 161.07, 
+			May: 180.63, 
+			June: 233.58, 
+			July: 151.29, 
+			Aug: 214.65 
 		}
 	}
 }); 
@@ -23826,10 +25209,11 @@ WeatherOutlook.insert({
 			January: 150.2281728929, 
 			February: 113.82, 
 			March: 172.2099814206, 
-			April: 117.1615507922, 
-			May: 133.4508613388, 
-			June: 204.1309332426, 
-			July: 308.6604667307 
+			April: 107.23, 
+			May: 128.49, 
+			June: 195.09, 
+			July: 178.63, 
+			Aug: 138.29 
 		}
 	}
 }); 
@@ -23843,10 +25227,11 @@ WeatherOutlook.insert({
 			January: 135.9883635102, 
 			February: 114, 
 			March: 162.4167210714, 
-			April: 109.6152487897, 
-			May: 134.3300717857, 
-			June: 203.6901092659, 
-			July: 363.7088439847 
+			April: 99.62, 
+			May: 135.47, 
+			June: 230.03, 
+			July: 178.3, 
+			Aug: 149.01 
 		}
 	}
 }); 
@@ -23860,10 +25245,11 @@ WeatherOutlook.insert({
 			January: 122.457670179, 
 			February: 126.65, 
 			March: 206.5177474435, 
-			April: 184.1332870703, 
-			May: 247.6372700197, 
-			June: 309.4745737414, 
-			July: 235.2573215214 
+			April: 158.58, 
+			May: 243.27, 
+			June: 327, 
+			July: 294.83, 
+			Aug: 258.03 
 		}
 	}
 }); 
@@ -23877,10 +25263,11 @@ WeatherOutlook.insert({
 			January: 130.4623863571, 
 			February: 159.94, 
 			March: 258.884704375, 
-			April: 216.7152504167, 
-			May: 320.6150048611, 
-			June: 385.3230047917, 
-			July: 212.6811218056 
+			April: 190.57, 
+			May: 328.68, 
+			June: 412.02, 
+			July: 337.27, 
+			Aug: 203.88 
 		}
 	}
 }); 
@@ -23894,10 +25281,11 @@ WeatherOutlook.insert({
 			January: 153.1369705429, 
 			February: 164.98, 
 			March: 255.1493437778, 
-			April: 222.95313175, 
-			May: 308.5961231111, 
-			June: 389.0634395556, 
-			July: 230.440091927 
+			April: 194.48, 
+			May: 278.33, 
+			June: 386.92, 
+			July: 302.47, 
+			Aug: 252.8 
 		}
 	}
 }); 
@@ -23911,10 +25299,11 @@ WeatherOutlook.insert({
 			January: 114.8005010204, 
 			February: 105.66, 
 			March: 177.3689523362, 
-			April: 156.3320563486, 
-			May: 223.2110103634, 
-			June: 278.7624155788, 
-			July: 291.960561131 
+			April: 145.13, 
+			May: 226.34, 
+			June: 309.69, 
+			July: 317.45, 
+			Aug: 258.5 
 		}
 	}
 }); 
@@ -23928,27 +25317,11 @@ WeatherOutlook.insert({
 			January: 104.821501974, 
 			February: 107.85, 
 			March: 178.1166688889, 
-			April: 166.4096943434, 
-			May: 215.2481098737, 
-			June: 273.2405220455, 
-			July: 183.5096300354 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Shariff Kabunsuan", 
-	municipality: "Kabuntalan", 
-	data: {
-		month: {
-			January: 101.5378071429, 
-			February: 128.99, 
-			March: 190.2446130556, 
-			April: 164.6346030556, 
-			May: 220.898695, 
-			June: 278.9964813889, 
-			July: 141.7167358333 
+			April: 143.94, 
+			May: 215.51, 
+			June: 299.64, 
+			July: 271.79, 
+			Aug: 277.09 
 		}
 	}
 }); 
@@ -23962,10 +25335,11 @@ WeatherOutlook.insert({
 			January: 125.8748102143, 
 			February: 133.8, 
 			March: 261.9050374306, 
-			April: 222.1295341667, 
-			May: 320.15798875, 
-			June: 386.735661875, 
-			July: 274.3886809722 
+			April: 203.86, 
+			May: 320.39, 
+			June: 398.4, 
+			July: 365.66, 
+			Aug: 324.69 
 		}
 	}
 }); 
@@ -23979,10 +25353,11 @@ WeatherOutlook.insert({
 			January: 134.574971619, 
 			February: 142.17, 
 			March: 200.0208294907, 
-			April: 170.1030755556, 
-			May: 221.195991713, 
-			June: 278.582213287, 
-			July: 249.0269627778 
+			April: 144.21, 
+			May: 220.27, 
+			June: 305.34, 
+			July: 247.54, 
+			Aug: 258.43 
 		}
 	}
 }); 
@@ -23996,10 +25371,11 @@ WeatherOutlook.insert({
 			January: 117.5121168571, 
 			February: 126.37, 
 			March: 223.3850319907, 
-			April: 212.3674661574, 
-			May: 266.8132942593, 
-			June: 328.9550931019, 
-			July: 243.063489213 
+			April: 176.59, 
+			May: 263.64, 
+			June: 342.3, 
+			July: 257.12, 
+			Aug: 303.7 
 		}
 	}
 }); 
@@ -24013,27 +25389,11 @@ WeatherOutlook.insert({
 			January: 125.7636254762, 
 			February: 132.05, 
 			March: 204.3957023148, 
-			April: 192.9713778241, 
-			May: 249.5623721759, 
-			June: 310.1512868056, 
-			July: 227.3252509722 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Shariff Kabunsuan", 
-	municipality: "Sultan Mastura", 
-	data: {
-		month: {
-			January: 113.1903682857, 
-			February: 109.51, 
-			March: 197.9816191667, 
-			April: 195.8936286111, 
-			May: 252.6313625, 
-			June: 297.1500561111, 
-			July: 206.0388683333 
+			April: 170.3, 
+			May: 253.7, 
+			June: 342.66, 
+			July: 276.7, 
+			Aug: 222.21 
 		}
 	}
 }); 
@@ -24047,10 +25407,11 @@ WeatherOutlook.insert({
 			January: 115.4608980476, 
 			February: 113.86, 
 			March: 188.0578623148, 
-			April: 166.0625749074, 
-			May: 211.0082238194, 
-			June: 270.0938592593, 
-			July: 218.442947963 
+			April: 145.08, 
+			May: 210.99, 
+			June: 302.69, 
+			July: 288.9, 
+			Aug: 251.19 
 		}
 	}
 }); 
@@ -24064,10 +25425,11 @@ WeatherOutlook.insert({
 			January: 114.4529726753, 
 			February: 69.52, 
 			March: 148.7427927359, 
-			April: 75.5476338557, 
-			May: 92.7634358398, 
-			June: 201.0506426667, 
-			July: 392.0329806061 
+			April: 66.56, 
+			May: 84.77, 
+			June: 226, 
+			July: 207.89, 
+			Aug: 158.07 
 		}
 	}
 }); 
@@ -24081,10 +25443,11 @@ WeatherOutlook.insert({
 			January: 108.8550408571, 
 			February: 69.27, 
 			March: 162.7077602778, 
-			April: 77.1055916667, 
-			May: 94.0611948611, 
-			June: 191.9720776389, 
-			July: 324.1099588889 
+			April: 68.16, 
+			May: 88.38, 
+			June: 220.17, 
+			July: 200.58, 
+			Aug: 164.41 
 		}
 	}
 }); 
@@ -24098,10 +25461,11 @@ WeatherOutlook.insert({
 			January: 107.9284545714, 
 			February: 69.63, 
 			March: 161.0533213889, 
-			April: 74.6520152778, 
-			May: 97.6379291667, 
-			June: 199.1311055556, 
-			July: 287.3630988889 
+			April: 67.17, 
+			May: 89.86, 
+			June: 221.69, 
+			July: 211.89, 
+			Aug: 158.56 
 		}
 	}
 }); 
@@ -24115,10 +25479,11 @@ WeatherOutlook.insert({
 			January: 120.0042444286, 
 			February: 69.72, 
 			March: 145.7834740278, 
-			April: 75.3489865278, 
-			May: 90.3627522222, 
-			June: 205.7951776389, 
-			July: 430.3369320833 
+			April: 62.98, 
+			May: 81.17, 
+			June: 230.92, 
+			July: 205.54, 
+			Aug: 154.96 
 		}
 	}
 }); 
@@ -24132,10 +25497,11 @@ WeatherOutlook.insert({
 			January: 118.494516, 
 			February: 69.23, 
 			March: 143.7624101389, 
-			April: 75.7180227778, 
-			May: 90.9223597222, 
-			June: 201.3892472222, 
-			July: 416.1678036111 
+			April: 68.28, 
+			May: 85.35, 
+			June: 224.51, 
+			July: 200.84, 
+			Aug: 161.24 
 		}
 	}
 }); 
@@ -24149,10 +25515,11 @@ WeatherOutlook.insert({
 			January: 113.5488118571, 
 			February: 68.65, 
 			March: 140.1188139365, 
-			April: 75.0055970397, 
-			May: 90.8666230913, 
-			June: 200.2947793889, 
-			July: 423.4053529167 
+			April: 67.57, 
+			May: 85.35, 
+			June: 229.75, 
+			July: 218.17, 
+			Aug: 154.12 
 		}
 	}
 }); 
@@ -24166,10 +25533,11 @@ WeatherOutlook.insert({
 			January: 114.6245092857, 
 			February: 70.66, 
 			March: 145.1862409722, 
-			April: 75.0077805556, 
-			May: 95.1670026389, 
-			June: 206.7617, 
-			July: 418.4797963889 
+			April: 67.48, 
+			May: 84.07, 
+			June: 222.35, 
+			July: 215.29, 
+			Aug: 156.91 
 		}
 	}
 }); 
@@ -24183,10 +25551,11 @@ WeatherOutlook.insert({
 			January: 292.6199076631, 
 			February: 199.27, 
 			March: 181.9833219966, 
-			April: 117.8698468953, 
-			May: 162.7579252791, 
-			June: 181.9277090357, 
-			July: 339.8612735489 
+			April: 117.22, 
+			May: 154.39, 
+			June: 171.3, 
+			July: 311.12, 
+			Aug: 219.23 
 		}
 	}
 }); 
@@ -24200,10 +25569,11 @@ WeatherOutlook.insert({
 			January: 313.5116594286, 
 			February: 239.29, 
 			March: 203.6682003704, 
-			April: 101.3360338889, 
-			May: 140.9691562037, 
-			June: 179.0482073148, 
-			July: 400.6442608333 
+			April: 122.85, 
+			May: 151.52, 
+			June: 189.87, 
+			July: 330.19, 
+			Aug: 209.82 
 		}
 	}
 }); 
@@ -24217,10 +25587,11 @@ WeatherOutlook.insert({
 			January: 290.4135700571, 
 			February: 193.23, 
 			March: 174.1111963889, 
-			April: 114.5474247778, 
-			May: 153.822401, 
-			June: 167.6252527778, 
-			July: 175.9649195556 
+			April: 116.42, 
+			May: 146.02, 
+			June: 160.39, 
+			July: 296.21, 
+			Aug: 204.18 
 		}
 	}
 }); 
@@ -24234,10 +25605,11 @@ WeatherOutlook.insert({
 			January: 318.1998650476, 
 			February: 215.91, 
 			March: 219.9288478704, 
-			April: 118.9652418519, 
-			May: 173.8101021296, 
-			June: 204.0046392593, 
-			July: 145.9759272222 
+			April: 117.62, 
+			May: 165.94, 
+			June: 192.83, 
+			July: 331.31, 
+			Aug: 238.62 
 		}
 	}
 }); 
@@ -24251,10 +25623,11 @@ WeatherOutlook.insert({
 			January: 336.7948505714, 
 			February: 242.23, 
 			March: 209.1059926389, 
-			April: 121.6458595833, 
-			May: 150.8955051389, 
-			June: 176.2115119444, 
-			July: 400.5587493056 
+			April: 134.58, 
+			May: 151.36, 
+			June: 179.56, 
+			July: 331.02, 
+			Aug: 217.64 
 		}
 	}
 }); 
@@ -24268,10 +25641,11 @@ WeatherOutlook.insert({
 			January: 252.23329, 
 			February: 176.64, 
 			March: 144.6242100754, 
-			April: 108.8939295542, 
-			May: 156.850192959, 
-			June: 165.6869768228, 
-			July: 412.9118643981 
+			April: 112.45, 
+			May: 147.66, 
+			June: 158.42, 
+			July: 295.37, 
+			Aug: 212.02 
 		}
 	}
 }); 
@@ -24285,10 +25659,11 @@ WeatherOutlook.insert({
 			January: 225.8875117143, 
 			February: 150.69, 
 			March: 125.5990342222, 
-			April: 95.1073188889, 
-			May: 169.284477, 
-			June: 182.2825682778, 
-			July: 498.1695544444 
+			April: 94.99, 
+			May: 145.04, 
+			June: 162.27, 
+			July: 314.45, 
+			Aug: 206.89 
 		}
 	}
 }); 
@@ -24302,10 +25677,11 @@ WeatherOutlook.insert({
 			January: 314.2000013333, 
 			February: 240.32, 
 			March: 194.5592674074, 
-			April: 108.2755012037, 
-			May: 134.0907851852, 
-			June: 176.0391516667, 
-			July: 362.0229689815 
+			April: 126.16, 
+			May: 151.52, 
+			June: 189.87, 
+			July: 330.19, 
+			Aug: 209.82 
 		}
 	}
 }); 
@@ -24319,10 +25695,11 @@ WeatherOutlook.insert({
 			January: 310.2674465, 
 			February: 204.43, 
 			March: 205.1777965972, 
-			April: 120.4502968056, 
-			May: 162.8026877778, 
-			June: 180.0817266667, 
-			July: 166.5951555556 
+			April: 114.61, 
+			May: 155.87, 
+			June: 173.57, 
+			July: 324.62, 
+			Aug: 225.64 
 		}
 	}
 }); 
@@ -24336,10 +25713,11 @@ WeatherOutlook.insert({
 			January: 331.4249629048, 
 			February: 222.19, 
 			March: 208.5243840093, 
-			April: 134.3421381283, 
-			May: 171.5261812765, 
-			June: 185.355053459, 
-			July: 331.4664647685 
+			April: 123.63, 
+			May: 159.67, 
+			June: 175.13, 
+			July: 335.52, 
+			Aug: 239.79 
 		}
 	}
 }); 
@@ -24353,10 +25731,11 @@ WeatherOutlook.insert({
 			January: 294.1315009286, 
 			February: 200.94, 
 			March: 176.9013711806, 
-			April: 123.4143677083, 
-			May: 159.5772795139, 
-			June: 173.2138144444, 
-			July: 370.9286388194 
+			April: 128.27, 
+			May: 160.36, 
+			June: 174.75, 
+			July: 328.62, 
+			Aug: 237.16 
 		}
 	}
 }); 
@@ -24370,10 +25749,11 @@ WeatherOutlook.insert({
 			January: 296.0877960571, 
 			February: 185.91, 
 			March: 202.7515006667, 
-			April: 116.8911044444, 
-			May: 170.1755811667, 
-			June: 189.8832713889, 
-			July: 190.8146339444 
+			April: 125.39, 
+			May: 157.02, 
+			June: 166.81, 
+			July: 284.51, 
+			Aug: 203.66 
 		}
 	}
 }); 
@@ -24387,27 +25767,11 @@ WeatherOutlook.insert({
 			January: 243.0232997959, 
 			February: 170.88, 
 			March: 138.9838850011, 
-			April: 106.167678076, 
-			May: 165.6783439637, 
-			June: 179.0304338549, 
-			July: 466.3557676587 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region V: Bicol Region", 
-	province: "Sorsogon", 
-	municipality: "Prieto Diaz", 
-	data: {
-		month: {
-			January: 322.9494854286, 
-			February: 220.13, 
-			March: 197.1422229167, 
-			April: 123.7332044444, 
-			May: 153.7642673611, 
-			June: 198.4032336111, 
-			July: 337.7092508333 
+			April: 120.31, 
+			May: 141.8, 
+			June: 152.18, 
+			July: 289.1, 
+			Aug: 200.59 
 		}
 	}
 }); 
@@ -24421,10 +25785,11 @@ WeatherOutlook.insert({
 			January: 309.5864557143, 
 			February: 202.96, 
 			March: 213.4322455556, 
-			April: 122.9083311111, 
-			May: 163.6214681944, 
-			June: 179.0139184722, 
-			July: 239.9777805556 
+			April: 115.45, 
+			May: 154.21, 
+			June: 171.77, 
+			July: 298.8, 
+			Aug: 207.85 
 		}
 	}
 }); 
@@ -24438,10 +25803,11 @@ WeatherOutlook.insert({
 			January: 314.6484857714, 
 			February: 207.39, 
 			March: 196.6648617587, 
-			April: 136.4196569635, 
-			May: 173.5669563595, 
-			June: 193.302033727, 
-			July: 388.2683229444 
+			April: 118.95, 
+			May: 166.5, 
+			June: 183.4, 
+			July: 312.58, 
+			Aug: 242.72 
 		}
 	}
 }); 
@@ -24455,10 +25821,11 @@ WeatherOutlook.insert({
 			January: 124.3107542721, 
 			February: 116.43, 
 			March: 171.2272226228, 
-			April: 126.421640822, 
-			May: 164.3536668915, 
-			June: 228.4818860317, 
-			July: 358.6901037871 
+			April: 109.04, 
+			May: 150.81, 
+			June: 239.68, 
+			July: 196.99, 
+			Aug: 185.99 
 		}
 	}
 }); 
@@ -24472,10 +25839,11 @@ WeatherOutlook.insert({
 			January: 119.8798112381, 
 			February: 116.04, 
 			March: 161.0343950463, 
-			April: 121.8342013889, 
-			May: 153.3561450463, 
-			June: 225.4108507407, 
-			July: 363.8303032407 
+			April: 114.69, 
+			May: 151.23, 
+			June: 252.96, 
+			July: 196.48, 
+			Aug: 198.2 
 		}
 	}
 }); 
@@ -24489,10 +25857,11 @@ WeatherOutlook.insert({
 			January: 117.4032079388, 
 			February: 82.29, 
 			March: 125.1914577381, 
-			April: 83.3762436706, 
-			May: 120.77933875, 
-			June: 158.0036329365, 
-			July: 335.768353691 
+			April: 76.92, 
+			May: 121.27, 
+			June: 213.61, 
+			July: 174.95, 
+			Aug: 128.86 
 		}
 	}
 }); 
@@ -24506,10 +25875,11 @@ WeatherOutlook.insert({
 			January: 118.5585149143, 
 			February: 121.5, 
 			March: 169.2948298056, 
-			April: 118.3894188056, 
-			May: 163.2283835556, 
-			June: 243.1651275833, 
-			July: 319.4893641024 
+			April: 111.23, 
+			May: 162.31, 
+			June: 256.41, 
+			July: 203.01, 
+			Aug: 221.25 
 		}
 	}
 }); 
@@ -24523,10 +25893,11 @@ WeatherOutlook.insert({
 			January: 131.5076671032, 
 			February: 128.13, 
 			March: 201.7911262654, 
-			April: 162.5603492593, 
-			May: 191.2385131867, 
-			June: 259.8098325309, 
-			July: 321.6155142903 
+			April: 149.19, 
+			May: 198.6, 
+			June: 222.26, 
+			July: 217.95, 
+			Aug: 249.87 
 		}
 	}
 }); 
@@ -24540,10 +25911,11 @@ WeatherOutlook.insert({
 			January: 116.1347823571, 
 			February: 116.62, 
 			March: 165.374076875, 
-			April: 125.7853461806, 
-			May: 167.3594456944, 
-			June: 245.2890440278, 
-			July: 586.2645001389 
+			April: 115.78, 
+			May: 177.45, 
+			June: 267.99, 
+			July: 209.44, 
+			Aug: 240.21 
 		}
 	}
 }); 
@@ -24557,10 +25929,11 @@ WeatherOutlook.insert({
 			January: 124.6441887429, 
 			February: 100.78, 
 			March: 138.5717645833, 
-			April: 98.0369422778, 
-			May: 139.0313383333, 
-			June: 180.0560728333, 
-			July: 338.9738303333 
+			April: 87.45, 
+			May: 140.89, 
+			June: 257.81, 
+			July: 160.65, 
+			Aug: 149.01 
 		}
 	}
 }); 
@@ -24574,10 +25947,11 @@ WeatherOutlook.insert({
 			January: 121.6723385714, 
 			February: 121.03, 
 			March: 165.8223134722, 
-			April: 130.7464047222, 
-			May: 163.8051505556, 
-			June: 241.6714756944, 
-			July: 329.42774125 
+			April: 122.56, 
+			May: 157.37, 
+			June: 273.4, 
+			July: 192.06, 
+			Aug: 213.01 
 		}
 	}
 }); 
@@ -24591,10 +25965,11 @@ WeatherOutlook.insert({
 			January: 125.9264847013, 
 			February: 125.95, 
 			March: 175.6796204293, 
-			April: 133.8461963384, 
-			May: 165.5331452273, 
-			June: 238.0782209343, 
-			July: 354.7356983081 
+			April: 124.82, 
+			May: 165.05, 
+			June: 249.18, 
+			July: 209.49, 
+			Aug: 226.79 
 		}
 	}
 }); 
@@ -24608,10 +25983,11 @@ WeatherOutlook.insert({
 			January: 124.935094381, 
 			February: 128.63, 
 			March: 182.4057481481, 
-			April: 120.0867295833, 
-			May: 163.3332445139, 
-			June: 246.1429180787, 
-			July: 339.8415009451 
+			April: 111.94, 
+			May: 165.26, 
+			June: 248.79, 
+			July: 201.7, 
+			Aug: 217.56 
 		}
 	}
 }); 
@@ -24625,10 +26001,11 @@ WeatherOutlook.insert({
 			January: 113.2048138214, 
 			February: 117.43, 
 			March: 168.8320417708, 
-			April: 107.2482128472, 
-			May: 175.8888135069, 
-			June: 258.0576042361, 
-			July: 572.2290727232 
+			April: 101.22, 
+			May: 176.8, 
+			June: 262.08, 
+			July: 203.86, 
+			Aug: 248.42 
 		}
 	}
 }); 
@@ -24642,10 +26019,11 @@ WeatherOutlook.insert({
 			January: 124.7485070971, 
 			February: 110.51, 
 			March: 166.0273965556, 
-			April: 123.4350664667, 
-			May: 161.5942672778, 
-			June: 213.2461519556, 
-			July: 356.4978615959 
+			April: 108.87, 
+			May: 132.69, 
+			June: 218.49, 
+			July: 201.85, 
+			Aug: 151.52 
 		}
 	}
 }); 
@@ -24659,10 +26037,11 @@ WeatherOutlook.insert({
 			January: 125.3118431429, 
 			February: 121.23, 
 			March: 165.8379413889, 
-			April: 116.3807692901, 
-			May: 157.4309912346, 
-			June: 222.6962331481, 
-			July: 356.2814143677 
+			April: 109.9, 
+			May: 167.26, 
+			June: 262.25, 
+			July: 193.08, 
+			Aug: 207.34 
 		}
 	}
 }); 
@@ -24676,10 +26055,11 @@ WeatherOutlook.insert({
 			January: 423.7616213022, 
 			February: 235.9, 
 			March: 297.5466580809, 
-			April: 183.9709777022, 
-			May: 140.3493315475, 
-			June: 217.3800904617, 
-			July: 325.259654781 
+			April: 177.72, 
+			May: 149.88, 
+			June: 217.82, 
+			July: 278.02, 
+			Aug: 234.88 
 		}
 	}
 }); 
@@ -24693,10 +26073,11 @@ WeatherOutlook.insert({
 			January: 448.2670335714, 
 			February: 257.86, 
 			March: 321.2426309722, 
-			April: 198.28529125, 
-			May: 138.4066019444, 
-			June: 209.5124902778, 
-			July: 302.7502136111 
+			April: 186.28, 
+			May: 154.29, 
+			June: 205.12, 
+			July: 231.79, 
+			Aug: 226.77 
 		}
 	}
 }); 
@@ -24710,10 +26091,11 @@ WeatherOutlook.insert({
 			January: 381.0009922857, 
 			February: 219.28, 
 			March: 261.26950375, 
-			April: 173.6844906944, 
-			May: 131.1352794444, 
-			June: 217.06081875, 
-			July: 331.8950605556 
+			April: 167.67, 
+			May: 165.29, 
+			June: 221.75, 
+			July: 287.6, 
+			Aug: 244.55 
 		}
 	}
 }); 
@@ -24727,10 +26109,11 @@ WeatherOutlook.insert({
 			January: 436.4349228571, 
 			February: 228.65, 
 			March: 319.5921734444, 
-			April: 204.0369847778, 
-			May: 146.2410777222, 
-			June: 219.7885426111, 
-			July: 347.0350939444 
+			April: 193.82, 
+			May: 160.06, 
+			June: 211.35, 
+			July: 281.04, 
+			Aug: 213.24 
 		}
 	}
 }); 
@@ -24744,10 +26127,11 @@ WeatherOutlook.insert({
 			January: 455.882514, 
 			February: 243.37, 
 			March: 322.1937583333, 
-			April: 202.1783740278, 
-			May: 137.4047393056, 
-			June: 201.9996147222, 
-			July: 305.57302375 
+			April: 194.25, 
+			May: 149.32, 
+			June: 206.2, 
+			July: 256.76, 
+			Aug: 223.34 
 		}
 	}
 }); 
@@ -24761,10 +26145,11 @@ WeatherOutlook.insert({
 			January: 413.2186177143, 
 			February: 245.09, 
 			March: 306.9367717758, 
-			April: 193.3018541925, 
-			May: 140.8696561706, 
-			June: 224.0594536845, 
-			July: 296.9248447917 
+			April: 187.26, 
+			May: 153.17, 
+			June: 228.39, 
+			July: 280.71, 
+			Aug: 261.12 
 		}
 	}
 }); 
@@ -24778,10 +26163,11 @@ WeatherOutlook.insert({
 			January: 441.2587900714, 
 			February: 266.38, 
 			March: 303.0797988234, 
-			April: 187.4568485159, 
-			May: 133.0758031587, 
-			June: 203.2358695456, 
-			July: 318.7121098611 
+			April: 181.2, 
+			May: 156.54, 
+			June: 212.52, 
+			July: 254.89, 
+			Aug: 239.72 
 		}
 	}
 }); 
@@ -24795,10 +26181,11 @@ WeatherOutlook.insert({
 			January: 348.1046129524, 
 			February: 212.02, 
 			March: 254.1794462434, 
-			April: 128.2691939048, 
-			May: 123.2613017831, 
-			June: 215.4719418704, 
-			July: 261.7303713426 
+			April: 118.01, 
+			May: 133.52, 
+			June: 216.2, 
+			July: 277.3, 
+			Aug: 264.09 
 		}
 	}
 }); 
@@ -24812,10 +26199,11 @@ WeatherOutlook.insert({
 			January: 371.6608725714, 
 			February: 227.77, 
 			March: 255.2164422222, 
-			April: 140.0900369444, 
-			May: 129.7267177778, 
-			June: 205.9372252778, 
-			July: 334.7401438889 
+			April: 130.77, 
+			May: 137.99, 
+			June: 209.92, 
+			July: 260.42, 
+			Aug: 245.53 
 		}
 	}
 }); 
@@ -24829,10 +26217,11 @@ WeatherOutlook.insert({
 			January: 380.9693235714, 
 			February: 232.73, 
 			March: 265.1333872222, 
-			April: 155.0944903472, 
-			May: 128.3975711111, 
-			June: 207.8975378472, 
-			July: 328.4988852778 
+			April: 146.01, 
+			May: 148.76, 
+			June: 208.36, 
+			July: 272.03, 
+			Aug: 232.87 
 		}
 	}
 }); 
@@ -24846,10 +26235,11 @@ WeatherOutlook.insert({
 			January: 396.0480145714, 
 			February: 244.28, 
 			March: 263.8137055556, 
-			April: 154.3918641667, 
-			May: 126.5718630556, 
-			June: 201.2140616667, 
-			July: 409.1115613889 
+			April: 152.74, 
+			May: 144.03, 
+			June: 203.55, 
+			July: 252.51, 
+			Aug: 227.98 
 		}
 	}
 }); 
@@ -24863,10 +26253,11 @@ WeatherOutlook.insert({
 			January: 487.5988434286, 
 			February: 292.94, 
 			March: 347.6859388889, 
-			April: 192.4000305556, 
-			May: 129.5078647222, 
-			June: 208.9577283333, 
-			July: 246.9875058333 
+			April: 184.96, 
+			May: 145.05, 
+			June: 210.51, 
+			July: 268.28, 
+			Aug: 225 
 		}
 	}
 }); 
@@ -24880,10 +26271,11 @@ WeatherOutlook.insert({
 			January: 431.5890614286, 
 			February: 249.35, 
 			March: 308.0102238889, 
-			April: 193.6064575, 
-			May: 137.2832566667, 
-			June: 199.8086088889, 
-			July: 244.0974775 
+			April: 186.11, 
+			May: 139.3, 
+			June: 201.31, 
+			July: 293.88, 
+			Aug: 235.03 
 		}
 	}
 }); 
@@ -24897,10 +26289,11 @@ WeatherOutlook.insert({
 			January: 460.355106, 
 			February: 279.49, 
 			March: 310.5863526746, 
-			April: 190.6578417381, 
-			May: 130.166470254, 
-			June: 201.1699847937, 
-			July: 423.8467805556 
+			April: 188.26, 
+			May: 149.88, 
+			June: 212.41, 
+			July: 287.37, 
+			Aug: 238.38 
 		}
 	}
 }); 
@@ -24914,10 +26307,11 @@ WeatherOutlook.insert({
 			January: 442.6453368571, 
 			February: 254.06, 
 			March: 314.449645, 
-			April: 193.8156647222, 
-			May: 136.4387277778, 
-			June: 203.85797, 
-			July: 256.0621361111 
+			April: 186.32, 
+			May: 149.24, 
+			June: 205.36, 
+			July: 296.21, 
+			Aug: 226.89 
 		}
 	}
 }); 
@@ -24931,10 +26325,11 @@ WeatherOutlook.insert({
 			January: 506.2249438571, 
 			February: 292.79, 
 			March: 349.98138625, 
-			April: 205.4599106944, 
-			May: 132.60359, 
-			June: 210.5044694444, 
-			July: 269.9545304167 
+			April: 195.18, 
+			May: 146.64, 
+			June: 206.22, 
+			July: 260.08, 
+			Aug: 220.7 
 		}
 	}
 }); 
@@ -24948,10 +26343,11 @@ WeatherOutlook.insert({
 			January: 460.3356497551, 
 			February: 210.49, 
 			March: 310.6905516667, 
-			April: 215.2578238889, 
-			May: 165.4650997222, 
-			June: 228.034805873, 
-			July: 369.3968832937 
+			April: 212.73, 
+			May: 152.95, 
+			June: 230.83, 
+			July: 311.69, 
+			Aug: 238.93 
 		}
 	}
 }); 
@@ -24965,10 +26361,11 @@ WeatherOutlook.insert({
 			January: 431.8083662381, 
 			February: 220.04, 
 			March: 297.0156614352, 
-			April: 191.156099537, 
-			May: 154.5106434259, 
-			June: 241.5070645833, 
-			July: 367.5951097685 
+			April: 196.99, 
+			May: 154.89, 
+			June: 241.45, 
+			July: 296.98, 
+			Aug: 255.71 
 		}
 	}
 }); 
@@ -24982,10 +26379,11 @@ WeatherOutlook.insert({
 			January: 376.8120362857, 
 			February: 226.87, 
 			March: 272.1377944444, 
-			April: 164.7007458333, 
-			May: 133.7385688889, 
-			June: 225.6625166667, 
-			July: 281.0141069444 
+			April: 157.2, 
+			May: 143.41, 
+			June: 227.16, 
+			July: 248.34, 
+			Aug: 257.36 
 		}
 	}
 }); 
@@ -24999,10 +26397,11 @@ WeatherOutlook.insert({
 			January: 121.1402304366, 
 			February: 128.13, 
 			March: 196.3396802361, 
-			April: 159.7727280116, 
-			May: 198.9817317152, 
-			June: 270.4131189175, 
-			July: 443.7120150742 
+			April: 137.52, 
+			May: 198.77, 
+			June: 287.47, 
+			July: 251.48, 
+			Aug: 249.61 
 		}
 	}
 }); 
@@ -25016,10 +26415,11 @@ WeatherOutlook.insert({
 			January: 124.6052888707, 
 			February: 138.04, 
 			March: 196.0910861905, 
-			April: 155.3898135847, 
-			May: 194.2922973677, 
-			June: 284.0448568651, 
-			July: 465.8928370423 
+			April: 149.22, 
+			May: 195.3, 
+			June: 311.2, 
+			July: 259.69, 
+			Aug: 252.6 
 		}
 	}
 }); 
@@ -25033,10 +26433,11 @@ WeatherOutlook.insert({
 			January: 115.6236134286, 
 			February: 110.34, 
 			March: 159.9427538889, 
-			April: 101.9972958333, 
-			May: 177.0205919444, 
-			June: 247.9304677778, 
-			July: 622.3043708333 
+			April: 161.27, 
+			May: 180.36, 
+			June: 270.75, 
+			July: 225.34, 
+			Aug: 258.12 
 		}
 	}
 }); 
@@ -25050,10 +26451,11 @@ WeatherOutlook.insert({
 			January: 134.3025801587, 
 			February: 124.42, 
 			March: 169.0291022685, 
-			April: 117.4134355247, 
-			May: 174.1826177469, 
-			June: 250.1518278395, 
-			July: 529.7539929661 
+			April: 116.34, 
+			May: 176.22, 
+			June: 271.76, 
+			July: 249.4, 
+			Aug: 226.41 
 		}
 	}
 }); 
@@ -25067,10 +26469,11 @@ WeatherOutlook.insert({
 			January: 121.098735, 
 			February: 124.97, 
 			March: 198.4008578472, 
-			April: 150.1083989236, 
-			May: 208.1980261458, 
-			June: 275.7266193056, 
-			July: 286.1120345625 
+			April: 124.39, 
+			May: 207.82, 
+			June: 292.72, 
+			July: 263.45, 
+			Aug: 236.87 
 		}
 	}
 }); 
@@ -25084,10 +26487,11 @@ WeatherOutlook.insert({
 			January: 124.0547441524, 
 			February: 133.47, 
 			March: 201.2324906852, 
-			April: 165.0952866667, 
-			May: 207.586291037, 
-			June: 273.2186566667, 
-			July: 575.4082924259 
+			April: 161, 
+			May: 198.57, 
+			June: 283.69, 
+			July: 251.5, 
+			Aug: 234.72 
 		}
 	}
 }); 
@@ -25101,10 +26505,11 @@ WeatherOutlook.insert({
 			January: 112.8337927253, 
 			February: 140.77, 
 			March: 220.3013661325, 
-			April: 198.5966351496, 
-			May: 221.0532267735, 
-			June: 296.1853504274, 
-			July: 525.1644558126 
+			April: 139.96, 
+			May: 216.26, 
+			June: 304.98, 
+			July: 310.47, 
+			Aug: 261.11 
 		}
 	}
 }); 
@@ -25118,10 +26523,11 @@ WeatherOutlook.insert({
 			January: 116.0329444286, 
 			February: 109.13, 
 			March: 169.9989018056, 
-			April: 135.3899514815, 
-			May: 207.6477222222, 
-			June: 244.582062963, 
-			July: 376.310944213 
+			April: 121.99, 
+			May: 213.61, 
+			June: 265.9, 
+			July: 207.39, 
+			Aug: 225.44 
 		}
 	}
 }); 
@@ -25135,10 +26541,11 @@ WeatherOutlook.insert({
 			January: 110.538204449, 
 			February: 122.09, 
 			March: 201.7103561752, 
-			April: 174.1607879535, 
-			May: 207.9726547432, 
-			June: 260.1971105006, 
-			July: 399.3621273311 
+			April: 149.84, 
+			May: 210.69, 
+			June: 293.2, 
+			July: 252.57, 
+			Aug: 263.66 
 		}
 	}
 }); 
@@ -25152,10 +26559,11 @@ WeatherOutlook.insert({
 			January: 119.0764876429, 
 			February: 116.5, 
 			March: 164.17091625, 
-			April: 108.67549125, 
-			May: 171.026735, 
-			June: 246.1546597917, 
-			July: 639.2210911111 
+			April: 114.13, 
+			May: 170.22, 
+			June: 277.81, 
+			July: 207.31, 
+			Aug: 235.5 
 		}
 	}
 }); 
@@ -25169,10 +26577,11 @@ WeatherOutlook.insert({
 			January: 116.1370059627, 
 			February: 124.57, 
 			March: 214.8806026625, 
-			April: 193.365308136, 
-			May: 203.6420064224, 
-			June: 277.837711442, 
-			July: 339.1748858333 
+			April: 147.35, 
+			May: 212.42, 
+			June: 308.86, 
+			July: 238.78, 
+			Aug: 275.57 
 		}
 	}
 }); 
@@ -25186,10 +26595,11 @@ WeatherOutlook.insert({
 			January: 115.2069087143, 
 			February: 108.27, 
 			March: 167.547609375, 
-			April: 112.6809656944, 
-			May: 193.7954993056, 
-			June: 252.0734728472, 
-			July: 409.6894666667 
+			April: 94.81, 
+			May: 192.14, 
+			June: 277.48, 
+			July: 255.04, 
+			Aug: 286.43 
 		}
 	}
 }); 
@@ -25203,10 +26613,11 @@ WeatherOutlook.insert({
 			January: 132.9321215143, 
 			February: 144.36, 
 			March: 210.2820961944, 
-			April: 181.4805978611, 
-			May: 198.7827895, 
-			June: 275.4144431944, 
-			July: 318.4585985556 
+			April: 157.08, 
+			May: 205.1, 
+			June: 298.45, 
+			July: 288.24, 
+			Aug: 250.94 
 		}
 	}
 }); 
@@ -25220,299 +26631,11 @@ WeatherOutlook.insert({
 			January: 114.8685570286, 
 			February: 108.37, 
 			March: 174.8711766111, 
-			April: 110.364955, 
-			May: 184.300589, 
-			June: 256.1957825556, 
-			July: 457.627138246 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "All", 
-	data: {
-		month: {
-			January: 111.9284132308, 
-			February: 100.19, 
-			March: 130.1114657408, 
-			April: 140.2955758469, 
-			May: 161.8733156023, 
-			June: 196.5774239246, 
-			July: 324.0843945305 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Indanan", 
-	data: {
-		month: {
-			January: 123.9802495, 
-			February: 113.6, 
-			March: 141.1271817361, 
-			April: 179.4030929861, 
-			May: 218.69017375, 
-			June: 228.0568155556, 
-			July: 364.3362755556 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Kalingalan Caluang", 
-	data: {
-		month: {
-			January: 117.125665, 
-			February: 100.08, 
-			March: 131.2152405, 
-			April: 135.1537117381, 
-			May: 142.4501184603, 
-			June: 176.4082539762, 
-			July: 279.0022775 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Lugus", 
-	data: {
-		month: {
-			January: 100.8595574286, 
-			February: 99.7, 
-			March: 127.7188219444, 
-			April: 122.097105, 
-			May: 137.1520252778, 
-			June: 194.73517, 
-			July: 311.589405 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Luuk", 
-	data: {
-		month: {
-			January: 114.8201341143, 
-			February: 97.25, 
-			March: 127.3194004921, 
-			April: 131.7206720349, 
-			May: 135.711393646, 
-			June: 172.7587243841, 
-			July: 321.6710777381 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Maimbung", 
-	data: {
-		month: {
-			January: 122.3503357143, 
-			February: 114.23, 
-			March: 144.5718216905, 
-			April: 170.1546866706, 
-			May: 206.2212236706, 
-			June: 212.2186532183, 
-			July: 243.6033843056 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Old Panamao", 
-	data: {
-		month: {
-			January: 113.1004008571, 
-			February: 101.7, 
-			March: 132.1445736111, 
-			April: 143.8231194444, 
-			May: 151.2521238889, 
-			June: 186.2324372222, 
-			July: 263.7347727778 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Pandami", 
-	data: {
-		month: {
-			January: 113.0110324286, 
-			February: 110.32, 
-			March: 142.1744838492, 
-			April: 117.7170599841, 
-			May: 134.8185458413, 
-			June: 196.4100350278, 
-			July: 328.0163822222 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Panglima Estino", 
-	data: {
-		month: {
-			January: 115.4490802857, 
-			February: 104.3, 
-			March: 135.7097652778, 
-			April: 152.7181986111, 
-			May: 161.8398019444, 
-			June: 193.87086, 
-			July: 269.0986386111 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Pangutaran", 
-	data: {
-		month: {
-			January: 73.8783945357, 
-			February: 67.89, 
-			March: 100.4367745069, 
-			April: 108.3604406786, 
-			May: 127.8294215278, 
-			June: 174.6637552331, 
-			July: 332.7613702083 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Parang", 
-	data: {
-		month: {
-			January: 115.0861801429, 
-			February: 107.29, 
-			March: 135.3831915079, 
-			April: 163.0263899603, 
-			May: 202.7793809444, 
-			June: 207.5699837857, 
-			July: 262.9847970833 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Pata", 
-	data: {
-		month: {
-			January: 119.612046, 
-			February: 107.27, 
-			March: 127.5444361905, 
-			April: 142.2346919444, 
-			May: 177.4285141468, 
-			June: 205.2186029444, 
-			July: 311.8955380556 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Patikul", 
-	data: {
-		month: {
-			January: 119.6190761905, 
-			February: 107.53, 
-			March: 138.5669068981, 
-			April: 165.1187946296, 
-			May: 197.9370222685, 
-			June: 219.3796056944, 
-			July: 359.4167570291 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Siasi", 
-	data: {
-		month: {
-			January: 115.1456604762, 
-			February: 113.07, 
-			March: 135.2786066667, 
-			April: 120.4327174074, 
-			May: 144.0142019444, 
-			June: 207.0716644444, 
-			July: 339.3477903704 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Talipao", 
-	data: {
-		month: {
-			January: 120.9716152571, 
-			February: 112.48, 
-			March: 144.4337012222, 
-			April: 164.3915038333, 
-			May: 187.6792660556, 
-			June: 206.4598774444, 
-			July: 271.4873978889 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Tapul", 
-	data: {
-		month: {
-			January: 111.5744434286, 
-			February: 107.81, 
-			March: 130.3228340992, 
-			April: 130.4735612778, 
-			May: 144.9933024564, 
-			June: 196.8010532579, 
-			July: 337.5389241667 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Sulu", 
-	municipality: "Tongkil", 
-	data: {
-		month: {
-			January: 127.3817840476, 
-			February: 96.6, 
-			March: 130.6322248426, 
-			April: 123.6906035198, 
-			May: 135.9620306653, 
-			June: 185.8019119511, 
-			July: 370.351789537 
+			April: 151.7, 
+			May: 186.29, 
+			June: 278.16, 
+			July: 234.8, 
+			Aug: 255.42 
 		}
 	}
 }); 
@@ -25526,10 +26649,11 @@ WeatherOutlook.insert({
 			January: 545.5390484722, 
 			February: 346.35, 
 			March: 373.88997578, 
-			April: 255.9211550379, 
-			May: 144.5046103925, 
-			June: 201.8534628535, 
-			July: 321.4209949945 
+			April: 255.49, 
+			May: 161.42, 
+			June: 196.81, 
+			July: 216.58, 
+			Aug: 191.73 
 		}
 	}
 }); 
@@ -25543,10 +26667,11 @@ WeatherOutlook.insert({
 			January: 553.0524927619, 
 			February: 392.11, 
 			March: 382.6668436111, 
-			April: 282.2006936111, 
-			May: 136.3820056481, 
-			June: 216.313095, 
-			July: 362.0833517593 
+			April: 242.68, 
+			May: 167.53, 
+			June: 191.73, 
+			July: 266.64, 
+			Aug: 254.64 
 		}
 	}
 }); 
@@ -25560,10 +26685,29 @@ WeatherOutlook.insert({
 			January: 560.2872928571, 
 			February: 383.92, 
 			March: 392.2222490278, 
-			April: 286.0631343056, 
-			May: 128.5511665278, 
-			June: 216.0414477778, 
-			July: 340.1262808333 
+			April: 241.4, 
+			May: 140.22, 
+			June: 202.71, 
+			July: 224.76, 
+			Aug: 181.63 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
+	province: "Surigao del Norte", 
+	municipality: "Burgos", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 264.72, 
+			May: 174.66, 
+			June: 153.96, 
+			July: 206.96, 
+			Aug: 218.16 
 		}
 	}
 }); 
@@ -25577,10 +26721,11 @@ WeatherOutlook.insert({
 			January: 562.9505113846, 
 			February: 399.17, 
 			March: 399.9620094872, 
-			April: 273.9061117735, 
-			May: 154.1572805556, 
-			June: 228.4579942521, 
-			July: 315.3725753419 
+			April: 265.2, 
+			May: 161.14, 
+			June: 186.42, 
+			July: 228.24, 
+			Aug: 221.16 
 		}
 	}
 }); 
@@ -25594,10 +26739,11 @@ WeatherOutlook.insert({
 			January: 518.245586619, 
 			February: 314.9, 
 			March: 328.9741347275, 
-			April: 232.5234278677, 
-			May: 167.9679889272, 
-			June: 201.8080295225, 
-			July: 301.2914727579 
+			April: 273.23, 
+			May: 183.14, 
+			June: 195.22, 
+			July: 203.81, 
+			Aug: 164.02 
 		}
 	}
 }); 
@@ -25611,10 +26757,11 @@ WeatherOutlook.insert({
 			January: 536.0874530714, 
 			February: 306.32, 
 			March: 327.4130066825, 
-			April: 230.956019004, 
-			May: 164.2822381389, 
-			June: 204.9796921151, 
-			July: 289.0402871528 
+			April: 275.8, 
+			May: 180.89, 
+			June: 185.89, 
+			July: 208.22, 
+			Aug: 181.63 
 		}
 	}
 }); 
@@ -25628,10 +26775,11 @@ WeatherOutlook.insert({
 			January: 530.1412844286, 
 			February: 314.57, 
 			March: 316.3590251389, 
-			April: 241.4420422222, 
-			May: 170.5844701389, 
-			June: 203.1841515278, 
-			July: 279.3116079167 
+			April: 267.59, 
+			May: 179.84, 
+			June: 191.62, 
+			July: 200.24, 
+			Aug: 178.95 
 		}
 	}
 }); 
@@ -25645,10 +26793,11 @@ WeatherOutlook.insert({
 			January: 555.097405, 
 			February: 379.69, 
 			March: 384.3482930556, 
-			April: 274.86485875, 
-			May: 142.9706377778, 
-			June: 215.0992244444, 
-			July: 337.8487120833 
+			April: 242.62, 
+			May: 156.44, 
+			June: 190.41, 
+			July: 236.87, 
+			Aug: 220.31 
 		}
 	}
 }); 
@@ -25662,10 +26811,11 @@ WeatherOutlook.insert({
 			January: 530.8013662857, 
 			February: 369.32, 
 			March: 392.2365297222, 
-			April: 256.7114508333, 
-			May: 127.8621408333, 
-			June: 206.4257119444, 
-			July: 346.5701258333 
+			April: 231.76, 
+			May: 143.36, 
+			June: 206.35, 
+			July: 247.72, 
+			Aug: 208.85 
 		}
 	}
 }); 
@@ -25679,10 +26829,11 @@ WeatherOutlook.insert({
 			January: 545.3729818571, 
 			February: 374.14, 
 			March: 366.5615001389, 
-			April: 267.3680665972, 
-			May: 127.9351461806, 
-			June: 195.9620875, 
-			July: 327.3861854861 
+			April: 235.94, 
+			May: 152.41, 
+			June: 201.8, 
+			July: 230.27, 
+			Aug: 200.82 
 		}
 	}
 }); 
@@ -25696,10 +26847,11 @@ WeatherOutlook.insert({
 			January: 528.3227932381, 
 			February: 362.05, 
 			March: 390.1246857487, 
-			April: 241.122805746, 
-			May: 131.2228884048, 
-			June: 208.5417125741, 
-			July: 365.0263837963 
+			April: 250.58, 
+			May: 148.82, 
+			June: 203.52, 
+			July: 262.13, 
+			Aug: 231.74 
 		}
 	}
 }); 
@@ -25713,10 +26865,11 @@ WeatherOutlook.insert({
 			January: 541.4564351429, 
 			February: 309.87, 
 			March: 318.6373066667, 
-			April: 225.8749033333, 
-			May: 167.3911013889, 
-			June: 208.9751883333, 
-			July: 332.0247961111 
+			April: 268.82, 
+			May: 183.02, 
+			June: 194.68, 
+			July: 201.55, 
+			Aug: 191.03 
 		}
 	}
 }); 
@@ -25730,10 +26883,11 @@ WeatherOutlook.insert({
 			January: 534.526380381, 
 			February: 344.27, 
 			March: 394.0531580556, 
-			April: 261.8904062037, 
-			May: 124.3746362963, 
-			June: 187.8839917593, 
-			July: 393.2017967593 
+			April: 243.43, 
+			May: 140.61, 
+			June: 178.21, 
+			July: 229.79, 
+			Aug: 193.85 
 		}
 	}
 }); 
@@ -25747,10 +26901,29 @@ WeatherOutlook.insert({
 			January: 563.0207176429, 
 			February: 301.5, 
 			March: 334.0214270397, 
-			April: 231.7785090615, 
-			May: 160.1481569861, 
-			June: 215.3983871567, 
-			July: 279.7810061111 
+			April: 257.77, 
+			May: 175.71, 
+			June: 205.64, 
+			July: 202.82, 
+			Aug: 204.83 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region XIII: Caraga", 
+	province: "Surigao del Norte", 
+	municipality: "San Francisco", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 267.13, 
+			May: 135.46, 
+			June: 242.87, 
+			July: 219.91, 
+			Aug: 192.37 
 		}
 	}
 }); 
@@ -25764,10 +26937,11 @@ WeatherOutlook.insert({
 			January: 554.6685088571, 
 			February: 301.9, 
 			March: 320.8675327778, 
-			April: 229.3740611111, 
-			May: 160.2250030556, 
-			June: 234.3292643056, 
-			July: 286.8328675 
+			April: 263.87, 
+			May: 179.92, 
+			June: 173.04, 
+			July: 202.51, 
+			Aug: 211.79 
 		}
 	}
 }); 
@@ -25781,10 +26955,11 @@ WeatherOutlook.insert({
 			January: 543.5083185714, 
 			February: 295.25, 
 			March: 327.3841845714, 
-			April: 231.5240511429, 
-			May: 157.5847131429, 
-			June: 217.5536757143, 
-			July: 345.4348691667 
+			April: 268.53, 
+			May: 173.08, 
+			June: 193.06, 
+			July: 204.9, 
+			Aug: 215.9 
 		}
 	}
 }); 
@@ -25798,10 +26973,11 @@ WeatherOutlook.insert({
 			January: 526.1291007619, 
 			February: 337.7, 
 			March: 410.027349537, 
-			April: 260.0327974074, 
-			May: 122.4948284259, 
-			June: 178.6444024074, 
-			July: 317.7056181481 
+			April: 231.54, 
+			May: 135.07, 
+			June: 209.63, 
+			July: 220.73, 
+			Aug: 182.09 
 		}
 	}
 }); 
@@ -25815,10 +26991,11 @@ WeatherOutlook.insert({
 			January: 536.4797868571, 
 			February: 332.04, 
 			March: 352.4929267361, 
-			April: 245.0790669444, 
-			May: 157.7731936111, 
-			June: 194.5868633333, 
-			July: 348.0745864583 
+			April: 255.06, 
+			May: 172.93, 
+			June: 192.41, 
+			July: 204.49, 
+			Aug: 181.72 
 		}
 	}
 }); 
@@ -25832,10 +27009,11 @@ WeatherOutlook.insert({
 			January: 549.7512434545, 
 			February: 317.04, 
 			March: 404.9263385332, 
-			April: 257.5146455195, 
-			May: 125.1379071219, 
-			June: 163.1861336126, 
-			July: 312.481297298 
+			April: 250.78, 
+			May: 143.78, 
+			June: 220.22, 
+			July: 206.67, 
+			Aug: 173.75 
 		}
 	}
 }); 
@@ -25849,10 +27027,11 @@ WeatherOutlook.insert({
 			January: 538.3234997143, 
 			February: 335.04, 
 			March: 399.802025, 
-			April: 269.3458727778, 
-			May: 122.9601055556, 
-			June: 169.9363519444, 
-			July: 324.7885769444 
+			April: 250.11, 
+			May: 143.69, 
+			June: 193.86, 
+			July: 191.22, 
+			Aug: 164.48 
 		}
 	}
 }); 
@@ -25866,10 +27045,11 @@ WeatherOutlook.insert({
 			January: 549.6514915714, 
 			February: 368.48, 
 			March: 387.1559006944, 
-			April: 277.1654077778, 
-			May: 125.7618786111, 
-			June: 199.7714618056, 
-			July: 334.5940181944 
+			April: 230.19, 
+			May: 141.73, 
+			June: 212.87, 
+			July: 232.67, 
+			Aug: 202.69 
 		}
 	}
 }); 
@@ -25883,10 +27063,11 @@ WeatherOutlook.insert({
 			January: 617.3423069681, 
 			February: 400.54, 
 			March: 425.3418458153, 
-			April: 300.7159983153, 
-			May: 220.9928068106, 
-			June: 251.043482458, 
-			July: 393.7692107285 
+			April: 288.64, 
+			May: 225.23, 
+			June: 250.97, 
+			July: 268.04, 
+			Aug: 246.82 
 		}
 	}
 }); 
@@ -25900,27 +27081,11 @@ WeatherOutlook.insert({
 			January: 618.658293, 
 			February: 369.12, 
 			March: 422.5938134722, 
-			April: 315.6484017014, 
-			May: 241.3867122222, 
-			June: 266.6225150347, 
-			July: 373.5699620407 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region XIII: Caraga", 
-	province: "Surigao del Sur", 
-	municipality: "Bayabas", 
-	data: {
-		month: {
-			January: 630.85473, 
-			February: 394.72, 
-			March: 409.01553, 
-			April: 282.2657361111, 
-			May: 204.0538930556, 
-			June: 230.6666833333, 
-			July: 552.6723669444 
+			April: 300.48, 
+			May: 170.88, 
+			June: 266.43, 
+			July: 270.2, 
+			Aug: 233.21 
 		}
 	}
 }); 
@@ -25934,10 +27099,11 @@ WeatherOutlook.insert({
 			January: 604.3638199481, 
 			February: 357.27, 
 			March: 423.3329790657, 
-			April: 343.6703457828, 
-			May: 259.0342109091, 
-			June: 272.2889660859, 
-			July: 440.9484101263 
+			April: 339.01, 
+			May: 181.1, 
+			June: 272.7, 
+			July: 279.01, 
+			Aug: 236.22 
 		}
 	}
 }); 
@@ -25951,10 +27117,11 @@ WeatherOutlook.insert({
 			January: 635.8660134286, 
 			February: 398.58, 
 			March: 423.9229620833, 
-			April: 295.5817857407, 
-			May: 217.3738394907, 
-			June: 247.1377796296, 
-			July: 426.8960380556 
+			April: 283.5, 
+			May: 264.66, 
+			June: 252.77, 
+			July: 272.21, 
+			Aug: 244.28 
 		}
 	}
 }); 
@@ -25968,10 +27135,11 @@ WeatherOutlook.insert({
 			January: 595.7735525, 
 			February: 448.34, 
 			March: 430.1638618056, 
-			April: 281.6852350694, 
-			May: 182.5771919444, 
-			June: 248.8602556944, 
-			July: 305.68925125 
+			April: 262.25, 
+			May: 214.11, 
+			June: 232.41, 
+			July: 238.37, 
+			Aug: 222.24 
 		}
 	}
 }); 
@@ -25985,10 +27153,11 @@ WeatherOutlook.insert({
 			January: 602.6728849143, 
 			February: 433.59, 
 			March: 432.1043601667, 
-			April: 272.8906673889, 
-			May: 188.9370845556, 
-			June: 243.6231506111, 
-			July: 404.0006092222 
+			April: 256.29, 
+			May: 225.91, 
+			June: 242.45, 
+			July: 232.05, 
+			Aug: 229.31 
 		}
 	}
 }); 
@@ -26002,10 +27171,11 @@ WeatherOutlook.insert({
 			January: 584.0428324762, 
 			February: 427.35, 
 			March: 416.8991562037, 
-			April: 284.1441665741, 
-			May: 172.1885234259, 
-			June: 240.4706673148, 
-			July: 300.2018744444 
+			April: 284.56, 
+			May: 212.24, 
+			June: 224.14, 
+			July: 258.92, 
+			Aug: 226.66 
 		}
 	}
 }); 
@@ -26019,10 +27189,11 @@ WeatherOutlook.insert({
 			January: 564.1704714286, 
 			February: 380.16, 
 			March: 371.5089151389, 
-			April: 250.3689095833, 
-			May: 172.1569786111, 
-			June: 203.6912008333, 
-			July: 358.79752375 
+			April: 261.92, 
+			May: 236.86, 
+			June: 216.13, 
+			July: 251.17, 
+			Aug: 249.68 
 		}
 	}
 }); 
@@ -26036,10 +27207,11 @@ WeatherOutlook.insert({
 			January: 618.5751545357, 
 			February: 368.6, 
 			March: 408.4444486458, 
-			April: 355.7392915972, 
-			May: 270.1692872917, 
-			June: 286.9818778125, 
-			July: 233.1369158333 
+			April: 324.59, 
+			May: 191.9, 
+			June: 284.84, 
+			July: 273.22, 
+			Aug: 284.14 
 		}
 	}
 }); 
@@ -26053,10 +27225,11 @@ WeatherOutlook.insert({
 			January: 583.9292897857, 
 			February: 409.24, 
 			March: 409.8467776389, 
-			April: 261.3536339236, 
-			May: 187.6504385764, 
-			June: 229.4496416667, 
-			July: 369.1602779514 
+			April: 254.84, 
+			May: 236.54, 
+			June: 233.3, 
+			July: 244.35, 
+			Aug: 246.76 
 		}
 	}
 }); 
@@ -26070,10 +27243,11 @@ WeatherOutlook.insert({
 			January: 621.7327559429, 
 			February: 383.3, 
 			March: 437.4281515, 
-			April: 292.6356031111, 
-			May: 231.5678138333, 
-			June: 256.3200027778, 
-			July: 494.714742446 
+			April: 289.67, 
+			May: 182.11, 
+			June: 258.24, 
+			July: 285.9, 
+			Aug: 242.1 
 		}
 	}
 }); 
@@ -26087,10 +27261,11 @@ WeatherOutlook.insert({
 			January: 575.3553514694, 
 			February: 348.29, 
 			March: 389.770270873, 
-			April: 322.178540754, 
-			May: 240.3766385714, 
-			June: 234.8725840476, 
-			July: 395.2520417857 
+			April: 339.39, 
+			May: 192.13, 
+			June: 231.01, 
+			July: 260.82, 
+			Aug: 231.85 
 		}
 	}
 }); 
@@ -26104,10 +27279,11 @@ WeatherOutlook.insert({
 			January: 591.1097297857, 
 			February: 424.67, 
 			March: 418.3849367361, 
-			April: 273.069274375, 
-			May: 183.7385578472, 
-			June: 237.3051538194, 
-			July: 348.4900874306 
+			April: 248.29, 
+			May: 215.01, 
+			June: 241.41, 
+			July: 222.78, 
+			Aug: 220.86 
 		}
 	}
 }); 
@@ -26121,10 +27297,11 @@ WeatherOutlook.insert({
 			January: 651.4321075143, 
 			February: 415.77, 
 			March: 429.9595921111, 
-			April: 301.1464858056, 
-			May: 224.1275198056, 
-			June: 247.7837116944, 
-			July: 382.0836998333 
+			April: 288.83, 
+			May: 264.44, 
+			June: 250.81, 
+			July: 312.64, 
+			Aug: 248.66 
 		}
 	}
 }); 
@@ -26138,10 +27315,11 @@ WeatherOutlook.insert({
 			January: 639.3128234643, 
 			February: 404.72, 
 			March: 429.5196064931, 
-			April: 299.2798254514, 
-			May: 234.8719301736, 
-			June: 250.2916421528, 
-			July: 483.3150948869 
+			April: 290.15, 
+			May: 255.19, 
+			June: 251.11, 
+			July: 292.29, 
+			Aug: 229.29 
 		}
 	}
 }); 
@@ -26155,10 +27333,11 @@ WeatherOutlook.insert({
 			January: 652.7419155238, 
 			February: 438.33, 
 			March: 456.8429187037, 
-			April: 291.6900475, 
-			May: 222.506730463, 
-			June: 256.061683588, 
-			July: 459.367435463 
+			April: 285.16, 
+			May: 269.02, 
+			June: 251.06, 
+			July: 272.13, 
+			Aug: 247.28 
 		}
 	}
 }); 
@@ -26172,10 +27351,11 @@ WeatherOutlook.insert({
 			January: 621.1384085714, 
 			February: 371.65, 
 			March: 429.7877045988, 
-			April: 329.9352484568, 
-			May: 261.061127963, 
-			June: 275.6319500926, 
-			July: 235.5163470988 
+			April: 321.43, 
+			May: 185.11, 
+			June: 275.65, 
+			July: 259.77, 
+			Aug: 289.23 
 		}
 	}
 }); 
@@ -26189,10 +27369,11 @@ WeatherOutlook.insert({
 			January: 644.6256776071, 
 			February: 419.05, 
 			March: 436.8630602083, 
-			April: 291.5514085069, 
-			May: 215.7059348611, 
-			June: 244.7906084722, 
-			July: 459.6891295833 
+			April: 285.58, 
+			May: 266.09, 
+			June: 250.12, 
+			July: 298.31, 
+			Aug: 261.4 
 		}
 	}
 }); 
@@ -26206,10 +27387,11 @@ WeatherOutlook.insert({
 			January: 618.3194974286, 
 			February: 414.96, 
 			March: 431.428476627, 
-			April: 280.9797045833, 
-			May: 196.9079805159, 
-			June: 233.5652157738, 
-			July: 476.3646050992 
+			April: 271.23, 
+			May: 240.22, 
+			June: 239.71, 
+			July: 270.91, 
+			Aug: 248.89 
 		}
 	}
 }); 
@@ -26223,10 +27405,29 @@ WeatherOutlook.insert({
 			January: 11.4999018197, 
 			February: 6.3, 
 			March: 20.9424031203, 
-			April: 48.09038024, 
-			May: 241.1186665939, 
-			June: 294.2293326969, 
-			July: 300.2539669468 
+			April: 50.83, 
+			May: 233.5, 
+			June: 277.5, 
+			July: 523.12, 
+			Aug: 633.11 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region III: Central Luzon", 
+	province: "Tarlac", 
+	municipality: "Anao", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 48.14, 
+			May: 240.97, 
+			June: 259.87, 
+			July: 458.31, 
+			Aug: 543.85 
 		}
 	}
 }); 
@@ -26240,10 +27441,11 @@ WeatherOutlook.insert({
 			January: 13.8516614762, 
 			February: 5.34, 
 			March: 19.916273287, 
-			April: 46.309665, 
-			May: 244.1994114352, 
-			June: 362.7039159722, 
-			July: 324.249106713 
+			April: 44.32, 
+			May: 240.83, 
+			June: 302.81, 
+			July: 668.92, 
+			Aug: 735.95 
 		}
 	}
 }); 
@@ -26257,10 +27459,11 @@ WeatherOutlook.insert({
 			January: 7.7639289286, 
 			February: 5.18, 
 			March: 28.1748453472, 
-			April: 48.9403691667, 
-			May: 247.7869752778, 
-			June: 264.6302228472, 
-			July: 185.5360216706 
+			April: 57.66, 
+			May: 243.49, 
+			June: 268.27, 
+			July: 490.2, 
+			Aug: 595.71 
 		}
 	}
 }); 
@@ -26274,10 +27477,11 @@ WeatherOutlook.insert({
 			January: 13.0539836964, 
 			February: 5.27, 
 			March: 17.0505327257, 
-			April: 46.1717894271, 
-			May: 239.3572900347, 
-			June: 331.3284929688, 
-			July: 312.906932621 
+			April: 46.93, 
+			May: 231.96, 
+			June: 254.98, 
+			July: 586.73, 
+			Aug: 729.04 
 		}
 	}
 }); 
@@ -26291,10 +27495,11 @@ WeatherOutlook.insert({
 			January: 18.6365470204, 
 			February: 6.62, 
 			March: 17.8522482143, 
-			April: 34.5804871032, 
-			May: 221.0939362698, 
-			June: 285.7079452381, 
-			July: 314.9503509127 
+			April: 40.76, 
+			May: 205.22, 
+			June: 247.37, 
+			July: 507.42, 
+			Aug: 583.09 
 		}
 	}
 }); 
@@ -26308,10 +27513,11 @@ WeatherOutlook.insert({
 			January: 9.9536525714, 
 			February: 3.41, 
 			March: 15.1856583333, 
-			April: 39.8298784722, 
-			May: 231.2746206944, 
-			June: 262.6264483333, 
-			July: 292.3863529167 
+			April: 47.57, 
+			May: 219.16, 
+			June: 282.25, 
+			July: 467.13, 
+			Aug: 579.09 
 		}
 	}
 }); 
@@ -26325,10 +27531,11 @@ WeatherOutlook.insert({
 			January: 18.7123371429, 
 			February: 6.06, 
 			March: 17.2569507639, 
-			April: 34.8099941667, 
-			May: 217.5523311111, 
-			June: 251.1567053472, 
-			July: 325.2194383333 
+			April: 42.05, 
+			May: 205.46, 
+			June: 319.45, 
+			July: 445.86, 
+			Aug: 501.01 
 		}
 	}
 }); 
@@ -26342,10 +27549,11 @@ WeatherOutlook.insert({
 			January: 8.1818005397, 
 			February: 11.08, 
 			March: 31.5005157099, 
-			April: 64.6473716049, 
-			May: 261.0980195679, 
-			June: 299.8916959568, 
-			July: 325.1797575309 
+			April: 60.34, 
+			May: 245.36, 
+			June: 263.8, 
+			July: 520.47, 
+			Aug: 600.48 
 		}
 	}
 }); 
@@ -26359,10 +27567,11 @@ WeatherOutlook.insert({
 			January: 7.918186, 
 			February: 2.07, 
 			March: 15.7248213889, 
-			April: 43.9008948148, 
-			May: 248.2650712963, 
-			June: 252.8908385185, 
-			July: 177.2682941667 
+			April: 51.26, 
+			May: 236.4, 
+			June: 295.44, 
+			July: 465.27, 
+			Aug: 552.69 
 		}
 	}
 }); 
@@ -26376,10 +27585,11 @@ WeatherOutlook.insert({
 			January: 7.6299110476, 
 			February: 2.14, 
 			March: 15.9839003704, 
-			April: 41.0566181481, 
-			May: 243.9726583333, 
-			June: 258.26799, 
-			July: 253.5553202778 
+			April: 48.28, 
+			May: 235.64, 
+			June: 284.6, 
+			July: 475.35, 
+			Aug: 579.45 
 		}
 	}
 }); 
@@ -26393,10 +27603,11 @@ WeatherOutlook.insert({
 			January: 8.6295345714, 
 			February: 3.58, 
 			March: 14.1342058333, 
-			April: 36.9462005556, 
-			May: 237.8185986111, 
-			June: 252.5937916667, 
-			July: 317.9244144444 
+			April: 44.45, 
+			May: 230.07, 
+			June: 257.14, 
+			July: 455.09, 
+			Aug: 514.5 
 		}
 	}
 }); 
@@ -26410,10 +27621,11 @@ WeatherOutlook.insert({
 			January: 7.9941777143, 
 			February: 1.82, 
 			March: 13.7594647222, 
-			April: 39.9337211111, 
-			May: 246.3847041667, 
-			June: 252.695015, 
-			July: 242.2333905556 
+			April: 47.43, 
+			May: 238.63, 
+			June: 248.89, 
+			July: 459.79, 
+			Aug: 499.81 
 		}
 	}
 }); 
@@ -26427,10 +27639,11 @@ WeatherOutlook.insert({
 			January: 8.1082320714, 
 			February: 9.69, 
 			March: 37.7445290972, 
-			April: 66.7761310417, 
-			May: 262.6359415278, 
-			June: 265.1865613194, 
-			July: 231.0713306944 
+			April: 70.46, 
+			May: 254.43, 
+			June: 288.05, 
+			July: 481.77, 
+			Aug: 590.55 
 		}
 	}
 }); 
@@ -26444,10 +27657,11 @@ WeatherOutlook.insert({
 			January: 8.3165438231, 
 			February: 7.68, 
 			March: 22.6653925265, 
-			April: 56.6302823413, 
-			May: 250.5246062566, 
-			June: 318.282218545, 
-			July: 327.7691197823 
+			April: 53.81, 
+			May: 232.87, 
+			June: 270.8, 
+			July: 556.71, 
+			Aug: 654.33 
 		}
 	}
 }); 
@@ -26461,10 +27675,11 @@ WeatherOutlook.insert({
 			January: 7.6056284286, 
 			February: 0.84, 
 			March: 16.9754572222, 
-			April: 50.2434883333, 
-			May: 240.7792211111, 
-			June: 253.6291154167, 
-			July: 184.1341019444 
+			April: 56.97, 
+			May: 240.41, 
+			June: 297.28, 
+			July: 471.95, 
+			Aug: 607.55 
 		}
 	}
 }); 
@@ -26478,10 +27693,11 @@ WeatherOutlook.insert({
 			January: 7.8124129143, 
 			February: 5.82, 
 			March: 20.3009232778, 
-			April: 42.6286116667, 
-			May: 235.2180994444, 
-			June: 286.6022003889, 
-			July: 309.9958639064 
+			April: 51.85, 
+			May: 229.88, 
+			June: 293.47, 
+			July: 510.29, 
+			Aug: 621.82 
 		}
 	}
 }); 
@@ -26495,10 +27711,11 @@ WeatherOutlook.insert({
 			January: 16.4258998095, 
 			February: 6.77, 
 			March: 18.4403489198, 
-			April: 39.9839771605, 
-			May: 221.7468487963, 
-			June: 252.6519433333, 
-			July: 317.123542284 
+			April: 47.29, 
+			May: 207.21, 
+			June: 327.81, 
+			July: 460.91, 
+			Aug: 503.54 
 		}
 	}
 }); 
@@ -26512,180 +27729,11 @@ WeatherOutlook.insert({
 			January: 17.5624247857, 
 			February: 4.44, 
 			March: 15.60782375, 
-			April: 39.2282697917, 
-			May: 232.6166359722, 
-			June: 254.4831620833, 
-			July: 299.4726542361 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "All", 
-	data: {
-		month: {
-			January: 135.4548713359, 
-			February: 108.74, 
-			March: 140.6410612883, 
-			April: 125.5087055515, 
-			May: 162.4310563852, 
-			June: 170.9064710905, 
-			July: 324.4823477553 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Bongao", 
-	data: {
-		month: {
-			January: 140.240576, 
-			February: 126.39, 
-			March: 151.8697465741, 
-			April: 128.9565938889, 
-			May: 194.7813035185, 
-			June: 160.7180950926, 
-			July: 310.1252916429 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Languyan", 
-	data: {
-		month: {
-			January: 102.241386898, 
-			February: 95.12, 
-			March: 129.4360209104, 
-			April: 125.633201034, 
-			May: 168.2081897959, 
-			June: 167.5827143141, 
-			July: 335.9559244048 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Mapun", 
-	data: {
-		month: {
-			January: 262.615952381, 
-			February: 65.04, 
-			March: 114.4219164709, 
-			April: 116.365418619, 
-			May: 174.2468340185, 
-			June: 176.9039747963, 
-			July: 245.149200463 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Panglima Sugala", 
-	data: {
-		month: {
-			January: 119.2330459365, 
-			February: 109.37, 
-			March: 140.9235515009, 
-			April: 129.1553764233, 
-			May: 182.0219978078, 
-			June: 169.9794226587, 
-			July: 324.0115460882 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Sibutu", 
-	data: {
-		month: {
-			January: 116.1706238095, 
-			February: 135.83, 
-			March: 164.2439062037, 
-			April: 129.4125592593, 
-			May: 139.8039890741, 
-			June: 164.9515459259, 
-			July: 305.437214537 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Simunul", 
-	data: {
-		month: {
-			January: 128.8118974286, 
-			February: 134.9, 
-			March: 169.6907408333, 
-			April: 127.0315602778, 
-			May: 156.403645, 
-			June: 168.4285733333, 
-			July: 304.4874822222 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "South Ubian", 
-	data: {
-		month: {
-			January: 130.386986381, 
-			February: 113.2, 
-			March: 150.4685516561, 
-			April: 125.7480002328, 
-			May: 130.7490072169, 
-			June: 190.8907806058, 
-			July: 346.3720773148 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Tandubas", 
-	data: {
-		month: {
-			January: 113.7919696327, 
-			February: 100.8, 
-			March: 137.0638202381, 
-			April: 125.5758847052, 
-			May: 143.0667968265, 
-			June: 177.9873168855, 
-			July: 347.7353965476 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "ARMM", 
-	province: "Tawi-Tawi", 
-	municipality: "Turtle Islands", 
-	data: {
-		month: {
-			January: 349.4450171429, 
-			February: 211.44, 
-			March: 157.2053125714, 
-			April: 94.4808411429, 
-			May: 117.6791531429, 
-			June: 125.9126454286, 
-			July: 378.1648713889 
+			April: 46.73, 
+			May: 221.59, 
+			June: 256.74, 
+			July: 452.82, 
+			Aug: 581.39 
 		}
 	}
 }); 
@@ -26699,10 +27747,11 @@ WeatherOutlook.insert({
 			January: 8.2764225087, 
 			February: 5.16, 
 			March: 14.6640901627, 
-			April: 40.3582078001, 
-			May: 252.6638153229, 
-			June: 378.4261153868, 
-			July: 307.4159127093 
+			April: 35.77, 
+			May: 237.52, 
+			June: 367.21, 
+			July: 660.07, 
+			Aug: 825.36 
 		}
 	}
 }); 
@@ -26716,10 +27765,11 @@ WeatherOutlook.insert({
 			January: 8.2367657922, 
 			February: 4.11, 
 			March: 14.7820134848, 
-			April: 42.8703417172, 
-			May: 250.8134096086, 
-			June: 382.9937441667, 
-			July: 362.2330493835 
+			April: 40.06, 
+			May: 247.91, 
+			June: 377.95, 
+			July: 674.88, 
+			Aug: 873.34 
 		}
 	}
 }); 
@@ -26733,10 +27783,11 @@ WeatherOutlook.insert({
 			January: 7.9695546786, 
 			February: 5.37, 
 			March: 4.1549864315, 
-			April: 34.6769979067, 
-			May: 254.1709191111, 
-			June: 394.4702549901, 
-			July: 413.5536821875 
+			April: 32.92, 
+			May: 253.95, 
+			June: 404.63, 
+			July: 695.25, 
+			Aug: 849.07 
 		}
 	}
 }); 
@@ -26750,10 +27801,11 @@ WeatherOutlook.insert({
 			January: 8.2360444034, 
 			February: 5.65, 
 			March: 27.6381228422, 
-			April: 58.6524956134, 
-			May: 269.5437296695, 
-			June: 343.3007196489, 
-			July: 268.3890714379 
+			April: 54.25, 
+			May: 251.69, 
+			June: 356.31, 
+			July: 588.12, 
+			Aug: 779.77 
 		}
 	}
 }); 
@@ -26767,10 +27819,11 @@ WeatherOutlook.insert({
 			January: 12.0566414286, 
 			February: 5.98, 
 			March: 6.7513611111, 
-			April: 27.6441966667, 
-			May: 244.20582375, 
-			June: 376.8520054167, 
-			July: 342.2946874484 
+			April: 26.05, 
+			May: 245.9, 
+			June: 389.84, 
+			July: 721.25, 
+			Aug: 875.88 
 		}
 	}
 }); 
@@ -26784,10 +27837,11 @@ WeatherOutlook.insert({
 			January: 8.1868880952, 
 			February: 2.77, 
 			March: 12.504091713, 
-			April: 38.655339537, 
-			May: 243.6196687963, 
-			June: 419.6023116667, 
-			July: 330.103179537 
+			April: 29.17, 
+			May: 212.75, 
+			June: 364.16, 
+			July: 682.7, 
+			Aug: 882.66 
 		}
 	}
 }); 
@@ -26801,10 +27855,11 @@ WeatherOutlook.insert({
 			January: 7.9262399184, 
 			February: 5.6, 
 			March: 21.4685925397, 
-			April: 50.7902627381, 
-			May: 258.2767010317, 
-			June: 375.2589913889, 
-			July: 281.4646262166 
+			April: 47.78, 
+			May: 228.04, 
+			June: 352.02, 
+			July: 598.89, 
+			Aug: 873.34 
 		}
 	}
 }); 
@@ -26818,10 +27873,11 @@ WeatherOutlook.insert({
 			January: 8.6694402857, 
 			February: 8.65, 
 			March: 4.8456468056, 
-			April: 25.0610555093, 
-			May: 240.4208208333, 
-			June: 376.6221237037, 
-			July: 232.5387821587 
+			April: 24.52, 
+			May: 239.41, 
+			June: 344.69, 
+			July: 682.03, 
+			Aug: 875.24 
 		}
 	}
 }); 
@@ -26835,10 +27891,11 @@ WeatherOutlook.insert({
 			January: 8.2051820317, 
 			February: 4.5, 
 			March: 18.3216533951, 
-			April: 45.3307097222, 
-			May: 232.1572732099, 
-			June: 391.8171859568, 
-			July: 313.7012871914 
+			April: 35.04, 
+			May: 191.04, 
+			June: 354.1, 
+			July: 583.05, 
+			Aug: 878.31 
 		}
 	}
 }); 
@@ -26852,10 +27909,11 @@ WeatherOutlook.insert({
 			January: 7.9091967347, 
 			February: 7, 
 			March: 1.011134042, 
-			April: 17.6036969694, 
-			May: 266.4725637619, 
-			June: 415.7743860737, 
-			July: 231.1974347619 
+			April: 18.23, 
+			May: 242.91, 
+			June: 376.12, 
+			July: 682.63, 
+			Aug: 635.12 
 		}
 	}
 }); 
@@ -26869,10 +27927,11 @@ WeatherOutlook.insert({
 			January: 7.7611249524, 
 			February: 4.8, 
 			March: 4.4445963889, 
-			April: 30.5244223148, 
-			May: 245.5350786111, 
-			June: 383.5152716667, 
-			July: 291.3422307064 
+			April: 28.86, 
+			May: 242.28, 
+			June: 385.59, 
+			July: 714.22, 
+			Aug: 862.04 
 		}
 	}
 }); 
@@ -26886,10 +27945,11 @@ WeatherOutlook.insert({
 			January: 8.1197512747, 
 			February: 3.54, 
 			March: 12.4809694872, 
-			April: 35.7431136325, 
-			May: 246.6837684615, 
-			June: 358.6928929487, 
-			July: 376.7707816746 
+			April: 32.24, 
+			May: 244.6, 
+			June: 349.85, 
+			July: 699.3, 
+			Aug: 849.79 
 		}
 	}
 }); 
@@ -26903,10 +27963,11 @@ WeatherOutlook.insert({
 			January: 7.772360381, 
 			February: 7.05, 
 			March: 1.9198566667, 
-			April: 21.8110839815, 
-			May: 226.4281659259, 
-			June: 410.2954875926, 
-			July: 450.678496836 
+			April: 21.64, 
+			May: 227.51, 
+			June: 393.88, 
+			July: 739.59, 
+			Aug: 856.71 
 		}
 	}
 }); 
@@ -26920,10 +27981,11 @@ WeatherOutlook.insert({
 			January: 8.0221414505, 
 			February: 5.12, 
 			March: 25.5723733761, 
-			April: 49.3232420513, 
-			May: 256.5378661752, 
-			June: 355.7756211752, 
-			July: 194.6753921581 
+			April: 44.15, 
+			May: 240.08, 
+			June: 366.62, 
+			July: 600.43, 
+			Aug: 752.05 
 		}
 	}
 }); 
@@ -26937,10 +27999,11 @@ WeatherOutlook.insert({
 			January: 9.5187027755, 
 			February: 6.85, 
 			March: 3.1071253175, 
-			April: 22.7448030159, 
-			May: 261.5796620635, 
-			June: 409.2162352381, 
-			July: 263.5338436814 
+			April: 22.71, 
+			May: 256.66, 
+			June: 367.22, 
+			July: 731.37, 
+			Aug: 802.83 
 		}
 	}
 }); 
@@ -26954,10 +28017,11 @@ WeatherOutlook.insert({
 			January: 131.6627750088, 
 			February: 103.55, 
 			March: 165.2989940034, 
-			April: 134.2693171427, 
-			May: 184.0880728541, 
-			June: 311.8536500405, 
-			July: 310.6818107584 
+			April: 127.38, 
+			May: 183.09, 
+			June: 332.99, 
+			July: 345.83, 
+			Aug: 345.34 
 		}
 	}
 }); 
@@ -26971,10 +28035,11 @@ WeatherOutlook.insert({
 			January: 126.6998003469, 
 			February: 129.35, 
 			March: 201.4760943452, 
-			April: 164.2829427183, 
-			May: 231.4855444048, 
-			June: 369.1959974802, 
-			July: 355.238453373 
+			April: 147.41, 
+			May: 219.54, 
+			June: 364.97, 
+			July: 387.9, 
+			Aug: 385.29 
 		}
 	}
 }); 
@@ -26988,27 +28053,11 @@ WeatherOutlook.insert({
 			January: 110.0792206786, 
 			February: 86.96, 
 			March: 145.1131488006, 
-			April: 143.2293856439, 
-			May: 202.6826122847, 
-			June: 292.8973737768, 
-			July: 335.4073117188 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Norte", 
-	municipality: "Dapitan City", 
-	data: {
-		month: {
-			January: 158.6538914286, 
-			February: 88.24, 
-			March: 166.304047649, 
-			April: 116.4906094092, 
-			May: 142.1667158607, 
-			June: 286.797789963, 
-			July: 450.1191123527 
+			April: 129.95, 
+			May: 153.46, 
+			June: 299.78, 
+			July: 353.9, 
+			Aug: 406.8 
 		}
 	}
 }); 
@@ -27022,10 +28071,11 @@ WeatherOutlook.insert({
 			January: 169.5876128095, 
 			February: 95.43, 
 			March: 177.9413577765, 
-			April: 131.1180690212, 
-			May: 162.5724938399, 
-			June: 311.1257832791, 
-			July: 365.6156037143 
+			April: 127.23, 
+			May: 200.41, 
+			June: 260.87, 
+			July: 394.06, 
+			Aug: 299.76 
 		}
 	}
 }); 
@@ -27039,10 +28089,11 @@ WeatherOutlook.insert({
 			January: 145.9043534643, 
 			February: 132.26, 
 			March: 219.4843190972, 
-			April: 187.0497328472, 
-			May: 233.4473526736, 
-			June: 341.5031387847, 
-			July: 251.0418359722 
+			April: 181.51, 
+			May: 148.26, 
+			June: 348.39, 
+			July: 380.37, 
+			Aug: 469.64 
 		}
 	}
 }); 
@@ -27056,10 +28107,11 @@ WeatherOutlook.insert({
 			January: 124.4889754286, 
 			February: 92.32, 
 			March: 151.4360693203, 
-			April: 144.5395003112, 
-			May: 183.4862234972, 
-			June: 267.5132882602, 
-			July: 256.2415439881 
+			April: 135.4, 
+			May: 184.14, 
+			June: 352.18, 
+			July: 334.37, 
+			Aug: 360.18 
 		}
 	}
 }); 
@@ -27073,10 +28125,11 @@ WeatherOutlook.insert({
 			January: 123.4140098571, 
 			February: 95.64, 
 			March: 159.7960221759, 
-			April: 113.2114226852, 
-			May: 162.2870452315, 
-			June: 340.2710264352, 
-			July: 238.2859276693 
+			April: 105.4, 
+			May: 144.36, 
+			June: 320.96, 
+			July: 358.54, 
+			Aug: 338.06 
 		}
 	}
 }); 
@@ -27090,10 +28143,11 @@ WeatherOutlook.insert({
 			January: 137.0329403571, 
 			February: 107.56, 
 			March: 166.4611339583, 
-			April: 161.3905329167, 
-			May: 202.3994860069, 
-			June: 269.6616376736, 
-			July: 262.7604200942 
+			April: 153.61, 
+			May: 202.69, 
+			June: 320.61, 
+			July: 284.68, 
+			Aug: 376.72 
 		}
 	}
 }); 
@@ -27107,10 +28161,11 @@ WeatherOutlook.insert({
 			January: 168.8192604, 
 			February: 114.51, 
 			March: 188.1376887222, 
-			April: 136.4524089444, 
-			May: 174.5668430556, 
-			June: 350.1411328333, 
-			July: 239.6595118556 
+			April: 128.37, 
+			May: 196.76, 
+			June: 331.57, 
+			July: 348.35, 
+			Aug: 307.81 
 		}
 	}
 }); 
@@ -27124,10 +28179,11 @@ WeatherOutlook.insert({
 			January: 172.5445705714, 
 			February: 108.22, 
 			March: 184.8984852778, 
-			April: 121.7802247222, 
-			May: 148.7455208333, 
-			June: 310.4647261111, 
-			July: 268.73697375 
+			April: 118.07, 
+			May: 199.73, 
+			June: 377.46, 
+			July: 352.72, 
+			Aug: 299.77 
 		}
 	}
 }); 
@@ -27141,27 +28197,11 @@ WeatherOutlook.insert({
 			January: 122.8732526122, 
 			February: 88.81, 
 			March: 159.0981316667, 
-			April: 152.3046946429, 
-			May: 194.5773278571, 
-			June: 290.5948894841, 
-			July: 326.7315903968 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Norte", 
-	municipality: "Liloy", 
-	data: {
-		month: {
-			January: 121.016799619, 
-			February: 107.84, 
-			March: 168.5330167249, 
-			April: 152.5866477672, 
-			May: 177.4156820079, 
-			June: 298.2024487249, 
-			July: 488.2482162037 
+			April: 144.22, 
+			May: 160.97, 
+			June: 319.24, 
+			July: 326.96, 
+			Aug: 265.01 
 		}
 	}
 }); 
@@ -27175,10 +28215,11 @@ WeatherOutlook.insert({
 			January: 137.782430381, 
 			February: 98.18, 
 			March: 168.3303793981, 
-			April: 117.5210022685, 
-			May: 162.6488568519, 
-			June: 344.0376131019, 
-			July: 266.2468426878 
+			April: 109.15, 
+			May: 196.68, 
+			June: 338.22, 
+			July: 384.99, 
+			Aug: 356.98 
 		}
 	}
 }); 
@@ -27192,10 +28233,11 @@ WeatherOutlook.insert({
 			January: 187.5533595714, 
 			February: 140.6, 
 			March: 194.4046579167, 
-			April: 133.6054608333, 
-			May: 158.4372881944, 
-			June: 338.3408001389, 
-			July: 204.6010475 
+			April: 122.94, 
+			May: 199.96, 
+			June: 287.3, 
+			July: 320.32, 
+			Aug: 293.74 
 		}
 	}
 }); 
@@ -27209,27 +28251,11 @@ WeatherOutlook.insert({
 			January: 173.8796774286, 
 			February: 111.22, 
 			March: 185.2783178704, 
-			April: 133.9672231481, 
-			May: 162.8598141667, 
-			June: 325.2470666667, 
-			July: 252.2275580556 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Norte", 
-	municipality: "Polanco", 
-	data: {
-		month: {
-			January: 169.0372995238, 
-			February: 93.66, 
-			March: 178.2478712037, 
-			April: 133.7124101852, 
-			May: 162.408795, 
-			June: 312.103232037, 
-			July: 309.531509045 
+			April: 128.83, 
+			May: 199.13, 
+			June: 293.22, 
+			July: 360.16, 
+			Aug: 317.1 
 		}
 	}
 }); 
@@ -27243,27 +28269,11 @@ WeatherOutlook.insert({
 			January: 156.5010637143, 
 			February: 97.77, 
 			March: 176.6144630556, 
-			April: 124.2672022685, 
-			May: 165.9971214352, 
-			June: 340.0301778704, 
-			July: 292.3713339352 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Norte", 
-	municipality: "Rizal", 
-	data: {
-		month: {
-			January: 151.3466405714, 
-			February: 92.23, 
-			March: 164.2761610185, 
-			April: 107.0228387037, 
-			May: 125.7009969444, 
-			June: 275.0435401852, 
-			July: 444.0595487037 
+			April: 117.3, 
+			May: 196.71, 
+			June: 336.43, 
+			July: 355.36, 
+			Aug: 299.29 
 		}
 	}
 }); 
@@ -27277,10 +28287,11 @@ WeatherOutlook.insert({
 			January: 129.6987862857, 
 			February: 117.91, 
 			March: 194.3458915972, 
-			April: 158.8149374306, 
-			May: 187.1991821528, 
-			June: 336.0030004861, 
-			July: 446.2986679167 
+			April: 170.6, 
+			May: 161.03, 
+			June: 224.9, 
+			July: 433.42, 
+			Aug: 344.83 
 		}
 	}
 }); 
@@ -27294,10 +28305,11 @@ WeatherOutlook.insert({
 			January: 178.5625018346, 
 			February: 140.2, 
 			March: 201.4533306871, 
-			April: 136.2473771637, 
-			May: 179.5227421199, 
-			June: 354.0094925, 
-			July: 239.3985699336 
+			April: 130.06, 
+			May: 193.49, 
+			June: 349.89, 
+			July: 344.69, 
+			Aug: 294.31 
 		}
 	}
 }); 
@@ -27311,10 +28323,11 @@ WeatherOutlook.insert({
 			January: 133.3620365357, 
 			February: 133.86, 
 			March: 188.898821441, 
-			April: 140.7367525868, 
-			May: 205.4045338021, 
-			June: 383.7354482813, 
-			July: 418.7988561458 
+			April: 134.36, 
+			May: 158.28, 
+			June: 386.99, 
+			July: 357.7, 
+			Aug: 331.58 
 		}
 	}
 }); 
@@ -27328,27 +28341,11 @@ WeatherOutlook.insert({
 			January: 82.2481057714, 
 			February: 69, 
 			March: 87.520668048, 
-			April: 80.8395369623, 
-			May: 151.3125601675, 
-			June: 200.7875960226, 
-			July: 242.3334504167 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Norte", 
-	municipality: "Sibutad", 
-	data: {
-		month: {
-			January: 149.3411452381, 
-			February: 85.62, 
-			March: 159.7054516667, 
-			April: 104.9259707407, 
-			May: 131.8881442593, 
-			June: 276.4861542593, 
-			July: 522.3528188254 
+			April: 71.69, 
+			May: 195.85, 
+			June: 303.46, 
+			July: 293.41, 
+			Aug: 330.9 
 		}
 	}
 }); 
@@ -27362,10 +28359,11 @@ WeatherOutlook.insert({
 			January: 100.381982381, 
 			February: 94.32, 
 			March: 158.9348724374, 
-			April: 110.7842048642, 
-			May: 182.5010632866, 
-			June: 374.4201608915, 
-			July: 370.1265154012 
+			April: 102.39, 
+			May: 189.84, 
+			June: 337.75, 
+			July: 362.78, 
+			Aug: 335.07 
 		}
 	}
 }); 
@@ -27379,10 +28377,11 @@ WeatherOutlook.insert({
 			January: 96.2895872698, 
 			February: 77.81, 
 			March: 137.355116866, 
-			April: 137.8727622028, 
-			May: 204.5560398474, 
-			June: 297.8157513757, 
-			July: 255.2977226543 
+			April: 128.1, 
+			May: 155.45, 
+			June: 304.13, 
+			July: 375.28, 
+			Aug: 425.97 
 		}
 	}
 }); 
@@ -27396,10 +28395,11 @@ WeatherOutlook.insert({
 			January: 88.5282625714, 
 			February: 78.95, 
 			March: 126.7321382407, 
-			April: 131.0535421296, 
-			May: 191.7121185648, 
-			June: 277.3549341204, 
-			July: 240.4159159259 
+			April: 125.08, 
+			May: 190.44, 
+			June: 331.61, 
+			July: 360.07, 
+			Aug: 278.08 
 		}
 	}
 }); 
@@ -27413,10 +28413,11 @@ WeatherOutlook.insert({
 			January: 144.5300902857, 
 			February: 119.07, 
 			March: 187.3038702778, 
-			April: 172.6033883333, 
-			May: 216.6119826389, 
-			June: 308.4634290278, 
-			July: 264.0328198829 
+			April: 171.61, 
+			May: 196.1, 
+			June: 280.71, 
+			July: 345.54, 
+			Aug: 345.62 
 		}
 	}
 }); 
@@ -27430,10 +28431,11 @@ WeatherOutlook.insert({
 			January: 129.6793813998, 
 			February: 114.74, 
 			March: 182.6337381025, 
-			April: 146.3802101386, 
-			May: 219.5451914115, 
-			June: 304.8570436707, 
-			July: 293.1612794936 
+			April: 141.9, 
+			May: 224.87, 
+			June: 334.61, 
+			July: 336.79, 
+			Aug: 317.07 
 		}
 	}
 }); 
@@ -27447,10 +28449,11 @@ WeatherOutlook.insert({
 			January: 169.9929277143, 
 			February: 143.49, 
 			March: 223.3702908796, 
-			April: 146.5823977778, 
-			May: 201.7950661574, 
-			June: 365.5825022685, 
-			July: 267.400896254 
+			April: 140.44, 
+			May: 245.85, 
+			June: 275.5, 
+			July: 342.81, 
+			Aug: 170.86 
 		}
 	}
 }); 
@@ -27464,10 +28467,11 @@ WeatherOutlook.insert({
 			January: 144.5175429091, 
 			February: 141.29, 
 			March: 227.6135235354, 
-			April: 190.7799290657, 
-			May: 289.8139422222, 
-			June: 354.0102585859, 
-			July: 302.3984320707 
+			April: 181.01, 
+			May: 198.53, 
+			June: 379.58, 
+			July: 387.6, 
+			Aug: 358.67 
 		}
 	}
 }); 
@@ -27481,10 +28485,11 @@ WeatherOutlook.insert({
 			January: 124.5792675238, 
 			February: 98.21, 
 			March: 200.3336806481, 
-			April: 171.8701308333, 
-			May: 263.797902963, 
-			June: 325.4120285185, 
-			July: 283.2822593519 
+			April: 165.22, 
+			May: 113.86, 
+			June: 378.54, 
+			July: 382.29, 
+			Aug: 371.59 
 		}
 	}
 }); 
@@ -27498,10 +28503,11 @@ WeatherOutlook.insert({
 			January: 129.2184020952, 
 			February: 104.02, 
 			March: 203.4589173611, 
-			April: 174.8006200926, 
-			May: 265.248875, 
-			June: 325.2278072222, 
-			July: 224.957476209 
+			April: 166.53, 
+			May: 175.48, 
+			June: 387.46, 
+			July: 393.23, 
+			Aug: 361.08 
 		}
 	}
 }); 
@@ -27515,10 +28521,11 @@ WeatherOutlook.insert({
 			January: 134.8162658571, 
 			February: 120.47, 
 			March: 213.7675463889, 
-			April: 163.5031307639, 
-			May: 261.7281233333, 
-			June: 353.0549347917, 
-			July: 355.9443405714 
+			April: 157.33, 
+			May: 171.72, 
+			June: 387.07, 
+			July: 398.33, 
+			Aug: 358.49 
 		}
 	}
 }); 
@@ -27532,10 +28539,11 @@ WeatherOutlook.insert({
 			January: 160.0777891746, 
 			February: 138.99, 
 			March: 203.6553427161, 
-			April: 142.0695147222, 
-			May: 193.0487127161, 
-			June: 351.4781805864, 
-			July: 532.1052086728 
+			April: 137.13, 
+			May: 263.79, 
+			June: 344.37, 
+			July: 357.77, 
+			Aug: 319.02 
 		}
 	}
 }); 
@@ -27549,10 +28557,11 @@ WeatherOutlook.insert({
 			January: 130.9779961905, 
 			February: 116.18, 
 			March: 214.1566351852, 
-			April: 169.770125, 
-			May: 274.2594725, 
-			June: 339.771872963, 
-			July: 342.3898360185 
+			April: 161.48, 
+			May: 186.31, 
+			June: 387.4, 
+			July: 396.26, 
+			Aug: 370.01 
 		}
 	}
 }); 
@@ -27566,10 +28575,11 @@ WeatherOutlook.insert({
 			January: 207.880154, 
 			February: 161.04, 
 			March: 215.1801583333, 
-			April: 140.4111955556, 
-			May: 178.8824269444, 
-			June: 343.897185, 
-			July: 541.0501634286 
+			April: 132.91, 
+			May: 234.45, 
+			June: 251.96, 
+			July: 343.87, 
+			Aug: 199.65 
 		}
 	}
 }); 
@@ -27583,10 +28593,11 @@ WeatherOutlook.insert({
 			January: 130.1850419429, 
 			February: 119.26, 
 			March: 221.4834016667, 
-			April: 177.6586076111, 
-			May: 300.1683663333, 
-			June: 335.8484217778, 
-			July: 361.5749598889 
+			April: 170.02, 
+			May: 204.03, 
+			June: 382.03, 
+			July: 395.36, 
+			Aug: 372.48 
 		}
 	}
 }); 
@@ -27600,10 +28611,11 @@ WeatherOutlook.insert({
 			January: 149.3540563333, 
 			February: 137.89, 
 			March: 218.1281977315, 
-			April: 154.2311948148, 
-			May: 231.9248305556, 
-			June: 360.0672201389, 
-			July: 300.8091219444 
+			April: 147.65, 
+			May: 259.52, 
+			June: 317.8, 
+			July: 362.33, 
+			Aug: 302.98 
 		}
 	}
 }); 
@@ -27617,10 +28629,29 @@ WeatherOutlook.insert({
 			January: 146.2965365714, 
 			February: 145.97, 
 			March: 226.8952682222, 
-			April: 181.6836891667, 
-			May: 290.8163423333, 
-			June: 360.1912255, 
-			July: 280.8648363889 
+			April: 172.33, 
+			May: 213.27, 
+			June: 335.15, 
+			July: 405.41, 
+			Aug: 344.76 
+		}
+	}
+}); 
+
+WeatherOutlook.insert({ 
+	region: "Region IX: Zamboanga Peninsula", 
+	province: "Zamboanga del Sur", 
+	municipality: "Lakewood Lake", 
+	data: {
+		month: {
+			January: 0, 
+			February: 0, 
+			March: 0, 
+			April: 171.27, 
+			May: 184.09, 
+			June: 367.4, 
+			July: 396.98, 
+			Aug: 357.95 
 		}
 	}
 }); 
@@ -27634,10 +28665,11 @@ WeatherOutlook.insert({
 			January: 130.8459277714, 
 			February: 107.65, 
 			March: 217.6395315159, 
-			April: 178.5098025524, 
-			May: 274.2414791635, 
-			June: 319.3746983397, 
-			July: 230.8722599444 
+			April: 168.68, 
+			May: 266.81, 
+			June: 383.16, 
+			July: 398.69, 
+			Aug: 370.2 
 		}
 	}
 }); 
@@ -27651,27 +28683,11 @@ WeatherOutlook.insert({
 			January: 179.7510778857, 
 			February: 149.47, 
 			March: 208.6756706667, 
-			April: 144.5053858889, 
-			May: 188.5299030556, 
-			June: 342.0101373889, 
-			July: 520.8880588333 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Sur", 
-	municipality: "Margosatubig", 
-	data: {
-		month: {
-			January: 125.7051160952, 
-			February: 100.45, 
-			March: 211.3694537751, 
-			April: 177.3481120873, 
-			May: 275.0026039392, 
-			June: 325.4976449524, 
-			July: 363.0626319444 
+			April: 139.45, 
+			May: 274.31, 
+			June: 314.92, 
+			July: 338.44, 
+			Aug: 306.65 
 		}
 	}
 }); 
@@ -27685,10 +28701,11 @@ WeatherOutlook.insert({
 			January: 154.4708918442, 
 			February: 153.61, 
 			March: 215.5062222727, 
-			April: 165.0284851263, 
-			May: 236.577982197, 
-			June: 357.6267962374, 
-			July: 266.2604241667 
+			April: 157.89, 
+			May: 277.3, 
+			June: 367.61, 
+			July: 379.89, 
+			Aug: 316.4 
 		}
 	}
 }); 
@@ -27702,10 +28719,11 @@ WeatherOutlook.insert({
 			January: 185.5208641905, 
 			February: 155.06, 
 			March: 210.2736094444, 
-			April: 145.1706146296, 
-			May: 181.4329482407, 
-			June: 332.8743713889, 
-			July: 520.3566462037 
+			April: 141.33, 
+			May: 256.19, 
+			June: 300.52, 
+			July: 315.51, 
+			Aug: 167.85 
 		}
 	}
 }); 
@@ -27719,27 +28737,11 @@ WeatherOutlook.insert({
 			January: 149.3506324762, 
 			February: 144.96, 
 			March: 222.8498867593, 
-			April: 165.2604127161, 
-			May: 258.820184537, 
-			June: 361.7093402469, 
-			July: 303.8064839198 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Sur", 
-	municipality: "Pitogo", 
-	data: {
-		month: {
-			January: 119.8330829143, 
-			February: 90.83, 
-			March: 197.389030327, 
-			April: 170.2220942349, 
-			May: 254.1672601222, 
-			June: 319.2638937381, 
-			July: 239.4781378333 
+			April: 159.02, 
+			May: 203.68, 
+			June: 354.32, 
+			July: 394.02, 
+			Aug: 301.38 
 		}
 	}
 }); 
@@ -27753,10 +28755,11 @@ WeatherOutlook.insert({
 			January: 169.2880891429, 
 			February: 156.65, 
 			March: 212.6304473611, 
-			April: 154.5169030556, 
-			May: 199.9421220833, 
-			June: 343.7862934722, 
-			July: 358.9645243056 
+			April: 146.95, 
+			May: 298.85, 
+			June: 306.27, 
+			July: 328.27, 
+			Aug: 158.26 
 		}
 	}
 }); 
@@ -27770,10 +28773,11 @@ WeatherOutlook.insert({
 			January: 131.042073619, 
 			February: 115.8, 
 			March: 217.5437841667, 
-			April: 175.8308401852, 
-			May: 285.4419784259, 
-			June: 335.6645499074, 
-			July: 317.6480282407 
+			April: 168.33, 
+			May: 221.81, 
+			June: 363.48, 
+			July: 397.54, 
+			Aug: 209.1 
 		}
 	}
 }); 
@@ -27787,10 +28791,11 @@ WeatherOutlook.insert({
 			January: 132.1182803571, 
 			February: 110.88, 
 			March: 204.7863830556, 
-			April: 165.8365500694, 
-			May: 264.7511393056, 
-			June: 348.6153223611, 
-			July: 241.8793702083 
+			April: 156.54, 
+			May: 120.22, 
+			June: 315.38, 
+			July: 398.55, 
+			Aug: 363.51 
 		}
 	}
 }); 
@@ -27804,27 +28809,11 @@ WeatherOutlook.insert({
 			January: 162.9924799286, 
 			February: 152.22, 
 			March: 212.4143795833, 
-			April: 159.0927336111, 
-			May: 214.8517205556, 
-			June: 345.8041577778, 
-			July: 337.4517635417 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Sur", 
-	municipality: "Tabina", 
-	data: {
-		month: {
-			January: 116.8366061429, 
-			February: 92.79, 
-			March: 196.4940144444, 
-			April: 159.0606890278, 
-			May: 246.7957815278, 
-			June: 323.5510027778, 
-			July: 248.4482841667 
+			April: 151.99, 
+			May: 281.24, 
+			June: 354.96, 
+			July: 349.51, 
+			Aug: 306.11 
 		}
 	}
 }); 
@@ -27838,10 +28827,11 @@ WeatherOutlook.insert({
 			January: 191.524364, 
 			February: 150.7, 
 			March: 217.2701349444, 
-			April: 148.0716547222, 
-			May: 179.5906412778, 
-			June: 344.5342975556, 
-			July: 345.9710463333 
+			April: 140.46, 
+			May: 247.27, 
+			June: 334.02, 
+			July: 326.21, 
+			Aug: 205.12 
 		}
 	}
 }); 
@@ -27855,10 +28845,11 @@ WeatherOutlook.insert({
 			January: 141.096764381, 
 			February: 133.9, 
 			March: 224.4747542593, 
-			April: 174.5592560185, 
-			May: 279.8218049074, 
-			June: 347.9683323148, 
-			July: 352.6985449074 
+			April: 167.27, 
+			May: 187.6, 
+			June: 380.5, 
+			July: 400.97, 
+			Aug: 349.47 
 		}
 	}
 }); 
@@ -27872,27 +28863,11 @@ WeatherOutlook.insert({
 			January: 155.7162815714, 
 			February: 140.47, 
 			March: 220.8775810417, 
-			April: 148.0218174306, 
-			May: 214.0662247917, 
-			June: 366.1328692361, 
-			July: 251.6159605536 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga del Sur", 
-	municipality: "Vincenzo A. Sagun", 
-	data: {
-		month: {
-			January: 123.392730381, 
-			February: 96.88, 
-			March: 206.9404525, 
-			April: 172.352750463, 
-			May: 273.1839302778, 
-			June: 321.1326981481, 
-			July: 233.8610227778 
+			April: 139.95, 
+			May: 253.74, 
+			June: 334.47, 
+			July: 349.96, 
+			Aug: 226.3 
 		}
 	}
 }); 
@@ -27906,10 +28881,11 @@ WeatherOutlook.insert({
 			January: 80.5236940525, 
 			February: 69.41, 
 			March: 97.2648056422, 
-			April: 97.7788871406, 
-			May: 151.373600759, 
-			June: 195.783093234, 
-			July: 210.1393160539 
+			April: 101.26, 
+			May: 226.61, 
+			June: 283.06, 
+			July: 231.72, 
+			Aug: 326.96 
 		}
 	}
 }); 
@@ -27923,27 +28899,11 @@ WeatherOutlook.insert({
 			January: 127.6934774286, 
 			February: 101.73, 
 			March: 184.690989975, 
-			April: 174.8111221326, 
-			May: 252.9307168402, 
-			June: 294.9346000735, 
-			July: 302.1302892986 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga Sibugay", 
-	municipality: "Alicia", 
-	data: {
-		month: {
-			January: 129.1094744286, 
-			February: 105.12, 
-			March: 205.3695099974, 
-			April: 195.0929737844, 
-			May: 297.4885913214, 
-			June: 297.7842751442, 
-			July: 296.9235419484 
+			April: 168.95, 
+			May: 254.57, 
+			June: 325.31, 
+			July: 351.91, 
+			Aug: 337.79 
 		}
 	}
 }); 
@@ -27957,10 +28917,11 @@ WeatherOutlook.insert({
 			January: 127.7169917143, 
 			February: 117.67, 
 			March: 218.4558134722, 
-			April: 183.5423154167, 
-			May: 303.2444925, 
-			June: 328.2458586111, 
-			July: 320.8634696806 
+			April: 178.83, 
+			May: 256.42, 
+			June: 358.35, 
+			July: 376.27, 
+			Aug: 345.45 
 		}
 	}
 }); 
@@ -27974,10 +28935,11 @@ WeatherOutlook.insert({
 			January: 140.4052868095, 
 			February: 120.55, 
 			March: 214.68215125, 
-			April: 192.5048503704, 
-			May: 288.1870026389, 
-			June: 316.7154797222, 
-			July: 325.6537205317 
+			April: 183.6, 
+			May: 263.18, 
+			June: 331.09, 
+			July: 356.66, 
+			Aug: 346.7 
 		}
 	}
 }); 
@@ -27991,10 +28953,11 @@ WeatherOutlook.insert({
 			January: 130.5883255714, 
 			February: 108.25, 
 			March: 192.86016375, 
-			April: 189.6349363889, 
-			May: 289.47444625, 
-			June: 307.8436047222, 
-			July: 238.3317619444 
+			April: 182.55, 
+			May: 243.19, 
+			June: 325.25, 
+			July: 356.26, 
+			Aug: 340.57 
 		}
 	}
 }); 
@@ -28008,10 +28971,11 @@ WeatherOutlook.insert({
 			January: 124.4695184, 
 			February: 90.35, 
 			March: 168.1200480556, 
-			April: 164.9960109444, 
-			May: 219.7206373889, 
-			June: 272.6337175556, 
-			July: 359.8858201667 
+			April: 148, 
+			May: 275.99, 
+			June: 343.77, 
+			July: 357.78, 
+			Aug: 342.54 
 		}
 	}
 }); 
@@ -28025,10 +28989,11 @@ WeatherOutlook.insert({
 			January: 141.1980533247, 
 			February: 121.46, 
 			March: 222.8551927273, 
-			April: 199.8090855808, 
-			May: 272.1623178788, 
-			June: 337.2426384596, 
-			July: 344.3159655808 
+			April: 190.23, 
+			May: 271.84, 
+			June: 338.66, 
+			July: 344.11, 
+			Aug: 350.02 
 		}
 	}
 }); 
@@ -28042,10 +29007,11 @@ WeatherOutlook.insert({
 			January: 126.2772998571, 
 			February: 101.68, 
 			March: 200.0669381944, 
-			April: 184.7386329167, 
-			May: 285.8879197222, 
-			June: 287.8678930556, 
-			July: 248.210965 
+			April: 188.78, 
+			May: 275.13, 
+			June: 341.12, 
+			July: 323.44, 
+			Aug: 237.37 
 		}
 	}
 }); 
@@ -28059,10 +29025,11 @@ WeatherOutlook.insert({
 			January: 127.4710111429, 
 			February: 107.48, 
 			March: 212.6389175, 
-			April: 184.8620661806, 
-			May: 285.7103221528, 
-			June: 313.5635447917, 
-			July: 264.9049634028 
+			April: 179.25, 
+			May: 267.22, 
+			June: 313.77, 
+			July: 363.61, 
+			Aug: 337.63 
 		}
 	}
 }); 
@@ -28076,27 +29043,11 @@ WeatherOutlook.insert({
 			January: 142.1126378857, 
 			February: 112.87, 
 			March: 199.2787323889, 
-			April: 187.2047703333, 
-			May: 255.5052078333, 
-			June: 309.2851036667, 
-			July: 308.4610308889 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga Sibugay", 
-	municipality: "Olutanga", 
-	data: {
-		month: {
-			January: 120.4854788571, 
-			February: 92.85, 
-			March: 180.0951122222, 
-			April: 162.9364769444, 
-			May: 256.8570327778, 
-			June: 275.3853388889, 
-			July: 266.0403261111 
+			April: 185.32, 
+			May: 262.69, 
+			June: 338.89, 
+			July: 345.93, 
+			Aug: 351.84 
 		}
 	}
 }); 
@@ -28110,10 +29061,11 @@ WeatherOutlook.insert({
 			January: 128.7382104898, 
 			February: 101.99, 
 			March: 193.1014355578, 
-			April: 187.4496038311, 
-			May: 277.4340999626, 
-			June: 292.6089890646, 
-			July: 290.7977567064 
+			April: 178.98, 
+			May: 216.51, 
+			June: 341.6, 
+			July: 349.47, 
+			Aug: 324.05 
 		}
 	}
 }); 
@@ -28127,10 +29079,11 @@ WeatherOutlook.insert({
 			January: 125.3790224643, 
 			February: 91.07, 
 			March: 152.8761702431, 
-			April: 150.7657821528, 
-			May: 215.365073125, 
-			June: 268.6061212847, 
-			July: 304.9339282113 
+			April: 142.77, 
+			May: 269.41, 
+			June: 315.22, 
+			July: 351.13, 
+			Aug: 337.64 
 		}
 	}
 }); 
@@ -28144,27 +29097,11 @@ WeatherOutlook.insert({
 			January: 128.8576894857, 
 			February: 110.34, 
 			March: 187.7359533889, 
-			April: 188.2721618889, 
-			May: 278.3384326111, 
-			June: 307.5577637222, 
-			July: 309.0618197127 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IX: Zamboanga Peninsula", 
-	province: "Zamboanga Sibugay", 
-	municipality: "Talusan", 
-	data: {
-		month: {
-			January: 122.4106374286, 
-			February: 97.45, 
-			March: 188.1536427778, 
-			April: 176.5606590278, 
-			May: 267.8758422222, 
-			June: 280.6722209722, 
-			July: 246.3342702778 
+			April: 182.99, 
+			May: 247.53, 
+			June: 321.9, 
+			July: 351.42, 
+			Aug: 344.37 
 		}
 	}
 }); 
@@ -28178,10 +29115,11 @@ WeatherOutlook.insert({
 			January: 142.7178269524, 
 			February: 109.59, 
 			March: 174.403032037, 
-			April: 169.0271962037, 
-			May: 222.194628287, 
-			June: 289.2691772222, 
-			July: 287.7340712037 
+			April: 153.89, 
+			May: 279.14, 
+			June: 311.71, 
+			July: 358.8, 
+			Aug: 348.75 
 		}
 	}
 }); 
@@ -28195,10 +29133,11 @@ WeatherOutlook.insert({
 			January: 103.7970984952, 
 			February: 72.52, 
 			March: 133.4889481667, 
-			April: 137.4319430926, 
-			May: 195.859572463, 
-			June: 258.4674388333, 
-			July: 280.2189996481 
+			April: 130.55, 
+			May: 227.68, 
+			June: 283.49, 
+			July: 334.42, 
+			Aug: 313.82 
 		}
 	}
 }); 
@@ -28212,10 +29151,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 139.811793, 
-			April: 103.7009101, 
-			May: 188.31283, 
-			June: 264.8899477, 
-			July: 315.8708853 
+			April: 101.7527713419, 
+			May: 187.6751818117, 
+			June: 267.748615148, 
+			July: 367.0261844193, 
+			Aug: 360.0156850301 
 		}
 	}
 }); 
@@ -28229,10 +29169,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 114.1118552, 
-			April: 84.54583739, 
-			May: 163.0721727, 
-			June: 269.9651036, 
-			July: 307.0414731 
+			April: 89.0212440089, 
+			May: 159.6668051877, 
+			June: 284.2719098897, 
+			July: 355.6859693608, 
+			Aug: 327.1975347161 
 		}
 	}
 }); 
@@ -28246,10 +29187,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 17.12451436, 
-			April: 19.14201765, 
-			May: 153.1799591, 
-			June: 283.5358008, 
-			July: 225.5144381 
+			April: 15.8885574074, 
+			May: 132.3869285185, 
+			June: 251.0104264815, 
+			July: 438.9276932407, 
+			Aug: 463.7147538889 
 		}
 	}
 }); 
@@ -28263,10 +29205,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 51.60998348, 
-			April: 82.71892916, 
-			May: 252.9576344, 
-			June: 237.6029334, 
-			July: 365.1688879 
+			April: 84.2437127724, 
+			May: 242.3145325265, 
+			June: 226.2485167502, 
+			July: 355.8747540383, 
+			Aug: 444.5234687178 
 		}
 	}
 }); 
@@ -28280,10 +29223,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 21.75862575, 
-			April: 37.22857288, 
-			May: 220.8193229, 
-			June: 308.6550668, 
-			July: 326.2515438 
+			April: 38.3127395249, 
+			May: 206.457728435, 
+			June: 298.8313527467, 
+			July: 503.8401057553, 
+			Aug: 615.2550678381 
 		}
 	}
 }); 
@@ -28297,10 +29241,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 79.19517466, 
-			April: 70.80615366, 
-			May: 202.9773663, 
-			June: 163.6057521, 
-			July: 362.6638092 
+			April: 73.612159647, 
+			May: 166.0760739697, 
+			June: 137.7305305776, 
+			July: 261.4262633156, 
+			Aug: 284.657250531 
 		}
 	}
 }); 
@@ -28314,10 +29259,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 40.73035214, 
-			April: 51.40676194, 
-			May: 230.5059932, 
-			June: 284.1172678, 
-			July: 307.291614 
+			April: 49.4932350791, 
+			May: 218.4085857095, 
+			June: 268.0052657568, 
+			July: 512.673569243, 
+			Aug: 575.21167 
 		}
 	}
 }); 
@@ -28331,10 +29277,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 56.16793904, 
-			April: 46.27129364, 
-			May: 158.6450659, 
-			June: 245.7519919, 
-			July: 258.1087456 
+			April: 43.4394396643, 
+			May: 150.9727069776, 
+			June: 234.5853240206, 
+			July: 401.7391810301, 
+			Aug: 410.693537752 
 		}
 	}
 }); 
@@ -28348,10 +29295,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 53.84552092, 
-			April: 57.42193093, 
-			May: 188.9055101, 
-			June: 310.4150499, 
-			July: 310.8079304 
+			April: 55.3060480012, 
+			May: 179.5507246939, 
+			June: 306.0537293484, 
+			July: 409.4421882591, 
+			Aug: 393.8776555333 
 		}
 	}
 }); 
@@ -28365,10 +29313,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 167.8776549, 
-			April: 104.9410653, 
-			May: 170.0374815, 
-			June: 205.977017, 
-			July: 312.3100292 
+			April: 105.2222344564, 
+			May: 164.7117861855, 
+			June: 198.2922795128, 
+			July: 340.3120101293, 
+			Aug: 242.2447990385 
 		}
 	}
 }); 
@@ -28382,10 +29331,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 108.3093508, 
-			April: 72.63716506, 
-			May: 216.474635, 
-			June: 397.1111118, 
-			July: 316.534043 
+			April: 79.7318495811, 
+			May: 208.757135833, 
+			June: 396.1580510461, 
+			July: 540.0072463072, 
+			Aug: 453.4678712295 
 		}
 	}
 }); 
@@ -28399,10 +29349,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 159.2192003, 
-			April: 79.68792528, 
-			May: 107.7381151, 
-			June: 199.4611026, 
-			July: 329.3327032 
+			April: 76.8488594385, 
+			May: 105.7721353622, 
+			June: 214.4280661705, 
+			July: 239.5338075102, 
+			Aug: 190.9030625155 
 		}
 	}
 }); 
@@ -28416,10 +29367,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 280.0467909, 
-			April: 168.9405172, 
-			May: 178.1587061, 
-			June: 255.7015946, 
-			July: 313.7107433 
+			April: 160.6030221751, 
+			May: 172.6818034828, 
+			June: 244.1667692828, 
+			July: 340.5614095471, 
+			Aug: 257.9949686713 
 		}
 	}
 }); 
@@ -28433,10 +29385,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 177.5412407, 
-			April: 151.8202165, 
-			May: 218.8546604, 
-			June: 303.8817646, 
-			July: 301.9911265 
+			April: 140.7556374539, 
+			May: 208.1878011415, 
+			June: 326.498811409, 
+			July: 344.139560474, 
+			Aug: 326.4964603469 
 		}
 	}
 }); 
@@ -28450,10 +29403,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 231.3057067, 
-			April: 145.6713231, 
-			May: 183.5450451, 
-			June: 320.9648596, 
-			July: 349.3902926 
+			April: 133.8137670384, 
+			May: 184.3966593386, 
+			June: 339.8960296693, 
+			July: 320.4727628884, 
+			Aug: 279.9825843137 
 		}
 	}
 }); 
@@ -28467,10 +29421,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 273.329578, 
-			April: 210.73116, 
-			May: 219.3242216, 
-			June: 264.8409768, 
-			July: 278.8530227 
+			April: 207.3090864436, 
+			May: 216.9309120633, 
+			June: 276.0100080476, 
+			July: 251.7499051153, 
+			Aug: 241.4257115022 
 		}
 	}
 }); 
@@ -28484,10 +29439,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 186.6124363, 
-			April: 146.6164162, 
-			May: 189.1458733, 
-			June: 250.1386801, 
-			July: 346.4131089 
+			April: 131.3867781088, 
+			May: 186.2793752911, 
+			June: 266.1233100644, 
+			July: 225.5017787171, 
+			Aug: 212.9727011786 
 		}
 	}
 }); 
@@ -28501,10 +29457,11 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 381.8356091, 
-			April: 252.8322145, 
-			May: 177.0133558, 
-			June: 236.2913029, 
-			July: 357.4708862 
+			April: 245.1330824296, 
+			May: 182.1229612293, 
+			June: 230.5944249346, 
+			July: 252.5403242008, 
+			Aug: 223.8752031877 
 		}
 	}
 }); 
@@ -28518,10 +29475,12 @@ WeatherOutlook.insert({
 			January: 0, 
 			February: 0, 
 			March: 158.6946741, 
-			April: 146.5961846, 
-			May: 187.398749, 
-			June: 229.3202639, 
-			July: 339.1750925 
+			April: 145.4146075042, 
+			May: 202.492498131, 
+			June: 282.0081322368, 
+			July: 255.1339494298, 
+			Aug: 245.661721609 
 		}
 	}
-});
+}); 
+
