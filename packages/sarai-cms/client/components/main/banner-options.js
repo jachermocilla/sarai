@@ -82,6 +82,8 @@ Template.BannerOptions.events({
 
       this.uploadedFile = slide.image
 
+      console.log('Setting: ')
+      console.log(slide)
       setBannerDialogContents('Edit Slide', slide.image, slide.textPosition, slide.title, slide.subTitle, slide.text, slide.buttonText, slide.buttonLink, slide.rank)
     }
   },
