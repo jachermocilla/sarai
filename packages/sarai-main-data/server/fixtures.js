@@ -137,20 +137,21 @@ if (Main.find().count() === 0) {
 			    buttonLink: ''
 			},
 			{
+				image : "/homepage-slider/Knowledge-Portal.png",
+	            textPosition : "left",
+	            title : "SARAi KNOWLEDGE PORTAL",
+	            subTitle : "One-stop-shop for crop monitoring and forecasting",
+	            text : "Get comprehensive national, regional, and municipal data to know what, where, and, when to plant.",
+	            buttonText : "EXPLORE",
+	            buttonLink : "#main-preview",
+	            rank : ""
+	        },
+			{
 				image: '/homepage-slider/Real-Time-Monitoring.jpg',
 				textPosition: 'right',
 				title: 'REAL-TIME WEATHER MONITORING',
 				subTitle: 'Guide your farming practices with weather data',
 				text: 'Get information on previous weather patterns and current weather conditions through historical and current weather data.',
-				buttonText: 'EXPLORE',
-				buttonLink: ''
-			},
-			{
-				image: '/homepage-slider/Geo-mapping.png',
-				textPosition: 'right',
-				title: 'GEO-MAPPING, SENSORS AND REMOTE-SENSING',
-				subTitle: 'Monitor your soil and crop condition by using SARAI maps',
-				text: 'Explore SARAI maps and collected data from a distance to monitor soil and crop moisture, nutrient, vegetative stage, and factors affecting climate change.',
 				buttonText: 'EXPLORE',
 				buttonLink: ''
 			},
@@ -335,5 +336,19 @@ if (Main.find().count() === 0) {
 	    ],
 	    enabled: true,
 	    imgenabled: true
+	});
+
+	Main.insert({
+		name : "partner-institutions",
+	    img : "/partner-institutions.jpg",
+	    enabled : true
+	});
+
+	Main.insert({
+		name: 'weather-advisory',
+	    title: 'Weather Advisory',
+	    description: '',
+	    subtext: 'FORECAST: Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms will be experienced over Metro Manila and the rest of the country. Moderate to strong winds blowing from the East to Southeast will prevail over Northern Luzon and coming from the East over Eastern Visayas and the rest of luzon. The coastal waters along these areas will be moderate to rough. Elsewhere, winds will be light to moderate coming from the East with slight to moderate seas.',
+	    enabled: true,
 	});
 }

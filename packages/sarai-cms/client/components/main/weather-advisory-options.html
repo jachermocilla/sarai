@@ -1,0 +1,54 @@
+<template name="WeatherAdvisoryOptions">
+
+  <div class="mdl-grid cms-block">
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+      <div class="cms-block-header">
+        Weather Advisory
+        {{#unless enabled}}
+          <span class="cms-disabled-status"> - [{{enabledStatus}}]</span>
+        {{/unless}}
+      </div>
+
+      <div class="mdl-grid">
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-weather-advisory-message-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="cms-weather-advisory-message" value="{{title}}">
+            <label class="mdl-textfield__label" for="sample3">Title</label>
+          </div>
+        </div>
+
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-weather-advisory-description-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <textarea class="mdl-textfield__input" type="text" id="cms-weather-advisory-description" value="{{description}}"></textarea>
+            <label class="mdl-textfield__label" for="sample3">Description</label>
+          </div>
+        </div>
+
+        <div {{cmsBlockContentRowClasses}}>
+          <div id="cms-weather-advisory-advisory-div" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <textarea class="mdl-textfield__input" type="text" id="cms-weather-advisory-advisory" value="{{advisory}}"></textarea>
+            <label class="mdl-textfield__label" for="sample3">Advisory</label>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="cms-block-actions">
+        <button id="cms-weather-advisory-enable" class="mdl-button mdl-js-button mdl-button--raised">
+          {{#if enabled}} Disable {{else}} Enable {{/if}}
+        </button>
+
+        <button id="cms-weather-advisory-save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="cms-toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+</template>

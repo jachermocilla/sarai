@@ -99,6 +99,13 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/weather-preview/graph/graph-view.html",
     "client/components/sarai-home/includes/weather-preview/graph/graph-view.js",
     "client/components/sarai-home/includes/weather-preview/graph/graph-view.less",
+
+    "client/components/sarai-home/includes/partner-institutions/partner-institutions.html",
+    "client/components/sarai-home/includes/partner-institutions/partner-institutions.js",
+    "client/components/sarai-home/includes/partner-institutions/partner-institutions.less",
+
+    "client/components/sarai-home/includes/weather-advisory/weather-advisory.html",
+    "client/components/sarai-home/includes/weather-advisory/weather-advisory.js"
   ]
 
   api.addFiles(client, "client")
