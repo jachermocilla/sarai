@@ -54,49 +54,49 @@ Template.RainfallOutlookView.helpers({
       const region = Session.get('region')
       const province = Session.get('province')
       const municipality = Session.get('municipality')
-      const weatherOutlook = WeatherOutlook.findOne({region:region, province: province, municipality: municipality})
+      const weatherOutlook = WeatherOutlook.findOne({region:region, province: province, municipality: municipality}).data.month
 
       if (weatherOutlook){
         let outlook = []
 
         // outlook.push({
         //   head: 'January',
-        //   value: Math.round(weatherOutlook.data.month.January * 10) / 10
+        //   value: Math.round(weatherOutlook.January * 10) / 10
         // })
 
         // outlook.push({
         //   head: 'February',
-        //   value: Math.round(weatherOutlook.data.month.February * 10) / 10
+        //   value: Math.round(weatherOutlook.February * 10) / 10
         // })
 
         // outlook.push({
         //   head: 'March',
-        //   value: Math.round(weatherOutlook.data.month.March)
+        //   value: Math.round(weatherOutlook.March)
         // })
 
         outlook.push({
           head: 'April',
-          value: Math.round(weatherOutlook.data.month.April)
+          value: Math.round(weatherOutlook.April)
         })
 
         outlook.push({
           head: 'May',
-          value: Math.round(weatherOutlook.data.month.May)
+          value: Math.round(weatherOutlook.May)
         })
 
         outlook.push({
           head: 'June',
-          value: Math.round(weatherOutlook.data.month.June)
+          value: Math.round(weatherOutlook.June)
         })
 
         outlook.push({
           head: 'July',
-          value: Math.round(weatherOutlook.data.month.July)
+          value: Math.round(weatherOutlook.July)
         })
 
         outlook.push({
           head: 'Aug',
-          value: Math.round(weatherOutlook.data.month.Aug)
+          value: Math.round(weatherOutlook.Aug)
         })
 
         return outlook
