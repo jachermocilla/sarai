@@ -42,6 +42,12 @@ Template.ForecastView.events({
   'click #view-weather-monitoring': (e) => {
     Session.set('stationID', $('#preview-select-station').val())
   },
+
+  'click #view-accumulated-rainfall': (e) => {
+    Session.set('stationID', $('#preview-select-station').val())
+    const stationID = Session.get('stationID')
+    FlowRouter.go(`/accumulated-rainfall/${stationID}`)
+  },
 })
 
 Template.ForecastView.helpers({

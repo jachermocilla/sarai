@@ -21,7 +21,9 @@ Template.WeatherStationsCMS.helpers({
 })
 
 Template.WeatherStationsCMS.events({
+  'click #cms-weather-station-add': () => {
 
+  }
 })
 
 const initWeatherStationDialog = (dialogID) => {

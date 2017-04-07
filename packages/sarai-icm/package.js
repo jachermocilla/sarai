@@ -25,6 +25,8 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var client = [
+    "client/components/crops-banner.less",
+
     "client/components/sarai-icm-corn/index.html",
     "client/components/sarai-icm-corn/index.js",
     "client/components/sarai-icm-corn/route.js",

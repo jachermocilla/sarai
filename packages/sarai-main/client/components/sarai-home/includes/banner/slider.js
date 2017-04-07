@@ -7,7 +7,15 @@ Template.Slider.helpers({
   slides: () => {
     const record = Main.findOne({name: 'banner'})
 
-    return record && record.slides
+    if (record) {
+      const sorted = record.slides
+
+      sorted.sort((a, b) => {
+        return a.rank > b.rank ? 1 : ((b.rank > a.rank ? -1 : 0))
+      })
+
+      return sorted
+    }
   },
 
   setSliderIndex: (index, image) => {
