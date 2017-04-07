@@ -59,6 +59,9 @@ Package.onUse(function(api) {
     "client/components/main/banner-options.html",
     "client/components/main/banner-options.js",
     "client/components/main/banner-options.less",
+    "client/components/main/weather-advisory-options.html",
+    "client/components/main/weather-advisory-options.js",
+    "client/components/main/weather-advisory-options.less",
 
     //ABOUT US
     "client/components/about-us/about-us-banner-options.html",
