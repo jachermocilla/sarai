@@ -1,4 +1,37 @@
 Meteor.methods({
+  'cms-weather-advisory-update': (title, description, advisory) => {
+    Main.update(
+      { name: 'weather-advisory' },
+      {
+        $set : {
+          title,
+          description,
+          subtext
+        }
+      },
+      { upsert: true }
+    );
+  },
+
+  'cms-weather-advisory-toggle': () => {
+    const c = Main.findOne({name: 'weather-advisory'}).enabled
+    let n = true
+    if (c) {
+      n = false
+    }
+
+    Main.update(
+      { name: 'weather-advisory' },
+      {
+        $set : {
+          enabled: n
+        }
+      },
+      { upsert: true }
+    );
+
+  },
+
   'cms-top-header-update': (message, searchText) => {
     Main.update(
       { name: 'topHeader' },
