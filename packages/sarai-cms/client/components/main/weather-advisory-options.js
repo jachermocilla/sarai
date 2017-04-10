@@ -1,4 +1,5 @@
 Template.TopHeaderOptions.onCreated(function() {
+
   const handle = Meteor.subscribe('main', 'topHeader');
 })
 
@@ -36,7 +37,7 @@ Template.TopHeaderOptions.events({
       if (error) {
         toast = `Unable to ${title} Weather Advisory`
       }
-
+      console.log('Unable to ${title} Weather Advisory')
       showToast(toast)
 
     })
@@ -83,6 +84,8 @@ Template.WeatherAdvisoryOptions.helpers({
       return record.enabled ? '' : {disabled: 'true'}
     }
   },
+
+  // Callbacks
 
   save: () => {
     const title = $("#cms-weather-advisory-title").val()
