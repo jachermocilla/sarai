@@ -1,6 +1,9 @@
 Template.WeatherMonitoringV2.onCreated(() => {
   //By default the visible chart is the forecast chart
 
+  Meteor.subscribe('sarai-weather-stations')
+  Meteor.subscribe('weather-data-30')
+
   Meteor.subscribe('dss-settings', () => {
     const record = DSSSettings.findOne({name: 'wunderground-api-key'})
     this.apiKey = record.value
@@ -8,6 +11,13 @@ Template.WeatherMonitoringV2.onCreated(() => {
 
   this.visibleChart = 'forecast'
   $('#forecast button').addClass('active')
+
+  Highcharts.setOptions({
+  // This is for all plots, change Date axis to local timezone
+      global : {
+          useUTC : false
+      }
+  });
 })
 
 Template.WeatherMonitoringV2.onRendered(() => {
@@ -73,6 +83,8 @@ Template.WeatherMonitoringV2.events({
     this.visibleChart = 'accumulated'
     $('#accumulated > button').addClass('active')
     $('#forecast > button').removeClass('active')
+
+    displayWeatherData(Session.get('stationID'), this.apiKey)
   }
 })
 
@@ -83,6 +95,12 @@ Template.WeatherMonitoringV2.helpers({
     } else {
       return false
     }
+  },
+
+  stations: () => {
+    const stations = WeatherStations.find({})
+
+    return stations
   }
 })
 
@@ -166,5 +184,30 @@ const displayForecast = (stationID, apiKey) => {
 }
 
 const displayAccumulatedRain = (stationID, apiKey) => {
+  const weatherData = WeatherData.find({id: stationID}).fetch()
 
+  //have to reconcile missing entries
+  if (weatherData) {
+    const fixedData = Meteor.AccumulatedRainfall.fillMissingEntries(weatherData.reverse())
+
+    const pastRainfall = Meteor.AccumulatedRainfall.getPastRainfall(fixedData)
+
+    if (apiKey) {
+      $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
+
+        // const result = Meteor.RainfallSampleData.sampleData()
+
+        //remove any existing chart first
+        $('div.meteogram').remove()
+
+        const runningTotal = pastRainfall.pastAccRainfall[29].y
+
+        const forecast = Meteor.AccumulatedRainfall.getForecast(result, runningTotal)
+
+        const completeData = Meteor.AccumulatedRainfall.assembleRainfallData(pastRainfall.pastRainfall, pastRainfall.pastAccRainfall, forecast.forecastRainfall, forecast.forecastAccumulated)
+
+        $('<div class="meteogram">').appendTo('#meteogram-container').highcharts(Meteor.AccumulatedRainfall.constructChart(completeData.completeRainfall, completeData.completeAccumulatedRainfall, forecast.plotBandStart, forecast.plotBandEnd))
+      })
+    }
+  }
 }

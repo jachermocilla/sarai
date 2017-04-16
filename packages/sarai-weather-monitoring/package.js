@@ -42,7 +42,8 @@ Package.onUse(function(api) {
 
     "client/components/weather-monitoring-v2/route.js",
 
-    "lib/chart-helpers.js"
+    "lib/chart-helpers.js",
+    "lib/accumulated-rain-helpers.js"
   ]
 
   api.addFiles(client, "client")

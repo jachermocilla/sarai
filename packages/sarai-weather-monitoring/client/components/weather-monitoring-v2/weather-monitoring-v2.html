@@ -25,7 +25,22 @@
     </div>
 
     <div class="mdl-cell mdl-cell--6-col-desktop">
-      10 day forecast of all stations goes here
+      <table id="accumulated-rainfall-table" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Station</th>
+          <th class="mdl-data-table__cell--non-numeric">Accumulated Rainfall</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each station in stations}}
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">{{station.id}}</td>
+            <td class="mdl-data-table__cell--non-numeric">sample</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
     </div>
     <div class="mdl-cell mdl-cell--6-col-desktop">
       Heat map for the entire year for all stations goes here
