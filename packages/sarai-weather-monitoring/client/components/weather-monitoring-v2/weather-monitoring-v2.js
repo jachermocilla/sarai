@@ -30,7 +30,8 @@ Template.WeatherMonitoringV2.onRendered(() => {
       maxBounds: bounds,
       center: [14.154604, 121.247505],
       zoom: 5,
-      minZoom: 1
+      minZoom: 1,
+      zoomControl: false
   });
 
   L.tileLayer('https://api.mapbox.com/styles/v1/mcarandang/cj1jd9bo2000a2speyi8o7cle/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWNhcmFuZGFuZyIsImEiOiJjaWtxaHgzYTkwMDA4ZHZtM3E3aXMyYnlzIn0.x63VGx2C-BP_ttuEsn2fVg',{
@@ -39,7 +40,7 @@ Template.WeatherMonitoringV2.onRendered(() => {
     accessToken: 'pk.eyJ1IjoibWNhcmFuZGFuZyIsImEiOiJjaWtxaHgzYTkwMDA4ZHZtM3E3aXMyYnlzIn0.x63VGx2C-BP_ttuEsn2fVg'
   }).addTo(weatherMap);
 
-  weatherMap.zoomControl.setPosition('bottomleft');
+  // weatherMap.zoomControl.setPosition('bottomleft');
 
   const showWeatherData = (stationID, label, event) => {
     // displayWeatherData(stationID, label)
