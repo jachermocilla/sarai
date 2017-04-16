@@ -1,3 +1,15 @@
+Template.WeatherMonitoringV2.onCreated(() => {
+  //By default the visible chart is the forecast chart
+
+  Meteor.subscribe('dss-settings', () => {
+    const record = DSSSettings.findOne({name: 'wunderground-api-key'})
+    this.apiKey = record.value
+  })
+
+  this.visibleChart = 'forecast'
+  $('#forecast button').addClass('active')
+})
+
 Template.WeatherMonitoringV2.onRendered(() => {
   /****MAP****/
   const northEast = L.latLng(21.924058, 115.342984);
@@ -21,11 +33,9 @@ Template.WeatherMonitoringV2.onRendered(() => {
 
   const showWeatherData = (stationID, label, event) => {
     // displayWeatherData(stationID, label)
-    // Session.set('stationID', stationID)
+    Session.set('stationID', stationID)
 
-
-    // dialog.showModal();
-    console.log('Do something ' + stationID)
+    displayWeatherData(stationID, this.apiKey)
   }
 
   Meteor.subscribe('sarai-weather-stations', () => {
@@ -48,3 +58,113 @@ Template.WeatherMonitoringV2.onRendered(() => {
     })
   })
 })
+
+Template.WeatherMonitoringV2.events({
+  'click #forecast': () => {
+    this.visibleChart = 'forecast'
+
+    $('#forecast > button').addClass('active')
+    $('#accumulated > button').removeClass('active')
+
+    displayWeatherData(Session.get('stationID'), this.apiKey)
+  },
+
+  'click #accumulated': () => {
+    this.visibleChart = 'accumulated'
+    $('#accumulated > button').addClass('active')
+    $('#forecast > button').removeClass('active')
+  }
+})
+
+Template.WeatherMonitoringV2.helpers({
+  forecastIsSelected: () => {
+    if (this.visibleChart == 'forecast' ) {
+      return true
+    } else {
+      return false
+    }
+  }
+})
+
+const displayWeatherData = (stationID, apiKey) => {
+  //Remove any existing chart
+  $('div.meteogram').remove()
+
+  //Display temporary spinner
+  $('<div class="meteogram meteogram-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>').appendTo('#meteogram-container')
+
+  if (this.visibleChart == 'forecast') {
+    displayForecast(stationID, apiKey)
+  } else {
+    displayAccumulatedRain(stationID, apiKey)
+  }
+}
+
+const displayForecast = (stationID, apiKey) => {
+
+  if (apiKey) { //Make sure key is available
+
+    const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
+
+    $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${Meteor.chartHelpers.featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
+
+      const dailySeries = Meteor.chartHelpers.getDailySeries(result)
+      const hourlySeries = Meteor.chartHelpers.getHourlySeries(result)
+      //common data
+      const tickPositions = Meteor.chartHelpers.getTickPositions(result)
+      const altTickPositions = Meteor.chartHelpers.getAltTickPositions(result)
+
+      const plotLines = Meteor.chartHelpers.getPlotLines(tickPositions)
+
+      const tickQPFMap = Meteor.chartHelpers.getTickQPFMap(altTickPositions, dailySeries.qpf)
+      const tickTempMap = Meteor.chartHelpers.getTickTempMap(altTickPositions, dailySeries.hlTemp)
+
+      const charts = [
+        {
+          element: '#temp-meteogram',
+          title: 'Temperature',
+          name: 'Temp',
+          id: 'temp',
+          data: hourlySeries.temp,
+          unit: '°C',
+          tickPositions: tickPositions,
+          altTickPositions: altTickPositions,
+          color: '#ff8c1a',
+          dateTicksEnabled: true,
+          plotLines,
+          altTickLabels: tickTempMap,
+        },
+        {
+          element: '#rain-meteogram',
+          title: 'Chance of Rain',
+          name: 'Chance of Rain',
+          id: 'pop',
+          data: hourlySeries.pop,
+          unit: '%',
+          tickPositions: tickPositions,
+          altTickPositions: altTickPositions,
+          color: '#0073e6',
+          dateTicksEnabled: false,
+          plotLines,
+          altTickLabels: tickQPFMap
+        }
+      ]
+
+      //remove any existing charts first
+      $('div.meteogram').remove()
+
+      //add new charts
+      charts.forEach((chart, index) => {
+        $('<div class="meteogram">')
+          .appendTo('#meteogram-container')
+          .highcharts(
+            Meteor.chartHelpers.constructChart(chart))
+      })
+    })
+  }
+
+}
+
+const displayAccumulatedRain = (stationID, apiKey) => {
+
+}

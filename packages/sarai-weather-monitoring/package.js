@@ -26,14 +26,14 @@ Package.onUse(function(api) {
 
   var client = [
     //old weather monitoring
-    "client/components/weather-monitoring/weather-monitoring.html",
-    "client/components/weather-monitoring/weather-monitoring.js",
-    "client/components/weather-monitoring/weather-monitoring.less",
+    // "client/components/weather-monitoring/weather-monitoring.html",
+    // "client/components/weather-monitoring/weather-monitoring.js",
+    // "client/components/weather-monitoring/weather-monitoring.less",
 
-    "client/components/weather-monitoring/route.js",
+    // "client/components/weather-monitoring/route.js",
 
     //sample data
-    "client/components/weather-monitoring/sample-data.js",
+    // "client/components/weather-monitoring/sample-data.js",
 
     //weather monitoring v2
     "client/components/weather-monitoring-v2/weather-monitoring-v2.html",

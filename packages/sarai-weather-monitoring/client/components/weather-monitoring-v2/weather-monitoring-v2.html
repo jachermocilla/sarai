@@ -1,17 +1,33 @@
 <template name="WeatherMonitoringV2">
 
   <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--3-col-desktop blue">
+    <div class="mdl-cell mdl-cell--3-col-desktop">
       <div id="weather-map-v2"></div>
     </div>
-    <div class="mdl-cell mdl-cell--9-col-desktop green">
-      10-day forecast and accumulated rainfall tabs go here
+    <div class="mdl-cell mdl-cell--9-col-desktop">
+      
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div id="forecast" class="btn-group" role="group">
+          <button type="button" class="btn btn-default">
+            10-Day Forecast
+          </button>
+        </div>
+        <div id="accumulated" class="btn-group" role="group">
+          <button type="button" class="btn btn-default">
+            Accumulated Rainfall
+          </button>
+        </div>
+      </div>
+
+      <div id="meteogram-container">
+
+      </div>
     </div>
 
-    <div class="mdl-cell mdl-cell--6-col-desktop green">
+    <div class="mdl-cell mdl-cell--6-col-desktop">
       10 day forecast of all stations goes here
     </div>
-    <div class="mdl-cell mdl-cell--6-col-desktop blue">
+    <div class="mdl-cell mdl-cell--6-col-desktop">
       Heat map for the entire year for all stations goes here
     </div>
   </div>
