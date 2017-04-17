@@ -26,25 +26,26 @@
 
     <div class="mdl-cell mdl-cell--6-col-desktop">
       <h3>Accumulated Rainfall</h3>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th>Station</th>
-            <th>Past 10 days (mm)</th>
-            <th>Past 30 days (mm)</th>
-          </tr>
-        </thead>
-        <tbody>
-        {{#each station in stations}}
-          <tr>
-            <td>{{station.id}}</td>
-            <td>{{station.rainfall10}}</td>
-            <td>{{station.rainfall30}}</td>
-          </tr>
-        {{/each}}
-      </tbody>
-      </table>
-
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Station</th>
+              <th>Past 10 days (mm)</th>
+              <th>Past 30 days (mm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each station in stations}}
+              <tr>
+                <td>{{station.id}}</td>
+                <td>{{station.rainfall10}}</td>
+                <td>{{station.rainfall30}}</td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="mdl-cell mdl-cell--6-col-desktop">
       <!-- Heat map for the entire year for all stations goes here -->
