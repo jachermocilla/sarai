@@ -5,7 +5,7 @@
       <div id="weather-map-v2"></div>
     </div>
     <div class="mdl-cell mdl-cell--9-col-desktop">
-      
+
       <div class="btn-group btn-group-justified" role="group" aria-label="...">
         <div id="forecast" class="btn-group" role="group">
           <button type="button" class="btn btn-default">
@@ -25,18 +25,21 @@
     </div>
 
     <div class="mdl-cell mdl-cell--6-col-desktop">
+      <h3>Accumulated Rainfall</h3>
       <table class="table table-striped">
         <thead>
           <tr>
             <th>Station</th>
-            <th>Accumulated Rainfall</th>
+            <th>Past 10 days (mm)</th>
+            <th>Past 30 days (mm)</th>
           </tr>
         </thead>
         <tbody>
         {{#each station in stations}}
           <tr>
             <td>{{station.id}}</td>
-            <td>sample</td>
+            <td>{{station.rainfall10}}</td>
+            <td>{{station.rainfall30}}</td>
           </tr>
         {{/each}}
       </tbody>
@@ -44,7 +47,7 @@
 
     </div>
     <div class="mdl-cell mdl-cell--6-col-desktop">
-      Heat map for the entire year for all stations goes here
+      <!-- Heat map for the entire year for all stations goes here -->
     </div>
   </div>
 </template>

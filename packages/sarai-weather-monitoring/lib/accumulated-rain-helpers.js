@@ -198,5 +198,27 @@ Meteor.AccumulatedRainfall = {
     result = result.replace('APN', '')
 
     return result
+  },
+
+  getTotal: (data) => {
+    let total30 = 0
+    let total10 = 0
+
+    let counter = 0
+
+    data.forEach(function(element, index) {
+      total30 += element.data.rainfall
+
+      if (counter < 10) { // 10 Days
+        total10 += element.data.rainfall
+
+        counter++
+      }
+    })
+
+    total10 = Math.round(total10 * 10) / 10
+    total30 = Math.round(total30 * 10) / 10
+
+    return [total10, total30]
   }
 }

@@ -99,9 +99,18 @@ Template.WeatherMonitoringV2.helpers({
   },
 
   stations: () => {
-    const stations = WeatherStations.find({})
+    const stationsRainfall = WeatherStations.find({}, {fields: {id: 1}}).fetch()
 
-    return stations
+    stationsRainfall.forEach((element, index) => {
+      const weatherData = WeatherData.find({id: element.id}).fetch()
+
+      const rainfallTotals = Meteor.AccumulatedRainfall.getTotal(weatherData)
+
+      element['rainfall10'] = rainfallTotals[0]
+      element['rainfall30'] = rainfallTotals[1]
+    })
+
+    return stationsRainfall
   }
 })
 
