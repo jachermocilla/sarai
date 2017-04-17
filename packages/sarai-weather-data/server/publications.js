@@ -66,3 +66,6 @@ Meteor.publish('dss-settings', () => {
   return DSSSettings.find();
 })
 
+Meteor.publish('heat-map-data', () => {
+  return HeatMapData.find();
+})
