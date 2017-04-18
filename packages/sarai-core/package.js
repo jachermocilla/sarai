@@ -51,6 +51,8 @@ Package.onUse(function(api) {
     // "sarai:sarai-satellite-ndvi"
     "sarai:sarai-icm",
     "sarai:sarai-icm-data",
+    "sarai:sarai-suitability-gallery",
+    "sarai:sarai-suitability-gallery-data",
     ]
 
   api.use(packages);

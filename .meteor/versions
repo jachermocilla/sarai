@@ -134,6 +134,8 @@ sarai:sarai-main-data@0.0.1
 sarai:sarai-ndvi@0.0.1
 sarai:sarai-services@0.0.1
 sarai:sarai-services-data@0.0.1
+sarai:sarai-suitability-gallery@0.0.1
+sarai:sarai-suitability-gallery-data@0.0.1
 sarai:sarai-user@0.0.1
 sarai:sarai-waiss@0.0.1
 sarai:sarai-waiss-data@0.0.1
