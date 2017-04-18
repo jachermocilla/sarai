@@ -15,7 +15,7 @@ Package.onUse(function(api) {
 
   var packages = [
     "sarai:sarai-lib",
-    "sarai:sarai-clinic-data"
+    // "sarai:sarai-clinic-data"
   ]
 
   api.use(packages)
