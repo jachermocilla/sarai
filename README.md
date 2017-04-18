@@ -1,14 +1,14 @@
-#sarai
+# Project SARAi
 This is it.
 
 Please offshoot from the correct develop branch
 
-#Pull Requests
+# Pull Requests
 SPiD team should collate all changes to the spid-develop branch
 
 Portal team should collate all changes to the portal-develop branch
 
-#Other Notes
+# Other Notes
 public/images and server/uploads are ignored to save space.
 The images for pests and diseases are final for now so just hold on to your local copies.
 
