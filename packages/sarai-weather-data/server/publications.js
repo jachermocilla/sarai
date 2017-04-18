@@ -33,13 +33,13 @@ Meteor.publish('weather-data-30-by-id', (stationID) => {
 
 
 
-Meteor.publish('weather-data-30-by-id', (id) => {
-  let oneMonthAgo = new Date()
-  // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
-  oneMonthAgo.setDate(oneMonthAgo.getDate() - 31)
+// Meteor.publish('weather-data-30-by-id', (id) => {
+//   let oneMonthAgo = new Date()
+//   // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
+//   oneMonthAgo.setDate(oneMonthAgo.getDate() - 31)
 
-  return WeatherData.find({id, dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
-})
+//   return WeatherData.find({id, dateUTC: { $gt: oneMonthAgo}}, {sort: {dateUTC: -1}});
+// })
 
 /**********WEATHER STATIONS***********/
 
@@ -66,3 +66,6 @@ Meteor.publish('dss-settings', () => {
   return DSSSettings.find();
 })
 
+Meteor.publish('heat-map-data', () => {
+  return HeatMapData.find();
+})
