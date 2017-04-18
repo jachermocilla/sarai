@@ -22,6 +22,7 @@ Package.onUse(function(api) {
 
   var lib = [
     "lib/collections/sarai-dss-settings.js",
+    "lib/collections/sarai-heat-map-data.js",
     "lib/collections/sarai-weather-data.js",
     "lib/collections/sarai-weather-stations.js"
   ]
