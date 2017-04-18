@@ -23,6 +23,7 @@ Package.onUse(function(api) {
 
   var lib = [
     "lib/collections/record-counts.js",
+    "lib/collections/cms.js",
   ]
 
   api.addFiles(lib, ["client", "server"])
@@ -43,12 +44,12 @@ Package.onUse(function(api) {
     ], "client")
 
   api.export([
-    "RecordCounts"
+    "RecordCounts",
+    "CMS"
   ])
 });
 
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('sarai:sarai-pests-data');
 });
