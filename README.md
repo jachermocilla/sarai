@@ -1,5 +1,5 @@
-# sarai
-## This is it.
+# Project SARAi
+This is it.
 
 Please offshoot from the correct develop branch
 
