@@ -23,5 +23,10 @@ Template.SaraiSuitabilityGallery.events({
             $(e).removeClass("active");
         }
         $(e).addClass("active");       
-     }
+     },
+
+     // 'click .pop' : function (e){
+     //    $('.imagepreview').attr('src', $(e).find('img').attr('src'));
+     //    $('#imagemodal').modal('show');   
+     // } 
 });
