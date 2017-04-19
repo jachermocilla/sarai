@@ -5187,24 +5187,6 @@ WeatherOutlook.insert({
 WeatherOutlook.insert({ 
 	region: "Region III: Central Luzon", 
 	province: "Bulacan", 
-	municipality: "Doï?½a Remedios Trinidad", 
-	data: {
-		month: {
-			January: 19.2013382857, 
-			February: 10.01, 
-			March: 16.5513191667, 
-			April: 65.17, 
-			May: 210.9, 
-			June: 273.17, 
-			July: 483.19, 
-			Aug: 567.46 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region III: Central Luzon", 
-	province: "Bulacan", 
 	municipality: "Doña Remedios Trinidad", 
 	data: {
 		month: {
@@ -5812,25 +5794,7 @@ WeatherOutlook.insert({
 			Aug: 206.1 
 		}
 	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Cagayan", 
-	municipality: "Peï?½ablanca", 
-	data: {
-		month: {
-			January: 88.8944883835, 
-			February: 54.01, 
-			March: 52.5728605702, 
-			April: 38.66, 
-			May: 138.38, 
-			June: 154.61, 
-			July: 179.35, 
-			Aug: 240.42 
-		}
-	}
-}); 
+});
 
 WeatherOutlook.insert({ 
 	region: "Region II: Cagayan Valley", 
@@ -5954,24 +5918,6 @@ WeatherOutlook.insert({
 			June: 129.31, 
 			July: 144.54, 
 			Aug: 233.43 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region II: Cagayan Valley", 
-	province: "Cagayan", 
-	municipality: "Santo Niï?½o", 
-	data: {
-		month: {
-			January: 45.047116, 
-			February: 17.53, 
-			March: 34.050814127, 
-			April: 46.94, 
-			May: 125.39, 
-			June: 158.76, 
-			July: 194.04, 
-			Aug: 258.17 
 		}
 	}
 }); 
@@ -13989,24 +13935,6 @@ WeatherOutlook.insert({
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
 	province: "Laguna", 
-	municipality: "Biï?½an", 
-	data: {
-		month: {
-			January: 34.3690654286, 
-			February: 24.55, 
-			March: 25.5774163889, 
-			April: 25.76, 
-			May: 143.61, 
-			June: 234.65, 
-			July: 399.36, 
-			Aug: 438.22 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "Region IV-A: CALABARZON", 
-	province: "Laguna", 
 	municipality: "Biñan", 
 	data: {
 		month: {
@@ -17402,24 +17330,6 @@ WeatherOutlook.insert({
 			June: 287.52, 
 			July: 515.84, 
 			Aug: 532.47 
-		}
-	}
-}); 
-
-WeatherOutlook.insert({ 
-	region: "National Capital Region (NCR)", 
-	province: "Metropolitan Manila", 
-	municipality: "Las Piï?½as", 
-	data: {
-		month: {
-			January: 12.4282832857, 
-			February: 8.97, 
-			March: 10.0305279167, 
-			April: 12.37, 
-			May: 155.77, 
-			June: 239.65, 
-			July: 387.28, 
-			Aug: 435.23 
 		}
 	}
 }); 
@@ -29483,4 +29393,3 @@ WeatherOutlook.insert({
 		}
 	}
 }); 
-
