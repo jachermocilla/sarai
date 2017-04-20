@@ -29,4 +29,24 @@ Template.SaraiSuitabilityGallery.events({
      //    $('.imagepreview').attr('src', $(e).find('img').attr('src'));
      //    $('#imagemodal').modal('show');   
      // } 
+     'change #preview-select-region': (e) => {
+        const region = e.currentTarget.value
+        Session.set('region', region)
+
+        const province = Regions.findOne({region:region}).province[0]
+
+        // sets province to first province in the chosen region 
+        Session.set('province',Regions.findOne({region:region}).province[0])
+
+        // sets municipality to first municipality in the chosen province 
+        Session.set('municipality',Provinces.findOne({province:province}).municipality[0])
+      },
+      
+      'change #preview-select-province': (e) => {
+        const province = e.currentTarget.value
+        Session.set('province', province)
+
+        // sets municipality to first municipality in the chosen province 
+        // Session.set('municipality',Provinces.findOne({province:province}).municipality[0])
+      },
 });
