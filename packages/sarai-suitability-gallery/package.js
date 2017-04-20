@@ -18,7 +18,8 @@ Package.onUse(function(api) {
     "sarai:sarai-user",
     "sarai:sarai-admin",
     "sarai:sarai-layout",
-    "sarai:sarai-suitability-gallery-data"
+    "sarai:sarai-suitability-gallery-data",
+    "sarai:sarai-main-data",
   ]
 
   api.use(packages)
@@ -30,7 +31,8 @@ Package.onUse(function(api) {
     "client/components/sarai-suitability-gallery/events.js",
     "client/components/sarai-suitability-gallery/route.js",
     "client/components/sarai-suitability-gallery/helpers.js",
-    "client/components/sarai-suitability-gallery/on-created.js"
+    "client/components/sarai-suitability-gallery/on-created.js",
+    "client/components/sarai-suitability-gallery/on-rendered.js"
   ]
 
   api.addFiles(client, "client")
