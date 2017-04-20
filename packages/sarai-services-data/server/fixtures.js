@@ -252,4 +252,34 @@ if (Services.find().count() === 0) {
     },
     sort: 3
 	});
+
+
+  Services.insert({
+    id: '249Q4Nquc2rCGQfXv',
+    name: 'ndvi',
+    title: 'Normalized Difference Vegetation Index',
+    tagline: '',
+    thumbnail: '/upload/main//service-media-ejbokrs8wFHgkJats.png',
+    info: {
+      crops: '',
+      experts: [''],
+      ura: [''],
+      projectLeaders: ['']
+    },
+    media: {
+      link: '',
+      type: '',
+      subtitle: '',
+      subtitleLink: 'http://159.203.253.31/ndvi/2016-12-01/2016-12-31?province=Laguna&center=14.270005%2C121.335777974'
+    },
+    col1: {
+      title: '',
+      content: ''
+    },
+    col2: {
+      title: '',
+      content: ''
+    },
+    sort: 10
+  });
 }
