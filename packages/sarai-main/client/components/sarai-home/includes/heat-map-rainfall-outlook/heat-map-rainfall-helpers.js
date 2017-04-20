@@ -5,11 +5,11 @@ Meteor.RainfallHeatMap = {
     let rain, coords
 
     for (let yAxis = 0; yAxis < 5; yAxis++) {
-      for (let xAxis = 0; xAxis < totalMunicipalities-1; xAxis++) {        // all municipalities except "All" option so totalMunicipalities-1
-        rain = rainfall[xAxis].y[yAxis]
+      for (let xAxis = 0; xAxis < totalMunicipalities; xAxis++) {       // if all municipalities except "All" option -> totalMunicipalities-1
+        rain = rainfall[totalMunicipalities-1-xAxis].y[yAxis]           // if not reversed, rain = rainfall[xAxis].y[yAxis]
         coords = "["+yAxis+","+ xAxis+","+ rain+"]"
-        if(yAxis==0){                                                      // all municipalities except "All" option at index 0
-          municipalities.push(rainfall[xAxis].x)
+        if(yAxis==0){
+          municipalities.push(rainfall[totalMunicipalities-1-xAxis].x)  // if not reversed, rain = rainfall[xAxis].y[yAxis]
         }
         coordinates.push(coords)
       }
@@ -23,7 +23,7 @@ Meteor.RainfallHeatMap = {
   getRainfall: (weatherOutlook, totalMunicipalities) => {
     let rainfallOutlook = []
 
-    for (let a = 1; a < totalMunicipalities; a++) {                       // all municipalities except "All" option which is the first element (weatherOutlook[0])
+    for (let a = 0; a < totalMunicipalities; a++) {                  // if all municipalities except "All" option which is the first element (weatherOutlook[0]) -> a=1
       rainfallOutlook.push({ x: weatherOutlook[a].municipality, y: [Math.round(weatherOutlook[a].data.month.April),
                                                                     Math.round(weatherOutlook[a].data.month.May),
                                                                     Math.round(weatherOutlook[a].data.month.June),

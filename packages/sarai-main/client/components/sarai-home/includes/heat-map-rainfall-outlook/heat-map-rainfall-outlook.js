@@ -1,5 +1,6 @@
 Template.HeatMapRainfallOutlook.onCreated(() => {
   Meteor.subscribe('regions')
+  Meteor.subscribe('provinces')
   Meteor.subscribe('weather-outlook')
 
   //default is Region IV-A: CALABARZON, Laguna
@@ -28,7 +29,7 @@ Template.HeatMapRainfallOutlook.events({
     const province = Regions.findOne({region:region}).province[1]
 
     // sets province to first province in the chosen region 
-    Session.set('province',Regions.findOne({region:region}).province[1])
+    Session.set('province',Regions.findOne({region:region}).province[1])    // if all municipalities except "All" option which is the first element (weatherOutlook[0])
 
     displayRainfallHeatMap(region, province)
   },
