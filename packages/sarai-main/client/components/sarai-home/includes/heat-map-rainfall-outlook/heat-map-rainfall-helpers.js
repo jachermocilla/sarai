@@ -61,17 +61,6 @@ Meteor.RainfallHeatMap = {
 
       colorAxis: {
         stops: [
-            // [0, '#FFFFFF'],     // #7c7c7c
-            // [0.3, '#FFFF00'],
-            // [0.6, '#FFA500'],
-            // [0.9, '#FF0000']
-           
-            // [0.08, '#FF0000'],  // red            // 0
-            // [0.09, '#FFA500'],  // orange         // 25
-            // [0.07, '#FFFF00'],  // yellow         // 50
-            // [0.6, '#62ff00'],   // light green    // 75
-            // [0.8, '#00ff00']    // green          // 100
-
             [0, '#FF0000'],     // red            // 0
             [0.2, '#FFA500'],   // orange         // 25
             [0.4, '#FFFF00'],   // yellow         // 50
