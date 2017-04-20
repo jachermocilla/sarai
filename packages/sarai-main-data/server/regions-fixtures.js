@@ -28,7 +28,7 @@
 	Regions.insert({
 		id: 6,
 		region: "Region II: Cagayan Valley",
-		province: ["All", "Batanes","Cagayan","Isabela","Nueva Vizcaya","Quirino"]
+		province: ["All", "Cagayan","Isabela","Nueva Vizcaya","Quirino"]
 	});
 	Regions.insert({
 		id: 7,
@@ -93,5 +93,5 @@
 	Regions.insert({
 		id: 19,
 		region: "ARMM",
-		province: ["All", "Basilan","Maguindanao","Shariff Kabunsuan","Sulu","Tawi-Tawi"]
+		province: ["All", "Basilan","Maguindanao","Shariff Kabunsuan"]
 	});
