@@ -37,6 +37,10 @@ Package.onUse(function(api) {
     "client/includes/cms-module-header/index.js",
     "client/includes/fixed-drawer/index.html",
     "client/includes/fixed-drawer/index.less",
+    "client/includes/monitoring-header/index.html",
+    "client/includes/monitoring-header/index.js",
+    "client/includes/monitoring-header/index.less",
+    "client/includes/monitoring-header/on-created.js",
 
     "client/includes/main-header/index.less",
     "client/includes/main-header/on-created.js",
@@ -59,7 +63,9 @@ Package.onUse(function(api) {
     "client/layout/ndvi-layout/ndvi-layout.html",
     "client/layout/ndvi-layout/ndvi-layout.less",
 
-    "client/layout/icm-layout/index.html"
+    "client/layout/icm-layout/index.html",
+
+    "client/layout/monitoring-layout/index.html"
   ]
 
   api.addFiles(client, "client")
