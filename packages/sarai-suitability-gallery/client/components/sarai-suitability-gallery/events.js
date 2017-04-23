@@ -32,14 +32,19 @@ Template.SaraiSuitabilityGallery.events({
      'change #preview-select-region': (e) => {
         const region = e.currentTarget.value
         Session.set('region', region)
+        let province
+        if(region == "All"){
+            province = Regions.findOne({region:region}).province[0]    
+        }else{
+            province = Regions.findOne({region:region}).province[1]
+        }
 
-        const province = Regions.findOne({region:region}).province[0]
+        
 
         // sets province to first province in the chosen region 
-        Session.set('province',Regions.findOne({region:region}).province[0])
+        Session.set('province',Regions.findOne({region:region}).province)
 
-        // sets municipality to first municipality in the chosen province 
-        Session.set('municipality',Provinces.findOne({province:province}).municipality[0])
+
       },
       
       'change #preview-select-province': (e) => {

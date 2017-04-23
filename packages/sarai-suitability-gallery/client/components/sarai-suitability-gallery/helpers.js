@@ -5,6 +5,14 @@ Template.SaraiSuitabilityGallery.helpers({
 
     return regions
   },
+  isCurrentRegionAll: () => {
+    const region = Session.get('region')
+    if (region == "All") {
+      return true
+    }else{
+      return false
+    }
+  },
 
   currentlySelectedRegion: (curr) => {
     const region = Session.get('region')

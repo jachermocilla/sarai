@@ -60,7 +60,10 @@ Template.HeatMapRainfallOutlook.helpers({
   provinces: () => {
     const region = Session.get('region')
     const provinces = Regions.findOne({region:region})
-
+    // let provinces = []
+    // for(let i=1; i<Regions.findOne({region:region}).province.length; i++){
+    //   provinces.push(Regions.findOne({region:region}).province[i]);
+    // } 
     return provinces && provinces.province
   },
 
