@@ -100,6 +100,7 @@ Package.onUse(function(api) {
     "client/components/sarai-home/includes/heat-map-rainfall-outlook/heat-map-rainfall-outlook.html",
     "client/components/sarai-home/includes/heat-map-rainfall-outlook/heat-map-rainfall-outlook.js",
     "client/components/sarai-home/includes/heat-map-rainfall-outlook/heat-map-rainfall-outlook.less",
+    "client/components/sarai-home/includes/heat-map-rainfall-outlook/route.js",
 
     "client/components/sarai-home/includes/weather-preview/graph/graph-view.html",
     "client/components/sarai-home/includes/weather-preview/graph/graph-view.js",

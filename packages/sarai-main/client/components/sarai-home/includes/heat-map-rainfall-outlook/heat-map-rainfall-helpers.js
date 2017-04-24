@@ -81,8 +81,13 @@ Meteor.RainfallHeatMap = {
 
       tooltip: {
           formatter: function () {
-              return '<b>' + this.series.yAxis.categories[this.point.y] + '</b> is expected to experience <br><b>' +
+              if (this.series.yAxis.categories[this.point.y] === 'All'){
+                return 'Average of rainfall in <b>all<b><br>municipalities is '+'<b>'+
+                  this.point.value + ' mm</b><br>on the month of <b>' + this.series.xAxis.categories[this.point.x] + '</b>';
+              }else{
+                return '<b>' + this.series.yAxis.categories[this.point.y] + '</b> is expected to experience <br><b>' +
                   this.point.value + ' mm</b> of rain on the month of <br><b>' + this.series.xAxis.categories[this.point.x] + '</b>';
+              }
           }
       },
 
