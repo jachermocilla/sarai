@@ -2,10 +2,11 @@ Template.SaraiSuitabilityGallery.events({
     'click .filter-button' : function (e){
         var value = e.target.attributes[1].nodeValue;
         console.log(e);
-        console.log(e.target.attributes[1].nodeValue);
+        // console.log(e.target.attributes[1].nodeValue);
         // console.log(e.target.attributes[1]);
-        console.log("VALUE: "+value);
-        if(value == "all")
+        // console.log("VALUE: "+value);
+        Session.set('crop', value)
+        if(value == "All")
         {
             //$('.filter').removeClass('hidden');
             $('.filter').show('1000');
@@ -42,7 +43,7 @@ Template.SaraiSuitabilityGallery.events({
         
 
         // sets province to first province in the chosen region 
-        Session.set('province',Regions.findOne({region:region}).province)
+        Session.set('province',province)
 
 
       },
