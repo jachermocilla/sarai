@@ -32,7 +32,6 @@ Meteor.publish('weather-data-30-by-id', (stationID) => {
 });
 
 
-
 // Meteor.publish('weather-data-30-by-id', (id) => {
 //   let oneMonthAgo = new Date()
 //   // oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
@@ -68,4 +67,8 @@ Meteor.publish('dss-settings', () => {
 
 Meteor.publish('heat-map-data', () => {
   return HeatMapData.find();
+})
+
+Meteor.publish('heat-map-data-by-id', (stationID) => {
+  return HeatMapData.find({stationID: stationID})
 })

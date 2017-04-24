@@ -43,6 +43,7 @@ Package.onUse(function(api) {
     ], "client")
 
   api.export([
+    "HeatMapData",
     "WeatherData",
     "WeatherStations",
     "DSSSettings"

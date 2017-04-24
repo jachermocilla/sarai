@@ -68,24 +68,27 @@ Template.WeatherMonitoringV2.onRendered(() => {
       }
     })
   })
+
 })
 
 Template.WeatherMonitoringV2.events({
   'click #forecast': () => {
     this.visibleChart = 'forecast'
 
-    $('#forecast > button').addClass('active')
-    $('#accumulated > button').removeClass('active')
-
-    displayWeatherData(Session.get('stationID'), this.apiKey)
+    activateButton('forecast')
+    // displayWeatherData(Session.get('stationID'), this.apiKey)
   },
 
   'click #accumulated': () => {
     this.visibleChart = 'accumulated'
-    $('#accumulated > button').addClass('active')
-    $('#forecast > button').removeClass('active')
+    activateButton('accumulated')
 
-    displayWeatherData(Session.get('stationID'), this.apiKey)
+    // displayWeatherData(Session.get('stationID'), this.apiKey)
+  },
+
+  'click #year': () => {
+    this.visibleChart =  'year'
+    activateButton('year')
   }
 })
 
@@ -123,8 +126,10 @@ const displayWeatherData = (stationID, apiKey) => {
 
   if (this.visibleChart == 'forecast') {
     displayForecast(stationID, apiKey)
-  } else {
+  } else if (this.visibleChart == 'accumulated') {
     displayAccumulatedRain(stationID, apiKey)
+  } else {
+    displayYear(stationID)
   }
 }
 
@@ -220,4 +225,38 @@ const displayAccumulatedRain = (stationID, apiKey) => {
       })
     }
   }
+}
+
+const displayYear = (stationID) => {
+  //remove any existing chart first
+  $('div.meteogram').remove()
+
+  // Meteor.subscribe('heat-map-data-by-id', stationID, () => {
+  //   const records = HeatMapData.find({})
+
+  //   console.log(records.fetch())
+  // })
+
+  const sampleData = [{data:
+        [[1272240000000,31.11],
+        [1272326400000,30.84],
+        [1272412800000,30.91],
+        [1272499200000,31.00],
+        [1272585600000,30.54]]
+    }]
+
+  $('<div class="meteogram">').appendTo('#meteogram-container').highcharts( Meteor.AccumulatedRainfall.constructYearChart(sampleData))
+
+}
+
+const activateButton = (id) => {
+  $(`#${id} > button`).addClass('active')
+
+  const charts = ['forecast', 'accumulated', 'year']
+
+  charts.forEach((element) => {
+    if (element != id) {
+      $(`#${element} > button`).removeClass('active')
+    }
+  })
 }
