@@ -13,16 +13,16 @@
         </div>
 
         <div align="center">
-            <button class="btn btn-default filter-button active" data-filter="all">All</button>
-            <button class="btn btn-default filter-button" data-filter="rice">Rice</button>
+            <button class="btn btn-default filter-button active" data-filter="All">All</button>
+            <button class="btn btn-default filter-button" data-filter="Rice">Rice</button>
             <button class="btn btn-default filter-button" data-filter="corn">Corn</button>
             <button class="btn btn-default filter-button" data-filter="banana">Banana</button>
             <button class="btn btn-default filter-button" data-filter="coconut">Coconut</button>
             <button class="btn btn-default filter-button" data-filter="coffee">Coffee</button>
             <button class="btn btn-default filter-button" data-filter="cacao">Cacao</button>
         </div>
-        <div class="row container">
-              <div class="col-md-4 col-md-offset-3">
+        <div class="row">
+              <div class="col-md-offset-2 col-md-4">
                <label for="preview-select-region">REGION</label><br/>
                <div class="select-container">
                   <select class="mdl-select" id="preview-select-region">
@@ -39,7 +39,15 @@
                <div class="select-container">
                   <select class="mdl-select" id="preview-select-province">
                     {{#each province in provinces}}
-                      <option value="{{province.[@index]}}">{{province[@index]}}</option>
+                      {{#if isCurrentRegionAll}}
+                        <option value="{{province.[@index]}}">{{province[@index]}}</option> 
+                      {{else}}
+                        {{#if @index $eq 0 false}}        <!--  all province except "All" option which is the first element (province[0]) -->
+                          <option value="{{province.[@index]}}">{{province[@index]}}</option>
+                        {{/if}}
+
+                      {{/if}}
+                      
                       {{currentlySelectedProvince}}
                     {{/each}}
                   </select>
@@ -47,9 +55,11 @@
               </div>
             </div>
           <br/>
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter rice">
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Rice">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463709467939/rice-detailed/Suitability%20Map_RicePhilv3.jpg" class="img-responsive">
+                {{#each image in images}}
+                  <img src="{{image.link}}" class="img-responsive">
+                {{/each}}
               </center>
           </div>
 
