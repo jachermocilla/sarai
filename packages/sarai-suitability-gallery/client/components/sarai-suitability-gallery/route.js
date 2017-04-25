@@ -1,5 +1,5 @@
 FlowRouter.route("/suitability-gallery", {
   action: function() {
-    BlazeLayout.render("MainLayout", {main: "SaraiSuitabilityGallery"})
+    BlazeLayout.render("MonitoringLayout", {main: "SaraiSuitabilityGallery"})
   }
 })

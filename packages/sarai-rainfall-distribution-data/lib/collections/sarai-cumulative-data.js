@@ -1,0 +1,1 @@
+CumulativeData = new Mongo.Collection('cumulative-data')

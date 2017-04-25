@@ -53,6 +53,9 @@ Package.onUse(function(api) {
     "sarai:sarai-icm-data",
     "sarai:sarai-suitability-gallery",
     "sarai:sarai-suitability-gallery-data",
+    "sarai:sarai-rainfall-distribution",
+    "sarai:sarai-rainfall-distribution-data",
+    "sarai:sarai-advisories"
     ]
 
   api.use(packages);
