@@ -76,19 +76,21 @@ Template.WeatherMonitoringV2.events({
     this.visibleChart = 'forecast'
 
     activateButton('forecast')
-    // displayWeatherData(Session.get('stationID'), this.apiKey)
+    displayWeatherData(Session.get('stationID'), this.apiKey)
   },
 
   'click #accumulated': () => {
     this.visibleChart = 'accumulated'
     activateButton('accumulated')
 
-    // displayWeatherData(Session.get('stationID'), this.apiKey)
+    displayWeatherData(Session.get('stationID'), this.apiKey)
   },
 
   'click #year': () => {
     this.visibleChart =  'year'
     activateButton('year')
+
+    displayWeatherData(Session.get('stationID'), this.apiKey)
   }
 })
 
@@ -245,7 +247,7 @@ const displayYear = (stationID) => {
         [1272585600000,30.54]]
     }]
 
-  $('<div class="meteogram">').appendTo('#meteogram-container').highcharts( Meteor.AccumulatedRainfall.constructYearChart(sampleData))
+  $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.AccumulatedRainfall.constructYearChart(sampleData))
 
 }
 

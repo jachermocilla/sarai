@@ -57,7 +57,9 @@ Package.onUse(function(api) {
     // "teamon:tinymce",
     "summernote:summernote",
     //"chrismbeckett:toastr",
-    "highcharts:highcharts-meteor",
+    // "highcharts:highcharts-meteor",
+    "jhuenges:highstock",
+
     //"chart:chart",
     "random"
   ]
