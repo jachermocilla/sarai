@@ -1,0 +1,88 @@
+html, body, #__blaze-root, #rainfall-distribution-map {
+  width: 100%;
+  height: 100%;
+}
+
+#rainfall-distribution-dialog, #cumulative-rainfall-dialog, #introduction-dialog{
+  top:60px;
+  max-width: 90%;
+  width: auto;
+
+  .mdl-dialog__content {
+    /*overflow: auto;*/
+  }
+  /*background-color: rgba(255,255,255,0.8);*/            /* slightly transparent */
+}
+
+#rainfall-distribution-chart-container, #rainfall-chart-container{
+  width: 100%;
+}
+
+.rainfall-chart {
+  width: 100%;
+  text-align: center;
+}
+
+.rainfall-chart-stub {
+  height: 400px;
+}
+
+#enter-date, #select-crop, #select-variety {
+  display: inline-block;
+}
+
+#preview-select-crop, #preview-select-variety, #preview-select-location {
+  font-size:16px;
+}
+
+#select-crop {
+  width: 100px;
+}
+
+#select-variety {
+  width: 260px;
+}
+
+/********* INTRODUCTION DIALOG **********/
+
+#introduction-dialog-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#introduction-dialog {
+  margin-top: 90px;
+}
+
+#proceed {
+  margin-bottom: 10px;
+}
+
+/********* SELECT **********/
+
+.select-container {
+  border: 1px solid #ccc;
+  width: 280px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #fafafa url('/icons/triangle-down.gif') no-repeat 99% 70%;
+}
+
+select.mdl-select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+select.mdl-select:focus {
+  outline: none;
+}
+
+#select-location {
+   display: inline-block;
+}

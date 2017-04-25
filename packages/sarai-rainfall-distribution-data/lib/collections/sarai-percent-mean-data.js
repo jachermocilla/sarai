@@ -1,0 +1,1 @@
+PercentMeanData = new Mongo.Collection('percent-mean-data')

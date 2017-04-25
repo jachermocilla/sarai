@@ -1,0 +1,1 @@
+RainfallDistributionData = new Mongo.Collection('rainfall-distribution-data')

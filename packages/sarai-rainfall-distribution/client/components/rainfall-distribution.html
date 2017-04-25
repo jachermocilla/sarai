@@ -1,0 +1,108 @@
+<template name="RainfallDistribution">
+  <div id="rainfall-distribution-map">
+
+    <!-- DIALOG FOR INTRODUCTION -->
+    <dialog id="introduction-dialog" class="mdl-dialog">
+      <button type="button" class="mdl-button mdl-js-button mdl-button--icon cancel" style="float:right">
+        <i class="material-icons md-10">close</i>
+      </button>
+
+      <h6 id="introduction-dialog-title" class="mdl-dialog__title"></h6>
+
+      <div id="introduction-dialog-desc">
+      
+      </div>
+
+      <center><input id="proceed" class="mdl-button mdl-js-button mdl-button--raised" type="submit" style="background-color:#2b72e5; color:white;" value="PROCEED"></center>
+    </dialog>
+
+     <!-- DIALOG FOR RAINFALL DISTRIBUTION GRAPH -->
+    <dialog id="rainfall-distribution-dialog" class="mdl-dialog">
+      
+      <button type="button" class="mdl-button mdl-js-button mdl-button--icon cancel" style="float:right">
+        <i class="material-icons md-10">close</i>
+      </button>
+
+      <h6 id="rainfall-distribution-dialog-title" class="mdl-dialog__title"></h6>
+      
+      <div id="rainfall-distribution-dialog-desc">
+      
+      </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="select-container" id="select-crop" style="margin-top: 0px;">
+          <select class="mdl-select" id="preview-select-crop">
+            <option value="Rice">Rice</option>
+            <option value="Corn">Corn</option>
+          </select>
+        </div>
+
+        &nbsp;&nbsp;
+        <div class="select-container" id="select-variety" style="margin-top: 0px;">
+          <select class="mdl-select" id="preview-select-variety">
+            {{#if isRice}}
+            <option value="PSBRc14">PSB Rc14</option>
+            {{else}}
+            <!-- <option value="IPB911">IPB911 (hybrid)</option> -->
+            <option value="DK6919s">DK 6919s (Monsanto, hybrid)</option>
+            <option value="IPBVar13">IPB Var 13</option>
+            <option value="NK8840">NK 8840 (Syngenta, hybrid)</option>
+            <option value="P30T80">P30T80 (Pioneer, hybrid)</option>
+            {{/if}}
+          </select>
+        </div>
+
+        &nbsp;&nbsp;
+        <div class="select-container" id="select-location" style="margin-top: 0px;">
+          <select class="mdl-select" id="preview-select-location">
+            {{#each station in weatherStations2}}
+              <option value="{{station.label}}">{{station.label}}</option>
+              {{currentlySelected}}
+            {{/each}}
+          </select>
+        </div>
+        
+
+        &nbsp;&nbsp;
+        <input id="enter-date" class="mdl-button mdl-js-button mdl-button--raised" type="text" name="date_input" min="2016-01-01" max="2016-12-31" value="" size="17" style="margin-top: 0px;">
+        &nbsp;&nbsp;
+        <input id="submit-date" class="mdl-button mdl-js-button mdl-button--raised" type="submit" style="background-color:#2b72e5; color:white; margin-top: 0px;" value="VIEW">
+
+      <div class="mdl-dialog__content">
+        <div id="rainfall-distribution-chart-container">
+
+        </div>
+        <br/><p style="font-size: 15px; margin-bottom: 0px;">by Project 1. Model Development and Crop Forecasting (Dr. Felino P. Lansigan et al.)</p>
+      </div>
+
+    </dialog>
+
+     <!-- DIALOG FOR CUMULATIVE RAINFALL GRAPH -->
+    <dialog id="cumulative-rainfall-dialog" class="mdl-dialog">
+      
+      <button type="button" class="mdl-button mdl-js-button mdl-button--icon back" style="float:left">
+        <i class="material-icons">arrow_back</i>
+      </button>
+
+      <button type="button" class="mdl-button mdl-js-button mdl-button--icon cancel" style="float:right">
+        <i class="material-icons md-10">close</i>
+      </button>
+      
+      <h6 id="cumulative-rainfall-dialog-title" class="mdl-dialog__title"></h6>
+
+      <div id="cumulative-rainfall-dialog-desc">
+      
+      </div>
+
+      <div class="mdl-dialog__content">
+          <div id="rainfall-chart-container">
+
+          </div>
+          <div id="rainfall-chart-text-container">
+
+          </div>
+          <br/><br/><p style="font-size: 15px; margin-bottom: 0px;">by Project 1. Model Development and Crop Forecasting (Dr. Felino P. Lansigan et al.)</p>
+      </div>
+
+    </dialog>
+  </div>
+</template>
