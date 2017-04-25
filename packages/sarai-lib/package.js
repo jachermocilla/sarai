@@ -54,13 +54,8 @@ Package.onUse(function(api) {
     "cfs:standard-packages",
     "cfs:gridfs",
     "udondan:slick",
-    // "teamon:tinymce",
     "summernote:summernote",
-    //"chrismbeckett:toastr",
-    // "highcharts:highcharts-meteor",
     "jhuenges:highstock",
-
-    //"chart:chart",
     "random"
   ]
 

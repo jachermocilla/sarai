@@ -233,21 +233,23 @@ const displayYear = (stationID) => {
   //remove any existing chart first
   $('div.meteogram').remove()
 
-  // Meteor.subscribe('heat-map-data-by-id', stationID, () => {
-  //   const records = HeatMapData.find({})
+  Meteor.subscribe('heat-map-data-by-id', stationID, () => {
+    const records = HeatMapData.find({})
 
-  //   console.log(records.fetch())
-  // })
+    const series = Meteor.YearWeather.constructSeries(records.fetch())
 
-  const sampleData = [{data:
-        [[1272240000000,31.11],
-        [1272326400000,30.84],
-        [1272412800000,30.91],
-        [1272499200000,31.00],
-        [1272585600000,30.54]]
-    }]
+    $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.YearWeather.constructChart(series))
+  })
 
-  $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.AccumulatedRainfall.constructYearChart(sampleData))
+  // const sampleData = [{data:
+  //       [[1272240000000,31.11],
+  //       [1272326400000,30.84],
+  //       [1272412800000,30.91],
+  //       [1272499200000,31.00],
+  //       [1272585600000,30.54]]
+  //   }]
+
+  // $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.YearWeather.constructChart(sampleData))
 
 }
 
