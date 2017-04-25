@@ -48,12 +48,12 @@ Template.SaraiSuitabilityGallery.helpers({
       // $('<div class="rainfall-heat-map">').appendTo('#heat-map-rainfall-container').highcharts(Meteor.RainfallHeatMap.constructHeatMap(municipalities, rain))
     })
   },
-  images: () => {
+  images: (imageCrop) => {
     const province = Session.get('province')
     const crop = Session.get('crop')
 
     console.log(province)
-    console.log(crop)
+    console.log(imageCrop)
     
     // Meteor.subscribe('suitability-galery', () => {
     //   console.log(SuitabilityGallery.find({province:province, crop:"Rice"}).fetch())
@@ -61,7 +61,7 @@ Template.SaraiSuitabilityGallery.helpers({
     //   // console.log(gallery)
     //   // return gallery
     // })
-    const map = SuitabilityGallery.find({province:province, crop:"Rice"}).fetch()
+    const map = SuitabilityGallery.find({province:province, crop:imageCrop}).fetch()
     console.log(map)
     return map
   
