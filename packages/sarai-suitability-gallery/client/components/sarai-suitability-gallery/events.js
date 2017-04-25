@@ -9,21 +9,20 @@ Template.SaraiSuitabilityGallery.events({
         if(value == "All")
         {
             //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
+            $('.filter').show('1000')
         }
         else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
+        { 
+            $(".filter").not('.'+value).hide('3000')
+            $('.filter').filter('.'+value).show('3000')
             
         }
 
         if ($(".filter-button").removeClass("active")) {
-            $(e).removeClass("active");
+            $(e).removeClass("active")
         }
-        $(e).addClass("active");       
+        e.target.className = "btn btn-default filter-button active"
+        // $(e).addClass("active");       
      },
 
      // 'click .pop' : function (e){
