@@ -14,6 +14,14 @@ Template.SaraiSuitabilityGallery.helpers({
     }
   },
 
+  isNA: (value) => {
+    if (value == "NA") {
+      return true
+    }else{
+      return false
+    }
+  },
+
   currentlySelectedRegion: (curr) => {
     const region = Session.get('region')
     
