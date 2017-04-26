@@ -25,10 +25,22 @@ Template.SaraiSuitabilityGallery.events({
         // $(e).addClass("active");       
      },
 
-     // 'click .pop' : function (e){
-     //    $('.imagepreview').attr('src', $(e).find('img').attr('src'));
-     //    $('#imagemodal').modal('show');   
-     // } 
+     'click .pop' : function (e){
+        // $('.imagepreview').attr('src', $(e).find('img').attr('src'));
+        // $('#imagemodal').modal('show');
+        console.log(e.target.src)
+        const src = e.target.src
+        const dialog = document.querySelector('#suitability-dialog')
+
+        dialog.querySelector('.cancel').addEventListener('click', () => {
+            dialog.close();
+        }); 
+        //remove any existing chart first
+        $('img.suitability-image').remove()
+        $('<img class="suitability-image" src="'+src+'">').appendTo('#image-container')
+        dialog.showModal()  
+     },
+
      'change #preview-select-region': (e) => {
         const region = e.currentTarget.value
         Session.set('region', region)
