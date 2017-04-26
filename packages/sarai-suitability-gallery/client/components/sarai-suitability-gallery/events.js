@@ -26,11 +26,10 @@ Template.SaraiSuitabilityGallery.events({
      },
 
      'click .pop' : function (e){
-        // $('.imagepreview').attr('src', $(e).find('img').attr('src'));
-        // $('#imagemodal').modal('show');
-        console.log(e.target.src)
         const src = e.target.src
         const dialog = document.querySelector('#suitability-dialog')
+
+        Session.set("src", src)
 
         dialog.querySelector('.cancel').addEventListener('click', () => {
             dialog.close();
@@ -39,6 +38,12 @@ Template.SaraiSuitabilityGallery.events({
         $('img.suitability-image').remove()
         $('<img class="suitability-image" src="'+src+'">').appendTo('#image-container')
         dialog.showModal()  
+     },
+
+     'click .download-button' : function (e){
+        console.log(e.target.href)
+        e.target.href = Session.get("src")
+        
      },
 
      'change #preview-select-region': (e) => {
