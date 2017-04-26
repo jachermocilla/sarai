@@ -14,6 +14,14 @@ Template.SaraiSuitabilityGallery.helpers({
     }
   },
 
+  isNA: (value) => {
+    if (value == "NA") {
+      return true
+    }else{
+      return false
+    }
+  },
+
   currentlySelectedRegion: (curr) => {
     const region = Session.get('region')
     
@@ -43,26 +51,14 @@ Template.SaraiSuitabilityGallery.helpers({
         gallery = SuitabilityGallery.find({province:province, crop:crop}).fetch()
       }
       
-      // console.log(gallery)
-      // $('div.rainfall-heat-map').remove()    //remove any existing chart first
-      // $('<div class="rainfall-heat-map">').appendTo('#heat-map-rainfall-container').highcharts(Meteor.RainfallHeatMap.constructHeatMap(municipalities, rain))
     })
   },
-  images: () => {
+  images: (imageCrop) => {
     const province = Session.get('province')
     const crop = Session.get('crop')
 
-    console.log(province)
-    console.log(crop)
-    
-    // Meteor.subscribe('suitability-galery', () => {
-    //   console.log(SuitabilityGallery.find({province:province, crop:"Rice"}).fetch())
-    //   return SuitabilityGallery.find({province:province, crop:"Rice"}).fetch()
-    //   // console.log(gallery)
-    //   // return gallery
-    // })
-    const map = SuitabilityGallery.find({province:province, crop:"Rice"}).fetch()
-    console.log(map)
+    const map = SuitabilityGallery.find({province:province, crop:imageCrop}).fetch()
+ 
     return map
   
   },

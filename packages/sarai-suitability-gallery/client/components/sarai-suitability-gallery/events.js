@@ -9,27 +9,47 @@ Template.SaraiSuitabilityGallery.events({
         if(value == "All")
         {
             //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
+            $('.filter').show('1000')
         }
         else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
+        { 
+            $(".filter").not('.'+value).hide('3000')
+            $('.filter').filter('.'+value).show('3000')
             
         }
 
         if ($(".filter-button").removeClass("active")) {
-            $(e).removeClass("active");
+            $(e).removeClass("active")
         }
-        $(e).addClass("active");       
+        e.target.className = "btn btn-default filter-button active"
+        // $(e).addClass("active");       
      },
 
-     // 'click .pop' : function (e){
-     //    $('.imagepreview').attr('src', $(e).find('img').attr('src'));
-     //    $('#imagemodal').modal('show');   
-     // } 
+     'click .pop' : function (e){
+        const src = e.target.src
+        const dialog = document.querySelector('#suitability-dialog')
+        // console.log(src)
+        if(src == null){
+            alert("Please click the image.")
+        }else{
+            Session.set("src", src)
+
+            dialog.querySelector('.cancel').addEventListener('click', () => {
+                dialog.close();
+            }); 
+            //remove any existing chart first
+            $('img.suitability-image').remove()
+            $('<img class="suitability-image" src="'+src+'">').appendTo('#image-container')
+            dialog.showModal()  
+        }
+     },
+
+     'click .download-button' : function (e){
+        console.log(e.target.href)
+        e.target.href = Session.get("src")
+        
+     },
+
      'change #preview-select-region': (e) => {
         const region = e.currentTarget.value
         Session.set('region', region)

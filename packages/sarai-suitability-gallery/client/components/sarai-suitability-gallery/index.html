@@ -15,94 +15,168 @@
         <div align="center">
             <button class="btn btn-default filter-button active" data-filter="All">All</button>
             <button class="btn btn-default filter-button" data-filter="Rice">Rice</button>
-            <button class="btn btn-default filter-button" data-filter="corn">Corn</button>
-            <button class="btn btn-default filter-button" data-filter="banana">Banana</button>
-            <button class="btn btn-default filter-button" data-filter="coconut">Coconut</button>
-            <button class="btn btn-default filter-button" data-filter="coffee">Coffee</button>
-            <button class="btn btn-default filter-button" data-filter="cacao">Cacao</button>
+            <button class="btn btn-default filter-button" data-filter="Corn">Corn</button>
+            <button class="btn btn-default filter-button" data-filter="Banana">Banana</button>
+            <button class="btn btn-default filter-button" data-filter="Coconut">Coconut</button>
+            <button class="btn btn-default filter-button" data-filter="Coffee">Coffee</button>
+            <button class="btn btn-default filter-button" data-filter="Cacao">Cacao</button>
         </div>
         <div class="row">
-              <div class="col-md-offset-2 col-md-4">
-               <label for="preview-select-region">REGION</label><br/>
-               <div class="select-container">
-                  <select class="mdl-select" id="preview-select-region">
-                    {{#each region in regions}}
-                      <option value="{{region.region}}">{{region.region}}</option>
-                      {{currentlySelectedRegion}}
-                    {{/each}}
-                  </select>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-               <label for="preview-select-province">PROVINCE</label><br/>
-               <div class="select-container">
-                  <select class="mdl-select" id="preview-select-province">
-                    {{#each province in provinces}}
-                      {{#if isCurrentRegionAll}}
-                        <option value="{{province.[@index]}}">{{province[@index]}}</option> 
-                      {{else}}
-                        {{#if @index $eq 0 false}}        <!--  all province except "All" option which is the first element (province[0]) -->
-                          <option value="{{province.[@index]}}">{{province[@index]}}</option>
-                        {{/if}}
-
-                      {{/if}}
-                      
-                      {{currentlySelectedProvince}}
-                    {{/each}}
-                  </select>
-                </div>
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+             <label for="preview-select-region">REGION</label><br/>
+             <div class="select-container">
+                <select class="mdl-select" id="preview-select-region">
+                  {{#each region in regions}}
+                    <option value="{{region.region}}">{{region.region}}</option>
+                    {{currentlySelectedRegion}}
+                  {{/each}}
+                </select>
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+             <label for="preview-select-province">PROVINCE</label><br/>
+             <div class="select-container">
+                <select class="mdl-select" id="preview-select-province">
+                  {{#each province in provinces}}
+                    {{#if isCurrentRegionAll}}
+                      <option value="{{province.[@index]}}">{{province[@index]}}</option> 
+                    {{else}}
+                      {{#if @index $eq 0 false}}        <!--  all province except "All" option which is the first element (province[0]) -->
+                        <option value="{{province.[@index]}}">{{province[@index]}}</option>
+                      {{/if}}
+
+                    {{/if}}
+                    
+                    {{currentlySelectedProvince}}
+                  {{/each}}
+                </select>
+              </div>
+            </div>
+          </div>
           <br/>
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Rice">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Rice">
               <center>
-                {{#each image in images}}
-                  <img src="{{image.link}}" class="img-responsive">
+                {{#each image in images "Rice"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Rice</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
                 {{/each}}
               </center>
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter banana">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Banana">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463709467939/banana-detailed/Suitability%20Map_BananaPhilv3.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463709467939/banana-detailed/Suitability%20Map_BananaPhilv3.jpg" class="img-responsive"> -->
+
+                {{#each image in images "Banana"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Banana</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
+                {{/each}}
               </center>
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter corn">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Corn">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463237091797/corn-dry-season-detailed/Suitability%20Map_CornPhilv3.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463237091797/corn-dry-season-detailed/Suitability%20Map_CornPhilv3.jpg" class="img-responsive">
+              </center> -->
+
+                {{#each image in images "Corn Dry"}}
+                    {{#if isNA image.link}}
+                      <h3>{{image.province}}</h3>
+                      <h3>Crop: Corn Dry</h3>
+                      <h4>Image is not available.</h4>
+                    {{else}}
+                      <img src="{{image.link}}" class="img-responsive gallery-image">
+                    {{/if}}
+                {{/each}}
               </center>
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter corn">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Corn">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/corn-wet-season/Suitability%20Map_CornPhilv3.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/corn-wet-season/Suitability%20Map_CornPhilv3.jpg" class="img-responsive"> -->
+                {{#each image in images "Corn Wet"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Corn Wet</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
+                {{/each}}
               </center>
 
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter coconut">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Coconut">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/coconut-detailed/Suitability%20Map_CoconutPhilv3.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/coconut-detailed/Suitability%20Map_CoconutPhilv3.jpg" class="img-responsive"> -->
+                {{#each image in images "Coconut"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Coconut</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
+                {{/each}}
               </center>
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter coffee">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Coffee">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/coffee-arabica-detailed/Suitability%20Map_ArabicaPhilv3.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/coffee-arabica-detailed/Suitability%20Map_ArabicaPhilv3.jpg" class="img-responsive"> -->
+                {{#each image in images "Coffee Arabica"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Coffee Arabica</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
+                {{/each}}
               </center>
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter coffee">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Coffee">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1465265418287/coffee-robusta-detailed/RobustaPhil_Detailed.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1465265418287/coffee-robusta-detailed/RobustaPhil_Detailed.jpg" class="img-responsive"> -->
+                {{#each image in images "Coffee Robusta"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Coffee Robusta</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
+                {{/each}}
               </center>
           </div>
 
-          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter cacao">
+          <div class="gallery_product pop col-lg-3 col-md-4 col-sm-4 col-xs-6 filter Cacao">
               <center>
-                <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/cacao-detailed/Suitability%20Map_CacaoPhilv3.jpg" class="img-responsive">
+                <!-- <img src="https://sites.google.com/a/up.edu.ph/sarai-project/_/rsrc/1463145818661/cacao-detailed/Suitability%20Map_CacaoPhilv3.jpg" class="img-responsive"> -->
+                {{#each image in images "Cacao"}}
+                  {{#if isNA image.link}}
+                    <h3>{{image.province}}</h3>
+                    <h3>Crop: Cacao</h3>
+                    <h4>Image is not available.</h4>
+                  {{else}}
+                    <img src="{{image.link}}" class="img-responsive gallery-image">
+                  {{/if}}
+                {{/each}}
               </center>
           </div>
 
@@ -111,5 +185,19 @@
 
 
 
+<dialog id="suitability-dialog" class="mdl-dialog">
+  <button type="button" class="mdl-button mdl-js-button mdl-button--icon cancel" style="float:right">
+    <i class="material-icons md-10">close</i>
+  </button>
+  <div class="mdl-dialog__content">
+    <center id="image-container" >
+    </center>
+  </div>
+
+  <div class="mdl-dialog__actions">
+    <a class="mdl-button download-button" href="" download="suitability.jpg">Download</a>
+    <!-- <button type="button" class="mdl-button cancel">Close</button> -->
+  </div>
+</dialog>
 
 </template>
