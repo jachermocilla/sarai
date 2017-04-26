@@ -236,20 +236,10 @@ const displayYear = (stationID) => {
   Meteor.subscribe('heat-map-data-by-id', stationID, () => {
     const records = HeatMapData.find({})
 
-    const series = Meteor.YearWeather.constructSeries(records.fetch())
+    const data = Meteor.YearWeather.constructSeries(records.fetch())
 
-    $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.YearWeather.constructChart(series))
+    $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.YearWeather.constructChart(data[0], data[1]))
   })
-
-  // const sampleData = [{data:
-  //       [[1272240000000,31.11],
-  //       [1272326400000,30.84],
-  //       [1272412800000,30.91],
-  //       [1272499200000,31.00],
-  //       [1272585600000,30.54]]
-  //   }]
-
-  // $('<div class="meteogram">').appendTo('#meteogram-container').highcharts('StockChart', Meteor.YearWeather.constructChart(sampleData))
 
 }
 

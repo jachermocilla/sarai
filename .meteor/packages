@@ -15,5 +15,8 @@ cfs:filesystem
 udondan:slick
 meteorhacks:search-source
 fortawesome:fontawesome
+<<<<<<< 64d76c5bfd4fc8b9dca29320d736651565cb6574
 mhourahine:highcharts-heatmaps
 plusmore:pickadate-default-theme
+=======
+>>>>>>> Deleted unused highcharts-container folder
