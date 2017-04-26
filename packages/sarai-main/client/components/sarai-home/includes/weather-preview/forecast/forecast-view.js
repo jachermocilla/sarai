@@ -28,8 +28,9 @@ Template.ForecastView.events({
   },
 
   'click .preview-more button': () => {
-    const stationID = Session.get('stationID')
-    FlowRouter.go(`/accumulated-rainfall/${stationID}`)
+    // const stationID = Session.get('stationID')
+    // FlowRouter.go(`/accumulated-rainfall/${stationID}`)
+    FlowRouter.go(`/weather-monitoring`)
   },
 
   'click .download': (e) => {

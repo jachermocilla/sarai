@@ -54,15 +54,15 @@ Template.RainfallDistribution.events({
   },
    'click #submit-date': function(){
     const label = $('#preview-select-location').val()
-    const stationID = Session.get('stationID')
-    Session.set('stationID', stationID)
+    const stationID = Session.get('PGStationID')
+    Session.set('PGStationID', stationID)
 
     $('#rainfall-distribution-dialog-title').html(`
       <p style="font-size:20px;">GUIDE TO PLANTING DATES</p>
       Rainfall Distribution for `+label+` <span style="font-size:23px">based on historical weather data</span>`)
     $('#rainfall-distribution-dialog-desc').html(`
       <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:17px;">Planting dates are guided by rainfall distribution. Please select crop, variety, location, and date below then click view for the cumulative rainfall and expected yield based on the chosen crop, variety, location, and date.</br></br>
-      <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">complete displayed</span>.<span>
+      <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">completely displayed</span>. If not, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> <br/>until the chart has been loaded.</span>
       </p>
     `)
     $('#cumulative-rainfall-dialog-title').html(`
@@ -123,7 +123,7 @@ Template.RainfallDistribution.onRendered(() => {
 
     // defaults
     Session.set('selected_crop', 'Rice')
-    Session.set('stationID', 'ICALABAR18')
+    Session.set('PGStationID', 'ICALABAR18')
     if(label == null){
       Session.set('label', 'Los Baños, Laguna')
     }
@@ -144,7 +144,7 @@ Template.RainfallDistribution.onRendered(() => {
           Rainfall Distribution for ${Meteor.RainfallDistribution.stripTitle(station.label)} <span style="font-size:23px">based on historical weather data</span>`)
         $('#rainfall-distribution-dialog-desc').html(`
           <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:17px;">Planting dates are guided by rainfall distribution. Please select crop, variety, location, and date below then click view for the cumulative rainfall and expected yield based on the chosen crop, variety, location, and date.</br></br>
-          <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">complete displayed</span>.<span>
+          <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">completely displayed</span>. If not, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> <br/>until the chart has been loaded.</span>
           </p>
         `)
 
@@ -152,7 +152,7 @@ Template.RainfallDistribution.onRendered(() => {
           <p style="font-size:20px;">GUIDE TO PLANTING DATES</p>
           Cumulative Rainfall for ${Meteor.RainfallDistribution.stripTitle2(station.label)} <span style="font-size:23px">based on historical weather data</span>`)
         $('#cumulative-rainfall-dialog-desc').html(`
-          <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:15px;"><strong>NOTE:</strong> If there is <span style="color:red">no data</span> appearing for the 30-day or 20-day rainfall in the chart below, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>.
+          <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:15px;"><strong>NOTE:</strong>Once the chart is being loaded, <span style="color:red">please wait</span>. If there is <span style="color:red">no data</span> appearing for the 30-day or 20-day rainfall in the chart after it has been <span style="color:red">loaded</span> below, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>.
           </p>
         `)
       })
@@ -173,7 +173,7 @@ Template.RainfallDistribution.onRendered(() => {
         const stationID = WeatherStations2.findOne({label: label}).id
 
         Session.set('label', label)
-        Session.set('stationID', stationID)
+        Session.set('PGStationID', stationID)
 
         FlowRouter.go(`/rainfall-distribution/${stationID}`)
 
@@ -250,7 +250,7 @@ Template.RainfallDistribution.onRendered(() => {
 
   const showRainfallDistribution = (stationID, label, event) => {
 
-    Session.set('stationID', stationID)
+    Session.set('PGStationID', stationID)
     Session.set('label', label)
     
     Meteor.subscribe('weather-stations2', () => {
