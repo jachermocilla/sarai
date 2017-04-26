@@ -28,16 +28,20 @@ Template.SaraiSuitabilityGallery.events({
      'click .pop' : function (e){
         const src = e.target.src
         const dialog = document.querySelector('#suitability-dialog')
+        // console.log(src)
+        if(src == null){
+            alert("Please click the image.")
+        }else{
+            Session.set("src", src)
 
-        Session.set("src", src)
-
-        dialog.querySelector('.cancel').addEventListener('click', () => {
-            dialog.close();
-        }); 
-        //remove any existing chart first
-        $('img.suitability-image').remove()
-        $('<img class="suitability-image" src="'+src+'">').appendTo('#image-container')
-        dialog.showModal()  
+            dialog.querySelector('.cancel').addEventListener('click', () => {
+                dialog.close();
+            }); 
+            //remove any existing chart first
+            $('img.suitability-image').remove()
+            $('<img class="suitability-image" src="'+src+'">').appendTo('#image-container')
+            dialog.showModal()  
+        }
      },
 
      'click .download-button' : function (e){
