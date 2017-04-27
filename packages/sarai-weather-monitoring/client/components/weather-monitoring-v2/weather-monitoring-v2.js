@@ -89,7 +89,6 @@ Template.WeatherMonitoringV2.onRendered(() => {
       this.stations = stations
       this.weatherMap = weatherMap
       this.group = group
-
     })
   })
 
@@ -165,6 +164,16 @@ Template.WeatherMonitoringV2.helpers({
     })
 
     return stations
+  },
+
+  heatMap: () => {
+
+
+    // stations.forEach((element, index) => {
+
+    // })
+
+
   }
 
 })

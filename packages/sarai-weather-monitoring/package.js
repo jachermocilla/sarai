@@ -40,11 +40,16 @@ Package.onUse(function(api) {
     "client/components/weather-monitoring-v2/weather-monitoring-v2.js",
     "client/components/weather-monitoring-v2/weather-monitoring-v2.less",
 
+    // large heatmap
+    "client/components/weather-monitoring-v2/large-heatmap.html",
+    "client/components/weather-monitoring-v2/large-heatmap.js",
+
     "client/components/weather-monitoring-v2/route.js",
 
     "lib/chart-helpers.js",
     "lib/accumulated-rain-helpers.js",
-    "lib/year-chart-helpers.js"
+    "lib/year-chart-helpers.js",
+    "lib/sample-data.js"
   ]
 
   api.addFiles(client, "client")
