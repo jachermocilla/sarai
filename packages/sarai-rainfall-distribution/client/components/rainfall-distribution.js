@@ -515,9 +515,9 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
           <details style="font-size:17px">
           <summary style="font-size:18px">Read More</summary><br/>
           <p style="font-size:17px">`+sentence_corn_english
-          +label+` does not have sufficient soil moisture. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average*.</p>
+          +label+` does not have sufficient soil moisture. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average* if irrigation/water could be provided.</p>
           <p style="font-size:17px">`+sentence_corn_filipino+`
-          Hindi pa sapat ang tubig sa lupa sa `+label+`. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan*.</p>
+          Hindi pa sapat ang tubig sa lupa sa `+label+`. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan* kung may patubig.</p>
           <p style="font-size:15px">*simulated using ${label} historical weather data from PAGASA (assuming no extreme events like typhoon and pest incidence)</p>
           </details>
           `)
@@ -554,9 +554,9 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
           <details style="font-size:17px">
           <summary style="font-size:18px">Read More</summary><br/>
           <p style="font-size:17px">`+sentence_corn_english
-          +label+` has sufficient soil moisture on ` +date_for_graph+`. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average*.</p>
+          +label+` has sufficient soil moisture on ` +date_for_graph+`. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average* if irrigation/water could be provided.</p>
           <p style="font-size:17px">`+sentence_corn_filipino+`
-          Ang `+label+`ay maari nang tamnan ng sahod-ulan na palay sa ` +date_for_graph+`. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan*.</p>
+          Ang `+label+`ay maari nang tamnan ng sahod-ulan na palay sa ` +date_for_graph+`. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan* kung may patubig.</p>
           <p style="font-size:15px">*simulated using ${label} historical weather data from PAGASA (assuming no extreme events like typhoon and pest incidence)</p>
           </details>
           `)
@@ -638,9 +638,9 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
             <details style="font-size:17px">
             <summary style="font-size:18px">Read More</summary><br/>
             <p style="font-size:17px">`+sentence_corn_english
-            +label+` does not have sufficient soil moisture. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average*.</p>
+            +label+` does not have sufficient soil moisture. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average* if irrigation/water could be provided.</p>
             <p style="font-size:17px">`+sentence_corn_filipino+`
-            Hindi pa sapat ang tubig sa lupa sa ${label}. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan*.</p>
+            Hindi pa sapat ang tubig sa lupa sa ${label}. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan* kung may patubig.</p>
             <p style="font-size:15px">*simulated using ${label} historical weather data from PAGASA (assuming no extreme events like typhoon and pest incidence)</p>
             <details>
             `)
@@ -677,9 +677,9 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
             <details style="font-size:17px">
             <summary style="font-size:18px">Read More</summary><br/>
             <p style="font-size:17px">`+sentence_corn_english
-            +label+` has sufficient soil moisture on ` +date_for_graph+`. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average*.</p>
+            +label+` has sufficient soil moisture on ` +date_for_graph+`. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> on ` +date_for_graph+`, expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average* if irrigation/water could be provided.</p>
             <p style="font-size:17px">`+sentence_corn_filipino+`
-            Ang ${label} ay maari nang tamnan ng sahod-ulan na palay sa ` +date_for_graph+`. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan*.</p>
+            Ang ${label} ay maari nang tamnan ng sahod-ulan na palay sa ` +date_for_graph+`. `+transition_word_filipino+` magtatanim sa ` +date_for_graph+`, ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan* kung may patubig.</p>
             <p style="font-size:15px">*simulated using ${label} historical weather data from PAGASA (assuming no extreme events like typhoon and pest incidence)</p>
             </details>
             `)
@@ -699,9 +699,9 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
             <details style="font-size:17px">
             <summary style="font-size:18px">Read More</summary><br/>
             <p style="font-size:17px">`+sentence_corn_english
-            +label+` does not have sufficient soil moisture with <span style="color:red">${total_rainfall} mm</span> total rainfall for the past `+num_days+` days. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> today (` +date_for_graph+`), expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average*.</p>
+            +label+` does not have sufficient soil moisture with <span style="color:red">${total_rainfall} mm</span> total rainfall for the past `+num_days+` days. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> today (` +date_for_graph+`), expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average* if irrigation/water could be provided.</p>
             <p style="font-size:17px">`+sentence_corn_filipino+`
-            Hindi pa sapat ang tubig sa lupa sa ${label} na may <span style="color:red">${total_rainfall} mm</span> kabuuang pag-ulan sa nakalipas na `+num_days+` araw. `+transition_word_filipino+` magtatanim ngayon (` +date_for_graph+`), ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan*.</p>
+            Hindi pa sapat ang tubig sa lupa sa ${label} na may <span style="color:red">${total_rainfall} mm</span> kabuuang pag-ulan sa nakalipas na `+num_days+` araw. `+transition_word_filipino+` magtatanim ngayon (` +date_for_graph+`), ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan* kung may patubig.</p>
             <p style="font-size:15px">*simulated using ${label} historical weather data from PAGASA (assuming no extreme events like typhoon and pest incidence)</p>
             </details>
             `)
@@ -738,9 +738,9 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
             <details style="font-size:17px">
             <summary style="font-size:18px">Read More</summary><br/>
             <p style="font-size:17px">`+sentence_corn_english
-            +label+` has sufficient soil moisture with <span style="color:red">${total_rainfall} mm</span> total rainfall for the past `+num_days+` days. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> today (` +date_for_graph+`), expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average*.</p>
+            +label+` has sufficient soil moisture with <span style="color:red">${total_rainfall} mm</span> total rainfall for the past `+num_days+` days. `+transition_word_english+` you plant <span style="color:blue">`+crop+` (`+variety+`)</span> today (` +date_for_graph+`), expected yield may be <span style="color:red">${expected}% ${percent_english}</span> than the average* if irrigation/water could be provided.</p>
             <p style="font-size:17px">`+sentence_corn_filipino+`
-            Sapat na ang tubig sa lupa sa ${label} na may <span style="color:red">${total_rainfall} mm</span> kabuuang pag-ulan sa nakalipas na `+num_days+` araw. `+transition_word_filipino+` magtatanim ngayon (`+date_for_graph+`), ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan*.</p>
+            Sapat na ang tubig sa lupa sa ${label} na may <span style="color:red">${total_rainfall} mm</span> kabuuang pag-ulan sa nakalipas na `+num_days+` araw. `+transition_word_filipino+` magtatanim ngayon (`+date_for_graph+`), ang inaasahang ani ay maaaring <span style="color:red">${expected} porsyento mas ${percent_filipino}</span> kaysa pangkaraniwan* kung may patubig.</p>
             <p style="font-size:15px">*simulated using ${label} historical weather data from PAGASA (assuming no extreme events like typhoon and pest incidence)</p>
             </details>
              `)

@@ -46,6 +46,12 @@ Template.RainfallOutlookView.events({
     const municipality = e.currentTarget.value
     Session.set('municipality', municipality)
   },
+
+  'click .rainfall-outlook-more button': () => {
+    // const stationID = Session.get('stationID')
+    // FlowRouter.go(`/accumulated-rainfall/${stationID}`)
+    FlowRouter.go(`/heat-map-rainfall-outlook`)
+  }
 })
 
 Template.RainfallOutlookView.helpers({
