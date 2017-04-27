@@ -11,7 +11,7 @@ module.exports = {
 
   meteor: {
     name: 'sarai',
-    path: '/home/erin/Desktop/SARAI/sarai_for_pull_req/sarai',
+    path: '/home/mon/SARAI/applications/sarai',
     servers: {
       one: {}
     },
