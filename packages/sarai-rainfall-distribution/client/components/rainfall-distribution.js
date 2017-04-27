@@ -62,7 +62,7 @@ Template.RainfallDistribution.events({
       Rainfall Distribution for `+label+` <span style="font-size:23px">based on historical weather data</span>`)
     $('#rainfall-distribution-dialog-desc').html(`
       <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:17px;">Planting dates are guided by rainfall distribution. Please select crop, variety, location, and date below then click view for the cumulative rainfall and expected yield based on the chosen crop, variety, location, and date.</br></br>
-      <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">completely displayed</span>. If not, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> <br/>until the chart has been loaded.</span>
+      <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">completely displayed</span>. If not, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> <br/>until the chart has been loaded fully.</span>
       </p>
     `)
     $('#cumulative-rainfall-dialog-title').html(`
@@ -128,6 +128,12 @@ Template.RainfallDistribution.onRendered(() => {
       Session.set('label', 'Los Baños, Laguna')
     }
 
+    //remove any existing chart first
+    $('div.rainfall-chart').remove()
+
+    //Add (temporary) spinner
+    $('<div class="rainfall-chart rainfall-chart-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>').appendTo('#rainfall-distribution-chart-container')
+
     $('#introduction-dialog-title').html(`GUIDE TO PLANTING DATES`)
     $('#introduction-dialog-desc').html(`
       <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:17px;">SARAI Planting Guide for rainfed rice and corn uses a combination of real-time weather data and expected yields to determine when is the optimal time to plant. This tool does not consider extreme events like pest infestation and typhoon occurrence.</p>
@@ -144,7 +150,7 @@ Template.RainfallDistribution.onRendered(() => {
           Rainfall Distribution for ${Meteor.RainfallDistribution.stripTitle(station.label)} <span style="font-size:23px">based on historical weather data</span>`)
         $('#rainfall-distribution-dialog-desc').html(`
           <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:17px;">Planting dates are guided by rainfall distribution. Please select crop, variety, location, and date below then click view for the cumulative rainfall and expected yield based on the chosen crop, variety, location, and date.</br></br>
-          <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">completely displayed</span>. If not, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> <br/>until the chart has been loaded.</span>
+          <strong>NOTE:</strong> <span style="font-size:15px;">Before clicking "view", make sure that the rainfall distribution graph is <span style="color:red">completely displayed</span>. If not, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> <br/>until the chart has been loaded fully.</span>
           </p>
         `)
 
@@ -152,7 +158,8 @@ Template.RainfallDistribution.onRendered(() => {
           <p style="font-size:20px;">GUIDE TO PLANTING DATES</p>
           Cumulative Rainfall for ${Meteor.RainfallDistribution.stripTitle2(station.label)} <span style="font-size:23px">based on historical weather data</span>`)
         $('#cumulative-rainfall-dialog-desc').html(`
-          <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:15px;"><strong>NOTE:</strong>Once the chart is being loaded, <span style="color:red">please wait</span>. If there is <span style="color:red">no data</span> appearing for the 30-day or 20-day rainfall in the chart after it has been <span style="color:red">loaded</span> below, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>.
+          <p style="padding-left: 0.7cm; padding-top:0.3cm; font-size:15px;"><strong>NOTE: </strong>If there is <span style="color:red">no data</span> appearing for the 30-day or 20-day rainfall in the chart after it has been <span style="color:red">loaded</span> below, please <span style="color:red">close</span> the dialog then <span style="color:red">reload</span> and <span style="color:red">try again</span>. After reloading, <span style="color:red">please wait</span> until the chart has been loaded
+          fully.</span>
           </p>
         `)
       })
