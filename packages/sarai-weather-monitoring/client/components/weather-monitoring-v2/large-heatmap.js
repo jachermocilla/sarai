@@ -113,11 +113,6 @@ Template.LargeHeatmap.onRendered(() => {
         }
     },
 
-    tooltip: {
-      headerFormat: 'Temperature<br/>',
-      pointFormat: '{point.x:%e %b, %Y} {point.y}:00: <b>{point.value} ℃</b>'
-    },
-
     series: [{
         boostThreshold: 100,
         borderWidth: 0,
@@ -125,7 +120,8 @@ Template.LargeHeatmap.onRendered(() => {
         colsize: 24 * 36e5, // one day
         tooltip: {
             headerFormat: 'Temperature<br/>',
-            pointFormat: '{point.x:%e %b, %Y} {point.y}:00: <b>{point.value} ℃</b>'
+            pointFormat: '{point.x:%e %b, %Y} {point.y}:00: <b>{point.value} ℃</b>',
+            useHTML: true
         },
         turboThreshold: Number.MAX_VALUE // #3404, remove after 4.0.5 release
     }]

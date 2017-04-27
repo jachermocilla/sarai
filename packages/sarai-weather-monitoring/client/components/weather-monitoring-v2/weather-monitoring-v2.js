@@ -7,6 +7,12 @@ Template.WeatherMonitoringV2.onCreated(() => {
   Meteor.subscribe('dss-settings', () => {
     const record = DSSSettings.findOne({name: 'wunderground-api-key'})
     this.apiKey = record.value
+
+
+    //display default station
+    Session.set('stationID', 'ICALABAR18')
+    displayWeatherData(Session.get('stationID'), this.apiKey)
+
   })
 
   this.visibleChart = 'forecast'
@@ -53,6 +59,7 @@ Template.WeatherMonitoringV2.onRendered(() => {
   Meteor.subscribe('sarai-weather-stations', () => {
     Meteor.autorun(() => {
       const stations = WeatherStations.find().fetch()
+      let defaultStation = null
 
       for (let a = 0; a < stations.length; a++) {
         const station = stations[a]
@@ -68,7 +75,13 @@ Template.WeatherMonitoringV2.onRendered(() => {
         group.addLayer(marker)
 
         stations[a]['markerID'] = group.getLayerId(marker)
-        // marker.addTo(weatherMap)
+
+        //save option value, pan to marker, and open popup
+        if (stationID == 'ICALABAR18') {
+          defaultStation = group.getLayerId(marker)
+          weatherMap.setView(marker.getLatLng(), 10)
+          marker.openPopup()
+        }
       }
 
       group.addTo(weatherMap)
@@ -85,6 +98,9 @@ Template.WeatherMonitoringV2.onRendered(() => {
 
         stationsDropdown.append(option)
       })
+
+      //Set default station in dropdown
+      stationsDropdown.val(defaultStation)
 
       this.stations = stations
       this.weatherMap = weatherMap
@@ -179,7 +195,6 @@ Template.WeatherMonitoringV2.helpers({
 })
 
 const displayWeatherData = (stationID, apiKey) => {
-  console.log('Displaying weather data from ' + stationID)
 
   //Remove any existing chart
   $('div.meteogram').remove()
