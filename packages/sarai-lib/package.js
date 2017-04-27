@@ -51,11 +51,12 @@ Package.onUse(function(api) {
     "tomi:upload-server@1.3.1",
     "tomi:upload-jquery@2.2.3",
     "raix:ui-dropped-event",
-    "cfs:standard-packages",
-    "cfs:gridfs",
+    // "cfs:standard-packages",
+    // "cfs:gridfs",
     "udondan:slick",
     "summernote:summernote",
-    "jhuenges:highstock",
+    // "jhuenges:highstock",
+    // "highcharts:highcharts-meteor",
     "random"
   ]
 

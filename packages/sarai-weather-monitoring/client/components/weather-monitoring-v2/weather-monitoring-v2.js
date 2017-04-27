@@ -43,7 +43,6 @@ Template.WeatherMonitoringV2.onRendered(() => {
   // weatherMap.zoomControl.setPosition('bottomleft');
 
   const showWeatherData = (stationID, label, event) => {
-    // displayWeatherData(stationID, label)
     Session.set('stationID', stationID)
 
     displayWeatherData(stationID, this.apiKey)
@@ -120,6 +119,8 @@ Template.WeatherMonitoringV2.helpers({
 })
 
 const displayWeatherData = (stationID, apiKey) => {
+  console.log('Displaying weather data from ' + stationID)
+
   //Remove any existing chart
   $('div.meteogram').remove()
 
@@ -234,7 +235,7 @@ const displayYear = (stationID) => {
   $('div.meteogram').remove()
 
   Meteor.subscribe('heat-map-data-by-id', stationID, () => {
-    const records = HeatMapData.find({})
+    const records = HeatMapData.find({stationID: stationID})
 
     const data = Meteor.YearWeather.constructSeries(records.fetch())
 

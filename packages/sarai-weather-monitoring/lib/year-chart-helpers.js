@@ -4,6 +4,8 @@ Meteor.YearWeather = {
     const rain = []
     const temp = []
 
+
+
     records.forEach((element, index) => {
       if (!element.dummy) {
         const rainEntry = []
@@ -22,54 +24,89 @@ Meteor.YearWeather = {
       }
     })
 
+    rain.sort((a, b) => {
+      return new Date(a[0]) - new Date(b[0])
+    })
+
+    temp.sort((a, b) => {
+      return new Date(a[0]) - new Date(b[0])
+    })
+
     return [rain, temp]
   },
 
   constructChart: (rain, temp) => {
 
     return {
+      // chart: {
+      //   marginLeft: 20
+      // },
+
       rangeSelector: {
         selected: 4
       },
 
-      yAxis: {
-        labels: {
-          formatter: function () {
-            return (this.value > 0 ? ' + ' : '') + this.value + '%';
+      yAxis: [
+        {
+          lineWidth: 1,
+          title: {
+            text: 'Rainfall',
+            style: {
+              color: '#0853a8'
+            }
+          },
+          labels: {
+            format: '{value} mm',
+            style: {
+              color: '#0853a8'
+            }
           }
         },
-        plotLines: [{
-          value: 0,
-          width: 2,
-          color: 'silver'
-        }]
-      },
-
-      plotOptions: {
-        series: {
-          compare: 'percent',
-          showInNavigator: true
+        {
+          lineWidth: 1,
+          labels: {
+            format: '{value}°C',
+            style: {
+              color: '#ea7c0e'
+            }
+          },
+          title: {
+            text: 'Average Temperature',
+            style: {
+              color: '#ea7c0e'
+            }
+          },
+          opposite: false
         }
-      },
+      ],
 
       tooltip: {
-        pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b>{series.valueSuffix}<br/>',
-        valueDecimals: 2,
+        xDateFormat: '%Y-%b-%d',
         split: true
       },
 
       series: [
         {
-          name: 'Rainfall (mm)',
-          type: 'spline',
+          name: 'Rainfall',
+          // type: 'scatter',
+          // lineWidth: 1,
+          type: 'line',
           data: rain,
-          color: '#0853a8'
+          color: '#0853a8',
+          tooltip: {
+            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> mm<br/>'
+          }
         },
         {
-          name: 'Average Temperature (°C)',
-          type: 'spline',
+          name: 'Average Temperature',
+          // type: 'scatter',
+          // lineWidth: 1,
+          type: 'line',
           data: temp,
-          color: '#ea7c0e'
+          color: '#ea7c0e',
+          tooltip: {
+            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> °C<br/>'
+          }
         }
       ]
 
