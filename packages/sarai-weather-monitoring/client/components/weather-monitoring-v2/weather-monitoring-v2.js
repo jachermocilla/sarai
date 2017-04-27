@@ -26,6 +26,10 @@ Template.WeatherMonitoringV2.onRendered(() => {
   const southWest = L.latLng(4.566972, 128.614468);
   const bounds = L.latLngBounds(southWest, northEast);
 
+  //Create group
+  const group = L.layerGroup()
+
+  //Create map
   const weatherMap = L.map('weather-map-v2', {
       maxBounds: bounds,
       center: [14.154604, 121.247505],
@@ -39,8 +43,6 @@ Template.WeatherMonitoringV2.onRendered(() => {
     id: 'mapbox://styles/mcarandang/cj1jd9bo2000a2speyi8o7cle',
     accessToken: 'pk.eyJ1IjoibWNhcmFuZGFuZyIsImEiOiJjaWtxaHgzYTkwMDA4ZHZtM3E3aXMyYnlzIn0.x63VGx2C-BP_ttuEsn2fVg'
   }).addTo(weatherMap);
-
-  // weatherMap.zoomControl.setPosition('bottomleft');
 
   const showWeatherData = (stationID, label, event) => {
     Session.set('stationID', stationID)
@@ -56,15 +58,38 @@ Template.WeatherMonitoringV2.onRendered(() => {
         const station = stations[a]
         const x = station.coords[0]
         const y = station.coords[1]
-        const label = station.label
+        const label = stripTitle(station.label)
         const stationID = station.id
 
         const marker = new L.marker([x, y])
         .bindPopup(`<h5>${label}</h5>`)
         .on('click', L.bind(showWeatherData, null, stationID, label))
 
-        marker.addTo(weatherMap)
+        group.addLayer(marker)
+
+        stations[a]['markerID'] = group.getLayerId(marker)
+        // marker.addTo(weatherMap)
       }
+
+      group.addTo(weatherMap)
+
+      //Add stations to dropdown
+      const stationsDropdown = $('#monitoring-station-select')
+
+      //Add stations to dropdown
+      stations.forEach((element, index) => {
+        const option = document.createElement('option')
+
+        option.innerHTML = `${stripTitle(element.label)}`
+        option.setAttribute('value', element.markerID)
+
+        stationsDropdown.append(option)
+      })
+
+      this.stations = stations
+      this.weatherMap = weatherMap
+      this.group = group
+
     })
   })
 
@@ -90,6 +115,21 @@ Template.WeatherMonitoringV2.events({
     activateButton('year')
 
     displayWeatherData(Session.get('stationID'), this.apiKey)
+  },
+
+  'change #monitoring-station-select': () => {
+    const markerID = $('#monitoring-station-select').val()
+
+    const station = this.stations.find((element) => {
+      return element.markerID == markerID
+    })
+
+    const marker = this.group.getLayer(markerID)
+
+    this.weatherMap.setView(marker.getLatLng(), 10)
+    marker.openPopup()
+
+    displayWeatherData(station.id, this.apiKey)
   }
 })
 
@@ -102,7 +142,7 @@ Template.WeatherMonitoringV2.helpers({
     }
   },
 
-  stations: () => {
+  stationsRainfall: () => {
     const stationsRainfall = WeatherStations.find({}, {fields: {id: 1}}).fetch()
 
     stationsRainfall.forEach((element, index) => {
@@ -115,7 +155,18 @@ Template.WeatherMonitoringV2.helpers({
     })
 
     return stationsRainfall
+  },
+
+  stations: () => {
+    const stations = WeatherStations.find({}).fetch()
+
+    stations.forEach((element, index) => {
+      element.label = stripTitle(element.label)
+    })
+
+    return stations
   }
+
 })
 
 const displayWeatherData = (stationID, apiKey) => {
@@ -254,4 +305,16 @@ const activateButton = (id) => {
       $(`#${element} > button`).removeClass('active')
     }
   })
+}
+
+const stripTitle = (title) => {
+  let result = title
+
+  result = result.replace('SARAI', '')
+  result = result.replace('(UPLB)', '')
+  result = result.replace('WFP', '')
+  result = result.replace('WPU', '')
+  result = result.replace('APN', '')
+
+  return result
 }
