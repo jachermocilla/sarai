@@ -1,12 +1,12 @@
-Template.LargeHeatmap.onCreated(() => {
+Template.RainHeatmap.onCreated(() => {
   Meteor.subscribe('sarai-weather-stations')
 })
 
-Template.LargeHeatmap.onRendered(() => {
-  $('#year-heatmap').highcharts(
+Template.RainHeatmap.onRendered(() => {
+  $('#rain-heatmap').highcharts(
     {
       data: {
-        csv: document.getElementById('year-heatmap-data').innerHTML
+        csv: document.getElementById('rain-heatmap-data').innerHTML
       },
 
       chart: {
@@ -20,7 +20,7 @@ Template.LargeHeatmap.onRendered(() => {
     },
 
     title: {
-        text: 'Temperature variation by day',
+        text: 'Rainfall by day',
         align: 'left',
         x: 40
     },
@@ -72,44 +72,37 @@ Template.LargeHeatmap.onRendered(() => {
     'INORTHER117',
     'IWESTERN596',
     'IWESTERN635']
-        // title: {
-        //     text: null
-        // },
-        // labels: {
-        //     format: '{value}:00'
-        // },
-        // minPadding: 0,
-        // maxPadding: 0,
-        // startOnTick: false,
-        // endOnTick: false,
-        // tickPositions: [0, 6, 12, 18, 24],
-        // tickWidth: 1,
-        // min: 0,
-        // max: 23,
-        // reversed: true
     },
 
     colorAxis: {
         stops: [
-            // [0, '#3060cf'],
-            [0, '#FFFFFF'],
-            [0.1, '#4B74D1'],
-            [0.2, '#5F81CF'],
-            [0.3, '#EDE5C2'],
-            [0.4, '#E3D28A'],
-            [0.5, '#D9C057'],
-            [0.6, '#E38424'],
-            [0.7, '#D67813'],
-            [0.8, '#CF601B'],
-            [0.9, '#DE5804'],
-            [1, '#c4463a']
+            // [0, '#FFFFFF'],
+            // [0.1, '#E5E5F3'],
+            // [0.2, '#C6C7E4'],
+            // [0.3, '#AAABD7'],
+            // [0.4, '#8E8FCA'],
+            // [0.5, '#7173BD'],
+            // [0.6, '#5557B0'],
+            // [0.7, '#393BA3'],
+            // [0.8, '#1D1F96'],
+            // [0.9, '#010389']
+            [0, '#CFCFCF'],
+            [0.1, '#B8B8C7'],
+            [0.2, '#A1A1BF'],
+            [0.3, '#8A8BB7'],
+            [0.4, '#7374AF'],
+            [0.5, '#5C5DA8'],
+            [0.6, '#4547A0'],
+            [0.7, '#2E3098'],
+            [0.8, '#171990'],
+            [0.9, '#010389']
         ],
         min: 0,
-        max: 50,
+        max: 200,
         startOnTick: false,
         endOnTick: false,
         labels: {
-            format: '{value}℃'
+            format: '{value} mm'
         }
     },
 
@@ -132,7 +125,7 @@ Template.LargeHeatmap.onRendered(() => {
   )
 })
 
-Template.LargeHeatmap.helpers({
+Template.RainHeatmap.helpers({
   stations: () => {
     const stations = WeatherStations.find({}).fetch()
 

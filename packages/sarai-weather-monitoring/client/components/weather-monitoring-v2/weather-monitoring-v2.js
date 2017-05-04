@@ -8,7 +8,6 @@ Template.WeatherMonitoringV2.onCreated(() => {
     const record = DSSSettings.findOne({name: 'wunderground-api-key'})
     this.apiKey = record.value
 
-
     //display default station
     Session.set('stationID', 'ICALABAR18')
     displayWeatherData(Session.get('stationID'), this.apiKey)
@@ -40,9 +39,10 @@ Template.WeatherMonitoringV2.onRendered(() => {
       maxBounds: bounds,
       center: [14.154604, 121.247505],
       zoom: 5,
-      minZoom: 1,
-      zoomControl: false
+      minZoom: 1
   });
+
+  weatherMap.zoomControl.setPosition('bottomleft');
 
   L.tileLayer('https://api.mapbox.com/styles/v1/mcarandang/cj1jd9bo2000a2speyi8o7cle/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWNhcmFuZGFuZyIsImEiOiJjaWtxaHgzYTkwMDA4ZHZtM3E3aXMyYnlzIn0.x63VGx2C-BP_ttuEsn2fVg',{
     maxZoom: 20,
@@ -180,16 +180,6 @@ Template.WeatherMonitoringV2.helpers({
     })
 
     return stations
-  },
-
-  heatMap: () => {
-
-
-    // stations.forEach((element, index) => {
-
-    // })
-
-
   }
 
 })
