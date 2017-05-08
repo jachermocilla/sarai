@@ -87,7 +87,7 @@ Template.RainfallDistribution.onRendered(() => {
   dialog_rainfall_distribution.querySelector('#enter-date').value = moment().format('DD MMMM, YYYY');
   const picker = $('#enter-date').pickadate({
     min: new Date(2015,12,01),
-    max: new Date(2017,3,30)
+    max: new Date(2017,4,31)
   })
 
   dialog_cumulative_rainfall.querySelector('.cancel').addEventListener('click', () => {
