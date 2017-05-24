@@ -1,5 +1,5 @@
 Template.RainfallDistribution.onCreated(() => {
-  Meteor.subscribe('dss-settings2')
+  Meteor.subscribe('dss-settings')
   Meteor.subscribe('percent-mean-data')
   Meteor.subscribe('historical-daily-rain-data')
 
@@ -402,7 +402,7 @@ const displayRainData = (stationID, label, crop, variety, raw_date, digit_select
     const pastRainfall = Meteor.RainfallDistribution.getPastRainfall(fixedData)   // past rainfall and past accumulated rainfall
     const pastRainfallForTwenty = Meteor.RainfallDistribution.getPastRainfall(fixedDataForTwenty)   // past rainfall and past accumulated rainfall
 
-    const apiKey = DSSSettings2.findOne({name: 'wunderground-api-key'})
+    const apiKey = DSSSettings.findOne({name: 'wunderground-api-key-planting-guide'})
 
     // ************* IF PREVIOUS DATE THAN CURRENT DATE ************* //
     if (raw_date < date_today){

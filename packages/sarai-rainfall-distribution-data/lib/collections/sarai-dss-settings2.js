@@ -1,1 +1,0 @@
-DSSSettings2 = new Mongo.Collection('dss-settings2')

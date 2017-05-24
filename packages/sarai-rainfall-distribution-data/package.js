@@ -21,7 +21,6 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
-    "lib/collections/sarai-dss-settings2.js",
     "lib/collections/sarai-rainfall-distribution-data.js",
     "lib/collections/sarai-weather-stations2.js",
     // "lib/collections/sarai-cumulative-data.js",
@@ -35,7 +34,6 @@ Package.onUse(function(api) {
     "server/methods.js",
     "server/publications.js",
 
-    "server/fixtures/dss-settings2-fixtures.js",
     "server/fixtures/weather-stations2-fixtures.js",
     "server/fixtures/rainfall-distribution-data-fixtures.js",
     "server/fixtures/percent-mean-data-fixtures.js",

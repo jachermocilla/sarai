@@ -26,7 +26,8 @@ Package.onUse(function(api) {
   api.imply(packages)
 
   var lib = [
-    "lib/date-helpers.js"
+    "lib/date-helpers.js",
+    "lib/past-rain-helpers.js"
   ]
 
   api.addFiles(lib, ["client", "server"])
@@ -62,6 +63,9 @@ Package.onUse(function(api) {
     "client/components/main/weather-advisory-options.html",
     "client/components/main/weather-advisory-options.js",
     "client/components/main/weather-advisory-options.less",
+    "client/components/main/download-forecast.html",
+    "client/components/main/download-forecast.js",
+    "client/components/main/download-forecast.less",
 
     //ABOUT US
     "client/components/about-us/about-us-banner-options.html",
