@@ -5,14 +5,9 @@ Template.DownloadForecast.onCreated(function() {
   Meteor.subscribe('dss-settings');
 })
 
-Template.DownloadForecast.onRendered(() => {
-  $("#cms-top-header-message-div").addClass("is-dirty");
-  $("#cms-top-header-search-text-div").addClass("is-dirty");
-})
-
 Template.DownloadForecast.events({
   'click .cms-download-rainfall': (e) => {
-    //Add (temporary) spinner
+    // Add (temporary) spinner
     $('<div class="cms-download-div cms-download-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div><br/>Fetching real-time data....<br/>This may take a few minutes. <br/> Please wait until finished before clicking anything.<br/></div>').appendTo('#cms-download-container')
 
     const download = downloadRainForecast()
@@ -52,13 +47,20 @@ const downloadRainForecast = () => {
 
     const apiKey = DSSSettings.findOne({name: 'wunderground-api-key-download'}).value
     
-    $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
-      console.log('Sleeping for 6 seconds....')
-      sleep(6000)
-      console.log('Resuming activity....')
+    // $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
+    
+    $.ajax({
+      url: `http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`,
+      dataType: 'json',
+      async: false,
+      success: getResult=(result) => {
 
-      console.log('Fetching real-time data....')
-      console.log('location: '+location+' stationID: '+stationID+' past30Days: '+past30Days)
+      // console.log('Sleeping for 6 seconds....')
+      sleep(6000)
+      // console.log('Resuming activity....')
+
+      // console.log('Fetching real-time data....')
+      // console.log('location: '+location+' stationID: '+stationID+' past30Days: '+past30Days)
       const completeTxtForecast = result.forecast.txt_forecast.forecastday
 
       const simpleForecast = result.forecast.simpleforecast.forecastday
@@ -100,7 +102,7 @@ const downloadRainForecast = () => {
               rainfallToday_insert = rainfallToday
             }
           }
-          console.log('location: '+location+' date: '+date+' high temp: '+element.high.celsius+' % chance: '+element.pop+' rainfall: '+element.qpf_allday.mm+' nextSevenDays: '+nextSevenDays+' past30Days: '+past30Days+' date stamp: '+new Date())
+          // console.log('location: '+location+' date: '+date+' high temp: '+element.high.celsius+' % chance: '+element.pop+' rainfall: '+element.qpf_allday.mm+' nextSevenDays: '+nextSevenDays+' past30Days: '+past30Days+' date stamp: '+new Date())
       })
 
       if(nextSevenDays == 0 || nextSevenDays == null){
@@ -120,11 +122,9 @@ const downloadRainForecast = () => {
         dateGenerated: new Date()
       })
 
-      console.log('location: '+location+' date: '+dateToday+' high temp: '+highTemp+' % chance: '+chanceRain+' rainfall: '+rainfallToday+' nextSevenDays: '+nextSevenDays+' past30Days: '+past30Days+' date stamp: '+new Date())
-
-      console.log('weatherforecast: '+weatherforecast)
-
-      console.log('index: '+index)
+      // console.log('location: '+location+' date: '+dateToday+' high temp: '+highTemp+' % chance: '+chanceRain+' rainfall: '+rainfallToday+' nextSevenDays: '+nextSevenDays+' past30Days: '+past30Days+' date stamp: '+new Date())
+      // console.log('weatherforecast: '+weatherforecast)
+      // console.log('index: '+index)
       // if(index == (stations.length - 1)){
       if(--numStations == 0){
         const csvContent = CSV.unparse(weatherforecast)
@@ -141,6 +141,7 @@ const downloadRainForecast = () => {
 
         $('div.cms-download-div').remove()
       }
+    }
     })
   })  // end of stations for each
 } 
