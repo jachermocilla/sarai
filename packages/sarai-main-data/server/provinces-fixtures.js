@@ -28,7 +28,7 @@
 
 	Provinces.insert({ 
 		province: "Albay", 
-		municipality: ["All"," Bacacay"," Bato Lake"," Camalig"," Daraga"," Guinobatan"," Jovellar"," Legazpi City"," Libon"," Ligao City"," Malilipot"," Malinao"," Manito"," Oas"," Pio Duran"," Polangui"," Rapu-Rapu"," Santo Domingo"," Tabaco City"," Tiwi"] 
+		municipality: ["All","Bacacay", "Camalig", "Daraga", "Guinobatan", "Jovellar", "Legazpi City", "Libon", "Ligao City", "Malilipot", "Malinao", "Manito", "Oas", "Pio Duran", "Polangui", "Rapu-Rapu", "Santo Domingo", "Tabaco City", "Tiwi"] 
 	}); 
 
 	Provinces.insert({ 
@@ -63,7 +63,7 @@
 
 	Provinces.insert({ 
 		province: "Benguet", 
-		municipality: ["All"," Atok"," Baguio City"," Bakun"," Bokod"," Buguias"," Itogon"," Kabayan"," Kapangan"," Kibungan"," La Trinidad"," Mankayan"," Sablan"," Tuba"," Tublay"," Biliran"," Almeria"] 
+		municipality: ["All","Atok", "Baguio City", "Bakun", "Bokod", "Buguias", "Itogon", "Kabayan", "Kapangan", "Kibungan", "La Trinidad", "Mankayan", "Sablan", "Tuba", "Tublay"] 
 	}); 
 
 	Provinces.insert({ 
@@ -73,7 +73,7 @@
 
 	Provinces.insert({ 
 		province: "Bohol", 
-		municipality: ["All"," Albuquerque"," Alicia"," Anda"," Antequera"," Baclayon"," Balilihan"," Batuan"," Bien Unido"," Bilar"," Buenavista"," Calape"," Candijay"," Carmen"," Catigbian"," Clarin"," Corella"," Cortes"," Dagohoy"," Danao"," Dauis"," Dimiao"," Duero"," Garcia Hernandez"," Guindulman"," Inabanga"," Jagna"," Jetafe"," Lila"," Loay"," Loboc"," Loon"," Mabini"," Maribojoc"," Panglao"," Pilar"," Pres. Carlos P. Garcia"," Sagbayan"," San Isidro"," San Miguel"," Sevilla"," Sierra Bullones"," Sikatuna"," Tagbilaran City"," Talibon"," Trinidad"," Tubigon"," Ubay"," Valencia"] 
+		municipality: ["All","Alicia", "Anda", "Antequera", "Baclayon", "Balilihan", "Batuan", "Bien Unido", "Bilar", "Buenavista", "Calape", "Candijay", "Carmen", "Catigbian", "Clarin", "Corella", "Cortes", "Dagohoy", "Danao", "Dauis", "Dimiao", "Duero", "Garcia Hernandez", "Guindulman", "Inabanga", "Jagna", "Jetafe", "Loay", "Loboc", "Loon", "Mabini", "Maribojoc", "Panglao", "Pilar", "Pres. Carlos P. Garcia", "Sagbayan", "San Isidro", "San Miguel", "Sevilla", "Sierra Bullones", "Sikatuna", "Tagbilaran City", "Talibon", "Trinidad", "Tubigon", "Ubay", "Valencia"] 
 	}); 
 
 	Provinces.insert({ 
@@ -83,7 +83,7 @@
 
 	Provinces.insert({ 
 		province: "Bulacan", 
-		municipality: ["All"," Angat"," Balagtas"," Baliuag"," Bocaue"," Bulacan"," Bustos"," Calumpit"," Doña Remedios Trinidad"," Guiguinto"," Hagonoy"," Malolos City"," Marilao"," Meycauayan City"," Norzagaray"," Obando"," Pandi"," Paombong"," Plaridel"," Pulilan"," San Ildefonso"," San Jose del Monte City"," San Miguel"," San Rafael"] 
+		municipality: ["All","Angat", "Baliuag", "Bocaue", "Bulacan", "Bustos", "Calumpit", "Doña Remedios Trinidad", "Guiguinto", "Hagonoy", "Malolos City", "Marilao", "Meycauayan City", "Norzagaray", "Pandi", "Paombong", "Plaridel", "Pulilan", "San Ildefonso", "San Jose del Monte City", "San Miguel", "San Rafael", "Santa Maria"] 
 	}); 
 
 	Provinces.insert({ 
@@ -93,12 +93,12 @@
 
 	Provinces.insert({ 
 		province: "Camarines Norte", 
-		municipality: ["All"," Basud"," Capalonga"," Daet"," Jose Panganiban"," Labo"," Mercedes"," Paracale"," San Lorenzo Ruiz"," San Vicente"," Santa Elena"," Talisay"," Vinzons"] 
+		municipality: ["All","Basud", "Capalonga", "Jose Panganiban", "Labo", "Mercedes", "Paracale", "San Lorenzo Ruiz", "San Vicente", "Santa Elena", "Talisay", "Vinzons"] 
 	}); 
 
 	Provinces.insert({ 
 		province: "Camarines Sur", 
-		municipality: ["All"," Baao"," Balatan"," Bato"," Bato Lake"," Bombon"," Buhi"," Buhi Lake"," Bula"," Cabusao"," Calabanga"," Camaligan"," Canaman"," Caramoan"," Del Gallego"," Gainza"," Garchitorena"," Goa"," Iriga City"," Lagonoy"," Libmanan"," Lupi"," Magarao"," Milaor"," Minalabac"," Nabua"," Naga City"," Ocampo"," Pamplona"," Pasacao"," Pili"," Presentacion"," Ragay"," Sagnay"," San Fernando"," San Jose"," Sipocot"," Siruma"," Tigaon"," Tinambac"] 
+		municipality: ["All","Baao", "Balatan", "Bato", "Bato Lake", "Bombon", "Buhi", "Bula", "Cabusao", "Calabanga", "Canaman", "Caramoan", "Del Gallego", "Garchitorena", "Goa", "Iriga City", "Lagonoy", "Libmanan", "Lupi", "Magarao", "Milaor", "Minalabac", "Nabua", "Naga City", "Ocampo", "Pamplona", "Pasacao", "Pili", "Presentacion", "Ragay", "Sagnay", "San Fernando", "San Jose", "Sipocot", "Siruma", "Tigaon", "Tinambac"] 
 	}); 
 
 	Provinces.insert({ 
@@ -123,7 +123,7 @@
 
 	Provinces.insert({ 
 		province: "Cebu", 
-		municipality: ["All"," Alcantara"," Alcoy"," Alegria"," Aloguinsan"," Argao"," Asturias"," Badian"," Balamban"," Bantayan"," Barili"," Bogo City"," Boljoon"," Borbon"," Carcar"," Carmen"," Catmon"," Cebu City"," Compostela"," Consolacion"," Cordoba"," Daanbantayan"," Dalaguete"," Danao City"," Danao Lake"," Dumanjug"," Ginatilan"," Lapu-Lapu City"," Liloan"," Madridejos"," Malabuyoc"," Mandaue City"," Medellin"," Minglanilla"," Moalboal"," Naga City"," Oslob"," Pilar"," Pinamungahan"," Poro"," Ronda"," Samboan"," San Fernando"," San Francisco"," San Remigio"," Santa Fe"," Santander"," Sibonga"," Sogod"," Tabogon"," Tabuelan"," Talisay City"," Toledo City"," Tuburan"," Tudela"] 
+		municipality: ["All","Alcantara", "Alcoy", "Alegria", "Aloguinsan", "Argao", "Asturias", "Badian", "Balamban", "Bantayan", "Barili", "Bogo City", "Boljoon", "Borbon", "Carcar", "Carmen", "Catmon", "Cebu City", "Compostela", "Consolacion", "Daanbantayan", "Dalaguete", "Danao City", "Danao Lake", "Dumanjug", "Ginatilan", "Lapu-Lapu City", "Liloan", "Madridejos", "Malabuyoc", "Mandaue City", "Medellin", "Minglanilla", "Moalboal", "Naga City", "Oslob", "Pilar", "Pinamungahan", "Poro", "Samboan", "San Fernando", "San Francisco", "San Remigio", "Santa Fe", "Santander", "Sibonga", "Sogod", "Tabogon", "Tabuelan", "Talisay City", "Toledo City", "Tuburan", "Tudela"] 
 	}); 
 
 	Provinces.insert({ 
@@ -138,7 +138,7 @@
 
 	Provinces.insert({ 
 		province: "Davao del Sur", 
-		municipality: ["All"," Bansalan"," Davao City"," Digos City"," Don Marcelino"," Hagonoy"," Jose Abad Santos"," Kiblawan"," Magsaysay"," Malalag"," Malita"," Matanao"," Padada"," Santa Cruz"," Santa Maria"," Sarangani"," Sulop"] 
+		municipality: ["All","Bansalan", "Davao City", "Digos City", "Don Marcelino", "Hagonoy", "Jose Abad Santos", "Kiblawan", "Magsaysay", "Malalag", "Malita", "Matanao", "Santa Cruz", "Santa Maria", "Sarangani", "Sulop"] 
 	}); 
 
 	Provinces.insert({ 
@@ -148,7 +148,7 @@
 
 	Provinces.insert({ 
 		province: "Dinagat Islands", 
-		municipality: ["All"," Basilisa"," Cagdianao"," Dinagat"," Libjo"," Loreto"," San Jose"," Tubajon"] 
+		municipality: ["All","Basilisa", "Cagdianao", "Libjo", "Loreto", "Tubajon"] 
 	}); 
 
 	Provinces.insert({ 
@@ -168,17 +168,17 @@
 
 	Provinces.insert({ 
 		province: "Ilocos Norte", 
-		municipality: ["All"," Adams"," Bacarra"," Badoc"," Bangui"," Banna"," Batac City"," Burgos"," Carasi"," Currimao"," Dingras"," Dumalneg"," Laoag City"," Marcos"," Nueva Era"," Pagudpud"," Paoay"," Paoay Lake"," Pasuquin"," Piddig"," Pinili"," San Nicolas"," Sarrat"," Solsona"," Vintar"] 
+		municipality: ["All","Adams", "Bacarra", "Badoc", "Bangui", "Banna", "Batac City", "Burgos", "Carasi", "Currimao", "Dingras", "Dumalneg", "Laoag City", "Marcos", "Nueva Era", "Pagudpud", "Paoay", "Pasuquin", "Piddig", "Pinili", "San Nicolas", "Sarrat", "Solsona", "Vintar"] 
 	}); 
 
 	Provinces.insert({ 
 		province: "Ilocos Sur", 
-		municipality: ["All"," Alilem"," Banayoyo"," Bantay"," Burgos"," Cabugao"," Candon City"," Caoayan"," Cervantes"," Galimuyod"," Gregorio Del Pilar"," Lidlidda"," Magsingal"," Nagbukel"," Narvacan"," Quirino"," Salcedo"," San Emilio"," San Esteban"," San Ildefonso"," San Juan"," San Vicente"," Santa"," Santa Catalina"," Santa Cruz"," Santa Lucia"," Santa Maria"," Santiago"," Santo Domingo"," Sigay"," Sinait"," Sugpon"," Suyo"," Tagudin"," Vigan City"] 
+		municipality: ["All","Alilem", "Banayoyo", "Bantay", "Burgos", "Cabugao", "Candon City", "Cervantes", "Galimuyod", "Gregorio Del Pilar", "Lidlidda", "Magsingal", "Nagbukel", "Narvacan", "Quirino", "Salcedo", "San Emilio", "San Esteban", "San Ildefonso", "San Juan", "Santa", "Santa Cruz", "Santa Lucia", "Santa Maria", "Santiago", "Sigay", "Sinait", "Sugpon", "Suyo", "Tagudin", "Vigan City"] 
 	}); 
 
 	Provinces.insert({ 
 		province: "Iloilo", 
-		municipality: ["All"," Ajuy"," Alimodian"," Anilao"," Badiangan"," Balasan"," Banate"," Barotac Nuevo"," Barotac Viejo"," Batad"," Bingawan"," Cabatuan"," Calinog"," Carles"," Concepcion"," Dingle"," Duenas"," Dumangas"," Estancia"," Guimbal"," Igbaras"," Iloilo City"," Janiuay"," Lambunao"," Leganes"," Lemery"," Leon"," Maasin"," Miagao"," Mina"," New Lucena"," Oton"," Passi City"," Pavia"," Pototan"," San Dionisio"," San Enrique"," San Joaquin"," San Miguel"," San Rafael"," Santa Barbara"," Sara"," Tigbauan"," Tubungan"," Zarraga"] 
+		municipality: ["All","Ajuy", "Alimodian", "Anilao", "Badiangan", "Balasan", "Banate", "Barotac Nuevo", "Barotac Viejo", "Batad", "Cabatuan", "Calinog", "Carles", "Concepcion", "Dingle", "Duenas", "Dumangas", "Estancia", "Guimbal", "Igbaras", "Iloilo City", "Janiuay", "Lambunao", "Leganes", "Lemery", "Leon", "Maasin", "Miagao", "Mina", "New Lucena", "Oton", "Passi City", "Pavia", "Pototan", "San Dionisio", "San Enrique", "San Joaquin", "San Miguel", "San Rafael", "Santa Barbara", "Sara", "Tigbauan", "Tubungan", "Zarraga"] 
 	}); 
 
 	Provinces.insert({ 
@@ -208,7 +208,7 @@
 
 	Provinces.insert({ 
 		province: "Lanao del Sur", 
-		municipality: ["All"," Bacolod Kalawi"," Balabagan"," Balindong"," Bayang"," Binidayan"," Buadiposo-Buntong"," Bubong"," Bumbaran"," Butig"," Calanogas"," Dapao Lake"," Ditsaan-Ramain"," Ganassi"," Kapai"," Kapatagan"," Lanao Lake"," Lumba-Bayabao"," Lumbaca Unayan"," Lumbatan"," Lumbayanague"," Madalum"," Madamba"," Maguing"," Malabang"," Marantao"," Marawi City"," Marogong"," Masiu"," Mulondo"," Pagayawan"," Piagapo"," Picong"," Poona Bayabao"," Pualas"," Saguiaran"," Sultan Dumalondong"," Tagoloan II"," Tamparan"," Taraka"," Tubaran"," Tugaya"," Wao"] 
+		municipality: ["All","Bacolod Kalawi", "Balabagan", "Balindong", "Bayang", "Binidayan", "Buadiposo-Buntong", "Bubong", "Bumbaran", "Butig", "Calanogas", "Ditsaan-Ramain", "Ganassi", "Kapai", "Kapatagan", "Lanao Lake", "Lumba-Bayabao", "Lumbaca Unayan", "Lumbatan", "Lumbayanague", "Madalum", "Madamba", "Maguing", "Malabang", "Marantao", "Marawi City", "Marogong", "Mulondo", "Pagayawan", "Picong", "Poona Bayabao", "Saguiaran", "Sultan Dumalondong", "Tagoloan II", "Tamparan", "Tubaran", "Tugaya", "Wao"] 
 	}); 
 
 	Provinces.insert({ 
@@ -243,7 +243,7 @@
 
 	Provinces.insert({ 
 		province: "Misamis Oriental", 
-		municipality: ["All"," Alubijid"," Balingasag"," Balingoan"," Cagayan de Oro City"," Claveria"," El Salvador City"," Gingoog City"," Gitagum"," Initao"," Jasaan"," Kinoguitan"," Lagonglong"," Laguindingan"," Libertad"," Lugait"," Magsaysay"," Manticao"," Medina"," Naawan"," Opol"," Salay"," Sugbongcogon"," Tagoloan"," Talisayan"," Villanueva"] 
+		municipality: ["All","Alubijid", "Balingasag", "Balingoan", "Binuangan", "Cagayan de Oro City", "Claveria", "El Salvador City", "Gingoog City", "Gitagum", "Initao", "Jasaan", "Kinoguitan", "Lagonglong", "Laguindingan", "Libertad", "Magsaysay", "Manticao", "Medina", "Naawan", "Opol", "Salay", "Tagoloan", "Talisayan", "Villanueva"] 
 	}); 
 
 	Provinces.insert({ 
@@ -253,7 +253,7 @@
 
 	Provinces.insert({ 
 		province: "Negros Occidental", 
-		municipality: ["All"," Bacolod City"," Bago City"," Binalbagan"," Cadiz City"," Calatrava"," Candoni"," Cauayan"," Enrique B. Magalona"," Escalante City"," Himamaylan City"," Hinigaran"," Hinoba-An"," Ilog"," Isabela"," Kabankalan City"," La Carlota City"," La Castellana"," Manapla"," Moises Padilla"," Murcia"," Pontevedra"," Pulupandan"," Sagay City"," Salvador Benedicto"," San Carlos City"," San Enrique"," Silay City"," Sipalay City"," Talisay City"," Toboso"," Valladolid"," Victorias City"] 
+		municipality: ["All","Bacolod City", "Bago City", "Binalbagan", "Cadiz City", "Calatrava", "Candoni", "Cauayan", "Enrique B. Magalona", "Escalante City", "Himamaylan City", "Hinigaran", "Hinoba-An", "Ilog", "Isabela", "Kabankalan City", "La Carlota City", "La Castellana", "Manapla", "Moises Padilla", "Murcia", "Pontevedra", "Sagay City", "Salvador Benedicto", "San Carlos City", "San Enrique", "Silay City", "Sipalay City", "Talisay City", "Toboso", "Valladolid", "Victorias City"] 
 	}); 
 
 	Provinces.insert({ 
@@ -303,7 +303,7 @@
 
 	Provinces.insert({ 
 		province: "Pangasinan", 
-		municipality: ["All"," Agno"," Aguilar"," Alaminos City"," Alcala"," Anda"," Asingan"," Balungao"," Bani"," Basista"," Bautista"," Bayambang"," Binalonan"," Binmaley"," Bolinao"," Bugallon"," Burgos"," Calasiao"," Dagupan City"," Dasol"," Infanta"," Labrador"," Laoac"," Lingayen"," Mabini"," Malasiqui"," Manaoag"," Mangaldan"," Mangatarem"," Mapandan"," Natividad"," Pozzorubio"," Rosales"," San Carlos City"," San Fabian"," San Jacinto"," San Manuel"," San Nicolas"," San Quintin"," Santa Barbara"," Santa Maria"," Santo Tomas"," Sison"," Sual"," Tayug"," Umingan"," Urbiztondo"," Urdaneta City"," Villasis"] 
+		municipality: ["All","Agno", "Aguilar", "Alaminos City", "Alcala", "Anda", "Asingan", "Balungao", "Bani", "Basista", "Bautista", "Bayambang", "Binalonan", "Binmaley", "Bolinao", "Bugallon", "Burgos", "Calasiao", "Dagupan City", "Dasol", "Infanta", "Labrador", "Laoac", "Lingayen", "Mabini", "Malasiqui", "Manaoag", "Mangaldan", "Mangatarem", "Mapandan", "Natividad", "Pozzorubio", "Rosales", "San Carlos City", "San Fabian", "San Jacinto", "San Manuel", "San Nicolas", "San Quintin", "Santa Barbara", "Santa Maria", "Sison", "Sual", "Tayug", "Umingan", "Urbiztondo", "Urdaneta City", "Villasis"] 
 	}); 
 
 	Provinces.insert({ 
@@ -318,7 +318,7 @@
 
 	Provinces.insert({ 
 		province: "Rizal", 
-		municipality: ["All"," Angono"," Antipolo City"," Baras"," Binangonan"," Cainta"," Cardona"," Jala-Jala"," Morong"," Pililla"," Rodriguez"," San Mateo"," Tanay"," Taytay"," Teresa"] 
+		municipality: ["All","Antipolo City", "Baras", "Binangonan", "Cardona", "Jala-Jala", "Morong", "Pililla", "Rodriguez", "San Mateo", "Tanay", "Taytay", "Teresa"] 
 	}); 
 
 	Provinces.insert({ 
@@ -343,7 +343,7 @@
 
 	Provinces.insert({ 
 		province: "Siquijor", 
-		municipality: ["All"," Enrique Villanueva"," Larena"," Lazi"," Maria"," San Juan"," Siquijor"] 
+		municipality: ["All","Enrique Villanueva", "Larena", "Lazi", "Maria", "San Juan", "Siquijor"] 
 	}); 
 
 	Provinces.insert({ 
@@ -367,8 +367,13 @@
 	}); 
 
 	Provinces.insert({ 
+		province: "Sulu", 
+		municipality: ["All","Indanan", "Kalingalan Caluang", "Lugus", "Luuk", "Maimbung", "Old Panamao", "Pandami", "Panglima Estino", "Pangutaran", "Parang", "Pata", "Patikul", "Siasi", "Talipao", "Tapul", "Tongkil"] 
+	}); 
+
+	Provinces.insert({ 
 		province: "Surigao del Norte", 
-		municipality: ["All"," Alegria"," Bacuag"," Burgos"," Claver"," Dapa"," Del Carmen"," General Luna"," Gigaquit"," Mainit"," Mainit Lake"," Malimono"," Pilar"," Placer"," San Benito"," San Francisco"," San Isidro"," Santa Monica"," Sison"," Socorro"," Surigao City"," Tagana-An"," Tubod"] 
+		municipality: ["All","Alegria", "Bacuag", "Claver", "Dapa", "Del Carmen", "General Luna", "Gigaquit", "Mainit", "Mainit Lake", "Malimono", "Pilar", "Placer", "San Benito", "San Isidro", "Santa Monica", "Sison", "Socorro"] 
 	}); 
 
 	Provinces.insert({ 
@@ -378,7 +383,7 @@
 
 	Provinces.insert({ 
 		province: "Tarlac", 
-		municipality: ["All"," Anao"," Bamban"," Camiling"," Capas"," Concepcion"," Gerona"," La Paz"," Mayantoc"," Moncada"," Paniqui"," Pura"," Ramos"," San Clemente"," San Jose"," San Manuel"," Santa Ignacia"," Tarlac City"," Victoria"] 
+		municipality: ["All","Bamban", "Camiling", "Capas", "Concepcion", "Gerona", "La Paz", "Mayantoc", "Moncada", "Paniqui", "Pura", "Ramos", "San Clemente", "San Jose", "San Manuel", "Santa Ignacia", "Tarlac City", "Victoria"] 
 	}); 
 
 	Provinces.insert({ 
@@ -393,11 +398,6 @@
 
 	Provinces.insert({ 
 		province: "Zamboanga del Sur", 
-		municipality: ["All"," Aurora"," Bayog"," Dimataling"," Dinas"," Dumalinao"," Dumingag"," Guipos"," Josefina"," Kumalarang"," Labangan"," Lakewood"," Lakewood Lake"," Lapuyan"," Mahayag"," Midsalip"," Molave"," Pagadian City"," Ramon Magsaysay"," San Miguel"," San Pablo"," Sominot"," Tambulig"," Tigbao"," Tukuran"," Zamboanga City"] 
+		municipality: ["All","Aurora", "Bayog", "Dimataling", "Dinas", "Dumalinao", "Dumingag", "Guipos", "Josefina", "Kumalarang", "Labangan", "Lakewood", "Lapuyan", "Mahayag", "Margosatubig", "Midsalip", "Molave", "Pagadian City", "Pitogo", "Ramon Magsaysay", "San Miguel", "San Pablo", "Sominot", "Tabina"] 
 	}); 
-
-	Provinces.insert({ 
-		province: "Zamboanga Sibugay", 
-		municipality: ["All"," Buug"," Diplahan"," Imelda"," Ipil"," Kabasalan"," Mabuhay"," Malangas"," Naga"," Payao"," Roseller Lim"," Siay"," Titay"," Tungawa"] 
-	});
 // }

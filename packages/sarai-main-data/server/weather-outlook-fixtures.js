@@ -12736,7 +12736,7 @@ WeatherOutlook.insert({
 }); 
 
 WeatherOutlook.insert({ 
-	region: "Region VIII: Eastern Visayas", 
+	region: "Region X: Northern Mindanao", 
 	province: "Lanao del Sur", 
 	municipality: "Wao", 
 	data: {
@@ -19802,7 +19802,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "All", 
 	data: {
 		month: {
@@ -19817,7 +19817,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Antipolo City", 
 	data: {
 		month: {
@@ -19832,7 +19832,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Baras", 
 	data: {
 		month: {
@@ -19847,7 +19847,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Binangonan", 
 	data: {
 		month: {
@@ -19862,7 +19862,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Cardona", 
 	data: {
 		month: {
@@ -19877,7 +19877,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Jala-Jala", 
 	data: {
 		month: {
@@ -19892,7 +19892,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Morong", 
 	data: {
 		month: {
@@ -19907,7 +19907,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Pililla", 
 	data: {
 		month: {
@@ -19922,7 +19922,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Rodriguez", 
 	data: {
 		month: {
@@ -19937,7 +19937,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "San Mateo", 
 	data: {
 		month: {
@@ -19952,7 +19952,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Tanay", 
 	data: {
 		month: {
@@ -19967,7 +19967,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Taytay", 
 	data: {
 		month: {
@@ -19982,7 +19982,7 @@ WeatherOutlook.insert({
 
 WeatherOutlook.insert({ 
 	region: "Region IV-A: CALABARZON", 
-	province: "Antipolo", 
+	province: "Rizal", 
 	municipality: "Teresa", 
 	data: {
 		month: {

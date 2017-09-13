@@ -58,7 +58,7 @@
 	Regions.insert({
 		id: 12,
 		region: "Region VII: Central Visayas",
-		province: ["All", "Bohol","Cebu","Siquijor"]
+		province: ["All", "Bohol","Cebu"]
 	});
 	Regions.insert({
 		id: 13,
@@ -68,7 +68,7 @@
 	Regions.insert({
 		id: 14,
 		region: "Region IX: Zamboanga Peninsula",
-		province: ["All", "Zamboanga del Norte","Zamboanga del Sur","Zamboanga Sibugay"]
+		province: ["All", "Zamboanga del Norte","Zamboanga del Sur"]
 	});
 	Regions.insert({
 		id: 15,
@@ -93,5 +93,5 @@
 	Regions.insert({
 		id: 19,
 		region: "ARMM",
-		province: ["All", "Basilan","Maguindanao","Shariff Kabunsuan"]
+		province: ["All", "Basilan","Maguindanao","Shariff Kabunsuan","Sulu"]
 	});
