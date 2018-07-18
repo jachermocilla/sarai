@@ -35,7 +35,8 @@ Package.onUse(function(api) {
     "server/service-methods.js",
     "server/upload-methods.js",
     "server/weather-methods.js",
-    "server/fixtures.js"
+    "server/fixtures.js",
+    "server/rainfall-methods.js"
   ]
 
   api.addFiles(server, "server")

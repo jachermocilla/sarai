@@ -143,6 +143,11 @@ Package.onUse(function(api) {
     "client/components/weather/data/weather-data-row.html",
     "client/components/weather/data/weather-data-row.js",
     "client/components/weather/data/weather-data-row.less",
+
+    //Rainfall Outlook
+    "client/components/rainfall-outlook/rainfall-outlook-cms.html",
+    "client/components/rainfall-outlook/rainfall-outlook-cms.js",
+    "client/components/rainfall-outlook/rainfall-outlook-cms-route.js",
     ]
 
   api.addFiles(client, "client")

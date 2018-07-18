@@ -28,6 +28,12 @@ Package.onUse(function(api) {
   api.use(packages)
   api.imply(packages)
 
+  var lib = [
+    "lib/d3.min.js"
+  ]
+
+  api.addFiles(lib, ["client", "server"])
+
   var client = [
     "client/components/sarai-home/index.html",
     "client/components/sarai-home/events.js",

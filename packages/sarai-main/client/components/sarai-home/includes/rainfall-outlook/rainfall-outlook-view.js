@@ -57,19 +57,30 @@ Template.RainfallOutlookView.events({
 Template.RainfallOutlookView.helpers({
 
   monthlyRainfall: () => {
-      const region = Session.get('region')
+      //const region = Session.get('region')
       const province = Session.get('province')
       const municipality = Session.get('municipality')
-      const weatherOutlook = WeatherOutlook.findOne({region:region, province: province, municipality: municipality})
+      const weatherOutlook = WeatherOutlook.findOne({province: province, municipality: municipality})
+      const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
+      var d = new Date()
+      var current_month = d.getMonth(); 
+      var val;
 
       if (weatherOutlook){
         let outlook = []
 
+        for(var i = current_month ; i < current_month + 5; i++){
+          val = (weatherOutlook.data.month[months[i]]==null) ? "--" : Math.round(weatherOutlook.data.month[months[i]])
+          outlook.push({
+            head: months[i],
+            value: val
+          })
+        }
         // outlook.push({
         //   head: 'January',
         //   value: Math.round(weatherOutlook.data.month.January * 10) / 10
         // })
-
+        /*
         outlook.push({
           head: 'Dec',
           value: Math.round(weatherOutlook.data.month.Dec)
@@ -93,7 +104,7 @@ Template.RainfallOutlookView.helpers({
         outlook.push({
           head: 'Apr',
           value: Math.round(weatherOutlook.data.month.Apr)
-        })
+        })*/
 
         return outlook
       }
@@ -112,9 +123,9 @@ Template.RainfallOutlookView.helpers({
 
   provinces: () => {
     const region = Session.get('region')
-    const provinces = Regions.findOne({region:region})
+    const provinces = Provinces.find({}, {sort: {id: 1}}).fetch()
 
-    return provinces && provinces.province
+    return provinces
   },
 
   currentlySelectedProvince: (curr) => {

@@ -35,7 +35,7 @@ Package.onUse(function(api) {
     "server/publications.js",
     "server/methods.js",
 
-    "server/weather-outlook-fixtures.js",
+    //"server/weather-outlook-fixtures.js",
     "server/provinces-fixtures.js",
     "server/regions-fixtures.js"
   ]
