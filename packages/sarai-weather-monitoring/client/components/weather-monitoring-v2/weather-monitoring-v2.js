@@ -10,7 +10,6 @@ Template.WeatherMonitoringV2.onCreated(() => {
 
     //display default station
     Session.set('stationID', 'ICALABAR18')
-    getForecast('ICALABAR18')
     displayWeatherData(Session.get('stationID'), this.apiKey)
     getCurrentWeather(this.apiKey)
 
@@ -72,7 +71,6 @@ Template.WeatherMonitoringV2.onRendered(() => {
       return element.id == stationID
     })
     $('#monitoring-station-select').val(station.markerID)
-    $('#main_title').text('10-Day Forecast: ' + $('#monitoring-station-select option:selected').text())
     displayWeatherData(stationID, this.apiKey)
   }
 
@@ -119,9 +117,6 @@ Template.WeatherMonitoringV2.onRendered(() => {
         stationsDropdown.append(option)
       })
 
-      //Set default station in dropdown
-      stationsDropdown.val(defaultStation)
-
       this.stations = stations
       this.weatherMap = weatherMap
       this.group = group
@@ -133,7 +128,6 @@ Template.WeatherMonitoringV2.onRendered(() => {
 Template.WeatherMonitoringV2.events({
   'change #monitoring-station-select': () => {
     const markerID = $('#monitoring-station-select').val()
-    $('#main_title').text('10-Day Forecast: ' + $('#monitoring-station-select option:selected').text())
 
     const station = this.stations.find((element) => {
       return element.markerID == markerID
@@ -186,7 +180,6 @@ Template.WeatherMonitoringV2.helpers({
 })
 
 const displayWeatherData = (stationID, apiKey) => {
-  $('<div class="meteogram meteogram-stub"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>').appendTo('#meteogram-container')
   const forecast = getForecast(stationID)
   displayForecast(stationID, apiKey)
 }
@@ -196,8 +189,6 @@ const getForecast = (stationID) => {
   const apiKey = DSSSettings.findOne({name: 'wunderground-api-key'}).value
 
   $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}/forecast10day/q/pws:${stationID}.json`, (result) => {
-    // const result = Meteor.PreviewSampleData.sampleData()
-
     const completeTxtForecast = result.forecast.txt_forecast.forecastday
 
     const simpleForecast = result.forecast.simpleforecast.forecastday
@@ -219,9 +210,25 @@ const getForecast = (stationID) => {
         pop: element.pop })
     })
 
+    $('#subtitle').html("<b>Today's Forecast </b>" + txtForecast[0].fcttext)
+    
     Session.set('forecast', forecast)
 
   })
+.success(function() { 
+	if($('#monitoring-station-select option:selected').text()!="Select Weather Station"){
+		$('#main_title').html('10-Day Forecast: <b>' + $('#monitoring-station-select option:selected').text() + '</b>')
+	}
+})
+.error(function(){ 
+  var snackbarContainer = document.querySelector('#demo-snackbar-example');
+  var data = {
+      message: 'Selected site is currently unavailable',
+      timeout: 2000
+    };
+  snackbarContainer.MaterialSnackbar.showSnackbar(data);
+})
+.complete(function() { console.log('Complete') });
 
 }
 
@@ -261,7 +268,7 @@ const getCurrentWeather = (apiKey) => {
 			sr = (result.davis_current_observation.hasOwnProperty('solar_radiation')) ? result.davis_current_observation.solar_radiation : '--';
 			$('#current-weather-data').DataTable().row.add([
         result.davis_current_observation.station_name,
-				result.observation_time_rfc822,
+				result.observation_time_rfc822.replace('+0800',''),
 				result.davis_current_observation.rain_day_in,
 				temp,
 				hum,
@@ -430,7 +437,6 @@ const displayForecast = (stationID, apiKey) => {
   if (apiKey) { //Make sure key is available
 
     const dataFeatures = [ 'conditions', 'hourly10day', 'forecast10day']
-
     $.getJSON(`http:\/\/api.wunderground.com/api/${apiKey}${Meteor.chartHelpers.featureURI(dataFeatures)}/q/pws:${stationID}.json`, (result) => {
 
       const dailySeries = Meteor.chartHelpers.getDailySeries(result)
@@ -475,9 +481,7 @@ const displayForecast = (stationID, apiKey) => {
         }
       ]
 
-      //remove any existing charts first
       $('#meteogram-container .meteogram').remove()
-
       //add new charts
       charts.forEach((chart, index) => {
         $('<div class="meteogram">')
